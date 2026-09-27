@@ -4486,5 +4486,29 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Carlos_Menem",
     "imageNote": "Retrato de Carlos Menem via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "sergio-mattarella",
+    "name": "Sergio Mattarella",
+    "role": "Presidente da Itália",
+    "category": "politico",
+    "lifespan": "1941–",
+    "description": "Presidente da Itália desde 2015, reeleito em 2022, Mattarella vem da democracia cristã de esquerda e é guardião da Constituição, do europeísmo, da OTAN e do apoio à Ucrânia, contra a máfia que matou seu irmão.",
+    "imagePath": "/personalities/portraits/sergio-mattarella.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Sergio_Mattarella",
+    "imageNote": "Retrato de Sergio Mattarella via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "marcelo-rebelo-de-sousa",
+    "name": "Marcelo Rebelo de Sousa",
+    "role": "Presidente de Portugal",
+    "category": "politico",
+    "lifespan": "1948–",
+    "description": "Professor de direito, comentarista de TV e ex-líder do PSD, Marcelo foi presidente de Portugal de 2016 a 2026, com estilo afetuoso e próximo do povo, conservadorismo católico moderado, europeísmo e cooperação com governos de esquerda.",
+    "imagePath": "/personalities/portraits/marcelo-rebelo-de-sousa.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Marcelo_Rebelo_de_Sousa",
+    "imageNote": "Retrato de Marcelo Rebelo de Sousa via Wikipédia/Wikimedia Commons."
   }
 ]

@@ -6356,5 +6356,39 @@
       "moral": 63.7,
       "tecnologia": 65.0
     }
+  },
+  {
+    "personalityId": "sergio-mattarella",
+    "vector": {
+      "estrutura": 36.2,
+      "representacao": 76.2,
+      "poder": 58.8,
+      "imigracao": 30.0,
+      "diplomacia": 31.2,
+      "intervencao": 50.0,
+      "economia": 62.5,
+      "controle": 53.8,
+      "comercio": 30.0,
+      "religiao": 43.8,
+      "moral": 57.5,
+      "tecnologia": 41.2
+    }
+  },
+  {
+    "personalityId": "marcelo-rebelo-de-sousa",
+    "vector": {
+      "estrutura": 31.2,
+      "representacao": 76.2,
+      "poder": 51.2,
+      "imigracao": 32.5,
+      "diplomacia": 35.0,
+      "intervencao": 46.2,
+      "economia": 57.5,
+      "controle": 52.5,
+      "comercio": 30.0,
+      "religiao": 30.0,
+      "moral": 36.2,
+      "tecnologia": 58.8
+    }
   }
 ]

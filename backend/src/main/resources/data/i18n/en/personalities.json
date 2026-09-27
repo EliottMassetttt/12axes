@@ -2325,5 +2325,19 @@
     "role": "President of Argentina",
     "lifespan": "1930–2021",
     "description": "Argentine president from 1989 to 1999 elected by Peronism, Menem embraced neoliberalism: he privatized state firms, pegged the peso to the dollar, opened the economy, aligned with the US and pardoned junta officers."
+  },
+  {
+    "id": "sergio-mattarella",
+    "name": "Sergio Mattarella",
+    "role": "President of Italy",
+    "lifespan": "1941–",
+    "description": "President of Italy since 2015, re-elected in 2022, Mattarella comes from left-wing Christian Democracy and guards the Constitution, Europeanism, NATO and support for Ukraine, against the Mafia that killed his brother."
+  },
+  {
+    "id": "marcelo-rebelo-de-sousa",
+    "name": "Marcelo Rebelo de Sousa",
+    "role": "President of Portugal",
+    "lifespan": "1948–",
+    "description": "Law professor, TV commentator and former PSD leader, Marcelo was president of Portugal from 2016 to 2026, with a warm, close-to-the-people style, moderate Catholic conservatism, Europeanism and cooperation with left-wing governments."
   }
 ]
