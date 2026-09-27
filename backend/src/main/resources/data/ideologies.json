@@ -1839,9 +1839,9 @@
   },
   {
     "id": "trabalhismo-de-direita",
-    "name": "Trabalhismo de Direita",
+    "name": "Nacionalismo Peronista",
     "category": "Terceira Posição",
-    "description": "Corrente que defende direitos trabalhistas, sindicatos fortes e proteção social dentro de um projeto nacionalista, anticomunista e de ordem, aliando o operariado organizado a valores tradicionais e à autoridade do Estado.",
+    "description": "Doutrina justicialista de Juan e Eva Perón que une soberania política, independência econômica e justiça social, com sindicatos da CGT, estatizações, industrialização protegida, catolicismo social e líder carismático acima dos partidos.",
     "phrase": "Quero o operário organizado em sindicatos fortes, com salário digno e indústria nacional protegida, sob líder firme, fé e família.",
     "vector": null,
     "countryId": "argentina-peronista",
@@ -2195,5 +2195,35 @@
     "vector": null,
     "countryId": "chiapas",
     "personalityId": "ted-kaczynski"
+  },
+  {
+    "id": "socialismo-federalista",
+    "name": "Socialismo Federalista",
+    "category": "Esquerda Radical",
+    "description": "Modelo de federação de repúblicas socialistas sob partido de vanguarda, como na URSS de Lênin, que combina economia planificada e poder único com autonomia nacional, línguas e culturas locais e repúblicas federadas com direito formal de secessão.",
+    "phrase": "Quero uma união de repúblicas socialistas com línguas e culturas próprias, guiada pelo partido de vanguarda e por um plano econômico comum.",
+    "vector": null,
+    "countryId": "uniao-sovietica-urss",
+    "personalityId": "lenin"
+  },
+  {
+    "id": "socialismo-patriotico",
+    "name": "Socialismo Patriótico",
+    "category": "Esquerda Radical",
+    "description": "Corrente que une economia socialista estatizada e partido forte a patriotismo, família tradicional, religião como herança nacional e rejeição do progressismo cultural, vendo a pauta identitária como distração liberal diante da luta de classes.",
+    "phrase": "Quero o socialismo do povo trabalhador com pátria, família e fé dos antepassados, planejado pelo partido e livre das modas liberais.",
+    "vector": null,
+    "countryId": "bielorrussia",
+    "personalityId": "stalin"
+  },
+  {
+    "id": "socialismo-vietnamita",
+    "name": "Socialismo Vietnamita",
+    "category": "Esquerda Radical",
+    "description": "Modelo do Partido Comunista do Vietnã que une o pensamento de Ho Chi Minh, a libertação nacional anticolonial e o Đổi Mới de 1986: partido único, economia de mercado de orientação socialista, setor estatal dominante e abertura ao comércio global.",
+    "phrase": "Quero a nação libertada no caminho de Ho Chi Minh, guiada pelo Partido, com mercado de orientação socialista e portas abertas ao comércio.",
+    "vector": null,
+    "countryId": "vietna",
+    "personalityId": "ho-chi-minh"
   }
 ]

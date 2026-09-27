@@ -125,7 +125,7 @@ export function dna(axes, vector, escapeHtml) {
     const leansLeft = left >= 50;
     const pct = leansLeft ? left : 100 - left;
     const opacity = 0.35 + (Math.abs(left - 50) / 50) * 0.65;
-    icons.push(poleUse(axis.id, leansLeft ? 'left' : 'right', ` style="opacity:${opacity.toFixed(2)}"`));
+    icons.push(poleUse(axis.id, leansLeft ? 'left' : 'right', ` width="14" height="14" style="opacity:${opacity.toFixed(2)}"`));
     titles.push(`${leansLeft ? axis.leftPole : axis.rightPole} ${Math.round(pct)}%`);
   }
   return `<span class="dna" title="${escapeHtml(titles.join(' · '))}" aria-hidden="true">${icons.join('')}</span>`;
@@ -134,7 +134,7 @@ export function dna(axes, vector, escapeHtml) {
 // Legenda: os ícones dos dois polos de cada eixo.
 export function dnaLegend(axes, escapeHtml) {
   return axes
-    .map((a) => `<li>${poleUse(a.id, 'left')}${poleUse(a.id, 'right')}${escapeHtml(a.label)}</li>`)
+    .map((a) => `<li>${poleUse(a.id, 'left', ' width="13" height="13"')}${poleUse(a.id, 'right', ' width="13" height="13"')}${escapeHtml(a.label)}</li>`)
     .join('');
 }
 

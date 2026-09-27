@@ -1289,9 +1289,9 @@
   },
   {
     "id": "trabalhismo-de-direita",
-    "name": "Right-Wing Laborism",
+    "name": "Peronist Nationalism",
     "category": "Third Position",
-    "description": "Current that defends labor rights, strong unions and social protection within a nationalist, anti-communist project of order, allying organized workers with traditional values and state authority.",
+    "description": "Justicialist doctrine of Juan and Eva Perón uniting political sovereignty, economic independence and social justice, with CGT unions, nationalizations, protected industrialization, social Catholicism and a charismatic leader above parties.",
     "phrase": "I want organized workers in strong unions, with decent wages and protected national industry, under firm leadership, faith and family."
   },
   {
@@ -1538,5 +1538,32 @@
     "category": "Anarchist",
     "description": "Current of John Zerzan and Ted Kaczynski that sees industrial civilization and agriculture itself as the root of domination, calling for the end of modern technology and a return to small stateless hunter-gatherer communities.",
     "phrase": "I want to abolish the state, industry and agriculture, living in small autonomous communities free from technology and domination."
+  },
+  {
+    "id": "socialismo-federalista",
+    "name": "Federalist Socialism",
+    "category": "Radical Left",
+    "description": "Model of a federation of socialist republics under a vanguard party, as in Lenin's USSR, combining a planned economy and single-party rule with national autonomy, local languages and cultures, and federated republics with a formal right to secede.",
+    "phrase": "Quero uma união de repúblicas socialistas com línguas e culturas próprias, guiada pelo partido de vanguarda e por um plano econômico comum.",
+    "countryId": "uniao-sovietica-urss",
+    "personalityId": "lenin"
+  },
+  {
+    "id": "socialismo-patriotico",
+    "name": "Patriotic Socialism",
+    "category": "Radical Left",
+    "description": "Current that joins a state-run socialist economy and a strong party with patriotism, the traditional family, religion as national heritage and rejection of cultural progressivism, seeing identity politics as a liberal distraction from class struggle.",
+    "phrase": "I want working people's socialism with homeland, family and ancestral faith, planned by the party and free of liberal fads.",
+    "countryId": "bielorrussia",
+    "personalityId": "stalin"
+  },
+  {
+    "id": "socialismo-vietnamita",
+    "name": "Vietnamese Socialism",
+    "category": "Radical Left",
+    "description": "Model of the Communist Party of Vietnam uniting Ho Chi Minh Thought, anticolonial national liberation and the 1986 Đổi Mới: single-party rule, a socialist-oriented market economy, a dominant state sector and openness to global trade.",
+    "phrase": "I want the nation liberated along Ho Chi Minh's path, led by the Party, with a socialist-oriented market and doors open to trade.",
+    "countryId": "vietna",
+    "personalityId": "ho-chi-minh"
   }
 ]

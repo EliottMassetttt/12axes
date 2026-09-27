@@ -3738,5 +3738,56 @@
       "moral": 15.0,
       "tecnologia": 62.5
     }
+  },
+  {
+    "ideologyId": "socialismo-federalista",
+    "vector": {
+      "estrutura": 70.0,
+      "representacao": 36.2,
+      "poder": 85.0,
+      "imigracao": 20.0,
+      "diplomacia": 62.5,
+      "intervencao": 38.8,
+      "economia": 97.5,
+      "controle": 96.2,
+      "comercio": 83.8,
+      "religiao": 92.5,
+      "moral": 71.2,
+      "tecnologia": 83.8
+    }
+  },
+  {
+    "ideologyId": "socialismo-patriotico",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 51.2,
+      "poder": 77.5,
+      "imigracao": 62.5,
+      "diplomacia": 67.5,
+      "intervencao": 38.8,
+      "economia": 91.2,
+      "controle": 96.2,
+      "comercio": 88.8,
+      "religiao": 42.5,
+      "moral": 18.8,
+      "tecnologia": 70.0
+    }
+  },
+  {
+    "ideologyId": "socialismo-vietnamita",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 27.5,
+      "poder": 91.2,
+      "imigracao": 62.5,
+      "diplomacia": 48.8,
+      "intervencao": 57.5,
+      "economia": 75.0,
+      "controle": 83.8,
+      "comercio": 37.5,
+      "religiao": 73.8,
+      "moral": 52.5,
+      "tecnologia": 70.0
+    }
   }
 ]
