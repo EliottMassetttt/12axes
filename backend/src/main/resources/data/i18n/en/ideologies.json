@@ -1482,5 +1482,12 @@
     "category": "Far-Right",
     "description": "Ideology of the slaveholding South that sustained the Confederacy, joining states' rights and secession, racial hierarchy and slavery, a patriarchal Christian agrarian society, free trade and militarism.",
     "phrase": "I want sovereign states free from Washington, a Christian patriarchal agrarian society, cotton sold to the world and racial hierarchy preserved."
+  },
+  {
+    "id": "socialismo-agrario",
+    "name": "Agrarian Socialism",
+    "category": "Radical Left",
+    "description": "Current that builds socialism from the countryside, with a single party, collectivization into villages and cooperatives, food self-sufficiency and protection of land and forests, as in Nyerere's Ujamaa.",
+    "phrase": "I want socialism built from the countryside, with collective villages, food grown at home, protected forests and a party guiding the nation."
   }
 ]

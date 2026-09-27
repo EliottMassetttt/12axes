@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { CountryDimensionMatch, CountryMatch } from '../../types/quiz';
+import type { Axis, AxisResult, CountryDimensionMatch, CountryMatch } from '../../types/quiz';
 import { resolveCountryFlagSrc } from '../../utils/countryFlags';
 import { SafeImg } from '../editorial/primitives';
+import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
 import { DimList, FarList, MatchHero, Tabs } from './parts';
 
 interface CountriesSectionProps {
+  axes: Axis[];
+  results: Map<string, AxisResult>;
   current: CountryMatch;
   historical: CountryMatch;
   dimensions: CountryDimensionMatch[];
@@ -21,7 +24,7 @@ function flagAlt(match: CountryMatch): string {
   return t.flagAlt(match.historical ? t.flagHistoricLabel : t.flagLabel, match.name);
 }
 
-export function CountriesSection({ current, historical, dimensions, distant }: CountriesSectionProps) {
+export function CountriesSection({ current, historical, dimensions, distant, axes, results }: CountriesSectionProps) {
   const [tab, setTab] = useState<'current' | 'historical'>('current');
   const shown = tab === 'current' ? current : historical;
   const [info, setInfo] = useState<CountryMatch | null>(null);
@@ -85,12 +88,17 @@ export function CountriesSection({ current, historical, dimensions, distant }: C
           compatibility: match.compatibility
         }))}
       />
-      {info && <CountryInfoSheet match={info} onClose={() => setInfo(null)} />}
+      {info && <CountryInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
     </section>
   );
 }
 
-function CountryInfoSheet({ match, onClose }: { match: CountryMatch; onClose: () => void }) {
+function CountryInfoSheet({ match, axes, results, onClose }: {
+  match: CountryMatch;
+  axes: Axis[];
+  results: Map<string, AxisResult>;
+  onClose: () => void;
+}) {
   return (
     <InfoSheet titleId="e-country-sheet-title" onClose={onClose}>
       <div className="e-person-sheet-head">
@@ -110,6 +118,13 @@ function CountryInfoSheet({ match, onClose }: { match: CountryMatch; onClose: ()
         <strong>{Math.round(match.compatibility)}%</strong> {t.matchWord}
       </p>
       <p className="e-axis-sheet-text">{match.description}</p>
+      <Closeness
+        vector={match.vector}
+        name={match.name}
+        face={<SafeImg className="e-close-face" src={resolveCountryFlagSrc(match.flagPath)} alt={flagAlt(match)} fallback="" />}
+        axes={axes}
+        results={results}
+      />
     </InfoSheet>
   );
 }

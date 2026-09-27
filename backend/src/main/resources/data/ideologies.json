@@ -2115,5 +2115,15 @@
     "vector": null,
     "countryId": "eua-confederados",
     "personalityId": "john-c-calhoun"
+  },
+  {
+    "id": "socialismo-agrario",
+    "name": "Socialismo Agrário",
+    "category": "Esquerda Radical",
+    "description": "Corrente que organiza o socialismo a partir do campo, com partido único, coletivização em aldeias e cooperativas, autossuficiência alimentar e proteção da terra e das florestas, como a Ujamaa de Nyerere.",
+    "phrase": "Quero o socialismo construído a partir do campo, com aldeias coletivas, comida produzida em casa, florestas protegidas e um partido que guie a nação.",
+    "vector": null,
+    "countryId": "burkina-faso-de-sankara",
+    "personalityId": "julius-nyerere"
   }
 ]

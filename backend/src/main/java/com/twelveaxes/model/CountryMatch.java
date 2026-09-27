@@ -1,5 +1,7 @@
 package com.twelveaxes.model;
 
+import java.util.Map;
+
 public record CountryMatch(
         String countryId,
         String name,
@@ -13,6 +15,9 @@ public record CountryMatch(
         boolean historical,
         String period,
         double compatibility,
-        double compatibilityPercentile
+        double compatibilityPercentile,
+        // Vetor de 12 eixos (leftPercent) do pais, usado pelo front para
+        // mostrar os eixos que aproximam o usuario dele.
+        Map<String, Double> vector
 ) {
 }

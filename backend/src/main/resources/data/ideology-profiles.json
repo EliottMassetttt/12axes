@@ -3602,5 +3602,22 @@
       "moral": 2.5,
       "tecnologia": 38.8
     }
+  },
+  {
+    "ideologyId": "socialismo-agrario",
+    "vector": {
+      "estrutura": 18.8,
+      "representacao": 36.2,
+      "poder": 78.8,
+      "imigracao": 51.2,
+      "diplomacia": 30.0,
+      "intervencao": 62.5,
+      "economia": 92.5,
+      "controle": 87.5,
+      "comercio": 85.0,
+      "religiao": 63.7,
+      "moral": 31.2,
+      "tecnologia": 22.5
+    }
   }
 ]

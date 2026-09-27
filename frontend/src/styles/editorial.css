@@ -574,3 +574,18 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-person-sheet-pct{margin:0 0 10px;font-size:14px;color:var(--texto-suave)}
 .e-person-sheet-pct strong{font-family:var(--font-display);font-size:20px;color:var(--tinta)}
 .e-person-sheet-head .e-flagimg{flex:none}
+/* aba de personalidade: o que te aproxima */
+.e-close{margin-top:18px;padding-top:16px;border-top:1px solid var(--borda)}
+.e-close-title{margin:0 0 12px;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:var(--texto-suave)}
+.e-close ul{list-style:none;margin:0;padding:0;display:grid;gap:18px}
+.e-close-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px;margin-bottom:12px}
+.e-close-head b{font-size:14.5px}
+.e-close-head span{font-size:12.5px;font-weight:600;color:var(--ac)}
+.e-close-track{position:relative;height:6px;margin:0 14px;border-radius:6px;background:var(--borda)}
+.e-close-mid{position:absolute;left:50%;top:-4px;width:2px;height:14px;background:var(--texto-suave);transform:translateX(-50%);opacity:.5}
+.e-close-pin{position:absolute;top:50%;width:28px;height:28px;border-radius:50%;transform:translate(-50%,-50%);display:grid;place-items:center;overflow:hidden;box-shadow:0 0 0 2px var(--superficie),0 2px 6px rgba(16,16,16,.18)}
+.e-close-you{background:var(--ac);color:#fff;z-index:2}
+.e-close-you svg{width:16px;height:16px;fill:currentColor}
+.e-close-them{background:var(--superficie);z-index:1}
+.e-close-face{display:block;width:28px;height:28px;border-radius:50%;object-fit:cover}
+.e-close-poles{display:flex;justify-content:space-between;margin-top:12px;font-size:11.5px;color:var(--texto-suave)}

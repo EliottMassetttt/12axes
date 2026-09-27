@@ -140,7 +140,8 @@ public class PersonalityMatcherService {
                 personality.imageSourceUrl(),
                 personality.imageNote(),
                 candidate.compatibility(),
-                candidate.compatibilityPercentile()
+                candidate.compatibilityPercentile(),
+                targetVectorFor(personality)
         );
     }
 

@@ -82,6 +82,8 @@ export interface CountryMatch {
   historical: boolean;
   period: string;
   compatibility: number;
+  /** Vetor de 12 eixos (leftPercent) do país. */
+  vector?: Record<string, number>;
 }
 
 export type PersonalityCategory =
@@ -106,6 +108,8 @@ export interface PersonalityMatch {
   imageSourceUrl?: string;
   imageNote?: string;
   compatibility: number;
+  /** Vetor de 12 eixos (leftPercent) da personalidade. */
+  vector?: Record<string, number>;
 }
 
 export interface AxisOutlier {

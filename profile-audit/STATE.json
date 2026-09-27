@@ -380,7 +380,7 @@
     ]
   },
   "ideology": {
-    "totalProfiles": 212,
+    "totalProfiles": 213,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -595,7 +595,8 @@
       "anarquismo-kropotkiniano",
       "nacionalismo-varguista",
       "socialismo-cubano",
-      "conservadorismo-confederado"
+      "conservadorismo-confederado",
+      "socialismo-agrario"
     ]
   },
   "country": {

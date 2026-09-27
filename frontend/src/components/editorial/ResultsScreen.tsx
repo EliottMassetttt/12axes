@@ -69,15 +69,19 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             historical={result.topHistoricalCountryMatch}
             dimensions={result.countryDimensionMatches}
             distant={result.bottomCountryMatches}
+            axes={axes}
+            results={axisResults}
           />
 
           <PersonalitiesSection
             top={result.topPersonalityMatch}
             dimensions={result.dimensionMatches}
             distant={result.bottomPersonalityMatches}
+            axes={axes}
+            results={axisResults}
           />
 
-          <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} />
+          <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 

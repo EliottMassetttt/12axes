@@ -133,7 +133,8 @@ public class DimensionMatcherService {
                 personality.imageSourceUrl(),
                 personality.imageNote(),
                 round1(scored.score()),
-                percentile);
+                percentile,
+                targetVectorFor(personality));
     }
 
     private Map<String, Double> targetVectorFor(Personality personality) {

@@ -112,7 +112,8 @@ public class CountryMatcherService {
                 country.historical(),
                 country.period(),
                 candidate.compatibility(),
-                candidate.compatibilityPercentile()
+                candidate.compatibilityPercentile(),
+                targetVectorFor(country, dataService.getCountryProfiles().get(country.id()))
         );
     }
 

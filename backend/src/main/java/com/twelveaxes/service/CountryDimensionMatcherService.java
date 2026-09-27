@@ -94,7 +94,7 @@ public class CountryDimensionMatcherService {
                 country.id(), country.name(), country.category(), country.description(),
                 country.flagPath(), country.flagKind(), country.flagSourceName(),
                 country.flagSourceUrl(), country.flagNote(), country.historical(), country.period(),
-                round1(scored.score()), percentile);
+                round1(scored.score()), percentile, targetVectorFor(country));
     }
 
     private Map<String, Double> targetVectorFor(Country country) {

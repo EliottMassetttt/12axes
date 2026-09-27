@@ -94,6 +94,8 @@ interface Strings {
   axisInfoAria: (label: string) => string;
   closeLabel: string;
   personalityInfoAria: (name: string) => string;
+  closenessTitle: string;
+  closenessYou: string;
   homeAxes: Record<string, { label: string; leftPole: string; rightPole: string }>;
   spectrumItems: { id: string; label: string; tone: string; description: string }[];
   faqItems: { question: string; answer: string }[];
@@ -319,6 +321,8 @@ const pt: Strings = {
   axisInfoAria: (label) => `O que significa o eixo ${label}?`,
   closeLabel: 'Fechar',
   personalityInfoAria: (name) => `Ver detalhes de ${name}`,
+  closenessTitle: 'O que te aproxima',
+  closenessYou: 'Você',
   axisExplanations: {
     estrutura:
       'Mede se você prefere poder distribuído entre estados, municípios e comunidades locais ou um Estado nacional unitário com leis e comando mais uniformes.',
@@ -743,6 +747,8 @@ const en: Strings = {
   axisInfoAria: (label) => `What does the ${label} axis mean?`,
   closeLabel: 'Close',
   personalityInfoAria: (name) => `See details about ${name}`,
+  closenessTitle: 'What brings you closer',
+  closenessYou: 'You',
   axisExplanations: {
     estrutura:
       'Measures whether you prefer power distributed among states, cities, and local communities or a unitary national state with more uniform laws and command.',

@@ -1,17 +1,19 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { PersonalityMatch } from '../../types/quiz';
+import type { Axis, AxisResult, PersonalityMatch } from '../../types/quiz';
 import { CountUpValue } from './CountUpValue';
 import { InfoButton } from './InfoSheet';
 import { PersonalityInfoSheet, Portrait } from './PersonalitiesSection';
 import { Tabs } from './parts';
 
 interface AreasSectionProps {
+  axes: Axis[];
+  results: Map<string, AxisResult>;
   generalMatches: PersonalityMatch[];
   areaMatches: PersonalityMatch[];
 }
 
-export function AreasSection({ generalMatches, areaMatches }: AreasSectionProps) {
+export function AreasSection({ generalMatches, areaMatches, axes, results }: AreasSectionProps) {
   const [tab, setTab] = useState<'general' | 'area'>('general');
   const [info, setInfo] = useState<PersonalityMatch | null>(null);
   const matches = tab === 'general' ? generalMatches : areaMatches;
@@ -52,7 +54,7 @@ export function AreasSection({ generalMatches, areaMatches }: AreasSectionProps)
           </li>
         ))}
       </ul>
-      {info && <PersonalityInfoSheet match={info} onClose={() => setInfo(null)} />}
+      {info && <PersonalityInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
     </section>
   );
 }

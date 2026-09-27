@@ -1,12 +1,15 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { DimensionMatch, PersonalityMatch } from '../../types/quiz';
+import type { Axis, AxisResult, DimensionMatch, PersonalityMatch } from '../../types/quiz';
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
 import { SafeImg } from '../editorial/primitives';
+import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
 import { DimList, FarList, MatchHero } from './parts';
 
 interface PersonalitiesSectionProps {
+  axes: Axis[];
+  results: Map<string, AxisResult>;
   top: PersonalityMatch;
   dimensions: DimensionMatch[];
   distant: PersonalityMatch[];
@@ -23,7 +26,7 @@ export function Portrait({ match, className }: { match: PersonalityMatch; classN
   );
 }
 
-export function PersonalitiesSection({ top, dimensions, distant }: PersonalitiesSectionProps) {
+export function PersonalitiesSection({ top, dimensions, distant, axes, results }: PersonalitiesSectionProps) {
   const [info, setInfo] = useState<PersonalityMatch | null>(null);
 
   return (
@@ -61,13 +64,18 @@ export function PersonalitiesSection({ top, dimensions, distant }: Personalities
           compatibility: match.compatibility
         }))}
       />
-      {info && <PersonalityInfoSheet match={info} onClose={() => setInfo(null)} />}
+      {info && <PersonalityInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
     </section>
   );
 }
 
 // Detalhe completo de uma personalidade: todos os metadados exibíveis do catálogo.
-export function PersonalityInfoSheet({ match, onClose }: { match: PersonalityMatch; onClose: () => void }) {
+export function PersonalityInfoSheet({ match, axes, results, onClose }: {
+  match: PersonalityMatch;
+  axes: Axis[];
+  results: Map<string, AxisResult>;
+  onClose: () => void;
+}) {
   return (
     <InfoSheet titleId="e-person-sheet-title" onClose={onClose}>
       <div className="e-person-sheet-head">
@@ -82,6 +90,13 @@ export function PersonalityInfoSheet({ match, onClose }: { match: PersonalityMat
         <strong>{Math.round(match.compatibility)}%</strong> {t.matchWord}
       </p>
       <p className="e-axis-sheet-text">{match.description}</p>
+      <Closeness
+        vector={match.vector}
+        name={match.name}
+        face={<Portrait match={match} className="e-close-face" />}
+        axes={axes}
+        results={results}
+      />
     </InfoSheet>
   );
 }
