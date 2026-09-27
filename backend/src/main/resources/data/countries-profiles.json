@@ -2565,5 +2565,22 @@
       "moral": 38.8,
       "tecnologia": 61.3
     }
+  },
+  {
+    "countryId": "reino-de-jerusalem",
+    "vector": {
+      "estrutura": 71.2,
+      "representacao": 20.0,
+      "poder": 75.0,
+      "imigracao": 66.2,
+      "diplomacia": 92.5,
+      "intervencao": 10.0,
+      "economia": 25.0,
+      "controle": 53.8,
+      "comercio": 23.8,
+      "religiao": 0.0,
+      "moral": 6.2,
+      "tecnologia": 46.2
+    }
   }
 ]

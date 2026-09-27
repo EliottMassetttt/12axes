@@ -1897,5 +1897,19 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minas_Gerais.svg",
     "flagNote": "Bandeira do estado de Minas Gerais (Brasil) usada como referência visual da região."
+  },
+  {
+    "id": "reino-de-jerusalem",
+    "name": "Reino de Jerusalém",
+    "category": "Monarquia feudal cruzada",
+    "description": "Estado cruzado fundado após a Primeira Cruzada, o Reino de Jerusalém foi uma monarquia feudal latina e católica, apoiada nas ordens militares dos Templários e Hospitalários, com barões poderosos, guerra santa constante e uma elite franca sobre maioria nativa.",
+    "flagPath": "/countries/flags/reino-de-jerusalem.png",
+    "historical": true,
+    "period": "1099–1187",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Jerusalem.svg",
+    "flagNote": "Estandarte com a cruz de Jerusalém em ouro sobre prata."
   }
 ]

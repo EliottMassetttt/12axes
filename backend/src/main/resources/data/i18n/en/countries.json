@@ -904,5 +904,11 @@
     "name": "Minas Gerais (Brazil)",
     "category": "Historic-moderate region",
     "description": "A historic mining state and birthplace of a failed 18th-century independence conspiracy against colonial rule, Minas Gerais has an economy built on mining and agriculture, with traditionally moderate, conciliatory politics."
+  },
+  {
+    "id": "reino-de-jerusalem",
+    "name": "Kingdom of Jerusalem",
+    "category": "Crusader feudal monarchy",
+    "description": "A crusader state founded after the First Crusade, the Kingdom of Jerusalem was a Latin Catholic feudal monarchy, backed by the Templar and Hospitaller military orders, with powerful barons, constant holy war and a Frankish elite over a native majority."
   }
 ]

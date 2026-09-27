@@ -4510,5 +4510,17 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Marcelo_Rebelo_de_Sousa",
     "imageNote": "Retrato de Marcelo Rebelo de Sousa via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "balduino-iv",
+    "name": "Balduíno IV",
+    "role": "Rei de Jerusalém",
+    "category": "politico",
+    "lifespan": "1161–1185",
+    "description": "Rei cruzado de Jerusalém de 1174 a 1185, Balduíno IV governou leproso desde a infância, venceu Saladino em Montgisard, defendeu o reino latino pela fé e pela espada e manteve tréguas pragmáticas com os muçulmanos.",
+    "imagePath": "/personalities/portraits/balduino-iv.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Baldwin_IV_of_Jerusalem",
+    "imageNote": "Representação medieval de Balduíno IV via Wikipédia/Wikimedia Commons."
   }
 ]

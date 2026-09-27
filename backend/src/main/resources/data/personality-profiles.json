@@ -6390,5 +6390,22 @@
       "moral": 36.2,
       "tecnologia": 58.8
     }
+  },
+  {
+    "personalityId": "balduino-iv",
+    "vector": {
+      "estrutura": 58.8,
+      "representacao": 16.2,
+      "poder": 78.8,
+      "imigracao": 43.8,
+      "diplomacia": 82.5,
+      "intervencao": 13.8,
+      "economia": 46.2,
+      "controle": 73.8,
+      "comercio": 42.5,
+      "religiao": 0.0,
+      "moral": 8.8,
+      "tecnologia": 52.5
+    }
   }
 ]
