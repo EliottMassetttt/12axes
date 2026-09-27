@@ -1447,5 +1447,33 @@
     "category": "Center",
     "description": "Current of Brazil's PSDB, founded in 1988 by Covas, Montoro and Cardoso, joining a market economy, social state, state reform and fiscal responsibility with parliamentarism and moderation on social issues.",
     "phrase": "I want a parliamentary democracy with stable money, balanced books, regulated privatizations and a lean state that looks after health and schooling."
+  },
+  {
+    "id": "nacionalismo-varguista",
+    "name": "Varguist Nationalism",
+    "category": "Third Position",
+    "description": "Getúlio Vargas's Estado Novo doctrine joining economic nationalism, a centralized state, state-tied unions, labor law and state firms such as Petrobras, against the regional oligarchies and liberalism.",
+    "phrase": "I want a Brazil united under a strong state, with workers protected by labor law, national industry and oil, and no regional oligarchy."
+  },
+  {
+    "id": "socialismo-cubano",
+    "name": "Cuban Socialism",
+    "category": "Radical Left",
+    "description": "Revolutionary regime of Fidel Castro and Che Guevara, with a single party, a state-run economy, universal health and education, export of armed revolution and the new man ideal against imperialism.",
+    "phrase": "I want a sovereign, internationalist revolution, with a single party, a planned economy, health and schooling for all and a new man."
+  },
+  {
+    "id": "socialismo-africano",
+    "name": "African Socialism",
+    "category": "Radical Left",
+    "description": "Current of Sankara, Samora Machel, Nkrumah and Nyerere joining pan-Africanism, Black consciousness, anticolonial struggle, agrarian collectivization and self-reliance against neocolonialism and racism.",
+    "phrase": "I want a united, sovereign Africa, with collective villages, producing what we consume and a revolutionary party against neocolonialism."
+  },
+  {
+    "id": "anarquismo-kropotkiniano",
+    "name": "Kropotkinian Anarchism",
+    "category": "Anarchist",
+    "description": "Current of Peter Kropotkin that sees mutual aid as a law of nature and proposes federated communes, integration of farming and industry, science serving all and an ethics of solidarity without the state.",
+    "phrase": "I want free communes federated by mutual aid, joining field and factory, with everything shared by need and no state at all."
   }
 ]

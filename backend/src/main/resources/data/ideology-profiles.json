@@ -3517,5 +3517,73 @@
       "moral": 63.7,
       "tecnologia": 62.5
     }
+  },
+  {
+    "ideologyId": "socialismo-africano",
+    "vector": {
+      "estrutura": 22.5,
+      "representacao": 47.5,
+      "poder": 72.5,
+      "imigracao": 27.5,
+      "diplomacia": 41.2,
+      "intervencao": 58.8,
+      "economia": 90.0,
+      "controle": 90.0,
+      "comercio": 87.5,
+      "religiao": 72.5,
+      "moral": 46.2,
+      "tecnologia": 40.0
+    }
+  },
+  {
+    "ideologyId": "anarquismo-kropotkiniano",
+    "vector": {
+      "estrutura": 91.2,
+      "representacao": 88.8,
+      "poder": 12.5,
+      "imigracao": 17.5,
+      "diplomacia": 21.2,
+      "intervencao": 80.0,
+      "economia": 85.0,
+      "controle": 65.0,
+      "comercio": 67.5,
+      "religiao": 91.2,
+      "moral": 70.0,
+      "tecnologia": 51.2
+    }
+  },
+  {
+    "ideologyId": "nacionalismo-varguista",
+    "vector": {
+      "estrutura": 3.8,
+      "representacao": 17.5,
+      "poder": 90.0,
+      "imigracao": 82.5,
+      "diplomacia": 61.3,
+      "intervencao": 35.0,
+      "economia": 70.0,
+      "controle": 90.0,
+      "comercio": 88.8,
+      "religiao": 31.2,
+      "moral": 18.8,
+      "tecnologia": 63.7
+    }
+  },
+  {
+    "ideologyId": "socialismo-cubano",
+    "vector": {
+      "estrutura": 10.0,
+      "representacao": 32.5,
+      "poder": 87.5,
+      "imigracao": 38.8,
+      "diplomacia": 63.7,
+      "intervencao": 36.2,
+      "economia": 96.2,
+      "controle": 97.5,
+      "comercio": 81.2,
+      "religiao": 83.8,
+      "moral": 62.5,
+      "tecnologia": 58.8
+    }
   }
 ]

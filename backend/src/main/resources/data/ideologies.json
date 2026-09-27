@@ -2065,5 +2065,45 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "mario-covas"
+  },
+  {
+    "id": "nacionalismo-varguista",
+    "name": "Nacionalismo Varguista",
+    "category": "Terceira Posição",
+    "description": "Doutrina de Getúlio Vargas no Estado Novo que une nacionalismo econômico, Estado centralizado, sindicatos atrelados ao governo, CLT e estatais como Petrobras e CSN, contra as oligarquias e o liberalismo.",
+    "phrase": "Quero um Brasil unido sob um Estado forte, com o trabalhador protegido pela CLT, indústria e petróleo nacionais e nenhuma oligarquia regional.",
+    "vector": null,
+    "countryId": "brasil-era-vargas",
+    "personalityId": "getulio-vargas"
+  },
+  {
+    "id": "socialismo-cubano",
+    "name": "Socialismo Cubano",
+    "category": "Esquerda Radical",
+    "description": "Regime revolucionário de Fidel Castro e Che Guevara, com partido único, economia estatizada, saúde e educação universais, exportação da revolução armada e o ideal do homem novo contra o imperialismo.",
+    "phrase": "Quero uma revolução soberana e internacionalista, com partido único, economia planificada, saúde e educação para todos e um homem novo.",
+    "vector": null,
+    "countryId": "cuba",
+    "personalityId": "fidel-castro"
+  },
+  {
+    "id": "socialismo-africano",
+    "name": "Socialismo Africano",
+    "category": "Esquerda Radical",
+    "description": "Corrente de Sankara, Samora Machel, Nkrumah e Nyerere que une pan-africanismo, consciência negra, luta anticolonial, coletivização agrária e autossuficiência contra o neocolonialismo e o racismo.",
+    "phrase": "Quero uma África unida e soberana, com aldeias coletivas, produção própria para consumo próprio e um partido revolucionário contra o neocolonialismo.",
+    "vector": null,
+    "countryId": "burkina-faso-de-sankara",
+    "personalityId": "thomas-sankara"
+  },
+  {
+    "id": "anarquismo-kropotkiniano",
+    "name": "Anarquismo Kropotkiniano",
+    "category": "Anarquismo",
+    "description": "Corrente de Piotr Kropotkin que vê na ajuda mútua uma lei da natureza e propõe comunas federadas, integração entre agricultura e indústria, ciência a serviço de todos e ética da solidariedade sem Estado.",
+    "phrase": "Quero comunas livres federadas pela ajuda mútua, unindo campo e fábrica, com tudo repartido segundo a necessidade e nenhum Estado.",
+    "vector": null,
+    "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
+    "personalityId": "kropotkin"
   }
 ]
