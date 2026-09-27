@@ -2135,5 +2135,65 @@
     "vector": null,
     "countryId": "italia-fascista-mussolini",
     "personalityId": "marinetti"
+  },
+  {
+    "id": "cesarismo",
+    "name": "Cesarismo",
+    "category": "Direita",
+    "description": "Tradição de poder imperial romano que, de Júlio César a Augusto, Nero, Marco Aurélio e Justiniano, concentra exército, lei e administração no governante, preservando instituições, abastecimento popular e soberania sobre império diverso.",
+    "phrase": "Quero concentrar o poder num líder apoiado pelo exército e pelo povo, quebrando a oligarquia senatorial e restaurando a ordem.",
+    "vector": null,
+    "countryId": "roma-republicana",
+    "personalityId": "julio-cesar"
+  },
+  {
+    "id": "capitalismo-industrial",
+    "name": "Capitalismo Industrial",
+    "category": "Direita",
+    "description": "Capitalismo dos grandes industriais como Henry Ford, Rockefeller e Thomas Edison, que exalta a fábrica, a produção em massa, a invenção e o empreendedor, com moral do trabalho, família tradicional e mínima interferência do Estado.",
+    "phrase": "Quero uma nação de fábricas, invenção e trabalho, com propriedade privada, empresários livres e pouca interferência estatal.",
+    "vector": null,
+    "countryId": "estados-unidos",
+    "personalityId": "henry-ford"
+  },
+  {
+    "id": "neoliberalismo-autoritario",
+    "name": "Neoliberalismo Autoritário",
+    "category": "Direita",
+    "description": "Regime que impõe o livre mercado radical por meio de uma ditadura militar, com privatizações, abertura comercial e economistas de Chicago, reprimindo sindicatos, partidos e opositores em nome da ordem e do anticomunismo.",
+    "phrase": "Quero impor mercados abertos, privatizações e disciplina fiscal sob um governo forte que esmague sindicatos e oposição.",
+    "vector": null,
+    "countryId": "chile-de-pinochet",
+    "personalityId": "augusto-pinochet"
+  },
+  {
+    "id": "catolicismo-universalista",
+    "name": "Catolicismo Universalista",
+    "category": "Direita",
+    "description": "Visão cristã que coloca a Igreja universal acima de nações, raças e fronteiras, na linha de Paulo de Tarso e Agostinho, unindo fé intensa, moral tradicional e autoridade espiritual à fraternidade entre todos os povos.",
+    "phrase": "Quero uma cristandade universal, unida pela Igreja e pela lei moral, acima de fronteiras, raças e interesses nacionais.",
+    "vector": null,
+    "countryId": "vaticano",
+    "personalityId": "paulo-de-tarso"
+  },
+  {
+    "id": "republicanismo-confederal",
+    "name": "Republicanismo Confederal",
+    "category": "Centro",
+    "description": "Tradição de repúblicas formadas por províncias ou cantões soberanos, como a República Holandesa e a antiga Confederação Suíça, com autogoverno local, comércio aberto, neutralidade armada e fé protestante enraizada.",
+    "phrase": "Quero províncias soberanas unidas por um pacto republicano, comércio aberto, milícias locais e fé protestante.",
+    "vector": null,
+    "countryId": "republica-holandesa",
+    "personalityId": "guilherme-de-orange"
+  },
+  {
+    "id": "anarcoprimitivismo",
+    "name": "Anarcoprimitivismo",
+    "category": "Anarquismo",
+    "description": "Corrente de John Zerzan e Ted Kaczynski que vê a civilização industrial e a própria agricultura como raiz da dominação, defendendo o fim da tecnologia moderna e o retorno a comunidades pequenas de caçadores-coletores sem Estado.",
+    "phrase": "Quero abolir Estado, indústria e agricultura para viver em pequenas comunidades autônomas, livres da tecnologia e da dominação.",
+    "vector": null,
+    "countryId": "chiapas",
+    "personalityId": "ted-kaczynski"
   }
 ]

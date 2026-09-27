@@ -1496,5 +1496,47 @@
     "category": "Third Position",
     "description": "Movement of Filippo Marinetti that exalted speed, machines, industry and war as the world's hygiene, preaching nationalism, anticlericalism and a break with the past, and that helped found Italian fascism.",
     "phrase": "I want a young, fast nation driven by machines and factories, free of priests, kings and museums, forged in war as the world's hygiene."
+  },
+  {
+    "id": "cesarismo",
+    "name": "Caesarism",
+    "category": "Right",
+    "description": "Roman imperial tradition that, from Julius Caesar through Augustus, Nero, Marcus Aurelius and Justinian, concentrates army, law and administration in the ruler while preserving institutions, popular provisioning and sovereignty over a diverse empire.",
+    "phrase": "I want power concentrated in a leader backed by the army and the people, breaking the senatorial oligarchy and restoring order."
+  },
+  {
+    "id": "capitalismo-industrial",
+    "name": "Industrial Capitalism",
+    "category": "Right",
+    "description": "Capitalism of the great industrialists such as Henry Ford, Rockefeller and Thomas Edison, exalting the factory, mass production, invention and the entrepreneur, with a work ethic, traditional family and minimal state interference.",
+    "phrase": "I want a nation of factories, invention and work, with private property, free entrepreneurs and little state interference."
+  },
+  {
+    "id": "neoliberalismo-autoritario",
+    "name": "Authoritarian Neoliberalism",
+    "category": "Right",
+    "description": "Regime that imposes radical free markets through a military dictatorship, with privatizations, trade opening and Chicago-trained economists, repressing unions, parties and opponents in the name of order and anticommunism.",
+    "phrase": "I want open markets, privatization and fiscal discipline imposed by a strong government that crushes unions and opposition."
+  },
+  {
+    "id": "catolicismo-universalista",
+    "name": "Universalist Catholicism",
+    "category": "Right",
+    "description": "Christian vision that places the universal Church above nations, races and borders, in the line of Paul of Tarsus and Augustine, joining intense faith, traditional morals and spiritual authority with brotherhood among all peoples.",
+    "phrase": "I want a universal Christian commonwealth, united by the Church and moral law, above borders, races and national interests."
+  },
+  {
+    "id": "republicanismo-confederal",
+    "name": "Confederal Republicanism",
+    "category": "Center",
+    "description": "Tradition of republics made of sovereign provinces or cantons, such as the Dutch Republic and the old Swiss Confederacy, with local self-government, open trade, armed neutrality and deep-rooted Protestant faith.",
+    "phrase": "I want sovereign provinces united by a republican pact, open commerce, local militias and Protestant faith."
+  },
+  {
+    "id": "anarcoprimitivismo",
+    "name": "Anarcho-primitivism",
+    "category": "Anarchist",
+    "description": "Current of John Zerzan and Ted Kaczynski that sees industrial civilization and agriculture itself as the root of domination, calling for the end of modern technology and a return to small stateless hunter-gatherer communities.",
+    "phrase": "I want to abolish the state, industry and agriculture, living in small autonomous communities free from technology and domination."
   }
 ]

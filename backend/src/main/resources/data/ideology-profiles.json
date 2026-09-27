@@ -3636,5 +3636,107 @@
       "moral": 67.5,
       "tecnologia": 92.5
     }
+  },
+  {
+    "ideologyId": "anarcoprimitivismo",
+    "vector": {
+      "estrutura": 92.5,
+      "representacao": 73.8,
+      "poder": 8.8,
+      "imigracao": 27.5,
+      "diplomacia": 21.2,
+      "intervencao": 86.2,
+      "economia": 63.7,
+      "controle": 46.2,
+      "comercio": 77.5,
+      "religiao": 76.2,
+      "moral": 53.8,
+      "tecnologia": 2.5
+    }
+  },
+  {
+    "ideologyId": "capitalismo-industrial",
+    "vector": {
+      "estrutura": 63.7,
+      "representacao": 41.2,
+      "poder": 53.8,
+      "imigracao": 65.0,
+      "diplomacia": 35.0,
+      "intervencao": 50.0,
+      "economia": 7.5,
+      "controle": 18.8,
+      "comercio": 63.7,
+      "religiao": 37.5,
+      "moral": 16.2,
+      "tecnologia": 75.0
+    }
+  },
+  {
+    "ideologyId": "catolicismo-universalista",
+    "vector": {
+      "estrutura": 62.5,
+      "representacao": 56.2,
+      "poder": 48.8,
+      "imigracao": 22.5,
+      "diplomacia": 25.0,
+      "intervencao": 70.0,
+      "economia": 61.3,
+      "controle": 62.5,
+      "comercio": 32.5,
+      "religiao": 5.0,
+      "moral": 17.5,
+      "tecnologia": 28.7
+    }
+  },
+  {
+    "ideologyId": "cesarismo",
+    "vector": {
+      "estrutura": 23.8,
+      "representacao": 13.8,
+      "poder": 72.5,
+      "imigracao": 55.0,
+      "diplomacia": 61.3,
+      "intervencao": 21.2,
+      "economia": 56.2,
+      "controle": 67.5,
+      "comercio": 52.5,
+      "religiao": 30.0,
+      "moral": 26.2,
+      "tecnologia": 61.3
+    }
+  },
+  {
+    "ideologyId": "neoliberalismo-autoritario",
+    "vector": {
+      "estrutura": 28.7,
+      "representacao": 7.5,
+      "poder": 90.0,
+      "imigracao": 73.8,
+      "diplomacia": 85.0,
+      "intervencao": 26.2,
+      "economia": 8.8,
+      "controle": 13.8,
+      "comercio": 8.8,
+      "religiao": 20.0,
+      "moral": 6.2,
+      "tecnologia": 68.8
+    }
+  },
+  {
+    "ideologyId": "republicanismo-confederal",
+    "vector": {
+      "estrutura": 85.0,
+      "representacao": 57.5,
+      "poder": 42.5,
+      "imigracao": 48.8,
+      "diplomacia": 55.0,
+      "intervencao": 58.8,
+      "economia": 25.0,
+      "controle": 26.2,
+      "comercio": 21.2,
+      "religiao": 16.2,
+      "moral": 15.0,
+      "tecnologia": 62.5
+    }
   }
 ]
