@@ -84,7 +84,7 @@
     "name": "Socialismo Denguista",
     "category": "Esquerda",
     "description": "Reforma pragmática iniciada por Deng Xiaoping que introduziu mercado, propriedade privada e abertura econômica sob controle absoluto do Partido Comunista, formando o modelo de socialismo com características chinesas.",
-    "phrase": "Quero um socialismo com características chinesas, abrindo mercado e propriedade privada sob controle absoluto do Partido Comunista.",
+    "phrase": "Quero um socialismo pragmático, abrindo mercado e propriedade privada para enriquecer o país, sob controle absoluto do Partido Comunista.",
     "vector": null,
     "countryId": "china",
     "personalityId": "deng-xiaoping"
@@ -2071,7 +2071,7 @@
     "name": "Nacionalismo Varguista",
     "category": "Terceira Posição",
     "description": "Doutrina de Getúlio Vargas no Estado Novo que une nacionalismo econômico, Estado centralizado, sindicatos atrelados ao governo, CLT e estatais como Petrobras e CSN, contra as oligarquias e o liberalismo.",
-    "phrase": "Quero um Brasil unido sob um Estado forte, com o trabalhador protegido pela CLT, indústria e petróleo nacionais e nenhuma oligarquia regional.",
+    "phrase": "Quero uma nação unida sob um Estado forte, com leis trabalhistas protegendo o trabalhador, indústria e petróleo nacionais e nenhuma oligarquia regional.",
     "vector": null,
     "countryId": "brasil-era-vargas",
     "personalityId": "getulio-vargas"
@@ -2091,7 +2091,7 @@
     "name": "Socialismo Africano",
     "category": "Esquerda Radical",
     "description": "Corrente de Sankara, Samora Machel, Nkrumah e Nyerere que une pan-africanismo, consciência negra, luta anticolonial, coletivização agrária e autossuficiência contra o neocolonialismo e o racismo.",
-    "phrase": "Quero uma África unida e soberana, com aldeias coletivas, produção própria para consumo próprio e um partido revolucionário contra o neocolonialismo.",
+    "phrase": "Quero os povos africanos e da diáspora unidos e soberanos, com aldeias coletivas, produção própria e um partido revolucionário contra o neocolonialismo.",
     "vector": null,
     "countryId": "burkina-faso-de-sankara",
     "personalityId": "thomas-sankara"
@@ -2111,7 +2111,7 @@
     "name": "Conservadorismo Confederado",
     "category": "Extrema Direita",
     "description": "Ideologia do Sul escravista que sustentou a Confederação, unindo direitos dos estados e secessão, hierarquia racial e escravidão, sociedade agrária patriarcal e cristã, livre comércio e militarismo.",
-    "phrase": "Quero estados soberanos livres de Washington, uma sociedade agrária cristã e patriarcal, algodão vendido ao mundo e a hierarquia racial preservada.",
+    "phrase": "Quero estados soberanos livres do poder central, uma sociedade agrária cristã e patriarcal, comércio livre com o mundo e a hierarquia racial preservada.",
     "vector": null,
     "countryId": "eua-confederados",
     "personalityId": "john-c-calhoun"
@@ -2125,5 +2125,15 @@
     "vector": null,
     "countryId": "burkina-faso-de-sankara",
     "personalityId": "julius-nyerere"
+  },
+  {
+    "id": "futurismo",
+    "name": "Futurismo",
+    "category": "Terceira Posição",
+    "description": "Movimento de Filippo Marinetti que exaltava velocidade, máquina, indústria e guerra como higiene do mundo, pregando nacionalismo, anticlericalismo e ruptura com o passado, e que ajudou a fundar o fascismo italiano.",
+    "phrase": "Quero uma nação jovem e veloz, movida a máquinas e fábricas, livre de padres, reis e museus, e forjada na guerra como higiene do mundo.",
+    "vector": null,
+    "countryId": "italia-fascista-mussolini",
+    "personalityId": "marinetti"
   }
 ]

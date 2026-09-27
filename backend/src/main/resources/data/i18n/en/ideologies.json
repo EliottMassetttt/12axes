@@ -60,7 +60,7 @@
     "name": "Dengist Socialism",
     "category": "Left",
     "description": "Pragmatic reform initiated by Deng Xiaoping that introduced markets, private property, and economic opening under the absolute control of the Communist Party, forming the model of socialism with Chinese characteristics.",
-    "phrase": "I want socialism with Chinese characteristics, opening markets and private property under the absolute control of the Communist Party."
+    "phrase": "I want pragmatic socialism, opening markets and private property to enrich the country, under the absolute control of the Communist Party."
   },
   {
     "id": "socialismo-de-estado",
@@ -1453,7 +1453,7 @@
     "name": "Varguist Nationalism",
     "category": "Third Position",
     "description": "Getúlio Vargas's Estado Novo doctrine joining economic nationalism, a centralized state, state-tied unions, labor law and state firms such as Petrobras, against the regional oligarchies and liberalism.",
-    "phrase": "I want a Brazil united under a strong state, with workers protected by labor law, national industry and oil, and no regional oligarchy."
+    "phrase": "I want a nation united under a strong state, with labor laws protecting workers, national industry and oil, and no regional oligarchy."
   },
   {
     "id": "socialismo-cubano",
@@ -1467,7 +1467,7 @@
     "name": "African Socialism",
     "category": "Radical Left",
     "description": "Current of Sankara, Samora Machel, Nkrumah and Nyerere joining pan-Africanism, Black consciousness, anticolonial struggle, agrarian collectivization and self-reliance against neocolonialism and racism.",
-    "phrase": "I want a united, sovereign Africa, with collective villages, producing what we consume and a revolutionary party against neocolonialism."
+    "phrase": "I want African peoples and the diaspora united and sovereign, with collective villages, self-reliant production and a revolutionary party against neocolonialism."
   },
   {
     "id": "anarquismo-kropotkiniano",
@@ -1481,7 +1481,7 @@
     "name": "Confederate Conservatism",
     "category": "Far-Right",
     "description": "Ideology of the slaveholding South that sustained the Confederacy, joining states' rights and secession, racial hierarchy and slavery, a patriarchal Christian agrarian society, free trade and militarism.",
-    "phrase": "I want sovereign states free from Washington, a Christian patriarchal agrarian society, cotton sold to the world and racial hierarchy preserved."
+    "phrase": "I want sovereign states free from central power, a Christian patriarchal agrarian society, free trade with the world and racial hierarchy preserved."
   },
   {
     "id": "socialismo-agrario",
@@ -1489,5 +1489,12 @@
     "category": "Radical Left",
     "description": "Current that builds socialism from the countryside, with a single party, collectivization into villages and cooperatives, food self-sufficiency and protection of land and forests, as in Nyerere's Ujamaa.",
     "phrase": "I want socialism built from the countryside, with collective villages, food grown at home, protected forests and a party guiding the nation."
+  },
+  {
+    "id": "futurismo",
+    "name": "Futurism",
+    "category": "Third Position",
+    "description": "Movement of Filippo Marinetti that exalted speed, machines, industry and war as the world's hygiene, preaching nationalism, anticlericalism and a break with the past, and that helped found Italian fascism.",
+    "phrase": "I want a young, fast nation driven by machines and factories, free of priests, kings and museums, forged in war as the world's hygiene."
   }
 ]

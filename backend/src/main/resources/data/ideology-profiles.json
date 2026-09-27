@@ -3619,5 +3619,22 @@
       "moral": 31.2,
       "tecnologia": 22.5
     }
+  },
+  {
+    "ideologyId": "futurismo",
+    "vector": {
+      "estrutura": 21.2,
+      "representacao": 30.0,
+      "poder": 63.7,
+      "imigracao": 75.0,
+      "diplomacia": 97.5,
+      "intervencao": 10.0,
+      "economia": 58.8,
+      "controle": 73.8,
+      "comercio": 78.8,
+      "religiao": 90.0,
+      "moral": 67.5,
+      "tecnologia": 92.5
+    }
   }
 ]
