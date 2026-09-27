@@ -6322,5 +6322,39 @@
       "moral": 5.0,
       "tecnologia": 45.0
     }
+  },
+  {
+    "personalityId": "carlos-menem",
+    "vector": {
+      "estrutura": 42.5,
+      "representacao": 45.0,
+      "poder": 71.2,
+      "imigracao": 45.0,
+      "diplomacia": 32.5,
+      "intervencao": 32.5,
+      "economia": 23.8,
+      "controle": 21.2,
+      "comercio": 13.8,
+      "religiao": 27.5,
+      "moral": 25.0,
+      "tecnologia": 65.0
+    }
+  },
+  {
+    "personalityId": "nestor-kirchner",
+    "vector": {
+      "estrutura": 26.2,
+      "representacao": 58.8,
+      "poder": 46.2,
+      "imigracao": 26.2,
+      "diplomacia": 18.8,
+      "intervencao": 50.0,
+      "economia": 76.2,
+      "controle": 85.0,
+      "comercio": 76.2,
+      "religiao": 55.0,
+      "moral": 63.7,
+      "tecnologia": 65.0
+    }
   }
 ]

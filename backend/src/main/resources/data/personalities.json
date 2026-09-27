@@ -4462,5 +4462,29 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/John_C._Calhoun",
     "imageNote": "Retrato de John C. Calhoun via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "nestor-kirchner",
+    "name": "Néstor Kirchner",
+    "role": "Presidente da Argentina",
+    "category": "politico",
+    "lifespan": "1950–2010",
+    "description": "Presidente argentino de 2003 a 2007, Kirchner liderou a recuperação após a crise de 2001 com peronismo de centro-esquerda: renegociou a dívida, rompeu com o FMI, expandiu gasto social e reabriu julgamentos da ditadura.",
+    "imagePath": "/personalities/portraits/nestor-kirchner.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/N%C3%A9stor_Kirchner",
+    "imageNote": "Retrato de Néstor Kirchner via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "carlos-menem",
+    "name": "Carlos Menem",
+    "role": "Presidente da Argentina",
+    "category": "politico",
+    "lifespan": "1930–2021",
+    "description": "Presidente argentino de 1989 a 1999 eleito pelo peronismo, Menem adotou o neoliberalismo: privatizou estatais, fixou o peso ao dólar, abriu a economia, alinhou-se aos EUA e indultou militares da ditadura.",
+    "imagePath": "/personalities/portraits/carlos-menem.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Carlos_Menem",
+    "imageNote": "Retrato de Carlos Menem via Wikipédia/Wikimedia Commons."
   }
 ]

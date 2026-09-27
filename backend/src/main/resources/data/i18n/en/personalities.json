@@ -2311,5 +2311,19 @@
     "role": "Vice president and political theorist",
     "lifespan": "1782–1850",
     "description": "U.S. vice president and South Carolina senator, Calhoun formulated the doctrines of nullification and the concurrent majority and defended slavery as a positive good, inspiring Southern secession."
+  },
+  {
+    "id": "nestor-kirchner",
+    "name": "Néstor Kirchner",
+    "role": "President of Argentina",
+    "lifespan": "1950–2010",
+    "description": "Argentine president from 2003 to 2007, Kirchner led the recovery after the 2001 crisis with center-left Peronism: he renegotiated the debt, broke with the IMF, expanded social spending and reopened dictatorship trials."
+  },
+  {
+    "id": "carlos-menem",
+    "name": "Carlos Menem",
+    "role": "President of Argentina",
+    "lifespan": "1930–2021",
+    "description": "Argentine president from 1989 to 1999 elected by Peronism, Menem embraced neoliberalism: he privatized state firms, pegged the peso to the dollar, opened the economy, aligned with the US and pardoned junta officers."
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-27T19:38:13Z",
+  "lastUpdated": "2026-09-27T19:50:36Z",
   "personality": {
-    "totalProfiles": 372,
+    "totalProfiles": 374,
     "pending": [],
     "done": [
       "lenin",
@@ -376,7 +376,9 @@
       "jerome-powell",
       "augusto-cury",
       "jefferson-davis",
-      "john-c-calhoun"
+      "john-c-calhoun",
+      "carlos-menem",
+      "nestor-kirchner"
     ]
   },
   "ideology": {
