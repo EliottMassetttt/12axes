@@ -2297,5 +2297,19 @@
     "role": "Psychiatrist, writer and presidential candidate (2026)",
     "lifespan": "1958–",
     "description": "Psychiatrist and best-selling self-help author, Cury is a 2026 presidential candidate in Brazil for Avante, running on anti-polarization, semi-presidentialism, fiscal balance, entrepreneurship and mental health."
+  },
+  {
+    "id": "jefferson-davis",
+    "name": "Jefferson Davis",
+    "role": "President of the Confederate States",
+    "lifespan": "1808–1889",
+    "description": "U.S. senator and secretary of war, Davis presided over the Confederate States during the Civil War, defending secession, states' rights and slavery as the basis of the South's social and economic order."
+  },
+  {
+    "id": "john-c-calhoun",
+    "name": "John C. Calhoun",
+    "role": "Vice president and political theorist",
+    "lifespan": "1782–1850",
+    "description": "U.S. vice president and South Carolina senator, Calhoun formulated the doctrines of nullification and the concurrent majority and defended slavery as a positive good, inspiring Southern secession."
   }
 ]

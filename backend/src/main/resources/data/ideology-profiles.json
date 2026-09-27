@@ -1294,18 +1294,18 @@
   {
     "ideologyId": "socialismo-cristao",
     "vector": {
-      "estrutura": 43.8,
-      "representacao": 86.2,
-      "poder": 41.2,
-      "imigracao": 21.2,
-      "diplomacia": 12.5,
-      "intervencao": 78.8,
-      "economia": 93.8,
-      "controle": 81.2,
-      "comercio": 70,
-      "religiao": 30,
-      "moral": 52.5,
-      "tecnologia": 32.5
+      "estrutura": 77.5,
+      "representacao": 35.0,
+      "poder": 72.5,
+      "imigracao": 31.2,
+      "diplomacia": 77.5,
+      "intervencao": 43.8,
+      "economia": 88.8,
+      "controle": 78.8,
+      "comercio": 78.8,
+      "religiao": 11.2,
+      "moral": 23.8,
+      "tecnologia": 23.8
     }
   },
   {
@@ -1326,7 +1326,7 @@
     }
   },
   {
-    "ideologyId": "socialismo-religioso",
+    "ideologyId": "social-democracia-crista",
     "vector": {
       "estrutura": 42.5,
       "representacao": 82.5,
@@ -3584,6 +3584,23 @@
       "religiao": 83.8,
       "moral": 62.5,
       "tecnologia": 58.8
+    }
+  },
+  {
+    "ideologyId": "conservadorismo-confederado",
+    "vector": {
+      "estrutura": 91.2,
+      "representacao": 51.2,
+      "poder": 55.0,
+      "imigracao": 96.2,
+      "diplomacia": 87.5,
+      "intervencao": 21.2,
+      "economia": 18.8,
+      "controle": 20.0,
+      "comercio": 17.5,
+      "religiao": 10.0,
+      "moral": 2.5,
+      "tecnologia": 38.8
     }
   }
 ]

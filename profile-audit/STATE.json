@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-26T20:30:00Z",
+  "lastUpdated": "2026-09-26T23:00:00Z",
   "personality": {
-    "totalProfiles": 370,
+    "totalProfiles": 372,
     "pending": [],
     "done": [
       "lenin",
@@ -374,11 +374,13 @@
       "friedrich-merz",
       "naruhito",
       "jerome-powell",
-      "augusto-cury"
+      "augusto-cury",
+      "jefferson-davis",
+      "john-c-calhoun"
     ]
   },
   "ideology": {
-    "totalProfiles": 211,
+    "totalProfiles": 212,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -465,7 +467,7 @@
       "comunalismo",
       "socialismo-cristao",
       "trabalhismo-cristao",
-      "socialismo-religioso",
+      "social-democracia-crista",
       "social-democracia",
       "socialismo",
       "socialismo-liberal",
@@ -592,7 +594,8 @@
       "socialismo-africano",
       "anarquismo-kropotkiniano",
       "nacionalismo-varguista",
-      "socialismo-cubano"
+      "socialismo-cubano",
+      "conservadorismo-confederado"
     ]
   },
   "country": {

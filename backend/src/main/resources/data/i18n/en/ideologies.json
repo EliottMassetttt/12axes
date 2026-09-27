@@ -541,9 +541,9 @@
   {
     "id": "socialismo-cristao",
     "name": "Christian Socialism",
-    "category": "Left",
-    "description": "Current that unites Christian faith with the struggle for social justice, defending solidarity, equality, and criticism of capitalism in the name of the Gospel, with strong commitment to the poor and the dignity of labor.",
-    "phrase": "I want social justice guided by the Gospel, with solidarity and criticism of capitalism in the name of the poor and the dignity of labor."
+    "category": "Radical Left",
+    "description": "Current of Thomas Müntzer, the peasants of 1525 and guerrilla priests such as Camilo Torres, seeking the Kingdom of God on earth through revolution, with common property and the rule of the poor imposed by force.",
+    "phrase": "I want God's Kingdom on earth through a revolution of the poor, all goods in common and the mighty cast down by the elect."
   },
   {
     "id": "trabalhismo-cristao",
@@ -553,11 +553,11 @@
     "phrase": "I want labor rights and social protection within democracy, inspired by the Church's social doctrine and Christian solidarity."
   },
   {
-    "id": "socialismo-religioso",
-    "name": "Religious Socialism",
+    "id": "social-democracia-crista",
+    "name": "Christian Social Democracy",
     "category": "Left",
-    "description": "Current that grounds socialism in spiritual and religious values, seeing in faith a call to justice, equality, and solidarity, and uniting the critique of capitalism with ethics and the community of believers.",
-    "phrase": "I want a socialism founded on faith, seeing in it a call to justice and equality, uniting criticism of capitalism with the community of believers."
+    "description": "Current that turns the Gospel into reforms within democracy, defending a welfare state, labor rights, unions and redistribution without breaking with the market or with liberal institutions.",
+    "phrase": "I want social justice guided by the Gospel, won at the ballot box, with strong unions, a welfare state and dignity for working people."
   },
   {
     "id": "social-democracia",
@@ -1475,5 +1475,12 @@
     "category": "Anarchist",
     "description": "Current of Peter Kropotkin that sees mutual aid as a law of nature and proposes federated communes, integration of farming and industry, science serving all and an ethics of solidarity without the state.",
     "phrase": "I want free communes federated by mutual aid, joining field and factory, with everything shared by need and no state at all."
+  },
+  {
+    "id": "conservadorismo-confederado",
+    "name": "Confederate Conservatism",
+    "category": "Far-Right",
+    "description": "Ideology of the slaveholding South that sustained the Confederacy, joining states' rights and secession, racial hierarchy and slavery, a patriarchal Christian agrarian society, free trade and militarism.",
+    "phrase": "I want sovereign states free from Washington, a Christian patriarchal agrarian society, cotton sold to the world and racial hierarchy preserved."
   }
 ]

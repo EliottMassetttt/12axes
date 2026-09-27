@@ -772,12 +772,12 @@
   {
     "id": "socialismo-cristao",
     "name": "Socialismo Cristão",
-    "category": "Esquerda",
-    "description": "Corrente que une a fé cristã à luta por justiça social, defendendo solidariedade, igualdade e crítica ao capitalismo em nome do Evangelho, com forte compromisso com os pobres e a dignidade do trabalho.",
-    "phrase": "Quero justiça social guiada pelo Evangelho, com solidariedade e crítica ao capitalismo em nome dos pobres e da dignidade do trabalho.",
+    "category": "Esquerda Radical",
+    "description": "Corrente de Thomas Müntzer, dos camponeses de 1525 e de padres guerrilheiros como Camilo Torres, que busca o Reino de Deus na Terra pela revolução, com propriedade comum e o poder dos pobres imposto à força.",
+    "phrase": "Quero o Reino de Deus na Terra pela revolução dos pobres, com todos os bens em comum e os poderosos derrubados pela força dos eleitos.",
     "vector": null,
-    "countryId": "reino-unido",
-    "personalityId": "keir-hardie"
+    "countryId": "sacro-imperio-romano-germanico",
+    "personalityId": "thomas-muntzer"
   },
   {
     "id": "trabalhismo-cristao",
@@ -790,14 +790,14 @@
     "personalityId": "maritain"
   },
   {
-    "id": "socialismo-religioso",
-    "name": "Socialismo Religioso",
+    "id": "social-democracia-crista",
+    "name": "Social-Democracia Cristã",
     "category": "Esquerda",
-    "description": "Corrente que fundamenta o socialismo em valores espirituais e religiosos, vendo na fé um chamado à justiça, à igualdade e à solidariedade, e unindo a crítica ao capitalismo à ética e à comunidade de crentes.",
-    "phrase": "Quero um socialismo fundado na fé, vendo nela um chamado à justiça e à igualdade, unindo crítica ao capitalismo à comunidade de crentes.",
+    "description": "Corrente que traduz o Evangelho em reformas dentro da democracia, defendendo Estado de bem-estar, direitos trabalhistas, sindicatos e redistribuição, sem romper com o mercado nem com as instituições liberais.",
+    "phrase": "Quero justiça social guiada pelo Evangelho, conquistada nas urnas, com sindicatos fortes, Estado de bem-estar e dignidade para quem trabalha.",
     "vector": null,
-    "countryId": "israel",
-    "personalityId": "buber"
+    "countryId": "reino-unido",
+    "personalityId": "keir-hardie"
   },
   {
     "id": "social-democracia",
@@ -2105,5 +2105,15 @@
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
     "personalityId": "kropotkin"
+  },
+  {
+    "id": "conservadorismo-confederado",
+    "name": "Conservadorismo Confederado",
+    "category": "Extrema Direita",
+    "description": "Ideologia do Sul escravista que sustentou a Confederação, unindo direitos dos estados e secessão, hierarquia racial e escravidão, sociedade agrária patriarcal e cristã, livre comércio e militarismo.",
+    "phrase": "Quero estados soberanos livres de Washington, uma sociedade agrária cristã e patriarcal, algodão vendido ao mundo e a hierarquia racial preservada.",
+    "vector": null,
+    "countryId": "eua-confederados",
+    "personalityId": "john-c-calhoun"
   }
 ]

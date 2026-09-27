@@ -4438,5 +4438,29 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Augusto_Cury",
     "imageNote": "Retrato de Augusto Cury via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "jefferson-davis",
+    "name": "Jefferson Davis",
+    "role": "Presidente dos Estados Confederados",
+    "category": "politico",
+    "lifespan": "1808–1889",
+    "description": "Senador e secretário da Guerra dos EUA, Davis presidiu os Estados Confederados na Guerra Civil, defendendo a secessão, os direitos dos estados e a escravidão como base da ordem social e econômica do Sul.",
+    "imagePath": "/personalities/portraits/jefferson-davis.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Jefferson_Davis",
+    "imageNote": "Retrato de Jefferson Davis via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "john-c-calhoun",
+    "name": "John C. Calhoun",
+    "role": "Vice-presidente e teórico político",
+    "category": "teorico",
+    "lifespan": "1782–1850",
+    "description": "Vice-presidente dos EUA e senador pela Carolina do Sul, Calhoun formulou a doutrina da nulidade e da maioria concorrente e defendeu a escravidão como bem positivo, inspirando a secessão sulista.",
+    "imagePath": "/personalities/portraits/john-c-calhoun.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/John_C._Calhoun",
+    "imageNote": "Retrato de John C. Calhoun via Wikipédia/Wikimedia Commons."
   }
 ]
