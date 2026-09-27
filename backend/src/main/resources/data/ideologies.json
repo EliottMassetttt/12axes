@@ -2141,9 +2141,9 @@
     "name": "Cesarismo",
     "category": "Direita",
     "description": "Tradição de poder imperial romano que, de Júlio César a Augusto, Nero, Marco Aurélio e Justiniano, concentra exército, lei e administração no governante, preservando instituições, abastecimento popular e soberania sobre império diverso.",
-    "phrase": "Quero concentrar o poder num líder apoiado pelo exército e pelo povo, quebrando a oligarquia senatorial e restaurando a ordem.",
+    "phrase": "Quero um império sob um só comando, sustentado pelo exército, pela lei e pelos deuses da cidade, com pão para o povo e fronteiras defendidas.",
     "vector": null,
-    "countryId": "roma-republicana",
+    "countryId": "imperio-romano",
     "personalityId": "julio-cesar"
   },
   {

@@ -3691,18 +3691,18 @@
   {
     "ideologyId": "cesarismo",
     "vector": {
-      "estrutura": 23.8,
-      "representacao": 13.8,
-      "poder": 72.5,
-      "imigracao": 55.0,
-      "diplomacia": 61.3,
-      "intervencao": 21.2,
-      "economia": 56.2,
-      "controle": 67.5,
-      "comercio": 52.5,
-      "religiao": 30.0,
-      "moral": 26.2,
-      "tecnologia": 61.3
+      "estrutura": 22.5,
+      "representacao": 12.5,
+      "poder": 73.8,
+      "imigracao": 45.0,
+      "diplomacia": 92.5,
+      "intervencao": 10.0,
+      "economia": 51.2,
+      "controle": 75.0,
+      "comercio": 38.8,
+      "religiao": 12.5,
+      "moral": 35.0,
+      "tecnologia": 47.5
     }
   },
   {
