@@ -2,6 +2,7 @@ package com.twelveaxes.service;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.twelveaxes.model.Book;
 import com.twelveaxes.model.AnswerOption;
 import com.twelveaxes.model.Candidate;
 import com.twelveaxes.model.CandidateProfile;
@@ -42,6 +43,7 @@ public class QuizDataService {
     private Map<String, IdeologyProfile> ideologyProfiles;
     private Map<String, CountryProfile> countryProfiles;
     private Map<String, PersonalityProfile> personalityProfiles;
+    private Map<String, Book> books;
     private List<Question> electionQuestions;
     private List<Candidate> candidates;
     private Map<String, CandidateProfile> candidateProfiles;
@@ -115,6 +117,17 @@ public class QuizDataService {
         LocaleBundle pt = LocaleBundle.of(axes, questions, ideologies, countries, personalities);
         LocaleBundle en = buildEnglishBundle(pt);
         bundles = Map.of(LANG_PT, pt, LANG_EN, en);
+
+        List<Book> bookList = readJson("data/books.json", new TypeReference<>() {});
+        List<String> unknownBookAuthors = bookList.stream()
+                .map(Book::personalityId)
+                .filter(id -> !pt.personalitiesById().containsKey(id))
+                .toList();
+        if (!unknownBookAuthors.isEmpty()) {
+            throw new IllegalStateException("books.json cita personalidades inexistentes: " + unknownBookAuthors);
+        }
+        books = bookList.stream()
+                .collect(Collectors.toUnmodifiableMap(Book::personalityId, Function.identity()));
 
         validateCountryProfiles(pt);
         validateIdeologyProfiles(pt);
@@ -386,6 +399,10 @@ public class QuizDataService {
 
     public Personality getPersonalityById(String id, String lang) {
         return bundle(lang).personalitiesById().get(id);
+    }
+
+    public Map<String, Book> getBooks() {
+        return books;
     }
 
     public Map<String, IdeologyProfile> getIdeologyProfiles() {

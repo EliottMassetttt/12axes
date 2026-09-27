@@ -3,6 +3,7 @@ import { t } from '../../i18n';
 import type { Axis, AxisResult, QuizPayload, QuizResult } from '../../types/quiz';
 import { catStyle } from '../../utils/ideologyColors';
 import { SupportSection } from '../SupportSection';
+import { BooksSection } from '../results/BooksSection';
 import { AreasSection } from '../results/AreasSection';
 import { AxesSection } from '../results/AxesSection';
 import { CountriesSection } from '../results/CountriesSection';
@@ -83,6 +84,8 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
 
           <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
+          <BooksSection books={result.bookRecommendations} />
+
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 
           <div className="e-actions">
@@ -117,7 +120,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
               </b>
             </div>
           </div>
-          <ResultsNav />
+          <ResultsNav hasBooks={(result.bookRecommendations?.length ?? 0) > 0} />
         </aside>
       </div>
     </main>

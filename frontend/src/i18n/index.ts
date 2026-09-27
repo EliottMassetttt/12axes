@@ -170,6 +170,7 @@ interface Strings {
   resultsNavCountries: string;
   resultsNavPersonalities: string;
   resultsNavAreas: string;
+  resultsNavBooks: string;
   resultsNavIdeologies: string;
   countriesSectionTitle: string;
   countryCurrentTab: string;
@@ -180,6 +181,14 @@ interface Strings {
   dimensionsTitle: string;
   dimensionLabels: Record<ProfileDimension, string>;
   areasGeneralTitle: string;
+  booksEyebrow: string;
+  booksTitle: string;
+  booksTopLabel: string;
+  booksAuthorLabel: string;
+  booksLead: string;
+  booksWhy: (pct: number) => string;
+  booksYearBc: (year: number) => string;
+  booksCta: string;
   areasSectionTitle: string;
   areasTabsAria: string;
   areasGeneralTab: string;
@@ -559,6 +568,7 @@ const pt: Strings = {
   resultsNavCountries: 'Países',
   resultsNavPersonalities: 'Personalidades',
   resultsNavAreas: 'Áreas de atuação',
+  resultsNavBooks: 'Para ler',
   resultsNavIdeologies: 'Outras ideologias',
   countriesSectionTitle: 'Países mais próximos de você',
   countryCurrentTab: 'País atual',
@@ -572,6 +582,14 @@ const pt: Strings = {
     social: 'Socialmente',
     economic: 'Economicamente',
   },
+  booksEyebrow: 'Para ir além',
+  booksTitle: 'Para ler',
+  booksTopLabel: 'Mais próxima de você',
+  booksAuthorLabel: 'Autor',
+  booksLead: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados.',
+  booksWhy: (pct) => `${pct}% compatível`,
+  booksYearBc: (year) => `${year} a.C.`,
+  booksCta: 'Ver na Amazon',
   areasGeneralTitle: 'Os mais próximos dos seus resultados',
   areasSectionTitle: 'Os mais próximos por área de atuação',
   areasTabsAria: 'Modo de exibição das personalidades',
@@ -1004,6 +1022,7 @@ const en: Strings = {
   resultsNavCountries: 'Countries',
   resultsNavPersonalities: 'Figures',
   resultsNavAreas: 'Fields',
+  resultsNavBooks: 'Further reading',
   resultsNavIdeologies: 'Other ideologies',
   countriesSectionTitle: 'Countries closest to you',
   countryCurrentTab: 'Present-day',
@@ -1017,6 +1036,14 @@ const en: Strings = {
     social: 'Socially',
     economic: 'Economically',
   },
+  booksEyebrow: 'Go further',
+  booksTitle: 'Further reading',
+  booksTopLabel: 'Closest to you',
+  booksAuthorLabel: 'Author',
+  booksLead: 'One work by each of the figures closest to your results.',
+  booksWhy: (pct) => `${pct}% compatible`,
+  booksYearBc: (year) => `${year} BC`,
+  booksCta: 'See on Amazon',
   areasGeneralTitle: 'The closest figures to your results',
   areasSectionTitle: 'The closest figures by field',
   areasTabsAria: 'How figures are grouped',

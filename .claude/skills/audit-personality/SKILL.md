@@ -57,10 +57,18 @@ Leia **profile-audit/README.md inteiro** (raiz do projeto) — ele é autossufic
      falha conhecidos" no README. Se reprovar, relance só aquele subagente dizendo qual checagem
      falhou e quais eixos estavam errados.
    - Calcular vetores e mesclar em `personality-profiles.json`.
+   - **Livro**: para cada perfil do lote que ainda **não** tem entrada em `backend/src/main/resources/data/books.json` (um livro por personalidade; nunca duplique nem troque o existente sem o usuário pedir), conferir se a pessoa escreveu um livro relevante e adicioná-lo:
+   - Só entra obra **escrita pela própria personalidade** e sobre política, economia, filosofia política ou tema diretamente relacionado (religião/sociedade só quando a obra tem peso político, ex.: *Rerum Novarum*, *A Cidade de Deus*). Ficção sem peso político, autoajuda, ciência pura e memórias sem conteúdo político não entram. Sem obra assim, **não adicione nada** e diga isso no resumo; nunca invente um livro.
+   - Com mais de uma obra, escolha a mais popular/relevante/importante para o pensamento político da pessoa.
+   - Formato (mesmo dos demais itens; `year` = primeira publicação, negativo para a.C.; `url` fica vazio, o usuário preenche os links de afiliado):
+     `{ "personalityId": "<id>", "title": { "pt": "<título da edição brasileira>", "en": "<título em inglês>" }, "year": <ano>, "url": { "pt": "", "en": "" } }`
+   - `title.pt` = título com que a obra circula no Brasil; sem tradução, repita o original. `title.en` = título em inglês; sem tradução para o inglês, repita o original.
+   - Não inclua obras de propaganda de ódio (ex.: *Mein Kampf*); na dúvida, pergunte ao usuário.
+   - Adicione ao final do array, mantenha o JSON válido (`python -c "import json;json.load(open('backend/src/main/resources/data/books.json',encoding='utf-8'))"`) e cite o livro escolhido (ou a ausência) no resumo final.
    - Atualizar `STATE.json` (mover IDs de `pending` para `done`, atualizar `lastUpdated`).
    - Arquivar em `answers/personality/<id>.json` (permanente, nunca apagar) e limpar temporários (mantendo só um par de exemplo em `prompts/personality/` + `subagent-out/personality/`).
 4. Para **cada perfil do lote** já mesclado, rode `python profile-audit/compatibility.py personality <id>` e leia as 2 personalidades, 2 ideologias e 2 países mais compatíveis com o vetor recém-atualizado (mesmo algoritmo de `ProfileMatchScorer.java`). Nunca estimar esses matches de cabeça.
-5. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior (percentual exato) e informe quantos perfis restam em `pending`. **Pergunte explicitamente** se deve continuar para o próximo lote — nunca encadeie lotes sozinho.
+5. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior (percentual exato) e o livro adicionado a `books.json` (ou por que nenhum) e informe quantos perfis restam em `pending`. **Pergunte explicitamente** se deve continuar para o próximo lote — nunca encadeie lotes sozinho.
 
 ## Regras que não podem ser quebradas
 

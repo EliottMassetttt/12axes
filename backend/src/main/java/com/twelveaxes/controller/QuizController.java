@@ -10,6 +10,7 @@ import com.twelveaxes.model.QuizResult;
 import com.twelveaxes.model.ResultRequest;
 import com.twelveaxes.service.AxisOutlierService;
 import com.twelveaxes.service.AxisTensionService;
+import com.twelveaxes.service.BookRecommendationService;
 import com.twelveaxes.service.DimensionMatcherService;
 import com.twelveaxes.service.CountryMatcherService;
 import com.twelveaxes.service.CountryDimensionMatcherService;
@@ -45,6 +46,7 @@ public class QuizController {
     private final CandidateMatcherService candidateMatcherService;
     private final AxisOutlierService axisOutlierService;
     private final AxisTensionService axisTensionService;
+    private final BookRecommendationService bookRecommendationService;
     private final DimensionMatcherService dimensionMatcherService;
 
     public QuizController(
@@ -56,7 +58,8 @@ public class QuizController {
             PersonalityMatcherService personalityMatcherService, CandidateMatcherService candidateMatcherService,
             AxisOutlierService axisOutlierService,
             AxisTensionService axisTensionService,
-            DimensionMatcherService dimensionMatcherService
+            DimensionMatcherService dimensionMatcherService,
+            BookRecommendationService bookRecommendationService
     ) {
         this.dataService = dataService;
         this.scoringService = scoringService;
@@ -68,6 +71,7 @@ public class QuizController {
         this.axisOutlierService = axisOutlierService;
         this.axisTensionService = axisTensionService;
         this.dimensionMatcherService = dimensionMatcherService;
+        this.bookRecommendationService = bookRecommendationService;
     }
 
     @GetMapping("/api/election/quiz") public QuizPayload electionQuiz() { return dataService.getElectionQuiz(); }
@@ -106,6 +110,7 @@ public class QuizController {
         var matches = matcherService.findMatches(axes, lang);
         var personalityMatches = personalityMatcherService.findMatches(axes, lang);
         var topPersonality = personalityMatches.getFirst();
+        var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang);
         var topCountry = countryMatcherService.findTopMatch(axes, lang);
         var topHistoricalCountry = countryMatcherService.findTopHistoricalMatch(axes, lang);
         return new QuizResult(
@@ -122,11 +127,12 @@ public class QuizController {
                 topPersonality,
                 personalityMatches,
                 dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId()),
-                personalityMatcherService.findBestPerCategory(axes, lang),
+                categoryBestMatches,
                 personalityMatcherService.findBottomMatches(axes, lang),
                 axisOutlierService.findMostUnusual(axes, lang),
                 axisOutlierService.findMostCommon(axes, lang),
-                axisTensionService.findStrongest(axes, lang)
+                axisTensionService.findStrongest(axes, lang),
+                bookRecommendationService.recommend(personalityMatches, categoryBestMatches, lang)
         );
     }
 

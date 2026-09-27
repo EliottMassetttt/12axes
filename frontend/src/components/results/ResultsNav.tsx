@@ -7,10 +7,13 @@ const SECTIONS = [
   { id: 'paises', label: () => t.resultsNavCountries },
   { id: 'personalidades', label: () => t.resultsNavPersonalities },
   { id: 'areas', label: () => t.resultsNavAreas },
+  { id: 'livros', label: () => t.resultsNavBooks },
   { id: 'ideologias', label: () => t.resultsNavIdeologies },
 ];
 
-export function ResultsNav() {
+// Sem livros recomendados a seção não é renderizada, então o item some e a numeração se ajusta.
+export function ResultsNav({ hasBooks = true }: { hasBooks?: boolean }) {
+  const sections = hasBooks ? SECTIONS : SECTIONS.filter(({ id }) => id !== 'livros');
   const [active, setActive] = useState(SECTIONS[0].id);
 
   useEffect(() => {
@@ -37,7 +40,7 @@ export function ResultsNav() {
   return (
     <nav className="e-panel e-toc" aria-label={t.navOnThisPage}>
       <p>{t.navOnThisPage}</p>
-      {SECTIONS.map(({ id, label }, index) => (
+      {sections.map(({ id, label }, index) => (
         <a key={id} href={`#${id}`} className={active === id ? 'e-on' : undefined}>
           <span>{String(index + 1).padStart(2, '0')}</span>
           {label()}

@@ -112,6 +112,17 @@ export interface PersonalityMatch {
   vector?: Record<string, number>;
 }
 
+export interface BookRecommendation {
+  personalityId: string;
+  personalityName: string;
+  imagePath: string;
+  title: string;
+  /** Ano da primeira publicação; negativo = a.C. */
+  year?: number;
+  url: string;
+  compatibility: number;
+}
+
 export interface AxisOutlier {
   axisId: string;
   label: string;
@@ -165,6 +176,8 @@ export interface QuizResult {
   mostCommonAxis: AxisOutlier;
   // null quando o perfil nao contraria padrao nenhum (centristas e moderados).
   axisTension: AxisTension | null;
+  /** Até 3 livros das personalidades mais compatíveis, com link de afiliado pronto. */
+  bookRecommendations?: BookRecommendation[];
 }
 
 export interface Candidate {
