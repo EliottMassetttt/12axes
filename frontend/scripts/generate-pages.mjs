@@ -5,6 +5,12 @@
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'node:fs';
 import { dirname, join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { ideologiesIndexPage, IDEOLOGIES_CSS } from './ideologies-index.mjs';
+import { personalitiesIndexPage, PERSONALITIES_CSS } from './personalities-index.mjs';
+import { personalityPage, PROFILE_CSS } from './personality-page.mjs';
+import { ideologyPage } from './ideology-page.mjs';
+import { countryPage, COUNTRY_PAGE_CSS } from './country-page.mjs';
+import { countriesIndexPage, COUNTRIES_CSS } from './countries-index.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, '..');
@@ -55,27 +61,13 @@ const STR = {
     navCountries: 'Países',
     navPersonalities: 'Personalidades',
     takeTheTest: 'Fazer o teste',
-    footerTagline: '12 Axes — quiz político e teste ideológico gratuito em 12 eixos.',
     axesTitle: 'Perfil nos 12 eixos',
-    axesLead: (name) => `Como ${name} se posiciona em cada uma das 12 dimensões políticas medidas pelo 12 Axes.`,
-    relatedTitle: 'Relacionados',
-    countryIdeologiesTitle: 'Ideologias ligadas a este país',
-    personalityIdeologiesTitle: 'Ideologias associadas',
     ctaTitle: 'E você, onde está no espectro político?',
     ctaText: 'Responda ao quiz e descubra suas compatibilidades com ideologias, países e personalidades nos 12 eixos.',
-    ctaButton: 'Fazer o teste político',
-    closestCountry: 'País mais próximo',
-    associatedPersonality: 'Personalidade associada',
-    countryChip: (name) => `País: ${name}`,
-    referenceChip: (name) => `Referência: ${name}`,
     currentCountry: 'País atual',
     historicalRegime: (period) => `Regime histórico${period ? ` · ${period}` : ''}`,
     flagAlt: (name) => `Bandeira: ${name}`,
-    portraitAlt: (name) => `Retrato: ${name}`,
     imageSource: 'Fonte da imagem',
-    breadcrumbLabel: 'Trilha de navegação',
-    sectionsLabel: 'Seções',
-    footerLabel: 'Rodapé',
     homeAria: '12 Axes — página inicial',
     balanced: 'Equilibrado',
     intensity: ['Equilibrado', 'Inclinado', 'Forte', 'Muito forte'],
@@ -88,17 +80,12 @@ const STR = {
     ideologiesIndexTitle: (n) => `Ideologias políticas: lista completa com ${n} correntes | 12 Axes`,
     ideologiesIndexDesc: (n) => `Explore ${n} ideologias políticas — do comunismo ao libertarianismo — com descrição e posição em 12 eixos. Descubra a sua com o quiz político 12 Axes.`,
     ideologiesIndexHeading: 'Ideologias políticas',
-    ideologiesIndexLead: (n) => `As ${n} correntes políticas mapeadas pelo 12 Axes, cada uma com descrição e perfil completo nos 12 eixos. Faça o teste para descobrir com quais você é compatível.`,
     countriesIndexTitle: (n) => `Perfis políticos de ${n} países e regimes históricos | 12 Axes`,
     countriesIndexDesc: (n) => `Compare o perfil político de ${n} países e regimes históricos em 12 eixos — democracia, economia, liberdades e mais. Descubra seu país mais compatível.`,
     countriesIndexHeading: 'Países e regimes',
-    countriesIndexLead: (n) => `${n} países atuais e regimes históricos com perfil político completo nos 12 eixos. Faça o teste para descobrir qual é o mais próximo de você.`,
-    currentCountriesGroup: 'Países atuais',
-    historicalCountriesGroup: 'Regimes históricos',
     personalitiesIndexTitle: (n) => `${n} personalidades políticas e suas posições | 12 Axes`,
     personalitiesIndexDesc: (n) => `Veja a posição política de ${n} personalidades históricas e contemporâneas em 12 eixos. Descubra com quem você mais se parece no quiz 12 Axes.`,
-    personalitiesIndexHeading: 'Personalidades políticas',
-    personalitiesIndexLead: (n) => `${n} líderes, pensadores e figuras históricas com perfil político nos 12 eixos. Faça o teste para descobrir com quem você mais se parece.`
+    personalitiesIndexHeading: 'Personalidades políticas'
   },
   en: {
     htmlLang: 'en',
@@ -109,27 +96,13 @@ const STR = {
     navCountries: 'Countries',
     navPersonalities: 'Personalities',
     takeTheTest: 'Take the test',
-    footerTagline: '12 Axes — a free political quiz and ideology test across 12 axes.',
     axesTitle: 'Profile across the 12 axes',
-    axesLead: (name) => `How ${name} positions on each of the 12 political dimensions measured by 12 Axes.`,
-    relatedTitle: 'Related',
-    countryIdeologiesTitle: 'Ideologies linked to this country',
-    personalityIdeologiesTitle: 'Associated ideologies',
     ctaTitle: 'Where do you stand on the political spectrum?',
     ctaText: 'Take the quiz and discover your compatibility with ideologies, countries, and personalities across the 12 axes.',
-    ctaButton: 'Take the political test',
-    closestCountry: 'Closest country',
-    associatedPersonality: 'Associated personality',
-    countryChip: (name) => `Country: ${name}`,
-    referenceChip: (name) => `Key figure: ${name}`,
     currentCountry: 'Modern country',
     historicalRegime: (period) => `Historical regime${period ? ` · ${period}` : ''}`,
     flagAlt: (name) => `Flag: ${name}`,
-    portraitAlt: (name) => `Portrait: ${name}`,
     imageSource: 'Image source',
-    breadcrumbLabel: 'Breadcrumb',
-    sectionsLabel: 'Sections',
-    footerLabel: 'Footer',
     homeAria: '12 Axes — home page',
     balanced: 'Balanced',
     intensity: ['Balanced', 'Leaning', 'Strong', 'Very strong'],
@@ -142,17 +115,12 @@ const STR = {
     ideologiesIndexTitle: (n) => `Political ideologies: full list of ${n} currents | 12 Axes`,
     ideologiesIndexDesc: (n) => `Explore ${n} political ideologies — from communism to libertarianism — with descriptions and positions on 12 axes. Find yours with the 12 Axes political quiz.`,
     ideologiesIndexHeading: 'Political ideologies',
-    ideologiesIndexLead: (n) => `The ${n} political currents mapped by 12 Axes, each with a description and a full profile across the 12 axes. Take the test to discover which ones match you.`,
     countriesIndexTitle: (n) => `Political profiles of ${n} countries and historical regimes | 12 Axes`,
     countriesIndexDesc: (n) => `Compare the political profile of ${n} countries and historical regimes across 12 axes — democracy, economy, liberties, and more. Find your most compatible country.`,
     countriesIndexHeading: 'Countries and regimes',
-    countriesIndexLead: (n) => `${n} modern countries and historical regimes with a full political profile across the 12 axes. Take the test to discover which one is closest to you.`,
-    currentCountriesGroup: 'Modern countries',
-    historicalCountriesGroup: 'Historical regimes',
     personalitiesIndexTitle: (n) => `${n} political personalities and their positions | 12 Axes`,
     personalitiesIndexDesc: (n) => `See the political position of ${n} historical and contemporary personalities across 12 axes. Discover who you resemble most with the 12 Axes quiz.`,
-    personalitiesIndexHeading: 'Political personalities',
-    personalitiesIndexLead: (n) => `${n} leaders, thinkers, and historical figures with a political profile across the 12 axes. Take the test to discover who you resemble most.`
+    personalitiesIndexHeading: 'Political personalities'
   }
 };
 
@@ -181,543 +149,40 @@ function truncate(text, max = 158) {
   return `${cut.slice(0, cut.lastIndexOf(' '))}…`;
 }
 
-function readableInk(hexColor) {
-  const raw = hexColor.replace('#', '');
-  const hex = raw.length === 3 ? raw.split('').map((c) => c + c).join('') : raw;
-  const [r, g, b] = [0, 2, 4].map((i) => Number.parseInt(hex.slice(i, i + 2), 16));
-  return (0.299 * r + 0.587 * g + 0.114 * b) / 255 > 0.62 ? '#0B1020' : '#ffffff';
-}
-
-function intensityFor(distance, labels) {
-  if (distance < 7.5) return labels[0];
-  if (distance < 22.5) return labels[1];
-  if (distance < 37.5) return labels[2];
-  return labels[3];
-}
-
-// ── Barra de eixo (mesma semântica do AxisResultBar.tsx: vetor = leftPercent) ──
-function axisRow(L, axis, leftPercent) {
-  const left = Math.max(0, Math.min(100, leftPercent));
-  const right = 100 - left;
-  const balanced = Math.abs(left - 50) < 7.5;
-  const leaningRight = right > left;
-  const domColor = balanced ? '#94A3B8' : leaningRight ? axis.rightColor : axis.leftColor;
-  const leanText = balanced
-    ? L.s.balanced
-    : `${intensityFor(Math.abs(left - 50), L.s.intensity)} - ${leaningRight ? axis.rightPole : axis.leftPole}`;
-  const position = right; // 0 = polo esquerdo, 100 = polo direito
-  const fillLeft = Math.min(position, 50);
-  const fillWidth = balanced ? 0 : Math.abs(position - 50);
-
-  return `
-<article class="axis-row" style="--axis-dom:${domColor}">
-  <header class="axis-row-head">
-    <div class="axis-row-id"><h3>${escapeHtml(axis.label)}</h3></div>
-    <span class="axis-lean" data-balanced="${balanced}">${escapeHtml(leanText)}</span>
-  </header>
-  <div class="axis-meter">
-    <div class="axis-pole${!balanced && !leaningRight ? ' is-active' : ''}" data-side="left" style="--pole:${axis.leftColor};--pole-ink:${readableInk(axis.leftColor)}">
-      <span class="axis-pole-text">
-        <span class="axis-pole-name">${escapeHtml(axis.leftPole)}</span>
-        <span class="axis-pole-value">${left.toFixed(0)}%</span>
-      </span>
-    </div>
-    <div class="axis-track" role="img" aria-label="${escapeHtml(`${axis.label}: ${axis.leftPole} ${left.toFixed(0)}%, ${axis.rightPole} ${right.toFixed(0)}%`)}">
-      <span class="axis-track-center"></span>
-      <span class="axis-track-fill" style="left:${fillLeft}%;width:${fillWidth}%"></span>
-      <span class="axis-track-thumb" data-balanced="${balanced}" style="left:${position}%"></span>
-    </div>
-    <div class="axis-pole${!balanced && leaningRight ? ' is-active' : ''}" data-side="right" style="--pole:${axis.rightColor};--pole-ink:${readableInk(axis.rightColor)}">
-      <span class="axis-pole-text">
-        <span class="axis-pole-name">${escapeHtml(axis.rightPole)}</span>
-        <span class="axis-pole-value">${right.toFixed(0)}%</span>
-      </span>
-    </div>
-  </div>
-</article>`;
-}
-
-function axesSection(L, subjectName, vector) {
-  const rows = L.axes.map((axis) => axisRow(L, axis, vector[axis.id] ?? 50)).join('\n');
-  return `
-<section class="page-section" aria-labelledby="axes-title">
-  <h2 id="axes-title">${escapeHtml(L.s.axesTitle)}</h2>
-  <p class="section-lead">${escapeHtml(L.s.axesLead(subjectName))}</p>
-  <div class="axis-rows">${rows}</div>
-</section>`;
-}
-
-function relatedCard(href, eyebrow, title, description) {
-  return `
-<a class="related-card" href="${href}">
-  <span class="card-eyebrow">${escapeHtml(eyebrow)}</span>
-  <span class="card-title">${escapeHtml(title)}</span>
-  <span class="card-desc">${escapeHtml(truncate(description, 120))}</span>
-</a>`;
-}
-
-function ctaSection(L) {
-  return `
-<section class="cta-panel">
-  <h2>${escapeHtml(L.s.ctaTitle)}</h2>
-  <p>${escapeHtml(L.s.ctaText)}</p>
-  <a class="primary-button hero-cta" href="/">${escapeHtml(L.s.ctaButton)}
-    <svg class="btn-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
-  </a>
-</section>`;
-}
-
-function breadcrumbLd(L, sectionLabel, sectionPath, name, path) {
-  return {
-    '@context': 'https://schema.org',
-    '@type': 'BreadcrumbList',
-    itemListElement: [
-      { '@type': 'ListItem', position: 1, name: '12 Axes', item: `${SITE}/` },
-      { '@type': 'ListItem', position: 2, name: sectionLabel, item: `${SITE}${L.s.prefix}${sectionPath}` },
-      { '@type': 'ListItem', position: 3, name, item: `${SITE}${path}` }
-    ]
-  };
-}
-
-// basePath: caminho sem prefixo de locale — usado para gerar os pares hreflang.
-function layout(L, { basePath, title, description, ogImage, jsonLd, body }) {
-  const path = `${L.s.prefix}${basePath}`;
-  const url = `${SITE}${path}`;
-  const ldBlocks = jsonLd
-    .map((ld) => `<script type="application/ld+json">${JSON.stringify(ld)}</script>`)
-    .join('\n    ');
-  return `<!doctype html>
-<html lang="${L.s.htmlLang}">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#0B1020" />
-    <title>${escapeHtml(title)}</title>
-    <meta name="description" content="${escapeHtml(description)}" />
-    <meta name="robots" content="index, follow, max-image-preview:large" />
-    <link rel="canonical" href="${url}" />
-    <link rel="alternate" hreflang="pt-BR" href="${SITE}${basePath}" />
-    <link rel="alternate" hreflang="en" href="${SITE}/en${basePath}" />
-    <link rel="alternate" hreflang="x-default" href="${SITE}/en${basePath}" />
-    <link rel="icon" type="image/x-icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <meta property="og:type" content="article" />
-    <meta property="og:site_name" content="12 Axes" />
-    <meta property="og:locale" content="${L.s.ogLocale}" />
-    <meta property="og:url" content="${url}" />
-    <meta property="og:title" content="${escapeHtml(title)}" />
-    <meta property="og:description" content="${escapeHtml(description)}" />
-    <meta property="og:image" content="${SITE}${ogImage}" />
-    <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="${escapeHtml(title)}" />
-    <meta name="twitter:description" content="${escapeHtml(description)}" />
-    <meta name="twitter:image" content="${SITE}${ogImage}" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@500;600;700;800&display=swap" />
-    <link rel="stylesheet" href="/pages.css" />
-    ${ldBlocks}
-    ${GOOGLE_ANALYTICS_SNIPPET}
-  </head>
-  <body>
-    <div class="page-shell">
-      <header class="site-header">
-        <a class="brand-lockup" href="/" aria-label="${escapeHtml(L.s.homeAria)}"><span class="brand-num">12</span><span class="brand-word">Axes</span></a>
-        <nav class="home-nav" aria-label="${escapeHtml(L.s.sectionsLabel)}">
-          <a href="${L.s.prefix}/ideologies">${escapeHtml(L.s.navIdeologies)}</a>
-          <a href="${L.s.prefix}/countries">${escapeHtml(L.s.navCountries)}</a>
-          <a href="${L.s.prefix}/personalities">${escapeHtml(L.s.navPersonalities)}</a>
-        </nav>
-      </header>
-      <main class="page-main">${body}</main>
-      <footer class="page-footer">
-        <a class="brand-lockup" href="/"><span class="brand-num">12</span><span class="brand-word">Axes</span></a>
-        <nav aria-label="${escapeHtml(L.s.footerLabel)}">
-          <a href="/">${escapeHtml(L.s.takeTheTest)}</a>
-          <a href="${L.s.prefix}/ideologies">${escapeHtml(L.s.navIdeologies)}</a>
-          <a href="${L.s.prefix}/countries">${escapeHtml(L.s.navCountries)}</a>
-          <a href="${L.s.prefix}/personalities">${escapeHtml(L.s.navPersonalities)}</a>
-          <a href="${L.s.prefix === '' ? '/en' : ''}${basePath}">${L.s.prefix === '' ? 'English' : 'Português'}</a>
-        </nav>
-        <p>${escapeHtml(L.s.footerTagline)}</p>
-      </footer>
-    </div>
-  </body>
-</html>`;
-}
-
-function crumbs(L, sectionLabel, sectionPath, name) {
-  return `
-<nav class="crumbs" aria-label="${escapeHtml(L.s.breadcrumbLabel)}">
-  <a href="${L.s.prefix || '/'}">${escapeHtml(L.s.home)}</a><span aria-hidden="true">/</span><a href="${L.s.prefix}${sectionPath}">${escapeHtml(sectionLabel)}</a><span aria-hidden="true">/</span><span>${escapeHtml(name)}</span>
-</nav>`;
-}
-
-function metaChip(text) {
-  return `<span class="intro-meta-item">${escapeHtml(text)}</span>`;
-}
-
-// ── Páginas de detalhe ──────────────────────────────────────────────────────
-function ideologyPage(L, ideology) {
-  const basePath = `/ideologies/${ideology.id}`;
-  const country = L.countryById.get(ideology.countryId);
-  const personality = L.personalityById.get(ideology.personalityId);
-  const vector = ideologyProfiles.get(ideology.id);
-  const siblings = L.ideologies
-    .filter((i) => i.category === ideology.category && i.id !== ideology.id)
-    .slice(0, 6);
-
-  const p = L.s.prefix;
-  const related = [
-    country && relatedCard(`${p}/countries/${country.id}`, L.s.closestCountry, country.name, country.description),
-    personality && relatedCard(`${p}/personalities/${personality.id}`, L.s.associatedPersonality, personality.name, personality.description),
-    ...siblings.map((s) => relatedCard(`${p}/ideologies/${s.id}`, s.category, s.name, s.description))
-  ].filter(Boolean);
-
-  const body = `
-${crumbs(L, L.s.navIdeologies, '/ideologies', ideology.name)}
-<section class="entity-hero">
-  <span class="intro-eyebrow">${escapeHtml(ideology.category)}</span>
-  <h1>${escapeHtml(ideology.name)}</h1>
-  <p class="intro-lead">${escapeHtml(ideology.description)}</p>
-  <div class="intro-meta">
-    ${country ? metaChip(L.s.countryChip(country.name)) : ''}
-    ${personality ? metaChip(L.s.referenceChip(personality.name)) : ''}
-  </div>
-</section>
-${axesSection(L, L.s.subjectPrefix(ideology.name, 'ideology'), vector)}
-<section class="page-section" aria-labelledby="related-title">
-  <h2 id="related-title">${escapeHtml(L.s.relatedTitle)}</h2>
-  <div class="related-grid">${related.join('\n')}</div>
-</section>
-${ctaSection(L)}`;
-
-  return {
-    basePath,
-    html: layout(L, {
-      basePath,
-      title: L.s.ideologyTitle(ideology.name),
-      description: truncate(ideology.description),
-      ogImage: '/logo.png',
-      jsonLd: [
-        breadcrumbLd(L, L.s.navIdeologies, '/ideologies', ideology.name, `${p}${basePath}`),
-        {
-          '@context': 'https://schema.org',
-          '@type': 'Article',
-          headline: L.s.ideologyHeadline(ideology.name),
-          description: truncate(ideology.description),
-          inLanguage: L.s.htmlLang,
-          mainEntityOfPage: `${SITE}${p}${basePath}`,
-          author: { '@type': 'Organization', name: '12 Axes', url: `${SITE}/` }
-        }
-      ],
-      body
-    })
-  };
-}
-
-function countryPage(L, country) {
-  const basePath = `/countries/${country.id}`;
-  const vector = countryProfiles.get(country.id);
-  const linked = L.ideologiesByCountry.get(country.id) ?? [];
-  const p = L.s.prefix;
-  const related = linked.map((i) => relatedCard(`${p}/ideologies/${i.id}`, i.category, i.name, i.description));
-
-  const body = `
-${crumbs(L, L.s.navCountries, '/countries', country.name)}
-<section class="entity-hero has-figure">
-  <div class="entity-intro">
-    <span class="intro-eyebrow">${escapeHtml(country.category)}</span>
-    <h1>${escapeHtml(country.name)}</h1>
-    <p class="intro-lead">${escapeHtml(country.description)}</p>
-    <div class="intro-meta">
-      ${country.historical ? metaChip(L.s.historicalRegime(country.period)) : metaChip(L.s.currentCountry)}
-    </div>
-  </div>
-  <figure class="entity-figure">
-    <img src="${country.flagPath}" alt="${escapeHtml(L.s.flagAlt(country.name))}" width="220" loading="lazy" />
-  </figure>
-</section>
-${axesSection(L, country.name, vector)}
-${related.length ? `
-<section class="page-section" aria-labelledby="related-title">
-  <h2 id="related-title">${escapeHtml(L.s.countryIdeologiesTitle)}</h2>
-  <div class="related-grid">${related.join('\n')}</div>
-</section>` : ''}
-${ctaSection(L)}`;
-
-  return {
-    basePath,
-    html: layout(L, {
-      basePath,
-      title: L.s.countryTitle(country.name),
-      description: truncate(country.description),
-      ogImage: country.flagPath,
-      jsonLd: [
-        breadcrumbLd(L, L.s.navCountries, '/countries', country.name, `${p}${basePath}`),
-        {
-          '@context': 'https://schema.org',
-          '@type': 'Article',
-          headline: L.s.countryHeadline(country.name),
-          description: truncate(country.description),
-          inLanguage: L.s.htmlLang,
-          mainEntityOfPage: `${SITE}${p}${basePath}`,
-          author: { '@type': 'Organization', name: '12 Axes', url: `${SITE}/` }
-        }
-      ],
-      body
-    })
-  };
-}
-
-function personalityPage(L, personality) {
-  const basePath = `/personalities/${personality.id}`;
-  const vector = personalityProfiles.get(personality.id);
-  const linked = L.ideologiesByPersonality.get(personality.id) ?? [];
-  const p = L.s.prefix;
-  const related = linked.map((i) => relatedCard(`${p}/ideologies/${i.id}`, i.category, i.name, i.description));
-
-  const credit = personality.imageSourceUrl
-    ? `<figcaption><a href="${personality.imageSourceUrl}" rel="noopener nofollow" target="_blank">${escapeHtml(personality.imageSourceName || L.s.imageSource)}</a></figcaption>`
-    : '';
-
-  const body = `
-${crumbs(L, L.s.navPersonalities, '/personalities', personality.name)}
-<section class="entity-hero has-figure">
-  <div class="entity-intro">
-    <span class="intro-eyebrow">${escapeHtml(personality.role)}</span>
-    <h1>${escapeHtml(personality.name)}</h1>
-    <p class="intro-lead">${escapeHtml(personality.description)}</p>
-    <div class="intro-meta">
-      ${personality.lifespan ? metaChip(personality.lifespan) : ''}
-    </div>
-  </div>
-  <figure class="entity-figure is-portrait">
-    <img src="${personality.imagePath}" alt="${escapeHtml(L.s.portraitAlt(personality.name))}" width="220" loading="lazy" />
-    ${credit}
-  </figure>
-</section>
-${axesSection(L, personality.name, vector)}
-${related.length ? `
-<section class="page-section" aria-labelledby="related-title">
-  <h2 id="related-title">${escapeHtml(L.s.personalityIdeologiesTitle)}</h2>
-  <div class="related-grid">${related.join('\n')}</div>
-</section>` : ''}
-${ctaSection(L)}`;
-
-  return {
-    basePath,
-    html: layout(L, {
-      basePath,
-      title: L.s.personalityTitle(personality.name),
-      description: truncate(personality.description),
-      ogImage: personality.imagePath,
-      jsonLd: [
-        breadcrumbLd(L, L.s.navPersonalities, '/personalities', personality.name, `${p}${basePath}`),
-        {
-          '@context': 'https://schema.org',
-          '@type': 'ProfilePage',
-          mainEntity: {
-            '@type': 'Person',
-            name: personality.name,
-            description: truncate(personality.description)
-          },
-          inLanguage: L.s.htmlLang,
-          url: `${SITE}${p}${basePath}`
-        }
-      ],
-      body
-    })
-  };
-}
-
 // ── Páginas de índice ───────────────────────────────────────────────────────
-function indexPage(L, { basePath, title, description, heading, lead, groups }) {
-  const sections = groups
-    .map(
-      ({ label, items }) => `
-<section class="page-section">
-  <h2>${escapeHtml(label)}</h2>
-  <div class="related-grid">${items.join('\n')}</div>
-</section>`
-    )
-    .join('\n');
-
-  const body = `
-<section class="entity-hero">
-  <h1>${escapeHtml(heading)}</h1>
-  <p class="intro-lead">${escapeHtml(lead)}</p>
-</section>
-${sections}
-${ctaSection(L)}`;
-
-  return {
-    basePath,
-    html: layout(L, {
-      basePath,
-      title,
-      description,
-      ogImage: '/logo.png',
-      jsonLd: [
-        {
-          '@context': 'https://schema.org',
-          '@type': 'CollectionPage',
-          name: heading,
-          description,
-          inLanguage: L.s.htmlLang,
-          url: `${SITE}${L.s.prefix}${basePath}`
-        }
-      ],
-      body
-    })
-  };
-}
-
 function buildIndexes(L) {
   const p = L.s.prefix;
-  const ideologyGroups = [...groupBy(L.ideologies, (i) => i.category)].map(([label, items]) => ({
-    label,
-    items: items.map((i) => relatedCard(`${p}/ideologies/${i.id}`, label, i.name, i.description))
-  }));
-
-  const currentCountries = L.countries.filter((c) => !c.historical);
-  const historicalCountries = L.countries.filter((c) => c.historical);
-  const countryGroups = [
-    {
-      label: L.s.currentCountriesGroup,
-      items: currentCountries.map((c) => relatedCard(`${p}/countries/${c.id}`, c.category, c.name, c.description))
-    },
-    {
-      label: L.s.historicalCountriesGroup,
-      items: historicalCountries.map((c) =>
-        relatedCard(`${p}/countries/${c.id}`, c.period ? `${c.category} · ${c.period}` : c.category, c.name, c.description)
-      )
-    }
-  ];
-
-  const personalityGroups = [...groupBy(L.personalities, (pers) => pers.role)].map(([label, items]) => ({
-    label,
-    items: items.map((pers) => relatedCard(`${p}/personalities/${pers.id}`, label, pers.name, pers.description))
-  }));
-
   const n = { i: L.ideologies.length, c: L.countries.length, p: L.personalities.length };
 
   return [
-    indexPage(L, {
-      basePath: '/ideologies',
+    ideologiesIndexPage(L, {
+      locale: L.locale,
+      site: SITE,
+      gaSnippet: GOOGLE_ANALYTICS_SNIPPET,
+      escapeHtml,
+      profiles: ideologyProfiles,
       title: L.s.ideologiesIndexTitle(n.i),
-      description: L.s.ideologiesIndexDesc(n.i),
-      heading: L.s.ideologiesIndexHeading,
-      lead: L.s.ideologiesIndexLead(n.i),
-      groups: ideologyGroups
+      description: L.s.ideologiesIndexDesc(n.i)
     }),
-    indexPage(L, {
-      basePath: '/countries',
+    countriesIndexPage(L, {
+      locale: L.locale,
+      site: SITE,
+      gaSnippet: GOOGLE_ANALYTICS_SNIPPET,
+      escapeHtml,
+      profiles: countryProfiles,
       title: L.s.countriesIndexTitle(n.c),
-      description: L.s.countriesIndexDesc(n.c),
-      heading: L.s.countriesIndexHeading,
-      lead: L.s.countriesIndexLead(n.c),
-      groups: countryGroups
+      description: L.s.countriesIndexDesc(n.c)
     }),
-    indexPage(L, {
-      basePath: '/personalities',
+    personalitiesIndexPage(L, {
+      locale: L.locale,
+      site: SITE,
+      gaSnippet: GOOGLE_ANALYTICS_SNIPPET,
+      escapeHtml,
+      profiles: personalityProfiles,
       title: L.s.personalitiesIndexTitle(n.p),
-      description: L.s.personalitiesIndexDesc(n.p),
-      heading: L.s.personalitiesIndexHeading,
-      lead: L.s.personalitiesIndexLead(n.p),
-      groups: personalityGroups
+      description: L.s.personalitiesIndexDesc(n.p)
     })
   ];
-}
-
-// ── CSS das páginas (tokens do app + estilos próprios) ─────────────────────
-function buildCss() {
-  const tokens = readFileSync(join(ROOT, 'src/styles/tokens.css'), 'utf8')
-    .replace(/#root\s*{[^}]*}/, '');
-  return `${tokens}
-/* ── páginas estáticas (geradas por scripts/generate-pages.mjs) ── */
-.page-shell{position:relative;z-index:1;display:flex;flex-direction:column;min-height:100dvh;width:min(940px,calc(100% - 48px));margin:0 auto}
-.site-header{display:flex;align-items:center;justify-content:space-between;padding:24px 0 14px;flex-shrink:0}
-.brand-lockup{display:inline-flex;align-items:baseline;font-family:var(--font-display);font-size:1.25rem;font-weight:800;letter-spacing:-.04em}
-.brand-num{background:var(--grad-brand);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
-.brand-word{color:var(--ink-950)}
-.home-nav{display:inline-flex;gap:6px;padding:5px;border:1px solid var(--line);border-radius:var(--radius-lg);background:var(--paper);box-shadow:var(--shadow-xs)}
-.home-nav a{display:inline-flex;align-items:center;min-height:34px;padding:0 12px;border-radius:var(--radius-md);color:var(--text-muted);font-size:.82rem;font-weight:700;transition:color var(--dur-base) var(--ease-out),background var(--dur-base) var(--ease-out)}
-.home-nav a:hover{color:var(--text-strong);background:var(--ink-50)}
-.page-main{flex:1;display:flex;flex-direction:column;gap:clamp(28px,4vw,44px);padding:10px 0 40px}
-.crumbs{display:flex;flex-wrap:wrap;align-items:center;gap:8px;color:var(--text-soft);font-size:.8rem;font-weight:600}
-.crumbs a{color:var(--text-muted)}
-.crumbs a:hover{color:var(--accent-deep)}
-.crumbs span:last-child{color:var(--text-strong)}
-.entity-hero{display:flex;flex-direction:column;gap:16px}
-.entity-hero.has-figure{flex-direction:row;align-items:flex-start;justify-content:space-between;gap:clamp(20px,4vw,44px)}
-.entity-intro{display:flex;flex-direction:column;gap:16px;min-width:0}
-.entity-hero h1{font-size:clamp(2rem,3.6vw,3.2rem);line-height:1.02;letter-spacing:-.04em;font-weight:700}
-.intro-eyebrow{display:inline-flex;align-items:center;gap:10px;width:fit-content;padding:8px 16px 8px 14px;border-radius:var(--radius-pill);background:var(--paper);border:1px solid var(--line);box-shadow:var(--shadow-xs);font-size:.74rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
-.intro-eyebrow::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 4px rgba(34,197,94,.18)}
-.intro-lead{margin:0;max-width:64ch;color:var(--text-muted);font-size:clamp(1rem,.4vw + .92rem,1.1rem);line-height:1.6}
-.intro-meta{display:flex;flex-wrap:wrap;align-items:center;gap:10px}
-.intro-meta-item{display:inline-flex;align-items:center;gap:8px;min-height:32px;padding:0 12px;border:1px solid var(--line);border-radius:var(--radius-md);background:var(--paper);color:var(--text-muted);font-size:.82rem;font-weight:600}
-.entity-figure{flex-shrink:0;display:flex;flex-direction:column;gap:6px;margin:0}
-.entity-figure img{display:block;width:220px;height:auto;border-radius:var(--radius-lg);border:1px solid var(--line-strong);box-shadow:var(--shadow-md);background:var(--paper)}
-.entity-figure.is-portrait img{object-fit:cover;aspect-ratio:3/4}
-.entity-figure figcaption{color:var(--text-soft);font-size:.7rem;text-align:right}
-.entity-figure figcaption a:hover{color:var(--text-muted)}
-.page-section{display:flex;flex-direction:column;gap:16px}
-.page-section h2{font-size:clamp(1.3rem,2vw,1.7rem);letter-spacing:-.025em}
-.section-lead{margin:0;color:var(--text-muted);font-size:.95rem;max-width:70ch}
-.axis-rows{display:flex;flex-direction:column;gap:12px}
-.axis-row{display:flex;flex-direction:column;gap:16px;padding:18px clamp(16px,2vw,24px);background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow-xs);transition:border-color var(--dur-base) var(--ease-out),box-shadow var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring)}
-.axis-row:hover{border-color:var(--line-strong);box-shadow:var(--shadow-sm);transform:translateY(-1px)}
-.axis-row-head{display:flex;align-items:center;justify-content:space-between;gap:12px}
-.axis-row-id{display:inline-flex;align-items:center;gap:10px;min-width:0}
-.axis-row-id h3{font-family:var(--font-display);font-size:clamp(.98rem,.6vw + .8rem,1.18rem);font-weight:700;letter-spacing:-.015em;color:var(--text-strong);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.axis-lean{flex-shrink:0;display:inline-flex;align-items:center;gap:6px;padding:5px 12px;border-radius:var(--radius-pill);background:color-mix(in srgb,var(--axis-dom,var(--accent)) 14%,var(--paper));color:color-mix(in srgb,var(--axis-dom,var(--accent)) 68%,var(--ink-950));border:1px solid color-mix(in srgb,var(--axis-dom,var(--accent)) 26%,transparent);font-size:.72rem;font-weight:700;white-space:nowrap}
-.axis-lean::before{content:"";width:6px;height:6px;border-radius:50%;background:var(--axis-dom,var(--accent))}
-.axis-lean[data-balanced="true"]{background:var(--ink-50);color:var(--text-muted);border-color:var(--line)}
-.axis-lean[data-balanced="true"]::before{background:var(--ink-400)}
-.axis-meter{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2.1fr) minmax(0,1fr);grid-template-areas:"lpole track rpole";align-items:center;gap:clamp(10px,1.6vw,18px)}
-.axis-pole{display:inline-flex;align-items:center;gap:9px;min-width:0}
-.axis-pole[data-side="left"]{grid-area:lpole}
-.axis-pole[data-side="right"]{grid-area:rpole;justify-content:flex-end}
-.axis-pole-text{display:flex;flex-direction:column;gap:1px;min-width:0}
-.axis-pole[data-side="right"] .axis-pole-text{align-items:flex-end;text-align:right}
-.axis-pole-name{font-size:.78rem;font-weight:600;line-height:1.2;color:var(--text-muted);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
-.axis-pole-value{font-family:var(--font-display);font-size:.84rem;font-weight:700;color:var(--text-soft);font-variant-numeric:tabular-nums;letter-spacing:-.01em}
-.axis-pole.is-active .axis-pole-name{color:var(--text-strong)}
-.axis-pole.is-active .axis-pole-value{color:color-mix(in srgb,var(--pole) 70%,var(--ink-950))}
-.axis-track{grid-area:track;position:relative;height:10px;border-radius:var(--radius-pill);background:var(--ink-100);box-shadow:inset 0 1px 2px rgba(11,16,32,.07)}
-.axis-track-center{position:absolute;top:-4px;bottom:-4px;left:50%;width:2px;transform:translateX(-50%);background:repeating-linear-gradient(var(--ink-300) 0 3px,transparent 3px 6px);border-radius:2px}
-.axis-track-fill{position:absolute;top:0;bottom:0;background:linear-gradient(135deg,color-mix(in srgb,var(--axis-dom,var(--accent)) 82%,white) 0%,var(--axis-dom,var(--accent)) 100%);border-radius:var(--radius-pill);box-shadow:0 0 12px -2px color-mix(in srgb,var(--axis-dom,var(--accent)) 55%,transparent)}
-.axis-track-thumb{position:absolute;top:50%;width:16px;height:16px;transform:translate(-50%,-50%);border-radius:50%;background:var(--paper);border:3px solid var(--axis-dom,var(--accent));box-shadow:0 2px 7px rgba(11,16,32,.22);z-index:1}
-.axis-track-thumb[data-balanced="true"]{border-color:var(--ink-400)}
-.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px}
-.related-card{display:flex;flex-direction:column;gap:8px;padding:16px;background:var(--paper);border:1px solid var(--line);border-radius:var(--radius-lg);box-shadow:var(--shadow-xs);transition:border-color var(--dur-base) var(--ease-out),box-shadow var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-spring)}
-.related-card:hover{border-color:var(--line-strong);box-shadow:var(--shadow-sm);transform:translateY(-2px)}
-.card-eyebrow{color:var(--accent-deep);font-size:.68rem;font-weight:800;letter-spacing:.06em;text-transform:uppercase}
-.card-title{font-family:var(--font-display);font-size:1rem;font-weight:700;letter-spacing:-.02em;color:var(--text-strong)}
-.card-desc{color:var(--text-muted);font-size:.82rem;line-height:1.5}
-.cta-panel{display:flex;flex-direction:column;align-items:flex-start;gap:12px;padding:clamp(22px,3vw,34px);background:var(--paper);border:1px solid var(--line-strong);border-radius:var(--radius-xl);box-shadow:var(--shadow-md)}
-.cta-panel h2{font-size:clamp(1.25rem,2vw,1.6rem);letter-spacing:-.03em}
-.cta-panel p{margin:0;color:var(--text-muted);max-width:56ch}
-.primary-button{position:relative;display:inline-flex;align-items:center;justify-content:center;gap:10px;height:44px;padding:0 18px;border:1px solid var(--accent);border-radius:var(--radius-md);background:var(--accent);color:#fff;font-size:.92rem;font-weight:700;box-shadow:var(--shadow-xs);transition:transform var(--dur-base) var(--ease-spring),box-shadow var(--dur-base) var(--ease-out)}
-.primary-button:hover{transform:translateY(-1px);box-shadow:var(--shadow-accent)}
-.hero-cta{overflow:hidden;box-shadow:0 16px 34px -18px rgba(34,197,94,.92),0 0 0 5px rgba(34,197,94,.10)}
-.btn-arrow{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
-.page-footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px;padding:22px 0 30px;border-top:1px solid var(--line);color:var(--text-soft);font-size:.8rem}
-.page-footer nav{display:flex;flex-wrap:wrap;gap:16px}
-.page-footer nav a{color:var(--text-muted);font-weight:600}
-.page-footer nav a:hover{color:var(--accent-deep)}
-.page-footer p{margin:0;width:100%}
-@media (max-width:760px){
-.page-shell{width:calc(100% - 40px)}
-.site-header{padding:14px 0 10px}
-.home-nav a{padding:0 9px;font-size:.76rem}
-.entity-hero.has-figure{flex-direction:column-reverse}
-.entity-figure img{width:160px}
-.axis-meter{grid-template-columns:1fr 1fr;grid-template-areas:"lpole rpole" "track track";gap:12px 14px}
-}`;
 }
 
 // ── Montagem por locale ─────────────────────────────────────────────────────
@@ -726,6 +191,7 @@ function buildLocaleContext(locale) {
   const countries = overlay(baseCountries, locale, 'countries.json');
   const personalities = overlay(basePersonalities, locale, 'personalities.json');
   return {
+    locale,
     s: STR[locale],
     axes: overlay(baseAxes, locale, 'axes.json'),
     ideologies,
@@ -990,18 +456,29 @@ function buildElectionPages(index) {
 const allPaths = [];
 for (const locale of LOCALES) {
   const L = buildLocaleContext(locale);
+  const profileCtx = {
+    locale,
+    site: SITE,
+    gaSnippet: GOOGLE_ANALYTICS_SNIPPET,
+    escapeHtml,
+    truncate,
+    profiles: { ideology: ideologyProfiles, country: countryProfiles, personality: personalityProfiles }
+  };
   const pages = [
     ...buildIndexes(L),
-    ...L.ideologies.map((i) => ideologyPage(L, i)),
-    ...L.countries.map((c) => countryPage(L, c)),
-    ...L.personalities.map((p) => personalityPage(L, p))
+    ...L.ideologies.map((i) => ideologyPage(L, i, profileCtx)),
+    ...L.countries.map((c) => countryPage(L, c, profileCtx)),
+    ...L.personalities.map((p) => personalityPage(L, p, profileCtx))
   ];
   for (const page of pages) allPaths.push(writePage(L.s.prefix, page));
 }
 
 buildHomeVariants();
 
-writeFileSync(join(DIST, 'pages.css'), buildCss());
+writeFileSync(join(DIST, 'ideologies.css'), IDEOLOGIES_CSS);
+writeFileSync(join(DIST, 'personalities.css'), PERSONALITIES_CSS);
+writeFileSync(join(DIST, 'profile.css'), PROFILE_CSS + COUNTRY_PAGE_CSS);
+writeFileSync(join(DIST, 'countries.css'), COUNTRIES_CSS);
 
 const today = new Date().toISOString().slice(0, 10);
 const sitemapUrls = ['/', '/en', '/eleicoes2026', ...allPaths]
@@ -1014,4 +491,4 @@ writeFileSync(
 
 writeFileSync(join(DIST, 'robots.txt'), `User-agent: *\nAllow: /\n\nSitemap: ${SITE}/sitemap.xml\n`);
 
-console.log(`Geradas ${allPaths.length} páginas (${LOCALES.join(', ')}) + sitemap.xml + robots.txt + pages.css em dist/`);
+console.log(`Geradas ${allPaths.length} páginas (${LOCALES.join(', ')}) + sitemap.xml + robots.txt + ideologies.css + personalities.css + profile.css + countries.css em dist/`);
