@@ -5,6 +5,8 @@
 import { ARROW, CATEGORY_KEY, SPECTRUM } from './ideologies-index.mjs';
 import { AREA_LABELS, catalogHead, initials } from './personalities-index.mjs';
 import { dimensionMatches, rank } from './profile-match.mjs';
+import { AXIS_EXPLANATIONS } from './app-strings.mjs';
+import { poleSprite, poleUse } from './pole-icons.mjs';
 
 const STR = {
   pt: {
@@ -101,22 +103,6 @@ const STR = {
   }
 };
 
-// Ícones de polo (esquerdo, direito) por eixo — os mesmos do mockup/app.
-const POLE_ICONS = {
-  estrutura: ['<path d="M4 10h16"/><path d="M6 10v8"/><path d="M10 10v8"/><path d="M14 10v8"/><path d="M18 10v8"/><path d="M3 18h18"/><path d="m12 4 8 4H4l8-4Z"/>', '<path d="M6 8h12v12H6z"/><path d="M9 8V5h6v3"/><path d="M9 12h6"/><path d="M9 16h6"/>'],
-  representacao: ['<path d="M8 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M16 11a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M3 20a5 5 0 0 1 10 0"/><path d="M11 20a5 5 0 0 1 10 0"/>', '<path d="m4 9 4 3 4-7 4 7 4-3-2 10H6L4 9Z"/><path d="M8 19h8"/>'],
-  poder: ['<path d="M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-5"/>', '<path d="M12 3v18"/><path d="M6 9h12"/><path d="M8 21h8"/><path d="M5 13c1.5 2 4.5 2 6 0"/><path d="M13 13c1.5 2 4.5 2 6 0"/>'],
-  imigracao: ['<path d="M7 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M2 19a5 5 0 0 1 10 0"/><path d="M15 5h5"/><path d="M15 10h5"/><path d="M15 15h5"/>', '<path d="M8 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z"/><path d="M3 20a5 5 0 0 1 10 0"/><path d="M14 8h6"/><path d="m17 5 3 3-3 3"/><path d="M15 16h6"/><path d="m18 13 3 3-3 3"/>'],
-  diplomacia: ['<path d="M5 20V4"/><path d="M5 5h11l-2 4 2 4H5"/>', '<path d="M6 19c6-2 10-6 12-13"/><path d="M7 8c3 1 5 3 6 6"/><path d="M5 13c4 0 7 1 10 4"/><path d="M18 6c-3-1-6-1-9 1"/>'],
-  intervencao: ['<path d="M7 12h10"/><path d="m10 8-4 4 4 4"/><path d="M18 5v14"/>', '<path d="M6 20V4"/><path d="M6 5h11l-2 4 2 4H6"/><path d="M4 20h8"/>'],
-  economia: ['<path d="M5 11h14"/><path d="M7 11v8"/><path d="M17 11v8"/><path d="M12 5v14"/><path d="M4 19h16"/>', '<path d="M12 3v18"/><path d="M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5"/>'],
-  controle: ['<path d="M4 7h16"/><path d="M4 12h16"/><path d="M4 17h16"/><path d="M9 5v4"/><path d="M15 10v4"/><path d="M11 15v4"/>', '<path d="M12 3v18"/><path d="M17 7.5C16 5.8 14.3 5 12 5 9.2 5 7.5 6.3 7.5 8.5S9 12 12 12s4.5 1.2 4.5 3.5S14.8 19 12 19c-2.3 0-4-.8-5-2.5"/>'],
-  comercio: ['<path d="M12 3 5 6v5c0 4.2 2.7 7.9 7 10 4.3-2.1 7-5.8 7-10V6l-7-3Z"/><path d="m9 12 2 2 4-5"/>', '<path d="M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Z"/><path d="M3 12h18"/><path d="M12 3c2.4 2.5 3.6 5.5 3.6 9S14.4 18.5 12 21"/><path d="M12 3c-2.4 2.5-3.6 5.5-3.6 9s1.2 6.5 3.6 9"/>'],
-  religiao: ['<path d="M12 4v16"/><path d="M4 12h16"/><path d="M6 18 18 6"/>', '<path d="M12 3v18"/><path d="M7 8h10"/><path d="M6 20h12"/>'],
-  moral: ['<path d="M20 8c0 6-8 11-8 11S4 14 4 8a4 4 0 0 1 7-2.7A4 4 0 0 1 20 8Z"/>', '<path d="M7 4h10"/><path d="M8 20h8"/><path d="M9 4c0 5 6 5 6 10 0 2-1.3 4-3 6-1.7-2-3-4-3-6 0-5 6-5 6-10"/>'],
-  tecnologia: ['<path d="M8 8h8v8H8z"/><path d="M4 10h4"/><path d="M4 14h4"/><path d="M16 10h4"/><path d="M16 14h4"/><path d="M10 4v4"/><path d="M14 4v4"/><path d="M10 16v4"/><path d="M14 16v4"/>', '<path d="M5 19c8 0 13-5 14-14-7 1-13 5-14 14Z"/><path d="M5 19c4-5 8-8 14-14"/>']
-};
-
 const ARR = '<svg class="arr" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>';
 const pct = (x) => Math.round(x);
 
@@ -173,22 +159,41 @@ export function mbarHtml(d, strong, medianLabel, youLabel, esc) {
   return `<div class="mbar" aria-hidden="true"><span class="mtrack"></span><span class="mmed" style="left:${d.median.toFixed(1)}%"></span><span class="myou${strong ? ' strong' : ''}" style="left:${d.left.toFixed(1)}%"></span></div><div class="mlab"><span>${esc(medianLabel)} ${pct(d.median)}</span><b>${esc(youLabel)} ${pct(d.left)}</b></div>`;
 }
 
-export function axisRowsHtml(L, vector, esc) {
+const INFO_ICON = '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" fill-rule="evenodd" d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10s-4.477 10-10 10m0-2a8 8 0 1 0 0-16a8 8 0 0 0 0 16m-1-4h2v2h-2zm0-1.992s2-.008 2 0C13 13.006 16 12 16 10c0-2.21-1.773-4-3.991-4A4 4 0 0 0 8 10h2c0-1.1.9-2 2-2s2 .9 2 2c0 .9-3 2.367-3 4.008"/></svg>';
+const BALANCED_COLOR = '#9C988C';
+const AXIS_INFO = {
+  pt: { aria: (label) => `O que significa o eixo ${label}?`, close: 'Fechar' },
+  en: { aria: (label) => `What does the ${label} axis mean?`, close: 'Close' }
+};
+
+// Barras dos 12 eixos, iguais às da tela de resultados (AxesSection.tsx):
+// ícones de polo preenchidos, cinza quando equilibrado e helper "?" que abre
+// a explicação do eixo (texto do i18n do app).
+export function axisRowsHtml(L, vector, esc, locale) {
+  const info = AXIS_INFO[locale];
   return L.axes
     .map((axis) => {
       const left = Math.max(0, Math.min(100, vector[axis.id] ?? 50));
       const right = 100 - left;
-      const leansLeft = left >= 50;
       const dist = Math.abs(left - 50);
       const balanced = dist < 7.5;
-      const ac = leansLeft ? axis.leftColor : axis.rightColor;
-      const tag = balanced ? L.s.balanced : `${intensity(dist, L.s.intensity)} · ${leansLeft ? axis.leftPole : axis.rightPole}`;
+      const leftWins = !balanced && left > 50;
+      const rightWins = !balanced && !leftWins;
+      const ac = balanced ? BALANCED_COLOR : leftWins ? axis.leftColor : axis.rightColor;
+      const level = intensity(dist, L.s.intensity);
+      const pole = leftWins ? axis.leftPole : axis.rightPole;
+      const tag = balanced ? level : `${level} · ${pole}`;
+      const sheetTitle = balanced ? esc(level) : `<span>${pct(leftWins ? left : right)}%</span> ${esc(pole)}`;
       const fill = `<i style="width:${(dist * 2).toFixed(0)}%"></i>`;
-      const [iconL, iconR] = POLE_ICONS[axis.id] ?? ['', ''];
-      const ico = (paths) => `<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${paths}</svg>`;
-      return `<li class="axis-row" style="--ac:${ac};--al:${axis.leftColor};--ar:${axis.rightColor}"><div class="axis-row-head"><h3>${esc(axis.label)}</h3><span class="itag"><span class="idot"></span>${esc(tag)}</span></div><div class="axis-bar" role="img" aria-label="${esc(`${axis.label}: ${axis.leftPole} ${pct(left)}%, ${axis.rightPole} ${pct(right)}%`)}"><div class="pole left${leansLeft ? ' win' : ''}">${ico(iconL)}<span><b>${esc(axis.leftPole)}</b><em>${pct(left)}%</em></span></div><div class="atrack" aria-hidden="true"><div class="ahalf l">${leansLeft ? fill : ''}</div><div class="ahalf r">${leansLeft ? '' : fill}</div><span class="amid"></span><span class="adot" style="left:${right.toFixed(1)}%"></span></div><div class="pole right${leansLeft ? '' : ' win'}"><span><b>${esc(axis.rightPole)}</b><em>${pct(right)}%</em></span>${ico(iconR)}</div></div></li>`;
+      const helper = `<button class="axis-info" type="button" aria-label="${esc(info.aria(axis.label))}" data-label="${esc(axis.label)}" data-title="${esc(sheetTitle)}" data-text="${esc(AXIS_EXPLANATIONS[locale][axis.id] ?? '')}" data-ac="${ac}">${INFO_ICON}</button>`;
+      return `<li class="axis-row" style="--ac:${ac};--al:${axis.leftColor};--ar:${axis.rightColor}"><div class="axis-row-head"><div class="axis-title"><h3>${esc(axis.label)}</h3>${helper}</div><span class="itag"><span class="idot"></span>${esc(tag)}</span></div><div class="axis-bar"><div class="pole left${leftWins ? ' win' : ''}">${poleUse(axis.id, 'left', ' class="pico"')}<span><b>${esc(axis.leftPole)}</b><em>${pct(left)}%</em></span></div><div class="atrack" role="img" aria-label="${esc(`${axis.label}: ${axis.leftPole} ${pct(left)}%, ${axis.rightPole} ${pct(right)}%`)}"><div class="ahalf l">${leftWins ? fill : ''}</div><div class="ahalf r">${rightWins ? fill : ''}</div><span class="amid"></span><span class="adot" style="left:${right.toFixed(1)}%"></span></div><div class="pole right${rightWins ? ' win' : ''}"><span><b>${esc(axis.rightPole)}</b><em>${pct(right)}%</em></span>${poleUse(axis.id, 'right', ' class="pico"')}</div></div></li>`;
     })
     .join('');
+}
+
+// Janela da explicação do eixo (uma por página, preenchida pelo PAGE_SCRIPT).
+export function axisSheetHtml(locale) {
+  return `<div class="sheet-backdrop" id="axis-sheet" hidden><div class="sheet" role="dialog" aria-modal="true" aria-labelledby="axis-sheet-title"><span class="sheet-handle" aria-hidden="true"></span><button class="sheet-close" type="button" aria-label="${AXIS_INFO[locale].close}"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button><p class="sheet-label"></p><h3 id="axis-sheet-title"></h3><p class="sheet-text"></p></div></div>`;
 }
 
 export function personalityPage(L, personality, ctx) {
@@ -236,7 +241,7 @@ export function personalityPage(L, personality, ctx) {
 
   const { rare, common, rarePct, rarePole } = distinctive(L.axes, vector, profiles.personality);
   const mbar = (d, strong) => mbarHtml(d, strong, t.median, name, esc);
-  const axisRows = axisRowsHtml(L, vector, esc);
+  const axisRows = axisRowsHtml(L, vector, esc, locale);
 
   const catVars = (category) => {
     const s = spectrumOf(category);
@@ -318,6 +323,7 @@ export function personalityPage(L, personality, ctx) {
 <html lang="${L.s.htmlLang}">
   ${catalogHead(L, { site, basePath, title: L.s.personalityTitle(name), description, ogType: 'profile', ogImage: personality.imagePath, css: '/profile.css', jsonLd, gaSnippet, escapeHtml })}
   <body style="--cat:${spec.c};--cat-bg:${spec.cb}">
+${poleSprite(L.axes)}
 <a class="skip" href="#main">${esc(t.skip)}</a>
 <header class="nav"><div class="wrap">
   <a class="logo" href="${home}" aria-label="${esc(t.homeAria)}"><b>12</b><span>axes</span></a>
@@ -378,6 +384,7 @@ export function personalityPage(L, personality, ctx) {
   <aside class="panel pcta"><div><h2>${esc(t.ctaTitle)}</h2><p>${esc(t.ctaText(name))}</p></div><a class="btn btn-primary" href="${home}">${esc(t.takeTheTest)} ${ARR}</a></aside>
 </div></main>
 <footer class="foot"><div class="wrap"><a class="logo" href="${home}"><b>12</b><span>axes</span></a><p>${esc(t.footer)} · <a href="${prefix === '' ? '/en' : ''}${basePath}">${prefix === '' ? 'English' : 'Português'}</a></p></div></footer>
+${axisSheetHtml(locale)}
 <script>
 ${PAGE_SCRIPT}</script>
   </body>
@@ -398,6 +405,14 @@ const h=location.hash.slice(1);if(tabs.some(t=>t.getAttribute('aria-controls')==
 document.querySelectorAll('.ctabs').forEach(g=>{const bs=[...g.querySelectorAll('button')];bs.forEach(b=>b.addEventListener('click',()=>{bs.forEach(x=>{const on=x===b;x.setAttribute('aria-selected',on);document.getElementById(x.getAttribute('aria-controls')).hidden=!on})}))});
 function fallback(im){const s=document.createElement('span');s.className=im.className+' ini'+(im.closest('.ph-img')?' big':'');s.textContent=im.dataset.i||'';s.setAttribute('aria-hidden','true');im.replaceWith(s)}
 document.querySelectorAll('img[data-i]').forEach(im=>{if(im.complete&&!im.naturalWidth)fallback(im);else im.addEventListener('error',()=>fallback(im))});
+const sheet=document.getElementById('axis-sheet');
+if(sheet){const box=sheet.querySelector('.sheet');let opener=null;
+  const close=()=>{sheet.hidden=true;document.body.style.overflow='';if(opener)opener.focus()};
+  document.querySelectorAll('.axis-info').forEach(b=>b.addEventListener('click',()=>{opener=b;box.style.setProperty('--ac',b.dataset.ac);
+    sheet.querySelector('.sheet-label').textContent=b.dataset.label;sheet.querySelector('h3').innerHTML=b.dataset.title;sheet.querySelector('.sheet-text').textContent=b.dataset.text;
+    sheet.hidden=false;document.body.style.overflow='hidden';sheet.querySelector('.sheet-close').focus()}));
+  sheet.addEventListener('click',e=>{if(e.target===sheet)close()});sheet.querySelector('.sheet-close').addEventListener('click',close);
+  document.addEventListener('keydown',e=>{if(e.key==='Escape'&&!sheet.hidden)close()})}
 `;
 
 // CSS comum às páginas de perfil (personalidade e ideologia).
@@ -476,18 +491,22 @@ h3{font-size:20px;letter-spacing:-.01em;line-height:1.25}
 .axis-row:last-child{border-bottom:0}
 .axis-row-head{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-bottom:12px}
 .axis-row-head h3{font-size:19px}
+.axis-title{display:flex;align-items:center;gap:6px;min-width:0}
+.axis-info{display:inline-grid;place-items:center;width:28px;height:28px;margin:-4px 0;padding:0;border:0;border-radius:50%;background:none;color:var(--texto-suave);cursor:pointer;flex:none;transition:color .15s ease,background .15s ease}
+.axis-info svg{width:18px;height:18px}
+.axis-info:hover{color:var(--tinta);background:var(--borda)}
 .itag{display:inline-flex;align-items:center;gap:8px;font-size:12.5px;font-weight:600;padding:5px 12px;border-radius:999px;background:color-mix(in srgb,var(--ac) 14%,var(--superficie));color:var(--tinta);white-space:nowrap}
 .idot{width:8px;height:8px;border-radius:50%;background:var(--ac)}
 .axis-bar{display:grid;grid-template-columns:200px 1fr 200px;gap:18px;align-items:center}
 .pole{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:14px;border:1px solid var(--borda);background:var(--superficie);min-width:0}
 .pole.right{justify-content:flex-end;text-align:right}
-.pole .ico{width:18px;height:18px;color:var(--texto-suave);flex:none}
+.pole .pico{width:18px;height:18px;color:var(--texto-suave);flex:none;fill:currentColor}
 .pole span{display:flex;flex-direction:column;line-height:1.25;min-width:0}
 .pole b{font-size:13.5px;font-weight:600}
 .pole em{font-style:normal;font-size:12.5px;color:var(--texto-suave)}
 .pole.left.win{--pc:var(--al)}.pole.right.win{--pc:var(--ar)}
 .pole.win{background:color-mix(in srgb,var(--pc) 13%,var(--superficie));border-color:color-mix(in srgb,var(--pc) 45%,var(--superficie))}
-.pole.win .ico{color:var(--tinta)}
+.pole.win .pico{color:var(--tinta)}
 .pole.win em{color:var(--tinta);font-weight:600}
 .atrack{position:relative;display:flex;height:8px;background:var(--borda);border-radius:8px}
 .ahalf{flex:1;display:flex}.ahalf.l{justify-content:flex-end}
@@ -585,6 +604,7 @@ a.match:hover,a.dim-row:hover,a.near:hover,.ocard:hover,a.far-row:hover,a.distan
 .phrase figcaption{margin-top:18px;font-size:15px;color:var(--cat)}
 .refm{border-top-color:var(--tinta)}
 .flagbig,.flagimg{height:auto!important;object-fit:contain;align-self:start}
+.dim-row .flagimg,.dim-row .flagimg.ini{align-self:center}
 @media (max-width:860px){.ihero{grid-template-columns:1fr}.ih-txt{padding:24px}}
 @media (max-width:720px){.ih-txt{padding:22px 18px}.ih-refs{padding:16px}.phrase{grid-template-columns:1fr;gap:4px;padding:28px 20px}.phrase .q{font-size:80px;line-height:.6}}
 @media (max-width:860px){
@@ -602,6 +622,26 @@ a.match:hover,a.dim-row:hover,a.near:hover,.ocard:hover,a.far-row:hover,a.distan
   .axis-row-head{flex-wrap:wrap}.itag{white-space:normal}
   .pcta{flex-direction:column;align-items:flex-start}
   .nav .btn{padding:8px 14px;font-size:13px}
+}
+/* janela da explicação do eixo (igual à InfoSheet da tela de resultados) */
+.sheet-backdrop{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:24px;background:rgba(16,16,16,.42);animation:sheet-fade .2s ease}
+.sheet-backdrop[hidden]{display:none}
+.sheet{position:relative;width:min(460px,100%);max-height:calc(100dvh - 24px);overflow-y:auto;background:var(--superficie);border:1px solid var(--borda);border-radius:24px;padding:28px 28px 26px;box-shadow:0 24px 60px -24px rgba(16,16,16,.45);animation:sheet-pop .22s cubic-bezier(.2,.8,.2,1)}
+.sheet-handle{display:none}
+.sheet-close{position:absolute;top:14px;right:14px;width:36px;height:36px;display:grid;place-items:center;padding:0;border:1px solid var(--borda);border-radius:50%;background:var(--superficie);color:var(--tinta);cursor:pointer}
+.sheet-close svg{width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round}
+.sheet-label{margin:0 44px 4px 0;font-size:14px;color:var(--texto-suave)}
+.sheet h3{margin:0 44px 12px 0;font-size:24px;line-height:1.2}
+.sheet h3 span{color:var(--ac)}
+.sheet-text{margin:0;font-size:15.5px;line-height:1.6;color:var(--tinta)}
+@keyframes sheet-fade{from{opacity:0}}
+@keyframes sheet-pop{from{opacity:0;transform:translateY(12px) scale(.98)}}
+@keyframes sheet-up{from{transform:translateY(100%)}}
+@media (max-width:640px){
+  .sheet-backdrop{place-items:end stretch;padding:0}
+  .sheet{width:100%;border-radius:24px 24px 0 0;border-bottom:0;padding:14px 20px calc(24px + env(safe-area-inset-bottom));animation:sheet-up .28s cubic-bezier(.2,.8,.2,1)}
+  .sheet-handle{display:block;width:40px;height:4px;margin:0 auto 14px;border-radius:4px;background:var(--borda)}
+  .sheet-close{top:22px;right:16px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
 `;

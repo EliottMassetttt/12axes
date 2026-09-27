@@ -115,8 +115,8 @@ const STR = {
 
 export const ARROW = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>';
 
-// Um ícone por eixo: o do polo dominante, na cor do polo, com opacidade pela
-// intensidade (0.35 no centro até 1.0 no extremo).
+// Um ícone por eixo: o do polo dominante, na cor do card (--c), com opacidade
+// pela intensidade (0.35 no centro até 1.0 no extremo).
 export function dna(axes, vector, escapeHtml) {
   const icons = [];
   const titles = [];
@@ -125,16 +125,16 @@ export function dna(axes, vector, escapeHtml) {
     const leansLeft = left >= 50;
     const pct = leansLeft ? left : 100 - left;
     const opacity = 0.35 + (Math.abs(left - 50) / 50) * 0.65;
-    icons.push(poleUse(axis.id, leansLeft ? 'left' : 'right', ` style="color:${leansLeft ? axis.leftColor : axis.rightColor};opacity:${opacity.toFixed(2)}"`));
+    icons.push(poleUse(axis.id, leansLeft ? 'left' : 'right', ` style="opacity:${opacity.toFixed(2)}"`));
     titles.push(`${leansLeft ? axis.leftPole : axis.rightPole} ${Math.round(pct)}%`);
   }
   return `<span class="dna" title="${escapeHtml(titles.join(' · '))}" aria-hidden="true">${icons.join('')}</span>`;
 }
 
-// Legenda: os dois polos de cada eixo, com ícone e cor.
+// Legenda: os ícones dos dois polos de cada eixo.
 export function dnaLegend(axes, escapeHtml) {
   return axes
-    .map((a) => `<li>${poleUse(a.id, 'left', ` style="color:${a.leftColor}"`)}${poleUse(a.id, 'right', ` style="color:${a.rightColor}"`)}${escapeHtml(a.label)}</li>`)
+    .map((a) => `<li>${poleUse(a.id, 'left')}${poleUse(a.id, 'right')}${escapeHtml(a.label)}</li>`)
     .join('');
 }
 
@@ -378,7 +378,7 @@ main{padding-bottom:40px}
 .ic-foot{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:6px;padding-top:12px;border-top:1px solid var(--borda)}
 .dna{display:flex;gap:5px;flex-wrap:wrap}
 .dna svg,.legend svg{fill:currentColor;stroke:none;display:block}
-.dna svg{width:14px;height:14px}
+.dna svg{width:14px;height:14px;color:var(--c)}
 .go{display:inline-flex;align-items:center;gap:6px;font-size:13px;font-weight:600;color:var(--c);white-space:nowrap}
 .go svg{width:15px;height:15px;transition:transform .15s ease}
 .ic a:hover .go svg{transform:translateX(3px)}
@@ -389,7 +389,7 @@ mark{background:var(--cb);color:inherit;border-radius:3px;padding:0 1px}
 .empty.show{display:block}
 .legend{margin-top:18px;display:flex;gap:10px 18px;flex-wrap:wrap;font-size:12.5px;color:var(--suave);list-style:none}
 .legend li{display:flex;align-items:center;gap:4px}
-.legend svg{width:13px;height:13px}
+.legend svg{width:13px;height:13px;color:var(--tinta)}
 .legend li svg+svg{margin-right:5px}
 .dna-note{font-size:13px;color:var(--suave);margin-top:28px}
 .dna-note b{color:var(--tinta)}

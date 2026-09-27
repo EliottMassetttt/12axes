@@ -3,7 +3,8 @@
 // vetor do país é comparado com ideologias, personalidades e outros países
 // pela fórmula do backend (profile-match.mjs).
 import { AREA_LABELS, catalogHead, initials } from './personalities-index.mjs';
-import { PAGE_SCRIPT, axisRowsHtml, distinctive, mbarHtml, spectrumOf } from './personality-page.mjs';
+import { PAGE_SCRIPT, axisRowsHtml, axisSheetHtml, distinctive, mbarHtml, spectrumOf } from './personality-page.mjs';
+import { poleSprite } from './pole-icons.mjs';
 import { dimensionMatches, rank } from './profile-match.mjs';
 
 const STR = {
@@ -239,6 +240,7 @@ export function countryPage(L, country, ctx) {
 <html lang="${L.s.htmlLang}">
   ${catalogHead(L, { site, basePath, title: L.s.countryTitle(name), description, ogType: 'article', ogImage: country.flagPath, css: '/profile.css', jsonLd, gaSnippet, escapeHtml })}
   <body style="--cat:${spec.c};--cat-bg:${spec.cb}">
+${poleSprite(L.axes)}
 <a class="skip" href="#main">${esc(t.skip)}</a>
 <header class="nav"><div class="wrap">
   <a class="logo" href="${home}" aria-label="${esc(t.homeAria)}"><b>12</b><span>axes</span></a>
@@ -270,7 +272,7 @@ export function countryPage(L, country, ctx) {
   </div></div>
 
   <section class="tp" id="${tabIds.axes}" role="tabpanel" aria-labelledby="t-${tabIds.axes}">
-    <div class="panel"><p class="eyebrow">${esc(t.axesEyebrow)}</p><h2>${esc(t.axesTitle)}</h2><ul class="axes-list">${axisRowsHtml(L, vector, esc)}</ul></div>
+    <div class="panel"><p class="eyebrow">${esc(t.axesEyebrow)}</p><h2>${esc(t.axesTitle)}</h2><ul class="axes-list">${axisRowsHtml(L, vector, esc, locale)}</ul></div>
     <div class="panel"><h2>${esc(t.distTitle(name))}</h2><div class="dist">
       <article class="dcard strong"><span class="tag tag-cat">${esc(t.rareTag)}</span><h3>${esc(rare.axis.label)}</h3>
         <p>${esc(t.rareText(rarePole, rarePct, rare.values.length))}</p>${mbar(rare, true)}
@@ -299,6 +301,7 @@ export function countryPage(L, country, ctx) {
   <aside class="panel pcta"><div><h2>${esc(t.ctaTitle)}</h2><p>${esc(t.ctaText(name, L.countries.length - 1))}</p></div><a class="btn btn-primary" href="${home}">${esc(t.takeTheTest)} ${ARR}</a></aside>
 </div></main>
 <footer class="foot"><div class="wrap"><a class="logo" href="${home}"><b>12</b><span>axes</span></a><p>${esc(t.footer)} · <a href="${prefix === '' ? '/en' : ''}${basePath}">${prefix === '' ? 'English' : 'Português'}</a></p></div></footer>
+${axisSheetHtml(locale)}
 <script>
 ${PAGE_SCRIPT}</script>
   </body>
