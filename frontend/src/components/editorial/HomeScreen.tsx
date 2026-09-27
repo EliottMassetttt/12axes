@@ -3,6 +3,7 @@ import { t } from '../../i18n';
 import type { ExampleResult } from '../../data/exampleResult';
 import type { Axis, AxisResult, QuizVariant } from '../../types/quiz';
 import { AxisIcon, PoleIcon } from '../AxisIcon';
+import { OpenSourceSection } from '../OpenSourceSection';
 import { SupportSection } from '../SupportSection';
 import { resolveCountryFlagSrc } from '../../utils/countryFlags';
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
@@ -282,6 +283,7 @@ export function HomeScreen({ example, axes, showBelowFold, onOpenChooser, onStar
           </section>
 
           <SupportSection variant="home" />
+          <OpenSourceSection />
         </>
       )}
     </div>

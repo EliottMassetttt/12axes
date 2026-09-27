@@ -257,6 +257,13 @@ interface Strings {
   shareFooterUrl: string;
   supportEyebrow: string;
   supportTitle: string;
+  ossEyebrow: string;
+  ossTitle: string;
+  ossLead: string;
+  ossCards: { title: string; text: string }[];
+  ossBarText: string;
+  ossGithubCta: string;
+  ossIssueCta: string;
   supportTitleEm: string;
   supportLead: string;
   supportPrivacyNote: string;
@@ -670,6 +677,18 @@ const pt: Strings = {
   shareFooterUrl: '12AXES.VERCEL.APP',
   supportEyebrow: 'Apoie o projeto',
   supportTitle: '',
+  ossEyebrow: 'Código aberto',
+  ossTitle: 'Um projeto independente e transparente',
+  ossLead: 'Você não precisa confiar na nossa palavra. O código do 12 Axes é público: dá para ver como cada resposta é pontuada, como a compatibilidade é calculada e de onde vêm os perfis.',
+  ossCards: [
+    { title: 'Independente', text: 'Sem vínculo com partidos, governos ou campanhas. Ninguém paga para aparecer no seu resultado.' },
+    { title: 'Auditável', text: 'A pontuação das respostas e o cálculo de compatibilidade estão no código, sem caixa-preta.' },
+    { title: 'Verificável', text: 'Perguntas, ideologias, países e personalidades ficam em arquivos versionados, com histórico público.' },
+    { title: 'Colaborativo', text: 'Achou uma pergunta enviesada ou um perfil impreciso? Abra uma issue ou envie um pull request.' }
+  ],
+  ossBarText: 'Leia o código, audite os dados e contribua pelo GitHub.',
+  ossGithubCta: 'Ver no GitHub',
+  ossIssueCta: 'Sugerir melhoria',
   supportTitleEm: 'Apoie',
   supportLead:
     'O 12 Axes é independente e gratuito. Se o teste te ajudou a entender melhor sua ideologia política, considere fazer uma doação via Pix ou criptomoedas para manter o projeto no ar.',
@@ -1124,6 +1143,18 @@ const en: Strings = {
   shareFooterUrl: '12AXES.VERCEL.APP',
   supportEyebrow: 'Support the project',
   supportTitle: '',
+  ossEyebrow: 'Open source',
+  ossTitle: 'An independent, transparent project',
+  ossLead: "You don't have to take our word for it. The 12 Axes code is public: you can see how every answer is scored, how compatibility is calculated and where the profiles come from.",
+  ossCards: [
+    { title: 'Independent', text: 'No ties to parties, governments or campaigns. Nobody pays to appear in your result.' },
+    { title: 'Auditable', text: 'Answer scoring and the compatibility calculation live in the code, with no black box.' },
+    { title: 'Verifiable', text: 'Questions, ideologies, countries and personalities are stored in versioned files with a public history.' },
+    { title: 'Collaborative', text: 'Found a biased question or an inaccurate profile? Open an issue or send a pull request.' }
+  ],
+  ossBarText: 'Read the code, audit the data and contribute on GitHub.',
+  ossGithubCta: 'View on GitHub',
+  ossIssueCta: 'Suggest an improvement',
   supportTitleEm: 'Support',
   supportLead:
     '12 Axes is independent and free. If the quiz helped you better understand your political ideology, consider donating via Pix or crypto to help keep the project running.',
