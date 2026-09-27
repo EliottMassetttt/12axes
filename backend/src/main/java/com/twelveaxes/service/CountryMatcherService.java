@@ -16,6 +16,7 @@ public class CountryMatcherService {
 
     private final QuizDataService dataService;
     private final ProfileMatchScorer profileMatchScorer;
+    private final RequestMemo<List<Object>, List<CountryMatch>> rankingMemo = new RequestMemo<>();
 
     public CountryMatcherService(QuizDataService dataService, ProfileMatchScorer profileMatchScorer) {
         this.dataService = dataService;
@@ -70,6 +71,11 @@ public class CountryMatcherService {
 
     // Ranking completo do catalogo, do mais ao menos compativel.
     private List<CountryMatch> rankAll(List<AxisResult> axisResults, String lang) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
+                () -> computeRanking(axisResults, lang));
+    }
+
+    private List<CountryMatch> computeRanking(List<AxisResult> axisResults, String lang) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<CountryCandidate> byCompatibility =
@@ -83,8 +89,9 @@ public class CountryMatcherService {
                 .map(CountryCandidate::compatibility)
                 .toList();
 
-        return candidates.stream()
-                .map(candidate -> withPercentile(candidate, catalogScores))
+        double[] percentiles = profileMatchScorer.percentiles(catalogScores);
+        return java.util.stream.IntStream.range(0, candidates.size())
+                .mapToObj(i -> new CountryCandidate(candidates.get(i).country(), candidates.get(i).compatibility(), percentiles[i]))
                 .sorted(byCompatibility.thenComparing(byName))
                 .map(this::toMatch)
                 .toList();

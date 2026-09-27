@@ -589,3 +589,18 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-close-them{background:var(--superficie);z-index:1}
 .e-close-face{display:block;width:28px;height:28px;border-radius:50%;object-fit:cover}
 .e-close-poles{display:flex;justify-content:space-between;margin-top:12px;font-size:11.5px;color:var(--texto-suave)}
+/* a aba e renderizada no <body>, fora de .ed: precisa do mesmo box-sizing do tema */
+.e-axis-sheet-backdrop,.e-axis-sheet-backdrop *{box-sizing:border-box}
+.e-axis-sheet{max-width:100%;max-height:calc(100dvh - 24px);overflow-y:auto;overscroll-behavior:contain;overflow-wrap:anywhere}
+.e-person-sheet-head>div{flex:1}
+.e-close-head b{min-width:0}
+.e-close-head span{text-align:right;min-width:0}
+.e-close-poles span{max-width:48%}
+.e-close-poles span:last-child{text-align:right}
+@media (max-width:760px){
+  .e-axis-sheet{max-height:calc(100dvh - 40px)}
+  .e-person-sheet-head{gap:12px;margin-right:40px}
+  .e-person-sheet-head .e-avatar,.e-person-sheet-head .e-flagimg{width:64px;height:auto;aspect-ratio:auto}
+  .e-person-sheet-head .e-avatar{height:64px}
+  .e-person-sheet-head h3{font-size:20px}
+}

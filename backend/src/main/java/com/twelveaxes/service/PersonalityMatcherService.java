@@ -21,6 +21,7 @@ public class PersonalityMatcherService {
 
     private final QuizDataService dataService;
     private final ProfileMatchScorer profileMatchScorer;
+    private final RequestMemo<List<Object>, List<PersonalityMatch>> rankingMemo = new RequestMemo<>();
 
     public PersonalityMatcherService(QuizDataService dataService, ProfileMatchScorer profileMatchScorer) {
         this.dataService = dataService;
@@ -96,6 +97,11 @@ public class PersonalityMatcherService {
     // Ranking completo do catalogo, do mais ao menos compativel. Todos os
     // recortes (topo, categorias, opostos) saem desta mesma lista.
     private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
+                () -> computeRanking(axisResults, lang));
+    }
+
+    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<PersonalityCandidate> byScore =
@@ -109,8 +115,9 @@ public class PersonalityMatcherService {
                 .map(PersonalityCandidate::compatibility)
                 .toList();
 
-        return candidates.stream()
-                .map(candidate -> withPercentile(candidate, catalogScores))
+        double[] percentiles = profileMatchScorer.percentiles(catalogScores);
+        return java.util.stream.IntStream.range(0, candidates.size())
+                .mapToObj(i -> new PersonalityCandidate(candidates.get(i).personality(), candidates.get(i).compatibility(), percentiles[i]))
                 .sorted(byScore.thenComparing(byName))
                 .map(this::toMatch)
                 .toList();

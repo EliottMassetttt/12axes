@@ -16,6 +16,7 @@ public class IdeologyMatcherService {
 
     private final QuizDataService dataService;
     private final ProfileMatchScorer profileMatchScorer;
+    private final RequestMemo<List<Object>, List<IdeologyCandidate>> rankingMemo = new RequestMemo<>();
 
     public IdeologyMatcherService(QuizDataService dataService, ProfileMatchScorer profileMatchScorer) {
         this.dataService = dataService;
@@ -51,14 +52,20 @@ public class IdeologyMatcherService {
     }
 
     private List<IdeologyCandidate> rankCandidates(Map<String, Double> userVector, String normalizedLang) {
+        return rankingMemo.get(List.of(normalizedLang, userVector), () -> computeRanking(userVector, normalizedLang));
+    }
+
+    private List<IdeologyCandidate> computeRanking(Map<String, Double> userVector, String normalizedLang) {
         List<IdeologyCandidate> candidates = dataService.getIdeologies(normalizedLang).stream()
                 .map(ideology -> toCandidate(ideology, userVector))
                 .toList();
         List<Double> catalogScores = candidates.stream()
                 .map(IdeologyCandidate::compatibility)
                 .toList();
-        return candidates.stream()
-                .map(candidate -> withPercentile(candidate, catalogScores))
+        double[] percentiles = profileMatchScorer.percentiles(catalogScores);
+        return java.util.stream.IntStream.range(0, candidates.size())
+                .mapToObj(i -> new IdeologyCandidate(candidates.get(i).ideology(), candidates.get(i).targetVector(),
+                        candidates.get(i).compatibility(), percentiles[i]))
                 .sorted(byScoreThenName())
                 .toList();
     }

@@ -36,6 +36,7 @@ public class AxisOutlierService {
     private static final double BALANCED_THRESHOLD = 7.5;
 
     private final QuizDataService dataService;
+    private final RequestMemo<List<Object>, List<AxisOutlier>> rankingMemo = new RequestMemo<>();
 
     public AxisOutlierService(QuizDataService dataService) {
         this.dataService = dataService;
@@ -54,6 +55,11 @@ public class AxisOutlierService {
 
     /** Eixos ordenados do mais atipico ao mais tipico. */
     private List<AxisOutlier> rank(List<AxisResult> axisResults, String lang) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
+                () -> computeRanking(axisResults, lang));
+    }
+
+    private List<AxisOutlier> computeRanking(List<AxisResult> axisResults, String lang) {
         List<IdeologyProfile> profiles = List.copyOf(dataService.getIdeologyProfiles().values());
         if (profiles.isEmpty()) {
             return List.of();

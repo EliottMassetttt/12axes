@@ -74,6 +74,38 @@ public class ProfileMatchScorer {
         return round1(100.0 * lowerScores / catalogCompatibilities.size());
     }
 
+    /**
+     * Percentis de todas as notas de um catalogo de uma vez: ordena uma vez e
+     * localiza cada nota por busca binaria. Mesmo resultado de chamar
+     * percentile() para cada uma, mas em O(n log n) em vez de O(n^2).
+     */
+    public double[] percentiles(List<Double> catalogCompatibilities) {
+        int size = catalogCompatibilities.size();
+        double[] result = new double[size];
+        if (size == 0) {
+            return result;
+        }
+        double[] sorted = catalogCompatibilities.stream().mapToDouble(Double::doubleValue).sorted().toArray();
+        for (int i = 0; i < size; i++) {
+            result[i] = round1(100.0 * countLower(sorted, catalogCompatibilities.get(i)) / size);
+        }
+        return result;
+    }
+
+    private static int countLower(double[] sorted, double value) {
+        int low = 0;
+        int high = sorted.length;
+        while (low < high) {
+            int mid = (low + high) >>> 1;
+            if (sorted[mid] < value) {
+                low = mid + 1;
+            } else {
+                high = mid;
+            }
+        }
+        return low;
+    }
+
     public Map<String, Double> neutralVector() {
         Map<String, Double> neutral = new LinkedHashMap<>();
         AXIS_IDS.forEach(axisId -> neutral.put(axisId, CENTER));

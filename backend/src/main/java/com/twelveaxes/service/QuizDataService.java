@@ -89,15 +89,23 @@ public class QuizDataService {
         List<Country> countries = readJson("data/countries.json", new TypeReference<>() {});
         List<Personality> personalities = readJson("data/personalities.json", new TypeReference<>() {});
 
+        // Mapas na ordem dos JSONs: toUnmodifiableMap embaralha a iteracao a cada
+        // JVM, o que mudava os exemplos da tensao entre reinicios do servidor.
         List<IdeologyProfile> profiles = readJson("data/ideology-profiles.json", new TypeReference<>() {});
         ideologyProfiles = profiles.stream()
-                .collect(Collectors.toUnmodifiableMap(IdeologyProfile::ideologyId, Function.identity()));
+                .collect(Collectors.collectingAndThen(
+                        Collectors.toMap(IdeologyProfile::ideologyId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
+                        java.util.Collections::unmodifiableMap));
         List<CountryProfile> countryProfileList = readJson("data/countries-profiles.json", new TypeReference<>() {});
         countryProfiles = countryProfileList.stream()
-                .collect(Collectors.toUnmodifiableMap(CountryProfile::countryId, Function.identity()));
+                .collect(Collectors.collectingAndThen(
+                        Collectors.toMap(CountryProfile::countryId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
+                        java.util.Collections::unmodifiableMap));
         List<PersonalityProfile> personalityProfileList = readJson("data/personality-profiles.json", new TypeReference<>() {});
         personalityProfiles = personalityProfileList.stream()
-                .collect(Collectors.toUnmodifiableMap(PersonalityProfile::personalityId, Function.identity()));
+                .collect(Collectors.collectingAndThen(
+                        Collectors.toMap(PersonalityProfile::personalityId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
+                        java.util.Collections::unmodifiableMap));
         electionQuestions = readJson("data/election-questions.json", new TypeReference<>() {});
         candidates = readJson("data/candidates.json", new TypeReference<>() {});
         List<CandidateProfile> candidateProfileList = readJson("data/candidate-profiles.json", new TypeReference<List<CandidateProfile>>() {});
