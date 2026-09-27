@@ -651,15 +651,21 @@ const pt: Strings = {
   shareFooterCta: 'DESCUBRA SEU PERFIL',
   shareFooterUrl: '12AXES.VERCEL.APP',
   supportEyebrow: 'Apoie o projeto',
-  supportTitle: 'Apoie ',
-  supportTitleEm: 'anonimamente',
+  supportTitle: '',
+  supportTitleEm: 'Apoie',
   supportLead:
-    'O 12 Axes é independente e gratuito. Se o teste te ajudou a entender melhor sua ideologia política, considere fazer uma doação 100% anônima em criptomoedas para manter o projeto no ar.',
-  supportPrivacyNote: 'Não coletamos dados. Sua doação não é rastreada nem associada a você.',
+    'O 12 Axes é independente e gratuito. Se o teste te ajudou a entender melhor sua ideologia política, considere fazer uma doação via Pix ou criptomoedas para manter o projeto no ar.',
+  supportPrivacyNote: 'Não coletamos dados. Para doar sem se identificar, use criptomoedas.',
   supportCopy: 'Copiar',
   supportCopied: 'Copiado!',
   supportCopyAria: (label) => `Copiar endereço de ${label}`,
   supportCoins: [
+    {
+      id: 'pix',
+      name: 'Pix',
+      network: 'Chave aleatória',
+      address: 'bf3e8e0b-27fe-4845-b5e2-358ca0281847'
+    },
     {
       id: 'btc',
       name: 'Bitcoin',
@@ -1090,15 +1096,21 @@ const en: Strings = {
   shareFooterCta: 'DISCOVER YOUR PROFILE',
   shareFooterUrl: '12AXES.VERCEL.APP',
   supportEyebrow: 'Support the project',
-  supportTitle: 'Support ',
-  supportTitleEm: 'anonymously',
+  supportTitle: '',
+  supportTitleEm: 'Support',
   supportLead:
-    '12 Axes is independent and free. If the quiz helped you better understand your political ideology, consider making a 100% anonymous crypto donation to help keep the project running.',
-  supportPrivacyNote: "We don't collect data. Your donation isn't tracked or linked to you.",
+    '12 Axes is independent and free. If the quiz helped you better understand your political ideology, consider donating via Pix or crypto to help keep the project running.',
+  supportPrivacyNote: "We don't collect data. To donate without identifying yourself, use crypto.",
   supportCopy: 'Copy',
   supportCopied: 'Copied!',
   supportCopyAria: (label) => `Copy ${label} address`,
   supportCoins: [
+    {
+      id: 'pix',
+      name: 'Pix',
+      network: 'Random key',
+      address: 'bf3e8e0b-27fe-4845-b5e2-358ca0281847'
+    },
     {
       id: 'btc',
       name: 'Bitcoin',

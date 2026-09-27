@@ -1,9 +1,10 @@
 import { useState } from 'react';
 import { t } from '../i18n';
 import { copyToClipboard } from '../utils/clipboard';
-import { BitcoinIcon, EthereumIcon, LightningIcon, MoneroIcon } from './CryptoIcons';
+import { BitcoinIcon, EthereumIcon, LightningIcon, MoneroIcon, PixIcon } from './CryptoIcons';
 
 const COIN_ICONS = {
+  pix: PixIcon,
   btc: BitcoinIcon,
   lightning: LightningIcon,
   eth: EthereumIcon,
