@@ -43,7 +43,7 @@ class ArchetypeScoringTest {
         var payload = dataService.getQuiz("short", "en");
         assertThat(payload.archetypeQuestions()).hasSize(4);
         assertThat(payload.archetypeQuestions().get(2).options()).hasSize(6);
-        assertThat(payload.archetypeQuestions().getFirst().text()).isEqualTo("What should life in society rest on?");
+        assertThat(payload.archetypeQuestions().getFirst().text()).isEqualTo("What should society rest on?");
     }
 
     @Test

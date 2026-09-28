@@ -793,7 +793,7 @@
   {
     "id": "positivismo",
     "name": "Positivism",
-    "category": "Right",
+    "category": "Center",
     "description": "Current inspired by Auguste Comte that trusts science and reason to organize society, defending order, progress, and technical administration guided by knowledge in place of metaphysics and tradition.",
     "phrase": "I want a society ruled by order and progress, run by technicians who replace tradition and metaphysics with science."
   },
@@ -1171,7 +1171,7 @@
   {
     "id": "sindicalismo-revolucionario",
     "name": "Revolutionary Syndicalism",
-    "category": "Third Position",
+    "category": "Radical Left",
     "description": "Current that rejects the parliamentary and reformist path, betting on the general strike and the mobilising myth: direct union action and proletarian violence should destroy the state and the decadent bourgeoisie.",
     "phrase": "I want the general strike and direct union action to destroy the state and the bourgeoisie, without parliament or reformism."
   },

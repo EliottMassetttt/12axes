@@ -709,14 +709,16 @@ function MainApp() {
           ) : quiz.archetypeQuestions?.[archetypeIndex] ? (
             <>
               <div className="question-stage" data-direction={navDirection} data-leaving={isAdvancing ? 'true' : undefined}>
-                <ArchetypeCard
+                {/* Depois da última escolha o resultado está sendo calculado: troca o cartão
+                    congelado por um carregamento explícito. */}
+                {isSubmitting ? <QuizSkeleton message={t.loadingAnalysis} /> : <ArchetypeCard
                   key={quiz.archetypeQuestions[archetypeIndex].id}
                   question={quiz.archetypeQuestions[archetypeIndex]}
                   index={archetypeIndex}
                   selected={archetypeChoices[quiz.archetypeQuestions[archetypeIndex].id]}
                   disabled={isAdvancing || isSubmitting}
                   onSelect={chooseArchetype}
-                />
+                />}
               </div>
               <nav className="quiz-actions" aria-label={t.quizNavAria}>
                 <button className="secondary-button" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>

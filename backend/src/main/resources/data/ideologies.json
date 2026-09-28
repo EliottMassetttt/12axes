@@ -1132,7 +1132,7 @@
   {
     "id": "positivismo",
     "name": "Positivismo",
-    "category": "Direita",
+    "category": "Centro",
     "description": "Corrente inspirada em Auguste Comte que confia na ciência e na razão para organizar a sociedade, defendendo ordem, progresso e administração técnica guiada pelo conhecimento em lugar da metafísica e da tradição.",
     "phrase": "Quero uma sociedade regida pela ordem e o progresso, administrada por técnicos que substituem a tradição e a metafísica pela ciência.",
     "vector": null,
@@ -1670,7 +1670,7 @@
   {
     "id": "sindicalismo-revolucionario",
     "name": "Sindicalismo Revolucionário",
-    "category": "Terceira Posição",
+    "category": "Esquerda Radical",
     "description": "Corrente que rejeita a via parlamentar e reformista, apostando na greve geral e no mito mobilizador: a ação direta dos sindicatos e a violência proletária devem destruir o Estado e a burguesia decadente.",
     "phrase": "Quero que a greve geral e a ação direta dos sindicatos destruam o Estado e a burguesia, sem parlamento nem reformismo.",
     "vector": null,
