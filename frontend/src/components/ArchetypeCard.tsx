@@ -30,6 +30,11 @@ const THEME_ICONS: Record<string, { viewBox: string; d: string; evenOdd?: boolea
   mundo: {
     viewBox: '0 0 24 24',
     d: 'M5 21V4h9l.4 2H20v10h-7l-.4-2H7v7z'
+  },
+  // Mesmo chip do polo "Tecnologia" (filledPoleIcons.ts), com os dois paths unidos.
+  tecnologia: {
+    viewBox: '0 0 24 24',
+    d: 'M17.504 7.501H7.5v10.003h10.003zM21.505 5.5v-2h-2v-2h-2.001v2h-2v-2h-2.001v2h-2v-2H9.501v2h-2v-2H5.5v2h-2v2h-2v2.001h2v2h-2v2.001h2v2h-2v2.001h2v2h-2v2.001h2v2h2v2.001h2.001v-2h2v2h2.001v-2h2v2h2.001v-2h2v2h2.001v-2h2v-2h2.001v-2.001h-2v-2h2v-2.001h-2v-2h2V9.501h-2v-2h2V5.5zm-2 14.004H5.5V5.501h14.003z'
   }
 };
 

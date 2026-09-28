@@ -126,7 +126,7 @@
           "en": "Democracy with checks and balances"
         },
         "effects": {
-          "representacao": 85,
+          "representacao": 78,
           "estrutura": 45,
           "poder": 42
         }
@@ -306,6 +306,69 @@
         "effects": {
           "diplomacia": 8,
           "intervencao": 90
+        }
+      }
+    ]
+  },
+  {
+    "id": "tecnologia",
+    "label": {
+      "pt": "Tecnologia",
+      "en": "Technology"
+    },
+    "text": {
+      "pt": "Qual deve ser o papel da tecnologia?",
+      "en": "What role should technology play?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Voltar à natureza, sem indústria",
+          "en": "Back to nature, no industry"
+        },
+        "effects": {
+          "tecnologia": 8
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Natureza acima do progresso",
+          "en": "Nature before progress"
+        },
+        "effects": {
+          "tecnologia": 30
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Equilíbrio entre progresso e natureza",
+          "en": "Balance progress and nature"
+        },
+        "effects": {
+          "tecnologia": 50
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Tecnologia e indústria como motor",
+          "en": "Technology and industry as the engine"
+        },
+        "effects": {
+          "tecnologia": 72
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Acelerar a tecnologia, sem freios",
+          "en": "Accelerate technology, no brakes"
+        },
+        "effects": {
+          "tecnologia": 92
         }
       }
     ]
