@@ -6,15 +6,15 @@
       "en": "Society"
     },
     "text": {
-      "pt": "Sobre o que a vida em sociedade deve se apoiar?",
+      "pt": "Em que a vida em sociedade deve se apoiar?",
       "en": "What should life in society rest on?"
     },
     "options": [
       {
         "id": "A",
         "text": {
-          "pt": "Fé, família e tradição acima de tudo.",
-          "en": "Faith, family and tradition above all."
+          "pt": "Fé, família e tradição da nação.",
+          "en": "Faith, family and national tradition."
         },
         "effects": {
           "moral": 12,
@@ -25,8 +25,8 @@
       {
         "id": "B",
         "text": {
-          "pt": "Ordem e costumes, mudando devagar.",
-          "en": "Order and custom, changing slowly."
+          "pt": "Costumes e fé, mudando devagar.",
+          "en": "Custom and faith, changing slowly."
         },
         "effects": {
           "moral": 32,
@@ -49,8 +49,8 @@
       {
         "id": "D",
         "text": {
-          "pt": "Igualdade e direitos civis para todos.",
-          "en": "Equality and civil rights for all."
+          "pt": "Igualdade, diversidade e direitos civis.",
+          "en": "Equality, diversity and civil rights."
         },
         "effects": {
           "moral": 80,
@@ -61,8 +61,8 @@
       {
         "id": "E",
         "text": {
-          "pt": "Um projeto coletivo, laico e disciplinado.",
-          "en": "A collective, secular, disciplined project."
+          "pt": "Estado laico: razão acima da fé.",
+          "en": "Secular state: reason over faith."
         },
         "effects": {
           "moral": 48,
@@ -114,7 +114,7 @@
           "en": "Democracy with elections and checks."
         },
         "effects": {
-          "representacao": 75,
+          "representacao": 85,
           "estrutura": 45,
           "poder": 42
         }
@@ -122,8 +122,8 @@
       {
         "id": "D",
         "text": {
-          "pt": "Governo mínimo: comunidades decidem.",
-          "en": "Minimal government: communities decide."
+          "pt": "Estado mínimo ou nenhum, cada comunidade se gere.",
+          "en": "Little or no state, communities run themselves."
         },
         "effects": {
           "representacao": 70,
@@ -134,8 +134,8 @@
       {
         "id": "E",
         "text": {
-          "pt": "Sem Estado: assembleias e conselhos livres.",
-          "en": "No state: free assemblies and councils."
+          "pt": "Sem Estado: assembleias, conselhos ou contratos.",
+          "en": "No state: assemblies, councils or contracts."
         },
         "effects": {
           "representacao": 90,
@@ -159,8 +159,8 @@
       {
         "id": "A",
         "text": {
-          "pt": "O Estado planeja e é dono da produção.",
-          "en": "The state plans and owns production."
+          "pt": "Produção coletiva, sem patrões, planejada em comum.",
+          "en": "Collective production, no bosses, planned in common."
         },
         "effects": {
           "economia": 92,
@@ -171,8 +171,8 @@
       {
         "id": "B",
         "text": {
-          "pt": "Economia mista, Estado social e cooperativas.",
-          "en": "Mixed economy, welfare state and co-ops."
+          "pt": "Cooperativas e Estado social, com mercado regulado.",
+          "en": "Co-ops and a welfare state, with regulated markets."
         },
         "effects": {
           "economia": 76,
@@ -195,8 +195,8 @@
       {
         "id": "D",
         "text": {
-          "pt": "Patrões e trabalhadores em corporações do Estado.",
-          "en": "Workers and bosses in state corporations."
+          "pt": "Patrões e sindicatos em pacto nacional sob o Estado.",
+          "en": "Bosses and unions in a national, state-led pact."
         },
         "effects": {
           "economia": 65,
@@ -207,8 +207,8 @@
       {
         "id": "E",
         "text": {
-          "pt": "Empresas nacionais protegidas pelo Estado.",
-          "en": "National firms protected by the state."
+          "pt": "Empresas do país apoiadas e protegidas pelo Estado.",
+          "en": "Domestic firms backed and shielded by the state."
         },
         "effects": {
           "economia": 38,
@@ -219,8 +219,8 @@
       {
         "id": "F",
         "text": {
-          "pt": "Livre mercado pleno e impostos mínimos.",
-          "en": "Full free market and minimal taxes."
+          "pt": "Livre mercado e comércio, com impostos mínimos.",
+          "en": "Free markets and trade, with minimal taxes."
         },
         "effects": {
           "economia": 12,
@@ -244,8 +244,8 @@
       {
         "id": "A",
         "text": {
-          "pt": "Potência militar, nação em primeiro lugar.",
-          "en": "Military power, nation first."
+          "pt": "Potência militar forte e influente no mundo.",
+          "en": "A strong military power with global reach."
         },
         "effects": {
           "diplomacia": 85,
@@ -277,12 +277,12 @@
       {
         "id": "D",
         "text": {
-          "pt": "Solidariedade anti-imperialista entre os povos.",
-          "en": "Anti-imperialist solidarity among peoples."
+          "pt": "Forte na defesa, mas fora de guerras alheias.",
+          "en": "Strong defense, but out of others' wars."
         },
         "effects": {
-          "diplomacia": 65,
-          "intervencao": 42
+          "diplomacia": 70,
+          "intervencao": 80
         }
       },
       {
