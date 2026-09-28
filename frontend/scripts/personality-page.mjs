@@ -620,6 +620,20 @@ a.match:hover,a.dim-row:hover,a.near:hover,.ocard:hover,a.far-row:hover,a.distan
   .ptabs{width:100%}.ptabs button{flex:1 1 auto;padding:9px 10px;font-size:13.5px}
   .match{grid-template-columns:1fr;padding:20px}.match .portrait,.portrait.ini{width:140px;height:170px}.match .flagbig{width:180px;height:120px}
   .axis-row-head{flex-wrap:wrap}.itag{white-space:normal}
+  /* eixos: as colunas fixas de 200px estouravam a tela; os dois polos dividem uma
+     linha e a barra ganha a largura toda embaixo, como na tela de resultados */
+  .axis-row{padding:16px 0}
+  .axis-bar{grid-template-columns:1fr 1fr;gap:10px}
+  .axis-bar .pole.left{order:1}.axis-bar .pole.right{order:2}
+  .axis-bar .atrack{order:3;grid-column:1/-1;margin:6px 9px 2px}
+  .pole{padding:8px;gap:6px}.pole .pico{width:16px;height:16px}
+  .pole b{font-size:12px;hyphens:auto;overflow-wrap:break-word}.pole em{font-size:12px}
+  .dcard{padding:20px 16px}.dcard h3{font-size:20px}
+  .mlab{flex-wrap:wrap}
+  .btn,.tag{white-space:normal;text-align:center}
+  .match .flagbig{max-width:100%}
+  .phrase blockquote{font-size:21px}
+  .distant{max-width:none}
   .pcta{flex-direction:column;align-items:flex-start}
   .nav .btn{padding:8px 14px;font-size:13px}
 }

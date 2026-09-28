@@ -5,7 +5,8 @@ import { readFileSync } from 'node:fs';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
-const source = readFileSync(join(dirname(fileURLToPath(import.meta.url)), '../src/i18n/index.ts'), 'utf8');
+// Normaliza CRLF: num checkout no Windows o arquivo vem com \r\n e os marcadores abaixo não casariam.
+const source = readFileSync(join(dirname(fileURLToPath(import.meta.url)), '../src/i18n/index.ts'), 'utf8').replace(/\r\n/g, '\n');
 
 // O arquivo declara o dicionário PT e depois o EN; cada um tem um bloco
 // `axisExplanations: { ... }` com entradas `id: 'texto'`.

@@ -447,9 +447,10 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-ocard h3{font-size:19px;color:var(--c);margin-top:10px}
 .e-ocard p{padding:16px 20px 20px;font-size:14px;color:var(--texto-suave)}
 .e-ocard .e-ring strong{font-size:17px}.e-ocard .e-ring small{font-size:8.5px}
-.e-distant{display:flex;align-items:center;gap:14px;padding:16px 20px;border-radius:14px;background:var(--neutro);max-width:460px}
-.e-distant strong{font-family:var(--font-display);font-size:18px;flex:1}
-.e-distant>span:last-child{font-family:var(--font-display);font-weight:700;color:var(--texto-suave)}
+.e-distant{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:16px 20px;border-radius:14px;background:var(--neutro);max-width:460px}
+/* nome longo ocupa a linha inteira; etiqueta e % descem juntas, com o % à direita */
+.e-distant strong{font-family:var(--font-display);font-size:18px;line-height:1.25;flex:1 1 180px;min-width:0;overflow-wrap:break-word}
+.e-distant>span:last-child{font-family:var(--font-display);font-weight:700;color:var(--texto-suave);margin-left:auto}
 .e-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:16px}
 .e-support-panel .e-support-box{grid-template-columns:1fr}
 @media (max-width:1080px){.e-res-grid{grid-template-columns:1fr}.e-side{position:static;order:-1;display:grid;grid-template-columns:1fr 1fr}.e-toc{display:none}.e-side{grid-template-columns:1fr}}
