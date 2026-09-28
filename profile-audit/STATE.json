@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-28T15:53:27Z",
+  "lastUpdated": "2026-09-28T17:01:30Z",
   "personality": {
-    "totalProfiles": 377,
+    "totalProfiles": 378,
     "pending": [],
     "done": [
       "lenin",
@@ -381,7 +381,8 @@
       "nestor-kirchner",
       "sergio-mattarella",
       "marcelo-rebelo-de-sousa",
-      "balduino-iv"
+      "balduino-iv",
+      "otto-strasser"
     ]
   },
   "ideology": {

@@ -11,7 +11,8 @@ Exemplos:
 Roda TRES niveis de checagem, nesta ordem:
 
   [FORMA]     12 eixos, 20 respostas por eixo, ids corretos, codigos DT/D/N/C/CT,
-              personaBrief nao vazio.
+              personaBrief nao vazio e o bloco "archetype" com uma alternativa valida
+              por pergunta de arquetipo.
   [NEUTROS]   taxa de "N" no total e por eixo. Cada "N" vale exatamente 0.50 (o
               ponto morto), entao um eixo cheio de N nao mede a posicao do perfil -
               apenas colapsa artificialmente para ~50.
@@ -36,6 +37,10 @@ DATA = os.path.join(BASE, "..", "backend", "src", "main", "resources", "data")
 _spec = importlib.util.spec_from_file_location("compat", os.path.join(BASE, "compatibility.py"))
 compat = importlib.util.module_from_spec(_spec)
 _spec.loader.exec_module(compat)
+
+_spec_pv = importlib.util.spec_from_file_location("profile_vector", os.path.join(BASE, "profile_vector.py"))
+profile_vector = importlib.util.module_from_spec(_spec_pv)
+_spec_pv.loader.exec_module(profile_vector)
 
 AXES = compat.AXIS_IDS
 VALID = {"DT", "D", "N", "C", "CT"}
@@ -100,18 +105,9 @@ def names(catalog):
     return {p["id"]: p["name"] for p in load(meta)}
 
 
-def compute_vector(answers_by_axis, qmap):
-    vec = {}
-    for axis, obj in answers_by_axis.items():
-        if axis not in AXES:
-            continue
-        total = 0.0
-        for qid, ans in obj["answers"].items():
-            q = qmap[qid]
-            s = SCORE[ans]
-            total += s if q["agreePole"] == "LEFT" else 1 - s
-        vec[axis] = round(total / len(obj["answers"]) * 100, 1)
-    return vec
+def compute_vector(data, qmap):
+    # 240 perguntas + perguntas de arquetipo, igual ao ScoringService (ver profile_vector.py).
+    return profile_vector.compute_vector(data, qmap)
 
 
 def main():
@@ -223,7 +219,15 @@ def main():
         bad = {k: v for k, v in ans.items() if v not in VALID}
         if bad:
             errors.append(f"[FORMA] {ax}: codigos invalidos {bad} (use so DT/D/N/C/CT)")
-    extra = [k for k in data if k not in AXES]
+    # Perguntas de arquetipo: obrigatorias em saida nova; arquivos antigos de answers/
+    # (anteriores a esta regra) nao tem o bloco, entao ali a falta so gera aviso.
+    arch_problems = profile_vector.archetype_problems(data)
+    legacy = os.path.normpath(path).startswith(os.path.normpath(os.path.join(BASE, "answers")))
+    for prob in arch_problems:
+        (warnings if legacy else errors).append(f"[FORMA] {prob}")
+    if not arch_problems:
+        print("[ARQUETIPO] " + " · ".join(f"{k} {v}" for k, v in data[profile_vector.ARCHETYPE_KEY].items()))
+    extra = [k for k in data if k not in AXES and k != profile_vector.ARCHETYPE_KEY]
     if extra:
         warnings.append(f"[FORMA] chaves extras ignoradas: {extra}")
 

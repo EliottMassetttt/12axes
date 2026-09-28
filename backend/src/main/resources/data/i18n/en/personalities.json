@@ -177,7 +177,7 @@
     "id": "viktor-orban",
     "name": "Viktor Orbán",
     "role": "Statesman",
-    "description": "Hungary's prime minister, Orbán governs under so-called illiberal democracy, combining nationalism, Christian conservatism, sovereignty vis-à-vis the European Union, and strong control over media, courts, and institutions."
+    "description": "Hungary's prime minister from 2010 to 2026, Orbán built so-called illiberal democracy, combining nationalism, Christian conservatism, sovereignty vis-à-vis the EU and control over media and courts; defeated in 2026, he leads Fidesz in opposition."
   },
   {
     "id": "benjamin-disraeli",
@@ -2346,5 +2346,11 @@
     "role": "King of Jerusalem",
     "lifespan": "1161–1185",
     "description": "Crusader king of Jerusalem from 1174 to 1185, Baldwin IV ruled as a leper from childhood, defeated Saladin at Montgisard, defended the Latin kingdom by faith and sword and kept pragmatic truces with the Muslims."
+  },
+  {
+    "id": "otto-strasser",
+    "name": "Otto Strasser",
+    "role": "Political theorist",
+    "description": "Brother of Gregor Strasser, he broke with Hitler in 1930 and founded the Black Front, championing an anti-capitalist, federalist and Christian national socialism with land for peasants; exiled, he returned to Germany in 1955."
   }
 ]

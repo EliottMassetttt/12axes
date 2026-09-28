@@ -206,35 +206,35 @@
   {
     "ideologyId": "nacional-bolchevismo",
     "vector": {
-      "estrutura": 6.2,
-      "representacao": 20,
-      "poder": 93.8,
-      "imigracao": 82.5,
-      "diplomacia": 83.8,
-      "intervencao": 25,
-      "economia": 87.5,
-      "controle": 96.2,
-      "comercio": 90,
-      "religiao": 41.2,
-      "moral": 13.8,
-      "tecnologia": 78.8
+      "estrutura": 10.4,
+      "representacao": 23.3,
+      "poder": 73.1,
+      "imigracao": 74.5,
+      "diplomacia": 88.6,
+      "intervencao": 15.0,
+      "economia": 87.7,
+      "controle": 92.5,
+      "comercio": 87.1,
+      "religiao": 71.8,
+      "moral": 35.7,
+      "tecnologia": 76.0
     }
   },
   {
     "ideologyId": "socialismo-strasserista",
     "vector": {
-      "estrutura": 6.2,
-      "representacao": 21.2,
-      "poder": 90,
-      "imigracao": 95,
-      "diplomacia": 90,
-      "intervencao": 20,
-      "economia": 95,
-      "controle": 95,
-      "comercio": 95,
-      "religiao": 16.2,
-      "moral": 2.5,
-      "tecnologia": 67.5
+      "estrutura": 55.6,
+      "representacao": 18.6,
+      "poder": 85.0,
+      "imigracao": 96.8,
+      "diplomacia": 80.2,
+      "intervencao": 26.9,
+      "economia": 84.0,
+      "controle": 93.3,
+      "comercio": 91.1,
+      "religiao": 18.8,
+      "moral": 6.5,
+      "tecnologia": 32.1
     }
   },
   {
@@ -274,18 +274,18 @@
   {
     "ideologyId": "falangismo",
     "vector": {
-      "estrutura": 5.0,
-      "representacao": 12.5,
-      "poder": 90.0,
-      "imigracao": 83.8,
-      "diplomacia": 83.8,
-      "intervencao": 22.5,
-      "economia": 57.5,
-      "controle": 81.2,
-      "comercio": 88.8,
-      "religiao": 12.5,
-      "moral": 3.8,
-      "tecnologia": 31.2
+      "estrutura": 9.2,
+      "representacao": 16.2,
+      "poder": 88.6,
+      "imigracao": 76.5,
+      "diplomacia": 88.6,
+      "intervencao": 22.1,
+      "economia": 75.7,
+      "controle": 87.3,
+      "comercio": 89.9,
+      "religiao": 23.6,
+      "moral": 18.4,
+      "tecnologia": 49.9
     }
   },
   {

@@ -40,6 +40,7 @@ três catálogos** — só mudam os metadados de entrada e o arquivo de saída.
 | `README.md` | Este arquivo — leia primeiro. |
 | `STATE.json` | **Fonte única de verdade** do progresso, um bloco por catálogo (`personality`, `ideology`, `country`), cada um com `pending` e `done`. |
 | `questions-template.txt` | As 240 perguntas (12 eixos × 20), prontas para colar em qualquer prompt novo, de qualquer catálogo. Não editar sem necessidade. |
+| `profile_vector.py` | Cálculo único do vetor (240 perguntas + perguntas de arquétipo, igual ao `ScoringService.java`) e gerador do bloco de perguntas de arquétipo do prompt (`--prompt-block`). Usado pelo merge e pelo `validate.py`. |
 | `prompts/<catalog>/<id>.txt` | Prompt já montado para um perfil específico, pronto para mandar a um subagente. Fora de processamento, deve conter só **um arquivo de exemplo** por catálogo (ver passo 7), para uma IA nova entender o formato sem contexto prévio. |
 | `subagent-out/<catalog>/<id>.json` | Saída de um subagente já rodado, aguardando merge/validação. **Temporário**: depois do merge bem-sucedido, o arquivo é apagado daqui (mas uma cópia permanece em `answers/`, ver abaixo) — exceto um exemplo mantido de propósito, ver passo 7. |
 | `answers/<catalog>/<id>.json` | **Arquivo permanente** com as 240 respostas (12 eixos × 20, com `personaBrief` de cada eixo) de todo perfil já mesclado. Nunca é apagado — é o arquivo que o usuário usa para auditar/conferir respostas pergunta a pergunta a qualquer momento, mesmo muito depois do merge. |
@@ -121,17 +122,26 @@ METODOLOGIA (obrigatória):
 SAIDA (obrigatoria): use a ferramenta Write para gravar UM arquivo JSON estrito (sem markdown, sem comentarios) exatamente neste caminho:
 <caminho absoluto para profile-audit/subagent-out/{catalog}/{id}.json>
 
-Formato exato do JSON (as chaves de "answers" devem ser os ids das perguntas; cada eixo com exatamente 20 respostas; todos os 12 eixos presentes):
+Formato exato do JSON (as chaves de "answers" devem ser os ids das perguntas; cada eixo com exatamente 20 respostas; todos os 12 eixos presentes; mais o bloco "archetype" com a letra escolhida em cada pergunta de arquétipo do fim deste prompt):
 {
   "estrutura": { "personaBrief": "...", "answers": { "estrutura_01": "C", "estrutura_07": "DT", ... } },
   "representacao": { "personaBrief": "...", "answers": { ... } },
-  ... (todos os 12 eixos: estrutura, representacao, poder, imigracao, diplomacia, intervencao, economia, controle, comercio, religiao, moral, tecnologia)
+  ... (todos os 12 eixos: estrutura, representacao, poder, imigracao, diplomacia, intervencao, economia, controle, comercio, religiao, moral, tecnologia),
+  "archetype": { "sociedade": "A", "poder": "C", "economia": "B", "mundo": "C", "tecnologia": "D" }
 }
 
 Depois de gravar o arquivo, responda apenas com "OK {catalog}:{id}" e um resumo de 1 linha. Não cole o JSON inteiro na resposta.
 ```
 
-Depois cole o conteúdo de `questions-template.txt` (que já começa com `=== PERGUNTAS POR EIXO ===`).
+Depois cole o conteúdo de `questions-template.txt` (que já começa com `=== PERGUNTAS POR EIXO ===`)
+e, no fim, o bloco das **perguntas de arquétipo**, gerado a partir de `archetype-questions.json`:
+
+```powershell
+python profile-audit/profile_vector.py --prompt-block
+```
+
+Gere sempre por esse comando (nunca copie o bloco de um prompt antigo): assim o prompt acompanha
+qualquer mudança nas perguntas de arquétipo. Ver a seção "Perguntas de arquétipo" abaixo.
 
 ### 3. Disparar os 15 subagentes SIMULTANEAMENTE
 
@@ -155,7 +165,7 @@ Ele checa três níveis e sai com erro se algum bloqueante falhar:
 
 | Nível | O que verifica |
 |---|---|
-| `[FORMA]` | 12 eixos, 20 respostas por eixo, ids corretos, códigos `DT/D/N/C/CT`, `personaBrief` preenchido |
+| `[FORMA]` | 12 eixos, 20 respostas por eixo, ids corretos, códigos `DT/D/N/C/CT`, `personaBrief` preenchido, bloco `archetype` com uma alternativa válida por pergunta de arquétipo |
 | `[NEUTROS]` | taxa de `N` — bloqueia acima de 18% no total ou 30% em qualquer eixo |
 | `[CONTEÚDO]` | direção dos eixos contra perfis-âncora, proximidade excessiva de outro perfil (duplicata) e coerência com o perfil declarado |
 
@@ -165,17 +175,25 @@ Se algum arquivo faltar, estiver malformado ou for reprovado, relance só aquele
 
 ### 5. Calcular o vetor de cada perfil e mesclar (automático, sem esperar confirmação)
 
-Para cada pergunta respondida:
-1. Mapeie a resposta para um score: `DT=0, D=0.25, N=0.5, C=0.75, CT=1`.
+O perfil é calculado **como um usuário do quiz**: as 240 perguntas mais as perguntas de arquétipo
+(mesma conta do `ScoringService.java`). A implementação única fica em `profile-audit/profile_vector.py`
+— use-a, não reescreva a fórmula:
+1. Mapeie cada resposta para um score: `DT=0, D=0.25, N=0.5, C=0.75, CT=1`.
 2. Busque a pergunta em `backend/src/main/resources/data/questions-pool.json` pelo `id` e leia o campo `agreePole`.
 3. Se `agreePole == "LEFT"`, o valor da pergunta no eixo é o score direto. Se `agreePole == "RIGHT"`, o valor é `1 - score`.
-4. O valor final do eixo (0–100) é a **média dos 20 valores das perguntas daquele eixo × 100**, arredondado a 1 casa decimal.
+4. Cada alternativa de arquétipo escolhida (bloco `archetype`) entra como **uma resposta a mais** em
+   cada eixo que ela toca, com valor `effects[eixo] / 100` (ex.: Economia D soma um valor em
+   `economia`, `controle` e `comercio`).
+5. O valor final do eixo (0–100) é a **média de todos esses valores × 100** (as 20 perguntas do eixo
+   mais as alternativas de arquétipo que tocam o eixo), arredondada a 1 casa decimal.
 
 Script de referência (Python, execute a partir da raiz do repo — troque `CATALOG` e os nomes de
 arquivo/chave conforme a tabela da seção "Os três catálogos"):
 
 ```python
-import json
+import json, sys
+sys.path.insert(0, 'profile-audit')
+from profile_vector import compute_vector, AXIS_ORDER  # 240 perguntas + arquétipo
 
 CATALOG = "personality"  # ou "ideology" / "country"
 KEY_FIELD = {"personality": "personalityId", "ideology": "ideologyId", "country": "countryId"}[CATALOG]
@@ -184,25 +202,6 @@ PROFILES_FILE = {
     "ideology": "backend/src/main/resources/data/ideology-profiles.json",
     "country": "backend/src/main/resources/data/countries-profiles.json",
 }[CATALOG]
-
-qp = json.load(open('backend/src/main/resources/data/questions-pool.json', encoding='utf-8'))
-qmap = {q['id']: q for q in qp}
-score_map = {'DT': 0, 'D': 0.25, 'N': 0.5, 'C': 0.75, 'CT': 1}
-
-def compute_vector(answers_by_axis):
-    vector = {}
-    for axis, obj in answers_by_axis.items():
-        total = 0
-        for qid, ans in obj['answers'].items():
-            q = qmap[qid]
-            score = score_map[ans]
-            left = score if q['agreePole'] == 'LEFT' else 1 - score
-            total += left
-        vector[axis] = round(total / len(obj['answers']) * 100, 1)
-    return vector
-
-AXIS_ORDER = ['estrutura','representacao','poder','imigracao','diplomacia','intervencao',
-              'economia','controle','comercio','religiao','moral','tecnologia']
 
 ids_neste_lote = [...]  # os 15 ids do lote
 
@@ -253,6 +252,31 @@ em vez de simplesmente apagadas após o merge — o usuário quer poder auditar 
 Depois de mesclar, atualizar o `STATE.json` e limpar os arquivos, informe ao usuário que o lote foi
 concluído (quantos pending restam naquele catálogo) e **pergunte se deve continuar para o próximo
 lote**. Só dispare o próximo lote de 15 após confirmação explícita — não encadeie lotes sozinho.
+
+## Perguntas de arquétipo
+
+Além das 240 perguntas, o quiz do usuário tem **perguntas de arquétipo** de múltipla escolha
+(`backend/src/main/resources/data/archetype-questions.json`: sociedade, poder, economia, mundo,
+tecnologia). Cada alternativa tem `effects` por eixo, na mesma escala do vetor (0–100, 100 = polo
+esquerdo de `axes.json`), e entra no resultado do usuário como uma resposta a mais em cada eixo que
+toca.
+
+Para o perfil ser comparável ao usuário, **a auditoria responde as duas partes, como um usuário
+faria**:
+- O prompt termina com o bloco gerado por `python profile-audit/profile_vector.py --prompt-block`
+  (passo 2). O subagente escolhe **uma** alternativa por pergunta, pelo sentido do texto, como um
+  adepto/porta-voz real marcaria, e grava as letras no bloco `archetype` da saída.
+- `validate.py` reprova a saída sem o bloco `archetype` ou com alternativa inválida (passo 4).
+- O vetor mesclado soma as 20 respostas de cada eixo e as alternativas de arquétipo que tocam o
+  eixo, com a mesma conta do `ScoringService.java` (passo 5, via `profile_vector.py`).
+- O bloco `archetype` fica arquivado em `answers/` junto com as 240 respostas (passo 7).
+- No resumo final ao usuário, liste as escolhas de arquétipo de cada perfil (ex.: `Sociedade A ·
+  Poder A · Economia D · Mundo A · Tecnologia D`).
+
+Perfis auditados antes desta regra não têm o bloco `archetype` em `answers/`; o validador só avisa
+nesses arquivos antigos, e o vetor deles passa a incluir o arquétipo quando forem reauditados.
+Se as perguntas de arquétipo mudarem, os vetores já mesclados continuam com as alternativas da
+época da auditoria até a próxima reauditoria.
 
 ## Regras que não podem ser quebradas
 

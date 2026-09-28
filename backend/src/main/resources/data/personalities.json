@@ -353,7 +353,7 @@
     "role": "Estadista",
     "category": "politico",
     "lifespan": "1963–",
-    "description": "Primeiro-ministro húngaro, Orbán governa sob a chamada democracia iliberal, combinando nacionalismo, conservadorismo cristão, soberania diante da União Europeia e forte controle sobre mídia, justiça e instituições.",
+    "description": "Ex-primeiro-ministro húngaro (2010–2026), Orbán construiu a chamada democracia iliberal, com nacionalismo, conservadorismo cristão, soberania diante da União Europeia e controle sobre mídia e justiça; derrotado em 2026, lidera o Fidesz na oposição.",
     "imagePath": "/personalities/portraits/viktor-orban.jpg",
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Viktor_Orbán",
@@ -4522,5 +4522,17 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Baldwin_IV_of_Jerusalem",
     "imageNote": "Representação medieval de Balduíno IV via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "otto-strasser",
+    "name": "Otto Strasser",
+    "role": "Teórico político",
+    "category": "teorico",
+    "lifespan": "1897–1974",
+    "description": "Irmão de Gregor Strasser, rompeu com Hitler em 1930 e fundou a Frente Negra, defendendo um nacional-socialismo anticapitalista, federalista e cristão, com terra aos camponeses; exilado, voltou à Alemanha em 1955.",
+    "imagePath": "/personalities/portraits/otto-strasser.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Otto_Strasser",
+    "imageNote": "Retrato de Otto Strasser via Wikipédia/Wikimedia Commons."
   }
 ]

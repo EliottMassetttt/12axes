@@ -43,6 +43,7 @@ de vetor/merge/`STATE.json`/arquivamento é o mesmo; só o tamanho do lote muda 
 5. Para **cada perfil do lote** já mesclado, rode `python profile-audit/compatibility.py <catalog> <id>`
    e leia as 2 personalidades, 2 ideologias e 2 países mais compatíveis com o vetor recém-atualizado
    (mesmo algoritmo de `ProfileMatchScorer.java`). Nunca estimar esses matches de cabeça.
+   - **Perguntas de arquétipo:** a auditoria responde as 240 perguntas **e** as perguntas de arquétipo, como um usuário do quiz. O prompt termina com o bloco de `python profile-audit/profile_vector.py --prompt-block`, a saída traz o bloco `archetype`, o `validate.py` reprova se faltar, e o vetor mesclado (via `profile_vector.compute_vector`) soma as alternativas escolhidas como respostas extras, igual ao `ScoringService`. Liste as escolhas no resumo final. Ver "Perguntas de arquétipo" em `profile-audit/README.md`.
 6. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior
    (percentual exato) e informe quantos perfis restam em `pending` naquele catálogo. **Pergunte
    explicitamente** se deve continuar para o próximo lote de 6 — nunca encadeie lotes sozinho.

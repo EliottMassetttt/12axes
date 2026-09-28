@@ -367,7 +367,10 @@ para um único perfil novo (não um lote de 15):
 2. Monte o prompt do perfil usando o template da seção "2. Gerar o prompt de cada perfil do lote"
    do README, preenchendo os metadados que você acabou de criar no passo 1 (não os do i18n em
    inglês — o prompt de auditoria sempre usa os metadados em português, como os outros perfis).
-   Salve em `profile-audit/prompts/<catalog>/<id>.txt`.
+   Salve em `profile-audit/prompts/<catalog>/<id>.txt`. O prompt termina com o bloco das
+   **perguntas de arquétipo** (`python profile-audit/profile_vector.py --prompt-block`): o perfil
+   responde as 240 perguntas **e** o arquétipo, como um usuário do quiz, e as duas partes entram no
+   vetor (ver "Perguntas de arquétipo" no README).
 3. Dispare **um único subagente** (não precisa ser em lote de 15 — é só um perfil) com esse prompt,
    usando um modelo de qualidade (Sonnet ou superior — nunca Haiku ou modelo rápido/barato).
 4. Valide a saída rodando **`python profile-audit/validate.py <catalog> <id>`**. Ele checa forma,
@@ -380,7 +383,8 @@ para um único perfil novo (não um lote de 15):
      gerar o prompt, liste os vizinhos prováveis e diga ao subagente o que diferencia o novo deles.
    - **Coerência**: uma ideologia deve bater alto com o `personalityId` que declara. Abaixo de ~92%,
      um dos dois vetores está errado — compare eixo a eixo e descubra qual antes de mesclar.
-5. Calcule o vetor com o script Python de referência da seção "5." do README (adapte
+5. Calcule o vetor com o script Python de referência da seção "5." do README — que importa
+   `compute_vector` de `profile-audit/profile_vector.py` e já soma as perguntas de arquétipo (adapte
    `ids_neste_lote` para conter só o novo `id`) e mescle no arquivo de perfis correspondente:
    - `ideology` → `backend/src/main/resources/data/ideology-profiles.json`
    - `personality` → `backend/src/main/resources/data/personality-profiles.json`
@@ -482,6 +486,7 @@ Feche o processo com um resumo direto ao usuário contendo:
   lado, comparando com perfis conhecidos do mesmo catálogo se ajudar a dar contexto).
 - As duas personalidades, duas ideologias e dois países mais compatíveis, com o percentual exato,
   calculados no passo 7 (nunca estimados).
+- As alternativas escolhidas nas perguntas de arquétipo (bloco `archetype` da saída do passo 5).
 - Confirmação de que os testes relevantes passaram (ou lista exata do que falhou e não pôde ser
   corrigido, se for o caso).
 - Lista dos arquivos tocados nesta execução (metadados PT, metadados EN, perfil com vetor, arquivo

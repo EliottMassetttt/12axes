@@ -36,6 +36,7 @@ Leia **profile-audit/README.md inteiro** (raiz do projeto) — contém o protoco
    - Atualizar `STATE.json` (mover IDs de `pending` para `done`, atualizar `lastUpdated`).
    - Arquivar em `answers/<CATALOG>/<id>.json` (permanente) e limpar temporários (mantendo só um par de exemplo por catálogo).
 6. Para **cada perfil do lote** já mesclado, rode `python profile-audit/compatibility.py <CATALOG> <id>` e leia as 2 personalidades, 2 ideologias e 2 países mais compatíveis com o vetor recém-atualizado (mesmo algoritmo de `ProfileMatchScorer.java`). Nunca estimar esses matches de cabeça.
+   - **Perguntas de arquétipo:** a auditoria responde as 240 perguntas **e** as perguntas de arquétipo, como um usuário do quiz. O prompt termina com o bloco de `python profile-audit/profile_vector.py --prompt-block`, a saída traz o bloco `archetype`, o `validate.py` reprova se faltar, e o vetor mesclado (via `profile_vector.compute_vector`) soma as alternativas escolhidas como respostas extras, igual ao `ScoringService`. Liste as escolhas no resumo final. Ver "Perguntas de arquétipo" em `profile-audit/README.md`.
 7. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior (percentual exato). Informe quantos perfis restam em `pending` naquele catálogo (e, se ele zerou, mencione que o próximo `/audit_continue` passará automaticamente ao próximo catálogo pendente) e **pergunte explicitamente** se deve continuar para o próximo lote — nunca encadeie lotes sozinho.
 
 ## Regras que não podem ser quebradas
