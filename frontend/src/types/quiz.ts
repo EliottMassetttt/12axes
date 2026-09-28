@@ -41,6 +41,15 @@ export interface QuizPayload {
   axes: Axis[];
   questions: Question[];
   answerOptions: AnswerOption[];
+  /** Perguntas de arquétipo exibidas ao fim do quiz (cada alternativa pontua em vários eixos). */
+  archetypeQuestions?: ArchetypeQuestion[];
+}
+
+export interface ArchetypeQuestion {
+  id: string;
+  label: string;
+  text: string;
+  options: { id: string; text: string }[];
 }
 
 export interface SubmittedAnswer {

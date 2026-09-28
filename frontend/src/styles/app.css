@@ -6961,3 +6961,22 @@
 @media (prefers-reduced-motion: reduce) {
   .auto-advance-switch, .auto-advance-switch::after { transition: none; }
 }
+
+/* ── Perguntas de arquétipo (fim do quiz) ─────────────────────────────────
+   Mesma casca das perguntas comuns; as alternativas levam a letra no ícone e
+   o verde da marca, porque não são concordo/discordo. */
+.archetype-option {
+  --answer-color: var(--floresta, #102E24);
+  --answer-soft: color-mix(in srgb, var(--floresta, #102E24) 8%, var(--paper));
+  min-height: 60px;
+  text-align: left;
+  line-height: 1.4;
+}
+.archetype-letter {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.82rem;
+}
+.archetype-skip {
+  margin-left: auto;
+}

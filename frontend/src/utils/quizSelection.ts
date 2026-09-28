@@ -85,36 +85,6 @@ export function selectAllQuestionsBalanced(payload: QuizPayload): QuizPayload {
   };
 }
 
-/**
- * Extensão do quiz curto (36 → 60): escolhe `perPolePerAxis` novas afirmações
- * LEFT e RIGHT de cada eixo, ignorando as que o usuário já respondeu, e
- * intercala os polos para não repetir dois iguais em sequência.
- */
-export function selectExtensionQuestions(
-  payload: QuizPayload,
-  excludeIds: Set<string>,
-  perPolePerAxis = 1
-): Question[] {
-  const byAxis = new Map<string, Question[]>();
-  for (const q of payload.questions) {
-    if (excludeIds.has(q.id)) {
-      continue;
-    }
-    const group = byAxis.get(q.axisId) ?? [];
-    group.push(q);
-    byAxis.set(q.axisId, group);
-  }
-
-  const selected: Question[] = [];
-  for (const axisQuestions of byAxis.values()) {
-    const leftPool = shuffleArray(axisQuestions.filter((q) => q.agreePole === 'LEFT'));
-    const rightPool = shuffleArray(axisQuestions.filter((q) => q.agreePole === 'RIGHT'));
-    selected.push(...leftPool.slice(0, perPolePerAxis), ...rightPool.slice(0, perPolePerAxis));
-  }
-
-  return interleaveByPole(selected);
-}
-
 // Reordena para alternar afirmações LEFT/RIGHT enquanto houver de ambos os lados.
 export function interleaveByPole(questions: Question[]): Question[] {
   const leftQueue = shuffleArray(questions.filter((q) => q.agreePole === 'LEFT'));

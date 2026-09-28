@@ -44,10 +44,14 @@ export function fetchQuiz(variant: QuizVariant = 'short'): Promise<QuizPayload> 
   return request<QuizPayload>(`/api/quiz?variant=${variant}&lang=${LANG}`);
 }
 
-export function submitResults(variant: QuizVariant, answers: SubmittedAnswer[]): Promise<QuizResult> {
+export function submitResults(
+  variant: QuizVariant,
+  answers: SubmittedAnswer[],
+  archetype: Record<string, string> = {}
+): Promise<QuizResult> {
   return request<QuizResult>(`/api/results?lang=${LANG}`, {
     method: 'POST',
-    body: JSON.stringify({ variant, answers })
+    body: JSON.stringify({ variant, answers, archetype })
   });
 }
 

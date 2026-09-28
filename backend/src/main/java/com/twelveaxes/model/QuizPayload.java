@@ -10,5 +10,6 @@ public record QuizPayload(
         int questionsPerAxis,
         List<Axis> axes,
         List<Question> questions,
-        List<AnswerOption> answerOptions
+        List<AnswerOption> answerOptions,
+        List<ArchetypeQuestion.View> archetypeQuestions
 ) {}

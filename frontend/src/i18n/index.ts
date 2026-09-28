@@ -142,10 +142,7 @@ interface Strings {
   next: string;
   calculating: string;
   seeResult: string;
-  extendTitle: string;
-  extendAria: string;
-  extendYes: string;
-  extendNo: string;
+  archetypeSkip: string;
   errMissingAnswer: string;
   errLoadQuiz: string;
   errCalc: string;
@@ -231,6 +228,8 @@ interface Strings {
   ) => string;
   progress: (current: number, total: number) => string;
   progressDone: (percent: number) => string;
+  archetypeHeader: string;
+  archetypeStep: (current: number, total: number) => string;
   progressAria: (percent: number) => string;
   answersAria: string;
   countryKicker: string;
@@ -545,10 +544,7 @@ const pt: Strings = {
   next: 'Avançar',
   calculating: 'Calculando…',
   seeResult: 'Ver resultado',
-  extendTitle: 'Deseja responder mais 24 questões para aumentar a precisão do seu resultado?',
-  extendAria: 'Opções para estender o quiz',
-  extendYes: 'Sim, quero aumentar a precisão',
-  extendNo: 'Não, quero apenas ver meus resultados',
+  archetypeSkip: 'Pular',
   errMissingAnswer: 'Ainda falta responder esta pergunta antes de ver o resultado.',
   errLoadQuiz: 'Não foi possível carregar o quiz.',
   errCalc: 'Não foi possível calcular o resultado.',
@@ -651,6 +647,8 @@ const pt: Strings = {
     `👉 Faça o teste e compartilhe seu resultado:\nhttps://12axes.vercel.app/`,
   progress: (current, total) => `Pergunta ${current} de ${total}`,
   progressDone: (percent) => `${percent}% concluído`,
+  archetypeHeader: 'Identificando seu arquétipo',
+  archetypeStep: (current, total) => `${current} de ${total}`,
   progressAria: (percent) => `Progresso do quiz: ${percent}%`,
   answersAria: 'Opções de resposta',
   countryKicker: 'País mais compatível',
@@ -1011,10 +1009,7 @@ const en: Strings = {
   next: 'Next',
   calculating: 'Calculating…',
   seeResult: 'See results',
-  extendTitle: 'Would you like to answer 24 more questions to improve the accuracy of your result?',
-  extendAria: 'Options to extend the quiz',
-  extendYes: 'Yes, improve my accuracy',
-  extendNo: 'No, just show my results',
+  archetypeSkip: 'Skip',
   errMissingAnswer: 'You still need to answer this question before seeing the result.',
   errLoadQuiz: 'Could not load the quiz.',
   errCalc: 'Could not calculate the result.',
@@ -1117,6 +1112,8 @@ const en: Strings = {
     `👉 Take the test and share your result:\nhttps://12axes.vercel.app/en`,
   progress: (current, total) => `Question ${current} of ${total}`,
   progressDone: (percent) => `${percent}% complete`,
+  archetypeHeader: 'Identifying your archetype',
+  archetypeStep: (current, total) => `${current} of ${total}`,
   progressAria: (percent) => `Quiz progress: ${percent}%`,
   answersAria: 'Answer options',
   countryKicker: 'Most compatible country',

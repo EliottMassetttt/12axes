@@ -1,0 +1,301 @@
+[
+  {
+    "id": "sociedade",
+    "label": {
+      "pt": "Sociedade",
+      "en": "Society"
+    },
+    "text": {
+      "pt": "Sobre o que a vida em sociedade deve se apoiar?",
+      "en": "What should life in society rest on?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Fé, família e tradição acima de tudo.",
+          "en": "Faith, family and tradition above all."
+        },
+        "effects": {
+          "moral": 12,
+          "religiao": 20,
+          "imigracao": 82
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Ordem e costumes, mudando devagar.",
+          "en": "Order and custom, changing slowly."
+        },
+        "effects": {
+          "moral": 32,
+          "religiao": 42,
+          "imigracao": 60
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Cada um vive como quiser, sem valores impostos.",
+          "en": "Live as you please, no imposed values."
+        },
+        "effects": {
+          "moral": 55,
+          "religiao": 60,
+          "imigracao": 40
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Igualdade e direitos civis para todos.",
+          "en": "Equality and civil rights for all."
+        },
+        "effects": {
+          "moral": 80,
+          "religiao": 75,
+          "imigracao": 20
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Um projeto coletivo, laico e disciplinado.",
+          "en": "A collective, secular, disciplined project."
+        },
+        "effects": {
+          "moral": 48,
+          "religiao": 88,
+          "imigracao": 48
+        }
+      }
+    ]
+  },
+  {
+    "id": "poder",
+    "label": {
+      "pt": "Poder",
+      "en": "Power"
+    },
+    "text": {
+      "pt": "Como o poder deve ser organizado?",
+      "en": "How should power be organized?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Um líder ou partido forte e centralizado.",
+          "en": "A strong, centralized leader or party."
+        },
+        "effects": {
+          "representacao": 15,
+          "estrutura": 18,
+          "poder": 85
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Elites preparadas decidem, com voto limitado.",
+          "en": "Qualified elites decide, with limited voting."
+        },
+        "effects": {
+          "representacao": 40,
+          "estrutura": 38,
+          "poder": 65
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Democracia com eleições e contrapesos.",
+          "en": "Democracy with elections and checks."
+        },
+        "effects": {
+          "representacao": 75,
+          "estrutura": 45,
+          "poder": 42
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Governo mínimo: comunidades decidem.",
+          "en": "Minimal government: communities decide."
+        },
+        "effects": {
+          "representacao": 70,
+          "estrutura": 88,
+          "poder": 12
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Sem Estado: assembleias e conselhos livres.",
+          "en": "No state: free assemblies and councils."
+        },
+        "effects": {
+          "representacao": 90,
+          "estrutura": 95,
+          "poder": 8
+        }
+      }
+    ]
+  },
+  {
+    "id": "economia",
+    "label": {
+      "pt": "Economia",
+      "en": "Economy"
+    },
+    "text": {
+      "pt": "Quem deve controlar a produção e a riqueza?",
+      "en": "Who should control production and wealth?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "O Estado planeja e é dono da produção.",
+          "en": "The state plans and owns production."
+        },
+        "effects": {
+          "economia": 92,
+          "controle": 92,
+          "comercio": 80
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Economia mista, Estado social e cooperativas.",
+          "en": "Mixed economy, welfare state and co-ops."
+        },
+        "effects": {
+          "economia": 76,
+          "controle": 66,
+          "comercio": 55
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Mercado com regras e rede de proteção.",
+          "en": "Markets with rules and a safety net."
+        },
+        "effects": {
+          "economia": 42,
+          "controle": 44,
+          "comercio": 42
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Patrões e trabalhadores em corporações do Estado.",
+          "en": "Workers and bosses in state corporations."
+        },
+        "effects": {
+          "economia": 65,
+          "controle": 84,
+          "comercio": 88
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Empresas nacionais protegidas pelo Estado.",
+          "en": "National firms protected by the state."
+        },
+        "effects": {
+          "economia": 38,
+          "controle": 60,
+          "comercio": 80
+        }
+      },
+      {
+        "id": "F",
+        "text": {
+          "pt": "Livre mercado pleno e impostos mínimos.",
+          "en": "Full free market and minimal taxes."
+        },
+        "effects": {
+          "economia": 12,
+          "controle": 8,
+          "comercio": 12
+        }
+      }
+    ]
+  },
+  {
+    "id": "mundo",
+    "label": {
+      "pt": "Mundo",
+      "en": "World"
+    },
+    "text": {
+      "pt": "Qual deve ser a postura do país no mundo?",
+      "en": "What stance should the country take in the world?"
+    },
+    "options": [
+      {
+        "id": "A",
+        "text": {
+          "pt": "Potência militar, nação em primeiro lugar.",
+          "en": "Military power, nation first."
+        },
+        "effects": {
+          "diplomacia": 85,
+          "intervencao": 15
+        }
+      },
+      {
+        "id": "B",
+        "text": {
+          "pt": "Defesa firme e alianças com quem pensa igual.",
+          "en": "Firm defense and like-minded alliances."
+        },
+        "effects": {
+          "diplomacia": 60,
+          "intervencao": 40
+        }
+      },
+      {
+        "id": "C",
+        "text": {
+          "pt": "Diplomacia e cooperação antes da força.",
+          "en": "Diplomacy and cooperation before force."
+        },
+        "effects": {
+          "diplomacia": 30,
+          "intervencao": 62
+        }
+      },
+      {
+        "id": "D",
+        "text": {
+          "pt": "Solidariedade anti-imperialista entre os povos.",
+          "en": "Anti-imperialist solidarity among peoples."
+        },
+        "effects": {
+          "diplomacia": 65,
+          "intervencao": 42
+        }
+      },
+      {
+        "id": "E",
+        "text": {
+          "pt": "Paz e não intervenção, sempre.",
+          "en": "Peace and non-intervention, always."
+        },
+        "effects": {
+          "diplomacia": 8,
+          "intervencao": 90
+        }
+      }
+    ]
+  }
+]

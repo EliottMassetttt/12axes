@@ -1,5 +1,6 @@
 package com.twelveaxes.service;
 
+import com.twelveaxes.model.ArchetypeQuestion;
 import com.twelveaxes.model.Axis;
 import com.twelveaxes.model.AxisResult;
 import com.twelveaxes.model.Pole;
@@ -42,6 +43,7 @@ public class ScoringService {
             scores.computeIfAbsent(question.axisId(), ignored -> new WeightedScore())
                     .add(leftScore, question.weight());
         }
+        addArchetypeAnswers(request.archetype(), scores);
 
         String normalizedLang = QuizDataService.normalizeLang(lang);
         return dataService.getAxes(normalizedLang).stream()
@@ -70,6 +72,31 @@ public class ScoringService {
         return java.util.stream.IntStream.range(0, axes.size())
                 .mapToObj(index -> buildAxisResult(axes.get(index), leftPercents.get(index), normalizedLang))
                 .toList();
+    }
+
+    // Cada alternativa escolhida entra como uma resposta a mais em cada eixo que
+    // ela toca, com o mesmo peso (1) de uma pergunta comum.
+    private void addArchetypeAnswers(Map<String, String> choices, Map<String, WeightedScore> scores) {
+        if (choices == null || choices.isEmpty()) {
+            return;
+        }
+        Map<String, ArchetypeQuestion> byId = dataService.getArchetypeQuestions().stream()
+                .collect(Collectors.toMap(ArchetypeQuestion::id, Function.identity()));
+        choices.forEach((questionId, optionId) -> {
+            ArchetypeQuestion question = byId.get(questionId);
+            ArchetypeQuestion.Option option = question == null ? null : question.options().stream()
+                    .filter(candidate -> candidate.id().equals(optionId))
+                    .findFirst()
+                    .orElse(null);
+            if (option == null) {
+                throw new ResponseStatusException(
+                        HttpStatus.BAD_REQUEST,
+                        "Resposta de arquétipo inválida: " + questionId + "=" + optionId
+                );
+            }
+            option.effects().forEach((axisId, leftPercent) ->
+                    scores.computeIfAbsent(axisId, ignored -> new WeightedScore()).add(leftPercent / 100.0, 1.0));
+        });
     }
 
     private void validateAnswers(List<SubmittedAnswer> answers, Map<String, Question> questionById) {

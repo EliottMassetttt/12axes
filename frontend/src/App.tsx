@@ -1,5 +1,5 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState } from 'react';
-import { selectAllQuestionsBalanced, selectAndBalanceQuestions, selectExtensionQuestions } from './utils/quizSelection';
+import { selectAllQuestionsBalanced, selectAndBalanceQuestions } from './utils/quizSelection';
 import { HOME_AXES } from './data/homeAxes';
 import type { ExampleResult } from './data/exampleResult';
 import { LANG, setLang, t } from './i18n';
@@ -12,12 +12,13 @@ import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import ElectionApp from './election/ElectionApp';
 
-type Screen = 'home' | 'variant' | 'quiz' | 'extend' | 'results';
-type ExtendChoice = 'yes' | 'no';
+type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results';
 
 const ProgressHeader = lazy(() =>
   import('./components/ProgressHeader').then((module) => ({ default: module.ProgressHeader }))
 );
+import { ArchetypeCard } from './components/ArchetypeCard';
+
 const QuestionCard = lazy(() =>
   import('./components/QuestionCard').then((module) => ({ default: module.QuestionCard }))
 );
@@ -119,8 +120,9 @@ function MainApp() {
   const [isHomeSeoReady, setIsHomeSeoReady] = useState(false);
   const [currentExample, setCurrentExample] = useState<ExampleResult | null>(null);
   const [error, setError] = useState<string | null>(null);
-  const [isExtended, setIsExtended] = useState(false);
-  const [extendChoice, setExtendChoice] = useState<ExtendChoice | null>(null);
+  const [archetypeIndex, setArchetypeIndex] = useState(0);
+  const [archetypeChoices, setArchetypeChoices] = useState<Record<string, string>>({});
+  const [archetypeDone, setArchetypeDone] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const advanceTimerRef = useRef<number | null>(null);
   const isAdvancingRef = useRef(false);
@@ -254,8 +256,9 @@ function MainApp() {
     setResult(null);
     setError(null);
     setCurrentIndex(0);
-    setIsExtended(false);
-    setExtendChoice(null);
+    setArchetypeIndex(0);
+    setArchetypeChoices({});
+    setArchetypeDone(false);
     setScreen('variant');
   }
 
@@ -267,8 +270,9 @@ function MainApp() {
     setResult(null);
     setError(null);
     setCurrentIndex(0);
-    setIsExtended(false);
-    setExtendChoice(null);
+    setArchetypeIndex(0);
+    setArchetypeChoices({});
+    setArchetypeDone(false);
     setIsLoading(true);
 
     try {
@@ -341,63 +345,85 @@ function MainApp() {
 
   // Fim do quiz: na versão curta (36) ainda não estendida, oferece as 24
   // questões extras antes de calcular; nas demais, vai direto ao resultado.
+  // Fim das perguntas: primeiro as perguntas de arquétipo, depois o envio.
   function handleQuizEnd(answerMap = answers) {
-    if (quiz?.variant === 'short' && !isExtended) {
-      clearPendingAdvance();
-      setExtendChoice(null);
-      setError(null);
-      setScreen('extend');
+    if (!quiz || isSubmitting) {
       return;
     }
-    void finishQuiz(answerMap);
-  }
-
-  // Igual às demais perguntas: clicar na opção já avança, sem botão "Avançar".
-  function chooseExtend(choice: ExtendChoice) {
-    if (isSubmitting) {
+    const firstMissingIndex = quiz.questions.findIndex((question) => !answerMap[question.id]);
+    if (firstMissingIndex !== -1) {
+      setCurrentIndex(firstMissingIndex);
+      setError(t.errMissingAnswer);
       return;
     }
-    setExtendChoice(choice);
-    if (choice === 'yes') {
-      extendQuiz();
-    } else {
-      void finishQuiz();
-    }
-  }
-
-  // Volta da tela de extensão para a última questão respondida.
-  function goBackFromExtend() {
-    if (!quiz) {
-      return;
-    }
-    setScreen('quiz');
-    setCurrentIndex(quiz.questions.length - 1);
-  }
-
-  // Estende o quiz curto de 36 → 60: sorteia 24 novas questões (2 por eixo,
-  // uma LEFT e uma RIGHT), sem repetir as já respondidas, e segue na 37ª.
-  function extendQuiz() {
-    const pool = poolRef.current;
-    if (!quiz || !pool) {
-      void finishQuiz();
-      return;
-    }
-    const usedIds = new Set(quiz.questions.map((question) => question.id));
-    const extraQuestions = selectExtensionQuestions(pool, usedIds, 1);
-    if (extraQuestions.length === 0) {
-      void finishQuiz();
-      return;
-    }
-    const startIndex = quiz.questions.length;
-    const nextQuestions = [...quiz.questions, ...extraQuestions];
-    setQuiz({ ...quiz, questions: nextQuestions, questionCount: nextQuestions.length });
-    setIsExtended(true);
+    clearPendingAdvance();
     setError(null);
-    setCurrentIndex(startIndex);
-    setScreen('quiz');
+    if (quiz.archetypeQuestions?.length && !archetypeDone) {
+      setArchetypeIndex(0);
+      setScreen('archetype');
+      return;
+    }
+    void submitQuiz(answerMap);
   }
 
-  async function finishQuiz(answerMap = answers) {
+  // Escolher uma alternativa já avança; depois da última, calcula o resultado.
+  function chooseArchetype(optionId: string) {
+    const question = quiz?.archetypeQuestions?.[archetypeIndex];
+    if (!quiz || !question || isSubmitting || isAdvancingRef.current) {
+      return;
+    }
+    const nextChoices = { ...archetypeChoices, [question.id]: optionId };
+    setArchetypeChoices(nextChoices);
+    advanceArchetype(nextChoices, true);
+  }
+
+  function skipArchetype() {
+    const question = quiz?.archetypeQuestions?.[archetypeIndex];
+    if (!question || isSubmitting || isAdvancingRef.current) {
+      return;
+    }
+    const nextChoices = { ...archetypeChoices };
+    delete nextChoices[question.id];
+    setArchetypeChoices(nextChoices);
+    advanceArchetype(nextChoices, false);
+  }
+
+  function advanceArchetype(choices: Record<string, string>, withPause: boolean) {
+    const total = quiz?.archetypeQuestions?.length ?? 0;
+    if (archetypeIndex >= total - 1) {
+      setArchetypeDone(true);
+      void submitQuiz(answers, choices);
+      return;
+    }
+    setNavDirection('forward');
+    if (!withPause) {
+      setArchetypeIndex((index) => index + 1);
+      return;
+    }
+    isAdvancingRef.current = true;
+    setIsAdvancing(true);
+    advanceTimerRef.current = window.setTimeout(() => {
+      setArchetypeIndex((index) => index + 1);
+      isAdvancingRef.current = false;
+      setIsAdvancing(false);
+      advanceTimerRef.current = null;
+    }, 200);
+  }
+
+  function goBackFromArchetype() {
+    clearPendingAdvance();
+    setNavDirection('back');
+    if (archetypeIndex > 0) {
+      setArchetypeIndex((index) => index - 1);
+      return;
+    }
+    if (quiz) {
+      setScreen('quiz');
+      setCurrentIndex(quiz.questions.length - 1);
+    }
+  }
+
+  async function submitQuiz(answerMap = answers, archetype = archetypeChoices) {
     if (!quiz || isSubmitting) {
       return;
     }
@@ -417,7 +443,8 @@ function MainApp() {
       }));
       const nextResult = await submitResults(
         quiz.variant ?? selectedVariant,
-        payload
+        payload,
+        archetype
       );
       setResult(nextResult);
       setIsSharedView(false);
@@ -517,7 +544,7 @@ function MainApp() {
   }
 
   return (
-    <div className="app-shell" data-screen={screen}>
+    <div className="app-shell" data-screen={screen === 'archetype' ? 'quiz' : screen}>
       <a className="skip-link" href="#conteudo-principal">
         {t.skipToContent}
       </a>
@@ -570,7 +597,7 @@ function MainApp() {
               {t.backToStart}
             </button>
           )}
-          {(screen === 'quiz' || screen === 'extend' || screen === 'results') && (
+          {(screen === 'quiz' || screen === 'archetype' || screen === 'results') && (
             <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
               {screen === 'results' ? t.redoQuiz : t.restartQuiz} <ArrowIcon />
             </button>
@@ -591,7 +618,10 @@ function MainApp() {
 
       {screen === 'variant' && <VariantScreen error={error} onStart={(variant) => void startQuiz(variant)} />}
 
-      {screen === 'quiz' && quiz && currentQuestion && (
+      {/* Quiz e perguntas de arquétipo dividem o mesmo layout: o cabeçalho e a
+          barra não remontam na passagem, só o card troca (sem a animação de
+          entrada da tela). */}
+      {quiz && ((screen === 'quiz' && currentQuestion) || (screen === 'archetype' && quiz.archetypeQuestions?.[archetypeIndex])) && (
         <Suspense
           fallback={(
             <section className="quiz-layout">
@@ -601,138 +631,114 @@ function MainApp() {
         >
         <section className="quiz-layout">
           <ProgressHeader
-            current={currentIndex + 1}
+            current={screen === 'archetype' ? quiz.questions.length : currentIndex + 1}
             total={quiz.questions.length}
             questionsPerAxis={quiz.questionsPerAxis}
             axisCount={quiz.axes.length}
+            extraCount={quiz.archetypeQuestions?.length ?? 0}
+            extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
           />
 
-          <div
-            className="question-stage"
-            data-direction={navDirection}
-            data-leaving={isAdvancing ? 'true' : undefined}
-          >
-          <QuestionCard
-            key={currentQuestion.id}
-            question={currentQuestion}
-            axisLabel={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)?.label}
-            axis={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)}
-            number={currentIndex + 1}
-            options={quiz.answerOptions}
-            selected={answers[currentQuestion.id]}
-            disabled={isAdvancing || isSubmitting}
-            onSelect={selectAnswer}
-          />
-          </div>
-
-          <nav className="quiz-actions" aria-label={t.quizNavAria}>
-            <button
-              className="secondary-button"
-              type="button"
-              onClick={goToPreviousQuestion}
-              disabled={currentIndex === 0 || isAdvancing}
-            >
-              <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
-              {t.back}
-            </button>
-            <button
-              className="auto-advance-toggle"
-              type="button"
-              role="switch"
-              aria-checked={autoAdvance}
-              onClick={() => setAutoAdvance((value) => !value)}
-            >
-              <span className="auto-advance-switch" aria-hidden="true" />
-              {t.autoAdvance}
-            </button>
-            {currentIndex < quiz.questions.length - 1 ? (
-              <button
-                className="primary-button"
-                type="button"
-                onClick={goToNextQuestion}
-                disabled={!answers[currentQuestion.id] || isAdvancing}
+          {screen === 'quiz' && currentQuestion ? (
+            <>
+              <div
+                className="question-stage"
+                data-direction={navDirection}
+                data-leaving={isAdvancing ? 'true' : undefined}
               >
-                {t.next}
-                <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M5 12h14" />
-                  <path d="m13 6 6 6-6 6" />
-                </svg>
-              </button>
-            ) : (
-              <button className="primary-button" type="button" onClick={() => handleQuizEnd()} disabled={!canFinish || isSubmitting}>
-                {quiz.variant === 'short' && !isExtended ? t.next : isSubmitting ? t.calculating : t.seeResult}
-                <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
-                  <path d="M5 12h14" />
-                  <path d="m13 6 6 6-6 6" />
-                </svg>
-              </button>
-            )}
-          </nav>
+              <QuestionCard
+                key={currentQuestion.id}
+                question={currentQuestion}
+                axisLabel={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)?.label}
+                axis={quiz.axes.find((axis) => axis.id === currentQuestion.axisId)}
+                number={currentIndex + 1}
+                options={quiz.answerOptions}
+                selected={answers[currentQuestion.id]}
+                disabled={isAdvancing || isSubmitting}
+                onSelect={selectAnswer}
+              />
+              </div>
+
+              <nav className="quiz-actions" aria-label={t.quizNavAria}>
+                <button
+                  className="secondary-button"
+                  type="button"
+                  onClick={goToPreviousQuestion}
+                  disabled={currentIndex === 0 || isAdvancing}
+                >
+                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
+                    <path d="M5 12h14" />
+                    <path d="m13 6 6 6-6 6" />
+                  </svg>
+                  {t.back}
+                </button>
+                <button
+                  className="auto-advance-toggle"
+                  type="button"
+                  role="switch"
+                  aria-checked={autoAdvance}
+                  onClick={() => setAutoAdvance((value) => !value)}
+                >
+                  <span className="auto-advance-switch" aria-hidden="true" />
+                  {t.autoAdvance}
+                </button>
+                {currentIndex < quiz.questions.length - 1 ? (
+                  <button
+                    className="primary-button"
+                    type="button"
+                    onClick={goToNextQuestion}
+                    disabled={!answers[currentQuestion.id] || isAdvancing}
+                  >
+                    {t.next}
+                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 12h14" />
+                      <path d="m13 6 6 6-6 6" />
+                    </svg>
+                  </button>
+                ) : (
+                  <button className="primary-button" type="button" onClick={() => handleQuizEnd()} disabled={!canFinish || isSubmitting}>
+                    {quiz.archetypeQuestions?.length ? t.next : isSubmitting ? t.calculating : t.seeResult}
+                    <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                      <path d="M5 12h14" />
+                      <path d="m13 6 6 6-6 6" />
+                    </svg>
+                  </button>
+                )}
+              </nav>
+            </>
+          ) : quiz.archetypeQuestions?.[archetypeIndex] ? (
+            <>
+              <div className="question-stage" data-direction={navDirection} data-leaving={isAdvancing ? 'true' : undefined}>
+                <ArchetypeCard
+                  key={quiz.archetypeQuestions[archetypeIndex].id}
+                  question={quiz.archetypeQuestions[archetypeIndex]}
+                  index={archetypeIndex}
+                  selected={archetypeChoices[quiz.archetypeQuestions[archetypeIndex].id]}
+                  disabled={isAdvancing || isSubmitting}
+                  onSelect={chooseArchetype}
+                />
+              </div>
+              <nav className="quiz-actions" aria-label={t.quizNavAria}>
+                <button className="secondary-button" type="button" onClick={goBackFromArchetype} disabled={isAdvancing || isSubmitting}>
+                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
+                    <path d="M5 12h14" />
+                    <path d="m13 6 6 6-6 6" />
+                  </svg>
+                  {t.back}
+                </button>
+                <button className="secondary-button archetype-skip" type="button" onClick={skipArchetype} disabled={isAdvancing || isSubmitting}>
+                  {isSubmitting ? t.calculating : t.archetypeSkip}
+                  <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M5 12h14" />
+                    <path d="m13 6 6 6-6 6" />
+                  </svg>
+                </button>
+              </nav>
+            </>
+          ) : null}
           {error && <p className="inline-error" role="alert">{error}</p>}
         </section>
         </Suspense>
-      )}
-
-      {screen === 'extend' && quiz && (
-        <section className="quiz-layout">
-          <article className="question-card extend-card" aria-labelledby="extend-title">
-            <header className="question-card-header">
-              <p className="question-axis">{t.progress(quiz.questions.length, 60)}</p>
-              <h2 id="extend-title">{t.extendTitle}</h2>
-            </header>
-            <div className="answer-grid" role="radiogroup" aria-label={t.extendAria}>
-              <button
-                className={extendChoice === 'yes' ? 'answer-button selected' : 'answer-button'}
-                data-answer="STRONGLY_AGREE"
-                type="button"
-                role="radio"
-                aria-checked={extendChoice === 'yes'}
-                disabled={isSubmitting}
-                onClick={() => chooseExtend('yes')}
-              >
-                <span className="answer-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24">
-                    <path d="m6 12 4 4 8-8" />
-                  </svg>
-                </span>
-                <span>{t.extendYes}</span>
-                <span aria-hidden="true" />
-              </button>
-              <button
-                className={extendChoice === 'no' ? 'answer-button selected' : 'answer-button'}
-                data-answer="NEUTRAL"
-                type="button"
-                role="radio"
-                aria-checked={extendChoice === 'no'}
-                disabled={isSubmitting}
-                onClick={() => chooseExtend('no')}
-              >
-                <span className="answer-icon" aria-hidden="true">
-                  <svg viewBox="0 0 24 24">
-                    <path d="m7 7 10 10" />
-                    <path d="m17 7-10 10" />
-                  </svg>
-                </span>
-                <span>{t.extendNo}</span>
-                <span aria-hidden="true" />
-              </button>
-            </div>
-          </article>
-
-          <nav className="quiz-actions" aria-label={t.quizNavAria}>
-            <button className="secondary-button" type="button" onClick={goBackFromExtend} disabled={isSubmitting}>
-              <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true" style={{ transform: 'rotate(180deg)' }}>
-                <path d="M5 12h14" />
-                <path d="m13 6 6 6-6 6" />
-              </svg>
-              {t.back}
-            </button>
-          </nav>
-          {error && <p className="inline-error" role="alert">{error}</p>}
-        </section>
       )}
 
       {screen === 'results' && result && (quiz || isSharedView) && (

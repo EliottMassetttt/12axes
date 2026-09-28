@@ -4,6 +4,7 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.twelveaxes.model.Book;
 import com.twelveaxes.model.AnswerOption;
+import com.twelveaxes.model.ArchetypeQuestion;
 import com.twelveaxes.model.Candidate;
 import com.twelveaxes.model.CandidateProfile;
 import com.twelveaxes.model.AnswerValue;
@@ -47,6 +48,7 @@ public class QuizDataService {
     private List<Question> electionQuestions;
     private List<Candidate> candidates;
     private Map<String, CandidateProfile> candidateProfiles;
+    private List<ArchetypeQuestion> archetypeQuestions;
 
     // Textos por locale: profiles/vetores são independentes de idioma e ficam fora do bundle.
     private record LocaleBundle(
@@ -113,6 +115,9 @@ public class QuizDataService {
         List<CandidateProfile> candidateProfileList = readJson("data/candidate-profiles.json", new TypeReference<List<CandidateProfile>>() {});
         candidateProfiles = candidateProfileList.stream()
                 .collect(Collectors.toUnmodifiableMap(CandidateProfile::candidateId, Function.identity()));
+
+        archetypeQuestions = readJson("data/archetype-questions.json", new TypeReference<>() {});
+        validateArchetypeQuestions(axes);
 
         LocaleBundle pt = LocaleBundle.of(axes, questions, ideologies, countries, personalities);
         LocaleBundle en = buildEnglishBundle(pt);
@@ -336,8 +341,29 @@ public class QuizDataService {
                 questionsPerAxis,
                 data.axes(),
                 data.questions(),
-                answerOptions(normalizedLang)
+                answerOptions(normalizedLang),
+                archetypeQuestions.stream().map(question -> question.view(normalizedLang)).toList()
         );
+    }
+
+    public List<ArchetypeQuestion> getArchetypeQuestions() {
+        return archetypeQuestions;
+    }
+
+    // Cada efeito precisa apontar para um eixo real com valor 0–100: um erro de
+    // digitação no JSON distorceria resultados em silêncio.
+    private void validateArchetypeQuestions(List<Axis> axes) {
+        java.util.Set<String> axisIds = axes.stream().map(Axis::id).collect(Collectors.toSet());
+        for (ArchetypeQuestion question : archetypeQuestions) {
+            for (ArchetypeQuestion.Option option : question.options()) {
+                option.effects().forEach((axisId, value) -> {
+                    if (!axisIds.contains(axisId) || value == null || value < 0 || value > 100) {
+                        throw new IllegalStateException("archetype-questions.json: efeito inválido em "
+                                + question.id() + "/" + option.id() + " -> " + axisId + "=" + value);
+                    }
+                });
+            }
+        }
     }
 
     public List<Axis> getAxes() {
@@ -425,7 +451,7 @@ public class QuizDataService {
         return personalityProfiles;
     }
 
-    public QuizPayload getElectionQuiz() { return new QuizPayload("12 Eixos - Eleições 2026", "36 perguntas sobre as eleições brasileiras de 2026.", "short", 36, 3, getAxes(LANG_PT), electionQuestions, answerOptions(LANG_PT)); }
+    public QuizPayload getElectionQuiz() { return new QuizPayload("12 Eixos - Eleições 2026", "36 perguntas sobre as eleições brasileiras de 2026.", "short", 36, 3, getAxes(LANG_PT), electionQuestions, answerOptions(LANG_PT), List.of()); }
     public List<Question> getElectionQuestions() { return electionQuestions; }
     public List<Candidate> getCandidates() { return candidates; }
     public Map<String, CandidateProfile> getCandidateProfiles() { return candidateProfiles; }
