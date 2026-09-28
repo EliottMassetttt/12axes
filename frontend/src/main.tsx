@@ -14,6 +14,7 @@ import './styles/tokens.css';
 import './styles/app.css';
 import './styles/results.css';
 import './styles/editorial.css';
+import './styles/motion.css';
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>

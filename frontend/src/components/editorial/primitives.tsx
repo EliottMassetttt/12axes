@@ -94,6 +94,7 @@ export function Ring({ pct, size, stroke, sized = true }: RingProps) {
       <svg viewBox={`0 0 ${size} ${size}`}>
         <circle cx={center} cy={center} r={radius} fill="none" stroke="#E2DDCF" strokeWidth={stroke} />
         <circle
+          className="e-ring-arc"
           cx={center}
           cy={center}
           r={radius}
