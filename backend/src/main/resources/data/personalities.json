@@ -4594,5 +4594,17 @@
     "imageSourceName": "Wikimedia Commons / Stevan Kragujević",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gamal_Abdel_Nasser_Portrait_1962_(3x4_cropped).jpg",
     "imageNote": "Foto de Stevan Kragujević, Belgrado, 1962; recorte sob CC BY-SA 3.0, via Wikimedia Commons."
+  },
+  {
+    "id": "ernst-junger",
+    "name": "Ernst Jünger",
+    "role": "Escritor e ensaísta alemão",
+    "category": "intelectual",
+    "lifespan": "1895–1998",
+    "description": "Veterano da Primeira Guerra e escritor da Revolução Conservadora, Jünger exaltou a mobilização técnica e criticou o liberalismo burguês em O Trabalhador (1932). Recusou ingressar no partido nazista e depois criticou o totalitarismo.",
+    "imagePath": "/personalities/portraits/ernst-junger.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ernst_J%C3%BCnger_vers_1920.jpg",
+    "imageNote": "Retrato de Ernst Jünger via Wikimedia Commons."
   }
 ]

@@ -6509,5 +6509,22 @@
       "moral": 39.1,
       "tecnologia": 72.5
     }
+  },
+  {
+    "personalityId": "ernst-junger",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 34.0,
+      "poder": 29.3,
+      "imigracao": 59.0,
+      "diplomacia": 68.3,
+      "intervencao": 32.9,
+      "economia": 61.3,
+      "controle": 73.1,
+      "comercio": 70.5,
+      "religiao": 58.7,
+      "moral": 54.8,
+      "tecnologia": 47.6
+    }
   }
 ]

@@ -2387,5 +2387,12 @@
     "role": "President of Egypt",
     "lifespan": "1918–1970",
     "description": "Egypt's president from 1956 to 1970, Nasser nationalized the Suez Canal and expanded state ownership and land reform. He championed pan-Arabism and non-alignment while concentrating power and repressing the opposition."
+  },
+  {
+    "id": "ernst-junger",
+    "name": "Ernst Jünger",
+    "role": "German writer and essayist",
+    "lifespan": "1895–1998",
+    "description": "A World War I veteran and Conservative Revolutionary writer, Jünger praised technological mobilization and criticized bourgeois liberalism in The Worker (1932). He refused to join the Nazi Party and later criticized totalitarianism."
   }
 ]
