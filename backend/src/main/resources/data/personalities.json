@@ -4618,5 +4618,17 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oswald_Spengler.jpg",
     "imageNote": "Retrato de 1929, autor desconhecido; imagem via Wikimedia Commons, CC BY-SA 4.0, comprimida para o catálogo."
+  },
+  {
+    "id": "fernando-iii-de-castela",
+    "name": "Fernando III de Castela",
+    "role": "Rei de Castela e Leão",
+    "category": "politico",
+    "lifespan": "c. 1201–1252",
+    "description": "Rei de Castela desde 1217 e de Leão desde 1230, consolidou a união das coroas e conquistou Córdoba e Sevilha. Governou como monarca católico medieval e promoveu a organização jurídica e administrativa dos territórios conquistados.",
+    "imagePath": "/personalities/portraits/fernando-iii-de-castela.jpg",
+    "imageSourceName": "Wikimedia Commons / Catedral de Sevilla",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_San_Fernando,_rey_de_Castilla_y_de_Le%C3%B3n_(Catedral_de_Sevilla).jpg",
+    "imageNote": "Pintura anônima de cerca de 1639, posterior à vida de Fernando III; não é um retrato contemporâneo."
   }
 ]

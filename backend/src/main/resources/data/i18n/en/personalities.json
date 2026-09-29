@@ -2401,5 +2401,12 @@
     "role": "German philosopher and historian",
     "lifespan": "1880–1936",
     "description": "A Conservative Revolutionary philosopher, Spengler saw civilizations as cyclical in The Decline of the West. He advocated authoritarian, anti-Marxist Prussian socialism; he later criticized Nazism without abandoning nationalism."
+  },
+  {
+    "id": "fernando-iii-de-castela",
+    "name": "Ferdinand III of Castile",
+    "role": "King of Castile and León",
+    "lifespan": "c. 1201–1252",
+    "description": "King of Castile from 1217 and León from 1230, he consolidated the union of the crowns and conquered Córdoba and Seville. He ruled as a medieval Catholic monarch and promoted legal and administrative organization in conquered territories."
   }
 ]

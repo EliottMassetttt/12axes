@@ -934,5 +934,35 @@
     "name": "Ba'athist Iraq",
     "category": "Authoritarian Ba'athist republic",
     "description": "Ruled by the Ba'ath Party from 1968 to 2003, Iraq combined Arab nationalism, state oil and one-party rule. Under Saddam Hussein, the regime intensified repression, fought wars against Iran and Kuwait, and faced international sanctions."
+  },
+  {
+    "id": "reino-da-franca",
+    "name": "Kingdom of France",
+    "category": "Long-lived Christian monarchy",
+    "description": "From West Francia to the monarchy’s abolition in 1792, the kingdom moved from feudal rule toward centralized absolutism. The Catholic Church, landed aristocracy, and military expansion shaped much of its history."
+  },
+  {
+    "id": "reino-de-castela",
+    "name": "Kingdom of Castile",
+    "category": "Iberian Christian monarchy",
+    "description": "United with León in 1230, Castile expanded across Iberia and later the Americas. The Crown, nobility, and Catholic Church shaped its politics; institutions changed over the nearly five centuries covered here."
+  },
+  {
+    "id": "coroa-de-aragao",
+    "name": "Crown of Aragon",
+    "category": "Christian composite monarchy",
+    "description": "A dynastic union of Aragon, Catalonia, and other Mediterranean lands whose constituent realms kept their own laws and assemblies. The Crown expanded through trade and conquest; its institutions were gradually abolished after the War of the Spanish Succession."
+  },
+  {
+    "id": "reino-da-hungria",
+    "name": "Kingdom of Hungary",
+    "category": "Central European Christian monarchy",
+    "description": "Founded under Stephen I, the kingdom passed through native dynasties, partial Ottoman rule, and Habsburg government. Nobility, Catholicism, and Hungarian autonomy played changing roles across nearly a millennium."
+  },
+  {
+    "id": "antigo-egito",
+    "name": "Ancient Egypt",
+    "category": "Pharaonic monarchy",
+    "description": "A Nile Valley civilization ruled by pharaonic dynasties through periods of unity and fragmentation. Sacred kingship, temples, and agricultural administration structured society; practices and institutions varied over three millennia."
   }
 ]

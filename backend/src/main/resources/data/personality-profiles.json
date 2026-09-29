@@ -6543,5 +6543,22 @@
       "moral": 25.0,
       "tecnologia": 35.7
     }
+  },
+  {
+    "personalityId": "fernando-iii-de-castela",
+    "vector": {
+      "estrutura": 56.6,
+      "representacao": 23.3,
+      "poder": 68.6,
+      "imigracao": 48.0,
+      "diplomacia": 77.9,
+      "intervencao": 24.5,
+      "economia": 49.6,
+      "controle": 58.0,
+      "comercio": 35.3,
+      "religiao": 4.5,
+      "moral": 11.3,
+      "tecnologia": 33.3
+    }
   }
 ]
