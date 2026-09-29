@@ -1379,18 +1379,18 @@
   {
     "countryId": "siria",
     "vector": {
-      "estrutura": 23.8,
-      "representacao": 25,
-      "poder": 81.2,
-      "imigracao": 70,
-      "diplomacia": 52.5,
-      "intervencao": 46.2,
-      "economia": 35,
-      "controle": 43.8,
-      "comercio": 37.5,
-      "religiao": 17.5,
-      "moral": 12.5,
-      "tecnologia": 42.5
+      "estrutura": 23.5,
+      "representacao": 24.5,
+      "poder": 81.4,
+      "imigracao": 69.5,
+      "diplomacia": 49.3,
+      "intervencao": 51.9,
+      "economia": 38.9,
+      "controle": 46.1,
+      "comercio": 42.5,
+      "religiao": 18.7,
+      "moral": 13.4,
+      "tecnologia": 43.9
     }
   },
   {
@@ -2581,6 +2581,23 @@
       "religiao": 0.0,
       "moral": 6.2,
       "tecnologia": 46.2
+    }
+  },
+  {
+    "countryId": "siria-de-assad",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 5.5,
+      "poder": 93.3,
+      "imigracao": 71.0,
+      "diplomacia": 82.6,
+      "intervencao": 24.5,
+      "economia": 71.0,
+      "controle": 77.8,
+      "comercio": 75.6,
+      "religiao": 75.3,
+      "moral": 29.8,
+      "tecnologia": 65.3
     }
   }
 ]

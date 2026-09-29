@@ -3789,5 +3789,22 @@
       "moral": 52.5,
       "tecnologia": 70.0
     }
+  },
+  {
+    "ideologyId": "socialismo-baathista",
+    "vector": {
+      "estrutura": 0.9,
+      "representacao": 24.5,
+      "poder": 75.5,
+      "imigracao": 74.5,
+      "diplomacia": 75.5,
+      "intervencao": 24.5,
+      "economia": 74.5,
+      "controle": 75.4,
+      "comercio": 75.6,
+      "religiao": 75.3,
+      "moral": 25.0,
+      "tecnologia": 74.9
+    }
   }
 ]

@@ -1035,7 +1035,7 @@
     "id": "bashar-al-assad",
     "name": "Bashar al-Assad",
     "role": "Dictator",
-    "description": "A Syrian dictator, Bashar al-Assad preserved the Baathist regime through the military apparatus, repression, and Russian-Iranian support during the civil war, until being overthrown in 2024 and departing into exile."
+    "description": "Syrian president from 2000 to 2024, Bashar al-Assad preserved his family’s Ba’athist regime through repression, a clientelist economy, and Russian-Iranian backing in the civil war; he was overthrown and lives in exile in Russia."
   },
   {
     "id": "john-f-kennedy",
@@ -2352,5 +2352,19 @@
     "name": "Otto Strasser",
     "role": "Political theorist",
     "description": "Brother of Gregor Strasser, he broke with Hitler in 1930 and founded the Black Front, championing an anti-capitalist, federalist and Christian national socialism with land for peasants; exiled, he returned to Germany in 1955."
+  },
+  {
+    "id": "ahmed-al-sharaa",
+    "name": "Ahmed al-Sharaa",
+    "role": "Interim President of Syria",
+    "lifespan": "1982–",
+    "description": "Syria’s interim president since 2025 and former HTS leader, Ahmed al-Sharaa leads a centralized transition seeking territorial reintegration, security, foreign recognition and investment for reconstruction."
+  },
+  {
+    "id": "hafez-al-assad",
+    "name": "Hafez al-Assad",
+    "role": "President of Syria",
+    "lifespan": "1930–2000",
+    "description": "Syrian president from 1971 to 2000, Hafez al-Assad consolidated a militarized authoritarian Ba’athist state, combining Arab socialism, nationalism, single-party rule, patronage and pragmatic regional diplomacy."
   }
 ]

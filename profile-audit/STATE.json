@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-28T17:01:30Z",
+  "lastUpdated": "2026-09-29T10:29:05Z",
   "personality": {
-    "totalProfiles": 378,
+    "totalProfiles": 380,
     "pending": [],
     "done": [
       "lenin",
@@ -382,11 +382,13 @@
       "sergio-mattarella",
       "marcelo-rebelo-de-sousa",
       "balduino-iv",
-      "otto-strasser"
+      "otto-strasser",
+      "ahmed-al-sharaa",
+      "hafez-al-assad"
     ]
   },
   "ideology": {
-    "totalProfiles": 223,
+    "totalProfiles": 224,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -612,11 +614,12 @@
       "republicanismo-confederal",
       "socialismo-federalista",
       "socialismo-patriotico",
-      "socialismo-vietnamita"
+      "socialismo-vietnamita",
+      "socialismo-baathista"
     ]
   },
   "country": {
-    "totalProfiles": 153,
+    "totalProfiles": 154,
     "pending": [],
     "done": [
       "brasil",
@@ -771,7 +774,8 @@
       "parana",
       "rio-grande-do-sul",
       "minas-gerais",
-      "reino-de-jerusalem"
+      "reino-de-jerusalem",
+      "siria-de-assad"
     ]
   }
 }

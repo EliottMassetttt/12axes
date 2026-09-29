@@ -488,8 +488,8 @@
   {
     "id": "siria",
     "name": "Syria",
-    "category": "Transitional-Islamic state",
-    "description": "After the fall of Assad, Syria is undergoing a transition under forces of Islamic orientation, trying to rebuild the state after a long civil war, with challenges of national unity, security, and reconciliation among groups."
+    "category": "Post-Assad transitional republic",
+    "description": "Under President Ahmed al-Sharaa, Syria is in a transition begun after Assad’s fall, with a 2025 provisional constitution, reconstruction, and challenges of unity, security, and minority rights."
   },
   {
     "id": "filipinas",
@@ -910,5 +910,11 @@
     "name": "Kingdom of Jerusalem",
     "category": "Crusader feudal monarchy",
     "description": "A crusader state founded after the First Crusade, the Kingdom of Jerusalem was a Latin Catholic feudal monarchy, backed by the Templar and Hospitaller military orders, with powerful barons, constant holy war and a Frankish elite over a native majority."
+  },
+  {
+    "id": "siria-de-assad",
+    "name": "Assad's Syria",
+    "category": "Authoritarian Ba'athist republic",
+    "description": "Under Bashar al-Assad (2000–2024), Syria was a centralized Ba'athist regime sustained by security forces, a clientelist state economy, and alliances with Russia and Iran during the civil war."
   }
 ]

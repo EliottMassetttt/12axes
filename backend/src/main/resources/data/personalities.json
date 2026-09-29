@@ -2129,7 +2129,7 @@
     "role": "Ditador",
     "category": "politico",
     "lifespan": "1965–",
-    "description": "Ditador sírio, Bashar al-Assad preservou o regime baathista por meio de aparato militar, repressão e apoio russo-iraniano durante a guerra civil, até ser derrubado em 2024 e partir para o exílio.",
+    "description": "Presidente sírio de 2000 a 2024, Bashar al-Assad preservou o regime baathista familiar por repressão, economia clientelista e apoio russo-iraniano na guerra civil; foi derrubado e vive exilado na Rússia.",
     "imagePath": "/personalities/portraits/bashar-al-assad.jpg",
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Bashar_al-Assad",
@@ -4534,5 +4534,29 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Otto_Strasser",
     "imageNote": "Retrato de Otto Strasser via Wikipédia/Wikimedia Commons."
+  },
+  {
+    "id": "ahmed-al-sharaa",
+    "name": "Ahmed al-Sharaa",
+    "role": "Presidente interino da Síria",
+    "category": "politico",
+    "lifespan": "1982–",
+    "description": "Presidente interino sírio desde 2025 e ex-líder da HTS, Ahmed al-Sharaa conduz uma transição centralizada, buscando reintegração territorial, segurança, reconhecimento externo e investimento para a reconstrução.",
+    "imagePath": "/personalities/portraits/ahmed-al-sharaa.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ahmed_al-Sharaa_in_April_2025_(3x4_close_cropped).jpg",
+    "imageNote": "Retrato de Ahmed al-Sharaa em abril de 2025, via Wikimedia Commons."
+  },
+  {
+    "id": "hafez-al-assad",
+    "name": "Hafez al-Assad",
+    "role": "Presidente da Síria",
+    "category": "politico",
+    "lifespan": "1930–2000",
+    "description": "Presidente sírio de 1971 a 2000, Hafez al-Assad consolidou um Estado baathista militarizado e autoritário, combinando socialismo árabe, nacionalismo, partido único, patronagem e diplomacia regional pragmática.",
+    "imagePath": "/personalities/portraits/hafez-al-assad.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hafez_al-Assad_official_portrait_(bw_cropped_3).jpg",
+    "imageNote": "Retrato oficial de Hafez al-Assad, de 1987, via Wikimedia Commons."
   }
 ]

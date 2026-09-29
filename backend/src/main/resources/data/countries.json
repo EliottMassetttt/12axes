@@ -972,16 +972,16 @@
   {
     "id": "siria",
     "name": "Síria",
-    "category": "Estado transicional-islâmico",
-    "description": "Após a queda de Assad, a Síria vive uma transição sob forças de orientação islâmica, tentando reconstruir o Estado depois de longa guerra civil, com desafios de unidade nacional, segurança e reconciliação entre grupos.",
+    "category": "República em transição pós-Assad",
+    "description": "Sob o presidente Ahmed al-Sharaa, a Síria atravessa uma transição iniciada após a queda de Assad, com Constituição provisória de 2025, reconstrução e desafios de unidade, segurança e direitos das minorias.",
     "flagPath": "/countries/flags/siria.png",
-    "historical": true,
-    "period": "2024–",
+    "historical": false,
+    "period": "",
     "vector": null,
-    "flagKind": "historical-flag",
+    "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
-    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Syrian_revolution.svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(2025-).svg",
+    "flagNote": "Bandeira nacional de três estrelas, restabelecida após a queda do regime Assad."
   },
   {
     "id": "filipinas",
@@ -1911,5 +1911,19 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Jerusalem.svg",
     "flagNote": "Estandarte com a cruz de Jerusalém em ouro sobre prata."
+  },
+  {
+    "id": "siria-de-assad",
+    "name": "Síria de Assad",
+    "category": "República baathista autoritária",
+    "description": "Sob Bashar al-Assad (2000–2024), a Síria foi um regime baathista centralizado, sustentado por forças de segurança, economia estatal clientelista e alianças com Rússia e Irã durante a guerra civil.",
+    "flagPath": "/countries/flags/siria-de-assad.png",
+    "historical": true,
+    "period": "2000–2024",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg",
+    "flagNote": "Bandeira nacional de duas estrelas verdes usada pela República Árabe Síria de 1980 até 2024."
   }
 ]
