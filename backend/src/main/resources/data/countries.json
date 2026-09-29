@@ -1925,5 +1925,47 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg",
     "flagNote": "Bandeira nacional de duas estrelas verdes usada pela República Árabe Síria de 1980 até 2024."
+  },
+  {
+    "id": "ira-pahlavi",
+    "name": "Irã do Xá",
+    "category": "Monarquia autoritária modernizadora",
+    "description": "Sob Mohammad Reza Pahlavi após 1953, o Irã combinou monarquia autoritária e repressão política com industrialização, reforma agrária e direitos das mulheres na Revolução Branca. Aliado dos EUA, financiou o desenvolvimento com petróleo até 1979.",
+    "flagPath": "/countries/flags/ira-pahlavi.png",
+    "historical": true,
+    "period": "1953–1979",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1933%E2%80%931964).svg",
+    "flagNote": "Bandeira estatal com o leão e o sol, na versão usada entre 1933 e 1964."
+  },
+  {
+    "id": "libia-de-gaddafi",
+    "name": "Líbia de Gaddafi",
+    "category": "Jamahiriya socialista autoritária",
+    "description": "Sob Muammar Gaddafi (1969–2011), a Líbia nacionalizou o petróleo e proclamou a democracia direta da Jamahiriya. O poder permaneceu concentrado em Gaddafi, apoiado por comitês revolucionários e repressão à oposição.",
+    "flagPath": "/countries/flags/libia-de-gaddafi.png",
+    "historical": true,
+    "period": "1969–2011",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1977%E2%80%932011).svg",
+    "flagNote": "Bandeira verde usada de 1977 a 2011; o regime utilizou outras bandeiras entre 1969 e 1977."
+  },
+  {
+    "id": "iraque-baathista",
+    "name": "Iraque baathista",
+    "category": "República baathista autoritária",
+    "description": "Governado pelo Partido Baath de 1968 a 2003, o Iraque combinou nacionalismo árabe, petróleo estatal e partido único. Sob Saddam Hussein, o regime ampliou a repressão, travou guerras contra o Irã e o Kuwait e sofreu sanções internacionais.",
+    "flagPath": "/countries/flags/iraque-baathista.png",
+    "historical": true,
+    "period": "1968–2003",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(1963%E2%80%931991).svg",
+    "flagNote": "Bandeira de três estrelas usada entre 1968 e 1991; a inscrição Allahu Akbar foi adicionada em 1991."
   }
 ]

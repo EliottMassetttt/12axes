@@ -4541,7 +4541,7 @@
     "role": "Presidente interino da Síria",
     "category": "politico",
     "lifespan": "1982–",
-    "description": "Presidente interino sírio desde 2025 e ex-líder da HTS, Ahmed al-Sharaa conduz uma transição centralizada, buscando reintegração territorial, segurança, reconhecimento externo e investimento para a reconstrução.",
+    "description": "Presidente interino sírio desde 2025 e ex-líder da HTS, Ahmed al-Sharaa concentra poderes na transição, mantém o Islã como principal fonte legal e busca reintegrar territórios curdos e atrair investimento externo, sob desafios de violência sectária e direitos civis.",
     "imagePath": "/personalities/portraits/ahmed-al-sharaa.jpg",
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ahmed_al-Sharaa_in_April_2025_(3x4_close_cropped).jpg",
@@ -4558,5 +4558,41 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hafez_al-Assad_official_portrait_(bw_cropped_3).jpg",
     "imageNote": "Retrato oficial de Hafez al-Assad, de 1987, via Wikimedia Commons."
+  },
+  {
+    "id": "reza-pahlavi",
+    "name": "Reza Pahlavi",
+    "role": "Opositor iraniano no exílio",
+    "category": "politico",
+    "lifespan": "1960–",
+    "description": "Filho do último xá e opositor no exílio, Reza Pahlavi defende uma transição para democracia secular, eleições livres e escolha entre monarquia e república. Prioriza integridade territorial, liberdades individuais e reformas de mercado; nunca governou o Irã.",
+    "imagePath": "/personalities/portraits/reza-pahlavi.jpg",
+    "imageSourceName": "Wikimedia Commons / VOA Farsi",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Reza_Pahlavi_2024.jpg",
+    "imageNote": "Retrato de Reza Pahlavi em entrevista à VOA Farsi, julho de 2024, via Wikimedia Commons."
+  },
+  {
+    "id": "mohammad-reza-pahlavi",
+    "name": "Mohammad Reza Pahlavi",
+    "role": "Último xá do Irã",
+    "category": "politico",
+    "lifespan": "1919–1980",
+    "description": "Último xá do Irã (1941–1979), Mohammad Reza Pahlavi consolidou uma monarquia autoritária e aliada do Ocidente. A Revolução Branca promoveu reforma agrária, industrialização e direitos das mulheres, enquanto a SAVAK reprimiu a oposição.",
+    "imagePath": "/personalities/portraits/mohammad-reza-pahlavi.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mohammad_Reza_Shah_Pahlavi_1973_(3x4_cropped).jpg",
+    "imageNote": "Retrato oficial de Mohammad Reza Pahlavi, por Ghazarians, cerca de 1973, via Wikimedia Commons."
+  },
+  {
+    "id": "gamal-abdel-nasser",
+    "name": "Gamal Abdel Nasser",
+    "role": "Presidente do Egito",
+    "category": "politico",
+    "lifespan": "1918–1970",
+    "description": "Presidente do Egito de 1956 a 1970, Nasser nacionalizou o Canal de Suez e expandiu o setor estatal e a reforma agrária. Defendeu o pan-arabismo e o não alinhamento, enquanto concentrava o poder e reprimia a oposição.",
+    "imagePath": "/personalities/portraits/gamal-abdel-nasser.jpg",
+    "imageSourceName": "Wikimedia Commons / Stevan Kragujević",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gamal_Abdel_Nasser_Portrait_1962_(3x4_cropped).jpg",
+    "imageNote": "Foto de Stevan Kragujević, Belgrado, 1962; recorte sob CC BY-SA 3.0, via Wikimedia Commons."
   }
 ]

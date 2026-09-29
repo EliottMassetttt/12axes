@@ -1379,18 +1379,18 @@
   {
     "countryId": "siria",
     "vector": {
-      "estrutura": 23.5,
-      "representacao": 24.5,
-      "poder": 81.4,
-      "imigracao": 69.5,
-      "diplomacia": 79.3,
-      "intervencao": 51.9,
-      "economia": 38.9,
-      "controle": 46.1,
-      "comercio": 42.5,
-      "religiao": 18.7,
-      "moral": 13.4,
-      "tecnologia": 43.9
+      "estrutura": 14.0,
+      "representacao": 32.9,
+      "poder": 77.9,
+      "imigracao": 46.9,
+      "diplomacia": 55.7,
+      "intervencao": 51.4,
+      "economia": 37.7,
+      "controle": 42.6,
+      "comercio": 31.8,
+      "religiao": 24.6,
+      "moral": 19.4,
+      "tecnologia": 55.8
     }
   },
   {
@@ -2586,18 +2586,69 @@
   {
     "countryId": "siria-de-assad",
     "vector": {
-      "estrutura": 6.8,
-      "representacao": 5.5,
+      "estrutura": 10.4,
+      "representacao": 11.4,
       "poder": 93.3,
-      "imigracao": 71.0,
-      "diplomacia": 82.6,
-      "intervencao": 24.5,
-      "economia": 71.0,
-      "controle": 77.8,
-      "comercio": 75.6,
-      "religiao": 75.3,
-      "moral": 29.8,
-      "tecnologia": 65.3
+      "imigracao": 78.1,
+      "diplomacia": 83.8,
+      "intervencao": 15.0,
+      "economia": 57.8,
+      "controle": 73.1,
+      "comercio": 58.6,
+      "religiao": 69.4,
+      "moral": 28.6,
+      "tecnologia": 48.7
+    }
+  },
+  {
+    "countryId": "ira-pahlavi",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 11.4,
+      "poder": 89.8,
+      "imigracao": 63.8,
+      "diplomacia": 77.9,
+      "intervencao": 6.7,
+      "economia": 61.3,
+      "controle": 82.6,
+      "comercio": 59.8,
+      "religiao": 40.8,
+      "moral": 41.7,
+      "tecnologia": 72.5
+    }
+  },
+  {
+    "countryId": "libia-de-gaddafi",
+    "vector": {
+      "estrutura": 22.3,
+      "representacao": 30.5,
+      "poder": 93.3,
+      "imigracao": 62.1,
+      "diplomacia": 81.4,
+      "intervencao": 16.2,
+      "economia": 88.1,
+      "controle": 92.4,
+      "comercio": 76.4,
+      "religiao": 27.4,
+      "moral": 26.0,
+      "tecnologia": 51.0
+    }
+  },
+  {
+    "countryId": "iraque-baathista",
+    "vector": {
+      "estrutura": 14.0,
+      "representacao": 11.4,
+      "poder": 98.1,
+      "imigracao": 75.3,
+      "diplomacia": 83.8,
+      "intervencao": 5.5,
+      "economia": 85.1,
+      "controle": 92.1,
+      "comercio": 87.1,
+      "religiao": 31.9,
+      "moral": 17.2,
+      "tecnologia": 70.1
     }
   }
 ]

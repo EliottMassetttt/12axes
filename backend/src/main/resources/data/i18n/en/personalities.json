@@ -2358,7 +2358,7 @@
     "name": "Ahmed al-Sharaa",
     "role": "Interim President of Syria",
     "lifespan": "1982–",
-    "description": "Syria’s interim president since 2025 and former HTS leader, Ahmed al-Sharaa leads a centralized transition seeking territorial reintegration, security, foreign recognition and investment for reconstruction."
+    "description": "Syria’s interim president since 2025 and former HTS leader, Ahmed al-Sharaa concentrates power during the transition, retains Islam as the main source of law and seeks to reintegrate Kurdish areas and attract investment amid sectarian violence and civil rights concerns."
   },
   {
     "id": "hafez-al-assad",
@@ -2366,5 +2366,26 @@
     "role": "President of Syria",
     "lifespan": "1930–2000",
     "description": "Syrian president from 1971 to 2000, Hafez al-Assad consolidated a militarized authoritarian Ba’athist state, combining Arab socialism, nationalism, single-party rule, patronage and pragmatic regional diplomacy."
+  },
+  {
+    "id": "reza-pahlavi",
+    "name": "Reza Pahlavi",
+    "role": "Iranian opposition figure in exile",
+    "lifespan": "1960–",
+    "description": "Son of Iran's last shah and an exiled opposition figure, Reza Pahlavi advocates a secular democratic transition, free elections and a choice between monarchy and republic. He prioritizes territorial integrity, individual liberties and market reforms; he has never governed Iran."
+  },
+  {
+    "id": "mohammad-reza-pahlavi",
+    "name": "Mohammad Reza Pahlavi",
+    "role": "Last Shah of Iran",
+    "lifespan": "1919–1980",
+    "description": "Iran's last shah (1941–1979), Mohammad Reza Pahlavi consolidated an authoritarian monarchy allied with the West. The White Revolution advanced land reform, industrialization and women's rights, while SAVAK repressed the opposition."
+  },
+  {
+    "id": "gamal-abdel-nasser",
+    "name": "Gamal Abdel Nasser",
+    "role": "President of Egypt",
+    "lifespan": "1918–1970",
+    "description": "Egypt's president from 1956 to 1970, Nasser nationalized the Suez Canal and expanded state ownership and land reform. He championed pan-Arabism and non-alignment while concentrating power and repressing the opposition."
   }
 ]

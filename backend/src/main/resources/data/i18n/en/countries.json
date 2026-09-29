@@ -916,5 +916,23 @@
     "name": "Assad's Syria",
     "category": "Authoritarian Ba'athist republic",
     "description": "Under Bashar al-Assad (2000–2024), Syria was a centralized Ba'athist regime sustained by security forces, a clientelist state economy, and alliances with Russia and Iran during the civil war."
+  },
+  {
+    "id": "ira-pahlavi",
+    "name": "Iran under the Shah",
+    "category": "Modernizing authoritarian monarchy",
+    "description": "Under Mohammad Reza Pahlavi after 1953, Iran combined authoritarian monarchy and political repression with industrialization, land reform, and women's rights in the White Revolution. Allied with the US, it funded development with oil until 1979."
+  },
+  {
+    "id": "libia-de-gaddafi",
+    "name": "Gaddafi's Libya",
+    "category": "Authoritarian socialist Jamahiriya",
+    "description": "Under Muammar Gaddafi (1969–2011), Libya nationalized oil and proclaimed the Jamahiriya's direct democracy. Power remained concentrated in Gaddafi, backed by revolutionary committees and repression of the opposition."
+  },
+  {
+    "id": "iraque-baathista",
+    "name": "Ba'athist Iraq",
+    "category": "Authoritarian Ba'athist republic",
+    "description": "Ruled by the Ba'ath Party from 1968 to 2003, Iraq combined Arab nationalism, state oil and one-party rule. Under Saddam Hussein, the regime intensified repression, fought wars against Iran and Kuwait, and faced international sanctions."
   }
 ]

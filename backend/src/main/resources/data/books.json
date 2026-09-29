@@ -2278,5 +2278,41 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "reza-pahlavi",
+    "title": {
+      "pt": "Winds of Change: The Future of Democracy in Iran",
+      "en": "Winds of Change: The Future of Democracy in Iran"
+    },
+    "year": 2002,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "mohammad-reza-pahlavi",
+    "title": {
+      "pt": "Answer to History",
+      "en": "Answer to History"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gamal-abdel-nasser",
+    "title": {
+      "pt": "A Filosofia da Revolução",
+      "en": "The Philosophy of the Revolution"
+    },
+    "year": 1954,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

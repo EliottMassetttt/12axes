@@ -2926,18 +2926,18 @@
   {
     "personalityId": "bashar-al-assad",
     "vector": {
-      "estrutura": 11.6,
-      "representacao": 10.2,
+      "estrutura": 12.8,
+      "representacao": 17.4,
       "poder": 93.3,
-      "imigracao": 71,
-      "diplomacia": 80.2,
-      "intervencao": 30.5,
-      "economia": 65,
-      "controle": 79,
-      "comercio": 70.9,
-      "religiao": 51.5,
-      "moral": 27.4,
-      "tecnologia": 60.6
+      "imigracao": 73.3,
+      "diplomacia": 88.6,
+      "intervencao": 29.3,
+      "economia": 63.7,
+      "controle": 77.9,
+      "comercio": 65.7,
+      "religiao": 53.9,
+      "moral": 29.8,
+      "tecnologia": 64.1
     }
   },
   {
@@ -6428,35 +6428,86 @@
   {
     "personalityId": "ahmed-al-sharaa",
     "vector": {
-      "estrutura": 23.5,
+      "estrutura": 18.7,
       "representacao": 24.5,
-      "poder": 81.4,
-      "imigracao": 69.5,
-      "diplomacia": 79.3,
-      "intervencao": 51.9,
-      "economia": 38.9,
-      "controle": 46.1,
-      "comercio": 42.5,
-      "religiao": 18.7,
-      "moral": 13.4,
-      "tecnologia": 43.9
+      "poder": 75.5,
+      "imigracao": 38.6,
+      "diplomacia": 52.6,
+      "intervencao": 48.2,
+      "economia": 43.7,
+      "controle": 48.5,
+      "comercio": 41.3,
+      "religiao": 13.9,
+      "moral": 31.3,
+      "tecnologia": 57.0
     }
   },
   {
     "personalityId": "hafez-al-assad",
     "vector": {
-      "estrutura": 24.7,
-      "representacao": 24.5,
-      "poder": 75.5,
-      "imigracao": 74.5,
-      "diplomacia": 75.5,
+      "estrutura": 6.8,
+      "representacao": 11.4,
+      "poder": 93.3,
+      "imigracao": 59.0,
+      "diplomacia": 62.4,
+      "intervencao": 6.7,
+      "economia": 76.8,
+      "controle": 83.8,
+      "comercio": 75.2,
+      "religiao": 63.4,
+      "moral": 28.6,
+      "tecnologia": 54.6
+    }
+  },
+  {
+    "personalityId": "reza-pahlavi",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 70.4,
+      "poder": 43.7,
+      "imigracao": 39.0,
+      "diplomacia": 62.1,
+      "intervencao": 29.1,
+      "economia": 47.2,
+      "controle": 40.2,
+      "comercio": 29.4,
+      "religiao": 66.7,
+      "moral": 66.9,
+      "tecnologia": 59.5
+    }
+  },
+  {
+    "personalityId": "mohammad-reza-pahlavi",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 9.0,
+      "poder": 95.7,
+      "imigracao": 56.7,
+      "diplomacia": 69.5,
       "intervencao": 24.5,
-      "economia": 74.5,
-      "controle": 75.4,
-      "comercio": 75.6,
-      "religiao": 75.3,
-      "moral": 25.0,
-      "tecnologia": 74.9
+      "economia": 37.5,
+      "controle": 82.6,
+      "comercio": 61.0,
+      "religiao": 38.4,
+      "moral": 39.3,
+      "tecnologia": 71.3
+    }
+  },
+  {
+    "personalityId": "gamal-abdel-nasser",
+    "vector": {
+      "estrutura": 9.2,
+      "representacao": 29.3,
+      "poder": 89.8,
+      "imigracao": 63.3,
+      "diplomacia": 67.1,
+      "intervencao": 22.1,
+      "economia": 90.5,
+      "controle": 92.4,
+      "comercio": 83.6,
+      "religiao": 46.4,
+      "moral": 39.1,
+      "tecnologia": 72.5
     }
   }
 ]
