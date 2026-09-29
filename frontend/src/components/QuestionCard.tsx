@@ -1,7 +1,8 @@
-import type { CSSProperties } from 'react';
+import { useState, type CSSProperties } from 'react';
 import { t } from '../i18n';
 import type { AnswerOption, AnswerValue, Axis, Question } from '../types/quiz';
 import { PoleIcon } from './AxisIcon';
+import { InfoButton, InfoSheet } from './results/InfoSheet';
 
 const answerClassById: Record<AnswerValue, string> = {
   STRONGLY_AGREE: 'answer-button answer-strong-agree',
@@ -25,6 +26,9 @@ interface QuestionCardProps {
 }
 
 export function QuestionCard({ question, axisLabel, axis, number, options, selected, disabled = false, onSelect }: QuestionCardProps) {
+  const [isAxisInfoOpen, setIsAxisInfoOpen] = useState(false);
+  const agreeColor = axis && (question.agreePole === 'LEFT' ? axis.leftColor : axis.rightColor);
+
   return (
     <article className="question-card" aria-labelledby="question-title">
       {number !== undefined && (
@@ -32,15 +36,15 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
       )}
       <header className="question-card-header">
         {axis ? (
-          <p
-            className="question-axis-tag"
-            style={{ '--pole': question.agreePole === 'LEFT' ? axis.leftColor : axis.rightColor } as CSSProperties}
-          >
-            <i aria-hidden="true">
-              <PoleIcon axisId={axis.id} side={question.agreePole === 'LEFT' ? 'left' : 'right'} className="question-axis-tag-ico" />
-            </i>
-            <span>{question.agreePole === 'LEFT' ? axis.leftPole : axis.rightPole}</span>
-          </p>
+          <div className="question-axis-help">
+            <p className="question-axis-tag" style={{ '--pole': agreeColor } as CSSProperties}>
+              <i aria-hidden="true">
+                <PoleIcon axisId={axis.id} side={question.agreePole === 'LEFT' ? 'left' : 'right'} className="question-axis-tag-ico" />
+              </i>
+              <span>{question.agreePole === 'LEFT' ? axis.leftPole : axis.rightPole}</span>
+            </p>
+            <InfoButton label={t.axisInfoAria(axis.label)} onClick={() => setIsAxisInfoOpen(true)} />
+          </div>
         ) : (
           <p className="question-axis">{axisLabel ?? question.axisId.replace('-', ' ')}</p>
         )}
@@ -76,6 +80,23 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
           );
         })}
       </div>
+      {axis && isAxisInfoOpen && (
+        <InfoSheet
+          titleId="quiz-axis-sheet-title"
+          style={{ '--ac': agreeColor } as CSSProperties}
+          onClose={() => setIsAxisInfoOpen(false)}
+        >
+          <p className="e-axis-sheet-label">{axis.label}</p>
+          <h3 id="quiz-axis-sheet-title">
+            {question.agreePole === 'LEFT' ? (
+              <><span>{axis.leftPole}</span> × {axis.rightPole}</>
+            ) : (
+              <>{axis.leftPole} × <span>{axis.rightPole}</span></>
+            )}
+          </h3>
+          <p className="e-axis-sheet-text">{t.axisExplanations[axis.id]}</p>
+        </InfoSheet>
+      )}
     </article>
   );
 }
