@@ -24,7 +24,7 @@ function explanationBlocks() {
     blocks.push(entries);
     from = end;
   }
-  if (blocks.length !== 2) throw new Error(`app-strings: esperava 2 blocos axisExplanations, achei ${blocks.length}`);
+  if (blocks.length < 2) throw new Error(`app-strings: esperava pelo menos 2 blocos axisExplanations, achei ${blocks.length}`);
   return blocks;
 }
 
