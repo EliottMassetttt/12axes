@@ -2394,5 +2394,12 @@
     "role": "German writer and essayist",
     "lifespan": "1895–1998",
     "description": "A World War I veteran and Conservative Revolutionary writer, Jünger praised technological mobilization and criticized bourgeois liberalism in The Worker (1932). He refused to join the Nazi Party and later criticized totalitarianism."
+  },
+  {
+    "id": "oswald-spengler",
+    "name": "Oswald Spengler",
+    "role": "German philosopher and historian",
+    "lifespan": "1880–1936",
+    "description": "A Conservative Revolutionary philosopher, Spengler saw civilizations as cyclical in The Decline of the West. He advocated authoritarian, anti-Marxist Prussian socialism; he later criticized Nazism without abandoning nationalism."
   }
 ]

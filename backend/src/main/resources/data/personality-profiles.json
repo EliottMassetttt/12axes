@@ -6526,5 +6526,22 @@
       "moral": 54.8,
       "tecnologia": 47.6
     }
+  },
+  {
+    "personalityId": "oswald-spengler",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 15.0,
+      "poder": 73.3,
+      "imigracao": 69.8,
+      "diplomacia": 86.2,
+      "intervencao": 15.0,
+      "economia": 42.4,
+      "controle": 75.4,
+      "comercio": 74.4,
+      "religiao": 64.6,
+      "moral": 25.0,
+      "tecnologia": 35.7
+    }
   }
 ]

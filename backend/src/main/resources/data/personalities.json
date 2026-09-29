@@ -4606,5 +4606,17 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ernst_J%C3%BCnger_vers_1920.jpg",
     "imageNote": "Retrato de Ernst Jünger via Wikimedia Commons."
+  },
+  {
+    "id": "oswald-spengler",
+    "name": "Oswald Spengler",
+    "role": "Filósofo e historiador alemão",
+    "category": "filosofo",
+    "lifespan": "1880–1936",
+    "description": "Filósofo da Revolução Conservadora, Spengler interpretou as civilizações como ciclos em O Declínio do Ocidente. Defendeu um socialismo prussiano autoritário e antimarxista; depois criticou o nazismo, sem abandonar o nacionalismo.",
+    "imagePath": "/personalities/portraits/oswald-spengler.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Oswald_Spengler.jpg",
+    "imageNote": "Retrato de 1929, autor desconhecido; imagem via Wikimedia Commons, CC BY-SA 4.0, comprimida para o catálogo."
   }
 ]

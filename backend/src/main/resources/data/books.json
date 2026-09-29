@@ -2326,5 +2326,17 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "oswald-spengler",
+    "title": {
+      "pt": "Prussianismo e Socialismo",
+      "en": "Prussianism and Socialism"
+    },
+    "year": 1919,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
