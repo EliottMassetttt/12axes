@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-30T16:18:45Z",
+  "lastUpdated": "2026-09-30T17:15:47Z",
   "personality": {
     "totalProfiles": 393,
     "pending": [],
@@ -396,8 +396,8 @@
       "muhammad-ali-jinnah",
       "saladino",
       "alwaleed-bin-talal",
-      "narendra-modi",
-      "david-ben-gurion"
+      "david-ben-gurion",
+      "sergei-melikov"
     ]
   },
   "ideology": {
@@ -813,11 +813,11 @@
       "albania",
       "marrocos",
       "califado-abassida",
-      "india",
       "sri-lanka",
       "mianmar",
       "mongolia",
-      "turquia-de-ataturk"
+      "turquia-de-ataturk",
+      "daguestao"
     ]
   }
 }

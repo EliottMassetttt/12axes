@@ -2281,17 +2281,6 @@
     "religions": ["islam"]
   },
   {
-    "id": "india",
-    "name": "Índia",
-    "category": "República federal nacional-conservadora",
-    "description": "Maior democracia e país mais populoso do mundo, a Índia é uma república federativa parlamentarista, com economia de mercado em rápido crescimento, grande diversidade religiosa e ascensão do nacionalismo hindu sob o BJP.",
-    "flagPath": "/countries/flags/india.gif",
-    "historical": false,
-    "period": "",
-    "vector": null,
-    "religions": ["other"]
-  },
-  {
     "id": "sri-lanka",
     "name": "Sri Lanka",
     "category": "República budista-nacional",
@@ -2338,5 +2327,16 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
     "flagNote": "A bandeira vermelha com crescente e estrela, herdada do Império Otomano, foi mantida pela república kemalista.",
     "religions": []
+  },
+  {
+    "id": "daguestao",
+    "name": "Daguestão (Rússia)",
+    "category": "Região muçulmana tutelada",
+    "description": "República da Federação Russa no Cáucaso Norte, o Daguestão é multiétnico e de maioria muçulmana sunita, com forte religiosidade sufi, clãs locais, dependência de subsídios de Moscou, repressão ao islamismo radical e pouca autonomia real.",
+    "flagPath": "/countries/flags/daguestao.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
   }
 ]

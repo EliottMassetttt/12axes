@@ -2445,17 +2445,17 @@
     "description": "Founder of the Ayyubid dynasty, Saladin united Egypt and Syria, defeated the Crusaders at Hattin and retook Jerusalem in 1187, becoming a symbol of jihad against the Crusades and of chivalry recognized even by his enemies."
   },
   {
-    "id": "narendra-modi",
-    "name": "Narendra Modi",
-    "role": "Prime Minister of India",
-    "lifespan": "1950–",
-    "description": "Prime Minister of India since 2014, Modi leads the BJP's Hindu nationalism, revoked Kashmir's autonomy, passed a Citizenship Act that excludes Muslims, promotes infrastructure and domestic industry, and has governed in coalition since 2024."
-  },
-  {
     "id": "david-ben-gurion",
     "name": "David Ben-Gurion",
     "role": "Prime Minister of Israel",
     "lifespan": "1886–1973",
     "description": "Leader of Labor Zionism and the Mapai party, Ben-Gurion proclaimed Israel's independence in 1948 and was its first prime minister, building a secular, centralized state with a strong public sector, kibbutzim, and the army as the school of the nation."
+  },
+  {
+    "id": "sergei-melikov",
+    "name": "Sergei Melikov",
+    "role": "Senator and former Head of Dagestan",
+    "lifespan": "1965–",
+    "description": "A Russian National Guard general and Putin ally, Melikov headed Dagestan from 2020 to 2026, a period marked by war mobilization, the antisemitic airport pogrom, and jihadist attacks, and in 2026 became a senator for Bryansk."
   }
 ]

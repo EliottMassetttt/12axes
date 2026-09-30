@@ -6647,23 +6647,6 @@
     }
   },
   {
-    "personalityId": "narendra-modi",
-    "vector": {
-      "estrutura": 22.4,
-      "representacao": 65.6,
-      "poder": 75.8,
-      "imigracao": 75.3,
-      "diplomacia": 73.1,
-      "intervencao": 38.8,
-      "economia": 45.9,
-      "controle": 60.0,
-      "comercio": 63.3,
-      "religiao": 14.0,
-      "moral": 36.3,
-      "tecnologia": 60.6
-    }
-  },
-  {
     "personalityId": "david-ben-gurion",
     "vector": {
       "estrutura": 17.6,
@@ -6678,6 +6661,23 @@
       "religiao": 52.7,
       "moral": 42.9,
       "tecnologia": 79.6
+    }
+  },
+  {
+    "personalityId": "sergei-melikov",
+    "vector": {
+      "estrutura": 16.3,
+      "representacao": 40.0,
+      "poder": 92.1,
+      "imigracao": 80.1,
+      "diplomacia": 86.2,
+      "intervencao": 17.4,
+      "economia": 59.0,
+      "controle": 73.1,
+      "comercio": 65.7,
+      "religiao": 31.9,
+      "moral": 16.0,
+      "tecnologia": 63.0
     }
   }
 ]

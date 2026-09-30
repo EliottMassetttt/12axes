@@ -5083,19 +5083,6 @@
     "religions": ["islam"]
   },
   {
-    "id": "narendra-modi",
-    "name": "Narendra Modi",
-    "role": "Primeiro-ministro da Índia",
-    "category": "politico",
-    "lifespan": "1950–",
-    "description": "Primeiro-ministro da Índia desde 2014, Modi lidera o nacionalismo hindu do BJP, revogou a autonomia da Caxemira, aprovou a Lei de Cidadania que exclui muçulmanos, promove infraestrutura e indústria nacional e governa em coalizão desde 2024.",
-    "imagePath": "/personalities/portraits/narendra-modi.jpg",
-    "imageSourceName": "Wikimedia Commons / Wikipédia",
-    "imageSourceUrl": "https://en.wikipedia.org/wiki/Narendra_Modi",
-    "imageNote": "Retrato de Narendra Modi via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
-  },
-  {
     "id": "david-ben-gurion",
     "name": "David Ben-Gurion",
     "role": "Primeiro-ministro de Israel",
@@ -5107,5 +5094,18 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:David_Ben-Gurion_(D597-087).jpg",
     "imageNote": "Fotografia de David Ben-Gurion via Wikimedia Commons, comprimida para o catálogo.",
     "religions": ["judaism"]
+  },
+  {
+    "id": "sergei-melikov",
+    "name": "Sergei Melikov",
+    "role": "Senador e ex-chefe do Daguestão",
+    "category": "politico",
+    "lifespan": "1965–",
+    "description": "General da Guarda Nacional russa e aliado de Putin, Melikov chefiou o Daguestão de 2020 a 2026, período de mobilização para a guerra, do pogrom antissemita no aeroporto e de atentados jihadistas, e em 2026 virou senador por Briansk.",
+    "imagePath": "/personalities/portraits/sergei-melikov.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%D0%94%D0%B0%D0%B3%D0%B5%D1%81%D1%82%D0%B0%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9C%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2_(cropped).jpg",
+    "imageNote": "Retrato oficial de Sergei Melikov como chefe do Daguestão, via Wikimedia Commons, comprimido para o catálogo.",
+    "religions": ["islam"]
   }
 ]

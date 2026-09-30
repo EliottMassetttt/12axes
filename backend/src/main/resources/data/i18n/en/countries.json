@@ -1008,12 +1008,6 @@
     "description": "A Sunni caliphate with its capital in Baghdad, the Abbasids ruled from the Maghreb to Central Asia under a caliph with religious and political authority, with a Persian-style bureaucracy, long-distance trade, and the House of Wisdom in the Islamic Golden Age."
   },
   {
-    "id": "india",
-    "name": "India",
-    "category": "National-conservative federal republic",
-    "description": "The world's largest democracy and most populous country, India is a federal parliamentary republic with a fast-growing market economy, great religious diversity, and the rise of Hindu nationalism under the BJP."
-  },
-  {
     "id": "sri-lanka",
     "name": "Sri Lanka",
     "category": "Buddhist-national republic",
@@ -1036,5 +1030,11 @@
     "name": "Atatürk's Turkey",
     "category": "Single-party Kemalist republic",
     "description": "A republic founded by Mustafa Kemal Atatürk on the ruins of the Ottoman Empire, Kemalist Turkey abolished the caliphate and imposed laicism, the Latin alphabet, women's rights, and economic statism under the single-party CHP."
+  },
+  {
+    "id": "daguestao",
+    "name": "Dagestan (Russia)",
+    "category": "Tutelary Muslim region",
+    "description": "A republic of the Russian Federation in the North Caucasus, Dagestan is multiethnic and Sunni Muslim-majority, with strong Sufi religiosity, local clans, dependence on subsidies from Moscow, repression of radical Islamism, and little real autonomy."
   }
 ]

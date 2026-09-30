@@ -2856,23 +2856,6 @@
     }
   },
   {
-    "countryId": "india",
-    "vector": {
-      "estrutura": 26.0,
-      "representacao": 70.4,
-      "poder": 72.2,
-      "imigracao": 68.2,
-      "diplomacia": 73.6,
-      "intervencao": 51.4,
-      "economia": 49.4,
-      "controle": 56.4,
-      "comercio": 71.7,
-      "religiao": 20.0,
-      "moral": 39.9,
-      "tecnologia": 73.7
-    }
-  },
-  {
     "countryId": "sri-lanka",
     "vector": {
       "estrutura": 22.4,
@@ -2938,6 +2921,23 @@
       "religiao": 92.0,
       "moral": 40.5,
       "tecnologia": 72.5
+    }
+  },
+  {
+    "countryId": "daguestao",
+    "vector": {
+      "estrutura": 23.5,
+      "representacao": 26.9,
+      "poder": 94.5,
+      "imigracao": 78.9,
+      "diplomacia": 77.9,
+      "intervencao": 28.1,
+      "economia": 62.5,
+      "controle": 75.5,
+      "comercio": 66.9,
+      "religiao": 4.5,
+      "moral": 5.3,
+      "tecnologia": 48.8
     }
   }
 ]
