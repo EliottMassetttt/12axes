@@ -10,7 +10,6 @@ import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
-import ElectionApp from './election/ElectionApp';
 import { parseReligion, RELIGIONS, type Religion } from './utils/religion';
 import { RELIGION_ICONS, RELIGION_QUESTION_ICON } from './data/religionIcons';
 
@@ -794,7 +793,7 @@ function MainApp() {
 }
 
 export default function App() {
-  return window.location.pathname.replace(/\/+$/, '') .startsWith('/eleicoes2026') ? <ElectionApp /> : <MainApp />;
+  return <MainApp />;
 }
 
 // Abre a folha de compartilhamento nativa (iPhone/Android) com a imagem do

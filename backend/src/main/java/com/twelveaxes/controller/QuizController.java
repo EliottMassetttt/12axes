@@ -19,9 +19,6 @@ import com.twelveaxes.service.PersonalityMatcherService;
 import com.twelveaxes.service.QuizDataService;
 import com.twelveaxes.service.ReligionFilter;
 import com.twelveaxes.service.ScoringService;
-import com.twelveaxes.service.CandidateMatcherService;
-import com.twelveaxes.model.Candidate;
-import com.twelveaxes.model.ElectionResult;
 import jakarta.validation.Valid;
 import java.util.Arrays;
 import java.util.List;
@@ -44,7 +41,6 @@ public class QuizController {
     private final CountryMatcherService countryMatcherService;
     private final CountryDimensionMatcherService countryDimensionMatcherService;
     private final PersonalityMatcherService personalityMatcherService;
-    private final CandidateMatcherService candidateMatcherService;
     private final AxisOutlierService axisOutlierService;
     private final AxisTensionService axisTensionService;
     private final BookRecommendationService bookRecommendationService;
@@ -56,7 +52,7 @@ public class QuizController {
             IdeologyMatcherService matcherService,
             CountryMatcherService countryMatcherService,
             CountryDimensionMatcherService countryDimensionMatcherService,
-            PersonalityMatcherService personalityMatcherService, CandidateMatcherService candidateMatcherService,
+            PersonalityMatcherService personalityMatcherService,
             AxisOutlierService axisOutlierService,
             AxisTensionService axisTensionService,
             DimensionMatcherService dimensionMatcherService,
@@ -68,17 +64,12 @@ public class QuizController {
         this.countryMatcherService = countryMatcherService;
         this.countryDimensionMatcherService = countryDimensionMatcherService;
         this.personalityMatcherService = personalityMatcherService;
-        this.candidateMatcherService = candidateMatcherService;
         this.axisOutlierService = axisOutlierService;
         this.axisTensionService = axisTensionService;
         this.dimensionMatcherService = dimensionMatcherService;
         this.bookRecommendationService = bookRecommendationService;
     }
 
-    @GetMapping("/api/election/quiz") public QuizPayload electionQuiz() { return dataService.getElectionQuiz(); }
-    @GetMapping("/api/election/candidates") public List<Candidate> electionCandidates() { return dataService.getCandidates(); }
-    @PostMapping("/api/election/results") public ElectionResult electionResults(@Valid @RequestBody ResultRequest request) { var axes=scoringService.scoreElection(request); return new ElectionResult(axes,candidateMatcherService.findMatches(axes)); }
-    @GetMapping("/api/election/results/by-axes") public ElectionResult electionByAxes(@RequestParam("v") String values) { var axes=scoringService.scoreFromLeftPercents(parseAxisValues(values), QuizDataService.LANG_PT); return new ElectionResult(axes,candidateMatcherService.findMatches(axes)); }
 
     @GetMapping("/api/quiz")
     public QuizPayload quiz(

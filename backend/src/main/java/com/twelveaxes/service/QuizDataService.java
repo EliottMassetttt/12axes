@@ -5,8 +5,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.twelveaxes.model.Book;
 import com.twelveaxes.model.AnswerOption;
 import com.twelveaxes.model.ArchetypeQuestion;
-import com.twelveaxes.model.Candidate;
-import com.twelveaxes.model.CandidateProfile;
 import com.twelveaxes.model.AnswerValue;
 import com.twelveaxes.model.Axis;
 import com.twelveaxes.model.Country;
@@ -45,9 +43,6 @@ public class QuizDataService {
     private Map<String, CountryProfile> countryProfiles;
     private Map<String, PersonalityProfile> personalityProfiles;
     private Map<String, Book> books;
-    private List<Question> electionQuestions;
-    private List<Candidate> candidates;
-    private Map<String, CandidateProfile> candidateProfiles;
     private List<ArchetypeQuestion> archetypeQuestions;
 
     // Textos por locale: profiles/vetores são independentes de idioma e ficam fora do bundle.
@@ -110,11 +105,6 @@ public class QuizDataService {
                 .collect(Collectors.collectingAndThen(
                         Collectors.toMap(PersonalityProfile::personalityId, Function.identity(), (a, b) -> b, java.util.LinkedHashMap::new),
                         java.util.Collections::unmodifiableMap));
-        electionQuestions = readJson("data/election-questions.json", new TypeReference<>() {});
-        candidates = readJson("data/candidates.json", new TypeReference<>() {});
-        List<CandidateProfile> candidateProfileList = readJson("data/candidate-profiles.json", new TypeReference<List<CandidateProfile>>() {});
-        candidateProfiles = candidateProfileList.stream()
-                .collect(Collectors.toUnmodifiableMap(CandidateProfile::candidateId, Function.identity()));
 
         archetypeQuestions = readJson("data/archetype-questions.json", new TypeReference<>() {});
         validateArchetypeQuestions(axes);
@@ -138,9 +128,6 @@ public class QuizDataService {
         validateIdeologyProfiles(pt);
         validateIdeologyPersonalityLinks(pt);
         validatePersonalityProfiles(pt);
-        candidates.stream().filter(Candidate::active).forEach(candidate -> {
-            if (!candidateProfiles.containsKey(candidate.id())) throw new IllegalStateException("Candidato ativo sem perfil: " + candidate.id());
-        });
     }
 
     // Overlays em data/i18n/en/*.json trazem só os campos de texto, chaveados por id.
@@ -454,10 +441,6 @@ public class QuizDataService {
         return personalityProfiles;
     }
 
-    public QuizPayload getElectionQuiz() { return new QuizPayload("12 Eixos - Eleições 2026", "36 perguntas sobre as eleições brasileiras de 2026.", "short", 36, 3, getAxes(LANG_PT), electionQuestions, answerOptions(LANG_PT), List.of()); }
-    public List<Question> getElectionQuestions() { return electionQuestions; }
-    public List<Candidate> getCandidates() { return candidates; }
-    public Map<String, CandidateProfile> getCandidateProfiles() { return candidateProfiles; }
 
     private List<AnswerOption> answerOptions(String lang) {
         return Arrays.stream(AnswerValue.values())

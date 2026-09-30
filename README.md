@@ -1,167 +1,193 @@
-# 12 Axes - Quiz Político de 12 Eixos
+<div align="center">
 
-> Aplicação full stack que estima a posição política do usuário em **12 eixos políticos** e compara o resultado com **ideologias, países/experiências históricas e personalidades políticas**.
+<img src="frontend/public/logo.png" alt="12 Axes" width="96">
 
-**Demo:** [12axes.vercel.app](https://12axes.vercel.app) | **API:** [one2axes-backend.onrender.com/api/health](https://one2axes-backend.onrender.com/api/health)
+# 12 Axes
 
----
+A political quiz that places you on twelve independent axes and compares your answers with +230 ideologies, +170 countries and regimes, and +390 political figures.
 
-## Visão Geral
+**[12axes.vercel.app](https://12axes.vercel.app)** · Portuguese and English · no sign-up
 
-O 12 Axes é um quiz político educativo, anônimo e sem cadastro. O usuário responde afirmações em escala de concordância, recebe percentuais por eixo e visualiza como suas posições se distribuem entre polos como democracia/autocracia, público/privado, planejamento/livre mercado e progressismo/tradição.
+![Java](https://img.shields.io/badge/Java-21-orange) ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.3-6DB33F) ![React](https://img.shields.io/badge/React-18-61DAFB) ![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6) ![CI](https://github.com/RomanCypherpunk/12axes/actions/workflows/ci.yml/badge.svg)
 
-Para recrutadores, o projeto mostra uma aplicação web completa: React/TypeScript, Java/Spring Boot, API REST bilíngue (PT/EN), JSON versionado, algoritmo próprio, testes e deploy em cloud. Para entusiastas de política, funciona como leitura comparativa, não como diagnóstico científico.
+</div>
 
----
+## Overview
 
-## Stack
+Most political tests reduce you to a single point on a left-right line, or to a two-axis grid. 12 Axes measures twelve dimensions separately, so someone who wants a free market and a strong state, or open borders and a religious society, sees that combination instead of an average that hides it.
 
-| Camada | Tecnologia |
-|--------|------------|
-| Backend | Java 21, Spring Boot 3.3.5, Maven |
+The project is also a full-stack portfolio piece: a Spring Boot REST API with its own matching algorithm, a React and TypeScript frontend, a versioned JSON data layer, automated tests, CI, and cloud deploys.
+
+## About the project
+
+### What it is
+
+An anonymous quiz. You rate statements on a five-point agreement scale and get a percentage on each axis, your closest ideologies, the country or historical regime nearest to you, and the political figures who think most like you.
+
+### Who it is for
+
+People curious about politics who want more than a left-right label, students comparing doctrines and regimes, and anyone who wants to see where they disagree with their own side.
+
+### What sets it apart
+
+- Twelve axes scored independently, so the result keeps tensions and unusual combinations.
+- Three catalogs (ideologies, countries, personalities), each matched on its own. Countries include +68 historical regimes, from the Paris Commune to Atatürk's Turkey.
+- Every profile in the catalogs answered the same 240 questions a user can answer, instead of being placed by hand.
+- An optional religion filter, so a user can hide profiles tied to a faith that is not theirs.
+- A shareable result card, a PDF report, and a link that rebuilds the result from the URL.
+
+### The 12 axes
+
+The model is inspired by the original [12 Axes test](https://politicaltests.github.io/12axes/). Each axis runs between two poles:
+
+| Axis | Pole A | Pole B |
+|------|--------|--------|
+| Structure | Federal | Unitary |
+| Representation | Democracy | Autocracy |
+| Power | Security | Liberty |
+| Immigration | Assimilation | Multiculturalism |
+| Diplomacy | Militarist | Pacifist |
+| Intervention | Non-interventionist | Nationalist |
+| Economy | Public | Private |
+| Control | Planning | Free market |
+| Trade | Protectionism | Globalism |
+| Religion | Irreligious | Religious |
+| Morality | Progressive | Traditionalist |
+| Technology | Technology | Biology |
+
+### Political spectra
+
+The axes describe the user. Ideologies are grouped into eight broader families, in the spirit of the [Political Compass](https://www.politicalcompass.org/), which place a result on the familiar map: Left, Radical Left, Center, Right, Far-Right, Libertarian, Anarchist, and Third Position. The family is a label for reading the result. It does not count in the score.
+
+### How your result is calculated
+
+1. Each answer moves an axis toward one of its poles. Strong agreement counts fully, "neutral" leaves the axis at the center, and disagreement pushes the other way.
+2. The average of your answers on each axis becomes a percentage between the two poles, labeled balanced, leaning, strong, or very strong depending on how far it is from the center.
+3. Your twelve percentages form a profile, which is compared with every ideology, country, and personality in the catalogs. The closest ones are shown with a compatibility score.
+
+### Questions and scoring
+
+| Format | Questions | Per axis |
+|--------|----------:|---------:|
+| Short | 36 | 3 |
+| Complete | 60 | 5 |
+| Extreme | 240 | 20 |
+
+The pool has 240 statements, 20 per axis, half phrased toward each pole so agreeing with everything does not skew the result. The short and complete formats draw a balanced subset. Five multiple-choice "archetype" questions at the end add broader signals across several axes. A last, optional question about your religion sets the filter and does not affect the score.
+
+| Answer | Value |
+|--------|------:|
+| Strongly agree | 1.00 |
+| Agree | 0.75 |
+| Neutral | 0.50 |
+| Disagree | 0.25 |
+| Strongly disagree | 0.00 |
+
+### Methodological note
+
+12 Axes is a tool for exploring ideas. It is not a scientific instrument. A high compatibility means your answers are close to a profile, not that you belong to a movement, should vote for someone, or share anyone's values in full. Profiles are simplified models, and the questions inevitably carry the framing of whoever wrote them.
+
+## Features
+
+- Three quiz lengths with auto-advance and a back button.
+- Results by axis, with intensity and the rarest and most common positions in your profile.
+- Top ideologies, the closest current and historical countries, and matching personalities by category, plus the least compatible ideology.
+- An "axis tension" readout for pairs of positions that rarely appear together.
+- Book recommendations tied to your profile.
+- Religion filter for Christianity, Judaism, Islam, and Buddhism.
+- Share card (PNG), PDF report, and shareable result link.
+- Static, indexable pages for every ideology, country, and personality.
+
+## Demo
+
+<div align="center">
+<img src=".github/assets/result-card.png" alt="12 Axes result card" width="360">
+</div>
+
+The share card sums up a result: the main ideology and its family, the most compatible personality, the dominant pole on each of the twelve axes, and the closest personalities and countries.
+
+## Architecture
+
+### Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend | Java 21, Spring Boot 3.3, Maven |
 | Frontend | React 18, TypeScript, Vite 5 |
-| Exportação | `html-to-image` para gerar PNG do resultado |
-| Dados | JSON estático versionado no repositório |
-| Testes | JUnit 5, MockMvc, AssertJ, Vitest |
-| Deploy | Backend no Render via Docker, frontend na Vercel |
+| Data | Versioned JSON, loaded into memory at startup |
+| Tests | JUnit 5, MockMvc, AssertJ, Vitest |
+| CI | GitHub Actions (backend tests, i18n check, frontend tests and build) |
+| Deploy | Backend on Render (Docker), frontend on Vercel |
 
-Não há banco de dados. Os JSONs são carregados na inicialização do backend e o cálculo é feito em memória a cada requisição.
+There is no database. The catalogs change only through reviewed commits, so the backend reads the JSON once at startup, validates it, and scores every request in memory.
 
----
+### Project data
 
-## O Que o Projeto Faz
+All data lives in `backend/src/main/resources/data/`, with English translations in `i18n/en/`.
 
-1. Apresenta uma home com explicação dos 12 eixos, FAQ e seleção de formato.
-2. Oferece três versões: **curta** (36 perguntas), **completa** (60 perguntas) e **extrema** (240 perguntas).
-3. Busca no backend o pool completo de perguntas e balanceia a seleção no frontend.
-4. Registra respostas em 5 pontos, com avanço automático e opção de voltar.
-5. Calcula percentuais por eixo, intensidade, ideologias compatíveis, país e personalidade mais próximos.
-6. Exibe barras por eixo, cards de compatibilidade, um PNG compartilhável e um link direto para o resultado.
+| File | Contents |
+|------|----------|
+| `axes.json` | The 12 axes, their poles and labels |
+| `questions-pool.json` | 240 questions, with axis, polarity, and weight |
+| `archetype-questions.json` | The five multiple-choice questions |
+| `ideologies.json` / `ideology-profiles.json` | 234 ideologies and their 12-axis vectors |
+| `countries.json` / `countries-profiles.json` | 173 countries, regions, and historical regimes |
+| `personalities.json` / `personality-profiles.json` | 393 political figures and intellectuals |
+| `books.json` | 199 book recommendations |
 
----
+On startup the backend refuses to run if any catalog entry lacks a vector or a vector does not have exactly the 12 known axes.
 
-## Os 12 Eixos
-
-| Eixo | Polo Esquerdo | Polo Direito |
-|------|---------------|--------------|
-| Estrutura | Federal | Unitário |
-| Representação | Democracia | Autocracia |
-| Poder | Segurança | Liberdade |
-| Imigração | Assimilação | Multicultura |
-| Diplomacia | Militarista | Pacifista |
-| Intervenção | Não intervencionista | Nacionalista |
-| Economia | Público | Privado |
-| Controle | Planejamento | Livre mercado |
-| Comércio | Protecionismo | Globalismo |
-| Religião | Irreligioso | Religioso |
-| Moral | Progressista | Tradicionalista |
-| Tecnologia | Tecnologia | Biologia |
-
-Os eixos são exibidos separadamente, mas os dados cadastrados têm blocos correlacionados, especialmente autoridade, economia e costumes. O resultado não reduz o usuário a esquerda/direita: ele mostra combinações, tensões e aproximações entre dimensões políticas diferentes.
-
----
-
-## Dados do Projeto
-
-| Arquivo | Conteúdo |
-|---------|----------|
-| `axes.json` | 12 eixos com polos, cores e labels |
-| `questions-pool.json` | 240 perguntas: 20 por eixo, 10 por polo |
-| `ideologies.json` | Ideologias, categoria, descrição e links internos |
-| `ideology-profiles.json` |  Vetores ideológicos de 12 dimensões |
-| `countries.json` |  Países, regiões e experiências históricas |
-| `countries-profiles.json` |  Vetores de países/experiências |
-| `personalities.json` |  Personalidades políticas e intelectuais |
-| `personality-profiles.json` | Vetores de personalidade |
-| `frontend/public/countries/flags` | Bandeiras e símbolos históricos |
-| `frontend/public/personalities/portraits` | Retratos usados nos cards |
-
-O backend valida na inicialização se ideologias, países e personalidades possuem perfis explícitos. Os testes também verificam se vetores usam os 12 eixos conhecidos e se assets públicos existem.
-
----
-
-## Arquitetura
+### Repository structure
 
 ```txt
-React/Vite
-  -> GET /api/quiz
-  -> selectAndBalanceQuestions() ou selectAllQuestionsBalanced()
-  -> POST /api/results
-  -> ScoringService
-  -> ProfileMatchScorer
-  -> IdeologyMatcherService / CountryMatcherService / PersonalityMatcherService
-  -> JSON response
-  -> tela de resultado + PNG compartilhável
+12Axes/
+├── backend/                 Spring Boot API
+│   └── src/main/java/com/twelveaxes/
+│       ├── config/          CORS, cache headers, origin enforcement
+│       ├── controller/      REST endpoints
+│       ├── model/           records and DTOs
+│       └── service/         data loading, scoring, matchers, religion filter
+├── frontend/                React + Vite app
+│   ├── src/components/      home, quiz, results, report
+│   ├── src/i18n/            PT/EN strings
+│   └── scripts/             static page generator, image optimizer
+├── profile-audit/           pipeline that builds the catalog vectors
+├── scripts/                 repository checks (i18n)
+└── .claude/skills/          Claude Code skills for adding profiles
 ```
 
-**Ponto-chave:** `GET /api/quiz` sempre retorna o pool completo de 240 perguntas. A versão curta e a completa são montadas no frontend a partir desse pool, mantendo distribuição por eixo e alternância de polos. A versão extrema usa todas as perguntas.
+### How matching works
 
----
+A result is a vector of twelve values from 0 to 100. The `ProfileMatchScorer` compares it with each profile using four weighted parts:
 
-## Pontuação
+| Component | Weight | What it measures |
+|-----------|-------:|------------------|
+| Per axis | 0.42 | Distance on each axis, with an extra penalty when you and the profile are on opposite sides of the center |
+| Direction | 0.33 | Cosine similarity of both vectors around the center, damped near it, where direction is mostly noise |
+| Magnitude | 0.18 | Whether your overall intensity matches the profile's, so a moderate user does not match an extreme profile just because the direction agrees |
+| Outlier | 0.07 | A penalty for a single axis that is far off |
 
-| Resposta | Valor de concordância |
-|----------|----------------------:|
-| Concordo totalmente | 1.00 |
-| Concordo | 0.75 |
-| Neutro ou Depende | 0.50 |
-| Discordo | 0.25 |
-| Discordo totalmente | 0.00 |
+Each catalog is ranked separately. A match also reports a percentile inside its own catalog, because ideologies tend to be more extreme than real countries and the raw scores are not comparable across catalogs. `ScorerBenchmarkTest` guards the calibration: it checks that noisy answers generated from a profile still find that profile.
 
-Cada pergunta declara qual polo é favorecido pela concordância (`LEFT` ou `RIGHT`). O backend converte as respostas em percentual do polo esquerdo por eixo, arredonda em uma casa decimal e deriva o percentual do polo direito.
+### API
 
-Intensidade pelo desvio em relação ao centro:
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET` | `/api/health` | Health check |
+| `GET` | `/api/quiz?variant=short\|extended\|extreme` | Quiz metadata and the question pool |
+| `POST` | `/api/results` | Scores answers and returns axes and matches |
+| `GET` | `/api/results/by-axes?v=...` | Rebuilds a result from 12 values, for shared links |
+| `GET` | `/api/ideologies[/{id}]` | Ideology catalog |
+| `GET` | `/api/countries[/{id}]` | Country catalog |
+| `GET` | `/api/personalities[/{id}]` | Personality catalog |
 
-| Desvio do centro | Intensidade |
-|------------------|-------------|
-| `< 7.5%` | Equilibrado |
-| `< 22.5%` | Inclinado |
-| `< 37.5%` | Forte |
-| `>= 37.5%` | Muito forte |
+Endpoints accept `lang=pt|en`, and the result endpoints accept `religion` for the filter. `/api/**` answers only requests whose `Origin` or `Referer` is in `FRONTEND_ORIGINS`, and returns `403` otherwise. `/api/health` stays open for the Render health check.
 
----
-
-## Matching
-
-O resultado vira um vetor de 12 valores, de `0` a `100`, que representa o percentual do polo esquerdo em cada eixo. Esse vetor é comparado separadamente com os perfis de ideologias, países e personalidades; um catálogo não participa do cálculo de outro.
-
-O score (`ProfileMatchScorer`) combina quatro componentes:
-
-- **Eixo a eixo** (peso `0.42`): curva quadrática `max(0, 1 - (diff / 50)^2)` por eixo, com penalidade contínua quando usuário e alvo estão em lados opostos do centro: `1 - 0.45 * tanh(abs(userValue - 50) / 25) * tanh(abs(targetValue - 50) / 25)`.
-- **Direção** (peso `0.33`): cosseno aumentado entre os vetores centralizados em `50`: `50 + 50 * (dot + k) / sqrt((|user|² + k) * (|target|² + k))`, com `k = 12 * 8²`. O termo `k` funciona como uma componente constante somada aos dois vetores: perto do centro, onde a direção é só ruído de resposta, ele domina, e dois perfis no centro exato têm direção `100`; longe do centro, o resultado converge para o cosseno puro. É a mesma fórmula para todo alvo, sem limiar nem caso especial.
-- **Magnitude** (peso `0.18`): compara a intensidade média das respostas (`avg(abs(valor - 50))`) do usuário com a do perfil: `100 - 2 * abs(userIntensity - targetIntensity)`. Evita que um usuário moderado tenha compatibilidade quase perfeita com um perfil extremo só porque a direção bate.
-- **Outlier** (peso `0.07`): penaliza perfis com um único eixo muito discrepante, mesmo com média geral boa: `100 * max(0, 1 - (maxDiff / 100)^2.5)`, onde `maxDiff` é a maior diferença absoluta entre um eixo do usuário e o do alvo.
-
-Além do score bruto (`compatibility`), cada match retorna `compatibilityPercentile`, que indica a posição relativa dentro do próprio catálogo (percentual de perfis do mesmo catálogo com score menor). As três bases não são comparáveis diretamente: ideologias tendem a ser vetores mais extremos, enquanto países e regimes históricos são perfis mais comprimidos por compromissos de governo.
-
-`matches` (ideologias) é o top-4 por `compatibility` bruto, com empate desempatado por nome — não há mais diversificação por MMR. País/experiência histórica e personalidade retornam apenas o perfil mais próximo em seus próprios catálogos (top-1). Campos editoriais como `countryId` e `personalityId` não são usados como rótulos de matching ou avaliação.
-
----
-
-## API
-
-| Método | Endpoint | Descrição |
-|--------|----------|-----------|
-| `GET` | `/api/health` | Health check: `{"status":"ok"}` |
-| `GET` | `/api/quiz?variant=short` | Metadados da versão curta e pool de 240 perguntas |
-| `GET` | `/api/quiz?variant=extended` | Metadados da versão completa e pool de 240 perguntas |
-| `GET` | `/api/quiz?variant=extreme` | Metadados da versão extrema e pool de 240 perguntas |
-| `POST` | `/api/results` | Calcula eixos, ideologias, país e personalidade |
-| `GET` | `/api/results/by-axes?v=...` | Recalcula o resultado a partir de 12 valores na URL, para compartilhar por link |
-| `GET` | `/api/ideologies` | Lista ideologias |
-| `GET` | `/api/ideologies/{id}` | Detalha uma ideologia |
-| `GET` | `/api/countries` | Lista países e experiências históricas |
-| `GET` | `/api/countries/{id}` | Detalha país ou experiência histórica |
-| `GET` | `/api/personalities` | Lista personalidades políticas e intelectuais |
-| `GET` | `/api/personalities/{id}` | Detalha uma personalidade |
-
-Variantes aceitas: `short`, `curta`, `extended`, `extensa`, `extreme`, `extrema`, `240`, `240questions`.
-
-Todos os endpoints (exceto `/api/health`) aceitam o parâmetro `lang` (`pt` ou `en`, padrão `pt`) e retornam textos, descrições e metadados no idioma solicitado.
-
-### Payload de Resultado
+<details>
+<summary>Example request</summary>
 
 ```json
+POST /api/results?lang=en
 {
   "variant": "short",
   "answers": [
@@ -171,182 +197,82 @@ Todos os endpoints (exceto `/api/health`) aceitam o parâmetro `lang` (`pt` ou `
 }
 ```
 
-Valores de `answer`: `STRONGLY_AGREE`, `AGREE`, `NEUTRAL`, `DISAGREE`, `STRONGLY_DISAGREE`.
+`answer` is one of `STRONGLY_AGREE`, `AGREE`, `NEUTRAL`, `DISAGREE`, `STRONGLY_DISAGREE`.
 
-### Resposta Resumida
+</details>
 
-`POST /api/results` retorna `axes`, `topMatch`, `matches`, `topCountryMatch` e `topPersonalityMatch`. Cada eixo inclui percentuais dos dois polos, polo dominante e intensidade; cada match inclui nome, categoria/metadados e compatibilidade.
+### Running locally
 
----
-
-## Estrutura do Repositório
-
-```txt
-12Axes/
-|-- backend/
-|   |-- Dockerfile
-|   |-- pom.xml
-|   `-- src/
-|       |-- main/java/com/twelveaxes/
-|       |   |-- config/        # CORS
-|       |   |-- controller/    # HealthController, QuizController (quiz, results, ideologies, countries, personalities)
-|       |   |-- exception/     # ResourceNotFoundException e handler global
-|       |   |-- model/         # records e DTOs
-|       |   `-- service/       # dados, scoring e matchers
-|       |-- main/resources/
-|       |   |-- application.properties
-|       |   `-- data/          # eixos, perguntas, perfis e catálogos
-|       `-- test/              # JUnit, MockMvc e regressões de matching
-|-- frontend/
-|   |-- public/                # logo, favicons, bandeiras e retratos
-|   |-- src/
-|   |   |-- components/        # cards, barras, perguntas e progresso
-|   |   |-- data/              # eixos da home
-|   |   |-- i18n/              # traduções e contexto de idioma (PT/EN)
-|   |   |-- services/          # cliente HTTP
-|   |   |-- styles/            # tokens e CSS principal
-|   |   |-- types/             # tipos TypeScript
-|   |   `-- utils/             # seleção, imagens e exportação PNG
-|   |-- package.json
-|   `-- vercel.json
-|-- render.yaml
-`-- README.md
-```
-
----
-
-## Como Executar Localmente
-
-Pré-requisitos: Java 21+, Maven 3.9+, Node.js 20+ e npm.
-
-### Backend
+You need Java 21, Maven 3.9+, Node.js 20+, and npm.
 
 ```bash
+# Backend: http://localhost:8080
 cd backend
 mvn spring-boot:run
-```
 
-```bash
-curl http://localhost:8080/api/health
-# {"status":"ok"}
-```
-
-### Frontend
-
-```bash
+# Frontend: http://localhost:5173 (proxies /api to the backend)
 cd frontend
 npm install
 npm run dev
 ```
 
-Acesse `http://localhost:5173`. Em desenvolvimento, o Vite proxia `/api` para `http://localhost:8080`.
+To point the local frontend at the production API instead, create `frontend/.env.local` with `VITE_API_URL=https://one2axes-backend.onrender.com`.
 
-### Variáveis de Ambiente
+| Variable | Side | Default | Purpose |
+|----------|------|---------|---------|
+| `PORT` | Backend | `8080` | HTTP port |
+| `FRONTEND_ORIGINS` | Backend | localhost + Vercel | Allowed origins for CORS and the API |
+| `API_ORIGIN_ENFORCEMENT` | Backend | `true` | Set to `false` to turn off the origin check |
+| `VITE_API_URL` | Frontend | empty | API base URL in production |
 
-| Variável | Lado | Padrão | Uso |
-|----------|------|--------|-----|
-| `PORT` | Backend | `8080` | Porta HTTP |
-| `FRONTEND_ORIGINS` | Backend | localhost + Vercel | Origens CORS e allowlist do bloqueio de `/api/**` |
-| `API_ORIGIN_ENFORCEMENT` | Backend | `true` | Liga o bloqueio de `/api/**` por `Origin`. `false` desliga |
-| `VITE_API_PROXY_TARGET` | Frontend dev | `http://localhost:8080` | Proxy local |
-| `VITE_API_URL` | Frontend prod | vazio | URL base da API |
-
-Para usar a API publicada no frontend local:
-
-```env
-VITE_API_URL=https://one2axes-backend.onrender.com
-```
-
----
-
-## Testes
+### Tests
 
 ```bash
-# Backend
-cd backend
-mvn test
-
-# Frontend
-cd frontend
-npm test
-
-# Builds
-cd backend && mvn package -DskipTests
-cd frontend && npm run build
+cd backend && mvn test          # 129 tests
+cd frontend && npm test         # Vitest
+cd frontend && npm run build    # type check, build, static pages
 ```
 
-Cobertura principal:
+The backend suite covers the question pool, the three formats, every catalog vector, links between catalogs, the religion filter, the REST endpoints, and matching regressions. The frontend suite covers question selection and translation. `RandomQuizSimulationTest` simulates users of a given leaning, for example `mvn -Dtest=RandomQuizSimulationTest "-Dquiz.mode=traditional" test`.
 
-- Pool: 240 perguntas, 12 eixos, 20 por eixo e 10 por polo.
-- Variantes curta, completa e extrema.
-- Respostas neutras produzindo centro e match de centrismo.
-- Perfis explícitos para ideologias, países e personalidades.
-- Vetores com exatamente os 12 eixos conhecidos e valores entre 0 e 100.
-- Harness de recall para impedir regressão silenciosa nos vínculos `ideology -> country/personality`.
-- Endpoints REST, payloads e IDs de pergunta inválidos.
-- Seleção frontend sem perder perguntas e alternando polos.
-- Assets de bandeiras e retratos existentes em `frontend/public`.
+### Deploy
 
-### Simulação de Perfis
+| Part | Platform | Configuration |
+|------|----------|---------------|
+| Backend | Render | `render.yaml` and `backend/Dockerfile` |
+| Frontend | Vercel | `frontend/vercel.json`, output `dist` |
 
-```bash
-cd backend
+Every push and pull request runs the CI workflow in `.github/workflows/ci.yml`.
 
-mvn -Dtest=RandomQuizSimulationTest test
-mvn -Dtest=RandomQuizSimulationTest "-Dquiz.variant=extended" "-Dquiz.mode=left" test
-mvn -Dtest=RandomQuizSimulationTest "-Dquiz.variant=extended" "-Dquiz.mode=traditional" "-Dquiz.seed=42" test
-```
+## Contributing
 
-Modos: `random`, `left`, `right`, `authoritarian`, `libertarian`, `progressive`, `traditional`.
+Bug reports, corrections to profiles, and translation fixes are welcome as issues or pull requests. Keep each pull request to one change, run the backend and frontend tests, and describe how you tested it. [CONTRIBUTING.md](CONTRIBUTING.md) has the full checklist.
 
----
+### Adding ideologies, countries, or personalities
 
-## Deploy
+Catalog entries are not written by hand. Each new profile answers all 240 questions, one by one, in character, and its vector is computed from those answers with the same formula a user gets. The process is in [`profile-audit/NEW_PROFILE.md`](profile-audit/NEW_PROFILE.md), and the repository ships [Claude Code](https://claude.com/claude-code) skills that run it end to end:
 
-| Parte | Plataforma | Configuração |
-|-------|------------|--------------|
-| Backend | Render | `render.yaml` + `backend/Dockerfile` |
-| Frontend | Vercel | `frontend/vercel.json`, build `npm run build`, output `dist` |
+| Skill | Purpose |
+|-------|---------|
+| `/new_ideology <name>` | Create an ideology |
+| `/new_country <name>` | Create a country or historical regime |
+| `/new_personality <name>` | Create a personality |
+| `/audit_ideology`, `/audit_country`, `/audit_personality` | Re-audit an existing profile |
 
-Variáveis usadas em produção:
+A new profile has to meet these requirements before it is merged:
 
-```env
-# Render
-FRONTEND_ORIGINS=https://12axes.vercel.app,https://12axes.enzoxavier.com.br
-API_ORIGIN_ENFORCEMENT=true
+- Metadata in Portuguese and English, with the English version free of Brazil-specific references.
+- A full 240-answer audit, archived in `profile-audit/answers/`.
+- `python profile-audit/validate.py <catalog> <id>` passes. It blocks vectors that are near duplicates of an existing profile, too many neutral answers, and a religious vector with no religion tag.
+- Portraits and historical flags come from Wikimedia Commons, with their source recorded, and are compressed with `npm run optimize:images`.
+- `mvn test` passes.
 
-# Vercel
-VITE_API_URL=https://one2axes-backend.onrender.com
-```
+### License
 
-`/api/**` só responde a requisições cujo `Origin` (ou `Referer`) esteja em
-`FRONTEND_ORIGINS`; qualquer outra recebe `403`, registrado no log como
-`API_ORIGIN_BLOCKED`. `/api/health` fica sempre liberado para o health check do
-Render, e `API_ORIGIN_ENFORCEMENT=false` desliga a checagem.
+12 Axes is source-available but not open source. The code, questions, profiles, and vectors are © 2026 Enzo Xavier Santos, all rights reserved. You may read the code and send contributions, but copying, redistributing, translating, or using any part commercially needs written permission. See [LICENSE](LICENSE) for the full terms.
 
-O Render usa `/api/health` como health check.
+## Author
 
----
+**Enzo Xavier Santos** built 12 Axes as a portfolio project and a practical study of full-stack architecture with Java, React, and TypeScript.
 
-## Nota Metodológica
-
-O 12 Axes é uma ferramenta de exploração política. A compatibilidade indica proximidade entre respostas e perfis cadastrados, não filiação, recomendação de voto ou avaliação moral. Os perfis e descrições são modelos simplificados para comparação entre correntes, regimes, experiências históricas e figuras públicas.
-
----
-
-## Licença
-
-© 2026 Enzo Xavier Santos. Todos os direitos reservados.
-
-O código, as perguntas, os perfis, os vetores de eixos e as descrições deste
-repositório são proprietários. Não é permitido reproduzir, redistribuir, traduzir
-nem usar comercialmente qualquer parte do projeto sem autorização por escrito, e
-a API pública é de uso exclusivo dos clientes operados pelo autor. Os termos
-completos estão em [LICENSE](LICENSE); pedidos de autorização podem ser enviados
-para enzo.xs@hotmail.com.
-
----
-
-## Autor
-
-**Enzo Xavier Santos** - projeto desenvolvido para portfólio e estudo prático de arquitetura full stack com Java, React, TypeScript, testes automatizados e deploy em cloud.
+For permission requests or questions, write to enzo.xs@hotmail.com.
