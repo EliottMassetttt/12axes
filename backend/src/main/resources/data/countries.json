@@ -2198,5 +2198,27 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
     "flagNote": "Bandeira atual do Egito (desde 1984), usada aqui apenas como símbolo visual por solicitação do usuário; não existia no Antigo Egito.",
     "religions": ["other"]
+  },
+  {
+    "id": "paquistao",
+    "name": "Paquistão",
+    "category": "República islâmica sob tutela militar",
+    "description": "República islâmica parlamentar e potência nuclear, o Paquistão alterna governos civis e forte tutela do Exército, com leis inspiradas na sharia, economia mista dependente de ajuda externa e rivalidade permanente com a Índia.",
+    "flagPath": "/countries/flags/paquistao.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
+  },
+  {
+    "id": "egito-atual",
+    "name": "Egito",
+    "category": "Regime militar-estatizante",
+    "description": "República presidencialista árabe, o Egito é governado por um regime autoritário de forte peso militar, que prioriza segurança e estabilidade, controla a oposição e dirige boa parte da economia por meio do Estado.",
+    "flagPath": "/countries/flags/egito-atual.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
   }
 ]
