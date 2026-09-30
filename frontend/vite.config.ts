@@ -27,22 +27,17 @@ export default defineConfig(({ mode }) => {
       environment: 'node',
     },
     server: {
+      // The backend's OriginEnforcementFilter allowlists http://localhost:5173 and
+      // http://127.0.0.1:5173 and rejects /api requests without Origin/Referer, so
+      // the dev server must stay on 5173 and the proxy must forward the browser's
+      // own Origin/Referer headers untouched.
       port: 5173,
-      strictPort: false,
+      strictPort: true,
       proxy: {
         '/api': {
           target: proxyTarget,
           changeOrigin: true,
-          secure: true,
-          configure: (proxy) => {
-            // Strip browser-origin headers so the backend treats this as same-origin.
-            // The Render backend's CORS allowlist doesn't include localhost:5xxx
-            // beyond 5173, so we hide the Origin entirely in dev.
-            proxy.on('proxyReq', (proxyReq) => {
-              proxyReq.removeHeader('origin');
-              proxyReq.removeHeader('referer');
-            });
-          }
+          secure: true
         }
       }
     }
