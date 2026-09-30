@@ -1,43 +1,43 @@
 [
   {
     "id": "estrutura_01",
-    "text": "States and cities should be able to defy federal government decisions when the local population disagrees."
+    "text": "Regional and local governments should have the autonomy to decide their own affairs without relying on the national government."
   },
   {
     "id": "estrutura_02",
-    "text": "The whole country should follow the same laws, even against the preferences of each state."
+    "text": "The whole country should follow the same laws, even when its regions prefer otherwise."
   },
   {
     "id": "estrutura_03",
-    "text": "Taxes and public services should be decided as close to the local population as possible."
+    "text": "Laws should be made and public services managed as close to local communities as possible."
   },
   {
     "id": "estrutura_04",
-    "text": "A single national school curriculum is better than each state teaching its own way."
+    "text": "A single national school curriculum is better than allowing each region to set its own."
   },
   {
     "id": "estrutura_05",
-    "text": "Each state should have its own constitution, its own laws, and its own police."
+    "text": "Each state or province should be free to draft its own constitution without interference from the national government."
   },
   {
     "id": "estrutura_06",
-    "text": "A single national police force would work better than several autonomous state police forces."
+    "text": "A single national police force would work better than several autonomous regional forces."
   },
   {
     "id": "estrutura_07",
-    "text": "Most taxes should stay in the state or city where they were collected."
+    "text": "Most tax revenue should remain in the region or municipality where it was collected."
   },
   {
     "id": "estrutura_08",
-    "text": "Healthcare, education, and security should follow strong national command."
+    "text": "Public healthcare should follow uniform national guidelines under a central authority."
   },
   {
     "id": "estrutura_09",
-    "text": "States should have the right to secede from the country if the local majority votes for it."
+    "text": "Regions should have the right to secede if a local majority votes for it."
   },
   {
     "id": "estrutura_10",
-    "text": "Tax competition between states shows that taxes should be set at the national level."
+    "text": "Regional taxes should follow national rules to prevent tax disputes between regions."
   },
   {
     "id": "estrutura_11",
@@ -45,23 +45,23 @@
   },
   {
     "id": "estrutura_12",
-    "text": "Labor laws should be the same across the whole country, without local negotiations."
+    "text": "Labor laws should be the same in every region, with no regional variations."
   },
   {
     "id": "estrutura_13",
-    "text": "Cities should be able to create their own laws, even ones different from national laws."
+    "text": "Municipalities should be able to pass their own laws, even if they differ from national laws."
   },
   {
     "id": "estrutura_14",
-    "text": "When a governor and the president clash, the final word should belong to the president."
+    "text": "When a regional and a national leader disagree, the national leader should have the final say."
   },
   {
     "id": "estrutura_15",
-    "text": "My country would work better as a union of nearly independent states."
+    "text": "My country should be a union of regions with broad political autonomy."
   },
   {
     "id": "estrutura_16",
-    "text": "The federal government should be able to overturn state and local laws that go against the national interest."
+    "text": "The national government should be able to overturn regional and local laws that conflict with the national interest."
   },
   {
     "id": "estrutura_17",
@@ -69,15 +69,15 @@
   },
   {
     "id": "estrutura_18",
-    "text": "Separatist movements should be treated as a crime against the unity of the country."
+    "text": "A region should not be allowed to secede, even with the support of its local population."
   },
   {
     "id": "estrutura_19",
-    "text": "Education and healthcare work better when run by local governments than by the national capital."
+    "text": "Public education should be managed by local governments rather than the national government."
   },
   {
     "id": "estrutura_20",
-    "text": "Governors and mayors should simply carry out the central government's orders."
+    "text": "Regional and local leaders should carry out central government decisions on local matters."
   },
   {
     "id": "representacao_01",
@@ -89,11 +89,11 @@
   },
   {
     "id": "representacao_03",
-    "text": "The press, the opposition, and protests must be able to harshly criticize any government."
+    "text": "The political opposition should have the right to criticize any government in public."
   },
   {
     "id": "representacao_04",
-    "text": "Most voters vote without understanding the issues that are at stake."
+    "text": "Voters with little political knowledge should have less influence over who governs."
   },
   {
     "id": "representacao_05",
@@ -101,7 +101,7 @@
   },
   {
     "id": "representacao_06",
-    "text": "A country advances more with a competent leader than with hotly contested elections all the time."
+    "text": "A competent leader should be able to govern without frequent elections or mandatory changes in leadership."
   },
   {
     "id": "representacao_07",
@@ -109,7 +109,7 @@
   },
   {
     "id": "representacao_08",
-    "text": "A ruler who delivers results deserves to stay in power for as long as they are capable."
+    "text": "An effective leader should be able to remain in power without facing regular elections."
   },
   {
     "id": "representacao_09",
@@ -117,7 +117,7 @@
   },
   {
     "id": "representacao_10",
-    "text": "A monarchy can give a country more stability than constant elections."
+    "text": "Leaders should be chosen by competence, tradition, or succession rather than by popular vote."
   },
   {
     "id": "representacao_11",
@@ -125,19 +125,19 @@
   },
   {
     "id": "representacao_12",
-    "text": "Some dictatorships developed their countries faster than many democracies."
+    "text": "I would prefer an authoritarian regime to democracy if it accelerated my country's development."
   },
   {
     "id": "representacao_13",
-    "text": "Public offices could be assigned by lottery among ordinary citizens, like a jury, instead of elected."
+    "text": "Public offices could be filled by randomly selected citizens, as juries are, rather than by election."
   },
   {
     "id": "representacao_14",
-    "text": "A government of experts chosen by merit would be better than elected politicians."
+    "text": "Experts selected for their qualifications should govern without being elected by the public."
   },
   {
     "id": "representacao_15",
-    "text": "No one should govern without having gone through the popular vote."
+    "text": "Those who govern should have the consent and approval of the people affected by their decisions."
   },
   {
     "id": "representacao_16",
@@ -145,11 +145,11 @@
   },
   {
     "id": "representacao_17",
-    "text": "A society organized by assemblies, without professional rulers, could work."
+    "text": "I would prefer a society governed by popular assemblies rather than political leaders."
   },
   {
     "id": "representacao_18",
-    "text": "Deep reforms take time and should not be interrupted by frequent elections."
+    "text": "Major reforms should not be interrupted by frequent elections or changes in government."
   },
   {
     "id": "representacao_19",
@@ -157,23 +157,23 @@
   },
   {
     "id": "representacao_20",
-    "text": "A dictatorship can be legitimate if it guarantees order, security, and prosperity."
+    "text": "I would prefer an autocratic regime that guarantees order, security, and prosperity over electoral democracy."
   },
   {
     "id": "poder_01",
-    "text": "In areas dominated by crime, tough police operations and neighborhood-wide search warrants are acceptable."
+    "text": "Aggressive police operations are justified to fight crime in areas controlled by criminal groups."
   },
   {
     "id": "poder_02",
-    "text": "Marijuana should be legalized for production, sale, and use among adults."
+    "text": "Adult cannabis use should be legalized or decriminalized."
   },
   {
     "id": "poder_03",
-    "text": "The state should be able to monitor digital conversations to prevent terrorism and organized crime."
+    "text": "The state should be allowed to monitor digital conversations to prevent and combat crime."
   },
   {
     "id": "poder_04",
-    "text": "Freedom of speech must apply even to extremist and offensive ideas."
+    "text": "Freedom of speech should protect even opinions considered offensive."
   },
   {
     "id": "poder_05",
@@ -181,11 +181,11 @@
   },
   {
     "id": "poder_06",
-    "text": "What adults do among themselves — drugs, gambling, prostitution — should not be a police matter."
+    "text": "Consensual activities among adults, such as drug use, gambling, and sex work, should not be criminalized."
   },
   {
     "id": "poder_07",
-    "text": "The state should be able to ban parties and groups that threaten public order."
+    "text": "The state should be able to dissolve political parties that threaten public order."
   },
   {
     "id": "poder_08",
@@ -197,11 +197,11 @@
   },
   {
     "id": "poder_10",
-    "text": "Law-abiding citizens should be able to use guns to defend their home and family."
+    "text": "Adults should be allowed to keep firearms at home for personal protection."
   },
   {
     "id": "poder_11",
-    "text": "In serious situations, curfews and states of emergency are legitimate tools."
+    "text": "In serious situations, the government should be allowed to impose a curfew."
   },
   {
     "id": "poder_12",
@@ -213,7 +213,7 @@
   },
   {
     "id": "poder_14",
-    "text": "It is better to let a guilty person go free than to convict an innocent one."
+    "text": "When guilt is uncertain, the state should avoid a conviction even if some guilty people go free."
   },
   {
     "id": "poder_15",
@@ -225,11 +225,11 @@
   },
   {
     "id": "poder_17",
-    "text": "The government should be able to take down websites and profiles that spread fake news."
+    "text": "The government should be able to take down accounts that spread false information."
   },
   {
     "id": "poder_18",
-    "text": "Instant digital payment systems give the government a dangerous power to monitor every purchase."
+    "text": "The government should not be allowed to track purchases made through digital payment systems."
   },
   {
     "id": "poder_19",
@@ -253,11 +253,11 @@
   },
   {
     "id": "imigracao_04",
-    "text": "A society that welcomes different customs becomes richer and more creative."
+    "text": "A country should allow immigrants to preserve their customs and traditions, even when these differ from local ones."
   },
   {
     "id": "imigracao_05",
-    "text": "Some cultures and peoples have customs incompatible with a free society."
+    "text": "A country should refuse entry to immigrants who reject local customs."
   },
   {
     "id": "imigracao_06",
@@ -269,7 +269,7 @@
   },
   {
     "id": "imigracao_08",
-    "text": "The mix of languages and cultures in the same territory is a sign of progress, not crisis."
+    "text": "The coexistence of different languages and cultures should be encouraged in a country."
   },
   {
     "id": "imigracao_09",
@@ -277,27 +277,27 @@
   },
   {
     "id": "imigracao_10",
-    "text": "The cultures brought by peoples from other continents are part of my country's identity."
+    "text": "Cultures brought by immigrants should have a place in a country's national identity."
   },
   {
     "id": "imigracao_11",
-    "text": "Requiring immigrants to adapt to the local culture is not prejudice; it is a condition for living together."
+    "text": "People who immigrate to a country should be required to adapt to local customs."
   },
   {
     "id": "imigracao_12",
-    "text": "My country does the right thing by taking in refugees from neighboring countries in crisis."
+    "text": "My country should continue to welcome immigrants from countries facing severe crises."
   },
   {
     "id": "imigracao_13",
-    "text": "A people that loses its language and customs ceases to exist as a nation."
+    "text": "Fluency in the country's main language should be a priority in immigration policy."
   },
   {
     "id": "imigracao_14",
-    "text": "Judging an entire culture as backward or dangerous is prejudice, not an argument."
+    "text": "Immigrants should not be judged by customs attributed to their country of origin."
   },
   {
     "id": "imigracao_15",
-    "text": "Immigrant neighborhoods that live closed off in their own culture create problems for the country."
+    "text": "Neighborhoods whose immigrant residents remain culturally isolated create problems for the country."
   },
   {
     "id": "imigracao_16",
@@ -305,7 +305,7 @@
   },
   {
     "id": "imigracao_17",
-    "text": "Ideally, each people would live separately in its own territory, without mixing cultures."
+    "text": "Immigration should be limited to preserve the country's predominant culture."
   },
   {
     "id": "imigracao_18",
@@ -313,7 +313,7 @@
   },
   {
     "id": "imigracao_19",
-    "text": "Illegal immigrants should face mass deportation, with no exceptions."
+    "text": "Immigrants who reject local customs should lose the right to remain in the country."
   },
   {
     "id": "imigracao_20",
@@ -321,7 +321,7 @@
   },
   {
     "id": "diplomacia_01",
-    "text": "A country is only respected in the world if it has strong armed forces."
+    "text": "A country should maintain strong armed forces to earn respect abroad."
   },
   {
     "id": "diplomacia_02",
@@ -337,31 +337,31 @@
   },
   {
     "id": "diplomacia_05",
-    "text": "Heavy defense spending is necessary, even with other areas needing the money."
+    "text": "My country should prioritize military spending even when other areas need resources."
   },
   {
     "id": "diplomacia_06",
-    "text": "Smart diplomacy prevents more conflicts than a heavy military arsenal."
+    "text": "Diplomatic negotiations should take priority over expanding the military arsenal."
   },
   {
     "id": "diplomacia_07",
-    "text": "My country should pursue nuclear weapons so as not to depend on any power's protection."
+    "text": "My country should pursue nuclear weapons to avoid relying on protection from any foreign power."
   },
   {
     "id": "diplomacia_08",
-    "text": "The more countries spend on weapons, the greater the risk of war for everyone."
+    "text": "Reducing military spending should be a priority to lower the risk of war."
   },
   {
     "id": "diplomacia_09",
-    "text": "Mandatory military service makes citizens more disciplined and patriotic."
+    "text": "Mandatory military service is necessary to prepare a country for war."
   },
   {
     "id": "diplomacia_10",
-    "text": "Disarmament agreements do more for peace than arms races."
+    "text": "Disarmament agreements should take priority over expanding military arsenals."
   },
   {
     "id": "diplomacia_11",
-    "text": "The country should have its own arms industry, not depend on buying from abroad."
+    "text": "The ability to manufacture weapons domestically is essential to national defense."
   },
   {
     "id": "diplomacia_12",
@@ -373,7 +373,7 @@
   },
   {
     "id": "diplomacia_14",
-    "text": "International courts should judge war crimes, including those of allied countries."
+    "text": "My country should support international courts that hear war-crimes cases, including cases involving allies."
   },
   {
     "id": "diplomacia_15",
@@ -381,7 +381,7 @@
   },
   {
     "id": "diplomacia_16",
-    "text": "Even with hostile regimes, dialogue usually works better than threats."
+    "text": "My country should engage in dialogue even with hostile regimes before threatening military action."
   },
   {
     "id": "diplomacia_17",
@@ -389,7 +389,7 @@
   },
   {
     "id": "diplomacia_18",
-    "text": "My country should abolish its armed forces, as Costa Rica did."
+    "text": "My country should abolish its armed forces."
   },
   {
     "id": "diplomacia_19",
@@ -397,7 +397,7 @@
   },
   {
     "id": "diplomacia_20",
-    "text": "The UN and international organizations should have more power to prevent wars."
+    "text": "The United Nations should be able to mediate conflicts before any military action."
   },
   {
     "id": "intervencao_01",
@@ -409,11 +409,11 @@
   },
   {
     "id": "intervencao_03",
-    "text": "Military alliances end up dragging countries into wars that are not their own."
+    "text": "My country should avoid military alliances that could draw it into conflicts abroad."
   },
   {
     "id": "intervencao_04",
-    "text": "Foreign policy should pursue advantage, sovereignty, and influence, not international applause."
+    "text": "Foreign policy should prioritize my country's influence over its neighbors."
   },
   {
     "id": "intervencao_05",
@@ -429,7 +429,7 @@
   },
   {
     "id": "intervencao_08",
-    "text": "Sanctions and diplomatic pressure are legitimate when my country's interests are threatened."
+    "text": "My country should be allowed to impose sanctions when its interests are threatened."
   },
   {
     "id": "intervencao_09",
@@ -441,7 +441,7 @@
   },
   {
     "id": "intervencao_11",
-    "text": "My country should avoid closed geopolitical blocs and permanent alliances."
+    "text": "My country should avoid joining exclusive geopolitical blocs."
   },
   {
     "id": "intervencao_12",
@@ -449,15 +449,15 @@
   },
   {
     "id": "intervencao_13",
-    "text": "Each people should solve its own problems, without outside interference."
+    "text": "Each nation should solve its own problems without outside interference."
   },
   {
     "id": "intervencao_14",
-    "text": "My country should use even military force to secure its interests in its region."
+    "text": "My country should be willing to use military force to protect its interests in its region."
   },
   {
     "id": "intervencao_15",
-    "text": "Embargoes and sanctions almost never work and end up punishing innocent civilians."
+    "text": "My country should not impose sanctions on countries whose governments it disapproves of."
   },
   {
     "id": "intervencao_16",
@@ -469,15 +469,15 @@
   },
   {
     "id": "intervencao_18",
-    "text": "Countries that defend their interests firmly are more respected."
+    "text": "Defending national interests should guide my country's actions abroad."
   },
   {
     "id": "intervencao_19",
-    "text": "Keeping military bases in other countries is a waste of money."
+    "text": "My country should not maintain military bases in other countries."
   },
   {
     "id": "intervencao_20",
-    "text": "If a neighboring country threatens its citizens or companies, my country should react harshly."
+    "text": "My country should pressure neighboring governments that threaten its citizens."
   },
   {
     "id": "economia_01",
@@ -485,23 +485,23 @@
   },
   {
     "id": "economia_02",
-    "text": "With competition, private companies provide better services than the state."
+    "text": "Public services should be provided by private companies when there is competition."
   },
   {
     "id": "economia_03",
-    "text": "Strategic state-owned companies, such as the national oil company and postal service, should remain under public control."
+    "text": "Companies considered strategically important should remain under public control."
   },
   {
     "id": "economia_04",
-    "text": "Healthcare, education, and pensions should run mainly through private enterprise."
+    "text": "Healthcare should be provided mainly through private enterprise."
   },
   {
     "id": "economia_05",
-    "text": "Factories, banks, and large companies should belong to the workers or to society, not to private owners."
+    "text": "Large companies should belong to their workers rather than private owners."
   },
   {
     "id": "economia_06",
-    "text": "Even roads, police, and courts could be private services, paid for by those who use them."
+    "text": "Even roads, police, and courts could be managed by private companies."
   },
   {
     "id": "economia_07",
@@ -509,7 +509,7 @@
   },
   {
     "id": "economia_08",
-    "text": "Inheritance and family property must be protected from any redistribution project."
+    "text": "Family inheritance should be protected from policies that redistribute wealth."
   },
   {
     "id": "economia_09",
@@ -521,19 +521,19 @@
   },
   {
     "id": "economia_11",
-    "text": "A basic income paid to all citizens would be a civilizational advance."
+    "text": "The state should guarantee a minimum income to every citizen in need."
   },
   {
     "id": "economia_12",
-    "text": "Lifetime job security for civil servants makes the state rigid and expensive."
+    "text": "Lifetime job security for public employees should be limited or eliminated."
   },
   {
     "id": "economia_13",
-    "text": "Large private companies concentrate too much power over people's lives."
+    "text": "The state should limit the power of large private companies."
   },
   {
     "id": "economia_14",
-    "text": "Welfare programs create dependency when they last too long."
+    "text": "Cash assistance programs should have a maximum duration."
   },
   {
     "id": "economia_15",
@@ -541,11 +541,11 @@
   },
   {
     "id": "economia_16",
-    "text": "Workers gain more by negotiating directly with their employer than through unions."
+    "text": "Workers should negotiate wages directly with employers, without unions."
   },
   {
     "id": "economia_17",
-    "text": "Public development banks are essential for the country's growth."
+    "text": "Public banks should continue to finance the country's development."
   },
   {
     "id": "economia_18",
@@ -553,11 +553,11 @@
   },
   {
     "id": "economia_19",
-    "text": "My country's privatizations sold public assets for far less than they were worth."
+    "text": "The risk of selling state-owned companies for less than they are worth justifies keeping them under public control."
   },
   {
     "id": "economia_20",
-    "text": "The state is almost always less efficient than the private sector."
+    "text": "Private companies should take priority in the management of public services."
   },
   {
     "id": "controle_01",
@@ -565,7 +565,7 @@
   },
   {
     "id": "controle_02",
-    "text": "The free market sets prices and wages better than any politician."
+    "text": "Prices and wages should be set by the market without government intervention."
   },
   {
     "id": "controle_03",
@@ -573,35 +573,35 @@
   },
   {
     "id": "controle_04",
-    "text": "Companies should be able to hire, fire, and set prices with minimal interference."
+    "text": "Companies should set the terms of employment with minimal government interference."
   },
   {
     "id": "controle_05",
-    "text": "Great fortunes should pay more taxes to fund public policies."
+    "text": "The wealthiest people should pay more taxes to fund public programs."
   },
   {
     "id": "controle_06",
-    "text": "The lower the tax burden, the more the economy grows."
+    "text": "Taxes should be reduced to encourage economic growth."
   },
   {
     "id": "controle_07",
-    "text": "The state should subsidize strategic industries such as semiconductors, steel, and defense."
+    "text": "The state should subsidize strategically important domestic industries."
   },
   {
     "id": "controle_08",
-    "text": "A minimum wage that is too high destroys jobs for the poorest."
+    "text": "The minimum wage should not be set too high, because that reduces jobs available to the poorest workers."
   },
   {
     "id": "controle_09",
-    "text": "In serious crises, the government should be able to freeze prices and rents."
+    "text": "In serious crises, the government should be able to freeze rents."
   },
   {
     "id": "controle_10",
-    "text": "Freezing prices by law causes shortages, queues, and black markets."
+    "text": "The government should not freeze prices, even during periods of high inflation."
   },
   {
     "id": "controle_11",
-    "text": "The government should choose and support national champion companies to compete abroad."
+    "text": "The government should select and support leading domestic companies in strategic sectors."
   },
   {
     "id": "controle_12",
@@ -613,11 +613,11 @@
   },
   {
     "id": "controle_14",
-    "text": "Every new regulation is, in the end, a hidden tax on those who produce."
+    "text": "The state should avoid new regulations on economic activity."
   },
   {
     "id": "controle_15",
-    "text": "In a recession, the government should spend more to restart the economy, even if it increases the debt."
+    "text": "During a recession, the government should spend more to stimulate the economy, even if that increases public debt."
   },
   {
     "id": "controle_16",
@@ -625,7 +625,7 @@
   },
   {
     "id": "controle_17",
-    "text": "The government should be able to control exchange rates and money leaving the country to protect itself."
+    "text": "The government should be able to control the exchange rate to protect the national economy."
   },
   {
     "id": "controle_18",
@@ -641,19 +641,19 @@
   },
   {
     "id": "comercio_01",
-    "text": "National industry should be protected with tariffs whenever necessary."
+    "text": "Domestic industries should be protected with tariffs whenever necessary."
   },
   {
     "id": "comercio_02",
-    "text": "Tariffs should be cut to almost zero, even if some national industries go bankrupt."
+    "text": "Tariffs should be cut to almost zero, even if some domestic industries fail."
   },
   {
     "id": "comercio_03",
-    "text": "Too many imports destroy national industry and create unemployment."
+    "text": "I prefer limiting imports to protect industrial jobs, even if prices rise."
   },
   {
     "id": "comercio_04",
-    "text": "Free trade agreements with other countries make the economy grow."
+    "text": "My country should pursue free trade agreements with other countries."
   },
   {
     "id": "comercio_05",
@@ -661,7 +661,7 @@
   },
   {
     "id": "comercio_06",
-    "text": "The more open to the world, the more innovation and quality reach the consumer."
+    "text": "Foreign products should face few economic restrictions when entering the country."
   },
   {
     "id": "comercio_07",
@@ -673,27 +673,27 @@
   },
   {
     "id": "comercio_09",
-    "text": "Foreign companies should be banned from buying my country's strategic land and companies."
+    "text": "Foreign companies should be banned from buying my country's strategically important companies."
   },
   {
     "id": "comercio_10",
-    "text": "Trade blocs such as the European Union and Mercosur bring more gains than losses."
+    "text": "My country should deepen trade ties with other countries."
   },
   {
     "id": "comercio_11",
-    "text": "Food security means producing food in your own country, not depending on cheap imports."
+    "text": "Domestic food production should take priority over cheap imports."
   },
   {
     "id": "comercio_12",
-    "text": "Foreign investment creates jobs and brings technology to the country."
+    "text": "I support making it easier for foreign investors to invest in my country."
   },
   {
     "id": "comercio_13",
-    "text": "Purchases by the government and state companies should give priority to national companies."
+    "text": "Purchases by governments and state-owned companies should give priority to domestic companies."
   },
   {
     "id": "comercio_14",
-    "text": "International trade helps reduce poverty in every part of the world."
+    "text": "International trade should be expanded to support economic development."
   },
   {
     "id": "comercio_15",
@@ -701,7 +701,7 @@
   },
   {
     "id": "comercio_16",
-    "text": "Import tariffs in my country benefit a few business owners and make life more expensive for everyone."
+    "text": "My country should reduce import tariffs that raise consumer prices."
   },
   {
     "id": "comercio_17",
@@ -709,7 +709,7 @@
   },
   {
     "id": "comercio_18",
-    "text": "Multinationals pay taxes, create jobs, and train local workers."
+    "text": "Multinational companies are beneficial because they create jobs and train local workers."
   },
   {
     "id": "comercio_19",
@@ -717,7 +717,7 @@
   },
   {
     "id": "comercio_20",
-    "text": "Globalization has raised the standard of living of most of humanity."
+    "text": "Global economic integration should be deepened through more trade."
   },
   {
     "id": "religiao_01",
@@ -741,7 +741,7 @@
   },
   {
     "id": "religiao_06",
-    "text": "Religion makes family life and life in the community stronger."
+    "text": "Religion strengthens community life and should be encouraged."
   },
   {
     "id": "religiao_07",
@@ -749,23 +749,23 @@
   },
   {
     "id": "religiao_08",
-    "text": "The state in my country should officially adopt a religious identity."
+    "text": "My country should officially adopt a religious identity."
   },
   {
     "id": "religiao_09",
-    "text": "A society guided by science works better than one guided by faith."
+    "text": "Political decisions should not be based on religious beliefs."
   },
   {
     "id": "religiao_10",
-    "text": "Religious traditions should be preserved in the family and passed on to children."
+    "text": "Religious traditions should be passed on to future generations."
   },
   {
     "id": "religiao_11",
-    "text": "In the end, humanity would be better off without any religion."
+    "text": "A society without religion would be preferable to a religious society."
   },
   {
     "id": "religiao_12",
-    "text": "Pushing God out of public life caused part of today's moral problems."
+    "text": "Society should give more room to faith in God."
   },
   {
     "id": "religiao_13",
@@ -773,19 +773,19 @@
   },
   {
     "id": "religiao_14",
-    "text": "Marriage and family are sacred institutions, not just contracts."
+    "text": "Marriage should be recognized as a religious institution."
   },
   {
     "id": "religiao_15",
-    "text": "The word 'God' should not appear in the constitution or on the currency."
+    "text": "The word 'God' should not appear in the constitution or in political speeches."
   },
   {
     "id": "religiao_16",
-    "text": "Religion gives life a meaning that no philosophy can provide."
+    "text": "Religious faith is necessary to give life meaning."
   },
   {
     "id": "religiao_17",
-    "text": "Teaching religion to young children is a form of indoctrination."
+    "text": "Religion should not be part of young children's education."
   },
   {
     "id": "religiao_18",
@@ -793,7 +793,7 @@
   },
   {
     "id": "religiao_19",
-    "text": "You do not need to believe in God to be an ethical and good person."
+    "text": "Public morality does not need to be based on belief in God."
   },
   {
     "id": "religiao_20",
@@ -801,11 +801,11 @@
   },
   {
     "id": "moral_01",
-    "text": "Same-sex couples raise children just as well as couples of a man and a woman."
+    "text": "Same-sex couples should have the same right to adopt children as other couples."
   },
   {
     "id": "moral_02",
-    "text": "The traditional family and good customs should still guide society."
+    "text": "The traditional family should serve as a model for society."
   },
   {
     "id": "moral_03",
@@ -817,7 +817,7 @@
   },
   {
     "id": "moral_05",
-    "text": "Racial quotas correct a historical injustice and are still necessary."
+    "text": "Race-based quotas are still needed to address inequality."
   },
   {
     "id": "moral_06",
@@ -829,7 +829,7 @@
   },
   {
     "id": "moral_08",
-    "text": "Racial quotas deepen division by color instead of overcoming it."
+    "text": "Race-based quotas should be ended to avoid divisions along racial lines."
   },
   {
     "id": "moral_09",
@@ -841,7 +841,7 @@
   },
   {
     "id": "moral_11",
-    "text": "Children and teenagers should learn about sexuality and gender without taboos."
+    "text": "Teenagers should learn about sexuality and gender without taboos."
   },
   {
     "id": "moral_12",
@@ -849,11 +849,11 @@
   },
   {
     "id": "moral_13",
-    "text": "Prostitution is a job like any other and deserves the same respect."
+    "text": "Sex work should be recognized as legitimate work."
   },
   {
     "id": "moral_14",
-    "text": "Gender-neutral language is an ideological imposition that distorts the language."
+    "text": "Gender-neutral language should not be adopted by society."
   },
   {
     "id": "moral_15",
@@ -861,7 +861,7 @@
   },
   {
     "id": "moral_16",
-    "text": "Pornography, prostitution, and drugs are signs of moral decay."
+    "text": "Using pornography or drugs is a sign of moral decline."
   },
   {
     "id": "moral_17",
@@ -873,7 +873,7 @@
   },
   {
     "id": "moral_19",
-    "text": "Nudity in film, art, and on beaches should not scandalize anyone."
+    "text": "Nudity in films, art, and on beaches should not be considered offensive."
   },
   {
     "id": "moral_20",
@@ -893,19 +893,19 @@
   },
   {
     "id": "tecnologia_04",
-    "text": "Technologies that alter the human body, mind, or reproduction should be blocked."
+    "text": "Technologies that alter the human body, mind, or reproduction should be restricted."
   },
   {
     "id": "tecnologia_05",
-    "text": "GMO crops have fed billions of people and should keep being developed."
+    "text": "Genetically modified crops should continue to be developed."
   },
   {
     "id": "tecnologia_06",
-    "text": "Pesticides do more damage to the environment than they add to production."
+    "text": "Pesticide use should be reduced, even if that lowers agricultural productivity."
   },
   {
     "id": "tecnologia_07",
-    "text": "It is possible to mine and extract resources from rainforests while keeping the forest standing."
+    "text": "Mining should be allowed even in areas of preserved forest in the Amazon."
   },
   {
     "id": "tecnologia_08",
@@ -913,23 +913,23 @@
   },
   {
     "id": "tecnologia_09",
-    "text": "Editing embryos' genes to create smarter, healthier people is a legitimate advance."
+    "text": "Gene editing should be permitted to increase intelligence and prevent disease."
   },
   {
     "id": "tecnologia_10",
-    "text": "Global warming is an emergency and demands immediate changes in our way of life."
+    "text": "Reducing the use of natural resources should take priority in the fight against global warming."
   },
   {
     "id": "tecnologia_11",
-    "text": "Exploring space and colonizing other planets is a natural destiny for humanity."
+    "text": "Humanity should invest in exploring other planets."
   },
   {
     "id": "tecnologia_12",
-    "text": "Even clean mining in untouched rainforests crosses a line that should not be crossed."
+    "text": "Even low-impact mining in the Amazon rainforest crosses a line that should not be crossed."
   },
   {
     "id": "tecnologia_13",
-    "text": "Life in big cities offers more opportunities than life in the countryside."
+    "text": "Life in big cities is preferable to life in the countryside."
   },
   {
     "id": "tecnologia_14",
@@ -937,19 +937,19 @@
   },
   {
     "id": "tecnologia_15",
-    "text": "Brain implants and prosthetics to expand human capacities are a legitimate path."
+    "text": "Brain implants are a legitimate way to expand human abilities."
   },
   {
     "id": "tecnologia_16",
-    "text": "Solving Earth's problems comes before spending billions on space."
+    "text": "Spending on space exploration should take lower priority than environmental protection on Earth."
   },
   {
     "id": "tecnologia_17",
-    "text": "Lab-grown meat is an advance that can replace livestock farming."
+    "text": "Lab-grown meat should replace some livestock farming."
   },
   {
     "id": "tecnologia_18",
-    "text": "The simple life of the countryside is healthier than life in big cities."
+    "text": "A simple life in the countryside is preferable to life in large cities."
   },
   {
     "id": "tecnologia_19",
