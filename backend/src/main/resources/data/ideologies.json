@@ -2511,7 +2511,7 @@
     "description": "Doutrina de Mustafa Kemal Atatürk que fundou a Turquia moderna sobre seis flechas: republicanismo, nacionalismo, populismo, estatismo, laicismo e reformismo, impondo de cima a ocidentalização e o controle estatal da religião.",
     "phrase": "Quero uma república turca laica e moderna, com a religião sob controle do Estado, uma só identidade nacional e indústria erguida pelo Estado.",
     "vector": null,
-    "countryId": "turquia",
+    "countryId": "turquia-de-ataturk",
     "personalityId": "ataturk",
     "religions": []
   },
@@ -2525,5 +2525,38 @@
     "countryId": "indonesia",
     "personalityId": "zohran-mamdani",
     "religions": ["islam"]
+  },
+  {
+    "id": "nacionalismo-budista",
+    "name": "Nacionalismo Budista",
+    "category": "Direita",
+    "description": "Corrente que funde identidade étnica e fé budista theravada, vendo a nação como guardiã do Dharma ameaçada por minorias, como no nacionalismo cingalês do Sri Lanka e nos movimentos de monges Ma Ba Tha e 969 em Mianmar.",
+    "phrase": "Quero uma nação budista que proteja o Dharma e a maioria, com monges influentes, líderes fortes e minorias sob vigilância.",
+    "vector": null,
+    "countryId": "sri-lanka",
+    "personalityId": "narendra-modi",
+    "religions": ["buddhism"]
+  },
+  {
+    "id": "sionismo",
+    "name": "Sionismo",
+    "category": "Centro",
+    "description": "Movimento nacional judaico fundado por Theodor Herzl em 1897, que buscou um Estado judeu na Terra de Israel como resposta ao antissemitismo e levou à criação de Israel em 1948, unindo nação, língua hebraica e retorno à terra ancestral.",
+    "phrase": "Quero um Estado judeu democrático na terra de Israel, que acolha todo judeu, renove o hebraico e seja um lar seguro para o povo.",
+    "vector": null,
+    "countryId": "israel",
+    "personalityId": "theodor-herzl",
+    "religions": ["judaism"]
+  },
+  {
+    "id": "sionismo-trabalhista",
+    "name": "Sionismo Trabalhista",
+    "category": "Esquerda",
+    "description": "Vertente socialista do sionismo que construiu o Estado de Israel por meio dos kibutzim, da central sindical Histadrut e do partido Mapai de Ben-Gurion, unindo nacionalismo judaico, trabalho coletivo na terra e Estado de bem-estar laico.",
+    "phrase": "Quero erguer a nação judaica com as próprias mãos, em kibutzim e sindicatos fortes, com terra pública e Estado de bem-estar laico.",
+    "vector": null,
+    "countryId": "israel",
+    "personalityId": "david-ben-gurion",
+    "religions": ["judaism"]
   }
 ]

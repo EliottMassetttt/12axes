@@ -1614,5 +1614,26 @@
     "category": "Center",
     "description": "Reformist current that reinterprets Islam in light of reason, human rights and pluralism, advocating democracy, gender equality, a non-confessional state and freedom of conscience, in Muhammad Abduh's modernist tradition.",
     "phrase": "I want to live my Islamic faith with reason and freedom, in a democratic, non-confessional state that ensures equality between men and women."
+  },
+  {
+    "id": "nacionalismo-budista",
+    "name": "Buddhist Nationalism",
+    "category": "Right",
+    "description": "A current fusing ethnic identity and Theravada Buddhist faith, seeing the nation as guardian of the Dharma threatened by minorities, as in Sinhalese nationalism in Sri Lanka and the Ma Ba Tha and 969 monk movements in Myanmar.",
+    "phrase": "I want a Buddhist nation that protects the Dharma and the majority, with influential monks, strong leaders, and minorities under watch."
+  },
+  {
+    "id": "sionismo",
+    "name": "Zionism",
+    "category": "Center",
+    "description": "The Jewish national movement founded by Theodor Herzl in 1897, which sought a Jewish state in the Land of Israel as a response to antisemitism and led to the creation of Israel in 1948, uniting nation, the Hebrew language, and return to the ancestral land.",
+    "phrase": "I want a democratic Jewish state in the Land of Israel that welcomes every Jew, revives Hebrew, and is a safe home for the people."
+  },
+  {
+    "id": "sionismo-trabalhista",
+    "name": "Labor Zionism",
+    "category": "Left",
+    "description": "The socialist strand of Zionism that built the State of Israel through the kibbutzim, the Histadrut labor federation, and Ben-Gurion's Mapai party, uniting Jewish nationalism, collective work on the land, and a secular welfare state.",
+    "phrase": "I want to build the Jewish nation with our own hands, in kibbutzim and strong unions, with public land and a secular welfare state."
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-30T15:53:15Z",
+  "lastUpdated": "2026-09-30T16:18:45Z",
   "personality": {
-    "totalProfiles": 394,
+    "totalProfiles": 393,
     "pending": [],
     "done": [
       "lenin",
@@ -361,7 +361,6 @@
       "franz-kafka",
       "galileu-galilei",
       "thomas-muntzer",
-      "jesus-cristo",
       "romeu-zema",
       "paulo-freire",
       "ronaldo-caiado",
@@ -397,12 +396,12 @@
       "muhammad-ali-jinnah",
       "saladino",
       "alwaleed-bin-talal",
-      "maome",
-      "narendra-modi"
+      "narendra-modi",
+      "david-ben-gurion"
     ]
   },
   "ideology": {
-    "totalProfiles": 230,
+    "totalProfiles": 233,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -635,11 +634,14 @@
       "socialismo-islamico",
       "pan-islamismo",
       "nacionalismo-kemalista",
-      "liberalismo-islamico"
+      "liberalismo-islamico",
+      "nacionalismo-budista",
+      "sionismo",
+      "sionismo-trabalhista"
     ]
   },
   "country": {
-    "totalProfiles": 170,
+    "totalProfiles": 174,
     "pending": [],
     "done": [
       "brasil",
@@ -811,7 +813,11 @@
       "albania",
       "marrocos",
       "califado-abassida",
-      "india"
+      "india",
+      "sri-lanka",
+      "mianmar",
+      "mongolia",
+      "turquia-de-ataturk"
     ]
   }
 }

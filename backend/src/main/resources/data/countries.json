@@ -2290,5 +2290,53 @@
     "period": "",
     "vector": null,
     "religions": ["other"]
+  },
+  {
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "category": "República budista-nacional",
+    "description": "República presidencialista insular do sul da Ásia, o Sri Lanka dá primazia constitucional ao budismo, venceu em 2009 a guerra contra os separatistas tâmeis, enfrentou a crise da dívida de 2022 e elegeu uma coalizão de esquerda em 2024.",
+    "flagPath": "/countries/flags/sri-lanka.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["buddhism"]
+  },
+  {
+    "id": "mianmar",
+    "name": "Mianmar",
+    "category": "Junta militar budista",
+    "description": "País do sudeste asiático governado por uma junta militar desde o golpe de 2021, Mianmar vive guerra civil contra milícias étnicas e pró-democracia, com nacionalismo budista oficial e perseguição à minoria muçulmana rohingya.",
+    "flagPath": "/countries/flags/mianmar.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["buddhism"]
+  },
+  {
+    "id": "mongolia",
+    "name": "Mongólia",
+    "category": "Democracia pós-comunista",
+    "description": "República democrática entre Rússia e China, a Mongólia deixou o regime comunista em 1990 e tem eleições competitivas, economia de mercado dependente da mineração, tradição nômade e renascimento do budismo tibetano.",
+    "flagPath": "/countries/flags/mongolia.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": []
+  },
+  {
+    "id": "turquia-de-ataturk",
+    "name": "Turquia de Atatürk",
+    "category": "República kemalista de partido único",
+    "description": "República fundada por Mustafa Kemal Atatürk sobre as ruínas do Império Otomano, a Turquia kemalista aboliu o califado e impôs laicismo, alfabeto latino, direitos às mulheres e estatismo econômico sob o partido único CHP.",
+    "flagPath": "/countries/flags/turquia-de-ataturk.gif",
+    "historical": true,
+    "period": "1923–1938",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg",
+    "flagNote": "A bandeira vermelha com crescente e estrela, herdada do Império Otomano, foi mantida pela república kemalista.",
+    "religions": []
   }
 ]

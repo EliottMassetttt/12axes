@@ -2871,5 +2871,73 @@
       "moral": 39.9,
       "tecnologia": 73.7
     }
+  },
+  {
+    "countryId": "sri-lanka",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 78.7,
+      "poder": 74.6,
+      "imigracao": 60.0,
+      "diplomacia": 43.1,
+      "intervencao": 62.5,
+      "economia": 72.7,
+      "controle": 62.7,
+      "comercio": 57.4,
+      "religiao": 12.7,
+      "moral": 23.0,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "countryId": "mianmar",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 7.9,
+      "poder": 94.5,
+      "imigracao": 92.0,
+      "diplomacia": 85.0,
+      "intervencao": 44.8,
+      "economia": 54.2,
+      "controle": 74.3,
+      "comercio": 82.4,
+      "religiao": 4.5,
+      "moral": 7.7,
+      "tecnologia": 61.8
+    }
+  },
+  {
+    "countryId": "mongolia",
+    "vector": {
+      "estrutura": 28.3,
+      "representacao": 79.9,
+      "poder": 53.2,
+      "imigracao": 62.4,
+      "diplomacia": 31.2,
+      "intervencao": 62.5,
+      "economia": 55.6,
+      "controle": 58.0,
+      "comercio": 41.3,
+      "religiao": 50.8,
+      "moral": 36.0,
+      "tecnologia": 41.7
+    }
+  },
+  {
+    "countryId": "turquia-de-ataturk",
+    "vector": {
+      "estrutura": 3.2,
+      "representacao": 22.1,
+      "poder": 88.6,
+      "imigracao": 86.4,
+      "diplomacia": 54.5,
+      "intervencao": 61.0,
+      "economia": 61.3,
+      "controle": 76.7,
+      "comercio": 87.1,
+      "religiao": 92.0,
+      "moral": 40.5,
+      "tecnologia": 72.5
+    }
   }
 ]

@@ -3908,5 +3908,56 @@
       "moral": 61.0,
       "tecnologia": 58.3
     }
+  },
+  {
+    "ideologyId": "nacionalismo-budista",
+    "vector": {
+      "estrutura": 21.1,
+      "representacao": 54.3,
+      "poder": 77.9,
+      "imigracao": 86.0,
+      "diplomacia": 74.3,
+      "intervencao": 47.1,
+      "economia": 56.6,
+      "controle": 66.0,
+      "comercio": 72.9,
+      "religiao": 6.9,
+      "moral": 20.8,
+      "tecnologia": 31.0
+    }
+  },
+  {
+    "ideologyId": "sionismo",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 79.9,
+      "poder": 49.6,
+      "imigracao": 69.8,
+      "diplomacia": 55.2,
+      "intervencao": 40.0,
+      "economia": 54.4,
+      "controle": 49.7,
+      "comercio": 35.3,
+      "religiao": 55.1,
+      "moral": 48.8,
+      "tecnologia": 72.5
+    }
+  },
+  {
+    "ideologyId": "sionismo-trabalhista",
+    "vector": {
+      "estrutura": 22.4,
+      "representacao": 77.5,
+      "poder": 66.3,
+      "imigracao": 71.2,
+      "diplomacia": 71.9,
+      "intervencao": 40.0,
+      "economia": 79.8,
+      "controle": 77.0,
+      "comercio": 65.7,
+      "religiao": 69.0,
+      "moral": 68.1,
+      "tecnologia": 65.3
+    }
   }
 ]

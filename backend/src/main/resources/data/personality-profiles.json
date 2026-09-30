@@ -6052,23 +6052,6 @@
     }
   },
   {
-    "personalityId": "jesus-cristo",
-    "vector": {
-      "estrutura": 73.8,
-      "representacao": 71.2,
-      "poder": 31.2,
-      "imigracao": 17.5,
-      "diplomacia": 6.2,
-      "intervencao": 77.5,
-      "economia": 75.0,
-      "controle": 61.3,
-      "comercio": 35.0,
-      "religiao": 20.0,
-      "moral": 33.8,
-      "tecnologia": 25.0
-    }
-  },
-  {
     "personalityId": "romeu-zema",
     "vector": {
       "estrutura": 71.2,
@@ -6664,23 +6647,6 @@
     }
   },
   {
-    "personalityId": "maome",
-    "vector": {
-      "estrutura": 23.5,
-      "representacao": 38.8,
-      "poder": 63.6,
-      "imigracao": 50.3,
-      "diplomacia": 68.3,
-      "intervencao": 25.7,
-      "economia": 55.6,
-      "controle": 50.9,
-      "comercio": 31.8,
-      "religiao": 4.5,
-      "moral": 12.5,
-      "tecnologia": 36.9
-    }
-  },
-  {
     "personalityId": "narendra-modi",
     "vector": {
       "estrutura": 22.4,
@@ -6695,6 +6661,23 @@
       "religiao": 14.0,
       "moral": 36.3,
       "tecnologia": 60.6
+    }
+  },
+  {
+    "personalityId": "david-ben-gurion",
+    "vector": {
+      "estrutura": 17.6,
+      "representacao": 68.0,
+      "poder": 71.0,
+      "imigracao": 79.3,
+      "diplomacia": 82.6,
+      "intervencao": 19.8,
+      "economia": 78.6,
+      "controle": 80.5,
+      "comercio": 64.5,
+      "religiao": 52.7,
+      "moral": 42.9,
+      "tecnologia": 79.6
     }
   }
 ]

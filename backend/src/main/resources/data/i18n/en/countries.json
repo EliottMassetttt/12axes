@@ -1012,5 +1012,29 @@
     "name": "India",
     "category": "National-conservative federal republic",
     "description": "The world's largest democracy and most populous country, India is a federal parliamentary republic with a fast-growing market economy, great religious diversity, and the rise of Hindu nationalism under the BJP."
+  },
+  {
+    "id": "sri-lanka",
+    "name": "Sri Lanka",
+    "category": "Buddhist-national republic",
+    "description": "An island presidential republic in South Asia, Sri Lanka gives constitutional primacy to Buddhism, won the war against Tamil separatists in 2009, faced the 2022 debt crisis, and elected a left-wing coalition in 2024."
+  },
+  {
+    "id": "mianmar",
+    "name": "Myanmar",
+    "category": "Buddhist military junta",
+    "description": "A Southeast Asian country ruled by a military junta since the 2021 coup, Myanmar is in civil war against ethnic and pro-democracy militias, with official Buddhist nationalism and persecution of the Muslim Rohingya minority."
+  },
+  {
+    "id": "mongolia",
+    "name": "Mongolia",
+    "category": "Post-communist democracy",
+    "description": "A democratic republic between Russia and China, Mongolia left communist rule in 1990 and has competitive elections, a mining-dependent market economy, a nomadic tradition, and a revival of Tibetan Buddhism."
+  },
+  {
+    "id": "turquia-de-ataturk",
+    "name": "Atatürk's Turkey",
+    "category": "Single-party Kemalist republic",
+    "description": "A republic founded by Mustafa Kemal Atatürk on the ruins of the Ottoman Empire, Kemalist Turkey abolished the caliphate and imposed laicism, the Latin alphabet, women's rights, and economic statism under the single-party CHP."
   }
 ]
