@@ -5094,5 +5094,31 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cristofano_dell'altissimo,_saladino,_ante_1568_crop.JPG",
     "imageNote": "Pintura de Cristofano dell'Altissimo (antes de 1568), posterior à vida de Saladino; não é um retrato contemporâneo.",
     "religions": ["islam"]
+  },
+  {
+    "id": "maome",
+    "name": "Maomé",
+    "role": "Profeta do islã",
+    "category": "religioso",
+    "lifespan": "c. 570–632",
+    "description": "Profeta do islã, Maomé pregou em Meca o monoteísmo revelado no Corão e, após a Hégira de 622, fundou em Medina uma comunidade que unia fé, lei e governo, unificando a Arábia sob o islã antes de morrer em 632.",
+    "imagePath": "/personalities/portraits/maome.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Al-Masjid_AL-Nabawi_Door.jpg",
+    "imageNote": "Porta da Mesquita do Profeta, em Medina, com o nome de Maomé em caligrafia árabe; a tradição islâmica evita representar o Profeta em imagem.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "narendra-modi",
+    "name": "Narendra Modi",
+    "role": "Primeiro-ministro da Índia",
+    "category": "politico",
+    "lifespan": "1950–",
+    "description": "Primeiro-ministro da Índia desde 2014, Modi lidera o nacionalismo hindu do BJP, revogou a autonomia da Caxemira, aprovou a Lei de Cidadania que exclui muçulmanos, promove infraestrutura e indústria nacional e governa em coalizão desde 2024.",
+    "imagePath": "/personalities/portraits/narendra-modi.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Narendra_Modi",
+    "imageNote": "Retrato de Narendra Modi via Wikipédia/Wikimedia Commons.",
+    "religions": ["other"]
   }
 ]

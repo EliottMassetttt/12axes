@@ -1000,5 +1000,17 @@
     "name": "Albania",
     "category": "Secular parliamentary republic",
     "description": "A Muslim-majority parliamentary republic in the Balkans, Albania is a secular state with strong interfaith coexistence, a market economy after the end of Enver Hoxha's communist regime, NATO membership, and candidacy for the European Union."
+  },
+  {
+    "id": "califado-abassida",
+    "name": "Abbasid Caliphate",
+    "category": "Islamic caliphate",
+    "description": "A Sunni caliphate with its capital in Baghdad, the Abbasids ruled from the Maghreb to Central Asia under a caliph with religious and political authority, with a Persian-style bureaucracy, long-distance trade, and the House of Wisdom in the Islamic Golden Age."
+  },
+  {
+    "id": "india",
+    "name": "India",
+    "category": "National-conservative federal republic",
+    "description": "The world's largest democracy and most populous country, India is a federal parliamentary republic with a fast-growing market economy, great religious diversity, and the rise of Hindu nationalism under the BJP."
   }
 ]

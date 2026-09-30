@@ -2837,5 +2837,39 @@
       "moral": 17.0,
       "tecnologia": 61.8
     }
+  },
+  {
+    "countryId": "califado-abassida",
+    "vector": {
+      "estrutura": 25.9,
+      "representacao": 17.4,
+      "poder": 81.4,
+      "imigracao": 49.1,
+      "diplomacia": 64.8,
+      "intervencao": 22.1,
+      "economia": 46.0,
+      "controle": 49.7,
+      "comercio": 18.7,
+      "religiao": 3.3,
+      "moral": 12.5,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "countryId": "india",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 70.4,
+      "poder": 72.2,
+      "imigracao": 68.2,
+      "diplomacia": 73.6,
+      "intervencao": 51.4,
+      "economia": 49.4,
+      "controle": 56.4,
+      "comercio": 71.7,
+      "religiao": 20.0,
+      "moral": 39.9,
+      "tecnologia": 73.7
+    }
   }
 ]

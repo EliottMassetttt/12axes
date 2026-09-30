@@ -2450,5 +2450,19 @@
     "role": "Sultan of Egypt and Syria",
     "lifespan": "1137–1193",
     "description": "Founder of the Ayyubid dynasty, Saladin united Egypt and Syria, defeated the Crusaders at Hattin and retook Jerusalem in 1187, becoming a symbol of jihad against the Crusades and of chivalry recognized even by his enemies."
+  },
+  {
+    "id": "maome",
+    "name": "Muhammad",
+    "role": "Prophet of Islam",
+    "lifespan": "c. 570–632",
+    "description": "Prophet of Islam, Muhammad preached in Mecca the monotheism revealed in the Quran and, after the Hijra of 622, founded in Medina a community uniting faith, law, and government, unifying Arabia under Islam before his death in 632."
+  },
+  {
+    "id": "narendra-modi",
+    "name": "Narendra Modi",
+    "role": "Prime Minister of India",
+    "lifespan": "1950–",
+    "description": "Prime Minister of India since 2014, Modi leads the BJP's Hindu nationalism, revoked Kashmir's autonomy, passed a Citizenship Act that excludes Muslims, promotes infrastructure and domestic industry, and has governed in coalition since 2024."
   }
 ]

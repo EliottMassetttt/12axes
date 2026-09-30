@@ -2264,5 +2264,31 @@
     "period": "",
     "vector": null,
     "religions": []
+  },
+  {
+    "id": "califado-abassida",
+    "name": "Califado Abássida",
+    "category": "Califado islâmico",
+    "description": "Califado sunita com capital em Bagdá, os abássidas governaram do Magreb à Ásia Central sob um califa com autoridade religiosa e política, com burocracia persa, comércio de longa distância e a Casa da Sabedoria na Idade de Ouro islâmica.",
+    "flagPath": "/countries/flags/califado-abassida.gif",
+    "historical": true,
+    "period": "750–1258",
+    "vector": null,
+    "flagKind": "historical-banner",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Abbasid_Dynasty.svg",
+    "flagNote": "Estandarte negro da dinastia abássida; não havia bandeira nacional no sentido moderno.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "india",
+    "name": "Índia",
+    "category": "República federal nacional-conservadora",
+    "description": "Maior democracia e país mais populoso do mundo, a Índia é uma república federativa parlamentarista, com economia de mercado em rápido crescimento, grande diversidade religiosa e ascensão do nacionalismo hindu sob o BJP.",
+    "flagPath": "/countries/flags/india.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["other"]
   }
 ]
