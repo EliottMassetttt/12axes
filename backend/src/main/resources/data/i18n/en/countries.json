@@ -976,5 +976,29 @@
     "name": "Egypt",
     "category": "Military-statist regime",
     "description": "An Arab presidential republic, Egypt is governed by an authoritarian regime with heavy military weight, which prioritizes security and stability, controls the opposition, and directs much of the economy through the state."
+  },
+  {
+    "id": "afeganistao",
+    "name": "Afghanistan",
+    "category": "Theocratic emirate",
+    "description": "An Islamic emirate ruled by the Taliban since 2021, Afghanistan is governed by a clerical supreme leader who imposes a strict interpretation of sharia, bars women from education and work, and faces economic crisis and isolation."
+  },
+  {
+    "id": "marrocos",
+    "name": "Morocco",
+    "category": "Parliamentary Islamic monarchy",
+    "description": "A constitutional monarchy in North Africa, Morocco has an elected parliament, but the king, Commander of the Faithful, holds real power, with official Islam, a market economy open to trade, and a claim over Western Sahara."
+  },
+  {
+    "id": "bahrein",
+    "name": "Bahrain",
+    "category": "Sunni Gulf monarchy",
+    "description": "A Persian Gulf monarchy ruled by the Sunni Al Khalifa dynasty over a Shia majority, Bahrain combines a liberalized financial hub, a parliament with limited powers, repression of the opposition since 2011, and alignment with Saudi Arabia and the US."
+  },
+  {
+    "id": "albania",
+    "name": "Albania",
+    "category": "Secular parliamentary republic",
+    "description": "A Muslim-majority parliamentary republic in the Balkans, Albania is a secular state with strong interfaith coexistence, a market economy after the end of Enver Hoxha's communist regime, NATO membership, and candidacy for the European Union."
   }
 ]

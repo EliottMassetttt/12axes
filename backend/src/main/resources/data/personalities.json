@@ -595,7 +595,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Ludwig_Erhard",
     "imageNote": "Retrato de Ludwig Erhard via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "gk-chesterton",
@@ -621,7 +621,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Henri_de_Saint-Simon",
     "imageNote": "Retrato de Henri de Saint-Simon via Wikipédia/Wikimedia Commons.",
-    "religions": []
+    "religions": ["christianity"]
   },
   {
     "id": "michael-sandel",
@@ -777,7 +777,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Henry_George",
     "imageNote": "Retrato de Henry George via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "charles-fourier",
@@ -881,7 +881,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Getúlio_Vargas",
     "imageNote": "Retrato de Getúlio Vargas via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "ernest-renan",
@@ -1570,7 +1570,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Auguste_Comte",
     "imageNote": "Retrato de Auguste Comte via Wikipédia/Wikimedia Commons.",
-    "religions": []
+    "religions": ["other"]
   },
   {
     "id": "masaryk",
@@ -1583,7 +1583,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Tomáš_Garrigue_Masaryk",
     "imageNote": "Retrato de Tomáš Garrigue Masaryk via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "leonardo-boff",
@@ -1687,7 +1687,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Donald_Trump",
     "imageNote": "Retrato de Donald Trump via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "che-guevara",
@@ -1778,7 +1778,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Luiz_Inácio_Lula_da_Silva",
     "imageNote": "Retrato de Lula da Silva via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "nayib-bukele",
@@ -1895,7 +1895,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Nelson_Mandela",
     "imageNote": "Retrato de Nelson Mandela via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "malcolm-x",
@@ -1947,7 +1947,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Sun_Yat-sen",
     "imageNote": "Retrato de Sun Yat-sen via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "theodor-herzl",
@@ -2025,7 +2025,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Isaiah_Berlin",
     "imageNote": "Retrato de Isaiah Berlin via Wikipédia/Wikimedia Commons.",
-    "religions": ["judaism"]
+    "religions": []
   },
   {
     "id": "karl-liebknecht",
@@ -2129,7 +2129,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Jair_Bolsonaro",
     "imageNote": "Retrato de Jair Bolsonaro via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "michel-temer",
@@ -2233,7 +2233,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Barack_Obama",
     "imageNote": "Retrato de Barack Obama via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "benjamin-netanyahu",
@@ -2324,7 +2324,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/John_F._Kennedy",
     "imageNote": "Retrato de John F. Kennedy via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "ronald-reagan",
@@ -2415,7 +2415,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/George_Washington",
     "imageNote": "Retrato de George Washington via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "benjamin-franklin",
@@ -2441,7 +2441,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
     "imageNote": "Retrato de Abraham Lincoln via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "alex-karp",
@@ -2519,7 +2519,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Napoleon",
     "imageNote": "Retrato de Napoleão Bonaparte via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "julio-cesar",
@@ -2636,7 +2636,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Alexis_de_Tocqueville",
     "imageNote": "Retrato de Alexis de Tocqueville via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "nietzsche",
@@ -2662,7 +2662,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Jean-Jacques_Rousseau",
     "imageNote": "Retrato de Jean-Jacques Rousseau via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "hobbes",
@@ -2753,7 +2753,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
     "imageNote": "Retrato de Franklin D. Roosevelt via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "satoshi-nakamoto",
@@ -3039,7 +3039,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ant%C3%B4nio_Parreiras_-_Zumbi_2.jpg",
     "imageNote": "Pintura de Antônio Parreiras representando Zumbi dos Palmares via Wikimedia Commons (não há retrato contemporâneo conhecido).",
-    "religions": []
+    "religions": ["other"]
   },
   {
     "id": "deodoro-da-fonseca",
@@ -3325,7 +3325,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Fl%C3%A1vio_Bolsonaro",
     "imageNote": "Retrato de Flávio Bolsonaro via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "anders-fogh-rasmussen",
@@ -3377,7 +3377,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Marco_Rubio",
     "imageNote": "Retrato de Marco Rubio via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "nicolas-maduro",
@@ -3390,7 +3390,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Nicol%C3%A1s_Maduro",
     "imageNote": "Retrato de Nicolás Maduro via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "pedro-sanchez",
@@ -3689,7 +3689,7 @@
     "imageSourceName": "Jacques-Louis David / domínio público",
     "imageSourceUrl": "https://miro.medium.com/1*VXWX-RnR677Q6p1PlR4IVg.jpeg",
     "imageNote": "Detalhe de \"A Morte de Sócrates\", pintura de Jacques-Louis David (1787).",
-    "religions": []
+    "religions": ["other"]
   },
   {
     "id": "pericles",
@@ -3702,7 +3702,7 @@
     "imageSourceName": "National Geographic",
     "imageSourceUrl": "https://i.natgeofe.com/n/8a808aef-8e54-498b-8e31-e156bd996644/og-pericles_16x9.jpg?w=1200",
     "imageNote": "Ilustração de Péricles via National Geographic.",
-    "religions": []
+    "religions": ["other"]
   },
   {
     "id": "rui-costa-pimenta",
@@ -3897,7 +3897,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Charlie_Kirk",
     "imageNote": "Retrato de Charlie Kirk via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "nikolas-ferreira",
@@ -3910,7 +3910,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Nikolas_Ferreira",
     "imageNote": "Retrato de Nikolas Ferreira via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "celso-furtado",
@@ -4326,7 +4326,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Nero",
     "imageNote": "Retrato de Nero via Wikipédia/Wikimedia Commons.",
-    "religions": []
+    "religions": ["other"]
   },
   {
     "id": "guilherme-de-orange",
@@ -4638,7 +4638,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Spas_vsederzhitel_sinay.jpg",
     "imageNote": "Ícone do Cristo Pantocrator do Mosteiro de Santa Catarina, Sinai (séc. VI), via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "paulo-freire",
@@ -4807,7 +4807,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Augusto_Cury",
     "imageNote": "Retrato de Augusto Cury via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "jefferson-davis",
@@ -4872,7 +4872,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Sergio_Mattarella",
     "imageNote": "Retrato de Sergio Mattarella via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "marcelo-rebelo-de-sousa",

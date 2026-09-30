@@ -215,7 +215,7 @@
     "description": "Movimento nacionalista autoritário surgido no Brasil dos anos 1930, de base cristã e corporativista, com o lema Deus, Pátria e Família, estética de massas e oposição frontal ao liberalismo e ao comunismo.",
     "phrase": "Quero uma pátria sob Deus, Pátria e Família, comandada por um chefe autoritário e milícias fardadas contra liberais e comunistas.",
     "vector": null,
-    "countryId": "imperio-do-brasil",
+    "countryId": "brasil-era-vargas",
     "personalityId": "plinio-salgado",
     "religions": ["christianity"]
   },
@@ -260,7 +260,7 @@
     "phrase": "Quero preservar a identidade cultural do meu povo contra a imigração descontrolada e o politicamente correto, sem recorrer ao supremacismo racial.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "gk-chesterton",
+    "personalityId": "steve-bannon",
     "religions": ["christianity"]
   },
   {
@@ -283,7 +283,7 @@
     "vector": null,
     "countryId": "eua-washington-dc",
     "personalityId": "irving-kristol",
-    "religions": ["christianity", "judaism"]
+    "religions": []
   },
   {
     "id": "monarquismo-absoluto",
@@ -316,7 +316,7 @@
     "vector": null,
     "countryId": "hungria",
     "personalityId": "viktor-orban",
-    "religions": ["christianity", "judaism", "islam"]
+    "religions": ["christianity", "judaism", "islam", "buddhism"]
   },
   {
     "id": "conservadorismo-paternalista",
@@ -338,7 +338,7 @@
     "vector": null,
     "countryId": "ira",
     "personalityId": "khomeini",
-    "religions": ["christianity", "judaism", "islam", "other"]
+    "religions": ["christianity", "judaism", "islam", "buddhism", "other"]
   },
   {
     "id": "nacionalismo-etnico",
@@ -415,7 +415,7 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "aleksandr-dugin",
-    "religions": ["christianity"]
+    "religions": ["christianity", "islam"]
   },
   {
     "id": "democracia-nacional",
@@ -679,7 +679,7 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "edmund-burke",
-    "religions": ["christianity", "judaism", "islam"]
+    "religions": ["christianity", "judaism", "islam", "buddhism"]
   },
   {
     "id": "progressismo",
@@ -1163,7 +1163,7 @@
     "vector": null,
     "countryId": "liechtenstein",
     "personalityId": "hoppe",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "monarquismo-federalista",
@@ -1370,8 +1370,8 @@
     "description": "Corrente que une soberania nacional, proteção econômica e integração popular a reformas sociais progressistas, buscando um Estado capaz de defender a nação enquanto amplia direitos, igualdade e inclusão.",
     "phrase": "Quero uma nação soberana e protegida economicamente que amplie direitos e igualdade por meio de reformas sociais progressistas.",
     "vector": null,
-    "countryId": "bolivia",
-    "personalityId": "abraham-lincoln",
+    "countryId": "argentina",
+    "personalityId": "bresser-pereira",
     "religions": []
   },
   {
@@ -1381,8 +1381,8 @@
     "description": "Corrente que funde ecologia radical, autoritarismo e nacionalismo orgânico, defendendo controle populacional, preservação ambiental coercitiva e subordinação das liberdades individuais à sobrevivência da comunidade nacional.",
     "phrase": "Quero uma comunidade nacional orgânica que imponha controle populacional e preservação ambiental coercitiva acima das liberdades individuais.",
     "vector": null,
-    "countryId": "italia",
-    "personalityId": "garrett-hardin",
+    "countryId": "imperio-alemao",
+    "personalityId": "martin-heidegger",
     "religions": []
   },
   {
@@ -1405,7 +1405,7 @@
     "vector": null,
     "countryId": "venezuela",
     "personalityId": "hugo-chavez",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "nacional-desenvolvimentismo",
@@ -1685,7 +1685,7 @@
     "name": "Democracia Securitária",
     "category": "Centro",
     "description": "Doutrina da democracia militante, que autoriza o Estado democrático a restringir os inimigos da própria democracia, banindo partidos antissistema, vigiando extremistas e mantendo serviço militar e segurança reforçada para defender a ordem constitucional.",
-    "phrase": "Quero uma democracia militante que vigie extremistas, baina partidos antissistema e mantenha serviço militar para blindar a ordem constitucional.",
+    "phrase": "Quero uma democracia militante que vigie extremistas, bane partidos antissistema e mantenha serviço militar para blindar a ordem constitucional.",
     "vector": null,
     "countryId": "coreia-do-sul",
     "personalityId": "konrad-adenauer",
@@ -2150,7 +2150,7 @@
     "phrase": "Quero uma nação mobilizada por um líder plebiscitário acima dos partidos, modernizando o Estado e dirigindo setores estratégicos com autoridade.",
     "countryId": "imperio-napoleonico",
     "personalityId": "napoleao-bonaparte",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "quilombismo",

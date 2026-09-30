@@ -8,7 +8,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "estados-unidos",
@@ -19,7 +19,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity", "judaism"]
+    "religions": []
   },
   {
     "id": "mexico",
@@ -30,7 +30,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "chile",
@@ -52,7 +52,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity", "other"]
+    "religions": []
   },
   {
     "id": "venezuela",
@@ -63,7 +63,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "cuba",
@@ -151,7 +151,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "hungria",
@@ -410,7 +410,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Venice.svg",
     "flagNote": "",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "imperio-otomano",
@@ -650,7 +650,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg",
     "flagNote": "Bandeira oficial usada como referência visual.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "rojava",
@@ -755,7 +755,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Prussia_(1801-1803).svg",
     "flagNote": "Bandeira histórica do Reino da Prússia usada como referência visual para o período.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "polonia",
@@ -845,7 +845,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg",
     "flagNote": "Bandeira do estado do Texas (Estados Unidos) usada como referência visual da região.",
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "eua-nova-york",
@@ -938,7 +938,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "espanha",
@@ -1015,7 +1015,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "bielorrussia",
@@ -1026,7 +1026,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "catar",
@@ -1048,7 +1048,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity", "islam"]
+    "religions": []
   },
   {
     "id": "siria",
@@ -1129,7 +1129,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "uruguai",
@@ -1155,7 +1155,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870–1999).svg",
     "flagNote": "Bandeira histórica usada como referência visual para o período.",
-    "religions": ["other"]
+    "religions": ["other", "buddhism"]
   },
   {
     "id": "republica-holandesa",
@@ -1200,7 +1200,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Gran_Colombia.svg",
     "flagNote": "Bandeira histórica usada como referência visual para o período.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "vaticano",
@@ -1222,7 +1222,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "estonia",
@@ -1255,7 +1255,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity", "judaism"]
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-do-japao",
@@ -1270,7 +1270,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg",
     "flagNote": "Bandeira histórica usada como referência visual para o período.",
-    "religions": ["other"]
+    "religions": ["other", "buddhism"]
   },
   {
     "id": "imperio-austro-hungaro",
@@ -1705,7 +1705,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Standard_of_Napol%C3%A9on_I.svg",
     "flagNote": "Estandarte Imperial de Napoleão I, com a águia dourada, símbolo do Primeiro Império Francês (1804–1815).",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "armenia",
@@ -1719,7 +1719,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenia.svg",
     "flagNote": "Bandeira tricolor da Armênia, adotada em 1990, com vermelho, azul e laranja.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "georgia",
@@ -1763,7 +1763,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg",
     "flagNote": "Bandeira nacional do Panamá.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "peru",
@@ -1778,7 +1778,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
     "flagNote": "Bandeira nacional do Peru.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "paraguai",
@@ -1898,7 +1898,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
     "flagNote": "Bandeira oficial de Porto Rico usada como referência visual do território.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "eua-wyoming",
@@ -1913,7 +1913,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wyoming.svg",
     "flagNote": "Bandeira do estado de Wyoming (Estados Unidos) usada como referência visual da região.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "peru-fujimorista",
@@ -1942,7 +1942,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
     "flagNote": "Bandeira oficial da Palestina usada como referência visual.",
-    "religions": ["islam"]
+    "religions": []
   },
   {
     "id": "escocia",
@@ -1987,7 +1987,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Rio_de_Janeiro.svg",
     "flagNote": "Bandeira do estado do Rio de Janeiro (Brasil) usada como referência visual da região.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "santa-catarina",
@@ -2047,7 +2047,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minas_Gerais.svg",
     "flagNote": "Bandeira do estado de Minas Gerais (Brasil) usada como referência visual da região.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "reino-de-jerusalem",
@@ -2092,7 +2092,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1933%E2%80%931964).svg",
     "flagNote": "Bandeira estatal com o leão e o sol, na versão usada entre 1933 e 1964.",
-    "religions": ["islam"]
+    "religions": []
   },
   {
     "id": "libia-de-gaddafi",
@@ -2220,5 +2220,49 @@
     "period": "",
     "vector": null,
     "religions": ["islam"]
+  },
+  {
+    "id": "afeganistao",
+    "name": "Afeganistão",
+    "category": "Emirado teocrático",
+    "description": "Emirado islâmico governado pelo Talibã desde 2021, o Afeganistão é regido por um líder supremo clerical que impõe interpretação estrita da sharia, exclui as mulheres do ensino e do trabalho e enfrenta crise econômica e isolamento.",
+    "flagPath": "/countries/flags/afeganistao.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
+  },
+  {
+    "id": "marrocos",
+    "name": "Marrocos",
+    "category": "Monarquia islâmica parlamentar",
+    "description": "Monarquia constitucional do norte da África, o Marrocos tem parlamento eleito, mas o rei, Comandante dos Crentes, concentra o poder real, com islã oficial, economia de mercado aberta ao comércio e reivindicação sobre o Saara Ocidental.",
+    "flagPath": "/countries/flags/marrocos.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
+  },
+  {
+    "id": "bahrein",
+    "name": "Bahrein",
+    "category": "Monarquia sunita do Golfo",
+    "description": "Monarquia do Golfo Pérsico governada pela dinastia sunita Al Khalifa sobre maioria xiita, o Bahrein combina centro financeiro liberalizado, parlamento de poderes limitados, repressão à oposição desde 2011 e alinhamento com Arábia Saudita e EUA.",
+    "flagPath": "/countries/flags/bahrein.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": ["islam"]
+  },
+  {
+    "id": "albania",
+    "name": "Albânia",
+    "category": "República parlamentar laica",
+    "description": "República parlamentar dos Bálcãs de maioria muçulmana, a Albânia é um Estado laico com forte convivência inter-religiosa, economia de mercado após o fim do regime comunista de Enver Hoxha, membro da OTAN e candidata à União Europeia.",
+    "flagPath": "/countries/flags/albania.gif",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": []
   }
 ]

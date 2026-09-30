@@ -217,12 +217,37 @@ valor fora dos 8.
 `christianity`, `judaism`, `islam`, `buddhism` e `other` (hinduísmo, xintoísmo, religiões
 antigas/pagãs etc.). Pode haver mais de um.
 
-**Regra de inclusão (identidade + causa ativa):** entra a religião com que o perfil se identifica
-**ou** cuja causa religiosa/cultural ele defende ativamente como parte da sua identidade política.
-Não precisa ser a religião oficial do regime, e a oficial nominal não basta se o perfil não a
-representa. Aliança só diplomática/militar **não** conta. Ex.: Trump =
-`["christianity", "judaism"]` (sionismo cristão é parte da identidade política dele); Arábia
-Saudita = `["islam"]`, apesar da aliança com os EUA.
+**Primeiro filtro: o vetor.** Só se marca religião quando ela muda a decisão de quem filtra:
+- `religiao` ≤ 35 (lado religioso): marcação **obrigatória**, pelo critério de cada catálogo abaixo.
+- `religiao` > 35: `[]` por padrão, porque o perfil é laico o bastante para que um fiel de outra
+  tradição possa se identificar com ele (um cristão pode gostar do sistema político de Singapura).
+  A exceção é quando a religião é a própria identidade do perfil: doutrina religiosa por definição
+  (Anarquismo Cristão, Liberalismo Islâmico) ou liderança/fundação religiosa ou nacional-religiosa
+  (Dalai Lama, Ambedkar, Tolstói, Herzl, Jinnah). Em **personalidades**, também entra quem tem
+  posição política ou religiosa forte ligada à fé (Milei, Chávez, Biden, Blair, Thiel, Mamdani).
+  Só `["other"]` pode ficar em qualquer caso,
+  porque não afeta o filtro.
+
+**Regra de inclusão (por catálogo).** O teste é um só: **a religião é parte relevante daquilo que
+o perfil representa?** O filtro *esconde* os perfis marcados só com outra religião, então cada
+marcação tira o perfil de quem escolheu outra tradição. Marque só quando isso fizer sentido.
+
+| Catálogo | Entra | Não entra |
+|---|---|---|
+| país | **só a religião majoritária** (ou a tradição dominante), mesmo em Estado laico (Arábia Saudita = `["islam"]`; Polônia = `["christianity"]`; Suécia e Albânia, laicas no vetor, = `[]`) | religiões minoritárias, por maiores que sejam; regimes cuja marca é a perseguição à religião (Coreia do Norte, Khmer Vermelho, URSS = `[]`) |
+| ideologia | doutrina com base religiosa explícita (Democracia Cristã, Islamismo, Distributismo, Baathismo) ou que defende uma religião como parte da identidade política (nacional-conservadorismos) | doutrinas seculares, mesmo com adeptos majoritariamente de uma religião |
+| personalidade | fé pública que aparece na atuação, liderança religiosa, ou apoio declarado a uma causa religiosa (Khomeini, Churchill, Martin Luther King Jr.) | origem étnica ou cultural sem papel na vida pública (Einstein, Friedman, Kafka = `[]`); fé privada de figuras seculares; apoio político a Israel, que não é causa judaica (sionismo cristão = `christianity`; judeu secular sionista como Einstein ou Isaiah Berlin = `[]`) |
+
+Aliança só diplomática/militar **não** conta. Ex.: Trump = `["christianity"]` (o sionismo
+cristão é causa cristã); Arábia Saudita = `["islam"]`, apesar da aliança com os EUA.
+
+**Como o filtro trata `other`:** um perfil aparece se contém a religião escolhida **ou** se não
+tem nenhuma das quatro selecionáveis (`[]` ou só `["other"]`). Junto de outra religião,
+`other` é só informativo: `["buddhism", "other"]` some para quem escolheu cristianismo.
+
+**Texto secular com vetor religioso:** se a descrição diz que o perfil é secular mas o vetor tem
+`religiao` ≤ 35, a marcação não pode sair. Registre o perfil para reauditar o vetor em vez de
+apagar a religião.
 
 **Obrigatório ter ao menos um valor** quando o vetor final tiver `religiao` ≤ 35 (polo
 irreligioso; baixo = religioso). O valor vem de pesquisa, **nunca** do vetor: o vetor só torna o
