@@ -6815,5 +6815,22 @@
       "moral": 71.7,
       "tecnologia": 33.3
     }
+  },
+  {
+    "personalityId": "victor-gao",
+    "vector": {
+      "estrutura": 19.9,
+      "representacao": 28.1,
+      "poder": 82.6,
+      "imigracao": 68.6,
+      "diplomacia": 64.5,
+      "intervencao": 43.4,
+      "economia": 64.9,
+      "controle": 77.9,
+      "comercio": 32.4,
+      "religiao": 78.9,
+      "moral": 41.7,
+      "tecnologia": 76.0
+    }
   }
 ]

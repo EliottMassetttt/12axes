@@ -5213,5 +5213,18 @@
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Albert_Camus",
     "imageNote": "Retrato de Albert Camus via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "victor-gao",
+    "name": "Victor Gao",
+    "role": "Comentarista e acadêmico",
+    "category": "intelectual",
+    "lifespan": "1962–",
+    "description": "Ex-intérprete de Deng Xiaoping e vice-presidente do think tank CCG, Victor Gao defende o partido único, a unificação de Taiwan por qualquer meio, a Lei de Segurança de Hong Kong e a tese de que a OTAN causou a guerra na Ucrânia.",
+    "imagePath": "/personalities/portraits/victor-gao.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Victor_Gao_at_the_Nexus_Conference_2024.png",
+    "imageNote": "Retrato de Victor Gao via Wikipédia/Wikimedia Commons, convertido para JPG e comprimido.",
+    "religions": []
   }
 ]

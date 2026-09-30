@@ -2513,5 +2513,12 @@
     "role": "Writer and philosopher",
     "lifespan": "1913–1960",
     "description": "French-Algerian writer and 1957 Nobel laureate, Camus fought in the Resistance, broke with Sartre by condemning the Soviet camps in The Rebel and defended a plural Algeria against terrorism on both sides."
+  },
+  {
+    "id": "victor-gao",
+    "name": "Victor Gao",
+    "role": "Commentator and academic",
+    "lifespan": "1962–",
+    "description": "Former Deng Xiaoping interpreter and vice president of the CCG think tank, Victor Gao defends one-party rule, unifying Taiwan by any means, Hong Kong's security law and the claim that NATO caused the war in Ukraine."
   }
 ]
