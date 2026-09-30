@@ -2478,5 +2478,19 @@
     "role": "Daimyo and unifier of Japan",
     "lifespan": "1534–1582",
     "description": "A Sengoku-period daimyo, Nobunaga began the unification of Japan with massed arquebuses, deposed the Ashikaga shogunate, massacred the warrior monks of Enryaku-ji and the Ikko-ikki, abolished guilds and tolls, and tolerated Jesuit missionaries."
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": "Qin Shi Huang",
+    "role": "First Emperor of China",
+    "lifespan": "259–210 BC",
+    "description": "King of Qin who unified China in 221 BC and proclaimed himself first emperor, he ruled through Legalism with harsh laws, replaced feudalism with centralized commanderies, standardized script and coinage, burned books and began the Great Wall."
+  },
+  {
+    "id": "carlos-v",
+    "name": "Charles V",
+    "role": "Holy Roman Emperor and King of Spain",
+    "lifespan": "1500–1558",
+    "description": "Heir of the Habsburgs, Charles V united Spain, the Low Countries, the Holy Roman Empire and the American conquests, fought the Lutheran Reformation and the Ottomans as champion of universal Catholicism, crushed the Comuneros and abdicated in 1556."
   }
 ]

@@ -6730,5 +6730,39 @@
       "moral": 26.8,
       "tecnologia": 83.2
     }
+  },
+  {
+    "personalityId": "carlos-v",
+    "vector": {
+      "estrutura": 56.8,
+      "representacao": 16.2,
+      "poder": 85.0,
+      "imigracao": 67.0,
+      "diplomacia": 89.8,
+      "intervencao": 4.3,
+      "economia": 53.0,
+      "controle": 75.5,
+      "comercio": 71.7,
+      "religiao": 1.0,
+      "moral": 7.7,
+      "tecnologia": 54.8
+    }
+  },
+  {
+    "personalityId": "qin-shi-huang",
+    "vector": {
+      "estrutura": 2.0,
+      "representacao": 3.1,
+      "poder": 96.9,
+      "imigracao": 74.5,
+      "diplomacia": 95.7,
+      "intervencao": 11.4,
+      "economia": 68.5,
+      "controle": 87.4,
+      "comercio": 90.7,
+      "religiao": 40.8,
+      "moral": 32.1,
+      "tecnologia": 77.2
+    }
   }
 ]

@@ -2956,5 +2956,158 @@
       "moral": 45.6,
       "tecnologia": 67.7
     }
+  },
+  {
+    "countryId": "japao-tokugawa",
+    "vector": {
+      "estrutura": 49.7,
+      "representacao": 6.7,
+      "poder": 95.7,
+      "imigracao": 95.6,
+      "diplomacia": 61.7,
+      "intervencao": 71.7,
+      "economia": 56.6,
+      "controle": 82.6,
+      "comercio": 99.0,
+      "religiao": 24.8,
+      "moral": 26.8,
+      "tecnologia": 19.3
+    }
+  },
+  {
+    "countryId": "senegal",
+    "vector": {
+      "estrutura": 20.0,
+      "representacao": 76.3,
+      "poder": 72.2,
+      "imigracao": 44.4,
+      "diplomacia": 36.0,
+      "intervencao": 58.9,
+      "economia": 69.7,
+      "controle": 77.9,
+      "comercio": 65.7,
+      "religiao": 20.0,
+      "moral": 11.3,
+      "tecnologia": 36.9
+    }
+  },
+  {
+    "countryId": "nigeria",
+    "vector": {
+      "estrutura": 37.9,
+      "representacao": 62.0,
+      "poder": 83.0,
+      "imigracao": 51.5,
+      "diplomacia": 52.9,
+      "intervencao": 37.6,
+      "economia": 43.5,
+      "controle": 61.2,
+      "comercio": 65.7,
+      "religiao": 15.2,
+      "moral": 10.1,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "countryId": "argelia",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 28.1,
+      "poder": 93.3,
+      "imigracao": 81.3,
+      "diplomacia": 60.5,
+      "intervencao": 59.8,
+      "economia": 76.8,
+      "controle": 80.2,
+      "comercio": 83.6,
+      "religiao": 16.4,
+      "moral": 13.7,
+      "tecnologia": 55.8
+    }
+  },
+  {
+    "countryId": "grecia",
+    "vector": {
+      "estrutura": 17.6,
+      "representacao": 77.5,
+      "poder": 63.9,
+      "imigracao": 75.5,
+      "diplomacia": 52.9,
+      "intervencao": 41.2,
+      "economia": 46.0,
+      "controle": 34.2,
+      "comercio": 31.8,
+      "religiao": 22.2,
+      "moral": 49.1,
+      "tecnologia": 42.9
+    }
+  },
+  {
+    "countryId": "servia",
+    "vector": {
+      "estrutura": 21.2,
+      "representacao": 58.5,
+      "poder": 69.9,
+      "imigracao": 73.0,
+      "diplomacia": 59.3,
+      "intervencao": 55.0,
+      "economia": 55.4,
+      "controle": 68.3,
+      "comercio": 33.6,
+      "religiao": 21.2,
+      "moral": 24.4,
+      "tecnologia": 54.6
+    }
+  },
+  {
+    "countryId": "equador",
+    "vector": {
+      "estrutura": 23.6,
+      "representacao": 71.6,
+      "poder": 67.5,
+      "imigracao": 32.6,
+      "diplomacia": 38.3,
+      "intervencao": 60.1,
+      "economia": 53.2,
+      "controle": 41.4,
+      "comercio": 28.2,
+      "religiao": 53.2,
+      "moral": 42.0,
+      "tecnologia": 32.1
+    }
+  },
+  {
+    "countryId": "china-qing",
+    "vector": {
+      "estrutura": 42.5,
+      "representacao": 3.1,
+      "poder": 81.4,
+      "imigracao": 51.5,
+      "diplomacia": 77.9,
+      "intervencao": 23.3,
+      "economia": 60.1,
+      "controle": 75.5,
+      "comercio": 95.5,
+      "religiao": 35.5,
+      "moral": 10.1,
+      "tecnologia": 21.4
+    }
+  },
+  {
+    "countryId": "tibete",
+    "vector": {
+      "estrutura": 47.0,
+      "representacao": 12.6,
+      "poder": 74.5,
+      "imigracao": 94.4,
+      "diplomacia": 31.3,
+      "intervencao": 73.3,
+      "economia": 23.4,
+      "controle": 34.2,
+      "comercio": 84.1,
+      "religiao": 2.1,
+      "moral": 20.8,
+      "tecnologia": 8.6
+    }
   }
 ]

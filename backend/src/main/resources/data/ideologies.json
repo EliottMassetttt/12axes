@@ -2569,5 +2569,16 @@
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "carlos-magno",
     "religions": ["christianity"]
+  },
+  {
+    "id": "tradicionalismo-carlista",
+    "name": "Tradicionalismo Carlista",
+    "category": "Extrema Direita",
+    "description": "Vertente espanhola do tradicionalismo contrarrevolucionário, nascida nas Guerras Carlistas do século XIX sob o lema Deus, Pátria, Foros e Rei, que defende monarquia católica legitimista, unidade religiosa, foros regionais e sociedade orgânica contra o liberalismo.",
+    "phrase": "Quero a Espanha católica sob o rei legítimo, com foros regionais, cortes por estamentos e grêmios, contra o liberalismo e o centralismo.",
+    "vector": null,
+    "countryId": "espanha-habsburgos",
+    "personalityId": "carlos-v",
+    "religions": ["christianity"]
   }
 ]

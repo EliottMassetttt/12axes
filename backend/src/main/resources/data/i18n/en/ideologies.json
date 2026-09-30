@@ -1642,5 +1642,12 @@
     "category": "Far-Right",
     "description": "A medieval order based on personal bonds of vassalage between lord and vassals, with land granted as fiefs, a hereditary warrior nobility, serfs bound to the land, the Church as moral authority, and power fragmented among local lords.",
     "phrase": "I want lords and vassals bound by fealty, the Church at the center, and each in their estate: those who pray, fight, or till."
+  },
+  {
+    "id": "tradicionalismo-carlista",
+    "name": "Carlist Traditionalism",
+    "category": "Far-Right",
+    "description": "A Spanish current of counter-revolutionary traditionalism, born in the 19th-century Carlist Wars under the motto God, Fatherland, Fueros and King, advocating a legitimist Catholic monarchy, religious unity, regional fueros and an organic society against liberalism.",
+    "phrase": "I want Catholic Spain under the rightful king, with regional fueros, estate-based cortes and guilds, against liberalism and centralism."
   }
 ]

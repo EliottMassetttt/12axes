@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-30T19:29:43Z",
+  "lastUpdated": "2026-09-30T20:14:14Z",
   "personality": {
-    "totalProfiles": 396,
+    "totalProfiles": 398,
     "pending": [],
     "done": [
       "lenin",
@@ -400,11 +400,13 @@
       "sergei-melikov",
       "imperador-jimmu",
       "oda-nobunaga",
-      "imperador-meiji"
+      "imperador-meiji",
+      "carlos-v",
+      "qin-shi-huang"
     ]
   },
   "ideology": {
-    "totalProfiles": 234,
+    "totalProfiles": 235,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -641,11 +643,12 @@
       "nacionalismo-budista",
       "sionismo",
       "sionismo-trabalhista",
-      "feudalismo"
+      "feudalismo",
+      "tradicionalismo-carlista"
     ]
   },
   "country": {
-    "totalProfiles": 175,
+    "totalProfiles": 184,
     "pending": [],
     "done": [
       "brasil",
@@ -822,7 +825,16 @@
       "mongolia",
       "turquia-de-ataturk",
       "daguestao",
-      "madrid"
+      "madrid",
+      "japao-tokugawa",
+      "senegal",
+      "nigeria",
+      "argelia",
+      "grecia",
+      "servia",
+      "equador",
+      "china-qing",
+      "tibete"
     ]
   }
 }

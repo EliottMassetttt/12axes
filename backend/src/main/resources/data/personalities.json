@@ -5146,5 +5146,31 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Oda_Nobunaga",
     "imageNote": "Retrato de Oda Nobunaga via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "qin-shi-huang",
+    "name": "Qin Shi Huang",
+    "role": "Primeiro imperador da China",
+    "category": "politico",
+    "lifespan": "259–210 a.C.",
+    "description": "Rei de Qin que unificou a China em 221 a.C. e se proclamou primeiro imperador, governou pelo legalismo com leis severas, aboliu o feudalismo por comandarias centralizadas, padronizou escrita e moedas, queimou livros e iniciou a Grande Muralha.",
+    "imagePath": "/personalities/portraits/qin-shi-huang.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Qin_Shi_Huang",
+    "imageNote": "Retrato de Qin Shi Huang via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "carlos-v",
+    "name": "Carlos V",
+    "role": "Imperador do Sacro Império e rei da Espanha",
+    "category": "politico",
+    "lifespan": "1500–1558",
+    "description": "Herdeiro dos Habsburgos, Carlos V reuniu Espanha, Países Baixos, Sacro Império e as conquistas americanas, combateu a Reforma luterana e os otomanos como defensor do catolicismo universal, esmagou os comuneros e abdicou em 1556.",
+    "imagePath": "/personalities/portraits/carlos-v.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_V_do_Sacro_Imp%C3%A9rio_Romano-Germ%C3%A2nico",
+    "imageNote": "Retrato de Carlos V via Wikipédia/Wikimedia Commons.",
+    "religions": ["christianity"]
   }
 ]

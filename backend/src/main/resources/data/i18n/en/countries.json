@@ -1042,5 +1042,59 @@
     "name": "Madrid (Spain)",
     "category": "Liberal-conservative region",
     "description": "The autonomous community around the Spanish capital, Madrid has been governed by the People's Party since 1995 and, under Isabel Díaz Ayuso, became a showcase of low taxes, economic freedom, school choice and attraction of capital and Latin American immigrants."
+  },
+  {
+    "id": "japao-tokugawa",
+    "name": "Tokugawa Japan",
+    "category": "Isolationist feudal shogunate",
+    "description": "The Tokugawa shogunate pacified Japan after the Sengoku era with a feudal system of domains (bakuhan), a rigid four-class social hierarchy, official Neo-Confucianism, a ban on Christianity and external isolation (sakoku)."
+  },
+  {
+    "id": "senegal",
+    "name": "Senegal",
+    "category": "Sovereigntist presidential republic",
+    "description": "A Sufi Muslim-majority West African republic, Senegal is a stable secular democracy that since 2024, under Bassirou Diomaye Faye and Ousmane Sonko, has pursued left-wing sovereigntism: it removed French troops and criticizes the CFA franc."
+  },
+  {
+    "id": "nigeria",
+    "name": "Nigeria",
+    "category": "Federal presidential republic",
+    "description": "Africa's most populous country, Nigeria is a federation split between a Muslim north, with sharia in twelve states, and a Christian south, dependent on oil and scarred by Boko Haram, and under Bola Tinubu it cut fuel subsidies."
+  },
+  {
+    "id": "argelia",
+    "name": "Algeria",
+    "category": "Military-backed presidential republic",
+    "description": "Born from the war of independence against France, Algeria is an army-dominated republic with Islam as the state religion, a state-run economy dependent on oil and gas, a non-aligned foreign policy and repression of the Hirak movement."
+  },
+  {
+    "id": "china-qing",
+    "name": "Qing Dynasty China",
+    "category": "Confucian dynastic empire",
+    "description": "China's last imperial dynasty, founded by the Manchus, the Qing ruled through a Confucian examination bureaucracy, extended the empire to Tibet and Xinjiang, restricted foreign trade to Canton and declined with the Opium Wars and the Taiping Rebellion."
+  },
+  {
+    "id": "grecia",
+    "name": "Greece",
+    "category": "Parliamentary republic",
+    "description": "A southeastern European parliamentary democracy with the Orthodox Church recognized in its constitution, Greece overcame the debt crisis under EU-imposed austerity, is governed by Kyriakos Mitsotakis's New Democracy and legalized same-sex marriage in 2024."
+  },
+  {
+    "id": "servia",
+    "name": "Serbia",
+    "category": "National-conservative parliamentary republic",
+    "description": "An Orthodox-majority Balkan country, Serbia has been dominated since 2012 by Aleksandar Vučić's party, is an EU candidate yet close to Russia and China, militarily neutral, does not recognize Kosovo and faced massive student protests in 2025."
+  },
+  {
+    "id": "equador",
+    "name": "Ecuador",
+    "category": "Presidential republic",
+    "description": "An Andean republic dollarized since 2000, Ecuador is governed by Daniel Noboa, who declared an internal armed conflict against organized crime and deployed soldiers in the streets and prisons, but saw foreign military bases rejected in a 2025 referendum."
+  },
+  {
+    "id": "tibete",
+    "name": "Theocratic Tibet",
+    "category": "Buddhist theocracy",
+    "description": "A de facto independent state between the fall of the Qing and the Chinese invasion, Tibet was a Buddhist theocracy ruled by the Dalai Lama, with monasteries and aristocracy owning the land, peasants bound to it and deliberate isolation from the modern world."
   }
 ]

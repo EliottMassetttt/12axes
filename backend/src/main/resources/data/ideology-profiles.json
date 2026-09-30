@@ -3976,5 +3976,22 @@
       "moral": 4.1,
       "tecnologia": 18.2
     }
+  },
+  {
+    "ideologyId": "tradicionalismo-carlista",
+    "vector": {
+      "estrutura": 72.0,
+      "representacao": 31.7,
+      "poder": 61.4,
+      "imigracao": 78.9,
+      "diplomacia": 69.5,
+      "intervencao": 31.7,
+      "economia": 55.5,
+      "controle": 68.3,
+      "comercio": 80.4,
+      "religiao": 1.0,
+      "moral": 7.7,
+      "tecnologia": 16.9
+    }
   }
 ]
