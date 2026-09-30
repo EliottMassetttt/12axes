@@ -1572,5 +1572,47 @@
     "category": "Third Position",
     "description": "An Arab current of state socialism combining pan-Arab nationalism, a vanguard party, planning, land reform and control of strategic sectors, advocating Arab unity, secularism and independence from imperialism.",
     "phrase": "I want the Arab nation united by a revolutionary party, with state socialism, land reform, secularism and independence from imperialism."
+  },
+  {
+    "id": "islamismo",
+    "name": "Islamism",
+    "category": "Right",
+    "description": "Political movement advocating a state governed by sharia and Islamic identity, born with Hassan al-Banna's and Sayyid Qutb's Muslim Brotherhood, combining mass activism, religious social welfare and rejection of Western secularism.",
+    "phrase": "I want an Islamic society guided by sharia, with believers organized from the mosques and a zakat economy free of usury."
+  },
+  {
+    "id": "democracia-islamica",
+    "name": "Islamic Democracy",
+    "category": "Right",
+    "description": "Current reconciling Islam with electoral democracy through conservative religious parties that run in elections and support a market economy and Muslim values in public life, like Turkey's early AKP and Tunisia's Ennahda.",
+    "phrase": "I want a Muslim party that wins elections, protects family and faith in public life and makes the market economy grow."
+  },
+  {
+    "id": "socialismo-islamico",
+    "name": "Islamic Socialism",
+    "category": "Third Position",
+    "description": "Current grounding socialism in Islamic principles such as zakat, the ban on usury and Quranic social justice, combining anti-imperialism with a state-run economy, from Gaddafi's Third Universal Theory to Ali Shariati's thought.",
+    "phrase": "I want Quranic justice: the land belongs to God, zakat shares the wealth and the state runs the economy against usury and imperialism."
+  },
+  {
+    "id": "pan-islamismo",
+    "name": "Pan-Islamism",
+    "category": "Far-Right",
+    "description": "Ideology advocating the political unity of Muslims above national borders, around the ummah and the ideal of a caliphate, formulated by Jamal al-Din al-Afghani and adopted by Ottoman sultan Abdul Hamid II against European colonialism.",
+    "phrase": "I want the ummah united across borders under a caliphate, with Islamic law everywhere and the Muslim world free of Western domination."
+  },
+  {
+    "id": "nacionalismo-kemalista",
+    "name": "Kemalist Nationalism",
+    "category": "Third Position",
+    "description": "Doctrine of Mustafa Kemal Atatürk that founded modern Turkey on six arrows: republicanism, nationalism, populism, statism, laicism and reformism, imposing Westernization and state control of religion from above.",
+    "phrase": "I want a secular, modern Turkish republic, with religion under state control, one national identity and industry built by the state."
+  },
+  {
+    "id": "liberalismo-islamico",
+    "name": "Islamic Liberalism",
+    "category": "Center",
+    "description": "Reformist current that reinterprets Islam in light of reason, human rights and pluralism, advocating democracy, gender equality, a non-confessional state and freedom of conscience, in Muhammad Abduh's modernist tradition.",
+    "phrase": "I want to live my Islamic faith with reason and freedom, in a democratic, non-confessional state that ensures equality between men and women."
   }
 ]

@@ -2459,5 +2459,71 @@
     "countryId": "siria-de-assad",
     "personalityId": "hafez-al-assad",
     "religions": []
+  },
+  {
+    "id": "islamismo",
+    "name": "Islamismo",
+    "category": "Direita",
+    "description": "Movimento político que defende um Estado regido pela sharia e pela identidade islâmica, nascido com a Irmandade Muçulmana de Hassan al-Banna e Sayyid Qutb, unindo ativismo de massas, assistência social religiosa e rejeição do secularismo ocidental.",
+    "phrase": "Quero uma sociedade islâmica guiada pela sharia, com os fiéis organizados a partir das mesquitas e uma economia de zakat, sem usura.",
+    "vector": null,
+    "countryId": "siria",
+    "personalityId": "ahmed-al-sharaa",
+    "religions": ["islam"]
+  },
+  {
+    "id": "democracia-islamica",
+    "name": "Democracia Islâmica",
+    "category": "Direita",
+    "description": "Corrente que concilia islã e democracia eleitoral, com partidos religiosos conservadores que disputam eleições, defendem economia de mercado e valores muçulmanos na vida pública, como o AKP turco em seus primeiros anos e o Ennahda tunisiano.",
+    "phrase": "Quero um partido muçulmano que vença eleições, proteja a família e a fé na vida pública e faça a economia de mercado crescer.",
+    "vector": null,
+    "countryId": "turquia",
+    "personalityId": "recep-tayyip-erdogan",
+    "religions": ["islam"]
+  },
+  {
+    "id": "socialismo-islamico",
+    "name": "Socialismo Islâmico",
+    "category": "Terceira Posição",
+    "description": "Corrente que funda o socialismo nos princípios do islã, como a zakat, a proibição da usura e a justiça social corânica, unindo anti-imperialismo e economia estatal, da Terceira Teoria Universal de Gaddafi ao pensamento de Ali Shariati.",
+    "phrase": "Quero justiça corânica: a terra pertence a Deus, a zakat divide a riqueza e o Estado conduz a economia contra a usura e o imperialismo.",
+    "vector": null,
+    "countryId": "libia-de-gaddafi",
+    "personalityId": "muammar-gaddafi",
+    "religions": ["islam"]
+  },
+  {
+    "id": "pan-islamismo",
+    "name": "Pan-Islamismo",
+    "category": "Extrema Direita",
+    "description": "Ideologia que defende a unidade política dos muçulmanos acima das fronteiras nacionais, em torno da ummah e do ideal de califado, formulada por Jamal al-Din al-Afghani e adotada pelo sultão otomano Abdul Hamid II contra o colonialismo europeu.",
+    "phrase": "Quero a ummah unida acima das fronteiras sob um califado, com a lei islâmica em toda parte e o mundo muçulmano livre do domínio ocidental.",
+    "vector": null,
+    "countryId": "imperio-otomano",
+    "personalityId": "khomeini",
+    "religions": ["islam"]
+  },
+  {
+    "id": "nacionalismo-kemalista",
+    "name": "Nacionalismo Kemalista",
+    "category": "Terceira Posição",
+    "description": "Doutrina de Mustafa Kemal Atatürk que fundou a Turquia moderna sobre seis flechas: republicanismo, nacionalismo, populismo, estatismo, laicismo e reformismo, impondo de cima a ocidentalização e o controle estatal da religião.",
+    "phrase": "Quero uma república turca laica e moderna, com a religião sob controle do Estado, uma só identidade nacional e indústria erguida pelo Estado.",
+    "vector": null,
+    "countryId": "turquia",
+    "personalityId": "ataturk",
+    "religions": []
+  },
+  {
+    "id": "liberalismo-islamico",
+    "name": "Liberalismo Islâmico",
+    "category": "Centro",
+    "description": "Corrente reformista que reinterpreta o islã à luz da razão, dos direitos humanos e do pluralismo, defendendo democracia, igualdade de gênero, Estado não confessional e liberdade de consciência, na linha modernista de Muhammad Abduh.",
+    "phrase": "Quero viver minha fé islâmica com razão e liberdade, num Estado democrático e não confessional que garanta igualdade entre homens e mulheres.",
+    "vector": null,
+    "countryId": "indonesia",
+    "personalityId": "zohran-mamdani",
+    "religions": ["islam"]
   }
 ]

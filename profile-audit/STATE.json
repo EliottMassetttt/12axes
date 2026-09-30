@@ -1,6 +1,6 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-29T18:02:29Z",
+  "lastUpdated": "2026-09-30T11:58:05Z",
   "personality": {
     "totalProfiles": 386,
     "pending": [],
@@ -394,7 +394,7 @@
     ]
   },
   "ideology": {
-    "totalProfiles": 224,
+    "totalProfiles": 230,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -621,7 +621,13 @@
       "socialismo-federalista",
       "socialismo-patriotico",
       "socialismo-vietnamita",
-      "socialismo-baathista"
+      "socialismo-baathista",
+      "islamismo",
+      "democracia-islamica",
+      "socialismo-islamico",
+      "pan-islamismo",
+      "nacionalismo-kemalista",
+      "liberalismo-islamico"
     ]
   },
   "country": {
