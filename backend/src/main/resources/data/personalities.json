@@ -200,12 +200,12 @@
     "role": "Ditador",
     "category": "politico",
     "lifespan": "1883–1945",
-    "description": "Criador do fascismo, Mussolini governou a Itália como ditadura totalitária, fundindo nacionalismo, Estado corporativo, culto ao líder e militarismo expansionista, servindo de modelo a regimes autoritários europeus.",
+    "description": "Criador do fascismo, Mussolini governou a Itália como ditadura totalitária de culto ao líder e Estado corporativo. Ateu e anticlerical na juventude, fez da Igreja aliada política pelo Pacto de Latrão de 1929, por conveniência mais que por fé.",
     "imagePath": "/personalities/portraits/mussolini.jpg",
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Benito_Mussolini",
     "imageNote": "Retrato de Benito Mussolini via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "hitler",
@@ -5172,5 +5172,46 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_V_do_Sacro_Imp%C3%A9rio_Romano-Germ%C3%A2nico",
     "imageNote": "Retrato de Carlos V via Wikipédia/Wikimedia Commons.",
     "religions": ["christianity"]
+  },
+  {
+    "id": "salvador-dali",
+    "name": "Salvador Dalí",
+    "role": "Pintor surrealista",
+    "category": "intelectual",
+    "lifespan": "1904–1989",
+    "description": "Pintor surrealista catalão, Dalí foi expulso do grupo surrealista por simpatias ambíguas ao fascismo, apoiou publicamente Franco e a monarquia e, a partir de 1949, abraçou um misticismo nuclear católico que fundia fé e ciência.",
+    "imagePath": "/personalities/portraits/salvador-dali.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Dal%C3%AD_1939.jpg",
+    "imageNote": "Retrato de Salvador Dalí via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "christianity"
+    ]
+  },
+  {
+    "id": "pablo-picasso",
+    "name": "Pablo Picasso",
+    "role": "Pintor",
+    "category": "intelectual",
+    "lifespan": "1881–1973",
+    "description": "Pintor espanhol e cofundador do cubismo, Picasso pintou Guernica contra o bombardeio franquista, filiou-se ao Partido Comunista Francês em 1944, apoiou o movimento pela paz soviético e nunca voltou à Espanha de Franco.",
+    "imagePath": "/personalities/portraits/pablo-picasso.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pablo_picasso_1.jpg",
+    "imageNote": "Retrato de Pablo Picasso via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "albert-camus",
+    "name": "Albert Camus",
+    "role": "Escritor e filósofo",
+    "category": "filosofo",
+    "lifespan": "1913–1960",
+    "description": "Escritor franco-argelino e Nobel de 1957, Camus militou na Resistência, rompeu com Sartre ao condenar os campos soviéticos em O Homem Revoltado e defendeu uma Argélia plural contra o terrorismo dos dois lados.",
+    "imagePath": "/personalities/portraits/albert-camus.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Albert_Camus",
+    "imageNote": "Retrato de Albert Camus via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]

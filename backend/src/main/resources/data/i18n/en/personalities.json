@@ -93,7 +93,7 @@
     "id": "mussolini",
     "name": "Benito Mussolini",
     "role": "Dictator",
-    "description": "The creator of fascism, Mussolini ruled Italy as a totalitarian dictatorship, fusing nationalism, a corporatist state, a cult of the leader, and expansionist militarism, serving as a model for European authoritarian regimes."
+    "description": "The creator of fascism, Mussolini ruled Italy as a totalitarian dictatorship built on a leader cult and a corporatist state. An atheist and anticlerical in his youth, he made the Church a political ally through the 1929 Lateran Pacts, more from expediency than faith."
   },
   {
     "id": "hitler",
@@ -2492,5 +2492,26 @@
     "role": "Holy Roman Emperor and King of Spain",
     "lifespan": "1500–1558",
     "description": "Heir of the Habsburgs, Charles V united Spain, the Low Countries, the Holy Roman Empire and the American conquests, fought the Lutheran Reformation and the Ottomans as champion of universal Catholicism, crushed the Comuneros and abdicated in 1556."
+  },
+  {
+    "id": "salvador-dali",
+    "name": "Salvador Dalí",
+    "role": "Surrealist painter",
+    "lifespan": "1904–1989",
+    "description": "Catalan surrealist painter, Dalí was expelled from the surrealist group over his ambiguous sympathies for fascism, publicly backed Franco and the monarchy and, from 1949 on, embraced a Catholic nuclear mysticism fusing faith and science."
+  },
+  {
+    "id": "pablo-picasso",
+    "name": "Pablo Picasso",
+    "role": "Painter",
+    "lifespan": "1881–1973",
+    "description": "Spanish painter and co-founder of Cubism, Picasso painted Guernica against the Francoist bombing, joined the French Communist Party in 1944, backed the Soviet-led peace movement and never returned to Franco's Spain."
+  },
+  {
+    "id": "albert-camus",
+    "name": "Albert Camus",
+    "role": "Writer and philosopher",
+    "lifespan": "1913–1960",
+    "description": "French-Algerian writer and 1957 Nobel laureate, Camus fought in the Resistance, broke with Sartre by condemning the Soviet camps in The Rebel and defended a plural Algeria against terrorism on both sides."
   }
 ]

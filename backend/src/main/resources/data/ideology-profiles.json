@@ -240,17 +240,17 @@
   {
     "ideologyId": "fascismo",
     "vector": {
-      "estrutura": 7.5,
-      "representacao": 10.0,
-      "poder": 91.2,
-      "imigracao": 95.0,
-      "diplomacia": 97.5,
-      "intervencao": 15.0,
-      "economia": 51.2,
-      "controle": 77.5,
-      "comercio": 93.8,
-      "religiao": 16.2,
-      "moral": 5.0,
+      "estrutura": 0.9,
+      "representacao": 9.0,
+      "poder": 94.5,
+      "imigracao": 92.4,
+      "diplomacia": 98.1,
+      "intervencao": 4.3,
+      "economia": 73.3,
+      "controle": 87.3,
+      "comercio": 95.9,
+      "religiao": 49.1,
+      "moral": 17.9,
       "tecnologia": 73.8
     }
   },
@@ -3992,6 +3992,40 @@
       "religiao": 1.0,
       "moral": 7.7,
       "tecnologia": 16.9
+    }
+  },
+  {
+    "ideologyId": "fascismo-clerical",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 15.0,
+      "poder": 93.3,
+      "imigracao": 99.1,
+      "diplomacia": 95.7,
+      "intervencao": 12.6,
+      "economia": 75.7,
+      "controle": 85.0,
+      "comercio": 88.7,
+      "religiao": 1.0,
+      "moral": 5.3,
+      "tecnologia": 28.6
+    }
+  },
+  {
+    "ideologyId": "teocratismo-islamico",
+    "vector": {
+      "estrutura": 12.8,
+      "representacao": 13.8,
+      "poder": 92.1,
+      "imigracao": 57.5,
+      "diplomacia": 86.2,
+      "intervencao": 24.5,
+      "economia": 70.9,
+      "controle": 79.0,
+      "comercio": 81.2,
+      "religiao": 1.0,
+      "moral": 7.7,
+      "tecnologia": 48.8
     }
   }
 ]

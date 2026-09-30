@@ -108,13 +108,13 @@
     "id": "fascismo",
     "name": "Fascism",
     "category": "Third Position",
-    "description": "Totalitarian ideology of ultranationalism that exalts the strong state, the cult of the leader, militarism, and mass mobilization, suppressing opposition and subordinating the corporatist economy to national goals.",
+    "description": "An ultranationalist doctrine of national rebirth that rejects liberalism and Marxism, exalts the totalitarian state, regenerative violence and the leader cult, and treats the nation as a secular religion, with variants beyond the Italian regime that named it.",
     "phrase": "I want a nation exalted under a strong state and a single leader, with militarism, mass mobilization and corporations serving the fatherland."
   },
   {
     "id": "nacional-socialismo",
     "name": "National Socialism",
-    "category": "Far-Right",
+    "category": "Third Position",
     "description": "German variant of fascism based on racism, antisemitism, and expansionism, which united totalitarianism, the cult of Hitler, and the idea of a superior race, culminating in World War II and the Holocaust.",
     "phrase": "I want a society based on the Aryan race, politically hierarchical and authoritarian, with a strong, protectionist state capitalism."
   },
@@ -1649,5 +1649,19 @@
     "category": "Far-Right",
     "description": "A Spanish current of counter-revolutionary traditionalism, born in the 19th-century Carlist Wars under the motto God, Fatherland, Fueros and King, advocating a legitimist Catholic monarchy, religious unity, regional fueros and an organic society against liberalism.",
     "phrase": "I want Catholic Spain under the rightful king, with regional fueros, estate-based cortes and guilds, against liberalism and centralism."
+  },
+  {
+    "id": "fascismo-clerical",
+    "name": "Clerical Fascism",
+    "category": "Third Position",
+    "description": "A variant of fascism that fuses ultranationalism, a mass party and militias with the authority of a national Church, with clergy in power, as in Dollfuss's Austrofascism, Father Tiso's Slovakia, the Croatian Ustaše and Romania's Iron Guard.",
+    "phrase": "I want a nation consecrated by the Church, with clergy in government, one party, faith militias and Christian corporations running the economy."
+  },
+  {
+    "id": "teocratismo-islamico",
+    "name": "Islamic Theocratism",
+    "category": "Far-Right",
+    "description": "A doctrine that hands the state to the Islamic clergy and makes sharia the supreme law, above popular sovereignty, as in Khomeini's guardianship of the jurist (velayat-e faqih) in Iran and the Taliban emirate in Afghanistan.",
+    "phrase": "I want God's sovereignty above the vote, with the religious jurist in command, sharia as the only law and an economy free of usury."
   }
 ]

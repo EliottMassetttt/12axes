@@ -2386,5 +2386,17 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "albert-camus",
+    "title": {
+      "pt": "O Homem Revoltado",
+      "en": "The Rebel"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

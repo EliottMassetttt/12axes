@@ -168,17 +168,17 @@
     "id": "fascismo",
     "name": "Fascismo",
     "category": "Terceira Posição",
-    "description": "Ideologia totalitária de ultranacionalismo que exalta o Estado forte, o culto ao líder, o militarismo e a mobilização de massas, suprimindo oposição e subordinando a economia corporativa aos objetivos nacionais.",
+    "description": "Doutrina ultranacionalista de renascimento nacional que rejeita liberalismo e marxismo, exalta o Estado totalitário, a violência regeneradora e o culto ao líder, e trata a nação como religião secular, com variantes além do regime italiano que lhe deu nome.",
     "phrase": "Quero uma nação exaltada sob Estado forte e líder único, com militarismo, mobilização de massas e corporações a serviço da pátria.",
     "vector": null,
     "countryId": "italia-fascista-mussolini",
     "personalityId": "mussolini",
-    "religions": ["christianity"]
+    "religions": []
   },
   {
     "id": "nacional-socialismo",
     "name": "Nacional-Socialismo",
-    "category": "Extrema Direita",
+    "category": "Terceira Posição",
     "description": "Variante alemã do fascismo baseada no racismo, no antissemitismo e no expansionismo, que uniu totalitarismo, culto a Hitler e a ideia de raça superior, culminando na Segunda Guerra Mundial e no Holocausto.",
     "phrase": "Quero uma sociedade baseada na raça ariana, politicamente hierárquica e autoritária, com um capitalismo de estado forte e protecionista.",
     "vector": null,
@@ -2580,5 +2580,31 @@
     "countryId": "espanha-habsburgos",
     "personalityId": "carlos-v",
     "religions": ["christianity"]
+  },
+  {
+    "id": "fascismo-clerical",
+    "name": "Fascismo Clerical",
+    "category": "Terceira Posição",
+    "description": "Variante do fascismo que funde ultranacionalismo, partido de massas e milícias à autoridade de uma Igreja nacional, com clérigos no poder, como o austrofascismo de Dollfuss, a Eslováquia do padre Tiso, a Ustaše croata e a Guarda de Ferro romena.",
+    "phrase": "Quero uma nação consagrada pela Igreja, com clérigos no governo, partido único e milícias da fé, e corporações cristãs dirigindo a economia.",
+    "vector": null,
+    "countryId": "espanha-franquista",
+    "personalityId": "engelbert-dollfuss",
+    "religions": [
+      "christianity"
+    ]
+  },
+  {
+    "id": "teocratismo-islamico",
+    "name": "Teocratismo Islâmico",
+    "category": "Extrema Direita",
+    "description": "Doutrina que entrega o Estado ao clero islâmico e faz da sharia a lei suprema, acima da soberania popular, como no governo do jurista (velayat-e faqih) de Khomeini no Irã e no emirado talibã do Afeganistão.",
+    "phrase": "Quero a soberania de Deus acima do voto, com o jurista religioso no comando, a sharia como única lei e uma economia livre da usura.",
+    "vector": null,
+    "countryId": "ira",
+    "personalityId": "khomeini",
+    "religions": [
+      "islam"
+    ]
   }
 ]

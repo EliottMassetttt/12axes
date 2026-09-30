@@ -257,18 +257,18 @@
   {
     "personalityId": "mussolini",
     "vector": {
-      "estrutura": 6.2,
-      "representacao": 5.0,
-      "poder": 92.5,
-      "imigracao": 97.5,
-      "diplomacia": 98.8,
-      "intervencao": 7.5,
-      "economia": 52.5,
-      "controle": 81.2,
-      "comercio": 95.0,
-      "religiao": 15.0,
-      "moral": 6.2,
-      "tecnologia": 55.0
+      "estrutura": 8.0,
+      "representacao": 11.4,
+      "poder": 94.5,
+      "imigracao": 88.8,
+      "diplomacia": 91.0,
+      "intervencao": 4.3,
+      "economia": 66.2,
+      "controle": 85.0,
+      "comercio": 92.3,
+      "religiao": 40.8,
+      "moral": 22.6,
+      "tecnologia": 64.1
     }
   },
   {
@@ -6763,6 +6763,57 @@
       "religiao": 40.8,
       "moral": 32.1,
       "tecnologia": 77.2
+    }
+  },
+  {
+    "personalityId": "salvador-dali",
+    "vector": {
+      "estrutura": 30.4,
+      "representacao": 21.0,
+      "poder": 65.0,
+      "imigracao": 70.6,
+      "diplomacia": 68.3,
+      "intervencao": 31.7,
+      "economia": 20.8,
+      "controle": 25.4,
+      "comercio": 26.8,
+      "religiao": 21.2,
+      "moral": 38.7,
+      "tecnologia": 78.2
+    }
+  },
+  {
+    "personalityId": "pablo-picasso",
+    "vector": {
+      "estrutura": 42.5,
+      "representacao": 69.8,
+      "poder": 39.8,
+      "imigracao": 14.0,
+      "diplomacia": 22.9,
+      "intervencao": 67.2,
+      "economia": 78.2,
+      "controle": 72.2,
+      "comercio": 58.6,
+      "religiao": 86.9,
+      "moral": 75.2,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "personalityId": "albert-camus",
+    "vector": {
+      "estrutura": 66.4,
+      "representacao": 88.2,
+      "poder": 24.6,
+      "imigracao": 18.8,
+      "diplomacia": 24.0,
+      "intervencao": 57.7,
+      "economia": 76.2,
+      "controle": 67.4,
+      "comercio": 31.2,
+      "religiao": 78.6,
+      "moral": 71.7,
+      "tecnologia": 33.3
     }
   }
 ]
