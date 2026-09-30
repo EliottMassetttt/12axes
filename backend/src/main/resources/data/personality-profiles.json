@@ -6679,5 +6679,56 @@
       "moral": 16.0,
       "tecnologia": 63.0
     }
+  },
+  {
+    "personalityId": "imperador-jimmu",
+    "vector": {
+      "estrutura": 56.8,
+      "representacao": 6.7,
+      "poder": 61.2,
+      "imigracao": 67.0,
+      "diplomacia": 93.3,
+      "intervencao": 15.0,
+      "economia": 59.0,
+      "controle": 44.5,
+      "comercio": 63.3,
+      "religiao": 2.1,
+      "moral": 20.8,
+      "tecnologia": 19.3
+    }
+  },
+  {
+    "personalityId": "oda-nobunaga",
+    "vector": {
+      "estrutura": 17.5,
+      "representacao": 4.3,
+      "poder": 88.6,
+      "imigracao": 47.1,
+      "diplomacia": 93.3,
+      "intervencao": 12.6,
+      "economia": 54.2,
+      "controle": 74.3,
+      "comercio": 40.7,
+      "religiao": 83.7,
+      "moral": 46.4,
+      "tecnologia": 84.4
+    }
+  },
+  {
+    "personalityId": "imperador-meiji",
+    "vector": {
+      "estrutura": 6.6,
+      "representacao": 19.8,
+      "poder": 87.6,
+      "imigracao": 76.5,
+      "diplomacia": 89.8,
+      "intervencao": 13.8,
+      "economia": 37.5,
+      "controle": 51.7,
+      "comercio": 70.5,
+      "religiao": 10.5,
+      "moral": 26.8,
+      "tecnologia": 83.2
+    }
   }
 ]

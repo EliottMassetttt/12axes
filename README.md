@@ -130,10 +130,10 @@ All data lives in `backend/src/main/resources/data/`, with English translations 
 | `axes.json` | The 12 axes, their poles and labels |
 | `questions-pool.json` | 240 questions, with axis, polarity, and weight |
 | `archetype-questions.json` | The five multiple-choice questions |
-| `ideologies.json` / `ideology-profiles.json` | 234 ideologies and their 12-axis vectors |
-| `countries.json` / `countries-profiles.json` | 173 countries, regions, and historical regimes |
-| `personalities.json` / `personality-profiles.json` | 393 political figures and intellectuals |
-| `books.json` | 199 book recommendations |
+| `ideologies.json` / `ideology-profiles.json` | Ideologies and their 12-axis vectors |
+| `countries.json` / `countries-profiles.json` | Countries, regions, and historical regimes |
+| `personalities.json` / `personality-profiles.json` | Political figures and intellectuals |
+| `books.json` | Book recommendations |
 
 On startup the backend refuses to run if any catalog entry lacks a vector or a vector does not have exactly the 12 known axes.
 

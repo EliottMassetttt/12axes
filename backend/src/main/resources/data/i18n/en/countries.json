@@ -1036,5 +1036,11 @@
     "name": "Dagestan (Russia)",
     "category": "Tutelary Muslim region",
     "description": "A republic of the Russian Federation in the North Caucasus, Dagestan is multiethnic and Sunni Muslim-majority, with strong Sufi religiosity, local clans, dependence on subsidies from Moscow, repression of radical Islamism, and little real autonomy."
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid (Spain)",
+    "category": "Liberal-conservative region",
+    "description": "The autonomous community around the Spanish capital, Madrid has been governed by the People's Party since 1995 and, under Isabel Díaz Ayuso, became a showcase of low taxes, economic freedom, school choice and attraction of capital and Latin American immigrants."
   }
 ]

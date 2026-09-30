@@ -2457,5 +2457,26 @@
     "role": "Senator and former Head of Dagestan",
     "lifespan": "1965–",
     "description": "A Russian National Guard general and Putin ally, Melikov headed Dagestan from 2020 to 2026, a period marked by war mobilization, the antisemitic airport pogrom, and jihadist attacks, and in 2026 became a senator for Bryansk."
+  },
+  {
+    "id": "imperador-jimmu",
+    "name": "Emperor Jimmu",
+    "role": "Legendary Emperor of Japan",
+    "lifespan": "711–585 BC",
+    "description": "The first legendary emperor of Japan according to the Kojiki and Nihon Shoki, Jimmu, a descendant of the sun goddess Amaterasu, is said to have conquered Yamato by force of arms and founded the imperial line, a central myth of State Shinto and Japanese nationalism."
+  },
+  {
+    "id": "imperador-meiji",
+    "name": "Emperor Meiji",
+    "role": "Emperor of Japan",
+    "lifespan": "1852–1912",
+    "description": "Emperor under whose 1868 restoration Japan abolished the shogunate and the samurai, centralized the state, industrialized under the slogan \"rich country, strong army\", adopted the 1889 constitution and State Shinto, and defeated China and Russia."
+  },
+  {
+    "id": "oda-nobunaga",
+    "name": "Oda Nobunaga",
+    "role": "Daimyo and unifier of Japan",
+    "lifespan": "1534–1582",
+    "description": "A Sengoku-period daimyo, Nobunaga began the unification of Japan with massed arquebuses, deposed the Ashikaga shogunate, massacred the warrior monks of Enryaku-ji and the Ikko-ikki, abolished guilds and tolls, and tolerated Jesuit missionaries."
   }
 ]

@@ -2939,5 +2939,22 @@
       "moral": 5.3,
       "tecnologia": 48.8
     }
+  },
+  {
+    "countryId": "madrid",
+    "vector": {
+      "estrutura": 51.0,
+      "representacao": 77.5,
+      "poder": 46.0,
+      "imigracao": 55.2,
+      "diplomacia": 49.3,
+      "intervencao": 34.0,
+      "economia": 24.4,
+      "controle": 18.2,
+      "comercio": 16.0,
+      "religiao": 49.6,
+      "moral": 45.6,
+      "tecnologia": 67.7
+    }
   }
 ]

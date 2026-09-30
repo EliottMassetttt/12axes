@@ -2338,5 +2338,16 @@
     "period": "",
     "vector": null,
     "religions": ["islam"]
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid (Espanha)",
+    "category": "Região liberal-conservadora",
+    "description": "Comunidade autônoma que abriga a capital espanhola, Madrid é governada pelo Partido Popular desde 1995 e, sob Isabel Díaz Ayuso, virou vitrine de impostos baixos, liberdade econômica, escolha escolar e atração de capital e imigrantes latino-americanos.",
+    "flagPath": "/countries/flags/madrid.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "religions": []
   }
 ]

@@ -5107,5 +5107,44 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:%D0%93%D0%BB%D0%B0%D0%B2%D0%B0_%D0%A0%D0%B5%D1%81%D0%BF%D1%83%D0%B1%D0%BB%D0%B8%D0%BA%D0%B8_%D0%94%D0%B0%D0%B3%D0%B5%D1%81%D1%82%D0%B0%D0%BD_%D0%A1%D0%B5%D1%80%D0%B3%D0%B5%D0%B9_%D0%9C%D0%B5%D0%BB%D0%B8%D0%BA%D0%BE%D0%B2_(cropped).jpg",
     "imageNote": "Retrato oficial de Sergei Melikov como chefe do Daguestão, via Wikimedia Commons, comprimido para o catálogo.",
     "religions": ["islam"]
+  },
+  {
+    "id": "imperador-jimmu",
+    "name": "Imperador Jimmu",
+    "role": "Imperador lendário do Japão",
+    "category": "politico",
+    "lifespan": "711–585 a.C.",
+    "description": "Primeiro imperador lendário do Japão segundo o Kojiki e o Nihon Shoki, Jimmu, descendente da deusa solar Amaterasu, teria conquistado Yamato pelas armas e fundado a linhagem imperial, mito central do xintoísmo estatal e do nacionalismo japonês.",
+    "imagePath": "/personalities/portraits/imperador-jimmu.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Imperador_Jimmu",
+    "imageNote": "Retrato de Imperador Jimmu via Wikipédia/Wikimedia Commons.",
+    "religions": ["other"]
+  },
+  {
+    "id": "imperador-meiji",
+    "name": "Imperador Meiji",
+    "role": "Imperador do Japão",
+    "category": "politico",
+    "lifespan": "1852–1912",
+    "description": "Imperador sob cuja restauração de 1868 o Japão aboliu o xogunato e os samurais, centralizou o Estado, industrializou-se com o lema \"país rico, exército forte\", adotou a constituição de 1889 e o xintoísmo estatal e venceu China e Rússia.",
+    "imagePath": "/personalities/portraits/imperador-meiji.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Imperador_Meiji",
+    "imageNote": "Retrato de Imperador Meiji via Wikipédia/Wikimedia Commons.",
+    "religions": ["other"]
+  },
+  {
+    "id": "oda-nobunaga",
+    "name": "Oda Nobunaga",
+    "role": "Daimiô e unificador do Japão",
+    "category": "politico",
+    "lifespan": "1534–1582",
+    "description": "Daimiô do período Sengoku, Nobunaga iniciou a unificação do Japão com arcabuzes em massa, depôs o xogunato Ashikaga, massacrou os monges guerreiros do Enryaku-ji e dos Ikkō-ikki, aboliu guildas e pedágios e tolerou missionários jesuítas.",
+    "imagePath": "/personalities/portraits/oda-nobunaga.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Oda_Nobunaga",
+    "imageNote": "Retrato de Oda Nobunaga via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]
