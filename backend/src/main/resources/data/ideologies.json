@@ -1169,11 +1169,11 @@
     "id": "monarquismo-federalista",
     "name": "Monarquismo Federalista",
     "category": "Direita",
-    "description": "Corrente monarquista que defende uma coroa limitada por uma estrutura federal, com poder dividido entre o soberano e regiões autônomas, combinando unidade simbólica e continuidade histórica com descentralização e autogoverno local.",
-    "phrase": "Quero uma coroa que una a nação simbolicamente, dividindo poder com regiões autônomas que se autogovernam dentro de uma federação histórica.",
+    "description": "Corrente que defende um monarca que governa de fato, como chefe do Executivo constitucional ou soberano absoluto, sobre uma federação de Estados ou regiões com amplo autogoverno, como o Império Alemão de 1871, os Emirados Árabes Unidos e a Malásia.",
+    "phrase": "Quero um monarca que governe de verdade sobre uma federação de Estados com leis, dinastias e autogoverno próprios, unidos pela coroa e pela fé.",
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
-    "personalityId": "otto-von-habsburg",
+    "personalityId": "franz-ferdinand",
     "religions": ["christianity"]
   },
   {
@@ -2558,5 +2558,16 @@
     "countryId": "israel",
     "personalityId": "david-ben-gurion",
     "religions": ["judaism"]
+  },
+  {
+    "id": "feudalismo",
+    "name": "Feudalismo",
+    "category": "Extrema Direita",
+    "description": "Ordem medieval baseada em laços pessoais de vassalagem entre suserano e vassalos, com terra concedida em feudo, nobreza guerreira hereditária, camponeses servos presos à terra, Igreja como autoridade moral e poder fragmentado entre senhores locais.",
+    "phrase": "Quero uma ordem de senhores e vassalos unidos pela fidelidade, com a Igreja no centro e cada um no seu estado: rezar, guerrear ou lavrar.",
+    "vector": null,
+    "countryId": "sacro-imperio-romano-germanico",
+    "personalityId": "carlos-magno",
+    "religions": ["christianity"]
   }
 ]

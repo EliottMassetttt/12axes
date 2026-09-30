@@ -1787,18 +1787,18 @@
   {
     "ideologyId": "monarquismo-federalista",
     "vector": {
-      "estrutura": 77.5,
-      "representacao": 58.8,
-      "poder": 63.7,
-      "imigracao": 63.7,
-      "diplomacia": 53.8,
-      "intervencao": 46.2,
-      "economia": 43.8,
-      "controle": 43.8,
-      "comercio": 30,
-      "religiao": 16.2,
-      "moral": 20,
-      "tecnologia": 53.8
+      "estrutura": 68.5,
+      "representacao": 28.1,
+      "poder": 78.1,
+      "imigracao": 76.5,
+      "diplomacia": 61.2,
+      "intervencao": 44.8,
+      "economia": 45.9,
+      "controle": 62.4,
+      "comercio": 52.6,
+      "religiao": 16.4,
+      "moral": 16.0,
+      "tecnologia": 60.6
     }
   },
   {
@@ -3958,6 +3958,23 @@
       "religiao": 69.0,
       "moral": 68.1,
       "tecnologia": 65.3
+    }
+  },
+  {
+    "ideologyId": "feudalismo",
+    "vector": {
+      "estrutura": 89.9,
+      "representacao": 17.4,
+      "poder": 76.9,
+      "imigracao": 82.5,
+      "diplomacia": 80.2,
+      "intervencao": 23.3,
+      "economia": 28.1,
+      "controle": 31.4,
+      "comercio": 82.8,
+      "religiao": 1.0,
+      "moral": 4.1,
+      "tecnologia": 18.2
     }
   }
 ]

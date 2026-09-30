@@ -745,8 +745,8 @@
     "id": "monarquismo-federalista",
     "name": "Federalist Monarchism",
     "category": "Right",
-    "description": "Monarchist current that defends a crown limited by a federal structure, with power divided between the sovereign and autonomous regions, combining symbolic unity and historical continuity with decentralization and local self-government.",
-    "phrase": "I want a crown that unites the nation symbolically, sharing power with autonomous regions that self-govern within a historic federation."
+    "description": "Current advocating a monarch who actually governs, as constitutional head of the executive or absolute sovereign, over a federation of states or regions with broad self-government, as in the German Empire of 1871, the United Arab Emirates, and Malaysia.",
+    "phrase": "I want a monarch who truly governs a federation of states with their own laws, dynasties, and self-rule, united by the crown and the faith."
   },
   {
     "id": "conservadorismo-libertario",
@@ -1635,5 +1635,12 @@
     "category": "Left",
     "description": "The socialist strand of Zionism that built the State of Israel through the kibbutzim, the Histadrut labor federation, and Ben-Gurion's Mapai party, uniting Jewish nationalism, collective work on the land, and a secular welfare state.",
     "phrase": "I want to build the Jewish nation with our own hands, in kibbutzim and strong unions, with public land and a secular welfare state."
+  },
+  {
+    "id": "feudalismo",
+    "name": "Feudalism",
+    "category": "Far-Right",
+    "description": "A medieval order based on personal bonds of vassalage between lord and vassals, with land granted as fiefs, a hereditary warrior nobility, serfs bound to the land, the Church as moral authority, and power fragmented among local lords.",
+    "phrase": "I want lords and vassals bound by fealty, the Church at the center, and each in their estate: those who pray, fight, or till."
   }
 ]
