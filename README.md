@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="frontend/public/logo.png" alt="12 Axes" width="96">
-
 # 12 Axes
 
 A political quiz that places you on twelve independent axes and compares your answers with +230 ideologies, +170 countries and regimes, and +390 political figures.
