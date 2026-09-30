@@ -78,6 +78,10 @@ interface Strings {
   langToggleLabel: string;
   langToggleAria: string;
   redoQuiz: string;
+  religionLabel: string;
+  religionQuestion: string;
+  religionNone: string;
+  religionNames: Record<'christianity' | 'judaism' | 'islam' | 'buddhism', string>;
   restartQuiz: string;
   heroEyebrow: string;
   h1Pre: string;
@@ -298,6 +302,10 @@ const pt: Strings = {
   langToggleLabel: 'EN',
   langToggleAria: 'Switch to English',
   redoQuiz: 'Refazer quiz',
+  religionLabel: 'Religião',
+  religionQuestion: 'Você segue alguma religião? Usamos isso só para ajustar as recomendações.',
+  religionNone: 'Sem religião',
+  religionNames: { christianity: 'Cristianismo', judaism: 'Judaísmo', islam: 'Islamismo', buddhism: 'Budismo' },
   restartQuiz: 'Reiniciar quiz',
   heroEyebrow: 'Descoberta política',
   h1Pre: 'Você sabe mesmo qual é a sua ',
@@ -750,6 +758,10 @@ const en: Strings = {
   langToggleLabel: 'PT',
   langToggleAria: 'Mudar para português',
   redoQuiz: 'Retake quiz',
+  religionLabel: 'Religion',
+  religionQuestion: 'Do you follow a religion? We only use this to tailor your recommendations.',
+  religionNone: 'No religion',
+  religionNames: { christianity: 'Christianity', judaism: 'Judaism', islam: 'Islam', buddhism: 'Buddhism' },
   restartQuiz: 'Restart quiz',
   heroEyebrow: 'Political discovery',
   h1Pre: 'Do you really know your ',

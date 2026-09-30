@@ -4,13 +4,15 @@ import { HOME_AXES } from './data/homeAxes';
 import type { ExampleResult } from './data/exampleResult';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
-import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
+import type { AnswerValue, ArchetypeQuestion, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
 import ElectionApp from './election/ElectionApp';
+import { parseReligion, RELIGIONS, type Religion } from './utils/religion';
+import { RELIGION_ICONS, RELIGION_QUESTION_ICON } from './data/religionIcons';
 
 type Screen = 'home' | 'variant' | 'quiz' | 'archetype' | 'results';
 
@@ -55,12 +57,35 @@ function parseSharedResultUrl(): number[] | null {
 }
 
 const SHARED_RESULT_VALUES = parseSharedResultUrl();
+// Link sem religion (ou com valor desconhecido) = ranking geral, sem filtro.
+const SHARED_RELIGION: Religion | null =
+  SHARED_RESULT_VALUES && typeof window !== 'undefined'
+    ? parseReligion(new URLSearchParams(window.location.search).get('religion'))
+    : null;
 
-function sharedResultUrl(result: QuizResult): string {
+function sharedResultUrl(result: QuizResult, religion: Religion | null = null): string {
   const query = result.axes
     .map((axis, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${axis.leftPercent}`)
     .join('&');
-  return `/results?${query}`;
+  return `/results?${query}${religion ? `&religion=${religion}` : ''}`;
+}
+
+// Última pergunta do bloco de arquétipos: letras A-D + "sem religião". Não vai
+// para o backend como arquétipo; vira o parâmetro religion do resultado.
+const RELIGION_STEP_ID = 'religiao';
+const RELIGION_OPTION_IDS = ['A', 'B', 'C', 'D', 'E'];
+function religionQuestion(): ArchetypeQuestion {
+  return {
+    id: RELIGION_STEP_ID,
+    label: t.religionLabel,
+    text: t.religionQuestion,
+    icon: RELIGION_QUESTION_ICON,
+    options: [...RELIGIONS, 'none' as const].map((id, index) => ({
+      id: RELIGION_OPTION_IDS[index],
+      text: id === 'none' ? t.religionNone : t.religionNames[id],
+      icon: RELIGION_ICONS[id]
+    }))
+  };
 }
 
 function LoadingPanel({ message }: { message: string }) {
@@ -110,6 +135,7 @@ function MainApp() {
   const [result, setResult] = useState<QuizResult | null>(null);
   const [isLoading, setIsLoading] = useState(FULL_MODE || SHARED_RESULT_VALUES !== null);
   const [isSharedView, setIsSharedView] = useState(false);
+  const [religion, setReligion] = useState<Religion | null>(SHARED_RELIGION);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAdvancing, setIsAdvancing] = useState(false);
   // Toggle do desktop; no mobile fica escondido e sempre ligado.
@@ -130,9 +156,12 @@ function MainApp() {
   // sortear as 24 questões extras da extensão sem repetir as já respondidas.
   const poolRef = useRef<QuizPayload | null>(null);
 
+  // Perguntas de arquétipo do backend + a de religião, no mesmo bloco e na mesma barra.
+  const archetypeSteps = useMemo(() => [...(quiz?.archetypeQuestions ?? []), religionQuestion()], [quiz]);
+
   useEffect(() => {
     if (SHARED_RESULT_VALUES) {
-      fetchSharedResult(SHARED_RESULT_VALUES)
+      fetchSharedResult(SHARED_RESULT_VALUES, SHARED_RELIGION)
         .then((sharedResult) => {
           setResult(sharedResult);
           setIsSharedView(true);
@@ -358,7 +387,7 @@ function MainApp() {
     }
     clearPendingAdvance();
     setError(null);
-    if (quiz.archetypeQuestions?.length && !archetypeDone) {
+    if (!archetypeDone) {
       setArchetypeIndex(0);
       setScreen('archetype');
       return;
@@ -368,7 +397,7 @@ function MainApp() {
 
   // Escolher uma alternativa já avança; depois da última, calcula o resultado.
   function chooseArchetype(optionId: string) {
-    const question = quiz?.archetypeQuestions?.[archetypeIndex];
+    const question = archetypeSteps[archetypeIndex];
     if (!quiz || !question || isSubmitting || isAdvancingRef.current) {
       return;
     }
@@ -378,7 +407,7 @@ function MainApp() {
   }
 
   function skipArchetype() {
-    const question = quiz?.archetypeQuestions?.[archetypeIndex];
+    const question = archetypeSteps[archetypeIndex];
     if (!question || isSubmitting || isAdvancingRef.current) {
       return;
     }
@@ -389,8 +418,7 @@ function MainApp() {
   }
 
   function advanceArchetype(choices: Record<string, string>, withPause: boolean) {
-    const total = quiz?.archetypeQuestions?.length ?? 0;
-    if (archetypeIndex >= total - 1) {
+    if (archetypeIndex >= archetypeSteps.length - 1) {
       setArchetypeDone(true);
       void submitQuiz(answers, choices);
       return;
@@ -441,15 +469,19 @@ function MainApp() {
         questionId: question.id,
         answer: answerMap[question.id] as AnswerValue
       }));
+      const { [RELIGION_STEP_ID]: religionOption, ...archetypeOnly } = archetype;
+      const chosenReligion = RELIGIONS[RELIGION_OPTION_IDS.indexOf(religionOption ?? '')] ?? null;
       const nextResult = await submitResults(
         quiz.variant ?? selectedVariant,
         payload,
-        archetype
+        archetypeOnly,
+        chosenReligion
       );
       setResult(nextResult);
       setIsSharedView(false);
+      setReligion(chosenReligion);
       // URL compartilhável: quem abrir este link vê o mesmo resultado.
-      window.history.replaceState(null, '', sharedResultUrl(nextResult));
+      window.history.replaceState(null, '', sharedResultUrl(nextResult, chosenReligion));
       setScreen('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errCalc);
@@ -495,7 +527,7 @@ function MainApp() {
       ]);
       const { buildShareCard, renderSharePng } = shareCard;
 
-      const { stage: builtStage, target } = buildShareCard(result, exportQuiz);
+      const { stage: builtStage, target } = buildShareCard(result, exportQuiz, religion);
       stage = builtStage;
       document.body.appendChild(stage);
 
@@ -621,7 +653,7 @@ function MainApp() {
       {/* Quiz e perguntas de arquétipo dividem o mesmo layout: o cabeçalho e a
           barra não remontam na passagem, só o card troca (sem a animação de
           entrada da tela). */}
-      {quiz && ((screen === 'quiz' && currentQuestion) || (screen === 'archetype' && quiz.archetypeQuestions?.[archetypeIndex])) && (
+      {quiz && ((screen === 'quiz' && currentQuestion) || (screen === 'archetype' && archetypeSteps[archetypeIndex])) && (
         <Suspense
           fallback={(
             <section className="quiz-layout">
@@ -635,7 +667,7 @@ function MainApp() {
             total={quiz.questions.length}
             questionsPerAxis={quiz.questionsPerAxis}
             axisCount={quiz.axes.length}
-            extraCount={quiz.archetypeQuestions?.length ?? 0}
+            extraCount={archetypeSteps.length}
             extraCurrent={screen === 'archetype' ? archetypeIndex + 1 : undefined}
           />
 
@@ -697,7 +729,7 @@ function MainApp() {
                   </button>
                 ) : (
                   <button className="primary-button" type="button" onClick={() => handleQuizEnd()} disabled={!canFinish || isSubmitting}>
-                    {quiz.archetypeQuestions?.length ? t.next : isSubmitting ? t.calculating : t.seeResult}
+                    {t.next}
                     <svg className="btn-arrow" viewBox="0 0 24 24" aria-hidden="true">
                       <path d="M5 12h14" />
                       <path d="m13 6 6 6-6 6" />
@@ -706,16 +738,16 @@ function MainApp() {
                 )}
               </nav>
             </>
-          ) : quiz.archetypeQuestions?.[archetypeIndex] ? (
+          ) : archetypeSteps[archetypeIndex] ? (
             <>
               <div className="question-stage" data-direction={navDirection} data-leaving={isAdvancing ? 'true' : undefined}>
                 {/* Depois da última escolha o resultado está sendo calculado: troca o cartão
                     congelado por um carregamento explícito. */}
                 {isSubmitting ? <QuizSkeleton message={t.loadingAnalysis} /> : <ArchetypeCard
-                  key={quiz.archetypeQuestions[archetypeIndex].id}
-                  question={quiz.archetypeQuestions[archetypeIndex]}
+                  key={archetypeSteps[archetypeIndex].id}
+                  question={archetypeSteps[archetypeIndex]}
                   index={archetypeIndex}
-                  selected={archetypeChoices[quiz.archetypeQuestions[archetypeIndex].id]}
+                  selected={archetypeChoices[archetypeSteps[archetypeIndex].id]}
                   disabled={isAdvancing || isSubmitting}
                   onSelect={chooseArchetype}
                 />}
@@ -753,6 +785,7 @@ function MainApp() {
           error={error}
           onRedo={() => void startQuiz(selectedVariant)}
           onShare={() => void downloadResultsPng()}
+          religion={religion}
         />
       )}
 

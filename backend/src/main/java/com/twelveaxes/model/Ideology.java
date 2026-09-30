@@ -1,5 +1,6 @@
 package com.twelveaxes.model;
 
+import java.util.List;
 import java.util.Map;
 
 public record Ideology(
@@ -10,6 +11,7 @@ public record Ideology(
         String phrase,
         String countryId,
         String personalityId,
-        Map<String, Double> vector
+        Map<String, Double> vector,
+        List<String> religions
 ) {
 }

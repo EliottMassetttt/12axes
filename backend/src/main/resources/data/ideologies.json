@@ -7,7 +7,8 @@
     "phrase": "Quero uma sociedade dirigida por um partido de vanguarda, com ditadura do proletariado e economia planificada e coletivizada.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "lenin"
+    "personalityId": "lenin",
+    "religions": []
   },
   {
     "id": "socialismo-stalinista",
@@ -17,7 +18,8 @@
     "phrase": "Quero uma sociedade sob líder forte e partido único, com coletivização agrária, planos quinquenais e industrialização acelerada.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "stalin"
+    "personalityId": "stalin",
+    "religions": []
   },
   {
     "id": "comunismo-maoista",
@@ -27,7 +29,8 @@
     "phrase": "Quero uma sociedade mobilizada em guerra popular prolongada pelo campesinato, com revolução cultural permanente contra a burocracia.",
     "vector": null,
     "countryId": "china-maoista",
-    "personalityId": "mao-zedong"
+    "personalityId": "mao-zedong",
+    "religions": []
   },
   {
     "id": "comunismo-trotskista",
@@ -37,7 +40,8 @@
     "phrase": "Quero a revolução permanente e mundial dirigida por um partido de vanguarda, com ditadura do proletariado, economia planificada e nenhuma burocracia stalinista.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "trotsky"
+    "personalityId": "trotsky",
+    "religions": []
   },
   {
     "id": "socialismo-luxemburguista",
@@ -47,7 +51,8 @@
     "phrase": "Quero uma sociedade movida pela espontaneidade das massas e greve geral, revolucionária e livre, sem vanguarda autoritária nem reformismo.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "anton-pannekoek"
+    "personalityId": "anton-pannekoek",
+    "religions": []
   },
   {
     "id": "comunismo-nacional",
@@ -57,7 +62,8 @@
     "phrase": "Quero uma sociedade socialista voltada à soberania e aos interesses da própria nação, sob liderança forte, e não ao internacionalismo.",
     "vector": null,
     "countryId": "coreia-do-norte",
-    "personalityId": "kim-il-sung"
+    "personalityId": "kim-il-sung",
+    "religions": []
   },
   {
     "id": "socialismo-juche",
@@ -67,7 +73,8 @@
     "phrase": "Quero uma sociedade autossuficiente e militarizada, guiada pelo Juche sob partido único e culto ao líder, sem depender do exterior.",
     "vector": null,
     "countryId": "coreia-do-norte",
-    "personalityId": "kim-il-sung"
+    "personalityId": "kim-il-sung",
+    "religions": []
   },
   {
     "id": "socialismo-pol-potista",
@@ -77,7 +84,8 @@
     "phrase": "Quero uma sociedade camponesa igualitária, sem cidades, dinheiro nem mercado, reconstruída à força pelo Angkar revolucionário.",
     "vector": null,
     "countryId": "camboja-do-khmer-vermelho-pol-pot",
-    "personalityId": "pol-pot"
+    "personalityId": "pol-pot",
+    "religions": []
   },
   {
     "id": "socialismo-denguista",
@@ -87,7 +95,8 @@
     "phrase": "Quero um socialismo pragmático, abrindo mercado e propriedade privada para enriquecer o país, sob controle absoluto do Partido Comunista.",
     "vector": null,
     "countryId": "china",
-    "personalityId": "deng-xiaoping"
+    "personalityId": "deng-xiaoping",
+    "religions": []
   },
   {
     "id": "socialismo-de-estado",
@@ -97,7 +106,8 @@
     "phrase": "Quero uma sociedade em que o Estado controle os meios de produção e planeje a economia, com autoridade política forte e pouco debate eleitoral.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "ferdinand-lassalle"
+    "personalityId": "ferdinand-lassalle",
+    "religions": []
   },
   {
     "id": "progressismo-autoritario",
@@ -107,7 +117,8 @@
     "phrase": "Quero uma sociedade transformada de cima para baixo em costumes e igualdade, usando o Estado mesmo contra a oposição organizada.",
     "vector": null,
     "countryId": "turquia",
-    "personalityId": "ataturk"
+    "personalityId": "ataturk",
+    "religions": []
   },
   {
     "id": "ecoautoritarismo",
@@ -117,7 +128,8 @@
     "phrase": "Quero uma sociedade em que o Estado imponha limites rígidos ao consumo e à produção para deter a crise ecológica, acima de liberdades individuais.",
     "vector": null,
     "countryId": "china",
-    "personalityId": "garrett-hardin"
+    "personalityId": "garrett-hardin",
+    "religions": []
   },
   {
     "id": "tecnocracia-de-esquerda",
@@ -127,7 +139,8 @@
     "phrase": "Quero uma sociedade organizada por comissões de especialistas, não por eleições, planejando a produção e distribuindo recursos com igualdade.",
     "vector": null,
     "countryId": "china",
-    "personalityId": "otto-neurath"
+    "personalityId": "otto-neurath",
+    "religions": []
   },
   {
     "id": "nacional-bolchevismo",
@@ -137,7 +150,8 @@
     "phrase": "Quero uma sociedade que funda soviete e nação, coletivista e autoritária, contra o liberalismo, o Ocidente e o individualismo burguês.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "ernst-niekisch"
+    "personalityId": "ernst-niekisch",
+    "religions": []
   },
   {
     "id": "socialismo-strasserista",
@@ -147,7 +161,8 @@
     "phrase": "Quero uma revolução social nacionalista de massas dentro do movimento, nacionalizando a economia contra o capital e a velha ordem.",
     "vector": null,
     "countryId": "alemanha-nazista-terceiro-reich",
-    "personalityId": "gregor-strasser"
+    "personalityId": "gregor-strasser",
+    "religions": ["christianity"]
   },
   {
     "id": "fascismo",
@@ -157,7 +172,8 @@
     "phrase": "Quero uma nação exaltada sob Estado forte e líder único, com militarismo, mobilização de massas e corporações a serviço da pátria.",
     "vector": null,
     "countryId": "italia-fascista-mussolini",
-    "personalityId": "mussolini"
+    "personalityId": "mussolini",
+    "religions": ["christianity"]
   },
   {
     "id": "nacional-socialismo",
@@ -167,7 +183,8 @@
     "phrase": "Quero uma sociedade baseada na raça ariana, politicamente hierárquica e autoritária, com um capitalismo de estado forte e protecionista.",
     "vector": null,
     "countryId": "alemanha-nazista-terceiro-reich",
-    "personalityId": "hitler"
+    "personalityId": "hitler",
+    "religions": []
   },
   {
     "id": "falangismo",
@@ -177,7 +194,8 @@
     "phrase": "Quero um Estado corporativo católico, unido sob um chefe autoritário, com sindicatos verticais organizando o trabalho e o comércio protegido.",
     "vector": null,
     "countryId": "espanha-franquista",
-    "personalityId": "jose-antonio-primo-de-rivera"
+    "personalityId": "jose-antonio-primo-de-rivera",
+    "religions": ["christianity"]
   },
   {
     "id": "nacional-sindicalismo",
@@ -187,7 +205,8 @@
     "phrase": "Quero uma nação mobilizada em torno do Estado, com sindicatos corporativos organizando o trabalho e rejeitando liberalismo e marxismo.",
     "vector": null,
     "countryId": "espanha-franquista",
-    "personalityId": "jose-antonio-primo-de-rivera"
+    "personalityId": "jose-antonio-primo-de-rivera",
+    "religions": ["christianity"]
   },
   {
     "id": "integralismo-brasileiro",
@@ -197,7 +216,8 @@
     "phrase": "Quero uma pátria sob Deus, Pátria e Família, comandada por um chefe autoritário e milícias fardadas contra liberais e comunistas.",
     "vector": null,
     "countryId": "imperio-do-brasil",
-    "personalityId": "plinio-salgado"
+    "personalityId": "plinio-salgado",
+    "religions": ["christianity"]
   },
   {
     "id": "capitalismo-autoritario",
@@ -207,7 +227,8 @@
     "phrase": "Quero uma economia de mercado com propriedade privada, sob um Estado fechado que garante ordem e crescimento restringindo a competição política.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "lee-kuan-yew"
+    "personalityId": "lee-kuan-yew",
+    "religions": []
   },
   {
     "id": "capitalismo-nacional",
@@ -217,7 +238,8 @@
     "phrase": "Quero uma indústria nacional protegida por tarifas e planejamento estatal, com livre iniciativa a serviço da soberania e dos empregos do país.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "putin"
+    "personalityId": "putin",
+    "religions": ["christianity", "islam"]
   },
   {
     "id": "alt-right",
@@ -227,7 +249,8 @@
     "phrase": "Quero uma nação étnica homogênea, fechada à imigração e ao multiculturalismo, com identidade branca defendida contra o globalismo comercial.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "richard-spencer"
+    "personalityId": "richard-spencer",
+    "religions": ["christianity", "other"]
   },
   {
     "id": "alt-lite",
@@ -237,7 +260,8 @@
     "phrase": "Quero preservar a identidade cultural do meu povo contra a imigração descontrolada e o politicamente correto, sem recorrer ao supremacismo racial.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "gk-chesterton"
+    "personalityId": "gk-chesterton",
+    "religions": ["christianity"]
   },
   {
     "id": "aceleracionismo-de-direita",
@@ -247,7 +271,8 @@
     "phrase": "Quero acelerar o colapso das instituições liberais com tecnologia e mercados sem Estado, para que uma nova hierarquia nasça das ruínas.",
     "vector": null,
     "countryId": "eua-california",
-    "personalityId": "nick-land"
+    "personalityId": "nick-land",
+    "religions": []
   },
   {
     "id": "neoconservadorismo",
@@ -257,7 +282,8 @@
     "phrase": "Quero exportar a democracia e defender os interesses da nação pela força militar, unindo livre mercado a valores tradicionais em casa.",
     "vector": null,
     "countryId": "eua-washington-dc",
-    "personalityId": "irving-kristol"
+    "personalityId": "irving-kristol",
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "monarquismo-absoluto",
@@ -267,7 +293,8 @@
     "phrase": "Quero um reino unitário governado por um soberano de direito divino, sem parlamento ou constituição que limitem a autoridade da coroa.",
     "vector": null,
     "countryId": "arabia-saudita",
-    "personalityId": "louis-xiv"
+    "personalityId": "louis-xiv",
+    "religions": ["christianity", "islam", "other"]
   },
   {
     "id": "conservadorismo-autoritario",
@@ -277,7 +304,8 @@
     "phrase": "Quero uma ordem hierárquica sustentada por um Estado forte, que proteja a tradição, a religião e os costumes contra a subversão moral.",
     "vector": null,
     "countryId": "portugal-estado-novo",
-    "personalityId": "salazar"
+    "personalityId": "salazar",
+    "religions": ["christianity", "islam"]
   },
   {
     "id": "conservadorismo-nacional",
@@ -287,7 +315,8 @@
     "phrase": "Quero uma democracia que proteja fronteiras, família e religião, afirmando a identidade do meu povo contra o globalismo cultural.",
     "vector": null,
     "countryId": "hungria",
-    "personalityId": "viktor-orban"
+    "personalityId": "viktor-orban",
+    "religions": ["christianity", "judaism", "islam"]
   },
   {
     "id": "conservadorismo-paternalista",
@@ -297,7 +326,8 @@
     "phrase": "Quero uma nação unida por elites responsáveis, que reformem e protejam os mais pobres para manter a harmonia entre as classes.",
     "vector": null,
     "countryId": "reino-unido-vitoriano-imperio-britanico",
-    "personalityId": "benjamin-disraeli"
+    "personalityId": "benjamin-disraeli",
+    "religions": ["christianity"]
   },
   {
     "id": "fundamentalismo-religioso",
@@ -307,7 +337,8 @@
     "phrase": "Quero um Estado subordinado à lei sagrada, onde os costumes e a política obedeçam à doutrina religiosa e rejeitem o secularismo.",
     "vector": null,
     "countryId": "ira",
-    "personalityId": "khomeini"
+    "personalityId": "khomeini",
+    "religions": ["christianity", "judaism", "islam", "other"]
   },
   {
     "id": "nacionalismo-etnico",
@@ -317,7 +348,8 @@
     "phrase": "Quero um Estado da minha etnia, unido por sangue, língua e ascendência comuns, preservando sua identidade frente a minorias e imigrantes.",
     "vector": null,
     "countryId": "israel",
-    "personalityId": "jabotinsky"
+    "personalityId": "jabotinsky",
+    "religions": ["christianity", "judaism", "islam"]
   },
   {
     "id": "nacionalismo-cultural",
@@ -327,7 +359,8 @@
     "phrase": "Quero uma nação unida pela língua, pelas tradições e pela herança comuns, aberta a quem adota nossos valores, com economia protegida e coordenada.",
     "vector": null,
     "countryId": "israel",
-    "personalityId": "ahad-haam"
+    "personalityId": "ahad-haam",
+    "religions": []
   },
   {
     "id": "neorreacionarismo",
@@ -337,7 +370,8 @@
     "phrase": "Quero uma sociedade regida por um soberano hierárquico como CEO, sem democracia, unindo tradição e tecnologia num Estado enxuto e eficiente.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "curtis-yarvin"
+    "personalityId": "curtis-yarvin",
+    "religions": []
   },
   {
     "id": "cameralismo",
@@ -347,7 +381,8 @@
     "phrase": "Quero um reino servido por uma burocracia disciplinada e finanças centralizadas, que faça crescer indústria, população e receita para a coroa.",
     "vector": null,
     "countryId": "prussia",
-    "personalityId": "frederico-ii-da-prussia"
+    "personalityId": "frederico-ii-da-prussia",
+    "religions": []
   },
   {
     "id": "corporativismo",
@@ -357,7 +392,8 @@
     "phrase": "Quero uma sociedade organizada em corporações de patrões e trabalhadores integradas ao Estado, em harmonia dirigida entre as classes.",
     "vector": null,
     "countryId": "italia-fascista-mussolini",
-    "personalityId": "mussolini"
+    "personalityId": "mussolini",
+    "religions": ["christianity"]
   },
   {
     "id": "reacionarismo",
@@ -367,7 +403,8 @@
     "phrase": "Quero restaurar o trono, o altar e a hierarquia de antes das revoluções, varrendo o racionalismo iluminista e a democracia liberal.",
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
-    "personalityId": "joseph-de-maistre"
+    "personalityId": "joseph-de-maistre",
+    "religions": ["christianity"]
   },
   {
     "id": "quarta-teoria-politica",
@@ -377,7 +414,8 @@
     "phrase": "Quero um mundo multipolar de civilizações enraizadas em tradição e identidade coletiva, erguido contra o globalismo e a hegemonia ocidental.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "aleksandr-dugin"
+    "personalityId": "aleksandr-dugin",
+    "religions": ["christianity"]
   },
   {
     "id": "democracia-nacional",
@@ -387,7 +425,8 @@
     "phrase": "Quero uma nação soberana que vote livremente suas leis, mas coloque a identidade e os interesses do povo acima de qualquer compromisso supranacional.",
     "vector": null,
     "countryId": "polonia",
-    "personalityId": "roman-dmowski"
+    "personalityId": "roman-dmowski",
+    "religions": []
   },
   {
     "id": "bioconservadorismo",
@@ -397,7 +436,8 @@
     "phrase": "Quero uma sociedade que trace limites éticos à manipulação genética e ao aprimoramento do corpo, protegendo a dignidade humana diante da ciência.",
     "vector": null,
     "countryId": "japao",
-    "personalityId": "leon-kass"
+    "personalityId": "leon-kass",
+    "religions": []
   },
   {
     "id": "tecnocracia-de-direita",
@@ -407,7 +447,8 @@
     "phrase": "Quero um governo entregue a especialistas e à eficiência tecnológica, que substitua a disputa partidária por decisões técnicas e mercado.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "lee-kuan-yew"
+    "personalityId": "lee-kuan-yew",
+    "religions": []
   },
   {
     "id": "democracia-crista",
@@ -417,7 +458,8 @@
     "phrase": "Quero uma democracia pluralista guiada por valores cristãos, com economia social de mercado que sustente a família e o bem comum.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "konrad-adenauer"
+    "personalityId": "konrad-adenauer",
+    "religions": ["christianity"]
   },
   {
     "id": "conservadorismo-cristao",
@@ -427,7 +469,8 @@
     "phrase": "Quero uma sociedade fiel à moral e à fé cristãs, que proteja a família, a vida e os costumes herdados contra a erosão dos tempos.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "william-f-buckley"
+    "personalityId": "william-f-buckley",
+    "religions": ["christianity"]
   },
   {
     "id": "republicanismo",
@@ -437,7 +480,8 @@
     "phrase": "Quero uma república de cidadãos virtuosos, com separação de poderes e império da lei, vigilante contra a tirania e a corrupção do poder.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "cicero"
+    "personalityId": "cicero",
+    "religions": []
   },
   {
     "id": "monarquismo-constitucional",
@@ -447,7 +491,8 @@
     "phrase": "Quero um rei submetido à constituição e ao parlamento, símbolo de unidade e continuidade dentro de uma democracia representativa estável.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "montesquieu"
+    "personalityId": "montesquieu",
+    "religions": []
   },
   {
     "id": "neoliberalismo",
@@ -457,7 +502,8 @@
     "phrase": "Quero um mercado livre e desregulado, com Estado enxuto, privatizações e disciplina fiscal como motores da prosperidade e da concorrência.",
     "vector": null,
     "countryId": "eua-nova-york",
-    "personalityId": "milton-friedman"
+    "personalityId": "milton-friedman",
+    "religions": []
   },
   {
     "id": "ordoliberalismo",
@@ -467,7 +513,8 @@
     "phrase": "Quero um mercado livre disciplinado por regras firmes do Estado, que impeçam monopólios e sustentem a economia social de mercado.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "ludwig-erhard"
+    "personalityId": "ludwig-erhard",
+    "religions": []
   },
   {
     "id": "distributismo",
@@ -477,7 +524,8 @@
     "phrase": "Quero comunidades de pequenos proprietários autônomos, com propriedade amplamente distribuída, rejeitando o monopólio capitalista e o Estado socialista.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "gk-chesterton"
+    "personalityId": "gk-chesterton",
+    "religions": ["christianity"]
   },
   {
     "id": "tecnocracia",
@@ -487,7 +535,8 @@
     "phrase": "Quero uma sociedade dirigida por especialistas, com decisões técnicas substituindo a barganha política e a economia planejada por critérios científicos.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "henri-de-saint-simon"
+    "personalityId": "henri-de-saint-simon",
+    "religions": []
   },
   {
     "id": "comunitarismo",
@@ -497,7 +546,8 @@
     "phrase": "Quero uma sociedade tecida por laços comunitários e tradições compartilhadas, com democracia participativa e economia voltada ao bem comum.",
     "vector": null,
     "countryId": "japao",
-    "personalityId": "michael-sandel"
+    "personalityId": "michael-sandel",
+    "religions": []
   },
   {
     "id": "meritocracia",
@@ -507,7 +557,8 @@
     "phrase": "Quero uma sociedade onde talento e esforço decidem posições, com igualdade de oportunidades e recompensa proporcional ao mérito de cada um.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "adrian-wooldridge"
+    "personalityId": "adrian-wooldridge",
+    "religions": []
   },
   {
     "id": "liberalismo",
@@ -517,7 +568,8 @@
     "phrase": "Quero uma sociedade tolerante fundada nos direitos individuais, com governo limitado pelo Estado de direito e economia de mercado livre.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "john-stuart-mill"
+    "personalityId": "john-stuart-mill",
+    "religions": []
   },
   {
     "id": "liberalismo-classico",
@@ -527,7 +579,8 @@
     "phrase": "Quero uma sociedade de direitos naturais e propriedade sagrada, com Estado mínimo e mercado livre como base da vida justa.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "john-locke"
+    "personalityId": "john-locke",
+    "religions": []
   },
   {
     "id": "libertarianismo",
@@ -537,7 +590,8 @@
     "phrase": "Quero uma sociedade de máxima autonomia pessoal, com o Estado reduzido a funções essenciais e propriedade privada acima de qualquer coerção.",
     "vector": null,
     "countryId": "eua-new-hampshire",
-    "personalityId": "robert-nozick"
+    "personalityId": "robert-nozick",
+    "religions": []
   },
   {
     "id": "liberalismo-verde",
@@ -547,7 +601,8 @@
     "phrase": "Quero uma sociedade que una mercado e democracia à causa ecológica, inovando para conciliar prosperidade com sustentabilidade ambiental.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "al-gore"
+    "personalityId": "al-gore",
+    "religions": []
   },
   {
     "id": "liberalismo-social",
@@ -557,7 +612,8 @@
     "phrase": "Quero uma sociedade de liberdades individuais sustentada por seguridade social forte, com Estado garantindo saúde e educação a todos.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "beveridge"
+    "personalityId": "beveridge",
+    "religions": []
   },
   {
     "id": "liberalismo-conservador",
@@ -567,7 +623,8 @@
     "phrase": "Quero uma sociedade que una livre mercado à tradição e às instituições, mudando com prudência dentro da moldura da democracia liberal.",
     "vector": null,
     "countryId": "eua-nova-york",
-    "personalityId": "edmund-burke"
+    "personalityId": "edmund-burke",
+    "religions": ["christianity"]
   },
   {
     "id": "reformismo-georgista",
@@ -577,7 +634,8 @@
     "phrase": "Quero uma sociedade financiada por imposto único sobre a terra, já que sua renda pertence a todos e o trabalho não deve ser tributado.",
     "vector": null,
     "countryId": "hong-kong",
-    "personalityId": "henry-george"
+    "personalityId": "henry-george",
+    "religions": []
   },
   {
     "id": "geolibertarianismo",
@@ -587,7 +645,8 @@
     "phrase": "Quero uma sociedade de liberdades plenas e mercado livre, taxando apenas a terra como recurso comum para sustentar um Estado mínimo.",
     "vector": null,
     "countryId": "hong-kong",
-    "personalityId": "henry-george"
+    "personalityId": "henry-george",
+    "religions": []
   },
   {
     "id": "liberalismo-de-estado",
@@ -597,7 +656,8 @@
     "phrase": "Quero uma sociedade de mercado com Estado atuante, regulando a economia e ampliando direitos para garantir bem-estar coletivo.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "john-rawls"
+    "personalityId": "john-rawls",
+    "religions": []
   },
   {
     "id": "ambientalismo",
@@ -607,7 +667,8 @@
     "phrase": "Quero uma sociedade que ponha o equilíbrio ecológico acima do consumo, com políticas de Estado fortes contra poluição e mudança climática.",
     "vector": null,
     "countryId": "costa-rica",
-    "personalityId": "aldo-leopold"
+    "personalityId": "aldo-leopold",
+    "religions": []
   },
   {
     "id": "conservadorismo",
@@ -617,7 +678,8 @@
     "phrase": "Quero uma sociedade que preserve costumes, família e instituições, mudando aos poucos e com ceticismo diante de utopias e rupturas.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "edmund-burke"
+    "personalityId": "edmund-burke",
+    "religions": ["christianity", "judaism", "islam"]
   },
   {
     "id": "progressismo",
@@ -627,7 +689,8 @@
     "phrase": "Quero uma sociedade multicultural em constante reforma, ampliando direitos e usando o Estado para superar desigualdades pela ciência.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "theodore-roosevelt"
+    "personalityId": "theodore-roosevelt",
+    "religions": []
   },
   {
     "id": "nacionalismo",
@@ -637,7 +700,8 @@
     "phrase": "Quero uma sociedade assimilada à identidade nacional, com ordem forte e economia protegida do estrangeiro em nome da soberania do povo.",
     "vector": null,
     "countryId": "brasil-era-vargas",
-    "personalityId": "getulio-vargas"
+    "personalityId": "getulio-vargas",
+    "religions": []
   },
   {
     "id": "nacionalismo-civico",
@@ -647,7 +711,8 @@
     "phrase": "Quero uma nação definida pela cidadania e pelas leis comuns, não pela etnia, aberta a quem aceite nossos princípios democráticos.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "ernest-renan"
+    "personalityId": "ernest-renan",
+    "religions": []
   },
   {
     "id": "indigenismo",
@@ -657,7 +722,8 @@
     "phrase": "Quero uma sociedade plurinacional que respeite território, autonomia e tradições dos povos originários, com participação política plena deles.",
     "vector": null,
     "countryId": "bolivia",
-    "personalityId": "evo-morales"
+    "personalityId": "evo-morales",
+    "religions": []
   },
   {
     "id": "conservadorismo-socialista",
@@ -667,7 +733,8 @@
     "phrase": "Quero um Estado forte que garanta proteção social e indústria pública, mas guarde família, ordem e costumes contra o progressismo cultural.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "bismarck"
+    "personalityId": "bismarck",
+    "religions": ["christianity"]
   },
   {
     "id": "anarquismo",
@@ -677,7 +744,8 @@
     "phrase": "Quero uma sociedade sem Estado, organizada por associações voluntárias e apoio mútuo, onde liberdade e igualdade substituem toda autoridade coercitiva.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "bakunin"
+    "personalityId": "bakunin",
+    "religions": []
   },
   {
     "id": "anarcocomunismo",
@@ -687,7 +755,8 @@
     "phrase": "Quero abolir Estado e propriedade privada, com produção coletiva e distribuição pela necessidade, sustentada em livre associação e apoio mútuo.",
     "vector": null,
     "countryId": "ucrania-territorio-livre",
-    "personalityId": "kropotkin"
+    "personalityId": "kropotkin",
+    "religions": []
   },
   {
     "id": "anarcossindicalismo",
@@ -697,7 +766,8 @@
     "phrase": "Quero que sindicatos revolucionários derrubem o capitalismo pela ação direta e greve geral, com os trabalhadores controlando a produção sem Estado.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "durruti"
+    "personalityId": "durruti",
+    "religions": []
   },
   {
     "id": "sindicalismo",
@@ -707,7 +777,8 @@
     "phrase": "Quero que sindicatos e negociação coletiva estejam no centro da política, com controle operário sobre a produção como via de emancipação da classe trabalhadora.",
     "vector": null,
     "countryId": "italia-fascista-mussolini",
-    "personalityId": "sorel"
+    "personalityId": "sorel",
+    "religions": []
   },
   {
     "id": "socialismo-libertario",
@@ -717,7 +788,8 @@
     "phrase": "Quero socialismo sem Estado autoritário, com propriedade coletiva e autogestão organizadas de baixo para cima por comunidades e trabalhadores livres.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "chomsky"
+    "personalityId": "chomsky",
+    "religions": []
   },
   {
     "id": "socialismo-de-mercado",
@@ -727,7 +799,8 @@
     "phrase": "Quero empresas de propriedade coletiva competindo em mercados, unindo a eficiência da concorrência à distribuição socialista dos lucros, sem plano central rígido.",
     "vector": null,
     "countryId": "iugoslavia-socialista",
-    "personalityId": "oskar-lange"
+    "personalityId": "oskar-lange",
+    "religions": []
   },
   {
     "id": "mutualismo",
@@ -737,7 +810,8 @@
     "phrase": "Quero cooperativas e produtores trocando de forma justa, com crédito livre e propriedade pelo uso, sem patrões, exploração nem Estado central.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "proudhon"
+    "personalityId": "proudhon",
+    "religions": []
   },
   {
     "id": "minarco-mutualismo",
@@ -747,7 +821,8 @@
     "phrase": "Quero cooperativas e crédito livre do mutualismo somados a um Estado mínimo, restrito a proteger direitos, contratos e liberdades essenciais.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "proudhon"
+    "personalityId": "proudhon",
+    "religions": []
   },
   {
     "id": "socialismo-individualista",
@@ -757,7 +832,8 @@
     "phrase": "Quero cooperação e propriedade coletiva que nunca sacrifiquem a autonomia, a liberdade e a singularidade de cada indivíduo.",
     "vector": null,
     "countryId": "eua-massachusetts",
-    "personalityId": "benjamin-tucker"
+    "personalityId": "benjamin-tucker",
+    "religions": []
   },
   {
     "id": "comunalismo",
@@ -767,7 +843,8 @@
     "phrase": "Quero municípios autônomos com assembleias populares federadas, economia comunitária e democracia direta, substituindo o Estado por uma confederação livre.",
     "vector": null,
     "countryId": "rojava",
-    "personalityId": "bookchin"
+    "personalityId": "bookchin",
+    "religions": []
   },
   {
     "id": "socialismo-cristao",
@@ -777,7 +854,8 @@
     "phrase": "Quero o Reino de Deus na Terra pela revolução dos pobres, com todos os bens em comum e os poderosos derrubados pela força dos eleitos.",
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
-    "personalityId": "thomas-muntzer"
+    "personalityId": "thomas-muntzer",
+    "religions": ["christianity"]
   },
   {
     "id": "trabalhismo-cristao",
@@ -787,7 +865,8 @@
     "phrase": "Quero direitos trabalhistas e proteção social dentro da democracia, inspirados na doutrina social da Igreja e na solidariedade cristã.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "maritain"
+    "personalityId": "maritain",
+    "religions": ["christianity"]
   },
   {
     "id": "social-democracia-crista",
@@ -797,7 +876,8 @@
     "phrase": "Quero justiça social guiada pelo Evangelho, conquistada nas urnas, com sindicatos fortes, Estado de bem-estar e dignidade para quem trabalha.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "keir-hardie"
+    "personalityId": "keir-hardie",
+    "religions": ["christianity"]
   },
   {
     "id": "social-democracia",
@@ -807,7 +887,8 @@
     "phrase": "Quero uma sociedade de mercado regulado e Estado de bem-estar forte, com direitos trabalhistas e redistribuição pela via democrática.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "olof-palme"
+    "personalityId": "olof-palme",
+    "religions": []
   },
   {
     "id": "socialismo",
@@ -817,7 +898,8 @@
     "phrase": "Quero uma sociedade sem exploração, com meios de produção coletivos e planejamento econômico substituindo o mercado capitalista.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "karl-marx"
+    "personalityId": "karl-marx",
+    "religions": []
   },
   {
     "id": "socialismo-liberal",
@@ -827,7 +909,8 @@
     "phrase": "Quero uma sociedade que una igualdade socialista a liberdades individuais plenas, com pluralismo democrático e economia mista.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "rosselli"
+    "personalityId": "rosselli",
+    "religions": []
   },
   {
     "id": "libertarianismo-social",
@@ -837,7 +920,8 @@
     "phrase": "Quero comunidades autônomas de propriedade compartilhada, sem Estado nem capital, unindo liberdade individual e cooperação coletiva.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "orwell"
+    "personalityId": "orwell",
+    "religions": []
   },
   {
     "id": "ecossocialismo",
@@ -847,7 +931,8 @@
     "phrase": "Quero uma sociedade que supere o capitalismo com produção coletiva e sustentável, planejada democraticamente dentro dos limites da natureza.",
     "vector": null,
     "countryId": "bolivia",
-    "personalityId": "andre-gorz"
+    "personalityId": "andre-gorz",
+    "religions": []
   },
   {
     "id": "ecologia-profunda",
@@ -857,7 +942,8 @@
     "phrase": "Quero uma sociedade que reconheça valor intrínseco a toda vida, reduzindo o impacto humano em respeito ao equilíbrio dos ecossistemas.",
     "vector": null,
     "countryId": "costa-rica",
-    "personalityId": "arne-naess"
+    "personalityId": "arne-naess",
+    "religions": []
   },
   {
     "id": "anarquismo-agrario",
@@ -867,7 +953,8 @@
     "phrase": "Quero comunidades rurais autônomas de terra coletiva, sem Estado nem latifúndio, organizadas pela cooperação camponesa e autogestão.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "zapata"
+    "personalityId": "zapata",
+    "religions": []
   },
   {
     "id": "anarquismo-verde",
@@ -877,7 +964,8 @@
     "phrase": "Quero comunidades descentralizadas sem Estado, vivendo em harmonia com os ciclos ecológicos, sem exploração da natureza.",
     "vector": null,
     "countryId": "rojava",
-    "personalityId": "bookchin"
+    "personalityId": "bookchin",
+    "religions": []
   },
   {
     "id": "anarco-progressismo",
@@ -887,7 +975,8 @@
     "phrase": "Quero uma sociedade sem Estado, capital ou hierarquia, libertando corpo e identidade do patriarcado com tecnologia emancipadora.",
     "vector": null,
     "countryId": "rojava",
-    "personalityId": "emile-armand"
+    "personalityId": "emile-armand",
+    "religions": []
   },
   {
     "id": "anarcopacifismo",
@@ -897,7 +986,8 @@
     "phrase": "Quero uma sociedade sem Estado nem violência, construída por desobediência civil e cooperação voluntária entre pessoas livres.",
     "vector": null,
     "countryId": "costa-rica",
-    "personalityId": "tolstoy"
+    "personalityId": "tolstoy",
+    "religions": []
   },
   {
     "id": "anarquismo-cristao",
@@ -907,7 +997,8 @@
     "phrase": "Quero comunidades livres guiadas pelo Evangelho, sem Estado, vivendo o amor e a igualdade pela consciência e pela caridade.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "tolstoy"
+    "personalityId": "tolstoy",
+    "religions": ["christianity"]
   },
   {
     "id": "anarco-naturalismo",
@@ -917,7 +1008,8 @@
     "phrase": "Quero viver sem Estado nem convenções opressoras, em contato simples com a natureza, valorizando autonomia individual e saúde.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "thoreau"
+    "personalityId": "thoreau",
+    "religions": []
   },
   {
     "id": "geoanarquismo",
@@ -927,7 +1019,8 @@
     "phrase": "Quero abolir o Estado e tratar a terra como bem comum, partilhando livremente sua renda por toda a comunidade.",
     "vector": null,
     "countryId": "hong-kong",
-    "personalityId": "henry-george"
+    "personalityId": "henry-george",
+    "religions": []
   },
   {
     "id": "anarcocapitalismo",
@@ -937,7 +1030,8 @@
     "phrase": "Quero abolir o Estado e organizar tudo por contratos e mercados livres, com segurança e justiça vendidas por empresas privadas.",
     "vector": null,
     "countryId": "islandia-medieval",
-    "personalityId": "rothbard"
+    "personalityId": "rothbard",
+    "religions": []
   },
   {
     "id": "minarquismo",
@@ -947,7 +1041,8 @@
     "phrase": "Quero um Estado mínimo, restrito a polícia, justiça e defesa, deixando o resto ao mercado livre e à iniciativa privada.",
     "vector": null,
     "countryId": "eua-new-hampshire",
-    "personalityId": "bastiat"
+    "personalityId": "bastiat",
+    "religions": []
   },
   {
     "id": "paleolibertarianismo",
@@ -957,7 +1052,8 @@
     "phrase": "Quero livre mercado radical unido a valores tradicionais, com propriedade e comunidades locais autônomas contra o Estado.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "ron-paul"
+    "personalityId": "ron-paul",
+    "religions": ["christianity"]
   },
   {
     "id": "libertarianismo-hoppeano",
@@ -967,7 +1063,8 @@
     "phrase": "Quero uma ordem de propriedade privada absoluta, regida por contratos e comunidades que expulsam quem rejeita suas regras, sem democracia igualitária nem Estado.",
     "vector": null,
     "countryId": "liechtenstein",
-    "personalityId": "hoppe"
+    "personalityId": "hoppe",
+    "religions": []
   },
   {
     "id": "capitalismo",
@@ -977,7 +1074,8 @@
     "phrase": "Quero uma sociedade movida pela iniciativa individual, onde concorrência e livre mercado, não o Estado, decidem preços, produção e lucro.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "adam-smith"
+    "personalityId": "adam-smith",
+    "religions": []
   },
   {
     "id": "objetivismo",
@@ -987,7 +1085,8 @@
     "phrase": "Quero uma sociedade de egoísmo racional e razão, onde cada um busca sua própria felicidade e o capitalismo laissez-faire é a única moral válida.",
     "vector": null,
     "countryId": "eua-nova-york",
-    "personalityId": "leonard-peikoff"
+    "personalityId": "leonard-peikoff",
+    "religions": []
   },
   {
     "id": "ecocapitalismo",
@@ -997,7 +1096,8 @@
     "phrase": "Quero uma economia verde de mercado, em que precificação, tecnologia e lucro tornam proteger a natureza compatível com o crescimento e a livre iniciativa.",
     "vector": null,
     "countryId": "eua-california",
-    "personalityId": "elon-musk"
+    "personalityId": "elon-musk",
+    "religions": []
   },
   {
     "id": "ecoconservadorismo",
@@ -1007,7 +1107,8 @@
     "phrase": "Quero preservar a natureza como parte da tradição e do patrimônio herdado, com prudência diante de mudanças e economia mista e equilibrada.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "scruton"
+    "personalityId": "scruton",
+    "religions": ["christianity"]
   },
   {
     "id": "econacionalismo",
@@ -1017,7 +1118,8 @@
     "phrase": "Quero proteger os recursos naturais e a terra da minha nação, com planejamento estatal e fronteiras econômicas que garantam soberania e sustentabilidade.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "friedrich-list"
+    "personalityId": "friedrich-list",
+    "religions": []
   },
   {
     "id": "criptoanarquismo",
@@ -1027,7 +1129,8 @@
     "phrase": "Quero uma vida protegida por criptografia, sem vigilância nem fronteiras que travem transações, dissolvendo a autoridade do Estado pela tecnologia.",
     "vector": null,
     "countryId": "suica",
-    "personalityId": "phil-zimmermann"
+    "personalityId": "phil-zimmermann",
+    "religions": []
   },
   {
     "id": "libertarianismo-bleeding-heart",
@@ -1037,7 +1140,8 @@
     "phrase": "Quero liberdade econômica e individual que também tire os mais pobres da miséria, unindo mercado livre a compaixão pela justiça social.",
     "vector": null,
     "countryId": "eua-new-hampshire",
-    "personalityId": "hayek"
+    "personalityId": "hayek",
+    "religions": []
   },
   {
     "id": "libertarianismo-nacional",
@@ -1047,7 +1151,8 @@
     "phrase": "Quero um governo limitado e mercado livre que também protejam fronteiras, soberania e a identidade da minha nação.",
     "vector": null,
     "countryId": "argentina",
-    "personalityId": "javier-milei"
+    "personalityId": "javier-milei",
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "monarquismo-libertario",
@@ -1057,7 +1162,8 @@
     "phrase": "Quero um rei de poder limitado que garanta propriedade e liberdades individuais, mantendo o Estado enxuto e afastado da vida das pessoas.",
     "vector": null,
     "countryId": "liechtenstein",
-    "personalityId": "hoppe"
+    "personalityId": "hoppe",
+    "religions": ["christianity"]
   },
   {
     "id": "monarquismo-federalista",
@@ -1067,7 +1173,8 @@
     "phrase": "Quero uma coroa que una a nação simbolicamente, dividindo poder com regiões autônomas que se autogovernam dentro de uma federação histórica.",
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
-    "personalityId": "otto-von-habsburg"
+    "personalityId": "otto-von-habsburg",
+    "religions": ["christianity"]
   },
   {
     "id": "conservadorismo-libertario",
@@ -1077,7 +1184,8 @@
     "phrase": "Quero liberdade econômica e Estado mínimo lado a lado com a tradição, a família e os costumes que sustentam a ordem social.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "goldwater"
+    "personalityId": "goldwater",
+    "religions": ["christianity"]
   },
   {
     "id": "feminismo-libertario",
@@ -1087,7 +1195,8 @@
     "phrase": "Quero que mulheres conquistem igualdade pela liberdade individual e pelo mercado, sem tutela do Estado sobre seus corpos e suas escolhas.",
     "vector": null,
     "countryId": "eua-california",
-    "personalityId": "ezra-heywood"
+    "personalityId": "ezra-heywood",
+    "religions": []
   },
   {
     "id": "anarcoconservadorismo",
@@ -1097,7 +1206,8 @@
     "phrase": "Quero abolir o poder político central e viver sob costumes, família e autoridade natural, numa ordem espontânea que preserva tradição e fé.",
     "vector": null,
     "countryId": "islandia-medieval",
-    "personalityId": "hoppe"
+    "personalityId": "hoppe",
+    "religions": ["christianity"]
   },
   {
     "id": "anarcodistributismo",
@@ -1107,7 +1217,8 @@
     "phrase": "Quero propriedade amplamente distribuída entre cooperativas e comunidades autônomas, produzindo em pequena escala sem Estado nem monopólios.",
     "vector": null,
     "countryId": "costa-rica",
-    "personalityId": "peter-maurin"
+    "personalityId": "peter-maurin",
+    "religions": ["christianity"]
   },
   {
     "id": "centrismo",
@@ -1117,7 +1228,8 @@
     "phrase": "Quero moderação e pragmatismo entre esquerda e direita, combinando o melhor de cada corrente em reformas graduais que evitam extremos.",
     "vector": null,
     "countryId": "suica",
-    "personalityId": "macron"
+    "personalityId": "macron",
+    "religions": []
   },
   {
     "id": "trabalhismo",
@@ -1127,7 +1239,8 @@
     "phrase": "Quero uma sociedade onde sindicatos fortes e o Estado de bem-estar garantam direitos trabalhistas e renda distribuída pela democracia.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "leonel-brizola"
+    "personalityId": "leonel-brizola",
+    "religions": []
   },
   {
     "id": "positivismo",
@@ -1137,7 +1250,8 @@
     "phrase": "Quero uma sociedade regida pela ordem e o progresso, administrada por técnicos que substituem a tradição e a metafísica pela ciência.",
     "vector": null,
     "countryId": "brasil-era-vargas",
-    "personalityId": "comte"
+    "personalityId": "comte",
+    "religions": []
   },
   {
     "id": "conservadorismo-secular",
@@ -1147,7 +1261,8 @@
     "phrase": "Quero uma sociedade que preserve tradição e instituições por argumentos laicos e históricos, sem apelar à religião para isso.",
     "vector": null,
     "countryId": "tchequia",
-    "personalityId": "masaryk"
+    "personalityId": "masaryk",
+    "religions": []
   },
   {
     "id": "progressismo-cristao",
@@ -1157,7 +1272,8 @@
     "phrase": "Quero uma sociedade guiada pelo Evangelho como chamado à justiça social, à solidariedade e ao cuidado com os pobres.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "leonardo-boff"
+    "personalityId": "leonardo-boff",
+    "religions": ["christianity"]
   },
   {
     "id": "autoritarismo-modernizador",
@@ -1167,7 +1283,8 @@
     "phrase": "Quero um Estado desenvolvimentista que direcione crédito e indústria privada, impondo ordem política em nome do progresso nacional.",
     "vector": null,
     "countryId": "coreia-do-sul",
-    "personalityId": "park-chung-hee"
+    "personalityId": "park-chung-hee",
+    "religions": []
   },
   {
     "id": "desenvolvimentismo-de-estado",
@@ -1177,7 +1294,8 @@
     "phrase": "Quero um Estado que dirija a industrialização por planos e investimento público, protegendo a indústria contra a dependência externa.",
     "vector": null,
     "countryId": "coreia-do-sul",
-    "personalityId": "park-chung-hee"
+    "personalityId": "park-chung-hee",
+    "religions": []
   },
   {
     "id": "atlantismo",
@@ -1187,7 +1305,8 @@
     "phrase": "Quero o Ocidente unido na OTAN e na UE, expandindo a aliança e usando a força militar para difundir democracia liberal e livre mercado.",
     "vector": null,
     "countryId": "eua-washington-dc",
-    "personalityId": "winston-churchill"
+    "personalityId": "winston-churchill",
+    "religions": []
   },
   {
     "id": "tecno-monarquismo",
@@ -1197,7 +1316,8 @@
     "phrase": "Quero uma monarquia que governe como executivo, apoiada em dados e inovação, dando estabilidade e direção de longo prazo ao Estado.",
     "vector": null,
     "countryId": "emirados-arabes-unidos",
-    "personalityId": "peter-thiel"
+    "personalityId": "peter-thiel",
+    "religions": []
   },
   {
     "id": "progressismo-de-direita",
@@ -1207,7 +1327,8 @@
     "phrase": "Quero uma sociedade secular e progressista impulsionada pelo culto ao progresso tecnológico, guiada por uma elite técnica acima da democracia de massas.",
     "vector": null,
     "countryId": "eua-california",
-    "personalityId": "elon-musk"
+    "personalityId": "elon-musk",
+    "religions": []
   },
   {
     "id": "tecno-socialismo",
@@ -1217,7 +1338,8 @@
     "phrase": "Quero uma sociedade sob ditadura do proletariado, com planejamento algorítmico, automação e propriedade coletiva rumo ao comunismo.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "lenin"
+    "personalityId": "lenin",
+    "religions": []
   },
   {
     "id": "tecno-fascismo",
@@ -1227,7 +1349,8 @@
     "phrase": "Quero um Estado totalitário que use vigilância digital e inteligência artificial para reprimir, manipular e dominar toda a sociedade.",
     "vector": null,
     "countryId": "china",
-    "personalityId": "marinetti"
+    "personalityId": "marinetti",
+    "religions": []
   },
   {
     "id": "liberalismo-autoritario",
@@ -1237,7 +1360,8 @@
     "phrase": "Quero uma economia de mercado e tecnocrática, com baixa participação democrática, sob um Estado forte que garanta ordem e crescimento.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "lee-kuan-yew"
+    "personalityId": "lee-kuan-yew",
+    "religions": []
   },
   {
     "id": "nacionalismo-progressista",
@@ -1247,7 +1371,8 @@
     "phrase": "Quero uma nação soberana e protegida economicamente que amplie direitos e igualdade por meio de reformas sociais progressistas.",
     "vector": null,
     "countryId": "bolivia",
-    "personalityId": "abraham-lincoln"
+    "personalityId": "abraham-lincoln",
+    "religions": []
   },
   {
     "id": "ecofascismo",
@@ -1257,7 +1382,8 @@
     "phrase": "Quero uma comunidade nacional orgânica que imponha controle populacional e preservação ambiental coercitiva acima das liberdades individuais.",
     "vector": null,
     "countryId": "italia",
-    "personalityId": "garrett-hardin"
+    "personalityId": "garrett-hardin",
+    "religions": []
   },
   {
     "id": "comunismo-agrario",
@@ -1267,7 +1393,8 @@
     "phrase": "Quero uma vida camponesa coletivizada, sem cidades nem mercados, com igualdade imposta por mobilização estatal e disciplina comunitária.",
     "vector": null,
     "countryId": "camboja-do-khmer-vermelho-pol-pot",
-    "personalityId": "pol-pot"
+    "personalityId": "pol-pot",
+    "religions": []
   },
   {
     "id": "socialismo-bolivariano",
@@ -1277,7 +1404,8 @@
     "phrase": "Quero uma pátria soberana sob liderança presidencial forte, que use recursos estratégicos estatizados para redistribuição e inclusão popular.",
     "vector": null,
     "countryId": "venezuela",
-    "personalityId": "hugo-chavez"
+    "personalityId": "hugo-chavez",
+    "religions": ["christianity"]
   },
   {
     "id": "nacional-desenvolvimentismo",
@@ -1287,7 +1415,8 @@
     "phrase": "Quero uma nação industrializada por planejamento estatal forte, protegendo empresas nacionais e articulando governo, ciência e indústria.",
     "vector": null,
     "countryId": "brasil-era-vargas",
-    "personalityId": "eneas-carneiro"
+    "personalityId": "eneas-carneiro",
+    "religions": []
   },
   {
     "id": "populismo-libertario",
@@ -1297,7 +1426,8 @@
     "phrase": "Quero uma sociedade livre de burocracias e impostos, onde o cidadão comum empreende sem elites partidárias mandando na sua vida.",
     "vector": null,
     "countryId": "argentina",
-    "personalityId": "javier-milei"
+    "personalityId": "javier-milei",
+    "religions": []
   },
   {
     "id": "teocratismo-cristao",
@@ -1307,7 +1437,8 @@
     "phrase": "Quero uma sociedade regida pela lei divina, com a Igreja acima do Estado e os costumes submetidos à autoridade religiosa.",
     "vector": null,
     "countryId": "vaticano",
-    "personalityId": "joseph-de-maistre"
+    "personalityId": "joseph-de-maistre",
+    "religions": ["christianity"]
   },
   {
     "id": "socialismo-titoista",
@@ -1317,7 +1448,8 @@
     "phrase": "Quero uma federação de sovietes autogeridos pelos operários, com partido único, não alinhamento e abertura controlada ao mercado.",
     "vector": null,
     "countryId": "iugoslavia-socialista",
-    "personalityId": "tito"
+    "personalityId": "tito",
+    "religions": []
   },
   {
     "id": "socialismo-anticolonial",
@@ -1327,7 +1459,8 @@
     "phrase": "Quero um povo liberto do imperialismo, com recursos nacionalizados e solidariedade entre as nações do Sul global.",
     "vector": null,
     "countryId": "egito-de-nasser",
-    "personalityId": "frantz-fanon"
+    "personalityId": "frantz-fanon",
+    "religions": []
   },
   {
     "id": "tecno-comunismo",
@@ -1337,7 +1470,8 @@
     "phrase": "Quero uma sociedade sem classes e de abundância, onde automação e IA superem a escassez, o trabalho necessário e a propriedade privada.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "karl-marx"
+    "personalityId": "karl-marx",
+    "religions": []
   },
   {
     "id": "tecno-anarquismo",
@@ -1347,7 +1481,8 @@
     "phrase": "Quero comunidades autogeridas sem Estado, libertadas pela automação e energia abundante, produzindo localmente em redes livres.",
     "vector": null,
     "countryId": "rojava",
-    "personalityId": "bookchin"
+    "personalityId": "bookchin",
+    "religions": []
   },
   {
     "id": "aceleracionismo-cristao",
@@ -1357,7 +1492,8 @@
     "phrase": "Quero acelerar a tecnologia e o poder nacional sob valores cristãos tradicionais, sem freios progressistas nem decadência secular.",
     "vector": null,
     "countryId": "eua-texas",
-    "personalityId": "peter-thiel"
+    "personalityId": "peter-thiel",
+    "religions": ["christianity"]
   },
   {
     "id": "populismo-de-direita",
@@ -1367,7 +1503,8 @@
     "phrase": "Quero um povo unido contra elites corruptas, com fronteiras fechadas, valores tradicionais e um líder que devolva a ordem à nação.",
     "vector": null,
     "countryId": "hungria",
-    "personalityId": "viktor-orban"
+    "personalityId": "viktor-orban",
+    "religions": ["christianity", "judaism", "islam", "other"]
   },
   {
     "id": "populismo-de-esquerda",
@@ -1377,7 +1514,8 @@
     "phrase": "Quero o povo mobilizado contra as elites econômicas, com plebiscitos populares e o Estado redistribuindo riqueza aos de baixo.",
     "vector": null,
     "countryId": "bolivia",
-    "personalityId": "evo-morales"
+    "personalityId": "evo-morales",
+    "religions": []
   },
   {
     "id": "centrismo-social",
@@ -1387,7 +1525,8 @@
     "phrase": "Quero um mercado equilibrado por forte proteção social, com reformas graduais e consenso institucional reduzindo desigualdades.",
     "vector": null,
     "countryId": "costa-rica",
-    "personalityId": "barack-obama"
+    "personalityId": "barack-obama",
+    "religions": []
   },
   {
     "id": "centrismo-liberal",
@@ -1397,7 +1536,8 @@
     "phrase": "Quero uma democracia liberal fiscalmente responsável, aberta ao mundo, longe do estatismo pesado e do radicalismo libertário.",
     "vector": null,
     "countryId": "chile",
-    "personalityId": "fernando-henrique-cardoso"
+    "personalityId": "fernando-henrique-cardoso",
+    "religions": []
   },
   {
     "id": "centrismo-ambientalista",
@@ -1407,7 +1547,8 @@
     "phrase": "Quero uma transição energética gradual dentro do mercado e da democracia, sem ruptura anticapitalista nem negacionismo climático.",
     "vector": null,
     "countryId": "nova-zelandia",
-    "personalityId": "al-gore"
+    "personalityId": "al-gore",
+    "religions": []
   },
   {
     "id": "centrismo-conservador",
@@ -1417,7 +1558,8 @@
     "phrase": "Quero uma sociedade que preserve família, religião e ordem, mudando aos poucos sem aderir a populismos ou autoritarismos.",
     "vector": null,
     "countryId": "austria",
-    "personalityId": "benjamin-disraeli"
+    "personalityId": "benjamin-disraeli",
+    "religions": []
   },
   {
     "id": "nacional-liberalismo",
@@ -1426,7 +1568,8 @@
     "description": "Corrente de direita que combina livre mercado, livre comércio e Estado limitado com forte identidade nacional, assimilação cultural, valores tradicionais e religiosos e defesa militar robusta.",
     "phrase": "Quero uma nação de identidade forte e mercado livre, com fronteiras assimilacionistas, tradição religiosa e defesa militar robusta.",
     "countryId": "reino-unido-vitoriano-imperio-britanico",
-    "personalityId": "william-f-buckley"
+    "personalityId": "william-f-buckley",
+    "religions": ["christianity"]
   },
   {
     "id": "arqueofuturismo",
@@ -1435,7 +1578,8 @@
     "description": "Doutrina cunhada por Guillaume Faye que funde valores arcaicos, hierárquicos e tradicionalistas, com a adoção irrestrita de tecnologia avançada, defendendo que um colapso civilizacional iminente forçará a humanidade a combinar ordem social tribal com ciência hipermoderna.",
     "phrase": "Quero uma ordem tribal e hierárquica renascida do colapso, fundindo tradições arcaicas com ciência hipermoderna e tecnologia irrestrita.",
     "countryId": "russia",
-    "personalityId": "guillaume-faye"
+    "personalityId": "guillaume-faye",
+    "religions": ["other"]
   },
   {
     "id": "pragmatismo",
@@ -1445,7 +1589,8 @@
     "phrase": "Quero soluções julgadas pelo resultado, não pelo dogma, misturando mercado, regulação e política social conforme o problema exigir.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "fernando-henrique-cardoso"
+    "personalityId": "fernando-henrique-cardoso",
+    "religions": []
   },
   {
     "id": "pragmatismo-de-direita",
@@ -1455,7 +1600,8 @@
     "phrase": "Quero governabilidade por ampla coalizão, com ajuste fiscal e reformas de mercado aceitas em troca de estabilidade e resultados rápidos.",
     "vector": null,
     "countryId": "eua-washington-dc",
-    "personalityId": "michel-temer"
+    "personalityId": "michel-temer",
+    "religions": []
   },
   {
     "id": "pragmatismo-de-esquerda",
@@ -1465,7 +1611,8 @@
     "phrase": "Quero negociar com o mercado e as instituições existentes para entregar políticas sociais focadas, sem me prender à pureza revolucionária.",
     "vector": null,
     "countryId": "uruguai",
-    "personalityId": "jose-mujica"
+    "personalityId": "jose-mujica",
+    "religions": []
   },
   {
     "id": "imperialismo",
@@ -1475,7 +1622,8 @@
     "phrase": "Quero uma metrópole que expanda seu território e submeta colônias pela força, subordinando povos conquistados aos interesses da nação dominante.",
     "vector": null,
     "countryId": "reino-unido-vitoriano-imperio-britanico",
-    "personalityId": "napoleao-bonaparte"
+    "personalityId": "napoleao-bonaparte",
+    "religions": ["christianity", "judaism", "islam"]
   },
   {
     "id": "liberalismo-progressista",
@@ -1485,7 +1633,8 @@
     "phrase": "Quero o modelo nórdico: mercado aberto ao comércio global sustentando um Estado de bem-estar robusto, secular e progressista nos costumes.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "justin-trudeau"
+    "personalityId": "justin-trudeau",
+    "religions": []
   },
   {
     "id": "militarismo",
@@ -1495,7 +1644,8 @@
     "phrase": "Quero uma junta militar no comando do Estado, disciplina e culto à ordem nos quartéis, subordinando a política civil ao comando castrense.",
     "vector": null,
     "countryId": "chile-de-pinochet",
-    "personalityId": "augusto-pinochet"
+    "personalityId": "augusto-pinochet",
+    "religions": ["christianity", "judaism", "islam"]
   },
   {
     "id": "federalismo",
@@ -1505,7 +1655,8 @@
     "phrase": "Quero o poder dividido por constituição entre governo central e estados autônomos, com cortes independentes freando qualquer concentração excessiva.",
     "vector": null,
     "countryId": "suica",
-    "personalityId": "james-madison"
+    "personalityId": "james-madison",
+    "religions": []
   },
   {
     "id": "aceleracionismo-de-esquerda",
@@ -1515,7 +1666,8 @@
     "phrase": "Quero acelerar a automação e tomar a tecnologia para a esquerda, abolindo o trabalho com renda básica universal rumo à abundância pós-capitalista.",
     "vector": null,
     "countryId": "eua-california",
-    "personalityId": "srnicek"
+    "personalityId": "srnicek",
+    "religions": []
   },
   {
     "id": "conservadorismo-americano",
@@ -1525,7 +1677,8 @@
     "phrase": "Quero fronteira segura com deportações, tarifas protegendo a indústria, corte de impostos, porte de armas e valores cristãos como bandeira nacional.",
     "vector": null,
     "countryId": "eua-florida",
-    "personalityId": "donald-trump"
+    "personalityId": "donald-trump",
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "democracia-securitaria",
@@ -1535,7 +1688,8 @@
     "phrase": "Quero uma democracia militante que vigie extremistas, baina partidos antissistema e mantenha serviço militar para blindar a ordem constitucional.",
     "vector": null,
     "countryId": "coreia-do-sul",
-    "personalityId": "konrad-adenauer"
+    "personalityId": "konrad-adenauer",
+    "religions": []
   },
   {
     "id": "pacifismo-militar",
@@ -1545,7 +1699,8 @@
     "phrase": "Quero neutralidade armada, sem alianças nem intervenções externas, mas com forças armadas robustas e serviço obrigatório defendendo o território.",
     "vector": null,
     "countryId": "finlandia",
-    "personalityId": "tito"
+    "personalityId": "tito",
+    "religions": []
   },
   {
     "id": "teocracia-progressista",
@@ -1555,7 +1710,8 @@
     "phrase": "Quero um clero que imponha de cima, como mandamento divino, igualdade de gênero e libertação sexual, rompendo o costume herdado como superstição.",
     "vector": null,
     "countryId": "genebra-calvinista",
-    "personalityId": "joao-calvino"
+    "personalityId": "joao-calvino",
+    "religions": ["christianity"]
   },
   {
     "id": "ateismo-tradicionalista",
@@ -1565,7 +1721,8 @@
     "phrase": "Quero uma nação sem fé nem clero, mas fiel à hierarquia, à família e aos costumes herdados como bens civilizatórios, não como mandamento religioso.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "nietzsche"
+    "personalityId": "nietzsche",
+    "religions": []
   },
   {
     "id": "mercantilismo",
@@ -1575,7 +1732,8 @@
     "phrase": "Quero livre concorrência dentro de casa protegida por muralha tarifária externa, com banco nacional e subsídio à indústria nascente gerando superávit.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "alexander-hamilton"
+    "personalityId": "alexander-hamilton",
+    "religions": []
   },
   {
     "id": "imperialismo-pluralista",
@@ -1585,7 +1743,8 @@
     "phrase": "Quero um império que conquiste por autocracia militar, mas governe os povos súditos com autonomia comunitária e tolerância religiosa administrada.",
     "vector": null,
     "countryId": "imperio-otomano",
-    "personalityId": "justiniano-i"
+    "personalityId": "justiniano-i",
+    "religions": ["christianity", "islam", "other"]
   },
   {
     "id": "imperialismo-federalista",
@@ -1595,7 +1754,8 @@
     "phrase": "Quero uma coroa hereditária unindo nacionalidades autônomas com parlamentos locais, exército unificado e conquistas afirmando a grandeza do império.",
     "vector": null,
     "countryId": "imperio-austro-hungaro",
-    "personalityId": "franz-ferdinand"
+    "personalityId": "franz-ferdinand",
+    "religions": ["christianity"]
   },
   {
     "id": "aristotelismo",
@@ -1605,7 +1765,8 @@
     "phrase": "Quero uma constituição mista de monarquia, aristocracia e povo, com cidadania plena reservada a quem tem virtude e propriedade.",
     "vector": null,
     "countryId": "republica-de-veneza",
-    "personalityId": "aristoteles"
+    "personalityId": "aristoteles",
+    "religions": ["other"]
   },
   {
     "id": "monarquismo-financeiro",
@@ -1615,7 +1776,8 @@
     "phrase": "Quero um principado hereditário sem exército, de tributos mínimos e sigilo bancário, vivendo de finanças e capital estrangeiro.",
     "vector": null,
     "countryId": "monaco",
-    "personalityId": "curtis-yarvin"
+    "personalityId": "curtis-yarvin",
+    "religions": []
   },
   {
     "id": "liberalismo-aristocratico",
@@ -1625,7 +1787,8 @@
     "phrase": "Quero liberdades civis, imprensa livre e Estado enxuto, mas com voto restrito a proprietários instruídos que zelem por elas.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "benjamin-constant"
+    "personalityId": "benjamin-constant",
+    "religions": []
   },
   {
     "id": "autoritarismo-libertario",
@@ -1635,7 +1798,8 @@
     "phrase": "Quero um executivo forte e insulado do voto popular que, em troca, garanta liberdade civil e não interfira nos costumes privados.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "h-l-mencken"
+    "personalityId": "h-l-mencken",
+    "religions": []
   },
   {
     "id": "liberalismo-jacobino",
@@ -1645,7 +1809,8 @@
     "phrase": "Quero uma república unitária de leis uniformes e laicas, que desmonte privilégios locais e clericais em nome do cidadão.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "nicolas-de-condorcet"
+    "personalityId": "nicolas-de-condorcet",
+    "religions": []
   },
   {
     "id": "militarismo-libertario",
@@ -1655,7 +1820,8 @@
     "phrase": "Quero um Estado mínimo em impostos e costumes, mas com forças armadas fortes e cidadão armado como base da liberdade civil.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "goldwater"
+    "personalityId": "goldwater",
+    "religions": []
   },
   {
     "id": "zapatismo",
@@ -1665,7 +1831,8 @@
     "phrase": "Quero comunidades indígenas autônomas decidindo em assembleias e caracoles, cooperativas de subsistência, mandando ao obedecer ao povo.",
     "vector": null,
     "countryId": "chiapas",
-    "personalityId": "zapata"
+    "personalityId": "zapata",
+    "religions": []
   },
   {
     "id": "sindicalismo-revolucionario",
@@ -1675,7 +1842,8 @@
     "phrase": "Quero que a greve geral e a ação direta dos sindicatos destruam o Estado e a burguesia, sem parlamento nem reformismo.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "sorel"
+    "personalityId": "sorel",
+    "religions": []
   },
   {
     "id": "confucionismo",
@@ -1685,7 +1853,8 @@
     "phrase": "Quero uma ordem fundada na virtude do governante, na piedade filial e no mérito burocrático, não em leis coercitivas ou votos.",
     "vector": null,
     "countryId": "china",
-    "personalityId": "confucio"
+    "personalityId": "confucio",
+    "religions": ["other"]
   },
   {
     "id": "socialismo-lassalliano",
@@ -1695,7 +1864,8 @@
     "phrase": "Quero emancipar o trabalhador pelo sufrágio universal e cooperativas financiadas pelo próprio Estado nacional, sem via revolucionária.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "ferdinand-lassalle"
+    "personalityId": "ferdinand-lassalle",
+    "religions": []
   },
   {
     "id": "liberal-desenvolvimentismo",
@@ -1705,7 +1875,8 @@
     "phrase": "Quero livre mercado e comércio exterior como motores do crescimento, guiados por um Estado tecnocrata que planeja infraestrutura e educação.",
     "vector": null,
     "countryId": "taiwan",
-    "personalityId": "lee-teng-hui"
+    "personalityId": "lee-teng-hui",
+    "religions": []
   },
   {
     "id": "aristocratismo",
@@ -1715,7 +1886,8 @@
     "phrase": "Quero o governo confiado a uma minoria qualificada por virtude e nascimento, recusando a igualdade política como entrega à incompetência.",
     "vector": null,
     "countryId": "republica-de-veneza",
-    "personalityId": "platao"
+    "personalityId": "platao",
+    "religions": []
   },
   {
     "id": "aristocratismo-nietzschiano",
@@ -1725,7 +1897,8 @@
     "phrase": "Quero afirmar a vida além da moral de rebanho, criando hierarquia aristocrática de valores após a morte de Deus.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "nietzsche"
+    "personalityId": "nietzsche",
+    "religions": []
   },
   {
     "id": "catolicismo",
@@ -1735,7 +1908,8 @@
     "phrase": "Quero uma sociedade de moral tradicional e defesa da vida, com justiça social e subsidiariedade sob a autoridade do papado.",
     "vector": null,
     "countryId": "vaticano",
-    "personalityId": "tomas-de-aquino"
+    "personalityId": "tomas-de-aquino",
+    "religions": ["christianity"]
   },
   {
     "id": "monarquismo-moderador",
@@ -1745,7 +1919,8 @@
     "phrase": "Quero um imperador exercendo o Poder Moderador acima dos três poderes, arbitrando conflitos sobre uma economia agrária estável.",
     "vector": null,
     "countryId": "imperio-do-brasil",
-    "personalityId": "dom-pedro-ii"
+    "personalityId": "dom-pedro-ii",
+    "religions": ["christianity"]
   },
   {
     "id": "mutualismo-proudhoniano",
@@ -1755,7 +1930,8 @@
     "phrase": "Quero abolir a propriedade como roubo, com crédito mútuo gratuito e federação de comunas autônomas onde a posse vem do uso.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "proudhon"
+    "personalityId": "proudhon",
+    "religions": []
   },
   {
     "id": "republicanismo-kantiano",
@@ -1765,7 +1941,8 @@
     "phrase": "Quero uma república fundada na autonomia da razão e no império da lei, com Estados livres unidos numa federação pela paz perpétua.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "immanuel-kant"
+    "personalityId": "immanuel-kant",
+    "religions": []
   },
   {
     "id": "socratismo",
@@ -1775,7 +1952,8 @@
     "phrase": "Quero uma cidade que examine suas crenças pelo diálogo racional e busque a virtude, desconfiando de demagogos, mas obediente às leis da polis.",
     "vector": null,
     "countryId": "republica-de-veneza",
-    "personalityId": "socrates"
+    "personalityId": "socrates",
+    "religions": []
   },
   {
     "id": "socialismo-marxista",
@@ -1785,7 +1963,8 @@
     "phrase": "Quero a revolução do proletariado, abolindo a propriedade privada dos meios de produção e superando a religião como ópio do povo.",
     "vector": null,
     "countryId": "alemanha",
-    "personalityId": "karl-marx"
+    "personalityId": "karl-marx",
+    "religions": []
   },
   {
     "id": "platonismo",
@@ -1795,7 +1974,8 @@
     "phrase": "Quero uma cidade governada por filósofos-reis, com guardiões educados na virtude e controle rígido sobre propriedade e costumes.",
     "vector": null,
     "countryId": "republica-de-veneza",
-    "personalityId": "platao"
+    "personalityId": "platao",
+    "religions": ["other"]
   },
   {
     "id": "democracia-ateniense",
@@ -1805,7 +1985,8 @@
     "phrase": "Quero uma pólis de assembleia soberana e cargos por sorteio entre cidadãos livres, reservando a cidadania de sangue aos homens da cidade.",
     "vector": null,
     "countryId": "atenas-democratica",
-    "personalityId": "socrates"
+    "personalityId": "socrates",
+    "religions": ["other"]
   },
   {
     "id": "social-democracia-nordica",
@@ -1815,7 +1996,8 @@
     "phrase": "Quero um pacto tripartite entre sindicatos, patronal e Estado, com bem-estar universal financiado por impostos altos e mercado exportador aberto.",
     "vector": null,
     "countryId": "suecia",
-    "personalityId": "olof-palme"
+    "personalityId": "olof-palme",
+    "religions": []
   },
   {
     "id": "comunismo",
@@ -1825,7 +2007,8 @@
     "phrase": "Quero a sociedade sem classes, sem Estado e sem propriedade privada, onde cada um produz e recebe conforme sua necessidade.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "karl-marx"
+    "personalityId": "karl-marx",
+    "religions": []
   },
   {
     "id": "tecnocracia-liberal",
@@ -1835,7 +2018,8 @@
     "phrase": "Quero um governo de elite técnica recrutada por mérito, insulada do voto popular, guiando livre comércio e ordem pública com resultados, não doutrina.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "lee-kuan-yew"
+    "personalityId": "lee-kuan-yew",
+    "religions": []
   },
   {
     "id": "trabalhismo-de-direita",
@@ -1845,7 +2029,8 @@
     "phrase": "Quero o operário organizado em sindicatos fortes, com salário digno e indústria nacional protegida, sob líder firme, fé e família.",
     "vector": null,
     "countryId": "argentina-peronista",
-    "personalityId": "peron"
+    "personalityId": "peron",
+    "religions": ["christianity"]
   },
   {
     "id": "fascismo-vermelho",
@@ -1855,7 +2040,8 @@
     "phrase": "Quero uma nação hierárquica e disciplinada sob líder forte, com fábricas e terras coletivizadas sob planejamento estatal total.",
     "vector": null,
     "countryId": "coreia-do-norte",
-    "personalityId": "kim-il-sung"
+    "personalityId": "kim-il-sung",
+    "religions": []
   },
   {
     "id": "estoicismo",
@@ -1865,7 +2051,8 @@
     "phrase": "Quero viver conforme a razão e o dever, aceitando com serenidade o destino, sob uma lei natural comum a toda a humanidade racional.",
     "vector": null,
     "countryId": "imperio-romano",
-    "personalityId": "marco-aurelio"
+    "personalityId": "marco-aurelio",
+    "religions": ["other"]
   },
   {
     "id": "agrarianismo",
@@ -1875,7 +2062,8 @@
     "phrase": "Quero uma república de pequenos fazendeiros donos de sua terra, descentralizada e sem bancos nem dívida pública, longe de fábricas e cidades.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "thomas-jefferson"
+    "personalityId": "thomas-jefferson",
+    "religions": []
   },
   {
     "id": "socialismo-utopico",
@@ -1885,7 +2073,8 @@
     "phrase": "Quero uma sociedade industrial dirigida por cientistas e produtores, planejada racionalmente, superando políticos e aristocratas sem revolução.",
     "vector": null,
     "countryId": "franca",
-    "personalityId": "henri-de-saint-simon"
+    "personalityId": "henri-de-saint-simon",
+    "religions": []
   },
   {
     "id": "tecno-comercialismo",
@@ -1895,7 +2084,8 @@
     "phrase": "Quero cidades-empresa concorrentes, governadas por acionistas e abertas à saída, onde mercados e tecnologia premiem eficiência.",
     "vector": null,
     "countryId": "singapura",
-    "personalityId": "peter-thiel"
+    "personalityId": "peter-thiel",
+    "religions": []
   },
   {
     "id": "neotomismo",
@@ -1905,7 +2095,8 @@
     "phrase": "Quero uma ordem política hierárquica baseada na lei natural, na tradição e no bem comum, sob autoridade soberana que não dependa da vontade da maioria.",
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
-    "personalityId": "tomas-de-aquino"
+    "personalityId": "tomas-de-aquino",
+    "religions": ["christianity"]
   },
   {
     "id": "eurasianismo",
@@ -1915,7 +2106,8 @@
     "phrase": "Quero povos eurasiáticos autônomos em suas tradições, unidos sob direção estratégica de Moscou, com soberania econômica e setores essenciais planejados.",
     "vector": null,
     "countryId": "russia",
-    "personalityId": "aleksandr-dugin"
+    "personalityId": "aleksandr-dugin",
+    "religions": ["christianity", "islam", "buddhism"]
   },
   {
     "id": "socialismo-democratico",
@@ -1925,7 +2117,8 @@
     "phrase": "Quero superar o capitalismo pelo voto, com grandes empresas sob propriedade social, cooperativas e democracia no local de trabalho, sem partido único.",
     "vector": null,
     "countryId": "chile-de-allende",
-    "personalityId": "bernie-sanders"
+    "personalityId": "bernie-sanders",
+    "religions": []
   },
   {
     "id": "terceira-via",
@@ -1935,7 +2128,8 @@
     "phrase": "Quero um mercado globalizado com um Estado que invista em educação, troque assistência por trabalho e seja duro com o crime e suas causas.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "bill-clinton"
+    "personalityId": "bill-clinton",
+    "religions": []
   },
   {
     "id": "paleoconservadorismo",
@@ -1945,7 +2139,8 @@
     "phrase": "Quero uma república cristã de comunidades locais e estados soberanos, fronteiras fechadas, indústria nacional protegida e nenhuma guerra por império.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "gk-chesterton"
+    "personalityId": "gk-chesterton",
+    "religions": ["christianity"]
   },
   {
     "id": "bonapartismo",
@@ -1954,7 +2149,8 @@
     "description": "Corrente cesarista que legitima por plebiscito um líder carismático acima dos partidos, combinando autoridade pessoal, centralização burocrática, mobilização militar e reformas modernizadoras conduzidas de cima para baixo.",
     "phrase": "Quero uma nação mobilizada por um líder plebiscitário acima dos partidos, modernizando o Estado e dirigindo setores estratégicos com autoridade.",
     "countryId": "imperio-napoleonico",
-    "personalityId": "napoleao-bonaparte"
+    "personalityId": "napoleao-bonaparte",
+    "religions": ["christianity"]
   },
   {
     "id": "quilombismo",
@@ -1964,7 +2160,8 @@
     "phrase": "Quero um Estado quilombista de igualdade racial e participação popular, com terra coletiva e produção organizada em cooperativas.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "zumbi-dos-palmares"
+    "personalityId": "zumbi-dos-palmares",
+    "religions": ["other"]
   },
   {
     "id": "democracia-intervencionista",
@@ -1974,7 +2171,8 @@
     "phrase": "Quero democracias e mercados abertos protegidos por alianças fortes, com ação militar preventiva contra ameaças à segurança.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "george-w-bush"
+    "personalityId": "george-w-bush",
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "ambientalismo-malthusiano",
@@ -1984,7 +2182,8 @@
     "phrase": "Quero preservar recursos limitados com regras firmes para os bens comuns e limites ao crescimento populacional.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "garrett-hardin"
+    "personalityId": "garrett-hardin",
+    "religions": []
   },
   {
     "id": "conservadorismo-reaganista",
@@ -1994,7 +2193,8 @@
     "phrase": "Quero famílias e comunidades livres sob um governo federal menor, impostos baixos, empresas fortes e defesa firme contra adversários externos.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "ronald-reagan"
+    "personalityId": "ronald-reagan",
+    "religions": ["christianity"]
   },
   {
     "id": "centrismo-radical",
@@ -2004,7 +2204,8 @@
     "phrase": "Quero uma sociedade sem lado, um poder que nunca pende a nenhum polo e uma economia que pese Estado e mercado exatamente por igual.",
     "vector": null,
     "countryId": "suica",
-    "personalityId": "macron"
+    "personalityId": "macron",
+    "religions": []
   },
   {
     "id": "budismo-politico",
@@ -2014,7 +2215,8 @@
     "phrase": "Quero uma sociedade guiada pelo Dharma e pela não violência, com governantes justos, consumo moderado e economia comunitária em harmonia com a natureza.",
     "vector": null,
     "countryId": "butao",
-    "personalityId": "dalai-lama"
+    "personalityId": "dalai-lama",
+    "religions": ["buddhism"]
   },
   {
     "id": "anarquismo-egoista",
@@ -2024,7 +2226,8 @@
     "phrase": "Quero o Único livre de Deus, moral e Estado, unido a outros egoístas só enquanto lhe convém, dono apenas do que sua força sustenta.",
     "vector": null,
     "countryId": "eua-massachusetts",
-    "personalityId": "max-stirner"
+    "personalityId": "max-stirner",
+    "religions": []
   },
   {
     "id": "social-desenvolvimentismo",
@@ -2034,7 +2237,8 @@
     "phrase": "Quero crescer distribuindo renda, com salário mínimo valorizado, crédito e bancos públicos, alianças amplas e o mercado preservado.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "lula-da-silva"
+    "personalityId": "lula-da-silva",
+    "religions": []
   },
   {
     "id": "liberalismo-new-deal",
@@ -2044,7 +2248,8 @@
     "phrase": "Quero uma nação patriota e de fé, com governo federal forte regulando bancos, sindicatos protegidos, seguridade social e liderança no mundo.",
     "vector": null,
     "countryId": "eua-nova-york",
-    "personalityId": "franklin-roosevelt"
+    "personalityId": "franklin-roosevelt",
+    "religions": ["christianity"]
   },
   {
     "id": "liberalismo-keynesiano",
@@ -2054,7 +2259,8 @@
     "phrase": "Quero uma democracia liberal de economia mista, em que o Estado gaste contra as crises e busque o pleno emprego sem estatizar a produção.",
     "vector": null,
     "countryId": "reino-unido",
-    "personalityId": "keynes"
+    "personalityId": "keynes",
+    "religions": []
   },
   {
     "id": "social-democracia-brasileira",
@@ -2064,7 +2270,8 @@
     "phrase": "Quero uma democracia parlamentar com moeda estável, contas em ordem, privatizações reguladas e um Estado enxuto que cuide de saúde e educação.",
     "vector": null,
     "countryId": "brasil",
-    "personalityId": "mario-covas"
+    "personalityId": "mario-covas",
+    "religions": []
   },
   {
     "id": "nacionalismo-varguista",
@@ -2074,7 +2281,8 @@
     "phrase": "Quero uma nação unida sob um Estado forte, com leis trabalhistas protegendo o trabalhador, indústria e petróleo nacionais e nenhuma oligarquia regional.",
     "vector": null,
     "countryId": "brasil-era-vargas",
-    "personalityId": "getulio-vargas"
+    "personalityId": "getulio-vargas",
+    "religions": ["christianity"]
   },
   {
     "id": "socialismo-cubano",
@@ -2084,7 +2292,8 @@
     "phrase": "Quero uma revolução soberana e internacionalista, com partido único, economia planificada, saúde e educação para todos e um homem novo.",
     "vector": null,
     "countryId": "cuba",
-    "personalityId": "fidel-castro"
+    "personalityId": "fidel-castro",
+    "religions": []
   },
   {
     "id": "socialismo-africano",
@@ -2094,7 +2303,8 @@
     "phrase": "Quero os povos africanos e da diáspora unidos e soberanos, com aldeias coletivas, produção própria e um partido revolucionário contra o neocolonialismo.",
     "vector": null,
     "countryId": "burkina-faso-de-sankara",
-    "personalityId": "thomas-sankara"
+    "personalityId": "thomas-sankara",
+    "religions": []
   },
   {
     "id": "anarquismo-kropotkiniano",
@@ -2104,7 +2314,8 @@
     "phrase": "Quero comunas livres federadas pela ajuda mútua, unindo campo e fábrica, com tudo repartido segundo a necessidade e nenhum Estado.",
     "vector": null,
     "countryId": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
-    "personalityId": "kropotkin"
+    "personalityId": "kropotkin",
+    "religions": []
   },
   {
     "id": "conservadorismo-confederado",
@@ -2114,7 +2325,8 @@
     "phrase": "Quero estados soberanos livres do poder central, uma sociedade agrária cristã e patriarcal, comércio livre com o mundo e a hierarquia racial preservada.",
     "vector": null,
     "countryId": "eua-confederados",
-    "personalityId": "john-c-calhoun"
+    "personalityId": "john-c-calhoun",
+    "religions": ["christianity"]
   },
   {
     "id": "socialismo-agrario",
@@ -2124,7 +2336,8 @@
     "phrase": "Quero o socialismo construído a partir do campo, com aldeias coletivas, comida produzida em casa, florestas protegidas e um partido que guie a nação.",
     "vector": null,
     "countryId": "burkina-faso-de-sankara",
-    "personalityId": "julius-nyerere"
+    "personalityId": "julius-nyerere",
+    "religions": []
   },
   {
     "id": "futurismo",
@@ -2134,7 +2347,8 @@
     "phrase": "Quero uma nação jovem e veloz, movida a máquinas e fábricas, livre de padres, reis e museus, e forjada na guerra como higiene do mundo.",
     "vector": null,
     "countryId": "italia-fascista-mussolini",
-    "personalityId": "marinetti"
+    "personalityId": "marinetti",
+    "religions": []
   },
   {
     "id": "cesarismo",
@@ -2144,7 +2358,8 @@
     "phrase": "Quero um império sob um só comando, sustentado pelo exército, pela lei e pelos deuses da cidade, com pão para o povo e fronteiras defendidas.",
     "vector": null,
     "countryId": "imperio-romano",
-    "personalityId": "julio-cesar"
+    "personalityId": "julio-cesar",
+    "religions": ["other"]
   },
   {
     "id": "capitalismo-industrial",
@@ -2154,7 +2369,8 @@
     "phrase": "Quero uma nação de fábricas, invenção e trabalho, com propriedade privada, empresários livres e pouca interferência estatal.",
     "vector": null,
     "countryId": "estados-unidos",
-    "personalityId": "henry-ford"
+    "personalityId": "henry-ford",
+    "religions": []
   },
   {
     "id": "neoliberalismo-autoritario",
@@ -2164,7 +2380,8 @@
     "phrase": "Quero impor mercados abertos, privatizações e disciplina fiscal sob um governo forte que esmague sindicatos e oposição.",
     "vector": null,
     "countryId": "chile-de-pinochet",
-    "personalityId": "augusto-pinochet"
+    "personalityId": "augusto-pinochet",
+    "religions": ["christianity"]
   },
   {
     "id": "catolicismo-universalista",
@@ -2174,7 +2391,8 @@
     "phrase": "Quero uma cristandade universal, unida pela Igreja e pela lei moral, acima de fronteiras, raças e interesses nacionais.",
     "vector": null,
     "countryId": "vaticano",
-    "personalityId": "paulo-de-tarso"
+    "personalityId": "paulo-de-tarso",
+    "religions": ["christianity"]
   },
   {
     "id": "republicanismo-confederal",
@@ -2184,7 +2402,8 @@
     "phrase": "Quero províncias soberanas unidas por um pacto republicano, comércio aberto, milícias locais e fé protestante.",
     "vector": null,
     "countryId": "republica-holandesa",
-    "personalityId": "guilherme-de-orange"
+    "personalityId": "guilherme-de-orange",
+    "religions": ["christianity"]
   },
   {
     "id": "anarcoprimitivismo",
@@ -2194,7 +2413,8 @@
     "phrase": "Quero abolir Estado, indústria e agricultura para viver em pequenas comunidades autônomas, livres da tecnologia e da dominação.",
     "vector": null,
     "countryId": "chiapas",
-    "personalityId": "ted-kaczynski"
+    "personalityId": "ted-kaczynski",
+    "religions": []
   },
   {
     "id": "socialismo-federalista",
@@ -2204,7 +2424,8 @@
     "phrase": "Quero uma união de repúblicas socialistas com línguas e culturas próprias, guiada pelo partido de vanguarda e por um plano econômico comum.",
     "vector": null,
     "countryId": "uniao-sovietica-urss",
-    "personalityId": "lenin"
+    "personalityId": "lenin",
+    "religions": []
   },
   {
     "id": "socialismo-patriotico",
@@ -2214,7 +2435,8 @@
     "phrase": "Quero o socialismo do povo trabalhador com pátria, família e fé dos antepassados, planejado pelo partido e livre das modas liberais.",
     "vector": null,
     "countryId": "bielorrussia",
-    "personalityId": "stalin"
+    "personalityId": "stalin",
+    "religions": []
   },
   {
     "id": "socialismo-vietnamita",
@@ -2224,7 +2446,8 @@
     "phrase": "Quero a nação libertada no caminho de Ho Chi Minh, guiada pelo Partido, com mercado de orientação socialista e portas abertas ao comércio.",
     "vector": null,
     "countryId": "vietna",
-    "personalityId": "ho-chi-minh"
+    "personalityId": "ho-chi-minh",
+    "religions": []
   },
   {
     "id": "socialismo-baathista",
@@ -2234,6 +2457,7 @@
     "phrase": "Quero a nação árabe unida por um partido revolucionário, com socialismo estatal, reforma agrária, secularismo e independência do imperialismo.",
     "vector": null,
     "countryId": "siria-de-assad",
-    "personalityId": "hafez-al-assad"
+    "personalityId": "hafez-al-assad",
+    "religions": []
   }
 ]

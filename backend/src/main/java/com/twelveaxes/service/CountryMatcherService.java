@@ -29,16 +29,24 @@ public class CountryMatcherService {
 
     // Pais atual mais compativel. Experiencias historicas tem secao propria.
     public CountryMatch findTopMatch(List<AxisResult> axisResults, String lang) {
-        return firstMatching(axisResults, lang, false);
+        return findTopMatch(axisResults, lang, null);
+    }
+
+    public CountryMatch findTopMatch(List<AxisResult> axisResults, String lang, String religion) {
+        return firstMatching(axisResults, lang, religion, false);
     }
 
     public CountryMatch findTopHistoricalMatch(List<AxisResult> axisResults, String lang) {
-        return firstMatching(axisResults, lang, true);
+        return findTopHistoricalMatch(axisResults, lang, null);
+    }
+
+    public CountryMatch findTopHistoricalMatch(List<AxisResult> axisResults, String lang, String religion) {
+        return firstMatching(axisResults, lang, religion, true);
     }
 
     // Os tres paises atuais mais compativeis, em ordem decrescente (exclui experiencias historicas).
     public List<CountryMatch> findTopMatches(List<AxisResult> axisResults, String lang) {
-        return rankAll(axisResults, lang).stream()
+        return rankAll(axisResults, lang, null).stream()
                 .filter(match -> !match.historical())
                 .limit(TOP_MATCHES)
                 .toList();
@@ -47,35 +55,44 @@ public class CountryMatcherService {
     // Os tres mais compativeis do catalogo inteiro, sem distincao entre paises atuais e
     // experiencias historicas. Usado no card de compartilhamento.
     public List<CountryMatch> findTopMatchesAny(List<AxisResult> axisResults, String lang) {
-        return rankAll(axisResults, lang).stream()
+        return findTopMatchesAny(axisResults, lang, null);
+    }
+
+    public List<CountryMatch> findTopMatchesAny(List<AxisResult> axisResults, String lang, String religion) {
+        return rankAll(axisResults, lang, religion).stream()
                 .limit(TOP_MATCHES)
                 .toList();
     }
 
     // Os tres menos compativeis do catalogo inteiro, em ordem crescente.
     public List<CountryMatch> findBottomMatches(List<AxisResult> axisResults, String lang) {
-        List<CountryMatch> ranking = rankAll(axisResults, lang);
+        return findBottomMatches(axisResults, lang, null);
+    }
+
+    public List<CountryMatch> findBottomMatches(List<AxisResult> axisResults, String lang, String religion) {
+        List<CountryMatch> ranking = rankAll(axisResults, lang, religion);
         return ranking.stream()
                 .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
                 .sorted(Comparator.comparingDouble(CountryMatch::compatibility))
                 .toList();
     }
 
-    private CountryMatch firstMatching(List<AxisResult> axisResults, String lang, boolean historical) {
-        return rankAll(axisResults, lang).stream()
+    private CountryMatch firstMatching(List<AxisResult> axisResults, String lang, String religion, boolean historical) {
+        return rankAll(axisResults, lang, religion).stream()
                 .filter(match -> match.historical() == historical)
                 .findFirst()
                 .orElseThrow(() -> new IllegalStateException(
                         "Nenhum pais disponivel para matching (historical=" + historical + ")"));
     }
 
-    // Ranking completo do catalogo, do mais ao menos compativel.
-    private List<CountryMatch> rankAll(List<AxisResult> axisResults, String lang) {
-        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
-                () -> computeRanking(axisResults, lang));
+    // Ranking completo do catalogo, do mais ao menos compativel. O percentil
+    // compara com o catalogo inteiro; a preferencia religiosa so tira paises.
+    private List<CountryMatch> rankAll(List<AxisResult> axisResults, String lang, String religion) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults, String.valueOf(religion)),
+                () -> computeRanking(axisResults, lang, religion));
     }
 
-    private List<CountryMatch> computeRanking(List<AxisResult> axisResults, String lang) {
+    private List<CountryMatch> computeRanking(List<AxisResult> axisResults, String lang, String religion) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<CountryCandidate> byCompatibility =
@@ -92,6 +109,7 @@ public class CountryMatcherService {
         double[] percentiles = profileMatchScorer.percentiles(catalogScores);
         return java.util.stream.IntStream.range(0, candidates.size())
                 .mapToObj(i -> new CountryCandidate(candidates.get(i).country(), candidates.get(i).compatibility(), percentiles[i]))
+                .filter(candidate -> ReligionFilter.allows(candidate.country().religions(), religion))
                 .sorted(byCompatibility.thenComparing(byName))
                 .map(this::toMatch)
                 .toList();

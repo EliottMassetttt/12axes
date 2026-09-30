@@ -28,14 +28,22 @@ public class IdeologyMatcherService {
     }
 
     public List<IdeologyMatch> findMatches(List<AxisResult> axisResults, String lang) {
-        return findRankedMatches(axisResults, lang);
+        return findRankedMatches(axisResults, lang, null);
+    }
+
+    public List<IdeologyMatch> findMatches(List<AxisResult> axisResults, String lang, String religion) {
+        return findRankedMatches(axisResults, lang, religion);
+    }
+
+    public IdeologyMatch findBottomMatch(List<AxisResult> axisResults, String lang) {
+        return findBottomMatch(axisResults, lang, null);
     }
 
     // A ideologia mais distante do usuario no catalogo inteiro.
-    public IdeologyMatch findBottomMatch(List<AxisResult> axisResults, String lang) {
+    public IdeologyMatch findBottomMatch(List<AxisResult> axisResults, String lang, String religion) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
         String normalizedLang = QuizDataService.normalizeLang(lang);
-        List<IdeologyCandidate> ranking = rankCandidates(userVector, normalizedLang);
+        List<IdeologyCandidate> ranking = rankCandidates(userVector, normalizedLang, religion);
         if (ranking.isEmpty()) {
             throw new IllegalStateException("Nenhuma ideologia disponivel para matching");
         }
@@ -43,19 +51,25 @@ public class IdeologyMatcherService {
     }
 
     List<IdeologyMatch> findRankedMatches(List<AxisResult> axisResults, String lang) {
+        return findRankedMatches(axisResults, lang, null);
+    }
+
+    List<IdeologyMatch> findRankedMatches(List<AxisResult> axisResults, String lang, String religion) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
         String normalizedLang = QuizDataService.normalizeLang(lang);
-        return rankCandidates(userVector, normalizedLang).stream()
+        return rankCandidates(userVector, normalizedLang, religion).stream()
                 .limit(TOP_MATCHES)
                 .map(candidate -> toMatch(candidate, normalizedLang))
                 .toList();
     }
 
-    private List<IdeologyCandidate> rankCandidates(Map<String, Double> userVector, String normalizedLang) {
-        return rankingMemo.get(List.of(normalizedLang, userVector), () -> computeRanking(userVector, normalizedLang));
+    // O percentil compara com o catalogo inteiro; a preferencia religiosa so tira ideologias.
+    private List<IdeologyCandidate> rankCandidates(Map<String, Double> userVector, String normalizedLang, String religion) {
+        return rankingMemo.get(List.of(normalizedLang, userVector, String.valueOf(religion)),
+                () -> computeRanking(userVector, normalizedLang, religion));
     }
 
-    private List<IdeologyCandidate> computeRanking(Map<String, Double> userVector, String normalizedLang) {
+    private List<IdeologyCandidate> computeRanking(Map<String, Double> userVector, String normalizedLang, String religion) {
         List<IdeologyCandidate> candidates = dataService.getIdeologies(normalizedLang).stream()
                 .map(ideology -> toCandidate(ideology, userVector))
                 .toList();
@@ -66,6 +80,7 @@ public class IdeologyMatcherService {
         return java.util.stream.IntStream.range(0, candidates.size())
                 .mapToObj(i -> new IdeologyCandidate(candidates.get(i).ideology(), candidates.get(i).targetVector(),
                         candidates.get(i).compatibility(), percentiles[i]))
+                .filter(candidate -> ReligionFilter.allows(candidate.ideology().religions(), religion))
                 .sorted(byScoreThenName())
                 .toList();
     }

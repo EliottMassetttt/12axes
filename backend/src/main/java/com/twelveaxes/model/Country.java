@@ -1,5 +1,6 @@
 package com.twelveaxes.model;
 
+import java.util.List;
 import java.util.Map;
 
 /**
@@ -21,6 +22,7 @@ import java.util.Map;
  * @param historical indica se a entidade é histórica
  * @param period período de existência da entidade, quando aplicável
  * @param vector valores do país em cada eixo ideológico
+ * @param religions tradições religiosas que o país representa (ver ReligionFilter)
  */
 public record Country(
         String id,
@@ -34,6 +36,7 @@ public record Country(
         String flagNote,
         boolean historical,
         String period,
-        Map<String, Double> vector
+        Map<String, Double> vector,
+        List<String> religions
 ) {
 }

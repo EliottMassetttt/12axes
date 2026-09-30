@@ -34,15 +34,23 @@ public class CountryDimensionMatcherService {
             List<AxisResult> axisResults,
             String lang,
             List<String> excludeIds) {
+        return findAll(axisResults, lang, excludeIds, null);
+    }
+
+    public List<CountryDimensionMatch> findAll(
+            List<AxisResult> axisResults,
+            String lang,
+            List<String> excludeIds,
+            String religion) {
         Set<String> excludedIds = new LinkedHashSet<>(excludeIds);
         List<CountryDimensionMatch> matches = new ArrayList<>();
 
         addIfPresent(matches, excludedIds, DimensionMatcherService.POLITICAL,
-                DimensionMatcherService.POLITICAL_AXES, axisResults, lang);
+                DimensionMatcherService.POLITICAL_AXES, axisResults, lang, religion);
         addIfPresent(matches, excludedIds, DimensionMatcherService.SOCIAL,
-                DimensionMatcherService.SOCIAL_AXES, axisResults, lang);
+                DimensionMatcherService.SOCIAL_AXES, axisResults, lang, religion);
         addIfPresent(matches, excludedIds, DimensionMatcherService.ECONOMIC,
-                DimensionMatcherService.ECONOMIC_AXES, axisResults, lang);
+                DimensionMatcherService.ECONOMIC_AXES, axisResults, lang, religion);
 
         return List.copyOf(matches);
     }
@@ -53,8 +61,9 @@ public class CountryDimensionMatcherService {
             String dimension,
             List<String> axisIds,
             List<AxisResult> axisResults,
-            String lang) {
-        CountryMatch match = findBestFor(axisIds, axisResults, lang, excludedIds);
+            String lang,
+            String religion) {
+        CountryMatch match = findBestFor(axisIds, axisResults, lang, religion, excludedIds);
         if (match != null) {
             matches.add(new CountryDimensionMatch(dimension, match));
             excludedIds.add(match.countryId());
@@ -65,10 +74,12 @@ public class CountryDimensionMatcherService {
             List<String> axisIds,
             List<AxisResult> axisResults,
             String lang,
+            String religion,
             Set<String> excludedIds) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
         List<Country> countries = dataService.getCountries(QuizDataService.normalizeLang(lang)).stream()
                 .filter(country -> !excludedIds.contains(country.id()))
+                .filter(country -> ReligionFilter.allows(country.religions(), religion))
                 .toList();
         if (countries.isEmpty()) {
             return null;

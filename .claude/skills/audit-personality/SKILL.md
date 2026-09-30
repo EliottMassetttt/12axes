@@ -26,6 +26,7 @@ Leia **profile-audit/README.md inteiro** (raiz do projeto) — ele é autossufic
 | Perfis salvos (destino) | `backend/src/main/resources/data/personality-profiles.json` (chave `personalityId`) |
 | Campos usados no prompt | `id`, `name`, `role`, `lifespan`, `description` |
 | `category` | não entra no prompt de auditoria, mas deve existir e ser um dos 8 valores (ver `NEW_PROFILE.md`) |
+| `religions` | não entra no prompt, mas é revisado a cada lote (ver Execução) |
 | Tipo de perfil no cabeçalho do prompt | `"figura histórica/pública"` |
 
 ## Execução
@@ -57,6 +58,7 @@ Leia **profile-audit/README.md inteiro** (raiz do projeto) — ele é autossufic
      falha conhecidos" no README. Se reprovar, relance só aquele subagente dizendo qual checagem
      falhou e quais eixos estavam errados.
    - Calcular vetores e mesclar em `personality-profiles.json`.
+   - **Revisar `religions` de cada perfil do lote** com o vetor novo: valores fechados `christianity`, `judaism`, `islam`, `buddhism`, `other` (hinduísmo, xintoísmo, religiões antigas) ou `[]`; pode haver mais de um. Regra **identidade + causa ativa**: entra a religião com que o perfil se identifica ou cuja causa religiosa/cultural defende ativamente como parte da identidade política; não precisa ser a oficial, e aliança só diplomática/militar não conta (Trump e EUA = `["christianity", "judaism"]`; Arábia Saudita = `["islam"]`). Com o vetor calculado, `religiao` ≤ 35 (lado religioso) **exige** ao menos um valor — o `validate.py` ([RELIGIAO]) e o `ReligionFilterTest` bloqueiam —, mas o valor vem de pesquisa, **nunca** do vetor. Vive só no JSON PT, como `category`. Ver "O campo `religions`" em `NEW_PROFILE.md`. Se o campo faltar, estiver errado pela regra, ou o vetor novo cair em `religiao` ≤ 35 com lista vazia, corrija no JSON de metadados PT e cite a mudança (antes → depois, com a razão) no resumo final.
    - **Livro**: para cada perfil do lote que ainda **não** tem entrada em `backend/src/main/resources/data/books.json` (um livro por personalidade; nunca duplique nem troque o existente sem o usuário pedir), conferir se a pessoa escreveu um livro relevante e adicioná-lo:
    - Só entra obra **escrita pela própria personalidade** e sobre política, economia, filosofia política ou tema diretamente relacionado (religião/sociedade só quando a obra tem peso político, ex.: *Rerum Novarum*, *A Cidade de Deus*). Ficção sem peso político, autoajuda, ciência pura e memórias sem conteúdo político não entram. Sem obra assim, **não adicione nada** e diga isso no resumo; nunca invente um livro.
    - Com mais de uma obra, escolha a mais popular/relevante/importante para o pensamento político da pessoa.
@@ -69,7 +71,7 @@ Leia **profile-audit/README.md inteiro** (raiz do projeto) — ele é autossufic
    - Arquivar em `answers/personality/<id>.json` (permanente, nunca apagar) e limpar temporários (mantendo só um par de exemplo em `prompts/personality/` + `subagent-out/personality/`).
 4. Para **cada perfil do lote** já mesclado, rode `python profile-audit/compatibility.py personality <id>` e leia as 2 personalidades, 2 ideologias e 2 países mais compatíveis com o vetor recém-atualizado (mesmo algoritmo de `ProfileMatchScorer.java`). Nunca estimar esses matches de cabeça.
    - **Perguntas de arquétipo:** a auditoria responde as 240 perguntas **e** as perguntas de arquétipo, como um usuário do quiz. O prompt termina com o bloco de `python profile-audit/profile_vector.py --prompt-block`, a saída traz o bloco `archetype`, o `validate.py` reprova se faltar, e o vetor mesclado (via `profile_vector.compute_vector`) soma as alternativas escolhidas como respostas extras, igual ao `ScoringService`. Liste as escolhas no resumo final. Ver "Perguntas de arquétipo" em `profile-audit/README.md`.
-5. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior (percentual exato) e o livro adicionado a `books.json` (ou por que nenhum) e informe quantos perfis restam em `pending`. **Pergunte explicitamente** se deve continuar para o próximo lote — nunca encadeie lotes sozinho.
+5. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior (percentual exato), a revisão de `religions` e o livro adicionado a `books.json` (ou por que nenhum) e informe quantos perfis restam em `pending`. **Pergunte explicitamente** se deve continuar para o próximo lote — nunca encadeie lotes sozinho.
 
 ## Regras que não podem ser quebradas
 

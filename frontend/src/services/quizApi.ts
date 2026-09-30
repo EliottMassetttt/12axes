@@ -47,16 +47,19 @@ export function fetchQuiz(variant: QuizVariant = 'short'): Promise<QuizPayload> 
 export function submitResults(
   variant: QuizVariant,
   answers: SubmittedAnswer[],
-  archetype: Record<string, string> = {}
+  archetype: Record<string, string> = {},
+  religion: string | null = null
 ): Promise<QuizResult> {
-  return request<QuizResult>(`/api/results?lang=${LANG}`, {
+  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
+  return request<QuizResult>(`/api/results?lang=${LANG}${religionParam}`, {
     method: 'POST',
     body: JSON.stringify({ variant, answers, archetype })
   });
 }
 
-export function fetchSharedResult(leftPercents: number[]): Promise<QuizResult> {
-  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}`);
+export function fetchSharedResult(leftPercents: number[], religion: string | null = null): Promise<QuizResult> {
+  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
+  return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}${religionParam}`);
 }
 
 export function fetchElectionQuiz(): Promise<QuizPayload> { return request<ElectionResult extends never ? never : QuizPayload>('/api/election/quiz'); }

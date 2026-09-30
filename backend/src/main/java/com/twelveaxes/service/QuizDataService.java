@@ -182,7 +182,8 @@ public class QuizDataService {
                     tr.getOrDefault("phrase", ideology.phrase()),
                     ideology.countryId(),
                     ideology.personalityId(),
-                    ideology.vector()
+                    ideology.vector(),
+                    ideology.religions()
             );
         }).toList();
 
@@ -201,7 +202,8 @@ public class QuizDataService {
                     country.flagNote(),
                     country.historical(),
                     country.period(),
-                    country.vector()
+                    country.vector(),
+                    country.religions()
             );
         }).toList();
 
@@ -218,7 +220,8 @@ public class QuizDataService {
                     personality.imagePath(),
                     personality.imageSourceName(),
                     personality.imageSourceUrl(),
-                    personality.imageNote()
+                    personality.imageNote(),
+                    personality.religions()
             );
         }).toList();
 

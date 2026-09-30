@@ -17,6 +17,7 @@ import com.twelveaxes.service.CountryDimensionMatcherService;
 import com.twelveaxes.service.IdeologyMatcherService;
 import com.twelveaxes.service.PersonalityMatcherService;
 import com.twelveaxes.service.QuizDataService;
+import com.twelveaxes.service.ReligionFilter;
 import com.twelveaxes.service.ScoringService;
 import com.twelveaxes.service.CandidateMatcherService;
 import com.twelveaxes.model.Candidate;
@@ -91,44 +92,48 @@ public class QuizController {
     @ResponseStatus(HttpStatus.OK)
     public QuizResult results(
             @Valid @RequestBody ResultRequest request,
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang
+            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
+            @RequestParam(required = false) String religion
     ) {
-        return buildResult(scoringService.score(request, lang), lang);
+        return buildResult(scoringService.score(request, lang), lang, ReligionFilter.normalize(religion));
     }
 
     // Resultado compartilhável: reconstrói matches a partir do vetor de eixos
     // (12 leftPercents separados por vírgula, na ordem de axes.json).
+    // religion é opcional: ausente ou desconhecido = ranking geral, sem filtro.
     @GetMapping("/api/results/by-axes")
     public QuizResult resultsByAxes(
             @RequestParam("v") String values,
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang
+            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
+            @RequestParam(required = false) String religion
     ) {
-        return buildResult(scoringService.scoreFromLeftPercents(parseAxisValues(values), lang), lang);
+        return buildResult(scoringService.scoreFromLeftPercents(parseAxisValues(values), lang), lang,
+                ReligionFilter.normalize(religion));
     }
 
-    private QuizResult buildResult(List<AxisResult> axes, String lang) {
-        var matches = matcherService.findMatches(axes, lang);
-        var personalityMatches = personalityMatcherService.findMatches(axes, lang);
+    private QuizResult buildResult(List<AxisResult> axes, String lang, String religion) {
+        var matches = matcherService.findMatches(axes, lang, religion);
+        var personalityMatches = personalityMatcherService.findMatches(axes, lang, religion);
         var topPersonality = personalityMatches.getFirst();
-        var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang);
-        var topCountry = countryMatcherService.findTopMatch(axes, lang);
-        var topHistoricalCountry = countryMatcherService.findTopHistoricalMatch(axes, lang);
+        var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang, religion);
+        var topCountry = countryMatcherService.findTopMatch(axes, lang, religion);
+        var topHistoricalCountry = countryMatcherService.findTopHistoricalMatch(axes, lang, religion);
         return new QuizResult(
                 axes,
                 matches.getFirst(),
                 matches,
-                matcherService.findBottomMatch(axes, lang),
+                matcherService.findBottomMatch(axes, lang, religion),
                 topCountry,
-                countryMatcherService.findTopMatchesAny(axes, lang),
+                countryMatcherService.findTopMatchesAny(axes, lang, religion),
                 topHistoricalCountry,
                 countryDimensionMatcherService.findAll(
-                        axes, lang, List.of(topCountry.countryId(), topHistoricalCountry.countryId())),
-                countryMatcherService.findBottomMatches(axes, lang),
+                        axes, lang, List.of(topCountry.countryId(), topHistoricalCountry.countryId()), religion),
+                countryMatcherService.findBottomMatches(axes, lang, religion),
                 topPersonality,
                 personalityMatches,
-                dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId()),
+                dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId(), religion),
                 categoryBestMatches,
-                personalityMatcherService.findBottomMatches(axes, lang),
+                personalityMatcherService.findBottomMatches(axes, lang, religion),
                 axisOutlierService.findMostUnusual(axes, lang),
                 axisOutlierService.findMostCommon(axes, lang),
                 axisTensionService.findStrongest(axes, lang),

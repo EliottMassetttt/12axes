@@ -1,4 +1,6 @@
 import { FILLED_POLE_ICONS } from '../data/filledPoleIcons';
+import { religiousPoleIcon } from '../data/religionIcons';
+import type { Religion } from '../utils/religion';
 
 type AxisIconProps = {
   id: string;
@@ -9,6 +11,7 @@ type PoleIconProps = {
   axisId: string;
   side: 'left' | 'right';
   className?: string;
+  religion?: Religion | null;
 };
 
 const axisIcons: Record<string, JSX.Element> = {
@@ -256,8 +259,9 @@ export function AxisIcon({ id, className = 'axis-symbol' }: AxisIconProps) {
   );
 }
 
-export function PoleIcon({ axisId, side, className = 'axis-symbol' }: PoleIconProps) {
-  const filled = FILLED_POLE_ICONS[axisId]?.[side];
+export function PoleIcon({ axisId, side, className = 'axis-symbol', religion }: PoleIconProps) {
+  // Polo "Religioso" mostra a religião escolhida pelo usuário; sem escolha, a cruz.
+  const filled = (axisId === 'religiao' && side === 'right' && religiousPoleIcon(religion)) || FILLED_POLE_ICONS[axisId]?.[side];
   if (filled) {
     return (
       <svg className={className} viewBox={filled.viewBox} aria-hidden="true" style={{ fill: 'currentColor', stroke: 'none' }}>

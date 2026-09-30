@@ -1,5 +1,5 @@
 import type { CSSProperties } from 'react';
-import type { ArchetypeQuestion } from '../types/quiz';
+import type { ArchetypeQuestion, QuestionIcon } from '../types/quiz';
 
 interface ArchetypeCardProps {
   question: ArchetypeQuestion;
@@ -38,22 +38,30 @@ const THEME_ICONS: Record<string, { viewBox: string; d: string; evenOdd?: boolea
   }
 };
 
-/** Pergunta de arquétipo do quiz: alternativas com letra, uma escolha. */
+function FilledSvg({ icon, className }: { icon: QuestionIcon; className?: string }) {
+  const rule = icon.fillRule ?? 'evenodd';
+  return (
+    <svg className={className} viewBox={icon.viewBox} aria-hidden="true" style={{ fill: 'currentColor', stroke: 'none' }}>
+      {icon.paths.map((d) => <path key={d} d={d} fillRule={rule} clipRule={rule} />)}
+    </svg>
+  );
+}
+
+/** Pergunta de arquétipo do quiz: alternativas com letra (ou ícone), uma escolha. */
 export function ArchetypeCard({ question, index, selected, disabled = false, onSelect }: ArchetypeCardProps) {
-  const icon = THEME_ICONS[question.id] ?? THEME_ICONS.sociedade;
+  const theme = THEME_ICONS[question.id] ?? THEME_ICONS.sociedade;
+  const icon: QuestionIcon = question.icon ?? {
+    viewBox: theme.viewBox,
+    paths: [theme.d],
+    fillRule: theme.evenOdd ? 'evenodd' : 'nonzero'
+  };
   return (
     <article className="question-card archetype-card" aria-labelledby="archetype-title">
       <span className="question-number" aria-hidden="true">{String(index + 1).padStart(2, '0')}</span>
       <header className="question-card-header">
         <p className="question-axis-tag" style={{ '--pole': THEME_COLOR } as CSSProperties}>
           <i aria-hidden="true">
-            <svg className="question-axis-tag-ico" viewBox={icon.viewBox} style={{ fill: 'currentColor', stroke: 'none' }}>
-              <path
-                d={icon.d}
-                fillRule={icon.evenOdd ? 'evenodd' : undefined}
-                clipRule={icon.evenOdd ? 'evenodd' : undefined}
-              />
-            </svg>
+            <FilledSvg icon={icon} className="question-axis-tag-ico" />
           </i>
           <span>{question.label}</span>
         </p>
@@ -72,7 +80,9 @@ export function ArchetypeCard({ question, index, selected, disabled = false, onS
               disabled={disabled}
               onClick={() => onSelect(option.id)}
             >
-              <span className="answer-icon archetype-letter" aria-hidden="true">{option.id}</span>
+              <span className="answer-icon archetype-letter" aria-hidden="true">
+                {option.icon ? <FilledSvg icon={option.icon} className="archetype-option-ico" /> : option.id}
+              </span>
               <span>{option.text}</span>
               <span aria-hidden="true" />
             </button>

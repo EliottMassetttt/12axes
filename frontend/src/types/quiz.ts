@@ -45,11 +45,21 @@ export interface QuizPayload {
   archetypeQuestions?: ArchetypeQuestion[];
 }
 
+/** Ícone preenchido (mesmo formato de data/filledPoleIcons.ts). */
+export interface QuestionIcon {
+  viewBox: string;
+  paths: string[];
+  fillRule?: 'evenodd' | 'nonzero';
+}
+
 export interface ArchetypeQuestion {
   id: string;
   label: string;
   text: string;
-  options: { id: string; text: string }[];
+  /** Selo do cabeçalho; sem ele, usa o ícone do tema pelo id. */
+  icon?: QuestionIcon;
+  /** Com icon, a alternativa mostra o ícone no lugar da letra. */
+  options: { id: string; text: string; icon?: QuestionIcon }[];
 }
 
 export interface SubmittedAnswer {

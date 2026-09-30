@@ -2,6 +2,7 @@ import { useState, type CSSProperties } from 'react';
 import { t } from '../../i18n';
 import type { Axis, AxisResult } from '../../types/quiz';
 import { PoleIcon } from '../AxisIcon';
+import type { Religion } from '../../utils/religion';
 import { pct } from '../editorial/primitives';
 import { InfoButton, InfoSheet } from './InfoSheet';
 
@@ -10,9 +11,10 @@ const BALANCED_COLOR = '#9C988C';
 interface AxesSectionProps {
   axes: Axis[];
   results: Map<string, AxisResult>;
+  religion?: Religion | null;
 }
 
-export function AxesSection({ axes, results }: AxesSectionProps) {
+export function AxesSection({ axes, results, religion }: AxesSectionProps) {
   const [infoAxisId, setInfoAxisId] = useState<string | null>(null);
   const infoAxis = axes.find((axis) => axis.id === infoAxisId);
   const infoResult = infoAxisId ? results.get(infoAxisId) : undefined;
@@ -25,7 +27,7 @@ export function AxesSection({ axes, results }: AxesSectionProps) {
         {axes.map((axis) => {
           const result = results.get(axis.id);
           return result ? (
-            <AxisRow key={axis.id} axis={axis} result={result} onInfo={() => setInfoAxisId(axis.id)} />
+            <AxisRow key={axis.id} axis={axis} result={result} religion={religion} onInfo={() => setInfoAxisId(axis.id)} />
           ) : null;
         })}
       </ul>
@@ -45,7 +47,17 @@ function axisLeaning(axis: Axis, result: AxisResult) {
   return { balanced, rightWins, leftWins, accent };
 }
 
-function AxisRow({ axis, result, onInfo }: { axis: Axis; result: AxisResult; onInfo: () => void }) {
+function AxisRow({
+  axis,
+  result,
+  religion,
+  onInfo
+}: {
+  axis: Axis;
+  result: AxisResult;
+  religion?: Religion | null;
+  onInfo: () => void;
+}) {
   const left = pct(result.leftPercent);
   const right = pct(result.rightPercent);
   const { balanced, rightWins, leftWins, accent } = axisLeaning(axis, result);
@@ -91,7 +103,7 @@ function AxisRow({ axis, result, onInfo }: { axis: Axis; result: AxisResult; onI
             <b>{result.rightPole}</b>
             <em>{right}%</em>
           </span>
-          <PoleIcon axisId={axis.id} side="right" className="e-ico" />
+          <PoleIcon axisId={axis.id} side="right" className="e-ico" religion={religion} />
         </div>
       </div>
     </li>

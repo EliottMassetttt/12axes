@@ -4,6 +4,8 @@ import { resolveCountryFlagSrc } from './countryFlags';
 import { personalityInitials, resolvePersonalityImageSrc } from './personalityImage';
 import { resolveIdeologyColor } from './ideologyColors';
 import { FILLED_POLE_ICONS } from '../data/filledPoleIcons';
+import { religiousPoleIcon } from '../data/religionIcons';
+import type { Religion } from './religion';
 
 /**
  * Cartão de compartilhamento social — formato stories 1080x1920.
@@ -131,7 +133,8 @@ const sharePoleIconPaths: Record<string, Record<PoleSide, string[]>> = {
 
 export function buildShareCard(
   result: QuizResult,
-  quiz: QuizPayload
+  quiz: QuizPayload,
+  religion: Religion | null = null
 ): { stage: HTMLDivElement; target: HTMLDivElement; backgroundColor: string } {
   const color = resolveIdeologyColor(result.topMatch.category);
   const stage = el('div', {
@@ -172,7 +175,7 @@ export function buildShareCard(
   content.append(
     buildShareHeader(),
     buildShareIdentity(result, color.bg),
-    buildShareTwoColumns(result, quiz, color),
+    buildShareTwoColumns(result, quiz, color, religion),
     buildShareLists(result, color),
     buildShareFooter()
   );
@@ -248,7 +251,8 @@ function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
 function buildShareTwoColumns(
   result: QuizResult,
   quiz: QuizPayload,
-  color: { base: string; bg: string }
+  color: { base: string; bg: string },
+  religion: Religion | null
 ): HTMLElement {
   const row = el('div', {
     display: 'flex',
@@ -260,7 +264,7 @@ function buildShareTwoColumns(
   });
   row.append(
     buildSharePersonalityPortrait(result.topPersonalityMatch, color),
-    buildShareAxesColumn(result, quiz, color)
+    buildShareAxesColumn(result, quiz, color, religion)
   );
   return row;
 }
@@ -332,7 +336,8 @@ function buildSharePersonalityPortrait(
 function buildShareAxesColumn(
   result: QuizResult,
   quiz: QuizPayload,
-  color: { base: string; bg: string }
+  color: { base: string; bg: string },
+  religion: Religion | null
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const col = el('div', {
@@ -363,7 +368,7 @@ function buildShareAxesColumn(
     justifyContent: 'space-between'
   });
   const axesById = new Map(quiz.axes.map((axis) => [axis.id, axis]));
-  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId), color)));
+  result.axes.forEach((axis) => list.append(buildShareAxisLine(axis, axesById.get(axis.axisId), color, religion)));
   col.append(list);
   return col;
 }
@@ -371,14 +376,16 @@ function buildShareAxesColumn(
 function buildShareAxisLine(
   axis: QuizResult['axes'][number],
   definition: QuizPayload['axes'][number] | undefined,
-  color: { base: string; bg: string }
+  color: { base: string; bg: string },
+  religion: Religion | null
 ): HTMLElement {
   const P = SHARE_COLORS.papel;
   const isBalanced = axis.intensity === 'Equilibrado';
   const leaningRight = axis.dominantPole === axis.rightPole;
   const winningPole = isBalanced ? axis.rightPole : leaningRight ? axis.rightPole : axis.leftPole;
   const winningPct = isBalanced ? 50 : leaningRight ? axis.rightPercent : axis.leftPercent;
-  const side: PoleSide = leaningRight ? 'right' : 'left';
+  // Mesmo lado do rótulo: equilibrado mostra o polo direito, então o ícone também.
+  const side: PoleSide = isBalanced || leaningRight ? 'right' : 'left';
   const accent = isBalanced
     ? color.bg
     : leaningRight
@@ -402,7 +409,7 @@ function buildShareAxisLine(
     color: readableInk(accent),
     background: accent
   });
-  icon.append(buildPoleGlyph(axis.axisId, side));
+  icon.append(buildPoleGlyph(axis.axisId, side, religion));
 
   const mini = el('span', {
     flex: '0 0 76px',
@@ -448,8 +455,9 @@ function buildShareAxisLine(
   return row;
 }
 
-function buildPoleGlyph(axisId: string, side: PoleSide): SVGElement {
-  const filled = FILLED_POLE_ICONS[axisId]?.[side];
+function buildPoleGlyph(axisId: string, side: PoleSide, religion: Religion | null): SVGElement {
+  // Polo "Religioso" mostra a religião escolhida; sem escolha, a cruz.
+  const filled = (axisId === 'religiao' && side === 'right' && religiousPoleIcon(religion)) || FILLED_POLE_ICONS[axisId]?.[side];
   if (filled) {
     const filledSvg = svgEl('svg', { viewBox: filled.viewBox, width: 26, height: 26, fill: 'currentColor', stroke: 'none' });
     filled.paths.forEach((d) => filledSvg.append(svgEl('path', { d, 'fill-rule': filled.fillRule ?? 'evenodd', 'clip-rule': filled.fillRule ?? 'evenodd' })));

@@ -7,7 +7,8 @@
     "flagPath": "/countries/flags/brasil.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "estados-unidos",
@@ -17,7 +18,8 @@
     "flagPath": "/countries/flags/estados-unidos.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "mexico",
@@ -27,7 +29,8 @@
     "flagPath": "/countries/flags/mexico.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "chile",
@@ -37,7 +40,8 @@
     "flagPath": "/countries/flags/chile.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "bolivia",
@@ -47,7 +51,8 @@
     "flagPath": "/countries/flags/bolivia.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity", "other"]
   },
   {
     "id": "venezuela",
@@ -57,7 +62,8 @@
     "flagPath": "/countries/flags/venezuela.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "cuba",
@@ -67,7 +73,8 @@
     "flagPath": "/countries/flags/cuba.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "costa-rica",
@@ -77,7 +84,8 @@
     "flagPath": "/countries/flags/costa-rica.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "suica",
@@ -87,7 +95,8 @@
     "flagPath": "/countries/flags/suica.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "suecia",
@@ -97,7 +106,8 @@
     "flagPath": "/countries/flags/suecia.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "alemanha",
@@ -107,7 +117,8 @@
     "flagPath": "/countries/flags/alemanha.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "franca",
@@ -117,7 +128,8 @@
     "flagPath": "/countries/flags/franca.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "uniao-europeia",
@@ -127,7 +139,8 @@
     "flagPath": "/countries/flags/uniao-europeia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "reino-unido",
@@ -137,7 +150,8 @@
     "flagPath": "/countries/flags/reino-unido.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "hungria",
@@ -147,7 +161,8 @@
     "flagPath": "/countries/flags/hungria.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "russia",
@@ -157,7 +172,8 @@
     "flagPath": "/countries/flags/russia.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "japao",
@@ -167,7 +183,8 @@
     "flagPath": "/countries/flags/japao.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "coreia-do-sul",
@@ -177,7 +194,8 @@
     "flagPath": "/countries/flags/coreia-do-sul.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "coreia-do-sul-de-park-chung-hee",
@@ -191,7 +209,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Korea.svg",
-    "flagNote": "O regime de Park Chung Hee manteve a bandeira nacional sul-coreana."
+    "flagNote": "O regime de Park Chung Hee manteve a bandeira nacional sul-coreana.",
+    "religions": []
   },
   {
     "id": "china",
@@ -201,7 +220,8 @@
     "flagPath": "/countries/flags/china.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "coreia-do-norte",
@@ -211,7 +231,8 @@
     "flagPath": "/countries/flags/coreia-do-norte.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "singapura",
@@ -221,7 +242,8 @@
     "flagPath": "/countries/flags/singapura.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "vietna",
@@ -231,7 +253,8 @@
     "flagPath": "/countries/flags/vietna.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "indonesia",
@@ -241,7 +264,8 @@
     "flagPath": "/countries/flags/indonesia.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "turquia",
@@ -251,7 +275,8 @@
     "flagPath": "/countries/flags/turquia.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "ira",
@@ -261,7 +286,8 @@
     "flagPath": "/countries/flags/ira.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "arabia-saudita",
@@ -271,7 +297,8 @@
     "flagPath": "/countries/flags/arabia-saudita.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "israel",
@@ -281,7 +308,8 @@
     "flagPath": "/countries/flags/israel.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["judaism"]
   },
   {
     "id": "africa-do-sul",
@@ -291,7 +319,8 @@
     "flagPath": "/countries/flags/africa-do-sul.gif",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "atenas-democratica",
@@ -305,7 +334,8 @@
     "flagKind": "historical-symbol",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Owl_of_Athena.svg",
-    "flagNote": "Não havia bandeira nacional moderna documentada para esse recorte; usa símbolo, estandarte ou reconstrução histórica como referência visual."
+    "flagNote": "Não havia bandeira nacional moderna documentada para esse recorte; usa símbolo, estandarte ou reconstrução histórica como referência visual.",
+    "religions": ["other"]
   },
   {
     "id": "esparta",
@@ -319,7 +349,8 @@
     "flagKind": "reconstructed-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Fictional_flag_of_Sparta.png",
-    "flagNote": "Reconstrução histórica usada como referência visual para o período."
+    "flagNote": "Reconstrução histórica usada como referência visual para o período.",
+    "religions": ["other"]
   },
   {
     "id": "imperio-macedonico",
@@ -333,7 +364,8 @@
     "flagKind": "historical-symbol",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Vergina_Sun.svg",
-    "flagNote": "Símbolo solar associado à dinastia argéada usado como referência visual; não representa uma bandeira estatal moderna."
+    "flagNote": "Símbolo solar associado à dinastia argéada usado como referência visual; não representa uma bandeira estatal moderna.",
+    "religions": ["other"]
   },
   {
     "id": "imperio-romano",
@@ -347,7 +379,8 @@
     "flagKind": "reconstructed-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Roman_Empire_with_Eagle_(3-2).svg",
-    "flagNote": "Reconstrução histórica usada como referência visual para o período."
+    "flagNote": "Reconstrução histórica usada como referência visual para o período.",
+    "religions": ["christianity", "other"]
   },
   {
     "id": "sacro-imperio-romano-germanico",
@@ -361,7 +394,8 @@
     "flagKind": "historical-banner",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Banner_of_the_Holy_Roman_Emperor_with_haloes_(1430-1806).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": ["christianity"]
   },
   {
     "id": "republica-de-veneza",
@@ -375,7 +409,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Republic_of_Venice.svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-otomano",
@@ -389,7 +424,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Ottoman_Empire_(1844%E2%80%931922).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": ["islam"]
   },
   {
     "id": "reino-unido-vitoriano-imperio-britanico",
@@ -403,7 +439,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Kingdom_(3-5).svg",
-    "flagNote": "O Reino Unido vitoriano usava a Union Jack de 1801, ainda em uso."
+    "flagNote": "O Reino Unido vitoriano usava a Union Jack de 1801, ainda em uso.",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-do-brasil",
@@ -417,7 +454,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil_(1870%E2%80%931889).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": ["christianity"]
   },
   {
     "id": "alemanha-nazista-terceiro-reich",
@@ -431,7 +469,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1935%E2%80%931945).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": []
   },
   {
     "id": "italia-fascista-mussolini",
@@ -445,7 +484,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Italy_(1861%E2%80%931946).svg",
-    "flagNote": "A Itália fascista manteve a bandeira nacional do Reino da Itália."
+    "flagNote": "A Itália fascista manteve a bandeira nacional do Reino da Itália.",
+    "religions": ["christianity"]
   },
   {
     "id": "chile-de-pinochet",
@@ -459,7 +499,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
-    "flagNote": "O regime de Pinochet manteve a bandeira chilena."
+    "flagNote": "O regime de Pinochet manteve a bandeira chilena.",
+    "religions": ["christianity"]
   },
   {
     "id": "uniao-sovietica-urss",
@@ -473,7 +514,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Soviet_Union.svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": []
   },
   {
     "id": "china-maoista",
@@ -487,7 +529,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
-    "flagNote": "A China maoísta usava a bandeira da República Popular da China adotada em 1949."
+    "flagNote": "A China maoísta usava a bandeira da República Popular da China adotada em 1949.",
+    "religions": []
   },
   {
     "id": "camboja-do-khmer-vermelho-pol-pot",
@@ -501,7 +544,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Democratic_Kampuchea.svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": []
   },
   {
     "id": "aragao-e-catalunha-anarquistas-revolucao-espanhola",
@@ -515,7 +559,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_CNT-FAI.svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": []
   },
   {
     "id": "argentina-peronista",
@@ -529,7 +574,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
-    "flagNote": "O primeiro peronismo manteve a bandeira argentina."
+    "flagNote": "O primeiro peronismo manteve a bandeira argentina.",
+    "religions": ["christianity"]
   },
   {
     "id": "egito-de-nasser",
@@ -543,7 +589,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": []
   },
   {
     "id": "africa-do-sul-do-apartheid",
@@ -557,7 +604,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_South_Africa_(1928%E2%80%931994,_dark_colors).svg",
-    "flagNote": ""
+    "flagNote": "",
+    "religions": ["christianity"]
   },
   {
     "id": "hong-kong",
@@ -571,7 +619,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hong_Kong.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": []
   },
   {
     "id": "argentina",
@@ -585,7 +634,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Argentina.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": []
   },
   {
     "id": "liechtenstein",
@@ -599,7 +649,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Liechtenstein.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": ["christianity"]
   },
   {
     "id": "rojava",
@@ -613,7 +664,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rojava.svg",
-    "flagNote": "Bandeira do movimento/administração autônoma usada como referência visual."
+    "flagNote": "Bandeira do movimento/administração autônoma usada como referência visual.",
+    "religions": []
   },
   {
     "id": "iugoslavia-socialista",
@@ -627,7 +679,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Yugoslavia_(1946-1992).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": []
   },
   {
     "id": "espanha-franquista",
@@ -641,7 +694,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Spain_(1945%E2%80%931977).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "islandia-medieval",
@@ -655,7 +709,8 @@
     "flagKind": "historical-symbol",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Raven_Banner.svg",
-    "flagNote": "Não havia bandeira nacional documentada; usa o estandarte nórdico do corvo (Hrafnsmerki) como referência visual do período."
+    "flagNote": "Não havia bandeira nacional documentada; usa o estandarte nórdico do corvo (Hrafnsmerki) como referência visual do período.",
+    "religions": ["christianity", "other"]
   },
   {
     "id": "emirados-arabes-unidos",
@@ -669,7 +724,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Emirates.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": ["islam"]
   },
   {
     "id": "portugal-estado-novo",
@@ -683,7 +739,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg",
-    "flagNote": "O Estado Novo manteve a bandeira nacional portuguesa de 1911; usada como referência visual do período."
+    "flagNote": "O Estado Novo manteve a bandeira nacional portuguesa de 1911; usada como referência visual do período.",
+    "religions": ["christianity"]
   },
   {
     "id": "prussia",
@@ -697,7 +754,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Kingdom_of_Prussia_(1801-1803).svg",
-    "flagNote": "Bandeira histórica do Reino da Prússia usada como referência visual para o período."
+    "flagNote": "Bandeira histórica do Reino da Prússia usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "polonia",
@@ -711,7 +769,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Poland.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": ["christianity"]
   },
   {
     "id": "ucrania-territorio-livre",
@@ -725,7 +784,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:RPAU_flag.svg",
-    "flagNote": "Estandarte do Exército Insurgente Revolucionário da Ucrânia (Makhnovistas) usado como referência visual."
+    "flagNote": "Estandarte do Exército Insurgente Revolucionário da Ucrânia (Makhnovistas) usado como referência visual.",
+    "religions": []
   },
   {
     "id": "brasil-era-vargas",
@@ -739,7 +799,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
-    "flagNote": "Bandeira nacional brasileira (lema “Ordem e Progresso”) usada como referência visual do período."
+    "flagNote": "Bandeira nacional brasileira (lema “Ordem e Progresso”) usada como referência visual do período.",
+    "religions": ["christianity"]
   },
   {
     "id": "tchequia",
@@ -753,7 +814,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Czech_Republic.svg",
-    "flagNote": "Bandeira oficial usada como referência visual."
+    "flagNote": "Bandeira oficial usada como referência visual.",
+    "religions": []
   },
   {
     "id": "eua-california",
@@ -767,7 +829,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_California.svg",
-    "flagNote": "Bandeira do estado da Califórnia (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado da Califórnia (Estados Unidos) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "eua-texas",
@@ -781,7 +844,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg",
-    "flagNote": "Bandeira do estado do Texas (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado do Texas (Estados Unidos) usada como referência visual da região.",
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "eua-nova-york",
@@ -795,7 +859,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_York_(state).svg",
-    "flagNote": "Bandeira do estado de Nova York (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de Nova York (Estados Unidos) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "eua-new-hampshire",
@@ -809,7 +874,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_New_Hampshire.svg",
-    "flagNote": "Bandeira do estado de New Hampshire (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de New Hampshire (Estados Unidos) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "eua-washington-dc",
@@ -823,7 +889,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Washington,_D.C..svg",
-    "flagNote": "Bandeira do Distrito de Columbia (Washington, D.C., Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do Distrito de Columbia (Washington, D.C., Estados Unidos) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "eua-massachusetts",
@@ -837,7 +904,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Massachusetts.svg",
-    "flagNote": "Bandeira do estado de Massachusetts (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de Massachusetts (Estados Unidos) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "canada",
@@ -847,7 +915,8 @@
     "flagPath": "/countries/flags/canada.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "paises-baixos",
@@ -857,7 +926,8 @@
     "flagPath": "/countries/flags/paises-baixos.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "italia",
@@ -867,7 +937,8 @@
     "flagPath": "/countries/flags/italia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "espanha",
@@ -877,7 +948,8 @@
     "flagPath": "/countries/flags/espanha.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "noruega",
@@ -887,7 +959,8 @@
     "flagPath": "/countries/flags/noruega.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "dinamarca",
@@ -897,7 +970,8 @@
     "flagPath": "/countries/flags/dinamarca.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "australia",
@@ -907,7 +981,8 @@
     "flagPath": "/countries/flags/australia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "nova-zelandia",
@@ -917,7 +992,8 @@
     "flagPath": "/countries/flags/nova-zelandia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "irlanda",
@@ -927,7 +1003,8 @@
     "flagPath": "/countries/flags/irlanda.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "ucrania",
@@ -937,7 +1014,8 @@
     "flagPath": "/countries/flags/ucrania.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "bielorrussia",
@@ -947,7 +1025,8 @@
     "flagPath": "/countries/flags/bielorrussia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "catar",
@@ -957,7 +1036,8 @@
     "flagPath": "/countries/flags/catar.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "libano",
@@ -967,7 +1047,8 @@
     "flagPath": "/countries/flags/libano.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity", "islam"]
   },
   {
     "id": "siria",
@@ -981,7 +1062,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Syria_(2025-).svg",
-    "flagNote": "Bandeira nacional de três estrelas, restabelecida após a queda do regime Assad."
+    "flagNote": "Bandeira nacional de três estrelas, restabelecida após a queda do regime Assad.",
+    "religions": ["islam"]
   },
   {
     "id": "filipinas",
@@ -991,7 +1073,8 @@
     "flagPath": "/countries/flags/filipinas.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "tailandia",
@@ -1001,7 +1084,8 @@
     "flagPath": "/countries/flags/tailandia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["buddhism"]
   },
   {
     "id": "malasia",
@@ -1011,7 +1095,8 @@
     "flagPath": "/countries/flags/malasia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["islam"]
   },
   {
     "id": "taiwan",
@@ -1021,7 +1106,8 @@
     "flagPath": "/countries/flags/taiwan.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "el-salvador",
@@ -1031,7 +1117,8 @@
     "flagPath": "/countries/flags/el-salvador.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "colombia",
@@ -1041,7 +1128,8 @@
     "flagPath": "/countries/flags/colombia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "uruguai",
@@ -1051,7 +1139,8 @@
     "flagPath": "/countries/flags/uruguai.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "japao-meiji",
@@ -1065,7 +1154,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870–1999).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["other"]
   },
   {
     "id": "republica-holandesa",
@@ -1079,7 +1169,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Statenvlag.svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "republica-de-weimar",
@@ -1093,7 +1184,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(3-2_aspect_ratio).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": []
   },
   {
     "id": "gra-colombia",
@@ -1107,7 +1199,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Gran_Colombia.svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "vaticano",
@@ -1117,7 +1210,8 @@
     "flagPath": "/countries/flags/vaticano.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "monaco",
@@ -1127,7 +1221,8 @@
     "flagPath": "/countries/flags/monaco.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity"]
   },
   {
     "id": "estonia",
@@ -1137,7 +1232,8 @@
     "flagPath": "/countries/flags/estonia.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "luxemburgo",
@@ -1147,7 +1243,8 @@
     "flagPath": "/countries/flags/luxemburgo.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": []
   },
   {
     "id": "eua-florida",
@@ -1157,7 +1254,8 @@
     "flagPath": "/countries/flags/eua-florida.png",
     "historical": false,
     "period": "",
-    "vector": null
+    "vector": null,
+    "religions": ["christianity", "judaism"]
   },
   {
     "id": "imperio-do-japao",
@@ -1171,7 +1269,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Japan_(1870%E2%80%931999).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["other"]
   },
   {
     "id": "imperio-austro-hungaro",
@@ -1185,7 +1284,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Ensign_of_Austro-Hungarian_civil_fleet_(1869-1918).svg",
-    "flagNote": "Bandeira histórica usada como referência visual para o período."
+    "flagNote": "Bandeira histórica usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "butao",
@@ -1199,7 +1299,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bhutan.svg",
-    "flagNote": "Bandeira nacional do Butão."
+    "flagNote": "Bandeira nacional do Butão.",
+    "religions": ["buddhism"]
   },
   {
     "id": "imperio-persa-aquemenida",
@@ -1213,7 +1314,8 @@
     "flagKind": "reconstructed-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Standard_of_Cyrus_the_Great.svg",
-    "flagNote": "Estandarte de Ciro, o Grande, usado como referência visual para o período."
+    "flagNote": "Estandarte de Ciro, o Grande, usado como referência visual para o período.",
+    "religions": ["other"]
   },
   {
     "id": "comuna-de-paris",
@@ -1227,7 +1329,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Red_flag.svg",
-    "flagNote": "Bandeira vermelha da Comuna usada como referência visual do movimento."
+    "flagNote": "Bandeira vermelha da Comuna usada como referência visual do movimento.",
+    "religions": []
   },
   {
     "id": "catalunha",
@@ -1241,7 +1344,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Estelada_blava.svg",
-    "flagNote": "Estelada, bandeira do movimento independentista catalão, usada como referência visual da região."
+    "flagNote": "Estelada, bandeira do movimento independentista catalão, usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "florenca-renascentista",
@@ -1255,7 +1359,8 @@
     "flagKind": "reconstructed-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Florence.svg",
-    "flagNote": "Bandeira com o giglio de Florença usada como referência visual para o período."
+    "flagNote": "Bandeira com o giglio de Florença usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "roma-republicana",
@@ -1269,7 +1374,8 @@
     "flagKind": "reconstructed-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Vexilloid_of_the_Roman_Empire.svg",
-    "flagNote": "Vexilo com a sigla SPQR usado como referência visual para o período."
+    "flagNote": "Vexilo com a sigla SPQR usado como referência visual para o período.",
+    "religions": ["other"]
   },
   {
     "id": "hungria-de-kadar",
@@ -1283,7 +1389,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary_(1957-1989).svg",
-    "flagNote": "Bandeira da República Popular da Hungria (1957–1989)."
+    "flagNote": "Bandeira da República Popular da Hungria (1957–1989).",
+    "religions": []
   },
   {
     "id": "chile-de-allende",
@@ -1297,7 +1404,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Chile.svg",
-    "flagNote": "O governo da Unidade Popular manteve a bandeira chilena."
+    "flagNote": "O governo da Unidade Popular manteve a bandeira chilena.",
+    "religions": []
   },
   {
     "id": "burkina-faso-de-sankara",
@@ -1311,7 +1419,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Burkina_Faso.svg",
-    "flagNote": "Bandeira adotada em 1984 pelo governo Sankara, mantida até hoje."
+    "flagNote": "Bandeira adotada em 1984 pelo governo Sankara, mantida até hoje.",
+    "religions": []
   },
   {
     "id": "eua-confederados",
@@ -1325,7 +1434,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Confederate_States_of_America_(1861-1863).svg",
-    "flagNote": "Primeira bandeira nacional confederada ('Stars and Bars'), 1861–1863."
+    "flagNote": "Primeira bandeira nacional confederada ('Stars and Bars'), 1861–1863.",
+    "religions": ["christianity"]
   },
   {
     "id": "macau",
@@ -1339,7 +1449,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Macau.svg",
-    "flagNote": "Bandeira oficial da RAE de Macau."
+    "flagNote": "Bandeira oficial da RAE de Macau.",
+    "religions": []
   },
   {
     "id": "estados-papais",
@@ -1353,7 +1464,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Papal_States_(1808-1870).svg",
-    "flagNote": "Bandeira historica dos Estados Papais usada como referencia visual."
+    "flagNote": "Bandeira historica dos Estados Papais usada como referencia visual.",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-bizantino",
@@ -1367,7 +1479,8 @@
     "flagKind": "historical-symbol",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Byzantine_imperial_flag,_14th_century.svg",
-    "flagNote": "Simbolo imperial bizantino tardio usado como referencia visual."
+    "flagNote": "Simbolo imperial bizantino tardio usado como referencia visual.",
+    "religions": ["christianity"]
   },
   {
     "id": "espanha-habsburgos",
@@ -1381,7 +1494,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cross_of_Burgundy.svg",
-    "flagNote": "Cruz de Borgonha usada como referencia visual da monarquia hispanica dos Habsburgos."
+    "flagNote": "Cruz de Borgonha usada como referencia visual da monarquia hispanica dos Habsburgos.",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-russo-czarista",
@@ -1395,7 +1509,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Russia.svg",
-    "flagNote": "Tricolor russo historico usado como referencia visual do Imperio Russo."
+    "flagNote": "Tricolor russo historico usado como referencia visual do Imperio Russo.",
+    "religions": ["christianity"]
   },
   {
     "id": "genebra-calvinista",
@@ -1409,7 +1524,8 @@
     "flagKind": "historical-symbol",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Geneva.svg",
-    "flagNote": "Bandeira de Genebra usada como referencia visual da cidade reformada."
+    "flagNote": "Bandeira de Genebra usada como referencia visual da cidade reformada.",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-portugues",
@@ -1423,7 +1539,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_Portugal_(1640).svg",
-    "flagNote": "Bandeira historica portuguesa usada como referencia visual do imperio ultramarino."
+    "flagNote": "Bandeira historica portuguesa usada como referencia visual do imperio ultramarino.",
+    "religions": ["christianity"]
   },
   {
     "id": "austria",
@@ -1437,7 +1554,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Austria.svg",
-    "flagNote": "Bandeira nacional da Áustria."
+    "flagNote": "Bandeira nacional da Áustria.",
+    "religions": []
   },
   {
     "id": "imperio-alemao",
@@ -1451,7 +1569,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Germany_(1867%E2%80%931918).svg",
-    "flagNote": "Bandeira preta-branca-vermelha usada pela Confederação da Alemanha do Norte e pelo Império Alemão (1867–1918)."
+    "flagNote": "Bandeira preta-branca-vermelha usada pela Confederação da Alemanha do Norte e pelo Império Alemão (1867–1918).",
+    "religions": ["christianity"]
   },
   {
     "id": "portugal",
@@ -1465,7 +1584,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Portugal.svg",
-    "flagNote": "Bandeira nacional de Portugal."
+    "flagNote": "Bandeira nacional de Portugal.",
+    "religions": []
   },
   {
     "id": "alemanha-oriental",
@@ -1479,7 +1599,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_East_Germany.svg",
-    "flagNote": "Bandeira da República Democrática Alemã usada de 1959 a 1990."
+    "flagNote": "Bandeira da República Democrática Alemã usada de 1959 a 1990.",
+    "religions": []
   },
   {
     "id": "islandia",
@@ -1493,7 +1614,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iceland.svg",
-    "flagNote": "Bandeira nacional da Islândia."
+    "flagNote": "Bandeira nacional da Islândia.",
+    "religions": []
   },
   {
     "id": "finlandia",
@@ -1507,7 +1629,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Finland.svg",
-    "flagNote": "Bandeira nacional da Finlândia."
+    "flagNote": "Bandeira nacional da Finlândia.",
+    "religions": []
   },
   {
     "id": "imperio-mongol",
@@ -1521,7 +1644,8 @@
     "flagKind": "conjectural-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Mongol_Empire.svg",
-    "flagNote": "Bandeira conjectural marcada no Commons como especulativa; usada apenas como referência visual por falta de bandeira estatal comprovada para o período."
+    "flagNote": "Bandeira conjectural marcada no Commons como especulativa; usada apenas como referência visual por falta de bandeira estatal comprovada para o período.",
+    "religions": ["other"]
   },
   {
     "id": "brasil-regime-militar",
@@ -1535,7 +1659,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Brazil.svg",
-    "flagNote": "O regime manteve a bandeira nacional brasileira."
+    "flagNote": "O regime manteve a bandeira nacional brasileira.",
+    "religions": ["christianity"]
   },
   {
     "id": "mexico-de-cardenas",
@@ -1549,7 +1674,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Mexico_(1934-1968).svg",
-    "flagNote": "Bandeira mexicana com o escudo do período 1934–1968."
+    "flagNote": "Bandeira mexicana com o escudo do período 1934–1968.",
+    "religions": []
   },
   {
     "id": "confederacao-helvetica",
@@ -1563,7 +1689,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg",
-    "flagNote": "Bandeira da cruz suíça, símbolo tradicional da Confederação desde o período medieval, usada como referência visual para o período."
+    "flagNote": "Bandeira da cruz suíça, símbolo tradicional da Confederação desde o período medieval, usada como referência visual para o período.",
+    "religions": ["christianity"]
   },
   {
     "id": "imperio-napoleonico",
@@ -1577,7 +1704,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Imperial_Standard_of_Napol%C3%A9on_I.svg",
-    "flagNote": "Estandarte Imperial de Napoleão I, com a águia dourada, símbolo do Primeiro Império Francês (1804–1815)."
+    "flagNote": "Estandarte Imperial de Napoleão I, com a águia dourada, símbolo do Primeiro Império Francês (1804–1815).",
+    "religions": ["christianity"]
   },
   {
     "id": "armenia",
@@ -1590,7 +1718,8 @@
     "vector": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Armenia.svg",
-    "flagNote": "Bandeira tricolor da Armênia, adotada em 1990, com vermelho, azul e laranja."
+    "flagNote": "Bandeira tricolor da Armênia, adotada em 1990, com vermelho, azul e laranja.",
+    "religions": ["christianity"]
   },
   {
     "id": "georgia",
@@ -1603,7 +1732,8 @@
     "vector": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Georgia.svg",
-    "flagNote": "Bandeira da Cruz de São Jorge com quatro cruzes de Bolnisi, readotada pela Geórgia em 2004."
+    "flagNote": "Bandeira da Cruz de São Jorge com quatro cruzes de Bolnisi, readotada pela Geórgia em 2004.",
+    "religions": ["christianity"]
   },
   {
     "id": "belgica",
@@ -1617,7 +1747,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Belgium.svg",
-    "flagNote": "Bandeira nacional tricolor da Bélgica."
+    "flagNote": "Bandeira nacional tricolor da Bélgica.",
+    "religions": []
   },
   {
     "id": "panama",
@@ -1631,7 +1762,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Panama.svg",
-    "flagNote": "Bandeira nacional do Panamá."
+    "flagNote": "Bandeira nacional do Panamá.",
+    "religions": ["christianity"]
   },
   {
     "id": "peru",
@@ -1645,7 +1777,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
-    "flagNote": "Bandeira nacional do Peru."
+    "flagNote": "Bandeira nacional do Peru.",
+    "religions": ["christianity"]
   },
   {
     "id": "paraguai",
@@ -1659,7 +1792,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Paraguay.svg",
-    "flagNote": "Bandeira nacional do Paraguai."
+    "flagNote": "Bandeira nacional do Paraguai.",
+    "religions": ["christianity"]
   },
   {
     "id": "eslovenia",
@@ -1673,7 +1807,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovenia.svg",
-    "flagNote": "Bandeira nacional da Eslovênia."
+    "flagNote": "Bandeira nacional da Eslovênia.",
+    "religions": []
   },
   {
     "id": "eslovaquia",
@@ -1687,7 +1822,8 @@
     "flagKind": "national-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Slovakia.svg",
-    "flagNote": "Bandeira nacional da Eslováquia."
+    "flagNote": "Bandeira nacional da Eslováquia.",
+    "religions": ["christianity"]
   },
   {
     "id": "rodesia",
@@ -1701,7 +1837,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rhodesia_(1968%E2%80%931979).svg",
-    "flagNote": "Bandeira da Rodésia usada entre 1968 e 1979."
+    "flagNote": "Bandeira da Rodésia usada entre 1968 e 1979.",
+    "religions": ["christianity"]
   },
   {
     "id": "suica-zug",
@@ -1715,7 +1852,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Canton_of_Zug.svg",
-    "flagNote": "Bandeira do cantão de Zug (Suíça) usada como referência visual da região."
+    "flagNote": "Bandeira do cantão de Zug (Suíça) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "chiapas",
@@ -1729,7 +1867,8 @@
     "flagKind": "movement-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Ej%C3%A9rcito_Zapatista_de_Liberaci%C3%B3n_Nacional,_Flag.svg",
-    "flagNote": "Bandeira do Exército Zapatista de Libertação Nacional (EZLN) usada como referência visual do movimento."
+    "flagNote": "Bandeira do Exército Zapatista de Libertação Nacional (EZLN) usada como referência visual do movimento.",
+    "religions": []
   },
   {
     "id": "baviera",
@@ -1743,7 +1882,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bavaria_(lozengy).svg",
-    "flagNote": "Bandeira losangeada da Baviera (Alemanha) usada como referência visual da região."
+    "flagNote": "Bandeira losangeada da Baviera (Alemanha) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "porto-rico",
@@ -1757,7 +1897,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Puerto_Rico.svg",
-    "flagNote": "Bandeira oficial de Porto Rico usada como referência visual do território."
+    "flagNote": "Bandeira oficial de Porto Rico usada como referência visual do território.",
+    "religions": ["christianity"]
   },
   {
     "id": "eua-wyoming",
@@ -1771,7 +1912,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Wyoming.svg",
-    "flagNote": "Bandeira do estado de Wyoming (Estados Unidos) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de Wyoming (Estados Unidos) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "peru-fujimorista",
@@ -1785,7 +1927,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Peru.svg",
-    "flagNote": "O regime manteve a bandeira nacional peruana."
+    "flagNote": "O regime manteve a bandeira nacional peruana.",
+    "religions": []
   },
   {
     "id": "palestina",
@@ -1798,7 +1941,8 @@
     "vector": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
-    "flagNote": "Bandeira oficial da Palestina usada como referência visual."
+    "flagNote": "Bandeira oficial da Palestina usada como referência visual.",
+    "religions": ["islam"]
   },
   {
     "id": "escocia",
@@ -1812,7 +1956,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland.svg",
-    "flagNote": "Bandeira da Escócia (Saltire) usada como referência visual da nação."
+    "flagNote": "Bandeira da Escócia (Saltire) usada como referência visual da nação.",
+    "religions": []
   },
   {
     "id": "sao-paulo",
@@ -1826,7 +1971,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_S%C3%A3o_Paulo.svg",
-    "flagNote": "Bandeira do estado de São Paulo (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de São Paulo (Brasil) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "rio-de-janeiro",
@@ -1840,7 +1986,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_State_of_Rio_de_Janeiro.svg",
-    "flagNote": "Bandeira do estado do Rio de Janeiro (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado do Rio de Janeiro (Brasil) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "santa-catarina",
@@ -1854,7 +2001,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Santa_Catarina.svg",
-    "flagNote": "Bandeira do estado de Santa Catarina (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de Santa Catarina (Brasil) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "parana",
@@ -1868,7 +2016,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Paran%C3%A1.svg",
-    "flagNote": "Bandeira do estado do Paraná (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado do Paraná (Brasil) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "rio-grande-do-sul",
@@ -1882,7 +2031,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Rio_Grande_do_Sul.svg",
-    "flagNote": "Bandeira do estado do Rio Grande do Sul (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado do Rio Grande do Sul (Brasil) usada como referência visual da região.",
+    "religions": []
   },
   {
     "id": "minas-gerais",
@@ -1896,7 +2046,8 @@
     "flagKind": null,
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Minas_Gerais.svg",
-    "flagNote": "Bandeira do estado de Minas Gerais (Brasil) usada como referência visual da região."
+    "flagNote": "Bandeira do estado de Minas Gerais (Brasil) usada como referência visual da região.",
+    "religions": ["christianity"]
   },
   {
     "id": "reino-de-jerusalem",
@@ -1910,7 +2061,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Jerusalem.svg",
-    "flagNote": "Estandarte com a cruz de Jerusalém em ouro sobre prata."
+    "flagNote": "Estandarte com a cruz de Jerusalém em ouro sobre prata.",
+    "religions": ["christianity"]
   },
   {
     "id": "siria-de-assad",
@@ -1924,7 +2076,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_United_Arab_Republic_(1958%E2%80%931971),_Flag_of_Syria_(1980%E2%80%932024).svg",
-    "flagNote": "Bandeira nacional de duas estrelas verdes usada pela República Árabe Síria de 1980 até 2024."
+    "flagNote": "Bandeira nacional de duas estrelas verdes usada pela República Árabe Síria de 1980 até 2024.",
+    "religions": []
   },
   {
     "id": "ira-pahlavi",
@@ -1938,7 +2091,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:State_flag_of_Iran_(1933%E2%80%931964).svg",
-    "flagNote": "Bandeira estatal com o leão e o sol, na versão usada entre 1933 e 1964."
+    "flagNote": "Bandeira estatal com o leão e o sol, na versão usada entre 1933 e 1964.",
+    "religions": ["islam"]
   },
   {
     "id": "libia-de-gaddafi",
@@ -1952,7 +2106,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Libya_(1977%E2%80%932011).svg",
-    "flagNote": "Bandeira verde usada de 1977 a 2011; o regime utilizou outras bandeiras entre 1969 e 1977."
+    "flagNote": "Bandeira verde usada de 1977 a 2011; o regime utilizou outras bandeiras entre 1969 e 1977.",
+    "religions": ["islam"]
   },
   {
     "id": "iraque-baathista",
@@ -1966,7 +2121,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Iraq_(1963%E2%80%931991).svg",
-    "flagNote": "Bandeira de três estrelas usada entre 1968 e 1991; a inscrição Allahu Akbar foi adicionada em 1991."
+    "flagNote": "Bandeira de três estrelas usada entre 1968 e 1991; a inscrição Allahu Akbar foi adicionada em 1991.",
+    "religions": ["islam"]
   },
   {
     "id": "reino-da-franca",
@@ -1980,7 +2136,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Standard_of_the_King_of_France.svg",
-    "flagNote": "Estandarte real usado aproximadamente de 1638 a 1790; representa apenas a fase final do reino."
+    "flagNote": "Estandarte real usado aproximadamente de 1638 a 1790; representa apenas a fase final do reino.",
+    "religions": ["christianity"]
   },
   {
     "id": "reino-de-castela",
@@ -1994,7 +2151,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Bandera_de_la_Corona_de_Castilla.svg",
-    "flagNote": "Estandarte histórico da Coroa de Castela; representa uma fase do longo período."
+    "flagNote": "Estandarte histórico da Coroa de Castela; representa uma fase do longo período.",
+    "religions": ["christianity"]
   },
   {
     "id": "coroa-de-aragao",
@@ -2008,7 +2166,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Kingdom_of_Aragon.svg",
-    "flagNote": "Senyera histórica associada à Coroa de Aragão; não representa uniformemente todos os seus territórios."
+    "flagNote": "Senyera histórica associada à Coroa de Aragão; não representa uniformemente todos os seus territórios.",
+    "religions": ["christianity"]
   },
   {
     "id": "reino-da-hungria",
@@ -2022,7 +2181,8 @@
     "flagKind": "historical-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary_(1896-1915).svg",
-    "flagNote": "Bandeira de 1896–1915; representa a fase final de um reino muito mais antigo."
+    "flagNote": "Bandeira de 1896–1915; representa a fase final de um reino muito mais antigo.",
+    "religions": ["christianity"]
   },
   {
     "id": "antigo-egito",
@@ -2036,6 +2196,7 @@
     "flagKind": "modern-flag",
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Egypt.svg",
-    "flagNote": "Bandeira atual do Egito (desde 1984), usada aqui apenas como símbolo visual por solicitação do usuário; não existia no Antigo Egito."
+    "flagNote": "Bandeira atual do Egito (desde 1984), usada aqui apenas como símbolo visual por solicitação do usuário; não existia no Antigo Egito.",
+    "religions": ["other"]
   }
 ]

@@ -83,6 +83,10 @@ PERSONALITY_CATEGORIES = {
     "teorico", "empresario", "intelectual", "ativista",
 }
 
+# Valores de "religions" nos metadados. Espelha ReligionFilter.java.
+RELIGIONS = {"christianity", "judaism", "islam", "buddhism", "other"}
+RELIGIOUS_THRESHOLD = 35.0
+
 CATALOGS = {
     "personality": ("personality-profiles.json", "personalityId", "personalities.json"),
     "ideology": ("ideology-profiles.json", "ideologyId", "ideologies.json"),
@@ -258,6 +262,24 @@ def main():
 
     # ---------- [CONTEUDO] ----------
     vec = compute_vector(data, qmap)
+
+    # ---------- [RELIGIAO] ----------
+    # Espelha ReligionFilterTest.java. O vetor so torna o campo obrigatorio; o
+    # valor vem de pesquisa (ver "O campo religions" em NEW_PROFILE.md).
+    if entrada is not None:
+        religions = entrada.get("religions")
+        if religions is None:
+            errors.append(f"[RELIGIAO] {pid} sem campo 'religions' (use [] se nao houver vinculo)")
+        else:
+            invalid = [r for r in religions if r not in RELIGIONS]
+            if invalid:
+                errors.append(f"[RELIGIAO] {pid} usa valores invalidos {invalid} — validos: "
+                              + ", ".join(sorted(RELIGIONS)))
+            if vec["religiao"] <= RELIGIOUS_THRESHOLD and not religions:
+                errors.append(
+                    f"[RELIGIAO] religiao={vec['religiao']:.1f} (<= {RELIGIOUS_THRESHOLD:.0f}, lado religioso) "
+                    f"e 'religions' vazio — pesquise e indique a tradicao que o perfil representa")
+        print(f"[RELIGIAO] religiao={vec['religiao']:.1f} · religions={religions}")
     pvec, ivec = vectors("personality"), vectors("ideology")
     pname, iname = names("personality"), names("ideology")
 

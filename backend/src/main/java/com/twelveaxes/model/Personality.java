@@ -1,6 +1,7 @@
 package com.twelveaxes.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import java.util.List;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public record Personality(
@@ -13,6 +14,7 @@ public record Personality(
         String imagePath,
         String imageSourceName,
         String imageSourceUrl,
-        String imageNote
+        String imageNote,
+        List<String> religions
 ) {
 }

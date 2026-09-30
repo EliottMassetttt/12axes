@@ -60,14 +60,19 @@ public class DimensionMatcherService {
      *                  nada ao leitor.
      */
     public List<DimensionMatch> findAll(List<AxisResult> axisResults, String lang, String excludeId) {
+        return findAll(axisResults, lang, excludeId, null);
+    }
+
+    public List<DimensionMatch> findAll(
+            List<AxisResult> axisResults, String lang, String excludeId, String religion) {
         List<DimensionMatch> matches = new ArrayList<>();
         Set<String> excludedIds = new LinkedHashSet<>();
         if (excludeId != null) {
             excludedIds.add(excludeId);
         }
-        addIfPresent(matches, excludedIds, POLITICAL, POLITICAL_AXES, axisResults, lang);
-        addIfPresent(matches, excludedIds, SOCIAL, SOCIAL_AXES, axisResults, lang);
-        addIfPresent(matches, excludedIds, ECONOMIC, ECONOMIC_AXES, axisResults, lang);
+        addIfPresent(matches, excludedIds, POLITICAL, POLITICAL_AXES, axisResults, lang, religion);
+        addIfPresent(matches, excludedIds, SOCIAL, SOCIAL_AXES, axisResults, lang, religion);
+        addIfPresent(matches, excludedIds, ECONOMIC, ECONOMIC_AXES, axisResults, lang, religion);
         return List.copyOf(matches);
     }
 
@@ -81,8 +86,9 @@ public class DimensionMatcherService {
             String dimension,
             List<String> axisIds,
             List<AxisResult> axisResults,
-            String lang) {
-        PersonalityMatch match = findBestFor(axisIds, axisResults, lang, excludedIds);
+            String lang,
+            String religion) {
+        PersonalityMatch match = findBestFor(axisIds, axisResults, lang, religion, excludedIds);
         if (match != null) {
             matches.add(new DimensionMatch(dimension, match));
             excludedIds.add(match.personalityId());
@@ -93,10 +99,12 @@ public class DimensionMatcherService {
             List<String> axisIds,
             List<AxisResult> axisResults,
             String lang,
+            String religion,
             Set<String> excludedIds) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
         List<Personality> personalities = dataService.getPersonalities(QuizDataService.normalizeLang(lang)).stream()
                 .filter(personality -> !excludedIds.contains(personality.id()))
+                .filter(personality -> ReligionFilter.allows(personality.religions(), religion))
                 .toList();
         if (personalities.isEmpty()) {
             return null;

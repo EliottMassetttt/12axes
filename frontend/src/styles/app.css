@@ -6984,6 +6984,12 @@
   font-weight: 700;
   font-size: 0.82rem;
 }
+.archetype-letter .archetype-option-ico {
+  width: 13px;
+  height: 13px;
+  fill: currentColor;
+  stroke: none;
+}
 .archetype-skip {
   margin-left: auto;
 }

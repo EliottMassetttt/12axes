@@ -37,6 +37,7 @@ de vetor/merge/`STATE.json`/arquivamento é o mesmo; só o tamanho do lote muda 
      Haiku/rápido) — mesma regra crítica do README, só o número muda.
    - Validar as 6 saídas em `subagent-out/<catalog>/<id>.json`.
    - Calcular vetores e mesclar no arquivo de perfis correspondente.
+   - **Revisar `religions` de cada perfil do lote** com o vetor novo: valores fechados `christianity`, `judaism`, `islam`, `buddhism`, `other` (hinduísmo, xintoísmo, religiões antigas) ou `[]`; pode haver mais de um. Regra **identidade + causa ativa**: entra a religião com que o perfil se identifica ou cuja causa religiosa/cultural defende ativamente como parte da identidade política; não precisa ser a oficial, e aliança só diplomática/militar não conta (Trump e EUA = `["christianity", "judaism"]`; Arábia Saudita = `["islam"]`). Com o vetor calculado, `religiao` ≤ 35 (lado religioso) **exige** ao menos um valor — o `validate.py` ([RELIGIAO]) e o `ReligionFilterTest` bloqueiam —, mas o valor vem de pesquisa, **nunca** do vetor. Vive só no JSON PT, como `category`. Ver "O campo `religions`" em `NEW_PROFILE.md`. Se o campo faltar, estiver errado pela regra, ou o vetor novo cair em `religiao` ≤ 35 com lista vazia, corrija no JSON de metadados PT e cite a mudança (antes → depois, com a razão) no resumo final.
    - Atualizar `STATE.json` (mover IDs de `pending` para `done`, atualizar `lastUpdated`).
    - Arquivar em `answers/<catalog>/<id>.json` (permanente) e limpar temporários (mantendo só um par
      de exemplo por catálogo).
@@ -45,7 +46,7 @@ de vetor/merge/`STATE.json`/arquivamento é o mesmo; só o tamanho do lote muda 
    (mesmo algoritmo de `ProfileMatchScorer.java`). Nunca estimar esses matches de cabeça.
    - **Perguntas de arquétipo:** a auditoria responde as 240 perguntas **e** as perguntas de arquétipo, como um usuário do quiz. O prompt termina com o bloco de `python profile-audit/profile_vector.py --prompt-block`, a saída traz o bloco `archetype`, o `validate.py` reprova se faltar, e o vetor mesclado (via `profile_vector.compute_vector`) soma as alternativas escolhidas como respostas extras, igual ao `ScoringService`. Liste as escolhas no resumo final. Ver "Perguntas de arquétipo" em `profile-audit/README.md`.
 6. Ao final, apresente para cada perfil do lote um resumo com os matches calculados no passo anterior
-   (percentual exato) e informe quantos perfis restam em `pending` naquele catálogo. **Pergunte
+   (percentual exato) e a revisão de `religions` e informe quantos perfis restam em `pending` naquele catálogo. **Pergunte
    explicitamente** se deve continuar para o próximo lote de 6 — nunca encadeie lotes sozinho.
 
 ## Regras que não podem ser quebradas

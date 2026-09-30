@@ -33,7 +33,11 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMatches(List<AxisResult> axisResults, String lang) {
-        return rankAll(axisResults, lang).stream()
+        return findMatches(axisResults, lang, null);
+    }
+
+    public List<PersonalityMatch> findMatches(List<AxisResult> axisResults, String lang, String religion) {
+        return rankAll(axisResults, lang, religion).stream()
                 .limit(TOP_MATCHES)
                 .toList();
     }
@@ -50,7 +54,7 @@ public class PersonalityMatcherService {
     // categoria da mais compativel: percorre o ranking de cima para baixo e
     // pega a primeira de cada categoria ainda nao vista.
     public List<PersonalityMatch> findCategoryMatches(List<AxisResult> axisResults, String lang) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, null);
         if (ranking.isEmpty()) {
             return List.of();
         }
@@ -74,8 +78,12 @@ public class PersonalityMatcherService {
     // mais compativel para a menos. Diferente de findCategoryMatches, que so
     // devolve tres: aqui nenhuma area de atuacao fica de fora.
     public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang) {
+        return findBestPerCategory(axisResults, lang, null);
+    }
+
+    public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang, String religion) {
         Map<String, PersonalityMatch> melhorPorCategoria = new LinkedHashMap<>();
-        for (PersonalityMatch match : rankAll(axisResults, lang)) {
+        for (PersonalityMatch match : rankAll(axisResults, lang, religion)) {
             if (match.category() != null) {
                 melhorPorCategoria.putIfAbsent(match.category(), match);
             }
@@ -87,7 +95,11 @@ public class PersonalityMatcherService {
 
     // As tres menos compativeis do catalogo inteiro, em ordem crescente.
     public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
+        return findBottomMatches(axisResults, lang, null);
+    }
+
+    public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang, String religion) {
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, religion);
         return ranking.stream()
                 .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
                 .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility))
@@ -95,13 +107,14 @@ public class PersonalityMatcherService {
     }
 
     // Ranking completo do catalogo, do mais ao menos compativel. Todos os
-    // recortes (topo, categorias, opostos) saem desta mesma lista.
-    private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang) {
-        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
-                () -> computeRanking(axisResults, lang));
+    // recortes (topo, categorias, opostos) saem desta mesma lista. O percentil
+    // compara com o catalogo inteiro; a preferencia religiosa so tira perfis.
+    private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang, String religion) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults, String.valueOf(religion)),
+                () -> computeRanking(axisResults, lang, religion));
     }
 
-    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang) {
+    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang, String religion) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<PersonalityCandidate> byScore =
@@ -118,6 +131,7 @@ public class PersonalityMatcherService {
         double[] percentiles = profileMatchScorer.percentiles(catalogScores);
         return java.util.stream.IntStream.range(0, candidates.size())
                 .mapToObj(i -> new PersonalityCandidate(candidates.get(i).personality(), candidates.get(i).compatibility(), percentiles[i]))
+                .filter(candidate -> ReligionFilter.allows(candidate.personality().religions(), religion))
                 .sorted(byScore.thenComparing(byName))
                 .map(this::toMatch)
                 .toList();

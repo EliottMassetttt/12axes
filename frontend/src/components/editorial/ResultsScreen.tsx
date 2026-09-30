@@ -13,6 +13,7 @@ import { PersonalitiesSection } from '../results/PersonalitiesSection';
 import { PhraseSection } from '../results/PhraseSection';
 import { ResultsNav } from '../results/ResultsNav';
 import { SignatureSection } from '../results/SignatureSection';
+import type { Religion } from '../../utils/religion';
 import { DownloadIcon, RefreshIcon, Ring, ShareImageIcon } from './primitives';
 
 interface ResultsScreenProps {
@@ -24,9 +25,10 @@ interface ResultsScreenProps {
   error: string | null;
   onRedo: () => void;
   onShare: () => void;
+  religion?: Religion | null;
 }
 
-export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare }: ResultsScreenProps) {
+export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare, religion }: ResultsScreenProps) {
   const top = result.topMatch;
 
   return (
@@ -55,7 +57,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
 
           <PhraseSection match={top} />
 
-          <AxesSection axes={axes} results={axisResults} />
+          <AxesSection axes={axes} results={axisResults} religion={religion} />
 
           <div className="e-actions">
             <button className="e-btn e-btn-ghost" type="button" onClick={onShare} disabled={isSharing}>
