@@ -1,8 +1,11 @@
-import type { CSSProperties } from 'react';
+import { useEffect, useState, type CSSProperties } from 'react';
+import { createPortal } from 'react-dom';
 import { t } from '../../i18n';
 import type { Axis, AxisResult, QuizPayload, QuizResult } from '../../types/quiz';
 import { catStyle } from '../../utils/ideologyColors';
 import { SupportSection } from '../SupportSection';
+import { PdfReport } from '../report/PdfReport';
+import '../../styles/report.css';
 import { BooksSection } from '../results/BooksSection';
 import { AreasSection } from '../results/AreasSection';
 import { AxesSection } from '../results/AxesSection';
@@ -14,7 +17,7 @@ import { PhraseSection } from '../results/PhraseSection';
 import { ResultsNav } from '../results/ResultsNav';
 import { SignatureSection } from '../results/SignatureSection';
 import type { Religion } from '../../utils/religion';
-import { DownloadIcon, RefreshIcon, Ring, ShareImageIcon } from './primitives';
+import { DownloadIcon, Ring, ShareImageIcon } from './primitives';
 
 interface ResultsScreenProps {
   result: QuizResult;
@@ -23,13 +26,42 @@ interface ResultsScreenProps {
   axisResults: Map<string, AxisResult>;
   isSharing: boolean;
   error: string | null;
-  onRedo: () => void;
   onShare: () => void;
   religion?: Religion | null;
 }
 
-export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare, religion }: ResultsScreenProps) {
+export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onShare, religion }: ResultsScreenProps) {
   const top = result.topMatch;
+  const [printingPdf, setPrintingPdf] = useState(false);
+
+  // O relatório é montado fora da tela; quando imagens e fontes carregam, o diálogo de
+  // impressão do navegador gera o PDF. O título da aba vira o nome sugerido do arquivo.
+  useEffect(() => {
+    if (!printingPdf) {
+      return;
+    }
+    let cancelled = false;
+    const previousTitle = document.title;
+    const finish = () => {
+      document.title = previousTitle;
+      setPrintingPdf(false);
+    };
+    (async () => {
+      const images = Array.from(document.querySelectorAll<HTMLImageElement>('.rp-root img'));
+      await Promise.allSettled(images.map((img) => (img.complete ? Promise.resolve() : img.decode())));
+      await document.fonts?.ready;
+      if (cancelled) {
+        return;
+      }
+      document.title = `${t.report.fileName}-${new Date().toISOString().slice(0, 10)}`;
+      window.addEventListener('afterprint', finish, { once: true });
+      window.print();
+    })();
+    return () => {
+      cancelled = true;
+      window.removeEventListener('afterprint', finish);
+    };
+  }, [printingPdf]);
 
   return (
     <main className="ed e-res" id="resultados" style={catStyle(top.category) as CSSProperties}>
@@ -91,11 +123,11 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 
           <div className="e-actions">
-            <button className="e-btn e-btn-primary" type="button" onClick={onRedo}>
-              {t.redoAnalysis} <RefreshIcon />
+            <button className="e-btn e-btn-primary" type="button" onClick={onShare} disabled={isSharing}>
+              {isSharing ? t.generatingPng : t.saveOrShare} <ShareImageIcon />
             </button>
-            <button className="e-btn e-btn-ghost" type="button" onClick={onShare} disabled={isSharing}>
-              {isSharing ? t.generatingPng : t.share} <DownloadIcon />
+            <button className="e-btn e-btn-ghost" type="button" onClick={() => setPrintingPdf(true)} disabled={printingPdf}>
+              {printingPdf ? t.generatingPdf : t.downloadPdf} <DownloadIcon />
             </button>
           </div>
           {error && <p className="inline-error" role="alert">{error}</p>}
@@ -125,6 +157,19 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <ResultsNav hasBooks={(result.bookRecommendations?.length ?? 0) > 0} />
         </aside>
       </div>
+      {printingPdf &&
+        createPortal(
+          <div className="rp-root" aria-hidden="true">
+            <PdfReport
+              result={result}
+              axes={axes}
+              axisResults={axisResults}
+              answeredCount={quiz ? quiz.questions.length : null}
+              religion={religion}
+            />
+          </div>,
+          document.body
+        )}
     </main>
   );
 }

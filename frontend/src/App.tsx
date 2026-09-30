@@ -783,7 +783,6 @@ function MainApp() {
           axisResults={resultByAxis}
           isSharing={isSharing}
           error={error}
-          onRedo={() => void startQuiz(selectedVariant)}
           onShare={() => void downloadResultsPng()}
           religion={religion}
         />

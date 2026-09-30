@@ -62,7 +62,7 @@ function TensionCard({ tension }: { tension: AxisTension }) {
 // Quem esta na faixa neutra nao pende para polo nenhum: dizer "voce e mais
 // democracia" seria arbitrario. Nesse caso o texto compara o centro do usuario
 // com a inclinacao do catalogo, que e o que de fato o distingue.
-function unusualLead(outlier: AxisOutlier): string {
+export function unusualLead(outlier: AxisOutlier): string {
   if (outlier.balanced) {
     return t.signatureUnusualLeadBalanced(outlier.label, outlier.abovePole, outlier.abovePercent);
   }
@@ -74,7 +74,7 @@ function unusualLead(outlier: AxisOutlier): string {
   return t.signatureUnusualLead(outlier.abovePole, outlier.abovePercent);
 }
 
-function commonNote(outlier: AxisOutlier): string {
+export function commonNote(outlier: AxisOutlier): string {
   if (outlier.balanced) {
     return t.signatureCommonNoteBalanced(outlier.label);
   }

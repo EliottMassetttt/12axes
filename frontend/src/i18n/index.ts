@@ -221,6 +221,30 @@ interface Strings {
   share: string;
   saveOrShare: string;
   generatingPng: string;
+  downloadPdf: string;
+  generatingPdf: string;
+  report: {
+    fileName: string;
+    docLabel: string;
+    profileEyebrow: string;
+    headerLabel: (ideology: string) => string;
+    kpiCountry: string;
+    kpiPersonality: string;
+    kpiAxes: string;
+    kpiAnswered: (count: number) => string;
+    tocTitle: string;
+    generatedOn: (date: string) => string;
+    axesIntro: string;
+    intensityLegend: string;
+    intensityLevels: [string, string, string, string];
+    alsoClose: string;
+    continued: string;
+    areasIntro: string;
+    booksIntro: string;
+    aboutTitle: string;
+    aboutText: string;
+    ctaTitle: string;
+  };
   shareFilePrefix: string;
   shareMessage: (
     ideology: string,
@@ -643,6 +667,30 @@ const pt: Strings = {
   share: 'Compartilhar',
   saveOrShare: 'Compartilhar resultado',
   generatingPng: 'Gerando PNG...',
+  generatingPdf: 'Gerando PDF...',
+  downloadPdf: 'Download PDF',
+  report: {
+    fileName: '12axes-relatorio',
+    docLabel: 'Relatório completo',
+    profileEyebrow: 'Seu perfil ideológico',
+    headerLabel: (ideology) => `Relatório do perfil político · ${ideology}`,
+    kpiCountry: 'País mais próximo',
+    kpiPersonality: 'Personalidade',
+    kpiAxes: 'Eixos analisados',
+    kpiAnswered: (count) => `${count} perguntas respondidas`,
+    tocTitle: 'Neste relatório',
+    generatedOn: (date) => `Gerado em ${date}`,
+    axesIntro: 'Sua posição em cada um dos 12 eixos. A barra parte do centro (50%) em direção ao polo para onde você pende; o selo indica a intensidade.',
+    intensityLegend: 'Intensidade',
+    intensityLevels: ['Equilibrado · até 57%', 'Inclinado · 58 a 72%', 'Forte · 73 a 87%', 'Muito forte · 88% ou mais'],
+    alsoClose: 'Também próximos, por dimensão do seu perfil',
+    continued: 'continuação',
+    areasIntro: 'As personalidades do catálogo cujo perfil nos 12 eixos mais se parece com o seu.',
+    booksIntro: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados. Links na versão online do resultado.',
+    aboutTitle: 'Sobre este relatório',
+    aboutText: 'O 12 Axes compara suas respostas com perfis de ideologias, países e personalidades nos mesmos 12 eixos. A compatibilidade mede proximidade entre perfis; não é diagnóstico científico nem rótulo definitivo. Suas respostas não são armazenadas.',
+    ctaTitle: 'Refaça o teste ou compartilhe'
+  },
   shareFilePrefix: '12axes-perfil',
   shareMessage: (ideology, ideologyPct, country, countryPct, personality, personalityPct) =>
     `Descobri meu perfil ideológico no Quiz Político 12 Axes!\n\n` +
@@ -1112,6 +1160,30 @@ const en: Strings = {
   share: 'Share',
   saveOrShare: 'Share result',
   generatingPng: 'Generating PNG...',
+  generatingPdf: 'Generating PDF...',
+  downloadPdf: 'Download PDF',
+  report: {
+    fileName: '12axes-report',
+    docLabel: 'Full report',
+    profileEyebrow: 'Your ideological profile',
+    headerLabel: (ideology) => `Political profile report · ${ideology}`,
+    kpiCountry: 'Closest country',
+    kpiPersonality: 'Figure',
+    kpiAxes: 'Axes analyzed',
+    kpiAnswered: (count) => `${count} questions answered`,
+    tocTitle: 'In this report',
+    generatedOn: (date) => `Generated on ${date}`,
+    axesIntro: 'Your position on each of the 12 axes. The bar starts at the center (50%) and extends toward the pole you lean to; the badge shows the intensity.',
+    intensityLegend: 'Intensity',
+    intensityLevels: ['Balanced · up to 57%', 'Leaning · 58 to 72%', 'Strong · 73 to 87%', 'Very strong · 88% or more'],
+    alsoClose: 'Also close, by dimension of your profile',
+    continued: 'continued',
+    areasIntro: 'The figures in the catalog whose profile across the 12 axes most resembles yours.',
+    booksIntro: 'One work by each of the figures closest to your results. Links in the online version of the result.',
+    aboutTitle: 'About this report',
+    aboutText: '12 Axes compares your answers with profiles of ideologies, countries and figures on the same 12 axes. Compatibility measures closeness between profiles; it is not a scientific diagnosis or a definitive label. Your answers are not stored.',
+    ctaTitle: 'Retake the quiz or share it'
+  },
   shareFilePrefix: '12axes-profile',
   shareMessage: (ideology, ideologyPct, country, countryPct, personality, personalityPct) =>
     `I discovered my ideological profile on the 12 Axes Political Quiz!\n\n` +

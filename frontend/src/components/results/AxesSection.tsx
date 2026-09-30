@@ -39,7 +39,7 @@ export function AxesSection({ axes, results, religion }: AxesSectionProps) {
 }
 
 // Mesma regra do backend (distância < 7.5 do centro) — independe do idioma do rótulo.
-function axisLeaning(axis: Axis, result: AxisResult) {
+export function axisLeaning(axis: Axis, result: AxisResult) {
   const balanced = Math.abs(result.rightPercent - 50) < 7.5;
   const rightWins = !balanced && result.dominantPole === result.rightPole;
   const leftWins = !balanced && !rightWins;
