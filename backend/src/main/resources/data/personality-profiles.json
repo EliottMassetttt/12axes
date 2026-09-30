@@ -6560,5 +6560,107 @@
       "moral": 11.3,
       "tecnologia": 33.3
     }
+  },
+  {
+    "personalityId": "muhammad-abduh",
+    "vector": {
+      "estrutura": 27.1,
+      "representacao": 58.5,
+      "poder": 67.5,
+      "imigracao": 48.1,
+      "diplomacia": 41.9,
+      "intervencao": 66.0,
+      "economia": 55.6,
+      "controle": 64.0,
+      "comercio": 46.0,
+      "religiao": 8.0,
+      "moral": 20.6,
+      "tecnologia": 58.2
+    }
+  },
+  {
+    "personalityId": "sayyid-qutb",
+    "vector": {
+      "estrutura": 23.2,
+      "representacao": 35.2,
+      "poder": 72.1,
+      "imigracao": 67.0,
+      "diplomacia": 81.4,
+      "intervencao": 29.3,
+      "economia": 66.7,
+      "controle": 66.2,
+      "comercio": 65.7,
+      "religiao": 4.5,
+      "moral": 11.3,
+      "tecnologia": 50.0
+    }
+  },
+  {
+    "personalityId": "averroes",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 40.0,
+      "poder": 67.4,
+      "imigracao": 51.7,
+      "diplomacia": 55.0,
+      "intervencao": 36.3,
+      "economia": 61.5,
+      "controle": 70.0,
+      "comercio": 42.5,
+      "religiao": 12.7,
+      "moral": 23.0,
+      "tecnologia": 53.6
+    }
+  },
+  {
+    "personalityId": "muhammad-ali-jinnah",
+    "vector": {
+      "estrutura": 45.0,
+      "representacao": 71.6,
+      "poder": 54.4,
+      "imigracao": 58.8,
+      "diplomacia": 50.2,
+      "intervencao": 56.5,
+      "economia": 53.2,
+      "controle": 49.7,
+      "comercio": 52.0,
+      "religiao": 47.2,
+      "moral": 30.1,
+      "tecnologia": 70.1
+    }
+  },
+  {
+    "personalityId": "saladino",
+    "vector": {
+      "estrutura": 30.6,
+      "representacao": 19.8,
+      "poder": 82.6,
+      "imigracao": 53.9,
+      "diplomacia": 86.2,
+      "intervencao": 9.0,
+      "economia": 52.0,
+      "controle": 53.3,
+      "comercio": 44.9,
+      "religiao": 2.1,
+      "moral": 5.3,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "personalityId": "alwaleed-bin-talal",
+    "vector": {
+      "estrutura": 28.0,
+      "representacao": 59.0,
+      "poder": 65.0,
+      "imigracao": 37.4,
+      "diplomacia": 36.0,
+      "intervencao": 55.3,
+      "economia": 28.0,
+      "controle": 30.1,
+      "comercio": 16.0,
+      "religiao": 23.4,
+      "moral": 27.7,
+      "tecnologia": 66.5
+    }
   }
 ]

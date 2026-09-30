@@ -2338,5 +2338,41 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "muhammad-abduh",
+    "title": {
+      "pt": "Risalat al-Tawhid",
+      "en": "The Theology of Unity"
+    },
+    "year": 1897,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sayyid-qutb",
+    "title": {
+      "pt": "Justiça Social no Islã",
+      "en": "Social Justice in Islam"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "averroes",
+    "title": {
+      "pt": "Discurso Decisivo",
+      "en": "The Decisive Treatise"
+    },
+    "year": 1179,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

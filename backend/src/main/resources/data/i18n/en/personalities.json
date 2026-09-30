@@ -2408,5 +2408,47 @@
     "role": "King of Castile and León",
     "lifespan": "c. 1201–1252",
     "description": "King of Castile from 1217 and León from 1230, he consolidated the union of the crowns and conquered Córdoba and Seville. He ruled as a medieval Catholic monarch and promoted legal and administrative organization in conquered territories."
+  },
+  {
+    "id": "muhammad-abduh",
+    "name": "Muhammad Abduh",
+    "role": "Grand Mufti and Islamic reformer",
+    "lifespan": "1849–1905",
+    "description": "Grand Mufti of Egypt and father of Islamic modernism, Abduh argued for reinterpreting Islam through reason (ijtihad), reformed teaching at Al-Azhar and the religious courts, and opposed both clerical stagnation and British rule."
+  },
+  {
+    "id": "sayyid-qutb",
+    "name": "Sayyid Qutb",
+    "role": "Islamist theorist",
+    "lifespan": "1906–1966",
+    "description": "Muslim Brotherhood ideologue, Qutb wrote Milestones, which declared modern Muslim societies to be in jahiliyya and called for a vanguard to establish God's sovereignty. He was executed by Nasser's government in 1966."
+  },
+  {
+    "id": "averroes",
+    "name": "Averroes",
+    "role": "Andalusian philosopher and jurist",
+    "lifespan": "1126–1198",
+    "description": "Philosopher, physician and judge from Córdoba, Averroes commented on Aristotle and held that philosophical reason and Quranic revelation do not contradict each other, influencing Christian scholasticism. He served the Almohad court and was exiled under pressure from theologians."
+  },
+  {
+    "id": "alwaleed-bin-talal",
+    "name": "Alwaleed bin Talal",
+    "role": "Saudi investor and prince",
+    "lifespan": "1955–",
+    "description": "Saudi prince and founder of Kingdom Holding, Alwaleed invested in Citigroup, Twitter, Four Seasons and News Corp and advocated economic opening and women's employment in the kingdom. He was detained in 2017 in Mohammed bin Salman's anti-corruption campaign."
+  },
+  {
+    "id": "muhammad-ali-jinnah",
+    "name": "Muhammad Ali Jinnah",
+    "role": "Founder of Pakistan",
+    "lifespan": "1876–1948",
+    "description": "Lawyer and leader of the Muslim League, Jinnah led the creation of Pakistan in 1947 on the two-nation theory and was its first governor-general, advocating a Muslim-majority state with religious freedom for minorities."
+  },
+  {
+    "id": "saladino",
+    "name": "Saladin",
+    "role": "Sultan of Egypt and Syria",
+    "lifespan": "1137–1193",
+    "description": "Founder of the Ayyubid dynasty, Saladin united Egypt and Syria, defeated the Crusaders at Hattin and retook Jerusalem in 1187, becoming a symbol of jihad against the Crusades and of chivalry recognized even by his enemies."
   }
 ]

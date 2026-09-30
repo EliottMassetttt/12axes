@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-09-30T11:58:05Z",
+  "lastUpdated": "2026-09-30T12:08:28Z",
   "personality": {
-    "totalProfiles": 386,
+    "totalProfiles": 392,
     "pending": [],
     "done": [
       "lenin",
@@ -390,7 +390,13 @@
       "gamal-abdel-nasser",
       "ernst-junger",
       "oswald-spengler",
-      "fernando-iii-de-castela"
+      "fernando-iii-de-castela",
+      "muhammad-abduh",
+      "sayyid-qutb",
+      "averroes",
+      "muhammad-ali-jinnah",
+      "saladino",
+      "alwaleed-bin-talal"
     ]
   },
   "ideology": {

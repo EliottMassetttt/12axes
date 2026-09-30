@@ -2468,7 +2468,7 @@
     "phrase": "Quero uma sociedade islâmica guiada pela sharia, com os fiéis organizados a partir das mesquitas e uma economia de zakat, sem usura.",
     "vector": null,
     "countryId": "siria",
-    "personalityId": "ahmed-al-sharaa",
+    "personalityId": "sayyid-qutb",
     "religions": ["islam"]
   },
   {
@@ -2479,7 +2479,7 @@
     "phrase": "Quero um partido muçulmano que vença eleições, proteja a família e a fé na vida pública e faça a economia de mercado crescer.",
     "vector": null,
     "countryId": "turquia",
-    "personalityId": "recep-tayyip-erdogan",
+    "personalityId": "muhammad-abduh",
     "religions": ["islam"]
   },
   {

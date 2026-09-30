@@ -5016,5 +5016,83 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_San_Fernando,_rey_de_Castilla_y_de_Le%C3%B3n_(Catedral_de_Sevilla).jpg",
     "imageNote": "Pintura anônima de cerca de 1639, posterior à vida de Fernando III; não é um retrato contemporâneo.",
     "religions": ["christianity"]
+  },
+  {
+    "id": "muhammad-abduh",
+    "name": "Muhammad Abduh",
+    "role": "Grão-mufti e reformador islâmico",
+    "category": "religioso",
+    "lifespan": "1849–1905",
+    "description": "Grão-mufti do Egito e pai do modernismo islâmico, Abduh defendeu reinterpretar o islã pela razão (ijtihad), reformou o ensino de Al-Azhar e os tribunais religiosos e combateu tanto o imobilismo clerical quanto o domínio britânico.",
+    "imagePath": "/personalities/portraits/muhammad-abduh.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_late_Grand_Moufti.png",
+    "imageNote": "Fotografia do início do século XX via Wikimedia Commons, convertida para JPG e comprimida para o catálogo.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "sayyid-qutb",
+    "name": "Sayyid Qutb",
+    "role": "Teórico islamista",
+    "category": "teorico",
+    "lifespan": "1906–1966",
+    "description": "Ideólogo da Irmandade Muçulmana, Qutb escreveu Marcos no Caminho, que declarou as sociedades muçulmanas modernas em jahiliyya e pediu uma vanguarda para instaurar a soberania de Deus. Foi executado pelo governo de Nasser em 1966.",
+    "imagePath": "/personalities/portraits/sayyid-qutb.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sayyid_Qutb.jpg",
+    "imageNote": "Fotografia de Sayyid Qutb via Wikimedia Commons, comprimida para o catálogo.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "averroes",
+    "name": "Averróis",
+    "role": "Filósofo e jurista andaluz",
+    "category": "filosofo",
+    "lifespan": "1126–1198",
+    "description": "Filósofo, médico e juiz de Córdoba, Averróis comentou Aristóteles e sustentou que a razão filosófica e a revelação corânica não se contradizem, influenciando a escolástica cristã. Serviu à corte almóada e foi exilado por pressão dos teólogos.",
+    "imagePath": "/personalities/portraits/averroes.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andrea_di_bonaiuto,_apoteosi_di_san_tommaso_d%27aquino,_11_averro%C3%A8.jpg",
+    "imageNote": "Detalhe de afresco de Andrea di Bonaiuto (século XIV), posterior à vida de Averróis; não é um retrato contemporâneo.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "alwaleed-bin-talal",
+    "name": "Alwaleed bin Talal",
+    "role": "Investidor e príncipe saudita",
+    "category": "empresario",
+    "lifespan": "1955–",
+    "description": "Príncipe saudita e fundador da Kingdom Holding, Alwaleed investiu em Citigroup, Twitter, Four Seasons e News Corp e defendeu abertura econômica e o trabalho feminino no reino. Ficou detido em 2017 na campanha anticorrupção de Mohammed bin Salman.",
+    "imagePath": "/personalities/portraits/alwaleed-bin-talal.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Al_Waleed_bin_Talal_2015.jpg",
+    "imageNote": "Fotografia de 2015 via Wikimedia Commons, comprimida para o catálogo.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "muhammad-ali-jinnah",
+    "name": "Muhammad Ali Jinnah",
+    "role": "Fundador do Paquistão",
+    "category": "politico",
+    "lifespan": "1876–1948",
+    "description": "Advogado e líder da Liga Muçulmana, Jinnah conduziu a criação do Paquistão em 1947 com a teoria das duas nações e foi seu primeiro governador-geral, defendendo um Estado de maioria muçulmana com liberdade religiosa para as minorias.",
+    "imagePath": "/personalities/portraits/muhammad-ali-jinnah.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jinnah1945c.jpg",
+    "imageNote": "Fotografia de cerca de 1945 via Wikimedia Commons, comprimida para o catálogo.",
+    "religions": ["islam"]
+  },
+  {
+    "id": "saladino",
+    "name": "Saladino",
+    "role": "Sultão do Egito e da Síria",
+    "category": "politico",
+    "lifespan": "1137–1193",
+    "description": "Fundador da dinastia aiúbida, Saladino unificou Egito e Síria, derrotou os cruzados em Hattin e retomou Jerusalém em 1187, tornando-se símbolo da jihad contra as cruzadas e de uma cavalaria reconhecida até por seus inimigos.",
+    "imagePath": "/personalities/portraits/saladino.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Cristofano_dell'altissimo,_saladino,_ante_1568_crop.JPG",
+    "imageNote": "Pintura de Cristofano dell'Altissimo (antes de 1568), posterior à vida de Saladino; não é um retrato contemporâneo.",
+    "religions": ["islam"]
   }
 ]
