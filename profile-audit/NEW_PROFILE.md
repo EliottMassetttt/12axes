@@ -258,6 +258,16 @@ religiões selecionáveis e não ao cristianismo. Perfis `[]` ou só `other` sem
 compatibilidade não muda. `validate.py` ([RELIGIAO]) e `ReligionFilterTest` bloqueiam o merge se a
 regra for violada.
 
+**Marcador `only` (perfil exclusivo).** Acrescente `"only"` ao lado de uma ou mais religiões
+selecionáveis (ex.: `["judaism", "only"]`) para que o perfil apareça **apenas** para quem escolheu
+uma das religiões listadas. Quem escolheu "nenhuma" ou não escolheu nada também não o vê. Serve para
+perfis em que a religião é a própria identidade (Sionismo Trabalhista, Cristianismo Anarquista),
+onde um ateu ou fiel de outra tradição ver o perfil gera estranhamento. Vale para qualquer
+`religiao`, inclusive ≤ 35, e a decisão é caso a caso: perfil que um não religioso pode legitimamente
+preferir (Biden, Thiel) **não** leva `only`. O marcador precisa de ao menos uma religião
+selecionável ao lado (`validate.py` e `ReligionFilterTest` bloqueiam `["only"]` ou
+`["other", "only"]`), nunca entra no EN, e não muda a compatibilidade, só quem aparece.
+
 ### O campo `phrase` (só ideologias)
 
 `phrase` é **obrigatório** e alimenta o card "Uma frase que te descreve" na página de resultados,

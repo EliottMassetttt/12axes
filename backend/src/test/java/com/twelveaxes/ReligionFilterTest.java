@@ -72,6 +72,18 @@ class ReligionFilterTest {
         });
     }
 
+    // "only" exige ao menos uma religiao selecionavel ao lado dele.
+    @Test
+    void onlyMarkerComesWithASelectableReligion() {
+        catalogReligions().forEach((id, religions) -> {
+            if (religions.contains(ReligionFilter.ONLY)) {
+                assertThat(religions)
+                        .as("%s usa 'only' sem uma religiao selecionavel", id)
+                        .anyMatch(ReligionFilter.SELECTABLE::contains);
+            }
+        });
+    }
+
     @Test
     void englishCatalogKeepsTheSameReligions() {
         var pt = dataService.getPersonalities(QuizDataService.LANG_PT);
@@ -91,6 +103,22 @@ class ReligionFilterTest {
         assertThat(ReligionFilter.allows(List.of(), "christianity")).isTrue();
         assertThat(ReligionFilter.allows(List.of("other"), "islam")).isTrue();
         assertThat(ReligionFilter.allows(List.of("islam"), null)).isTrue();
+    }
+
+    @Test
+    void onlyMarkerShowsTheProfileSolelyToItsReligion() {
+        List<String> zionism = List.of("judaism", ReligionFilter.ONLY);
+        assertThat(ReligionFilter.allows(zionism, "judaism")).isTrue();
+        assertThat(ReligionFilter.allows(zionism, "christianity")).isFalse();
+        assertThat(ReligionFilter.allows(zionism, "islam")).isFalse();
+        // "nenhuma" e sem escolha: o perfil exclusivo some.
+        assertThat(ReligionFilter.allows(zionism, null)).isFalse();
+        // Varias religioes listadas: aparece para qualquer uma delas.
+        List<String> shared = List.of("christianity", "judaism", ReligionFilter.ONLY);
+        assertThat(ReligionFilter.allows(shared, "judaism")).isTrue();
+        assertThat(ReligionFilter.allows(shared, "christianity")).isTrue();
+        assertThat(ReligionFilter.allows(shared, "islam")).isFalse();
+        assertThat(ReligionFilter.allows(shared, null)).isFalse();
     }
 
     @Test

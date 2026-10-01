@@ -84,7 +84,8 @@ PERSONALITY_CATEGORIES = {
 }
 
 # Valores de "religions" nos metadados. Espelha ReligionFilter.java.
-RELIGIONS = {"christianity", "judaism", "islam", "buddhism", "other"}
+RELIGIONS = {"christianity", "judaism", "islam", "buddhism", "other", "only"}
+SELECTABLE_RELIGIONS = {"christianity", "judaism", "islam", "buddhism"}
 RELIGIOUS_THRESHOLD = 35.0
 
 CATALOGS = {
@@ -275,6 +276,9 @@ def main():
             if invalid:
                 errors.append(f"[RELIGIAO] {pid} usa valores invalidos {invalid} — validos: "
                               + ", ".join(sorted(RELIGIONS)))
+            if "only" in religions and not (set(religions) & SELECTABLE_RELIGIONS):
+                errors.append(f"[RELIGIAO] {pid} usa 'only' sem uma religiao selecionavel ao lado "
+                              f"({', '.join(sorted(SELECTABLE_RELIGIONS))})")
             if vec["religiao"] <= RELIGIOUS_THRESHOLD and not religions:
                 errors.append(
                     f"[RELIGIAO] religiao={vec['religiao']:.1f} (<= {RELIGIOUS_THRESHOLD:.0f}, lado religioso) "

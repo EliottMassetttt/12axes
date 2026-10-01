@@ -998,7 +998,7 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "tolstoy",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "anarco-naturalismo",
@@ -1218,7 +1218,7 @@
     "vector": null,
     "countryId": "costa-rica",
     "personalityId": "peter-maurin",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "centrismo",
@@ -1273,7 +1273,7 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "leonardo-boff",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "autoritarismo-modernizador",
@@ -2524,7 +2524,7 @@
     "vector": null,
     "countryId": "indonesia",
     "personalityId": "zohran-mamdani",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "nacionalismo-budista",
@@ -2546,7 +2546,7 @@
     "vector": null,
     "countryId": "israel",
     "personalityId": "theodor-herzl",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "sionismo-trabalhista",
@@ -2557,7 +2557,7 @@
     "vector": null,
     "countryId": "israel",
     "personalityId": "david-ben-gurion",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "feudalismo",
@@ -2627,9 +2627,7 @@
     "vector": null,
     "countryId": "sri-lanka",
     "personalityId": "swrd-bandaranaike",
-    "religions": [
-      "buddhism"
-    ]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "teocracia-budista",
