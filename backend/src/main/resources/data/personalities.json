@@ -5380,5 +5380,31 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boris_Johnson_official_portrait_(cropped).jpg",
     "imageNote": "Retrato de Boris Johnson via Wikipédia/Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "james-cook",
+    "name": "James Cook",
+    "role": "Navegador e explorador britânico",
+    "category": "intelectual",
+    "lifespan": "1728–1779",
+    "description": "Oficial da Marinha britânica e cartógrafo, Cook liderou três expedições científicas ao Pacífico, mapeou a Nova Zelândia e a costa leste da Austrália, tomou posse de terras em nome da Coroa, combateu o escorbuto e morreu em confronto com havaianos.",
+    "imagePath": "/personalities/portraits/james-cook.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Captainjamescookportrait.jpg",
+    "imageNote": "Retrato de James Cook via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "lachlan-macquarie",
+    "name": "Lachlan Macquarie",
+    "role": "Governador de Nova Gales do Sul",
+    "category": "politico",
+    "lifespan": "1762–1824",
+    "description": "Governador colonial de Nova Gales do Sul (1810–21), Macquarie substituiu o regime militar por obras públicas e urbanização, deu terras e cargos a condenados libertos e criou escolas para aborígenes, mas ordenou o massacre de Appin contra resistentes.",
+    "imagePath": "/personalities/portraits/lachlan-macquarie.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ln-Governor-Lachlan_macquarie.jpg",
+    "imageNote": "Retrato de Lachlan Macquarie via Wikipédia/Wikimedia Commons.",
+    "religions": ["christianity"]
   }
 ]

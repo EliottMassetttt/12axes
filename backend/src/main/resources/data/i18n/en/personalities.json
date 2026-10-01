@@ -2604,5 +2604,19 @@
     "role": "Former Prime Minister of the United Kingdom",
     "lifespan": "1964–",
     "description": "A Conservative and Brexit leader, prime minister from 2019 to 2022, Johnson took the UK out of the EU, armed Ukraine, raised taxes and public spending, opened non-EU immigration and fell after Partygate; he is now a Daily Mail columnist."
+  },
+  {
+    "id": "james-cook",
+    "name": "James Cook",
+    "role": "British navigator and explorer",
+    "lifespan": "1728–1779",
+    "description": "A Royal Navy officer and cartographer, Cook led three scientific expeditions to the Pacific, charted New Zealand and the east coast of Australia, claimed lands in the name of the Crown, fought scurvy and died in a clash with Hawaiians."
+  },
+  {
+    "id": "lachlan-macquarie",
+    "name": "Lachlan Macquarie",
+    "role": "Governor of New South Wales",
+    "lifespan": "1762–1824",
+    "description": "Colonial governor of New South Wales (1810–21), Macquarie replaced military rule with public works and town planning, granted land and office to freed convicts and founded schools for Aboriginal people, but ordered the Appin massacre against resisters."
   }
 ]

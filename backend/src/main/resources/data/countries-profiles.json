@@ -3126,5 +3126,22 @@
       "moral": 12.5,
       "tecnologia": 16.9
     }
+  },
+  {
+    "countryId": "inglaterra",
+    "vector": {
+      "estrutura": 31.9,
+      "representacao": 75.1,
+      "poder": 61.5,
+      "imigracao": 59.3,
+      "diplomacia": 56.4,
+      "intervencao": 29.3,
+      "economia": 52.0,
+      "controle": 52.1,
+      "comercio": 29.4,
+      "religiao": 56.0,
+      "moral": 64.5,
+      "tecnologia": 61.8
+    }
   }
 ]

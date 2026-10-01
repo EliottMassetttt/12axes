@@ -2474,8 +2474,21 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/Category:Kingdom_of_Israel",
     "flagNote": "Reconstrução moderna feita por usuário do Reddit, usada por solicitação do usuário; o link aponta para a categoria do Reino de Israel no Wikimedia Commons, que não hospeda esta imagem. Não há bandeira atestada do Reino de Israel, e a estrela de seis pontas como emblema é posterior ao período.",
-    "religions": [
-      "judaism"
-    ]
+    "religions": ["judaism"]
+  },
+  {
+    "id": "inglaterra",
+    "name": "Inglaterra (Reino Unido)",
+    "category": "Nação constituinte liberal-conservadora",
+    "description": "Maior país constituinte do Reino Unido, a Inglaterra é governada diretamente por Westminster, sem parlamento próprio, com Igreja Anglicana oficial, serviço de saúde público (NHS), centro financeiro em Londres e maioria pelo Brexit e crescente voto populista.",
+    "flagPath": "/countries/flags/inglaterra.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": null,
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_England.svg",
+    "flagNote": "Cruz de São Jorge, bandeira da Inglaterra, usada como referência visual da nação.",
+    "religions": []
   }
 ]
