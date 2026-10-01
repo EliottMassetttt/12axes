@@ -2474,7 +2474,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/Category:Kingdom_of_Israel",
     "flagNote": "Reconstrução moderna feita por usuário do Reddit, usada por solicitação do usuário; o link aponta para a categoria do Reino de Israel no Wikimedia Commons, que não hospeda esta imagem. Não há bandeira atestada do Reino de Israel, e a estrela de seis pontas como emblema é posterior ao período.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "inglaterra",
