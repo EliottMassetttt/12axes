@@ -536,6 +536,11 @@ function MainApp() {
         dataUrl,
         `${t.shareFilePrefix}-${new Date().toISOString().slice(0, 10)}.png`
       );
+      // Libera o botão antes da folha de compartilhamento: se ela ficar aberta ou
+      // nunca resolver, o botão não pode ficar preso em "gerando".
+      stage.remove();
+      stage = null;
+      setIsSharing(false);
       await tryNativeShare(dataUrl, result);
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errImage);
