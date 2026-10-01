@@ -1211,7 +1211,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "monaco",
@@ -1465,7 +1465,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Papal_States_(1808-1870).svg",
     "flagNote": "Bandeira historica dos Estados Papais usada como referencia visual.",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "imperio-bizantino",
@@ -2208,7 +2208,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "egito-atual",
@@ -2230,7 +2230,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "marrocos",
@@ -2278,7 +2278,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Abbasid_Dynasty.svg",
     "flagNote": "Estandarte negro da dinastia abássida; não havia bandeira nacional no sentido moderno.",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "sri-lanka",
@@ -2459,7 +2459,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Tibet.svg",
     "flagNote": "Bandeira do Leão das Neves, adotada pelo 13º Dalai Lama em 1916 e usada pelo governo tibetano até 1950.",
-    "religions": ["buddhism"]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "reino-de-israel",

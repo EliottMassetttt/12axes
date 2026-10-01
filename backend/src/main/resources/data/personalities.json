@@ -426,7 +426,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Ze'ev_Jabotinsky",
     "imageNote": "Retrato de Zeev Jabotinsky via Wikipédia/Wikimedia Commons.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "ahad-haam",
@@ -439,7 +439,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Ahad_Ha'am",
     "imageNote": "Retrato de Ahad Haam via Wikipédia/Wikimedia Commons.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "curtis-yarvin",
@@ -1115,7 +1115,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Martin_Buber",
     "imageNote": "Retrato de Martin Buber via Wikipédia/Wikimedia Commons.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "olof-palme",
@@ -1856,7 +1856,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/B._R._Ambedkar",
     "imageNote": "Retrato de B. R. Ambedkar via Wikipédia/Wikimedia Commons.",
-    "religions": ["buddhism"]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "frantz-fanon",
@@ -1960,7 +1960,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Theodor_Herzl",
     "imageNote": "Retrato de Theodor Herzl via Wikipédia/Wikimedia Commons.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "hugo-chavez",
@@ -2805,7 +2805,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Tenzin_Gyatso",
     "imageNote": "Retrato do 14º Dalai Lama via Wikipédia/Wikimedia Commons.",
-    "religions": ["buddhism"]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "pentti-linkola",
@@ -2896,7 +2896,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Papa_Pio_IX",
     "imageNote": "Retrato de Papa Pio IX via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "justiniano-i",
@@ -3260,7 +3260,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Papa_Francisco",
     "imageNote": "Retrato do Papa Francisco via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "papa-leao-xiv",
@@ -3273,7 +3273,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Papa_Le%C3%A3o_XIV",
     "imageNote": "Retrato do Papa Leão XIV via Wikipédia/Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "tomas-de-aquino",
@@ -4144,7 +4144,7 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Papa_Leone_XIII_(3x4_cropped).jpeg",
     "imageNote": "Retrato do Papa Leão XIII via Wikimedia Commons.",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "barao-do-rio-branco",
@@ -5015,7 +5015,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:The_late_Grand_Moufti.png",
     "imageNote": "Fotografia do início do século XX via Wikimedia Commons, convertida para JPG e comprimida para o catálogo.",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "sayyid-qutb",
@@ -5028,7 +5028,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sayyid_Qutb.jpg",
     "imageNote": "Fotografia de Sayyid Qutb via Wikimedia Commons, comprimida para o catálogo.",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "averroes",
@@ -5067,7 +5067,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jinnah1945c.jpg",
     "imageNote": "Fotografia de cerca de 1945 via Wikimedia Commons, comprimida para o catálogo.",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "saladino",
@@ -5238,9 +5238,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:13thDalaiLama1910.jpg",
     "imageNote": "Retrato de 13º Dalai Lama (Thubten Gyatso) via Wikipédia/Wikimedia Commons.",
-    "religions": [
-      "buddhism"
-    ]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "abraham-isaac-kook",
@@ -5253,9 +5251,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Abraham_Isaac_Kook",
     "imageNote": "Retrato de Abraham Isaac Kook via Wikipédia/Wikimedia Commons.",
-    "religions": [
-      "judaism"
-    ]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "auguste-blanqui",
