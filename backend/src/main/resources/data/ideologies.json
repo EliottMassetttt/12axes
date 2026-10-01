@@ -2540,12 +2540,12 @@
   {
     "id": "sionismo",
     "name": "Sionismo",
-    "category": "Centro",
-    "description": "Movimento nacional judaico fundado por Theodor Herzl em 1897, que buscou um Estado judeu na Terra de Israel como resposta ao antissemitismo e levou à criação de Israel em 1948, unindo nação, língua hebraica e retorno à terra ancestral.",
-    "phrase": "Quero um Estado judeu democrático na terra de Israel, que acolha todo judeu, renove o hebraico e seja um lar seguro para o povo.",
+    "category": "Direita",
+    "description": "Movimento nacional judaico criado por Herzl em 1897 que levou ao Estado de Israel em 1948. Abrange correntes trabalhista, revisionista e religiosa e hoje se expressa numa democracia parlamentar de forte defesa militar, Lei do Retorno e controle da Cisjordânia.",
+    "phrase": "Quero um Estado judeu democrático e forte na terra de Israel, que acolha todo judeu, defenda-se com as próprias armas e preserve o hebraico.",
     "vector": null,
     "countryId": "israel",
-    "personalityId": "theodor-herzl",
+    "personalityId": "david-ben-gurion",
     "religions": ["judaism", "only"]
   },
   {

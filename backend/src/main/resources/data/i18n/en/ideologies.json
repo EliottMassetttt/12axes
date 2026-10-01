@@ -1625,9 +1625,9 @@
   {
     "id": "sionismo",
     "name": "Zionism",
-    "category": "Center",
-    "description": "The Jewish national movement founded by Theodor Herzl in 1897, which sought a Jewish state in the Land of Israel as a response to antisemitism and led to the creation of Israel in 1948, uniting nation, the Hebrew language, and return to the ancestral land.",
-    "phrase": "I want a democratic Jewish state in the Land of Israel that welcomes every Jew, revives Hebrew, and is a safe home for the people."
+    "category": "Right",
+    "description": "A Jewish national movement founded by Herzl in 1897 that led to Israel in 1948. It spans labor, revisionist and religious currents and today is expressed in a parliamentary democracy with a strong military, the Law of Return and control of the West Bank.",
+    "phrase": "I want a strong democratic Jewish state in the land of Israel that welcomes every Jew, defends itself with its own arms and preserves Hebrew."
   },
   {
     "id": "sionismo-trabalhista",
