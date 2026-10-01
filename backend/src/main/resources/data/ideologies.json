@@ -338,7 +338,7 @@
     "vector": null,
     "countryId": "ira",
     "personalityId": "khomeini",
-    "religions": ["christianity", "judaism", "islam", "buddhism", "other"]
+    "religions": ["christianity", "judaism", "islam", "buddhism", "other", "only"]
   },
   {
     "id": "nacionalismo-etnico",
@@ -459,7 +459,7 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "konrad-adenauer",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "conservadorismo-cristao",
@@ -470,7 +470,7 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "william-f-buckley",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "republicanismo",
@@ -525,7 +525,7 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "gk-chesterton",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "tecnocracia",
@@ -855,7 +855,7 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "thomas-muntzer",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "trabalhismo-cristao",
@@ -866,7 +866,7 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "maritain",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "social-democracia-crista",
@@ -877,7 +877,7 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "keir-hardie",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "social-democracia",
@@ -1438,7 +1438,7 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "joseph-de-maistre",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "socialismo-titoista",
@@ -1493,7 +1493,7 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "peter-thiel",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "populismo-de-direita",
@@ -1711,7 +1711,7 @@
     "vector": null,
     "countryId": "genebra-calvinista",
     "personalityId": "joao-calvino",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "ateismo-tradicionalista",
@@ -1909,7 +1909,7 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "tomas-de-aquino",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "monarquismo-moderador",
@@ -2096,7 +2096,7 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "tomas-de-aquino",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "eurasianismo",
@@ -2216,7 +2216,7 @@
     "vector": null,
     "countryId": "butao",
     "personalityId": "dalai-lama",
-    "religions": ["buddhism"]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "anarquismo-egoista",
@@ -2392,7 +2392,7 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "paulo-de-tarso",
-    "religions": ["christianity"]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "republicanismo-confederal",
@@ -2469,7 +2469,7 @@
     "vector": null,
     "countryId": "siria",
     "personalityId": "sayyid-qutb",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "democracia-islamica",
@@ -2480,7 +2480,7 @@
     "vector": null,
     "countryId": "turquia",
     "personalityId": "muhammad-abduh",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "socialismo-islamico",
@@ -2491,7 +2491,7 @@
     "vector": null,
     "countryId": "libia-de-gaddafi",
     "personalityId": "muammar-gaddafi",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "pan-islamismo",
@@ -2502,7 +2502,7 @@
     "vector": null,
     "countryId": "imperio-otomano",
     "personalityId": "khomeini",
-    "religions": ["islam"]
+    "religions": ["islam", "only"]
   },
   {
     "id": "nacionalismo-kemalista",
@@ -2535,7 +2535,7 @@
     "vector": null,
     "countryId": "sri-lanka",
     "personalityId": "viktor-orban",
-    "religions": ["buddhism"]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "sionismo",
@@ -2590,9 +2590,7 @@
     "vector": null,
     "countryId": "espanha-franquista",
     "personalityId": "engelbert-dollfuss",
-    "religions": [
-      "christianity"
-    ]
+    "religions": ["christianity", "only"]
   },
   {
     "id": "teocratismo-islamico",
@@ -2603,9 +2601,7 @@
     "vector": null,
     "countryId": "ira",
     "personalityId": "khomeini",
-    "religions": [
-      "islam"
-    ]
+    "religions": ["islam", "only"]
   },
   {
     "id": "socialismo-blanquista",
@@ -2638,9 +2634,7 @@
     "vector": null,
     "countryId": "tibete",
     "personalityId": "thubten-gyatso",
-    "religions": [
-      "buddhism"
-    ]
+    "religions": ["buddhism", "only"]
   },
   {
     "id": "monarquismo-iluminista",
@@ -2662,9 +2656,7 @@
     "vector": null,
     "countryId": "reino-de-israel",
     "personalityId": "rei-davi",
-    "religions": [
-      "judaism"
-    ]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "municipalismo",
