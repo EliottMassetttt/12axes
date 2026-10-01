@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-01T01:57:31Z",
+  "lastUpdated": "2026-10-01T12:06:05Z",
   "personality": {
-    "totalProfiles": 408,
+    "totalProfiles": 414,
     "pending": [],
     "done": [
       "lenin",
@@ -412,7 +412,13 @@
       "auguste-blanqui",
       "swrd-bandaranaike",
       "jose-ii-da-austria",
-      "rei-davi"
+      "rei-davi",
+      "olaf-scholz",
+      "lyndon-b-johnson",
+      "boris-johnson",
+      "jimmy-carter",
+      "helmut-kohl",
+      "mark-carney"
     ]
   },
   "ideology": {

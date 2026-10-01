@@ -5184,9 +5184,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Salvador_Dal%C3%AD_1939.jpg",
     "imageNote": "Retrato de Salvador Dalí via Wikipédia/Wikimedia Commons.",
-    "religions": [
-      "christianity"
-    ]
+    "religions": ["christianity"]
   },
   {
     "id": "pablo-picasso",
@@ -5277,9 +5275,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/S._W._R._D._Bandaranaike",
     "imageNote": "Retrato de S. W. R. D. Bandaranaike via Wikipédia/Wikimedia Commons.",
-    "religions": [
-      "buddhism"
-    ]
+    "religions": ["buddhism"]
   },
   {
     "id": "jose-ii-da-austria",
@@ -5305,8 +5301,84 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:King_David,_the_King_of_Israel.jpg",
     "imageNote": "Pintura do Rei Davi com harpa via Wikimedia Commons; não existe retrato histórico dele.",
-    "religions": [
-      "judaism"
-    ]
+    "religions": ["judaism"]
+  },
+  {
+    "id": "olaf-scholz",
+    "name": "Olaf Scholz",
+    "role": "Ex-chanceler da Alemanha",
+    "category": "politico",
+    "lifespan": "1958–",
+    "description": "Social-democrata e chanceler alemão de 2021 a 2025, Scholz proclamou a Zeitenwende, com 100 bilhões de euros para as Forças Armadas e armas à Ucrânia, elevou o salário mínimo a 12 euros e defendeu o freio da dívida até o colapso da coalizão semáforo.",
+    "imagePath": "/personalities/portraits/olaf-scholz.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Olaf_Scholz_September_2024.jpg",
+    "imageNote": "Retrato de Olaf Scholz via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "jimmy-carter",
+    "name": "Jimmy Carter",
+    "role": "Presidente dos Estados Unidos",
+    "category": "politico",
+    "lifespan": "1924–2024",
+    "description": "Presidente democrata e batista devoto (1977–81), Carter fez dos direitos humanos eixo da política externa, desregulou companhias aéreas e transportes, mediou Camp David, devolveu o Canal do Panamá e caiu com a crise dos reféns no Irã e a estagflação.",
+    "imagePath": "/personalities/portraits/jimmy-carter.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Jimmy_Carter_Official_Portrait2_(3x4_cropped).jpg",
+    "imageNote": "Retrato de Jimmy Carter via Wikipédia/Wikimedia Commons.",
+    "religions": ["christianity"]
+  },
+  {
+    "id": "lyndon-b-johnson",
+    "name": "Lyndon B. Johnson",
+    "role": "Presidente dos Estados Unidos",
+    "category": "politico",
+    "lifespan": "1908–1973",
+    "description": "Presidente democrata de 1963 a 1969, Johnson lançou a Grande Sociedade e a guerra à pobreza, criou Medicare e Medicaid e sancionou as leis dos direitos civis e do voto, mas escalou a Guerra do Vietnã, que destruiu sua popularidade.",
+    "imagePath": "/personalities/portraits/lyndon-b-johnson.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Lyndon_B._Johnson,_photo_portrait,_color_(3x4_cropped)(2).jpg",
+    "imageNote": "Retrato de Lyndon B. Johnson via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "helmut-kohl",
+    "name": "Helmut Kohl",
+    "role": "Ex-chanceler da Alemanha",
+    "category": "politico",
+    "lifespan": "1930–2017",
+    "description": "Democrata-cristão da CDU e chanceler por 16 anos (1982–98), Kohl conduziu a reunificação alemã, aprofundou a integração europeia com o Tratado de Maastricht e o euro, fez reformas liberalizantes moderadas e caiu após o escândalo das doações secretas.",
+    "imagePath": "/personalities/portraits/helmut-kohl.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Helmut_Kohl_(1996)_cropped_(2).jpg",
+    "imageNote": "Retrato de Helmut Kohl via Wikipédia/Wikimedia Commons.",
+    "religions": ["christianity"]
+  },
+  {
+    "id": "mark-carney",
+    "name": "Mark Carney",
+    "role": "Primeiro-ministro do Canadá",
+    "category": "politico",
+    "lifespan": "1965–",
+    "description": "Ex-presidente dos bancos centrais do Canadá e da Inglaterra, Carney é primeiro-ministro liberal desde 2025: acabou com a taxa de carbono do consumidor, acelerou oleodutos e grandes obras, elevou gastos militares e retaliou as tarifas de Trump.",
+    "imagePath": "/personalities/portraits/mark-carney.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mark_Carney_Argentina_v_Spain_19_July_2026-303_(3x4_close_up_cropped).jpg",
+    "imageNote": "Retrato de Mark Carney via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "boris-johnson",
+    "name": "Boris Johnson",
+    "role": "Ex-primeiro-ministro do Reino Unido",
+    "category": "politico",
+    "lifespan": "1964–",
+    "description": "Conservador e líder do Brexit, primeiro-ministro de 2019 a 2022, Johnson tirou o Reino Unido da UE, armou a Ucrânia, elevou impostos e gasto público, abriu a imigração não europeia e caiu após o Partygate; hoje é colunista do Daily Mail.",
+    "imagePath": "/personalities/portraits/boris-johnson.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Boris_Johnson_official_portrait_(cropped).jpg",
+    "imageNote": "Retrato de Boris Johnson via Wikipédia/Wikimedia Commons.",
+    "religions": []
   }
 ]

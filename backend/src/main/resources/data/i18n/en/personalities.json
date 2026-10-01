@@ -2562,5 +2562,47 @@
     "role": "King of Israel",
     "lifespan": "c. 1040–970 BCE",
     "description": "According to the Bible, David united the tribes of Israel, conquered Jerusalem and made it his capital, defeated the Philistines, brought the Ark to the city and built a centralized kingdom, and tradition attributes the Psalms to him and the line of the Messiah."
+  },
+  {
+    "id": "olaf-scholz",
+    "name": "Olaf Scholz",
+    "role": "Former Chancellor of Germany",
+    "lifespan": "1958–",
+    "description": "A Social Democrat and German chancellor from 2021 to 2025, Scholz proclaimed the Zeitenwende, with 100 billion euros for the armed forces and weapons for Ukraine, raised the minimum wage to 12 euros and defended the debt brake until the traffic-light coalition collapsed."
+  },
+  {
+    "id": "jimmy-carter",
+    "name": "Jimmy Carter",
+    "role": "President of the United States",
+    "lifespan": "1924–2024",
+    "description": "A Democratic president and devout Baptist (1977–81), Carter made human rights the core of foreign policy, deregulated airlines and transport, brokered Camp David, returned the Panama Canal and fell after the Iran hostage crisis and stagflation."
+  },
+  {
+    "id": "lyndon-b-johnson",
+    "name": "Lyndon B. Johnson",
+    "role": "President of the United States",
+    "lifespan": "1908–1973",
+    "description": "A Democratic president from 1963 to 1969, Johnson launched the Great Society and the war on poverty, created Medicare and Medicaid and signed the Civil Rights and Voting Rights Acts, but escalated the Vietnam War, which destroyed his popularity."
+  },
+  {
+    "id": "helmut-kohl",
+    "name": "Helmut Kohl",
+    "role": "Former Chancellor of Germany",
+    "lifespan": "1930–2017",
+    "description": "A Christian Democrat of the CDU and chancellor for 16 years (1982–98), Kohl led German reunification, deepened European integration through the Maastricht Treaty and the euro, made moderate liberalizing reforms and fell after the secret donations scandal."
+  },
+  {
+    "id": "mark-carney",
+    "name": "Mark Carney",
+    "role": "Prime Minister of Canada",
+    "lifespan": "1965–",
+    "description": "A former governor of the Bank of Canada and the Bank of England, Carney has been Liberal prime minister since 2025: he scrapped the consumer carbon tax, fast-tracked pipelines and major projects, raised defence spending and retaliated against Trump's tariffs."
+  },
+  {
+    "id": "boris-johnson",
+    "name": "Boris Johnson",
+    "role": "Former Prime Minister of the United Kingdom",
+    "lifespan": "1964–",
+    "description": "A Conservative and Brexit leader, prime minister from 2019 to 2022, Johnson took the UK out of the EU, armed Ukraine, raised taxes and public spending, opened non-EU immigration and fell after Partygate; he is now a Daily Mail columnist."
   }
 ]

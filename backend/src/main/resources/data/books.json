@@ -2422,5 +2422,53 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "mark-carney",
+    "title": {
+      "pt": "Value(s)",
+      "en": "Value(s)"
+    },
+    "year": 2021,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jimmy-carter",
+    "title": {
+      "pt": "Our Endangered Values",
+      "en": "Our Endangered Values"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "olaf-scholz",
+    "title": {
+      "pt": "Hoffnungsland",
+      "en": "Hoffnungsland"
+    },
+    "year": 2017,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "boris-johnson",
+    "title": {
+      "pt": "Unleashed",
+      "en": "Unleashed"
+    },
+    "year": 2024,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
