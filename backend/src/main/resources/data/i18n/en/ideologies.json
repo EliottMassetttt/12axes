@@ -1663,5 +1663,47 @@
     "category": "Far-Right",
     "description": "A doctrine that hands the state to the Islamic clergy and makes sharia the supreme law, above popular sovereignty, as in Khomeini's guardianship of the jurist (velayat-e faqih) in Iran and the Taliban emirate in Afghanistan.",
     "phrase": "I want God's sovereignty above the vote, with the religious jurist in command, sharia as the only law and an economy free of usury."
+  },
+  {
+    "id": "socialismo-blanquista",
+    "name": "Blanquist Socialism",
+    "category": "Radical Left",
+    "description": "Auguste Blanqui's doctrine that a conspiratorial revolutionary minority should seize power and rule through a provisional dictatorship that expropriates the bourgeoisie, with militant atheism and distrust of elections and of spontaneous mass action.",
+    "phrase": "I want an insurrectionary minority that storms Paris, imposes a provisional dictatorship against the bourgeoisie and the Church, and hands the wealth to the people."
+  },
+  {
+    "id": "socialismo-budista",
+    "name": "Buddhist Socialism",
+    "category": "Left",
+    "description": "A current that grounds socialism in Buddhist ethics, seeing compassion and the end of attachment as the basis of equality, common property and the rejection of caste, from Ambedkar and the Dalai Lama to Ne Win's Burmese socialism.",
+    "phrase": "I want a society of compassion without castes, with common land and resources and a state that cares for all without attachment to profit."
+  },
+  {
+    "id": "teocracia-budista",
+    "name": "Buddhist Theocracy",
+    "category": "Far-Right",
+    "description": "Rule by a Buddhist monastic hierarchy, with reincarnated leaders and monasteries dominating politics and land, traditional order and moral precepts as law, as in the Tibet of the Dalai Lama before 1950.",
+    "phrase": "I want a society ruled by the sangha, with reincarnated lamas in command, the five precepts as law and the traditional order above elections."
+  },
+  {
+    "id": "monarquismo-iluminista",
+    "name": "Enlightened Monarchism",
+    "category": "Right",
+    "description": "Enlightened absolutism: a sovereign monarch who rules by reason, \"everything for the people, nothing by the people\", with a bureaucracy of experts, education and reforms against the Church and the nobility, from Frederick II to Joseph II.",
+    "phrase": "I want an enlightened monarch, first servant of the state, reforming by reason with sages and tolerance: everything for the people, nothing by the people."
+  },
+  {
+    "id": "teocracia-judaica",
+    "name": "Jewish Theocracy",
+    "category": "Far-Right",
+    "description": "Government ruled by the Torah and halakha, with rabbinical courts, judges or kings under religious authority, Judaism as the state religion and rejection of assimilation, inspired by the biblical kingdoms of Israel and Judah.",
+    "phrase": "I want a state ruled by the Torah and halakha, with rabbinical courts, judges or a king under God's law, and family landholdings."
+  },
+  {
+    "id": "municipalismo",
+    "name": "Municipalism",
+    "category": "Libertarian",
+    "description": "A world divided into independent city-states and microstates that compete like a market, with free secession, the right of exit and political experimentation, from the medieval free cities to Yarvin's \"patchwork\" and seasteading.",
+    "phrase": "I want thousands of sovereign city-states competing for residents, with free secession, the right of exit and each city choosing its own laws."
   }
 ]

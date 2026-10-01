@@ -6832,5 +6832,107 @@
       "moral": 41.7,
       "tecnologia": 76.0
     }
+  },
+  {
+    "personalityId": "thubten-gyatso",
+    "vector": {
+      "estrutura": 31.8,
+      "representacao": 16.2,
+      "poder": 75.5,
+      "imigracao": 86.0,
+      "diplomacia": 54.5,
+      "intervencao": 57.4,
+      "economia": 50.6,
+      "controle": 62.4,
+      "comercio": 81.2,
+      "religiao": 4.5,
+      "moral": 23.2,
+      "tecnologia": 20.2
+    }
+  },
+  {
+    "personalityId": "abraham-isaac-kook",
+    "vector": {
+      "estrutura": 37.9,
+      "representacao": 53.7,
+      "poder": 50.8,
+      "imigracao": 62.2,
+      "diplomacia": 32.4,
+      "intervencao": 57.7,
+      "economia": 67.9,
+      "controle": 67.4,
+      "comercio": 56.2,
+      "religiao": 4.5,
+      "moral": 20.8,
+      "tecnologia": 46.4
+    }
+  },
+  {
+    "personalityId": "auguste-blanqui",
+    "vector": {
+      "estrutura": 19.9,
+      "representacao": 41.2,
+      "poder": 32.6,
+      "imigracao": 41.4,
+      "diplomacia": 80.2,
+      "intervencao": 38.8,
+      "economia": 87.7,
+      "controle": 77.0,
+      "comercio": 66.9,
+      "religiao": 98.8,
+      "moral": 61.0,
+      "tecnologia": 77.2
+    }
+  },
+  {
+    "personalityId": "swrd-bandaranaike",
+    "vector": {
+      "estrutura": 29.5,
+      "representacao": 77.5,
+      "poder": 54.4,
+      "imigracao": 75.2,
+      "diplomacia": 19.4,
+      "intervencao": 73.3,
+      "economia": 84.6,
+      "controle": 81.7,
+      "comercio": 70.5,
+      "religiao": 27.4,
+      "moral": 34.4,
+      "tecnologia": 36.9
+    }
+  },
+  {
+    "personalityId": "jose-ii-da-austria",
+    "vector": {
+      "estrutura": 6.8,
+      "representacao": 16.2,
+      "poder": 69.5,
+      "imigracao": 66.9,
+      "diplomacia": 73.1,
+      "intervencao": 21.0,
+      "economia": 63.7,
+      "controle": 73.1,
+      "comercio": 81.2,
+      "religiao": 50.0,
+      "moral": 34.4,
+      "tecnologia": 70.1
+    }
+  },
+  {
+    "personalityId": "rei-davi",
+    "vector": {
+      "estrutura": 32.8,
+      "representacao": 29.3,
+      "poder": 65.0,
+      "imigracao": 62.2,
+      "diplomacia": 91.0,
+      "intervencao": 12.6,
+      "economia": 43.5,
+      "controle": 56.4,
+      "comercio": 68.1,
+      "religiao": 5.7,
+      "moral": 19.6,
+      "tecnologia": 20.5
+    }
   }
 ]

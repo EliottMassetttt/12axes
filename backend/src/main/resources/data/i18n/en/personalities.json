@@ -2520,5 +2520,47 @@
     "role": "Commentator and academic",
     "lifespan": "1962–",
     "description": "Former Deng Xiaoping interpreter and vice president of the CCG think tank, Victor Gao defends one-party rule, unifying Taiwan by any means, Hong Kong's security law and the claim that NATO caused the war in Ukraine."
+  },
+  {
+    "id": "thubten-gyatso",
+    "name": "13th Dalai Lama (Thubten Gyatso)",
+    "role": "Religious leader and head of state",
+    "lifespan": "1876–1933",
+    "description": "Head of theocratic Tibet, the 13th Dalai Lama expelled the Chinese and proclaimed independence in 1913, built an army, post and currency, backed down before the monasteries by closing the English school, and warned against communism in 1932."
+  },
+  {
+    "id": "abraham-isaac-kook",
+    "name": "Abraham Isaac Kook",
+    "role": "Chief rabbi and theologian",
+    "lifespan": "1865–1935",
+    "description": "First Ashkenazi chief rabbi of Mandatory Palestine, Kook was the leading theologian of religious Zionism, saw secular pioneers as instruments of the divine plan and holiness in the Land of Israel, and founded the Mercaz HaRav yeshiva."
+  },
+  {
+    "id": "auguste-blanqui",
+    "name": "Louis Auguste Blanqui",
+    "role": "Revolutionary",
+    "lifespan": "1805–1881",
+    "description": "French revolutionary and conspirator, Blanqui argued that an organized minority should seize power by insurrection and impose a provisional dictatorship, spent over thirty years in prison, was elected to the Paris Commune from his cell and took the motto \"Neither God nor master\"."
+  },
+  {
+    "id": "swrd-bandaranaike",
+    "name": "S. W. R. D. Bandaranaike",
+    "role": "Prime Minister of Ceylon",
+    "lifespan": "1899–1959",
+    "description": "Prime Minister of Ceylon from 1956 to 1959, he converted to Buddhism, founded the Freedom Party, nationalized ports and buses, made Sinhala the official language, pursued non-alignment and was assassinated by a Buddhist monk."
+  },
+  {
+    "id": "jose-ii-da-austria",
+    "name": "Joseph II of Austria",
+    "role": "Holy Roman Emperor",
+    "lifespan": "1741–1790",
+    "description": "Holy Roman Emperor and Archduke of Austria, Joseph II abolished personal serfdom, decreed religious tolerance, closed hundreds of monasteries, imposed German on the administration and saw his reforms provoke revolts, in Belgium and Hungary."
+  },
+  {
+    "id": "rei-davi",
+    "name": "King David",
+    "role": "King of Israel",
+    "lifespan": "c. 1040–970 BCE",
+    "description": "According to the Bible, David united the tribes of Israel, conquered Jerusalem and made it his capital, defeated the Philistines, brought the Ark to the city and built a centralized kingdom, and tradition attributes the Psalms to him and the line of the Messiah."
   }
 ]

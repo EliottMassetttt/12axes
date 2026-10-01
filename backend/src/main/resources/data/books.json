@@ -2398,5 +2398,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "abraham-isaac-kook",
+    "title": {
+      "pt": "Orot",
+      "en": "Orot"
+    },
+    "year": 1920,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "auguste-blanqui",
+    "title": {
+      "pt": "Critique sociale",
+      "en": "Critique sociale"
+    },
+    "year": 1885,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

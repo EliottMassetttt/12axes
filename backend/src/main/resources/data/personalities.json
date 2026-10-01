@@ -5226,5 +5226,91 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Victor_Gao_at_the_Nexus_Conference_2024.png",
     "imageNote": "Retrato de Victor Gao via Wikipédia/Wikimedia Commons, convertido para JPG e comprimido.",
     "religions": []
+  },
+  {
+    "id": "thubten-gyatso",
+    "name": "13º Dalai Lama (Thubten Gyatso)",
+    "role": "Líder religioso e chefe de Estado",
+    "category": "religioso",
+    "lifespan": "1876–1933",
+    "description": "Chefe do Tibete teocrático, o 13º Dalai Lama expulsou os chineses e proclamou a independência em 1913, criou exército, correio e moeda, recuou diante dos mosteiros ao fechar a escola inglesa e alertou em 1932 contra o comunismo.",
+    "imagePath": "/personalities/portraits/thubten-gyatso.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:13thDalaiLama1910.jpg",
+    "imageNote": "Retrato de 13º Dalai Lama (Thubten Gyatso) via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "abraham-isaac-kook",
+    "name": "Abraham Isaac Kook",
+    "role": "Rabino-chefe e teólogo",
+    "category": "religioso",
+    "lifespan": "1865–1935",
+    "description": "Primeiro rabino-chefe asquenazita da Palestina Mandatária, Kook foi o maior teólogo do sionismo religioso, viu nos pioneiros laicos instrumentos do plano divino e na terra de Israel uma santidade própria, e fundou a yeshiva Mercaz HaRav.",
+    "imagePath": "/personalities/portraits/abraham-isaac-kook.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Abraham_Isaac_Kook",
+    "imageNote": "Retrato de Abraham Isaac Kook via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "judaism"
+    ]
+  },
+  {
+    "id": "auguste-blanqui",
+    "name": "Louis Auguste Blanqui",
+    "role": "Revolucionário",
+    "category": "politico",
+    "lifespan": "1805–1881",
+    "description": "Revolucionário e conspirador francês, Blanqui defendeu que uma minoria organizada tome o poder pela insurreição e imponha uma ditadura provisória, passou mais de trinta anos preso, foi eleito para a Comuna de Paris no cárcere e adotou o lema \"Nem Deus nem mestre\".",
+    "imagePath": "/personalities/portraits/auguste-blanqui.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Louis_Auguste_Blanqui",
+    "imageNote": "Retrato de Louis Auguste Blanqui via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "swrd-bandaranaike",
+    "name": "S. W. R. D. Bandaranaike",
+    "role": "Primeiro-ministro do Ceilão",
+    "category": "politico",
+    "lifespan": "1899–1959",
+    "description": "Primeiro-ministro do Ceilão de 1956 a 1959, converteu-se ao budismo, fundou o Partido da Liberdade, nacionalizou portos e ônibus, impôs o cingalês como língua oficial, adotou o não alinhamento e foi assassinado por um monge budista.",
+    "imagePath": "/personalities/portraits/swrd-bandaranaike.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/S._W._R._D._Bandaranaike",
+    "imageNote": "Retrato de S. W. R. D. Bandaranaike via Wikipédia/Wikimedia Commons.",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "jose-ii-da-austria",
+    "name": "José II da Áustria",
+    "role": "Imperador do Sacro Império",
+    "category": "politico",
+    "lifespan": "1741–1790",
+    "description": "Imperador do Sacro Império e arquiduque da Áustria, José II aboliu a servidão pessoal, decretou a tolerância religiosa, fechou centenas de mosteiros, impôs o alemão à administração e viu as reformas gerarem revoltas, na Bélgica e na Hungria.",
+    "imagePath": "/personalities/portraits/jose-ii-da-austria.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Joseph_II,_Holy_Roman_Emperor",
+    "imageNote": "Retrato de José II da Áustria via Wikipédia/Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "rei-davi",
+    "name": "Rei Davi",
+    "role": "Rei de Israel",
+    "category": "politico",
+    "lifespan": "c. 1040–970 a.C.",
+    "description": "Segundo a Bíblia, Davi unificou as tribos de Israel, conquistou Jerusalém e a fez capital, venceu os filisteus, trouxe a Arca para a cidade e criou um reino centralizado, e a tradição lhe atribui os Salmos e a linhagem do Messias.",
+    "imagePath": "/personalities/portraits/rei-davi.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:King_David,_the_King_of_Israel.jpg",
+    "imageNote": "Pintura do Rei Davi com harpa via Wikimedia Commons; não existe retrato histórico dele.",
+    "religions": [
+      "judaism"
+    ]
   }
 ]

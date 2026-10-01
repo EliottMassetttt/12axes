@@ -2606,5 +2606,77 @@
     "religions": [
       "islam"
     ]
+  },
+  {
+    "id": "socialismo-blanquista",
+    "name": "Socialismo Blanquista",
+    "category": "Esquerda Radical",
+    "description": "Doutrina de Auguste Blanqui que defende a tomada do poder por uma minoria revolucionária conspirativa, com ditadura provisória que expropria a burguesia, ateísmo militante e desconfiança da via eleitoral e da espontaneidade das massas.",
+    "phrase": "Quero uma minoria insurrecional que tome Paris de assalto, imponha uma ditadura provisória contra a burguesia e a Igreja e entregue os bens ao povo.",
+    "vector": null,
+    "countryId": "comuna-de-paris",
+    "personalityId": "auguste-blanqui",
+    "religions": []
+  },
+  {
+    "id": "socialismo-budista",
+    "name": "Socialismo Budista",
+    "category": "Esquerda",
+    "description": "Corrente que funda o socialismo na ética budista, vendo na compaixão e no fim do apego a base da igualdade, da propriedade comum e do rechaço às castas, de Ambedkar e do Dalai Lama ao socialismo birmanês de Ne Win.",
+    "phrase": "Quero uma sociedade de compaixão e sem castas, com terra e recursos comuns e um Estado que cuide de todos sem apego ao lucro.",
+    "vector": null,
+    "countryId": "sri-lanka",
+    "personalityId": "swrd-bandaranaike",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "teocracia-budista",
+    "name": "Teocracia Budista",
+    "category": "Extrema Direita",
+    "description": "Governo exercido por uma hierarquia monástica budista, com líderes reencarnados e mosteiros dominando política e terra, ordem tradicional e preceitos morais como lei, como no Tibete do Dalai Lama antes de 1950.",
+    "phrase": "Quero uma sociedade regida pela sangha, com lamas reencarnados no comando, os cinco preceitos como lei e a ordem tradicional acima de eleições.",
+    "vector": null,
+    "countryId": "tibete",
+    "personalityId": "thubten-gyatso",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "monarquismo-iluminista",
+    "name": "Monarquismo Iluminista",
+    "category": "Direita",
+    "description": "Absolutismo esclarecido: monarca soberano que governa pela razão, \"tudo para o povo, nada pelo povo\", com burocracia de especialistas, educação e reformas contra a Igreja e a nobreza, de Frederico II a José II.",
+    "phrase": "Quero um monarca esclarecido, primeiro servidor do Estado, que reforma pela razão com sábios e tolerância: tudo para o povo, nada pelo povo.",
+    "vector": null,
+    "countryId": "prussia",
+    "personalityId": "frederico-ii-da-prussia",
+    "religions": []
+  },
+  {
+    "id": "teocracia-judaica",
+    "name": "Teocracia Judaica",
+    "category": "Extrema Direita",
+    "description": "Governo regido pela Torá e pela halachá, com tribunais rabínicos, juízes ou reis sob autoridade religiosa, judaísmo como religião de Estado e rejeição da assimilação, inspirado nos reinos bíblicos de Israel e Judá.",
+    "phrase": "Quero um Estado regido pela Torá e pela halachá, com tribunais rabínicos, juízes ou rei sob a lei de Deus e terras familiares.",
+    "vector": null,
+    "countryId": "reino-de-israel",
+    "personalityId": "rei-davi",
+    "religions": [
+      "judaism"
+    ]
+  },
+  {
+    "id": "municipalismo",
+    "name": "Municipalismo",
+    "category": "Libertário",
+    "description": "Mundo dividido em cidades-estado e microestados independentes que competem como num mercado, com secessão livre, direito de saída e experimentação política, das cidades livres medievais ao \"patchwork\" de Yarvin e ao seasteading.",
+    "phrase": "Quero milhares de cidades-estado soberanas que competem por moradores, com secessão livre, direito de saída e cada cidade escolhendo as próprias leis.",
+    "vector": null,
+    "countryId": "suica-zug",
+    "personalityId": "hoppe",
+    "religions": []
   }
 ]

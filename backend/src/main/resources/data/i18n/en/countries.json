@@ -1096,5 +1096,11 @@
     "name": "Theocratic Tibet",
     "category": "Buddhist theocracy",
     "description": "A de facto independent state between the fall of the Qing and the Chinese invasion, Tibet was a Buddhist theocracy ruled by the Dalai Lama, with monasteries and aristocracy owning the land, peasants bound to it and deliberate isolation from the modern world."
+  },
+  {
+    "id": "reino-de-israel",
+    "name": "Kingdom of Israel",
+    "category": "Theocratic monarchy",
+    "description": "A monarchy uniting the Hebrew tribes under Saul, David and Solomon, the Kingdom of Israel concentrated power in a king anointed by a prophet, with Jerusalem and the Temple as its religious center, the law of the Torah, tribal levies and expansion over its neighbors."
   }
 ]

@@ -3109,5 +3109,22 @@
       "moral": 20.8,
       "tecnologia": 8.6
     }
+  },
+  {
+    "countryId": "reino-de-israel",
+    "vector": {
+      "estrutura": 37.5,
+      "representacao": 30.5,
+      "poder": 72.1,
+      "imigracao": 67.0,
+      "diplomacia": 81.4,
+      "intervencao": 22.1,
+      "economia": 54.2,
+      "controle": 60.0,
+      "comercio": 66.9,
+      "religiao": 1.0,
+      "moral": 12.5,
+      "tecnologia": 16.9
+    }
   }
 ]
