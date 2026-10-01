@@ -4129,5 +4129,90 @@
       "moral": 59.8,
       "tecnologia": 80.6
     }
+  },
+  {
+    "ideologyId": "comunismo-de-conselhos",
+    "vector": {
+      "estrutura": 72.4,
+      "representacao": 90.0,
+      "poder": 18.2,
+      "imigracao": 12.9,
+      "diplomacia": 14.7,
+      "intervencao": 84.0,
+      "economia": 85.3,
+      "controle": 75.8,
+      "comercio": 38.3,
+      "religiao": 91.7,
+      "moral": 72.9,
+      "tecnologia": 66.5
+    }
+  },
+  {
+    "ideologyId": "aceleracionismo-efetivo",
+    "vector": {
+      "estrutura": 74.4,
+      "representacao": 73.6,
+      "poder": 22.0,
+      "imigracao": 28.1,
+      "diplomacia": 56.4,
+      "intervencao": 36.4,
+      "economia": 25.6,
+      "controle": 21.8,
+      "comercio": 23.2,
+      "religiao": 69.5,
+      "moral": 57.4,
+      "tecnologia": 91.3
+    }
+  },
+  {
+    "ideologyId": "democracia-direta",
+    "vector": {
+      "estrutura": 78.3,
+      "representacao": 90.6,
+      "poder": 33.0,
+      "imigracao": 54.3,
+      "diplomacia": 39.0,
+      "intervencao": 70.5,
+      "economia": 54.4,
+      "controle": 29.5,
+      "comercio": 43.7,
+      "religiao": 57.6,
+      "moral": 57.4,
+      "tecnologia": 44.0
+    }
+  },
+  {
+    "ideologyId": "confederalismo-democratico",
+    "vector": {
+      "estrutura": 68.8,
+      "representacao": 82.9,
+      "poder": 38.5,
+      "imigracao": 15.2,
+      "diplomacia": 40.2,
+      "intervencao": 69.3,
+      "economia": 78.6,
+      "controle": 73.4,
+      "comercio": 64.5,
+      "religiao": 82.1,
+      "moral": 71.7,
+      "tecnologia": 34.5
+    }
+  },
+  {
+    "ideologyId": "tradicionalismo",
+    "vector": {
+      "estrutura": 70.9,
+      "representacao": 17.4,
+      "poder": 56.7,
+      "imigracao": 52.9,
+      "diplomacia": 67.6,
+      "intervencao": 59.8,
+      "economia": 53.1,
+      "controle": 55.2,
+      "comercio": 81.6,
+      "religiao": 22.2,
+      "moral": 28.9,
+      "tecnologia": 7.5
+    }
   }
 ]

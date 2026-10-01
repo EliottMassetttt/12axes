@@ -1705,5 +1705,40 @@
     "category": "Libertarian",
     "description": "A world divided into independent city-states and microstates that compete like a market, with free secession, the right of exit and political experimentation, from the medieval free cities to Yarvin's \"patchwork\" and seasteading.",
     "phrase": "I want thousands of sovereign city-states competing for residents, with free secession, the right of exit and each city choosing its own laws."
+  },
+  {
+    "id": "comunismo-de-conselhos",
+    "name": "Council Communism",
+    "category": "Radical Left",
+    "description": "An anti-Leninist Marxist current of Pannekoek, Gorter and Mattick, which holds that workers themselves should run production and power through workers' councils, rejecting the vanguard party, the state and parliamentarism.",
+    "phrase": "I want workers' councils running factories and power through recallable mandates, with no vanguard party, no state and no wage labor."
+  },
+  {
+    "id": "confederalismo-democratico",
+    "name": "Democratic Confederalism",
+    "category": "Left",
+    "description": "A bottom-up self-government model of Abdullah Öcalan, with local assemblies federated into a confederation, ecology, gender equality and a cooperative economy, without a nation-state, put into practice in Rojava.",
+    "phrase": "I want local communes and assemblies federated into a confederation, with gender equality, ecology, a cooperative economy and self-defense, without a nation-state."
+  },
+  {
+    "id": "tradicionalismo",
+    "name": "Traditionalism",
+    "category": "Far-Right",
+    "description": "A current of René Guénon and Julius Evola that sees modernity as the decay of a universal spiritual tradition, defending sacred hierarchy, castes, initiatory order and the primacy of spirit over economics and mass politics.",
+    "phrase": "I want a sacred hierarchical order of castes and initiates that puts spirit above money and mass politics, against modernity."
+  },
+  {
+    "id": "aceleracionismo-efetivo",
+    "name": "Effective Accelerationism",
+    "category": "Libertarian",
+    "description": "A movement born online in 2022 that argues for accelerating AI, energy and innovation through the market and without regulation, treating technological progress as a moral imperative and rejecting advocates of slowing down.",
+    "phrase": "I want to accelerate AI, energy and innovation through the free market, with no regulation or degrowth, treating technological progress as a moral duty."
+  },
+  {
+    "id": "democracia-direta",
+    "name": "Direct Democracy",
+    "category": "Center",
+    "description": "A system in which citizens decide laws directly through referendums, popular initiatives, assemblies and recall of officials, instead of delegating to representatives, as in the Swiss cantons and classical Athens.",
+    "phrase": "I want citizens to decide laws through referendums, popular initiatives and recall of officials, with power decentralized to municipalities and cantons."
   }
 ]
