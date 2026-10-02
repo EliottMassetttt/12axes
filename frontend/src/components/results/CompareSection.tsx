@@ -73,6 +73,7 @@ export function CompareSection({ axes, results, religion, userCategory }: Compar
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(false);
   const requestRef = useRef(0);
+  const detailCache = useRef(new Map<string, Promise<CompareDetail>>());
 
   // O catálogo muda com a religião (perfis "only"), então recarrega se ela mudar.
   useEffect(() => {
@@ -98,13 +99,26 @@ export function CompareSection({ axes, results, religion, userCategory }: Compar
   const options = useMemo(() => (catalog && !selected ? searchItems(catalog, query) : []), [catalog, query, selected]);
   const userPercents = useMemo(() => axes.map((axis) => results.get(axis.id)?.leftPercent ?? 50), [axes, results]);
 
+  // A comparação começa a carregar assim que o perfil é escolhido, enquanto o usuário
+  // ainda vai até o botão; "Visualizar" só espera o que faltar (quase sempre nada).
+  const detailFor = (item: CompareItem): Promise<CompareDetail> => {
+    const key = `${item.type}:${item.id}:${userPercents.join(',')}`;
+    let pending = detailCache.current.get(key);
+    if (!pending) {
+      pending = fetchCompare(item.type, item.id, userPercents);
+      pending.catch(() => detailCache.current.delete(key));
+      detailCache.current.set(key, pending);
+    }
+    return pending;
+  };
+
   const view = async () => {
     if (!selected) return;
     const request = ++requestRef.current;
     setLoading(true);
     setError(false);
     try {
-      const next = await fetchCompare(selected.type, selected.id, userPercents);
+      const next = await detailFor(selected);
       if (request === requestRef.current) setDetail(next);
     } catch {
       if (request === requestRef.current) setError(true);
@@ -117,6 +131,7 @@ export function CompareSection({ axes, results, religion, userCategory }: Compar
     setSelected(item);
     setQuery(item.name);
     setError(false);
+    void detailFor(item).catch(() => undefined);
   };
 
   const showEmpty = Boolean(catalog) && !selected && query.trim().length > 0 && options.length === 0;
