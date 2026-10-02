@@ -2646,5 +2646,33 @@
     "role": "King of Sweden",
     "lifespan": "1622–1660",
     "description": "King of Sweden from 1654 to 1660, Charles X Gustav invaded Poland and Denmark, crossed the frozen Belts in 1658 and imposed the Treaty of Roskilde, taking the empire to its greatest extent and beginning the reduction of noble lands."
+  },
+  {
+    "id": "henrique-viii",
+    "name": "Henry VIII",
+    "role": "King of England",
+    "lifespan": "1491–1547",
+    "description": "King of England from 1509 to 1547, Henry VIII broke with Rome through the Act of Supremacy (1534), became head of the Church of England, dissolved the monasteries, centralized power in the Crown under Thomas Cromwell and executed opponents such as Thomas More."
+  },
+  {
+    "id": "guilherme-ii-da-alemanha",
+    "name": "Wilhelm II of Germany",
+    "role": "German Emperor and King of Prussia",
+    "lifespan": "1859–1941",
+    "description": "Last German emperor and king of Prussia (1888–1918), Wilhelm II dismissed Bismarck, pursued Weltpolitik with the High Seas Fleet, militarism and colonial expansion, led Germany into the First World War and abdicated in 1918, going into exile in the Netherlands."
+  },
+  {
+    "id": "constantino-o-grande",
+    "name": "Constantine the Great",
+    "role": "Roman Emperor",
+    "lifespan": "272–337",
+    "description": "Roman emperor from 306 to 337, Constantine reunified the Empire, granted freedom to Christians in the Edict of Milan (313), convened the Council of Nicaea (325), founded Constantinople and reorganized the state with a mobile army and fiscal reforms."
+  },
+  {
+    "id": "vladimir-o-grande",
+    "name": "Vladimir the Great",
+    "role": "Grand Prince of Kyiv",
+    "lifespan": "c. 958–1015",
+    "description": "Grand Prince of Kyiv from 980 to 1015, Vladimir the Great unified and expanded Kievan Rus', ended paganism by adopting Byzantine Orthodox Christianity in 988, married the Byzantine princess Anna and had his people baptized in the Dnieper."
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-02T21:00:59Z",
+  "lastUpdated": "2026-10-02T21:11:28Z",
   "personality": {
-    "totalProfiles": 420,
+    "totalProfiles": 424,
     "pending": [],
     "done": [
       "lenin",
@@ -424,7 +424,11 @@
       "andy-burnham",
       "anthony-albanese",
       "gustavo-ii-adolfo",
-      "carlos-x-gustavo"
+      "carlos-x-gustavo",
+      "henrique-viii",
+      "guilherme-ii-da-alemanha",
+      "constantino-o-grande",
+      "vladimir-o-grande"
     ]
   },
   "ideology": {

@@ -5458,5 +5458,57 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_X_Gustavo_da_Su%C3%A9cia",
     "imageNote": "Retrato de Carlos X Gustavo via Wikipédia/Wikimedia Commons.",
     "religions": ["protestant"]
+  },
+  {
+    "id": "henrique-viii",
+    "name": "Henrique VIII",
+    "role": "Rei da Inglaterra",
+    "category": "politico",
+    "lifespan": "1491–1547",
+    "description": "Rei da Inglaterra de 1509 a 1547, Henrique VIII rompeu com Roma pelo Ato de Supremacia (1534), tornou-se chefe da Igreja da Inglaterra, dissolveu os mosteiros, centralizou o poder na Coroa com Thomas Cromwell e executou opositores como Thomas More.",
+    "imagePath": "/personalities/portraits/henrique-viii.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Henrique_VIII_de_Inglaterra",
+    "imageNote": "Retrato de Henrique VIII via Wikipédia/Wikimedia Commons; recortado na fonte (original de corpo inteiro), rosto e tronco.",
+    "religions": ["catholic", "protestant"]
+  },
+  {
+    "id": "guilherme-ii-da-alemanha",
+    "name": "Guilherme II da Alemanha",
+    "role": "Imperador da Alemanha e rei da Prússia",
+    "category": "politico",
+    "lifespan": "1859–1941",
+    "description": "Último imperador alemão e rei da Prússia (1888–1918), Guilherme II demitiu Bismarck, seguiu a Weltpolitik com a Marinha de alto-mar, o militarismo e o expansionismo colonial, levou a Alemanha à Primeira Guerra e abdicou em 1918, exilando-se na Holanda.",
+    "imagePath": "/personalities/portraits/guilherme-ii-da-alemanha.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Guilherme_II_da_Alemanha",
+    "imageNote": "Retrato de Guilherme II da Alemanha via Wikipédia/Wikimedia Commons.",
+    "religions": ["protestant"]
+  },
+  {
+    "id": "constantino-o-grande",
+    "name": "Constantino, o Grande",
+    "role": "Imperador romano",
+    "category": "politico",
+    "lifespan": "272–337",
+    "description": "Imperador romano de 306 a 337, Constantino reunificou o Império, concedeu liberdade aos cristãos no Édito de Milão (313), convocou o Concílio de Niceia (325), fundou Constantinopla e reorganizou o Estado com um exército móvel e reformas fiscais.",
+    "imagePath": "/personalities/portraits/constantino-o-grande.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Constantino",
+    "imageNote": "Busto colossal em bronze de Constantino (Museus Capitolinos) via Wikipédia/Wikimedia Commons; não há retrato contemporâneo em pintura.",
+    "religions": ["catholic", "orthodox"]
+  },
+  {
+    "id": "vladimir-o-grande",
+    "name": "Vladimir, o Grande",
+    "role": "Grão-príncipe de Kiev",
+    "category": "politico",
+    "lifespan": "c. 958–1015",
+    "description": "Grão-príncipe de Kiev de 980 a 1015, Vladimir, o Grande, unificou e expandiu a Rus de Kiev, pôs fim ao paganismo ao adotar o cristianismo ortodoxo bizantino em 988, casou-se com a princesa bizantina Ana e mandou batizar o povo no Dniepre.",
+    "imagePath": "/personalities/portraits/vladimir-o-grande.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Vladimir_I_de_Kiev",
+    "imageNote": "Pintura devocional de São Vladimir via Wikipédia/Wikimedia Commons; recortada na fonte (original de corpo inteiro), rosto e tronco. Não há retrato contemporâneo.",
+    "religions": ["orthodox"]
   }
 ]

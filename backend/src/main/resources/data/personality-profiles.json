@@ -7138,5 +7138,73 @@
       "moral": 12.5,
       "tecnologia": 64.1
     }
+  },
+  {
+    "personalityId": "henrique-viii",
+    "vector": {
+      "estrutura": 10.4,
+      "representacao": 9.0,
+      "poder": 86.2,
+      "imigracao": 75.3,
+      "diplomacia": 92.1,
+      "intervencao": 10.2,
+      "economia": 32.8,
+      "controle": 77.9,
+      "comercio": 76.4,
+      "religiao": 12.9,
+      "moral": 12.5,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "personalityId": "guilherme-ii-da-alemanha",
+    "vector": {
+      "estrutura": 19.7,
+      "representacao": 9.0,
+      "poder": 84.0,
+      "imigracao": 92.0,
+      "diplomacia": 92.1,
+      "intervencao": 11.4,
+      "economia": 57.8,
+      "controle": 75.5,
+      "comercio": 78.8,
+      "religiao": 11.7,
+      "moral": 7.7,
+      "tecnologia": 72.5
+    }
+  },
+  {
+    "personalityId": "constantino-o-grande",
+    "vector": {
+      "estrutura": 14.0,
+      "representacao": 4.3,
+      "poder": 91.0,
+      "imigracao": 63.4,
+      "diplomacia": 92.1,
+      "intervencao": 5.5,
+      "economia": 50.6,
+      "controle": 80.2,
+      "comercio": 70.5,
+      "religiao": 8.1,
+      "moral": 13.7,
+      "tecnologia": 65.3
+    }
+  },
+  {
+    "personalityId": "vladimir-o-grande",
+    "vector": {
+      "estrutura": 21.1,
+      "representacao": 9.0,
+      "poder": 71.9,
+      "imigracao": 52.7,
+      "diplomacia": 83.8,
+      "intervencao": 12.6,
+      "economia": 59.0,
+      "controle": 77.9,
+      "comercio": 40.7,
+      "religiao": 2.1,
+      "moral": 20.8,
+      "tecnologia": 63.0
+    }
   }
 ]
