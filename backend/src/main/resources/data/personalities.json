@@ -400,7 +400,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Benjamin_Disraeli",
     "imageNote": "Retrato de Benjamin Disraeli via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant", "judaism"]
+    "religions": ["protestant", "judaism"]
   },
   {
     "id": "khomeini",
@@ -608,7 +608,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/G._K._Chesterton",
     "imageNote": "Retrato de G. K. Chesterton via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "henri-de-saint-simon",
@@ -621,7 +621,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Henri_de_Saint-Simon",
     "imageNote": "Retrato de Henri de Saint-Simon via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant", "orthodox"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "michael-sandel",
@@ -673,7 +673,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/John_Locke",
     "imageNote": "Retrato de John Locke via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant"]
+    "religions": ["protestant"]
   },
   {
     "id": "robert-nozick",
@@ -738,7 +738,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Edmund_Burke",
     "imageNote": "Retrato de Edmund Burke via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant"]
+    "religions": ["protestant"]
   },
   {
     "id": "hayek",
@@ -1401,7 +1401,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Roger_Scruton",
     "imageNote": "Retrato de Roger Scruton via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant"]
+    "religions": ["protestant"]
   },
   {
     "id": "friedrich-list",
@@ -1934,7 +1934,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Confucius",
     "imageNote": "Retrato de Confúcio via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
+    "religions": ["other", "only"]
   },
   {
     "id": "sun-yat-sen",
@@ -2480,7 +2480,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Alexander_Hamilton",
     "imageNote": "Retrato de Alexander Hamilton via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant"]
+    "religions": ["protestant"]
   },
   {
     "id": "maximilien-robespierre",
@@ -2870,7 +2870,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Marcus_Garvey",
     "imageNote": "Retrato de Marcus Garvey via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "julius-nyerere",
@@ -3364,7 +3364,7 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:January_2025_Official_Vice_Presidential_Portrait_of_JD_Vance.jpg",
     "imageNote": "Retrato de JD Vance via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "marco-rubio",
@@ -3377,7 +3377,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Marco_Rubio",
     "imageNote": "Retrato de Marco Rubio via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "nicolas-maduro",
@@ -3507,7 +3507,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_III_do_Reino_Unido",
     "imageNote": "Retrato de Charles III via Wikipédia/Wikimedia Commons.",
-    "religions": ["catholic", "protestant"]
+    "religions": ["protestant"]
   },
   {
     "id": "vitalik-buterin",
@@ -4183,7 +4183,7 @@
     "imageSourceName": "Wikimedia Commons",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Carlos_Lacerda,_1954.tif",
     "imageNote": "Retrato de Carlos Lacerda via Wikimedia Commons.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "luis-carlos-prestes",

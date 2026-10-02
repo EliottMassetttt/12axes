@@ -901,7 +901,7 @@ const en: Strings = {
   religionNone: 'No religion',
   religionNames: { christianity: 'Christianity', judaism: 'Judaism', islam: 'Islam', buddhism: 'Buddhism' },
   denominationLabel: 'Christian tradition',
-  denominationQuestion: 'Which Christian tradition do you follow? We only use this to tailor your recommendations.',
+  denominationQuestion: 'Which Christian tradition do you follow?',
   denominationNames: { catholic: 'Catholic', protestant: 'Protestant', orthodox: 'Orthodox' },
   restartQuiz: 'Restart quiz',
   heroEyebrow: 'Political discovery',

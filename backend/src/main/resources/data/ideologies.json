@@ -1711,7 +1711,7 @@
     "vector": null,
     "countryId": "genebra-calvinista",
     "personalityId": "joao-calvino",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "only"]
   },
   {
     "id": "ateismo-tradicionalista",
@@ -2590,7 +2590,7 @@
     "vector": null,
     "countryId": "espanha-franquista",
     "personalityId": "engelbert-dollfuss",
-    "religions": ["catholic", "only"]
+    "religions": ["catholic", "orthodox", "only"]
   },
   {
     "id": "teocratismo-islamico",

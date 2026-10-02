@@ -845,7 +845,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Texas.svg",
     "flagNote": "Bandeira do estado do Texas (Estados Unidos) usada como referência visual da região.",
-    "religions": ["protestant"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "eua-nova-york",
@@ -1048,7 +1048,7 @@
     "historical": false,
     "period": "",
     "vector": null,
-    "religions": []
+    "religions": ["catholic","islam"]
   },
   {
     "id": "siria",
@@ -1883,7 +1883,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Bavaria_(lozengy).svg",
     "flagNote": "Bandeira losangeada da Baviera (Alemanha) usada como referência visual da região.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "porto-rico",
@@ -1942,7 +1942,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Palestine.svg",
     "flagNote": "Bandeira oficial da Palestina usada como referência visual.",
-    "religions": []
+    "religions": ["islam"]
   },
   {
     "id": "escocia",
@@ -2017,7 +2017,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Paran%C3%A1.svg",
     "flagNote": "Bandeira do estado do Paraná (Brasil) usada como referência visual da região.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "rio-grande-do-sul",
@@ -2182,7 +2182,7 @@
     "flagSourceName": "Wikimedia Commons",
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Hungary_(1896-1915).svg",
     "flagNote": "Bandeira de 1896–1915; representa a fase final de um reino muito mais antigo.",
-    "religions": ["catholic"]
+    "religions": ["catholic", "protestant"]
   },
   {
     "id": "antigo-egito",

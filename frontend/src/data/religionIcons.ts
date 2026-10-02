@@ -20,11 +20,11 @@ export const RELIGION_ICONS: Record<Religion | ReligionChoice | 'none', FilledIc
       'M704 512H512v448q0 26-18.5 45t-45.5 19H320q-26 0-45-19t-19-45V512H64q-26 0-45-19T0 448V320q0-27 18.5-45.5T64 256h192V64q0-27 19-45.5T320 0h128q27 0 45.5 18.5T512 64v192h192q27 0 45.5 18.5T768 320v128q0 26-18.5 45T704 512'
     ]
   },
-  // Ortodoxo: cruz de três travas (a de baixo inclinada).
+  // Ortodoxo: cruz ortodoxa russa (três travas, a de baixo inclinada).
   orthodox: {
-    viewBox: '0 0 24 24',
+    viewBox: '0 0 16 16',
     fillRule: 'nonzero',
-    paths: ['M10.75 1h2.5v22h-2.5zM8.5 2.5h7v1.8h-7zM5 7.5h14v2.4H5zM8.2 16.4l7.6 3.1-.8 1.9-7.6-3.1z']
+    paths: ['M7.5 1c-.277 0-.5.223-.5.5V3H5.5c-.277 0-.5.223-.5.5v1c0 .277.223.5.5.5H7v1H3.5c-.277 0-.5.223-.5.5v1c0 .277.223.5.5.5H7v2.188l-1.156-.313a.525.525 0 0 0-.625.375l-.25.969a.474.474 0 0 0 .343.594L7 12.28v2.22c0 .277.223.5.5.5h1c.277 0 .5-.223.5-.5v-1.687l1.156.312a.525.525 0 0 0 .625-.375l.25-.969a.474.474 0 0 0-.344-.594L9 10.72V8h3.5c.277 0 .5-.223.5-.5v-1c0-.277-.223-.5-.5-.5H9V5h1.5c.277 0 .5-.223.5-.5v-1c0-.277-.223-.5-.5-.5H9V1.5c0-.277-.223-.5-.5-.5z']
   },
   christianity: {
     viewBox: '0 0 768 1024',
