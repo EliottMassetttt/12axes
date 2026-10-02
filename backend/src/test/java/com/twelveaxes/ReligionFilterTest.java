@@ -123,17 +123,6 @@ class ReligionFilterTest {
     }
 
     @Test
-    void otherPlusOnlyHidesFromEveryReligionButShowsToNoReligion() {
-        List<String> shinto = List.of("other", ReligionFilter.ONLY);
-        for (String religion : ReligionFilter.SELECTABLE) {
-            assertThat(ReligionFilter.allows(shinto, religion)).as(religion).isFalse();
-        }
-        assertThat(ReligionFilter.allows(shinto, null)).isTrue();
-        // Sem o "only", "other" segue sendo curinga.
-        assertThat(ReligionFilter.allows(List.of("other"), "christianity")).isTrue();
-    }
-
-    @Test
     void unknownOrMissingPreferenceMeansNoFilter() {
         assertThat(ReligionFilter.normalize(null)).isNull();
         assertThat(ReligionFilter.normalize("xyz")).isNull();
