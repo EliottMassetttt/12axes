@@ -1,9 +1,31 @@
 import { FILLED_POLE_ICONS, type FilledIcon } from './filledPoleIcons';
-import type { Religion } from '../utils/religion';
+import type { Religion, ReligionChoice } from '../utils/religion';
 
 // Ícones de cada religião: alternativas da pergunta de religião e polo
 // "Religioso" no resultado/card quando o usuário escolheu uma religião.
-export const RELIGION_ICONS: Record<Religion | 'none', FilledIcon> = {
+export const RELIGION_ICONS: Record<Religion | ReligionChoice | 'none', FilledIcon> = {
+  // Católico: a mesma cruz padrão do polo "Religioso" do eixo religião (só a ortodoxa se diferencia).
+  catholic: {
+    viewBox: '0 0 768 1024',
+    fillRule: 'nonzero',
+    paths: [
+      'M704 512H512v448q0 26-18.5 45t-45.5 19H320q-26 0-45-19t-19-45V512H64q-26 0-45-19T0 448V320q0-27 18.5-45.5T64 256h192V64q0-27 19-45.5T320 0h128q27 0 45.5 18.5T512 64v192h192q27 0 45.5 18.5T768 320v128q0 26-18.5 45T704 512'
+    ]
+  },
+  // Protestante: a cruz padrão do polo "Religioso" do eixo religião.
+  protestant: {
+    viewBox: '0 0 768 1024',
+    fillRule: 'nonzero',
+    paths: [
+      'M704 512H512v448q0 26-18.5 45t-45.5 19H320q-26 0-45-19t-19-45V512H64q-26 0-45-19T0 448V320q0-27 18.5-45.5T64 256h192V64q0-27 19-45.5T320 0h128q27 0 45.5 18.5T512 64v192h192q27 0 45.5 18.5T768 320v128q0 26-18.5 45T704 512'
+    ]
+  },
+  // Ortodoxo: cruz de três travas (a de baixo inclinada).
+  orthodox: {
+    viewBox: '0 0 24 24',
+    fillRule: 'nonzero',
+    paths: ['M10.75 1h2.5v22h-2.5zM8.5 2.5h7v1.8h-7zM5 7.5h14v2.4H5zM8.2 16.4l7.6 3.1-.8 1.9-7.6-3.1z']
+  },
   christianity: {
     viewBox: '0 0 768 1024',
     fillRule: 'nonzero',
