@@ -2730,5 +2730,35 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Sweden.svg",
     "flagNote": "Bandeira de Estado sueca com cauda de andorinha, a mesma cruz dourada sobre azul do período, usada como referência visual.",
     "religions": ["protestant"]
+  },
+  {
+    "id": "shenzhen",
+    "name": "Shenzhen (China)",
+    "category": "Zona econômica especial tecnológica-exportadora",
+    "description": "Primeira Zona Econômica Especial da China, criada por Deng Xiaoping em 1980, Shenzhen saiu de vila de pesca para polo global de tecnologia e manufatura (Huawei, Tencent, DJI), com mercado dinâmico sob tutela do Partido Comunista.",
+    "flagPath": "/countries/flags/shenzhen.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": "national-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+    "flagNote": "Shenzhen não tem bandeira municipal oficial; usa a bandeira nacional da China como referência visual.",
+    "religions": []
+  },
+  {
+    "id": "chongqing",
+    "name": "Chongqing (China)",
+    "category": "Município industrial-dirigista",
+    "description": "Maior município sob administração direta da China, Chongqing une indústria pesada, polo automotivo e trens de carga para a Europa ao \"modelo Chongqing\" de Bo Xilai (habitação pública, campanha anticrime, \"canções vermelhas\"), encerrado em 2012.",
+    "flagPath": "/countries/flags/chongqing.png",
+    "historical": false,
+    "period": "",
+    "vector": null,
+    "flagKind": "national-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
+    "flagNote": "Chongqing não tem bandeira municipal oficial; usa a bandeira nacional da China como referência visual.",
+    "religions": []
   }
 ]

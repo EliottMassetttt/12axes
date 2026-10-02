@@ -1204,5 +1204,17 @@
     "name": "Sweden-Finland",
     "category": "Estates-based enlightened monarchy",
     "description": "The kingdom of Sweden-Finland after the loss of empire: the Age of Liberty with a Riksdag of four estates, pioneering press freedom (1766), Gustav III's absolutist coup in 1772 and the loss of Finland to Russia in 1809."
+  },
+  {
+    "id": "shenzhen",
+    "name": "Shenzhen (China)",
+    "category": "Tech-export special economic zone",
+    "description": "China's first Special Economic Zone, created by Deng Xiaoping in 1980, Shenzhen went from fishing village to global technology and manufacturing hub (Huawei, Tencent, DJI), with a dynamic market under Communist Party oversight."
+  },
+  {
+    "id": "chongqing",
+    "name": "Chongqing (China)",
+    "category": "Industrial dirigiste municipality",
+    "description": "China's largest directly administered municipality, Chongqing combines heavy industry, a car-making base and freight trains to Europe with Bo Xilai's \"Chongqing model\" (public housing, anti-crime campaign, \"red songs\"), ended in 2012."
   }
 ]

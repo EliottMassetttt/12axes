@@ -5093,7 +5093,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:David_Ben-Gurion_(D597-087).jpg",
     "imageNote": "Fotografia de David Ben-Gurion via Wikimedia Commons, comprimida para o catálogo.",
-    "religions": ["judaism"]
+    "religions": ["judaism", "only"]
   },
   {
     "id": "sergei-melikov",
