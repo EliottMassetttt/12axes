@@ -1,5 +1,5 @@
 import { LANG, t } from '../i18n';
-import type { QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
+import type { CompareDetail, CompareItem, CompareType, QuizPayload, QuizResult, QuizVariant, SubmittedAnswer } from '../types/quiz';
 
 const API_URL = (import.meta.env.VITE_API_URL ?? '').replace(/\/$/, '');
 
@@ -62,3 +62,15 @@ export function fetchSharedResult(leftPercents: number[], religion: string | nul
   return request<QuizResult>(`/api/results/by-axes?v=${leftPercents.join(',')}&lang=${LANG}${religionParam}`);
 }
 
+
+export function fetchCompareCatalog(religion: string | null = null): Promise<CompareItem[]> {
+  const religionParam = religion ? `&religion=${encodeURIComponent(religion)}` : '';
+  return request<CompareItem[]>(`/api/compare/catalog?lang=${LANG}${religionParam}`);
+}
+
+export function fetchCompare(type: CompareType, id: string, leftPercents: number[]): Promise<CompareDetail> {
+  const values = leftPercents.map((value) => Math.round(value * 10) / 10).join(',');
+  return request<CompareDetail>(
+    `/api/compare?type=${type}&id=${encodeURIComponent(id)}&v=${values}&lang=${LANG}`
+  );
+}
