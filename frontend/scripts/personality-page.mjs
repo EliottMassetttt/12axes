@@ -4,7 +4,7 @@
 // personalidades e países pela mesma fórmula do backend (profile-match.mjs).
 import { ARROW, CATEGORY_KEY, SPECTRUM } from './ideologies-index.mjs';
 import { AREA_LABELS, catalogHead, initials } from './personalities-index.mjs';
-import { dimensionMatches, rank } from './profile-match.mjs';
+import { dimensionMatches, rank, religionVisibility } from './profile-match.mjs';
 import { AXIS_EXPLANATIONS } from './app-strings.mjs';
 import { poleSprite, poleUse } from './pole-icons.mjs';
 
@@ -208,7 +208,8 @@ export function personalityPage(L, personality, ctx) {
     `<img class="${cls}" src="${src}" alt="${esc(alt)}" loading="lazy" decoding="async" data-i="${esc(initials(who))}">`;
 
   // ── ideologias ──
-  const rankedIdeologies = rank(vector, L.ideologies, (i) => profiles.ideology.get(i.id));
+  const visible = religionVisibility(personality);
+  const rankedIdeologies = rank(vector, L.ideologies.filter(visible), (i) => profiles.ideology.get(i.id));
   const associated = L.ideologiesByPersonality.get(personality.id) ?? [];
   const topIdeology = rankedIdeologies[0];
   const otherIdeologies = rankedIdeologies.slice(0, 3);
@@ -216,7 +217,7 @@ export function personalityPage(L, personality, ctx) {
   const spec = spectrumOf(topIdeology.item.category);
 
   // ── personalidades ──
-  const others = L.personalities.filter((p) => p.id !== personality.id);
+  const others = L.personalities.filter((p) => p.id !== personality.id && visible(p));
   const personVector = (p) => profiles.personality.get(p.id);
   const rankedPeople = rank(vector, others, personVector);
   const topPerson = rankedPeople[0];
@@ -228,7 +229,7 @@ export function personalityPage(L, personality, ctx) {
   // ── países (atual x histórico, como na tela de resultado) ──
   const countryVector = (c) => profiles.country.get(c.id);
   const countryGroups = [false, true].map((historical) => {
-    const pool = L.countries.filter((c) => Boolean(c.historical) === historical);
+    const pool = L.countries.filter((c) => Boolean(c.historical) === historical && visible(c));
     const ranked = rank(vector, pool, countryVector);
     const top = ranked[0];
     return {
