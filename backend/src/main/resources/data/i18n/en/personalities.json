@@ -2632,5 +2632,19 @@
     "role": "Prime Minister of Australia",
     "lifespan": "1963–",
     "description": "Australian Labor prime minister since 2022, he expands Medicare and public housing, maintains AUKUS, tightens temporary visas and banned social media for under-16s, while defending multiculturalism and free trade."
+  },
+  {
+    "id": "gustavo-ii-adolfo",
+    "name": "Gustavus Adolphus",
+    "role": "King of Sweden",
+    "lifespan": "1594–1632",
+    "description": "King of Sweden from 1611 to 1632, Gustavus Adolphus reformed the army with linear infantry and light artillery, made Sweden a Baltic power and entered the Thirty Years' War as a Lutheran champion, dying at Lützen."
+  },
+  {
+    "id": "carlos-x-gustavo",
+    "name": "Charles X Gustav",
+    "role": "King of Sweden",
+    "lifespan": "1622–1660",
+    "description": "King of Sweden from 1654 to 1660, Charles X Gustav invaded Poland and Denmark, crossed the frozen Belts in 1658 and imposed the Treaty of Roskilde, taking the empire to its greatest extent and beginning the reduction of noble lands."
   }
 ]

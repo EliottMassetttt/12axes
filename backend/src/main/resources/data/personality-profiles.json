@@ -7104,5 +7104,39 @@
       "moral": 77.6,
       "tecnologia": 69.0
     }
+  },
+  {
+    "personalityId": "gustavo-ii-adolfo",
+    "vector": {
+      "estrutura": 20.9,
+      "representacao": 21.0,
+      "poder": 78.1,
+      "imigracao": 69.4,
+      "diplomacia": 86.2,
+      "intervencao": 11.4,
+      "economia": 45.9,
+      "controle": 82.6,
+      "comercio": 71.7,
+      "religiao": 2.1,
+      "moral": 8.9,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "personalityId": "carlos-x-gustavo",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 12.6,
+      "poder": 81.4,
+      "imigracao": 74.1,
+      "diplomacia": 94.5,
+      "intervencao": 9.0,
+      "economia": 62.5,
+      "controle": 81.4,
+      "comercio": 86.0,
+      "religiao": 17.6,
+      "moral": 12.5,
+      "tecnologia": 64.1
+    }
   }
 ]

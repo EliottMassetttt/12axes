@@ -3381,5 +3381,39 @@
       "moral": 31.3,
       "tecnologia": 45.2
     }
+  },
+  {
+    "countryId": "imperio-sueco",
+    "vector": {
+      "estrutura": 19.7,
+      "representacao": 18.6,
+      "poder": 79.3,
+      "imigracao": 74.1,
+      "diplomacia": 91.0,
+      "intervencao": 6.7,
+      "economia": 42.3,
+      "controle": 81.4,
+      "comercio": 69.3,
+      "religiao": 5.7,
+      "moral": 8.9,
+      "tecnologia": 58.2
+    }
+  },
+  {
+    "countryId": "suecia-finlandia",
+    "vector": {
+      "estrutura": 24.4,
+      "representacao": 31.7,
+      "poder": 73.3,
+      "imigracao": 74.1,
+      "diplomacia": 73.1,
+      "intervencao": 29.3,
+      "economia": 35.1,
+      "controle": 70.7,
+      "comercio": 74.0,
+      "religiao": 9.3,
+      "moral": 11.3,
+      "tecnologia": 56.0
+    }
   }
 ]

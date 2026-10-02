@@ -1192,5 +1192,17 @@
     "name": "Cyprus",
     "category": "Divided presidential republic",
     "description": "A presidential republic of the EU, divided since the Turkish invasion of 1974, with an occupied north recognized only by Turkey, an influential Orthodox Church, a services and finance economy, sovereign British bases, a strong communist party and a peace plan rejected in 2004."
+  },
+  {
+    "id": "imperio-sueco",
+    "name": "Swedish Empire",
+    "category": "Lutheran fiscal-military monarchy",
+    "description": "A Lutheran Baltic power in the Thirty Years' War and the wars of Charles X and Charles XII, the Swedish Empire rested on a fiscal-military state, a monarchy with four estates and the Lutheran Church, until Poltava and Nystad."
+  },
+  {
+    "id": "suecia-finlandia",
+    "name": "Sweden-Finland",
+    "category": "Estates-based enlightened monarchy",
+    "description": "The kingdom of Sweden-Finland after the loss of empire: the Age of Liberty with a Riksdag of four estates, pioneering press freedom (1766), Gustav III's absolutist coup in 1772 and the loss of Finland to Russia in 1809."
   }
 ]

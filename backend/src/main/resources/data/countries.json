@@ -2700,5 +2700,35 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Cyprus.svg",
     "flagNote": "Bandeira nacional de Chipre (a república reconhecida internacionalmente).",
     "religions": ["orthodox"]
+  },
+  {
+    "id": "imperio-sueco",
+    "name": "Império Sueco",
+    "category": "Monarquia fiscal-militar luterana",
+    "description": "Potência luterana do Báltico na Guerra dos Trinta Anos e nas guerras de Carlos X e Carlos XII, o Império Sueco sustentou-se num Estado fiscal-militar, na monarquia com os quatro estamentos e na Igreja luterana, até Poltava e Nystad.",
+    "flagPath": "/countries/flags/imperio-sueco.png",
+    "historical": true,
+    "period": "1611–1721",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Swedish_Empire.svg",
+    "flagNote": "Bandeira do Império Sueco (cruz dourada em campo azul, com cauda de andorinha) usada como referência visual para o período.",
+    "religions": ["protestant"]
+  },
+  {
+    "id": "suecia-finlandia",
+    "name": "Suécia-Finlândia",
+    "category": "Monarquia estamental e esclarecida",
+    "description": "Reino da Suécia-Finlândia após a perda do império: Era da Liberdade com o Riksdag dos quatro estamentos, liberdade de imprensa pioneira (1766), golpe absolutista de Gustavo III em 1772 e perda da Finlândia para a Rússia em 1809.",
+    "flagPath": "/countries/flags/suecia-finlandia.png",
+    "historical": true,
+    "period": "1721–1809",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Naval_Ensign_of_Sweden.svg",
+    "flagNote": "Bandeira de Estado sueca com cauda de andorinha, a mesma cruz dourada sobre azul do período, usada como referência visual.",
+    "religions": ["protestant"]
   }
 ]

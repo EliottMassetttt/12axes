@@ -5432,5 +5432,31 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_Albanese_portrait_(re-crop).jpg",
     "imageNote": "Retrato oficial pelo Governo Australiano, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons; recortado na fonte, redimensionado e recomprimido.",
     "religions": []
+  },
+  {
+    "id": "gustavo-ii-adolfo",
+    "name": "Gustavo II Adolfo",
+    "role": "Rei da Suécia",
+    "category": "politico",
+    "lifespan": "1594–1632",
+    "description": "Rei da Suécia de 1611 a 1632, Gustavo II Adolfo reformou o exército com infantaria em linhas e artilharia leve, firmou a Suécia como potência do Báltico e entrou na Guerra dos Trinta Anos como campeão luterano, morrendo em Lützen.",
+    "imagePath": "/personalities/portraits/gustavo-ii-adolfo.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Gustavo_II_Adolfo_da_Su%C3%A9cia",
+    "imageNote": "Retrato de Gustavo II Adolfo via Wikipédia/Wikimedia Commons.",
+    "religions": ["protestant"]
+  },
+  {
+    "id": "carlos-x-gustavo",
+    "name": "Carlos X Gustavo",
+    "role": "Rei da Suécia",
+    "category": "politico",
+    "lifespan": "1622–1660",
+    "description": "Rei da Suécia de 1654 a 1660, Carlos X Gustavo invadiu a Polônia e a Dinamarca, cruzou os Belts congelados em 1658 e impôs o Tratado de Roskilde, levando o império à maior extensão e iniciando a redução das terras da nobreza.",
+    "imagePath": "/personalities/portraits/carlos-x-gustavo.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_X_Gustavo_da_Su%C3%A9cia",
+    "imageNote": "Retrato de Carlos X Gustavo via Wikipédia/Wikimedia Commons.",
+    "religions": ["protestant"]
   }
 ]
