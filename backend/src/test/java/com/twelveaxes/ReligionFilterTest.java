@@ -78,8 +78,8 @@ class ReligionFilterTest {
         catalogReligions().forEach((id, religions) -> {
             if (religions.contains(ReligionFilter.ONLY)) {
                 assertThat(religions)
-                        .as("%s usa 'only' sem uma religiao selecionavel", id)
-                        .anyMatch(ReligionFilter.SELECTABLE::contains);
+                        .as("%s usa 'only' sem uma religiao selecionavel (ou 'other', para xintoismo e afins)", id)
+                        .anyMatch(r -> ReligionFilter.SELECTABLE.contains(r) || r.equals("other"));
             }
         });
     }
@@ -119,6 +119,17 @@ class ReligionFilterTest {
         assertThat(ReligionFilter.allows(shared, "christianity")).isTrue();
         assertThat(ReligionFilter.allows(shared, "islam")).isFalse();
         assertThat(ReligionFilter.allows(shared, null)).isFalse();
+    }
+
+    @Test
+    void otherPlusOnlyHidesFromEveryReligionButShowsToNoReligion() {
+        List<String> shinto = List.of("other", ReligionFilter.ONLY);
+        for (String religion : ReligionFilter.SELECTABLE) {
+            assertThat(ReligionFilter.allows(shinto, religion)).as(religion).isFalse();
+        }
+        assertThat(ReligionFilter.allows(shinto, null)).isTrue();
+        // Sem o "only", "other" segue sendo curinga.
+        assertThat(ReligionFilter.allows(List.of("other"), "christianity")).isTrue();
     }
 
     @Test

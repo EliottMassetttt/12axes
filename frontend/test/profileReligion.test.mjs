@@ -29,6 +29,12 @@ describe('religionAllows (porte de ReligionFilter.java)', () => {
   });
 });
 
+it('"other" + "only" (xintoísmo) some para quem escolheu religião e aparece para quem não escolheu', () => {
+  expect(religionAllows(['other', 'only'], 'christianity')).toBe(false);
+  expect(religionAllows(['other', 'only'], 'buddhism')).toBe(false);
+  expect(religionAllows(['other', 'only'], null)).toBe(true);
+});
+
 describe('religionVisibility (página do perfil)', () => {
   it('usa a religião do próprio perfil como preferência', () => {
     const visible = religionVisibility({ religions: ['christianity'] });

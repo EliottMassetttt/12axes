@@ -276,8 +276,8 @@ def main():
             if invalid:
                 errors.append(f"[RELIGIAO] {pid} usa valores invalidos {invalid} — validos: "
                               + ", ".join(sorted(RELIGIONS)))
-            if "only" in religions and not (set(religions) & SELECTABLE_RELIGIONS):
-                errors.append(f"[RELIGIAO] {pid} usa 'only' sem uma religiao selecionavel ao lado "
+            if "only" in religions and not (set(religions) & (SELECTABLE_RELIGIONS | {"other"})):
+                errors.append(f"[RELIGIAO] {pid} usa 'only' sem uma religiao selecionavel (ou 'other') ao lado "
                               f"({', '.join(sorted(SELECTABLE_RELIGIONS))})")
             if vec["religiao"] <= RELIGIOUS_THRESHOLD and not religions:
                 errors.append(

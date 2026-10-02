@@ -3130,7 +3130,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Hirohito",
     "imageNote": "Retrato de Hirohito via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
+    "religions": ["other", "only"]
   },
   {
     "id": "winston-churchill",
@@ -4768,7 +4768,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Emperor_Naruhito_201905_(cropped).jpg",
     "imageNote": "Retrato de Naruhito via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
+    "religions": ["other", "only"]
   },
   {
     "id": "jerome-powell",
@@ -5119,7 +5119,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Imperador_Jimmu",
     "imageNote": "Retrato de Imperador Jimmu via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
+    "religions": ["other", "only"]
   },
   {
     "id": "imperador-meiji",
@@ -5132,7 +5132,7 @@
     "imageSourceName": "Wikimedia Commons / Wikipédia",
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Imperador_Meiji",
     "imageNote": "Retrato de Imperador Meiji via Wikipédia/Wikimedia Commons.",
-    "religions": ["other"]
+    "religions": ["other", "only"]
   },
   {
     "id": "oda-nobunaga",

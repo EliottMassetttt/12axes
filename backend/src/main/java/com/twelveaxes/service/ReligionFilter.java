@@ -48,7 +48,10 @@ public final class ReligionFilter {
             return true;
         }
         if (religions.contains(ONLY)) {
-            return preference != null && religions.contains(preference);
+            // ["other", "only"] (ex.: xintoismo): ninguem escolhe "other", entao o perfil fica so para
+            // quem nao escolheu religiao e some para quem e de qualquer uma das religioes selecionaveis.
+            boolean hasSelectable = religions.stream().anyMatch(SELECTABLE::contains);
+            return hasSelectable ? preference != null && religions.contains(preference) : preference == null;
         }
         if (preference == null) {
             return true;

@@ -244,6 +244,9 @@ cristão é causa cristã); Arábia Saudita = `["islam"]`, apesar da aliança co
 **Como o filtro trata `other`:** um perfil aparece se contém a religião escolhida **ou** se não
 tem nenhuma das quatro selecionáveis (`[]` ou só `["other"]`). Junto de outra religião,
 `other` é só informativo: `["buddhism", "other"]` some para quem escolheu cristianismo.
+**`["other", "only"]`** (xintoísmo e afins): o perfil some para quem escolheu qualquer religião
+selecionável e aparece só para quem não escolheu nenhuma (Aristóteles, só `["other"]`, continua
+aparecendo para todos).
 
 **Texto secular com vetor religioso:** se a descrição diz que o perfil é secular mas o vetor tem
 `religiao` ≤ 35, a marcação não pode sair. Registre o perfil para reauditar o vetor em vez de
