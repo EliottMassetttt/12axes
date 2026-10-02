@@ -92,6 +92,9 @@ interface Strings {
   religionQuestion: string;
   religionNone: string;
   religionNames: Record<'christianity' | 'judaism' | 'islam' | 'buddhism', string>;
+  denominationLabel: string;
+  denominationQuestion: string;
+  denominationNames: Record<'catholic' | 'protestant' | 'orthodox', string>;
   restartQuiz: string;
   heroEyebrow: string;
   h1Pre: string;
@@ -373,6 +376,9 @@ const pt: Strings = {
   religionQuestion: 'Você segue alguma religião? Usamos isso só para ajustar as recomendações.',
   religionNone: 'Sem religião',
   religionNames: { christianity: 'Cristianismo', judaism: 'Judaísmo', islam: 'Islamismo', buddhism: 'Budismo' },
+  denominationLabel: 'Vertente cristã',
+  denominationQuestion: 'Qual é a sua vertente cristã? Usamos isso só para ajustar as recomendações.',
+  denominationNames: { catholic: 'Católica', protestant: 'Protestante', orthodox: 'Ortodoxa' },
   restartQuiz: 'Reiniciar quiz',
   heroEyebrow: 'Descoberta política',
   h1Pre: 'Você sabe mesmo qual é a sua ',
@@ -894,6 +900,9 @@ const en: Strings = {
   religionQuestion: 'Do you follow a religion? We only use this to tailor your recommendations.',
   religionNone: 'No religion',
   religionNames: { christianity: 'Christianity', judaism: 'Judaism', islam: 'Islam', buddhism: 'Buddhism' },
+  denominationLabel: 'Christian tradition',
+  denominationQuestion: 'Which Christian tradition do you follow?',
+  denominationNames: { catholic: 'Catholic', protestant: 'Protestant', orthodox: 'Orthodox' },
   restartQuiz: 'Restart quiz',
   heroEyebrow: 'Political discovery',
   h1Pre: 'Do you really know your ',
