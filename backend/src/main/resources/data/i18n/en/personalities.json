@@ -2618,5 +2618,12 @@
     "role": "Governor of New South Wales",
     "lifespan": "1762–1824",
     "description": "Colonial governor of New South Wales (1810–21), Macquarie replaced military rule with public works and town planning, granted land and office to freed convicts and founded schools for Aboriginal people, but ordered the Appin massacre against resisters."
+  },
+  {
+    "id": "andy-burnham",
+    "name": "Andy Burnham",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1970–",
+    "description": "British Labour politician Burnham advocates devolution, electoral reform, public control of essential services and closer EU ties. He supports Ukraine, border control and LGBT rights, influenced by Catholic social teaching."
   }
 ]

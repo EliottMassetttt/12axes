@@ -5406,5 +5406,18 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ln-Governor-Lachlan_macquarie.jpg",
     "imageNote": "Retrato de Lachlan Macquarie via Wikipédia/Wikimedia Commons.",
     "religions": ["christianity"]
+  },
+  {
+    "id": "andy-burnham",
+    "name": "Andy Burnham",
+    "role": "Primeiro-ministro do Reino Unido",
+    "category": "politico",
+    "lifespan": "1970–",
+    "description": "Trabalhista britânico, Burnham defende descentralização, reforma eleitoral, serviços essenciais sob controle público e aproximação com a UE. Apoia a Ucrânia, controle de fronteiras e direitos LGBT, com influência social católica.",
+    "imagePath": "/personalities/portraits/andy-burnham.jpg",
+    "imageSourceName": "Scottish Government / Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Burnham_on_13_August_2024_(cropped_2).jpg",
+    "imageNote": "Retrato de 2024 pelo Scottish Government, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), recortado no Commons e redimensionado/comprimido para o catálogo.",
+    "religions": []
   }
 ]

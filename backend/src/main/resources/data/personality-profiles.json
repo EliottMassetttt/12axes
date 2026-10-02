@@ -7070,5 +7070,22 @@
       "moral": 30.1,
       "tecnologia": 61.8
     }
+  },
+  {
+    "personalityId": "andy-burnham",
+    "vector": {
+      "estrutura": 56.9,
+      "representacao": 85.9,
+      "poder": 54.4,
+      "imigracao": 33.1,
+      "diplomacia": 44.5,
+      "intervencao": 34.0,
+      "economia": 77.4,
+      "controle": 65.0,
+      "comercio": 43.1,
+      "religiao": 46.4,
+      "moral": 63.3,
+      "tecnologia": 47.6
+    }
   }
 ]
