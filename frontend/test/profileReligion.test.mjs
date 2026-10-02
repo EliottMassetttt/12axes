@@ -2,6 +2,7 @@ import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { describe, expect, it } from 'vitest';
 import { religionAllows, religionVisibility } from '../scripts/profile-match.mjs';
+import { profileReligion } from '../scripts/pole-icons.mjs';
 
 const readData = (file) =>
   JSON.parse(readFileSync(fileURLToPath(new URL(`../../backend/src/main/resources/data/${file}`, import.meta.url)), 'utf8'));
@@ -56,5 +57,19 @@ describe('religionVisibility (página do perfil)', () => {
     const dalaiLama = readData('personalities.json').find((p) => p.id === 'dalai-lama');
     expect(visible(ideology)).toBe(false);
     expect(visible(dalaiLama)).toBe(false);
+  });
+});
+
+describe('profileReligion (ícone do polo Religioso na página do perfil)', () => {
+  it('usa a única religião selecionável marcada', () => {
+    expect(profileReligion(['islam'])).toBe('islam');
+    expect(profileReligion(['judaism', 'only'])).toBe('judaism');
+  });
+
+  it('mantém a cruz padrão sem religião, só com "other" ou com religiões diferentes', () => {
+    expect(profileReligion([])).toBeNull();
+    expect(profileReligion(undefined)).toBeNull();
+    expect(profileReligion(['other'])).toBeNull();
+    expect(profileReligion(['christianity', 'islam'])).toBeNull();
   });
 });
