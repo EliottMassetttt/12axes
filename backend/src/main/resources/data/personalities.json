@@ -5419,5 +5419,18 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Andy_Burnham_on_13_August_2024_(cropped_2).jpg",
     "imageNote": "Retrato de 2024 pelo Scottish Government, CC BY 2.0 (https://creativecommons.org/licenses/by/2.0/), recortado no Commons e redimensionado/comprimido para o catálogo.",
     "religions": []
+  },
+  {
+    "id": "anthony-albanese",
+    "name": "Anthony Albanese",
+    "role": "Primeiro-ministro da Austrália",
+    "category": "politico",
+    "lifespan": "1963–",
+    "description": "Primeiro-ministro trabalhista da Austrália desde 2022, amplia o Medicare e a habitação pública, mantém o AUKUS, restringe vistos temporários e proibiu redes sociais a menores de 16 anos, defendendo o multiculturalismo e o livre comércio.",
+    "imagePath": "/personalities/portraits/anthony-albanese.jpg",
+    "imageSourceName": "Wikimedia Commons / Australian Government (CC BY 4.0)",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Anthony_Albanese_portrait_(re-crop).jpg",
+    "imageNote": "Retrato oficial pelo Governo Australiano, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/), via Wikimedia Commons; recortado na fonte, redimensionado e recomprimido.",
+    "religions": []
   }
 ]

@@ -7087,5 +7087,22 @@
       "moral": 63.3,
       "tecnologia": 47.6
     }
+  },
+  {
+    "personalityId": "anthony-albanese",
+    "vector": {
+      "estrutura": 35.5,
+      "representacao": 76.3,
+      "poder": 59.1,
+      "imigracao": 28.3,
+      "diplomacia": 44.5,
+      "intervencao": 43.6,
+      "economia": 59.1,
+      "controle": 54.5,
+      "comercio": 35.3,
+      "religiao": 61.9,
+      "moral": 77.6,
+      "tecnologia": 69.0
+    }
   }
 ]
