@@ -2566,5 +2566,17 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "dante-alighieri",
+    "title": {
+      "pt": "Da Monarquia",
+      "en": "Monarchia"
+    },
+    "year": 1313,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

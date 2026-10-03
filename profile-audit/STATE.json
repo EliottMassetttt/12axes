@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-03T09:45:30Z",
+  "lastUpdated": "2026-10-03T10:19:08Z",
   "personality": {
-    "totalProfiles": 430,
+    "totalProfiles": 436,
     "pending": [],
     "done": [
       "lenin",
@@ -434,7 +434,13 @@
       "nikita-khrushchev",
       "sigmund-freud",
       "jean-paul-marat",
-      "grigory-zinoviev"
+      "grigory-zinoviev",
+      "dante-alighieri",
+      "carlos-i-inglaterra",
+      "pythagoras",
+      "epicurus",
+      "heraclitus",
+      "dom-joao-iv-portugal"
     ]
   },
   "ideology": {

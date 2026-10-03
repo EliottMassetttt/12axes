@@ -2675,43 +2675,79 @@
     "lifespan": "c. 958–1015",
     "description": "Grand Prince of Kyiv from 980 to 1015, Vladimir the Great unified and expanded Kievan Rus', ended paganism by adopting Byzantine Orthodox Christianity in 988, married the Byzantine princess Anna and had his people baptized in the Dnieper."
   },
-  {
-    "id": "desmond-tutu",
-    "name": "Desmond Tutu",
-    "role": "Anglican archbishop and anti-apartheid activist",
-    "lifespan": "1931–2021",
-    "description": "A South African Anglican archbishop and 1984 Nobel Peace Prize laureate, Tutu led nonviolent campaigns against apartheid and chaired the Truth and Reconciliation Commission. He advocated human rights and public reconciliation on the basis of his Christian faith."
-  },
-  {
-    "id": "russell-kirk",
-    "name": "Russell Kirk",
-    "role": "Political philosopher and historian",
-    "lifespan": "1918–1994",
-    "description": "An American political philosopher and historian, Kirk influenced postwar conservatism with The Conservative Mind (1953). He championed tradition, historical continuity, political prudence, local communities, and a moral order rooted in religion."
-  },
-  {
-    "id": "nikita-khrushchev",
-    "name": "Nikita Khrushchev",
-    "role": "Soviet leader",
-    "lifespan": "1894–1971",
-    "description": "First Secretary of the Soviet Communist Party (1953–1964) and premier of the USSR (1958–1964), Khrushchev denounced Stalin and began de-Stalinization while retaining one-party rule. His government launched Sputnik and confronted the United States during the Cuban Missile Crisis."
-  },
+{
+  "id": "desmond-tutu",
+  "name": "Desmond Tutu",
+  "role": "Anglican archbishop and anti-apartheid activist",
+  "lifespan": "1931–2021",
+  "description": "A South African Anglican archbishop and 1984 Nobel Peace Prize laureate, Tutu led nonviolent campaigns against apartheid and chaired the Truth and Reconciliation Commission. He advocated human rights and public reconciliation on the basis of his Christian faith."
+},
+{
+  "id": "russell-kirk",
+  "name": "Russell Kirk",
+  "role": "Political philosopher and historian",
+  "lifespan": "1918–1994",
+  "description": "An American political philosopher and historian, Kirk influenced postwar conservatism with The Conservative Mind (1953). He championed tradition, historical continuity, political prudence, local communities, and a moral order rooted in religion."
+},
+{
+  "id": "nikita-khrushchev",
+  "name": "Nikita Khrushchev",
+  "role": "Soviet leader",
+  "lifespan": "1894–1971",
+  "description": "First Secretary of the Soviet Communist Party (1953–1964) and premier of the USSR (1958–1964), Khrushchev denounced Stalin and began de-Stalinization while retaining one-party rule. His government launched Sputnik and confronted the United States during the Cuban Missile Crisis."
+},
   {
     "id": "sigmund-freud",
     "name": "Sigmund Freud",
     "role": "Neurologist and founder of psychoanalysis",
     "description": "Austrian neurologist who founded psychoanalysis and developed concepts such as the unconscious, repression, and the Oedipus complex. In The Future of an Illusion and Civilization and Its Discontents, he critically examined religion, culture, and conflicts between individual desire and social life."
   },
-  {
-    "id": "jean-paul-marat",
-    "name": "Jean-Paul Marat",
-    "role": "Journalist and revolutionary",
-    "description": "A physician and journalist of the French Revolution, Marat edited L?Ami du peuple and advocated popular sovereignty, exceptional measures against counterrevolution, and vigilance over rulers. In The Chains of Slavery (1774), he denounced monarchical despotism."
-  },
-  {
-    "id": "grigory-zinoviev",
-    "name": "Grigory Zinoviev",
-    "role": "Bolshevik revolutionary and Soviet leader",
-    "description": "A Bolshevik leader, Zinoviev chaired the Communist International from 1919 to 1926 and led the party in Leningrad. An ally of Stalin against Trotsky after Lenin?s death, he was later convicted in a show trial and executed during the Great Purge."
-  }
+{
+  "id": "jean-paul-marat",
+  "name": "Jean-Paul Marat",
+  "role": "Journalist and revolutionary",
+  "description": "A physician and journalist of the French Revolution, Marat edited L’Ami du peuple and advocated popular sovereignty, exceptional measures against counterrevolution, and vigilance over rulers. In The Chains of Slavery (1774), he denounced monarchical despotism."
+},
+{
+  "id": "grigory-zinoviev",
+  "name": "Grigory Zinoviev",
+  "role": "Bolshevik revolutionary and Soviet leader",
+  "description": "A Bolshevik leader, Zinoviev chaired the Communist International from 1919 to 1926 and led the party in Leningrad. An ally of Stalin against Trotsky after Lenin’s death, he was later convicted in a show trial and executed during the Great Purge."
+},
+    {
+      "id": "dante-alighieri",
+      "name": "Dante Alighieri",
+      "role": "Poet and political philosopher",
+      "description": "A Florentine poet involved in municipal politics, Dante argued in De Monarchia for a universal imperial authority independent of the papacy’s temporal power. Exile after Florence’s factional disputes shaped his view of political order."
+    },
+    {
+      "id": "dom-joao-iv-portugal",
+      "name": "John IV of Portugal",
+      "role": "King of Portugal",
+      "description": "The Duke of Braganza acclaimed king after the Restoration of 1640, John IV ended the Iberian Union and led Portugal in war against Spain to recover its independence. He founded the Braganza dynasty and sought diplomatic alliances to sustain the new kingdom."
+    },
+    {
+      "id": "carlos-i-inglaterra",
+      "name": "Charles I of England",
+      "role": "King of England, Scotland, and Ireland",
+      "description": "The Stuart king defended royal prerogative and the divine right of monarchs. His conflicts with Parliament over taxes and authority, alongside his attempt to impose Anglican practices in Scotland, contributed to the Wars of the Three Kingdoms and his execution in 1649."
+    },
+    {
+      "id": "pythagoras",
+      "name": "Pythagoras",
+      "role": "Philosopher and founder of the Pythagorean community",
+      "description": "A Greek philosopher and community leader in southern Italy, Pythagoras linked mathematics and cosmology to religious discipline. Later accounts connect Pythagoreans to political influence in Magna Graecia, though his own ideas are hard to separate from those of his followers."
+    },
+    {
+      "id": "epicurus",
+      "name": "Epicurus",
+      "role": "Greek philosopher and founder of Epicureanism",
+      "description": "A Greek philosopher who taught that happiness depends on the absence of pain and disturbance, supported by friendship and moderate desires. He understood justice as a useful agreement to neither harm nor be harmed, and advised avoiding political strife where possible."
+    },
+    {
+      "id": "heraclitus",
+      "name": "Heraclitus",
+      "role": "Pre-Socratic philosopher",
+      "description": "A philosopher from Ephesus known for fragments on change, opposition, and the logos that orders the world. His texts relate human law to a common order, but the scarcity of sources makes any reconstruction of his specific political positions controversial."
+    }
 ]
