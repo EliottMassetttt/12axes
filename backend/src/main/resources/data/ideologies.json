@@ -2767,5 +2767,16 @@
     "countryId": "franca",
     "personalityId": "foucault",
     "religions": []
+  },
+  {
+    "id": "socialismo-chines",
+    "name": "Socialismo Chinês",
+    "category": "Esquerda Radical",
+    "description": "Doutrina do PCC no século XXI, associada a Xi Jinping. Combina liderança centralizada do Partido e modernização socialista, defendendo rejuvenescimento nacional, propriedade pública predominante e mercado socialista com empresas privadas e inovação tecnológica.",
+    "phrase": "Quero modernizar a China sob a liderança do Partido, combinar planejamento e mercado e buscar prosperidade comum com autonomia tecnológica.",
+    "vector": null,
+    "countryId": "china",
+    "personalityId": "xi-jinping",
+    "religions": []
   }
 ]

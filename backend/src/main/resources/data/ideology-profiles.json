@@ -4282,5 +4282,22 @@
       "moral": 88.3,
       "tecnologia": 51.2
     }
+  },
+  {
+    "ideologyId": "socialismo-chines",
+    "vector": {
+      "estrutura": 14.0,
+      "representacao": 18.6,
+      "poder": 87.4,
+      "imigracao": 72.1,
+      "diplomacia": 56.4,
+      "intervencao": 36.4,
+      "economia": 77.4,
+      "controle": 86.5,
+      "comercio": 58.6,
+      "religiao": 84.9,
+      "moral": 27.4,
+      "tecnologia": 64.1
+    }
   }
 ]

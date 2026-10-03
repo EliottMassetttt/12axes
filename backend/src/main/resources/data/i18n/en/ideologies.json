@@ -1768,5 +1768,12 @@
     "category": "Left",
     "description": "A plural critique of universalism, linear progress, and grand narratives. In a Foucauldian reading, genealogy and power/knowledge analysis show how institutions, norms, and discourses produce subjects and open possibilities for local resistance.",
     "phrase": "I want to show how power and knowledge produce truths and subjects, challenge norms that discipline life, and make room for local resistance."
+  },
+  {
+    "id": "socialismo-chines",
+    "name": "Chinese Socialism",
+    "category": "Radical Left",
+    "description": "21st-century doctrine of the CPC associated with Xi Jinping. It combines centralized Party leadership and socialist modernization, advocating national rejuvenation, predominant public ownership, and a socialist market with private enterprise and technological innovation.",
+    "phrase": "I want to modernize China under Party leadership, combine planning and markets, and pursue common prosperity through technological self-reliance."
   }
 ]
