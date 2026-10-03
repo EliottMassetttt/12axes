@@ -2798,5 +2798,12 @@
     "role": "Software engineer",
     "lifespan": "1969–present",
     "description": "Finnish-American software engineer, he started the Linux kernel in 1991 and created Git in 2005; his technical leadership and open development made these projects central to digital infrastructure."
+  },
+  {
+    "id": "francisco-i-da-austria",
+    "name": "Francis I of Austria",
+    "role": "Emperor of Austria and Holy Roman Emperor",
+    "lifespan": "1768–1835",
+    "description": "The last Holy Roman Emperor and first Emperor of Austria, Francis I founded the Austrian Empire in 1804. Allied with Metternich, he suppressed liberal movements and supported the post-Napoleonic conservative order."
   }
 ]

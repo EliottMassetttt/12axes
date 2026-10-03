@@ -3449,5 +3449,22 @@
       "moral": 28.6,
       "tecnologia": 79.6
     }
+  },
+  {
+    "countryId": "imperio-austriaco",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 5.5,
+      "poder": 89.8,
+      "imigracao": 55.1,
+      "diplomacia": 70.7,
+      "intervencao": 11.4,
+      "economia": 42.3,
+      "controle": 62.4,
+      "comercio": 74.0,
+      "religiao": 5.7,
+      "moral": 8.9,
+      "tecnologia": 40.5
+    }
   }
 ]

@@ -1216,5 +1216,11 @@
     "name": "Chongqing (China)",
     "category": "Industrial dirigiste municipality",
     "description": "China's largest directly administered municipality, Chongqing combines heavy industry, a car-making base and freight trains to Europe with Bo Xilai's \"Chongqing model\" (public housing, anti-crime campaign, \"red songs\"), ended in 2012."
+  },
+  {
+    "id": "imperio-austriaco",
+    "name": "Austrian Empire (Habsburgs)",
+    "category": "Centralized multinational monarchy",
+    "description": "Founded by the Habsburgs in 1804, the Austrian Empire was a multinational Central European monarchy until the Compromise of 1867. Under Francis I and Metternich, it combined centralized administration, Catholic primacy, and liberal repression."
   }
 ]

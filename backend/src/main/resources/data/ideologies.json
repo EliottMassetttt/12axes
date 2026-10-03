@@ -2745,5 +2745,27 @@
     "countryId": "singapura",
     "personalityId": "lee-kuan-yew",
     "religions": []
+  },
+  {
+    "id": "tridemismo",
+    "name": "Tridemismo",
+    "category": "Centro",
+    "description": "Doutrina republicana de Sun Yat-sen, articulada nos Três Princípios do Povo: nacionalismo, democracia e bem-estar do povo. Seu programa previa tutela política transitória, soberania popular e reformas sociais e econômicas.",
+    "phrase": "Quero emancipar a nação, confiar o poder político ao povo após a tutela revolucionária e assegurar seu bem-estar pelo desenvolvimento nacional.",
+    "vector": null,
+    "countryId": "taiwan",
+    "personalityId": "sun-yat-sen",
+    "religions": []
+  },
+  {
+    "id": "posmodernismo",
+    "name": "Pós-modernismo",
+    "category": "Esquerda",
+    "description": "Vertente plural de crítica ao universalismo, ao progresso linear e às grandes narrativas. Na leitura foucaultiana, genealogia e análise de poder e saber mostram como instituições, normas e discursos produzem sujeitos e abrem possibilidades de resistência local.",
+    "phrase": "Quero mostrar como poder e saber produzem verdades e sujeitos, contestar normas que disciplinam a vida e abrir espaço à resistência local.",
+    "vector": null,
+    "countryId": "franca",
+    "personalityId": "foucault",
+    "religions": []
   }
 ]

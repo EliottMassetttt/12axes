@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-03T00:00:00Z",
+  "lastUpdated": "2026-10-03T11:39:43Z",
   "personality": {
-    "totalProfiles": 443,
+    "totalProfiles": 444,
     "pending": [],
     "done": [
       "lenin",
@@ -447,11 +447,12 @@
       "oliver-cromwell",
       "inacio-de-loyola",
       "linus-torvalds",
-      "democrito"
+      "democrito",
+      "francisco-i-da-austria"
     ]
   },
   "ideology": {
-    "totalProfiles": 250,
+    "totalProfiles": 252,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -704,11 +705,13 @@
       "confederalismo-democratico",
       "tradicionalismo",
       "iluminismo-sombrio",
-      "neocameralismo"
+      "neocameralismo",
+      "tridemismo",
+      "posmodernismo"
     ]
   },
   "country": {
-    "totalProfiles": 204,
+    "totalProfiles": 205,
     "pending": [],
     "done": [
       "brasil",
@@ -914,7 +917,8 @@
       "imperio-sueco",
       "suecia-finlandia",
       "shenzhen",
-      "chongqing"
+      "chongqing",
+      "imperio-austriaco"
     ]
   }
 }

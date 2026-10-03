@@ -2760,5 +2760,22 @@
     "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_People%27s_Republic_of_China.svg",
     "flagNote": "Chongqing não tem bandeira municipal oficial; usa a bandeira nacional da China como referência visual.",
     "religions": []
+  },
+  {
+    "id": "imperio-austriaco",
+    "name": "Império Austríaco (Habsburgos)",
+    "category": "Monarquia multinacional centralizada",
+    "description": "Fundado pelos Habsburgos em 1804, o Império Austríaco foi uma monarquia multinacional da Europa Central até o Compromisso de 1867. Sob Francisco I e Metternich, combinou administração centralizada, primazia católica e repressão liberal.",
+    "flagPath": "/countries/flags/imperio-austriaco.png",
+    "historical": true,
+    "period": "1804–1867",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_the_Habsburg_Monarchy.svg",
+    "flagNote": "Bandeira preta e dourada da Monarquia dos Habsburgos, usada pelo Império Austríaco; via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
