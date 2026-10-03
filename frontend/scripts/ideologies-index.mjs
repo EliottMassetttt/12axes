@@ -22,6 +22,8 @@ export const CATEGORY_KEY = {
   'radical left': 'esq-radical',
   esquerda: 'esquerda',
   left: 'esquerda',
+  'esquerda tecnossocialista pós-capitalista': 'esquerda',
+  'post-capitalist techno-socialist left': 'esquerda',
   centro: 'centro',
   center: 'centro',
   direita: 'direita',

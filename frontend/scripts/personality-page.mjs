@@ -15,7 +15,6 @@ const STR = {
     homeAria: '12 axes, página inicial',
     takeTheTest: 'Fazer o teste',
     kpiSpectrum: 'Espectro mais próximo',
-    kpiAssociated: 'Ideologia associada',
     kpiClosestIdeology: 'Ideologia mais próxima',
     kpiClosestPerson: 'Personalidade mais próxima',
     portraitAlt: (name) => `Retrato de ${name}`,
@@ -61,7 +60,6 @@ const STR = {
     homeAria: '12 axes, home page',
     takeTheTest: 'Take the test',
     kpiSpectrum: 'Closest spectrum',
-    kpiAssociated: 'Associated ideology',
     kpiClosestIdeology: 'Closest ideology',
     kpiClosestPerson: 'Closest personality',
     portraitAlt: (name) => `Portrait of ${name}`,
@@ -211,7 +209,6 @@ export function personalityPage(L, personality, ctx) {
   // ── ideologias ──
   const visible = religionVisibility(personality);
   const rankedIdeologies = rank(vector, L.ideologies.filter(visible), (i) => profiles.ideology.get(i.id));
-  const associated = L.ideologiesByPersonality.get(personality.id) ?? [];
   const topIdeology = rankedIdeologies[0];
   const otherIdeologies = rankedIdeologies.slice(0, 3);
   const distantIdeology = rankedIdeologies[rankedIdeologies.length - 1];
@@ -288,10 +285,6 @@ export function personalityPage(L, personality, ctx) {
       <a class="distant" href="${prefix}/ideologies/${distantIdeology.item.id}"><strong>${esc(distantIdeology.item.name)}</strong><span class="tag" style="background:${distSpec.cb};color:${distSpec.c}">${esc(distantIdeology.item.category)}</span><span>${pct(distantIdeology.score)}%</span></a>
     </div>`;
 
-  const kpiIdeology = associated[0]
-    ? [t.kpiAssociated, associated[0].name]
-    : [t.kpiClosestIdeology, topIdeology.item.name];
-
   const credit = personality.imageSourceUrl
     ? `<figcaption><a href="${esc(personality.imageSourceUrl)}" rel="noopener nofollow" target="_blank">${esc(personality.imageSourceName || L.s.imageSource)}</a></figcaption>`
     : '';
@@ -342,8 +335,8 @@ ${poleSprite(L.axes)}
       <p class="lead">${esc(personality.description)}</p>
       <dl class="kpis">
         <div><dt>${esc(t.kpiSpectrum)}</dt><dd class="c">${esc(topIdeology.item.category)}</dd></div>
-        <div><dt>${esc(kpiIdeology[0])}</dt><dd>${esc(kpiIdeology[1])}</dd></div>
-        <div><dt>${esc(t.kpiClosestPerson)}</dt><dd>${esc(tp.name)}</dd></div>
+        <div><dt>${esc(t.kpiClosestIdeology)}</dt><dd><a href="${prefix}/ideologies/${topIdeology.item.id}">${esc(topIdeology.item.name)}</a></dd></div>
+        <div><dt>${esc(t.kpiClosestPerson)}</dt><dd><a href="${personHref(tp)}">${esc(tp.name)}</a></dd></div>
       </dl>
     </div>
     <figure class="ph-img"><img src="${personality.imagePath}" alt="${esc(t.portraitAlt(name))}" data-i="${esc(initials(name))}">${credit}</figure>
@@ -468,7 +461,7 @@ h3{font-size:20px;letter-spacing:-.01em;line-height:1.25}
 .phero .lead{font-size:16.5px;max-width:620px}
 .kpis{display:grid;grid-template-columns:repeat(3,1fr);margin-top:26px;border-top:1px solid var(--borda)}
 .kpis div{padding:14px 16px 0 0}.kpis div+div{padding-left:16px;border-left:1px solid var(--borda)}
-.kpis dt{font-size:12px;color:var(--texto-suave)}.kpis dd{font-family:var(--font-display);font-weight:600;font-size:17px;line-height:1.25;margin-top:2px}.kpis dd.c{color:var(--cat)}
+.kpis dt{font-size:12px;color:var(--texto-suave)}.kpis dd{font-family:var(--font-display);font-weight:600;font-size:17px;line-height:1.25;margin-top:2px}.kpis dd.c{color:var(--cat)}.kpis dd a{color:inherit;text-decoration:none}.kpis dd a:hover{text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}.kpis dd a:focus-visible{outline:2px solid var(--cat);outline-offset:3px;border-radius:2px}
 .ph-img{margin:0;align-self:stretch;position:relative;background:var(--cat-bg);min-height:340px}
 .ph-img img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 20%}
 .ph-img figcaption{position:absolute;right:10px;bottom:10px;font-size:11px;color:#fff;background:rgba(16,16,16,.55);padding:3px 8px;border-radius:999px}
