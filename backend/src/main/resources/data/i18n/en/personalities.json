@@ -2674,5 +2674,44 @@
     "role": "Grand Prince of Kyiv",
     "lifespan": "c. 958–1015",
     "description": "Grand Prince of Kyiv from 980 to 1015, Vladimir the Great unified and expanded Kievan Rus', ended paganism by adopting Byzantine Orthodox Christianity in 988, married the Byzantine princess Anna and had his people baptized in the Dnieper."
+  },
+  {
+    "id": "desmond-tutu",
+    "name": "Desmond Tutu",
+    "role": "Anglican archbishop and anti-apartheid activist",
+    "lifespan": "1931–2021",
+    "description": "A South African Anglican archbishop and 1984 Nobel Peace Prize laureate, Tutu led nonviolent campaigns against apartheid and chaired the Truth and Reconciliation Commission. He advocated human rights and public reconciliation on the basis of his Christian faith."
+  },
+  {
+    "id": "russell-kirk",
+    "name": "Russell Kirk",
+    "role": "Political philosopher and historian",
+    "lifespan": "1918–1994",
+    "description": "An American political philosopher and historian, Kirk influenced postwar conservatism with The Conservative Mind (1953). He championed tradition, historical continuity, political prudence, local communities, and a moral order rooted in religion."
+  },
+  {
+    "id": "nikita-khrushchev",
+    "name": "Nikita Khrushchev",
+    "role": "Soviet leader",
+    "lifespan": "1894–1971",
+    "description": "First Secretary of the Soviet Communist Party (1953–1964) and premier of the USSR (1958–1964), Khrushchev denounced Stalin and began de-Stalinization while retaining one-party rule. His government launched Sputnik and confronted the United States during the Cuban Missile Crisis."
+  },
+  {
+    "id": "sigmund-freud",
+    "name": "Sigmund Freud",
+    "role": "Neurologist and founder of psychoanalysis",
+    "description": "Austrian neurologist who founded psychoanalysis and developed concepts such as the unconscious, repression, and the Oedipus complex. In The Future of an Illusion and Civilization and Its Discontents, he critically examined religion, culture, and conflicts between individual desire and social life."
+  },
+  {
+    "id": "jean-paul-marat",
+    "name": "Jean-Paul Marat",
+    "role": "Journalist and revolutionary",
+    "description": "A physician and journalist of the French Revolution, Marat edited L?Ami du peuple and advocated popular sovereignty, exceptional measures against counterrevolution, and vigilance over rulers. In The Chains of Slavery (1774), he denounced monarchical despotism."
+  },
+  {
+    "id": "grigory-zinoviev",
+    "name": "Grigory Zinoviev",
+    "role": "Bolshevik revolutionary and Soviet leader",
+    "description": "A Bolshevik leader, Zinoviev chaired the Communist International from 1919 to 1926 and led the party in Leningrad. An ally of Stalin against Trotsky after Lenin?s death, he was later convicted in a show trial and executed during the Great Purge."
   }
 ]

@@ -7206,5 +7206,107 @@
       "moral": 20.8,
       "tecnologia": 63.0
     }
+  },
+  {
+    "personalityId": "desmond-tutu",
+    "vector": {
+      "estrutura": 42.6,
+      "representacao": 93.0,
+      "poder": 36.5,
+      "imigracao": 11.0,
+      "diplomacia": 9.8,
+      "intervencao": 47.0,
+      "economia": 82.2,
+      "controle": 74.6,
+      "comercio": 46.7,
+      "religiao": 39.3,
+      "moral": 74.9,
+      "tecnologia": 35.7
+    }
+  },
+  {
+    "personalityId": "russell-kirk",
+    "vector": {
+      "estrutura": 78.3,
+      "representacao": 69.2,
+      "poder": 49.6,
+      "imigracao": 50.5,
+      "diplomacia": 33.1,
+      "intervencao": 55.0,
+      "economia": 37.7,
+      "controle": 29.5,
+      "comercio": 58.0,
+      "religiao": 15.1,
+      "moral": 13.4,
+      "tecnologia": 22.9
+    }
+  },
+  {
+    "personalityId": "nikita-khrushchev",
+    "vector": {
+      "estrutura": 37.8,
+      "representacao": 40.0,
+      "poder": 85.0,
+      "imigracao": 40.2,
+      "diplomacia": 58.6,
+      "intervencao": 20.8,
+      "economia": 90.1,
+      "controle": 90.1,
+      "comercio": 77.6,
+      "religiao": 97.6,
+      "moral": 32.4,
+      "tecnologia": 73.7
+    }
+  },
+  {
+    "personalityId": "sigmund-freud",
+    "vector": {
+      "estrutura": 47.4,
+      "representacao": 66.8,
+      "poder": 40.1,
+      "imigracao": 27.1,
+      "diplomacia": 25.2,
+      "intervencao": 58.9,
+      "economia": 63.9,
+      "controle": 52.1,
+      "comercio": 43.7,
+      "religiao": 89.3,
+      "moral": 56.2,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "personalityId": "jean-paul-marat",
+    "vector": {
+      "estrutura": 42.6,
+      "representacao": 71.6,
+      "poder": 63.9,
+      "imigracao": 34.3,
+      "diplomacia": 46.2,
+      "intervencao": 56.2,
+      "economia": 71.0,
+      "controle": 65.2,
+      "comercio": 52.0,
+      "religiao": 41.7,
+      "moral": 32.4,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "personalityId": "grigory-zinoviev",
+    "vector": {
+      "estrutura": 28.2,
+      "representacao": 36.4,
+      "poder": 81.4,
+      "imigracao": 18.8,
+      "diplomacia": 61.2,
+      "intervencao": 42.4,
+      "economia": 93.7,
+      "controle": 91.3,
+      "comercio": 71.7,
+      "religiao": 97.6,
+      "moral": 64.5,
+      "tecnologia": 79.6
+    }
   }
 ]

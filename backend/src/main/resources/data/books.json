@@ -2494,5 +2494,77 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "desmond-tutu",
+    "title": {
+      "pt": "Sem perdão não há futuro",
+      "en": "No Future Without Forgiveness"
+    },
+    "year": 1999,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "russell-kirk",
+    "title": {
+      "pt": "A mentalidade conservadora: de Edmund Burke a T. S. Eliot",
+      "en": "The Conservative Mind: From Burke to Eliot"
+    },
+    "year": 1953,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nikita-khrushchev",
+    "title": {
+      "pt": "Khrushchev Remembers",
+      "en": "Khrushchev Remembers"
+    },
+    "year": 1970,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "sigmund-freud",
+    "title": {
+      "pt": "O mal-estar na civiliza??o",
+      "en": "Civilization and Its Discontents"
+    },
+    "year": 1930,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jean-paul-marat",
+    "title": {
+      "pt": "As cadeias da escravid?o",
+      "en": "The Chains of Slavery"
+    },
+    "year": 1774,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "grigory-zinoviev",
+    "title": {
+      "pt": "Leninismo: introdu??o ao estudo do leninismo",
+      "en": "Leninism: Introduction to the Study of Leninism"
+    },
+    "year": 1925,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
