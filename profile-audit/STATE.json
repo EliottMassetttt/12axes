@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-03T10:19:08Z",
+  "lastUpdated": "2026-10-03T00:00:00Z",
   "personality": {
-    "totalProfiles": 436,
+    "totalProfiles": 443,
     "pending": [],
     "done": [
       "lenin",
@@ -440,7 +440,14 @@
       "pythagoras",
       "epicurus",
       "heraclitus",
-      "dom-joao-iv-portugal"
+      "dom-joao-iv-portugal",
+      "diogenes",
+      "seneca",
+      "epicteto",
+      "oliver-cromwell",
+      "inacio-de-loyola",
+      "linus-torvalds",
+      "democrito"
     ]
   },
   "ideology": {

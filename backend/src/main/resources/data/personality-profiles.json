@@ -7410,5 +7410,122 @@
       "moral": 12.5,
       "tecnologia": 47.6
     }
+  },
+  {
+    "personalityId": "diogenes",
+    "vector": {
+      "estrutura": 66.4,
+      "representacao": 62.6,
+      "poder": 25.4,
+      "imigracao": 21.0,
+      "diplomacia": 14.7,
+      "intervencao": 76.9,
+      "economia": 52.0,
+      "controle": 38.9,
+      "comercio": 15.7,
+      "religiao": 50.5,
+      "moral": 78.8,
+      "tecnologia": 14.7
+    }
+  },
+  {
+    "personalityId": "seneca",
+    "vector": {
+      "estrutura": 29.2,
+      "representacao": 42.4,
+      "poder": 29.3,
+      "imigracao": 29.0,
+      "diplomacia": 34.8,
+      "intervencao": 36.3,
+      "economia": 52.0,
+      "controle": 56.9,
+      "comercio": 40.1,
+      "religiao": 35.3,
+      "moral": 39.6,
+      "tecnologia": 29.8
+    }
+  },
+  {
+    "personalityId": "epicteto",
+    "vector": {
+      "estrutura": 31.9,
+      "representacao": 45.4,
+      "poder": 41.3,
+      "imigracao": 54.0,
+      "diplomacia": 19.3,
+      "intervencao": 43.4,
+      "economia": 49.6,
+      "controle": 49.7,
+      "comercio": 33.0,
+      "religiao": 43.7,
+      "moral": 53.9,
+      "tecnologia": 51.4
+    }
+  },
+  {
+    "personalityId": "oliver-cromwell",
+    "vector": {
+      "estrutura": 48.5,
+      "representacao": 40.0,
+      "poder": 55.2,
+      "imigracao": 53.9,
+      "diplomacia": 45.7,
+      "intervencao": 48.3,
+      "economia": 49.4,
+      "controle": 57.6,
+      "comercio": 62.1,
+      "religiao": 29.5,
+      "moral": 45.8,
+      "tecnologia": 53.6
+    }
+  },
+  {
+    "personalityId": "inacio-de-loyola",
+    "vector": {
+      "estrutura": 28.0,
+      "representacao": 37.6,
+      "poder": 62.6,
+      "imigracao": 58.7,
+      "diplomacia": 34.8,
+      "intervencao": 66.0,
+      "economia": 55.6,
+      "controle": 65.2,
+      "comercio": 49.6,
+      "religiao": 23.6,
+      "moral": 25.6,
+      "tecnologia": 45.2
+    }
+  },
+  {
+    "personalityId": "linus-torvalds",
+    "vector": {
+      "estrutura": 49.8,
+      "representacao": 46.6,
+      "poder": 54.4,
+      "imigracao": 54.3,
+      "diplomacia": 49.0,
+      "intervencao": 45.8,
+      "economia": 49.6,
+      "controle": 54.5,
+      "comercio": 54.4,
+      "religiao": 76.7,
+      "moral": 59.8,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "personalityId": "democrito",
+    "estrutura": 42.6,
+    "representacao": 71.6,
+    "poder": 28.2,
+    "imigracao": 28.1,
+    "diplomacia": 25.2,
+    "intervencao": 57.7,
+    "economia": 54.4,
+    "controle": 59.2,
+    "comercio": 50.8,
+    "religiao": 62.4,
+    "moral": 61.0,
+    "tecnologia": 59.5
   }
 ]

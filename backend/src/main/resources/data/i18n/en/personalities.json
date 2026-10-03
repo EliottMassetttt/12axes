@@ -2749,5 +2749,54 @@
       "name": "Heraclitus",
       "role": "Pre-Socratic philosopher",
       "description": "A philosopher from Ephesus known for fragments on change, opposition, and the logos that orders the world. His texts relate human law to a common order, but the scarcity of sources makes any reconstruction of his specific political positions controversial."
-    }
+    },
+  {
+    "id": "democrito",
+    "name": "Democritus",
+    "role": "Pre-Socratic philosopher",
+    "lifespan": "c. 460–c. 370 BCE",
+    "description": "Greek philosopher from Abdera who, with Leucippus, developed an atomist account of nature in which reality consists of atoms and void. His writings also addressed ethics and politics."
+  },
+  {
+    "id": "diogenes",
+    "name": "Diogenes of Sinope",
+    "role": "Cynic philosopher",
+    "lifespan": "c. 412–c. 323 BCE",
+    "description": "Greek philosopher from Sinope and the leading figure of ancient Cynicism, he championed self-sufficiency and a simple life in accordance with nature, challenging social convention, wealth, and authority through provocation."
+  },
+  {
+    "id": "seneca",
+    "name": "Seneca",
+    "role": "Stoic philosopher and Roman statesman",
+    "lifespan": "c. 4 BCE–65 CE",
+    "description": "Roman Stoic philosopher and statesman, Seneca advised Nero and wrote about clemency, virtue, and mastery of the passions; his proximity to power and great wealth stand in tension with his counsel of simplicity."
+  },
+  {
+    "id": "epicteto",
+    "name": "Epictetus",
+    "role": "Stoic philosopher",
+    "lifespan": "c. 50–c. 135 CE",
+    "description": "Greek Stoic philosopher, born enslaved in the Roman Empire, he taught that freedom depends on distinguishing what is within our control and cultivating virtue. His student Arrian recorded his lessons."
+  },
+  {
+    "id": "oliver-cromwell",
+    "name": "Oliver Cromwell",
+    "role": "Parliamentarian commander and Lord Protector",
+    "lifespan": "1599–1658",
+    "description": "Parliamentarian commander and Lord Protector of England, Cromwell took part in the execution of Charles I and consolidated a centralized Puritan republic; his campaigns in Ireland and Scotland extended English power."
+  },
+  {
+    "id": "inacio-de-loyola",
+    "name": "Ignatius of Loyola",
+    "role": "Jesuit priest and founder of the Society of Jesus",
+    "lifespan": "1491–1556",
+    "description": "A Basque nobleman who became a priest, Ignatius of Loyola founded the Society of Jesus and wrote the Spiritual Exercises, a method of prayer that shaped Jesuit formation and missionary activity."
+  },
+  {
+    "id": "linus-torvalds",
+    "name": "Linus Torvalds",
+    "role": "Software engineer",
+    "lifespan": "1969–present",
+    "description": "Finnish-American software engineer, he started the Linux kernel in 1991 and created Git in 2005; his technical leadership and open development made these projects central to digital infrastructure."
+  }
 ]
