@@ -162,7 +162,14 @@
     "vector": null,
     "countryId": "alemanha-nazista-terceiro-reich",
     "personalityId": "gregor-strasser",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "fascismo",
@@ -195,7 +202,9 @@
     "vector": null,
     "countryId": "espanha-franquista",
     "personalityId": "jose-antonio-primo-de-rivera",
-    "religions": ["catholic"]
+    "religions": [
+      "catholic"
+    ]
   },
   {
     "id": "nacional-sindicalismo",
@@ -206,7 +215,14 @@
     "vector": null,
     "countryId": "espanha-franquista",
     "personalityId": "jose-antonio-primo-de-rivera",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "integralismo-brasileiro",
@@ -217,7 +233,11 @@
     "vector": null,
     "countryId": "brasil-era-vargas",
     "personalityId": "plinio-salgado",
-    "religions": ["catholic", "protestant", "orthodox"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox"
+    ]
   },
   {
     "id": "capitalismo-autoritario",
@@ -239,7 +259,14 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "putin",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "alt-right",
@@ -250,7 +277,15 @@
     "vector": null,
     "countryId": "estados-unidos",
     "personalityId": "richard-spencer",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "other"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "other"
+    ]
   },
   {
     "id": "alt-lite",
@@ -261,7 +296,14 @@
     "vector": null,
     "countryId": "estados-unidos",
     "personalityId": "steve-bannon",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "aceleracionismo-de-direita",
@@ -294,7 +336,15 @@
     "vector": null,
     "countryId": "arabia-saudita",
     "personalityId": "louis-xiv",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "other"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "other"
+    ]
   },
   {
     "id": "conservadorismo-autoritario",
@@ -305,7 +355,14 @@
     "vector": null,
     "countryId": "portugal-estado-novo",
     "personalityId": "salazar",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "conservadorismo-nacional",
@@ -316,7 +373,14 @@
     "vector": null,
     "countryId": "hungria",
     "personalityId": "viktor-orban",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "conservadorismo-paternalista",
@@ -327,7 +391,14 @@
     "vector": null,
     "countryId": "reino-unido-vitoriano-imperio-britanico",
     "personalityId": "benjamin-disraeli",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "fundamentalismo-religioso",
@@ -338,7 +409,16 @@
     "vector": null,
     "countryId": "ira",
     "personalityId": "khomeini",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "other", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "other",
+      "only"
+    ]
   },
   {
     "id": "nacionalismo-etnico",
@@ -349,7 +429,14 @@
     "vector": null,
     "countryId": "israel",
     "personalityId": "jabotinsky",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "nacionalismo-cultural",
@@ -393,7 +480,14 @@
     "vector": null,
     "countryId": "italia-fascista-mussolini",
     "personalityId": "mussolini",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "reacionarismo",
@@ -404,7 +498,14 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "joseph-de-maistre",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "quarta-teoria-politica",
@@ -415,7 +516,10 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "aleksandr-dugin",
-    "religions": ["orthodox", "islam"]
+    "religions": [
+      "orthodox",
+      "islam"
+    ]
   },
   {
     "id": "democracia-nacional",
@@ -459,7 +563,12 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "konrad-adenauer",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "conservadorismo-cristao",
@@ -470,7 +579,12 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "william-f-buckley",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "republicanismo",
@@ -525,7 +639,12 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "gk-chesterton",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "tecnocracia",
@@ -624,7 +743,14 @@
     "vector": null,
     "countryId": "eua-nova-york",
     "personalityId": "edmund-burke",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "reformismo-georgista",
@@ -679,7 +805,14 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "edmund-burke",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "progressismo",
@@ -734,7 +867,14 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "bismarck",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "anarquismo",
@@ -855,7 +995,12 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "thomas-muntzer",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "trabalhismo-cristao",
@@ -866,7 +1011,12 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "maritain",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "social-democracia-crista",
@@ -877,7 +1027,12 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "keir-hardie",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "social-democracia",
@@ -998,7 +1153,12 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "tolstoy",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "anarco-naturalismo",
@@ -1053,7 +1213,14 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "ron-paul",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "libertarianismo-hoppeano",
@@ -1108,7 +1275,14 @@
     "vector": null,
     "countryId": "reino-unido",
     "personalityId": "scruton",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "econacionalismo",
@@ -1152,7 +1326,14 @@
     "vector": null,
     "countryId": "argentina",
     "personalityId": "javier-milei",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "monarquismo-libertario",
@@ -1174,7 +1355,14 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "franz-ferdinand",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "conservadorismo-libertario",
@@ -1185,7 +1373,14 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "goldwater",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "feminismo-libertario",
@@ -1207,7 +1402,14 @@
     "vector": null,
     "countryId": "islandia-medieval",
     "personalityId": "hoppe",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "anarcodistributismo",
@@ -1218,7 +1420,12 @@
     "vector": null,
     "countryId": "costa-rica",
     "personalityId": "peter-maurin",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "centrismo",
@@ -1273,7 +1480,12 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "leonardo-boff",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "autoritarismo-modernizador",
@@ -1438,7 +1650,12 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "joseph-de-maistre",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "socialismo-titoista",
@@ -1493,7 +1710,12 @@
     "vector": null,
     "countryId": "eua-texas",
     "personalityId": "peter-thiel",
-    "religions": ["catholic", "protestant", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "populismo-de-direita",
@@ -1504,7 +1726,15 @@
     "vector": null,
     "countryId": "hungria",
     "personalityId": "viktor-orban",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "other"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "other"
+    ]
   },
   {
     "id": "populismo-de-esquerda",
@@ -1569,7 +1799,14 @@
     "phrase": "Quero uma nação de identidade forte e mercado livre, com fronteiras assimilacionistas, tradição religiosa e defesa militar robusta.",
     "countryId": "reino-unido-vitoriano-imperio-britanico",
     "personalityId": "william-f-buckley",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "arqueofuturismo",
@@ -1579,7 +1816,9 @@
     "phrase": "Quero uma ordem tribal e hierárquica renascida do colapso, fundindo tradições arcaicas com ciência hipermoderna e tecnologia irrestrita.",
     "countryId": "russia",
     "personalityId": "guillaume-faye",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "pragmatismo",
@@ -1623,7 +1862,14 @@
     "vector": null,
     "countryId": "reino-unido-vitoriano-imperio-britanico",
     "personalityId": "napoleao-bonaparte",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "liberalismo-progressista",
@@ -1645,7 +1891,14 @@
     "vector": null,
     "countryId": "chile-de-pinochet",
     "personalityId": "augusto-pinochet",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "federalismo",
@@ -1678,7 +1931,14 @@
     "vector": null,
     "countryId": "eua-florida",
     "personalityId": "donald-trump",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "democracia-securitaria",
@@ -1711,7 +1971,15 @@
     "vector": null,
     "countryId": "genebra-calvinista",
     "personalityId": "joao-calvino",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "only"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "only"
+    ]
   },
   {
     "id": "ateismo-tradicionalista",
@@ -1744,7 +2012,15 @@
     "vector": null,
     "countryId": "imperio-otomano",
     "personalityId": "justiniano-i",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism", "other"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism",
+      "other"
+    ]
   },
   {
     "id": "imperialismo-federalista",
@@ -1755,7 +2031,14 @@
     "vector": null,
     "countryId": "imperio-austro-hungaro",
     "personalityId": "franz-ferdinand",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "aristotelismo",
@@ -1766,7 +2049,9 @@
     "vector": null,
     "countryId": "republica-de-veneza",
     "personalityId": "aristoteles",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "monarquismo-financeiro",
@@ -1854,7 +2139,9 @@
     "vector": null,
     "countryId": "china",
     "personalityId": "confucio",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "socialismo-lassalliano",
@@ -1909,7 +2196,10 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "tomas-de-aquino",
-    "religions": ["catholic", "only"]
+    "religions": [
+      "catholic",
+      "only"
+    ]
   },
   {
     "id": "monarquismo-moderador",
@@ -1920,7 +2210,14 @@
     "vector": null,
     "countryId": "imperio-do-brasil",
     "personalityId": "dom-pedro-ii",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "mutualismo-proudhoniano",
@@ -1975,7 +2272,9 @@
     "vector": null,
     "countryId": "republica-de-veneza",
     "personalityId": "platao",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "democracia-ateniense",
@@ -1986,7 +2285,9 @@
     "vector": null,
     "countryId": "atenas-democratica",
     "personalityId": "socrates",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "social-democracia-nordica",
@@ -2030,7 +2331,14 @@
     "vector": null,
     "countryId": "argentina-peronista",
     "personalityId": "peron",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "fascismo-vermelho",
@@ -2052,7 +2360,9 @@
     "vector": null,
     "countryId": "imperio-romano",
     "personalityId": "marco-aurelio",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "agrarianismo",
@@ -2096,7 +2406,10 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "tomas-de-aquino",
-    "religions": ["catholic", "only"]
+    "religions": [
+      "catholic",
+      "only"
+    ]
   },
   {
     "id": "eurasianismo",
@@ -2107,7 +2420,11 @@
     "vector": null,
     "countryId": "russia",
     "personalityId": "aleksandr-dugin",
-    "religions": ["orthodox", "islam", "buddhism"]
+    "religions": [
+      "orthodox",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "socialismo-democratico",
@@ -2140,7 +2457,11 @@
     "vector": null,
     "countryId": "estados-unidos",
     "personalityId": "gk-chesterton",
-    "religions": ["catholic", "protestant", "orthodox"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox"
+    ]
   },
   {
     "id": "bonapartismo",
@@ -2161,7 +2482,9 @@
     "vector": null,
     "countryId": "brasil",
     "personalityId": "zumbi-dos-palmares",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "democracia-intervencionista",
@@ -2172,7 +2495,14 @@
     "vector": null,
     "countryId": "estados-unidos",
     "personalityId": "george-w-bush",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "ambientalismo-malthusiano",
@@ -2194,7 +2524,14 @@
     "vector": null,
     "countryId": "estados-unidos",
     "personalityId": "ronald-reagan",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "centrismo-radical",
@@ -2216,7 +2553,10 @@
     "vector": null,
     "countryId": "butao",
     "personalityId": "dalai-lama",
-    "religions": ["buddhism", "only"]
+    "religions": [
+      "buddhism",
+      "only"
+    ]
   },
   {
     "id": "anarquismo-egoista",
@@ -2249,7 +2589,14 @@
     "vector": null,
     "countryId": "eua-nova-york",
     "personalityId": "franklin-roosevelt",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "liberalismo-keynesiano",
@@ -2282,7 +2629,14 @@
     "vector": null,
     "countryId": "brasil-era-vargas",
     "personalityId": "getulio-vargas",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "socialismo-cubano",
@@ -2326,7 +2680,9 @@
     "vector": null,
     "countryId": "eua-confederados",
     "personalityId": "john-c-calhoun",
-    "religions": ["protestant"]
+    "religions": [
+      "protestant"
+    ]
   },
   {
     "id": "socialismo-agrario",
@@ -2359,7 +2715,9 @@
     "vector": null,
     "countryId": "imperio-romano",
     "personalityId": "julio-cesar",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "capitalismo-industrial",
@@ -2381,7 +2739,14 @@
     "vector": null,
     "countryId": "chile-de-pinochet",
     "personalityId": "augusto-pinochet",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "catolicismo-universalista",
@@ -2392,7 +2757,10 @@
     "vector": null,
     "countryId": "vaticano",
     "personalityId": "paulo-de-tarso",
-    "religions": ["catholic", "only"]
+    "religions": [
+      "catholic",
+      "only"
+    ]
   },
   {
     "id": "republicanismo-confederal",
@@ -2403,7 +2771,14 @@
     "vector": null,
     "countryId": "republica-holandesa",
     "personalityId": "guilherme-de-orange",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "anarcoprimitivismo",
@@ -2469,7 +2844,10 @@
     "vector": null,
     "countryId": "siria",
     "personalityId": "sayyid-qutb",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "democracia-islamica",
@@ -2480,7 +2858,10 @@
     "vector": null,
     "countryId": "turquia",
     "personalityId": "muhammad-abduh",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "socialismo-islamico",
@@ -2491,7 +2872,10 @@
     "vector": null,
     "countryId": "libia-de-gaddafi",
     "personalityId": "muammar-gaddafi",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "pan-islamismo",
@@ -2502,7 +2886,10 @@
     "vector": null,
     "countryId": "imperio-otomano",
     "personalityId": "khomeini",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "nacionalismo-kemalista",
@@ -2524,7 +2911,10 @@
     "vector": null,
     "countryId": "indonesia",
     "personalityId": "zohran-mamdani",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "nacionalismo-budista",
@@ -2535,7 +2925,10 @@
     "vector": null,
     "countryId": "sri-lanka",
     "personalityId": "viktor-orban",
-    "religions": ["buddhism", "only"]
+    "religions": [
+      "buddhism",
+      "only"
+    ]
   },
   {
     "id": "sionismo",
@@ -2546,7 +2939,10 @@
     "vector": null,
     "countryId": "israel",
     "personalityId": "david-ben-gurion",
-    "religions": ["judaism", "only"]
+    "religions": [
+      "judaism",
+      "only"
+    ]
   },
   {
     "id": "sionismo-trabalhista",
@@ -2557,7 +2953,10 @@
     "vector": null,
     "countryId": "israel",
     "personalityId": "david-ben-gurion",
-    "religions": ["judaism", "only"]
+    "religions": [
+      "judaism",
+      "only"
+    ]
   },
   {
     "id": "feudalismo",
@@ -2568,7 +2967,14 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "carlos-magno",
-    "religions": ["catholic", "protestant", "orthodox", "judaism", "islam", "buddhism"]
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
   },
   {
     "id": "tradicionalismo-carlista",
@@ -2579,7 +2985,9 @@
     "vector": null,
     "countryId": "espanha-habsburgos",
     "personalityId": "carlos-v",
-    "religions": ["catholic"]
+    "religions": [
+      "catholic"
+    ]
   },
   {
     "id": "fascismo-clerical",
@@ -2590,7 +2998,11 @@
     "vector": null,
     "countryId": "espanha-franquista",
     "personalityId": "engelbert-dollfuss",
-    "religions": ["catholic", "orthodox", "only"]
+    "religions": [
+      "catholic",
+      "orthodox",
+      "only"
+    ]
   },
   {
     "id": "teocratismo-islamico",
@@ -2601,7 +3013,10 @@
     "vector": null,
     "countryId": "ira",
     "personalityId": "khomeini",
-    "religions": ["islam", "only"]
+    "religions": [
+      "islam",
+      "only"
+    ]
   },
   {
     "id": "socialismo-blanquista",
@@ -2623,7 +3038,10 @@
     "vector": null,
     "countryId": "sri-lanka",
     "personalityId": "swrd-bandaranaike",
-    "religions": ["buddhism", "only"]
+    "religions": [
+      "buddhism",
+      "only"
+    ]
   },
   {
     "id": "teocracia-budista",
@@ -2634,7 +3052,10 @@
     "vector": null,
     "countryId": "tibete",
     "personalityId": "thubten-gyatso",
-    "religions": ["buddhism", "only"]
+    "religions": [
+      "buddhism",
+      "only"
+    ]
   },
   {
     "id": "monarquismo-iluminista",
@@ -2656,7 +3077,10 @@
     "vector": null,
     "countryId": "reino-de-israel",
     "personalityId": "rei-davi",
-    "religions": ["judaism", "only"]
+    "religions": [
+      "judaism",
+      "only"
+    ]
   },
   {
     "id": "municipalismo",
@@ -2700,7 +3124,9 @@
     "vector": null,
     "countryId": "sacro-imperio-romano-germanico",
     "personalityId": "julius-evola",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "aceleracionismo-efetivo",
@@ -2777,6 +3203,46 @@
     "vector": null,
     "countryId": "china",
     "personalityId": "xi-jinping",
+    "religions": []
+  },
+  {
+    "id": "nacionalismo-de-esquerda",
+    "name": "Nacionalismo de Esquerda",
+    "category": "Esquerda",
+    "description": "Combina autodeterminação nacional e soberania popular com igualdade social e políticas econômicas de esquerda. Suas expressões históricas variam entre movimentos anticoloniais, socialistas e desenvolvimentistas, sem constituir um programa econômico ou institucional único.",
+    "phrase": "Quero ligar a autodeterminação nacional à igualdade social, mobilizar o Estado para desenvolver a economia e garantir participação popular e direitos sociais.",
+    "vector": null,
+    "countryId": "brasil-era-vargas",
+    "personalityId": "bresser-pereira",
+    "religions": []
+  },
+  {
+    "id": "nacionalismo-de-direita",
+    "name": "Nacionalismo de Direita",
+    "category": "Direita",
+    "description": "Prioriza soberania, identidade e coesão nacionais, associando-as a posições de direita como hierarquia social, conservadorismo cultural ou restrição da imigração. As correntes variam no papel do Estado e da economia, do livre mercado ao protecionismo nacional.",
+    "phrase": "Quero defender a soberania, proteger fronteiras e costumes nacionais, resguardar a produção do país e fortalecer a defesa comum.",
+    "vector": null,
+    "countryId": "hungria",
+    "personalityId": "dominik-tarczynski",
+    "religions": [
+      "catholic",
+      "protestant",
+      "orthodox",
+      "judaism",
+      "islam",
+      "buddhism"
+    ]
+  },
+  {
+    "id": "republicanismo-maquiavelico",
+    "name": "Republicanismo Maquiavélico",
+    "category": "Direita",
+    "description": "Corrente republicana inspirada nos Discursos sobre a Primeira Década de Tito Lívio, de Maquiavel. Defende a liberdade cívica por meio de leis, participação popular e conflito regulado entre grupos, aceitando medidas excepcionais para preservar a república.",
+    "phrase": "Quero proteger a liberdade da república por leis e participação popular, conter a dominação das elites e preservar a independência coletiva.",
+    "vector": null,
+    "countryId": "florenca-renascentista",
+    "personalityId": "maquiavel",
     "religions": []
   }
 ]

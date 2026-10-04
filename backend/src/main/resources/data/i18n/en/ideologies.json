@@ -1775,5 +1775,26 @@
     "category": "Radical Left",
     "description": "21st-century doctrine of the CPC associated with Xi Jinping. It combines centralized Party leadership and socialist modernization, advocating national rejuvenation, predominant public ownership, and a socialist market with private enterprise and technological innovation.",
     "phrase": "I want to modernize China under Party leadership, combine planning and markets, and pursue common prosperity through technological self-reliance."
+  },
+  {
+    "id": "nacionalismo-de-esquerda",
+    "name": "Left-Wing Nationalism",
+    "category": "Esquerda",
+    "description": "Combines national self-determination and popular sovereignty with social equality and left-wing economic policies. Its historical expressions range from anticolonial and socialist to developmentalist movements, without a single economic or institutional program.",
+    "phrase": "I want to join national self-determination with social equality, use the state to develop the economy, and secure popular participation and social rights."
+  },
+  {
+    "id": "nacionalismo-de-direita",
+    "name": "Right-Wing Nationalism",
+    "category": "Right",
+    "description": "Prioritizes national sovereignty, identity, and cohesion, associating them with right-wing positions such as social hierarchy, cultural conservatism, or immigration restriction. Currents vary in their views of the state and economy, from free markets to national protectionism.",
+    "phrase": "I want to defend sovereignty, protect national borders and customs, safeguard domestic production, and strengthen collective defense."
+  },
+  {
+    "id": "republicanismo-maquiavelico",
+    "name": "Machiavellian Republicanism",
+    "category": "Right",
+    "description": "A republican current inspired by Machiavelli’s Discourses on Livy. It defends civic liberty through laws, popular participation, and regulated conflict among social groups, allowing exceptional measures to preserve the republic.",
+    "phrase": "I want to protect republican liberty through laws and popular participation, restrain elite domination, and preserve collective independence."
   }
 ]
