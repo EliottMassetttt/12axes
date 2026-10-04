@@ -1107,18 +1107,18 @@
   {
     "personalityId": "srnicek",
     "vector": {
-      "estrutura": 38.8,
-      "representacao": 80,
-      "poder": 25,
-      "imigracao": 20,
-      "diplomacia": 15,
-      "intervencao": 80,
-      "economia": 82.5,
-      "controle": 80,
-      "comercio": 63.7,
-      "religiao": 90,
-      "moral": 77.5,
-      "tecnologia": 61.3
+      "estrutura": 56.9,
+      "representacao": 88.2,
+      "poder": 23.4,
+      "imigracao": 22.4,
+      "diplomacia": 18.1,
+      "intervencao": 74.4,
+      "economia": 87.7,
+      "controle": 84.1,
+      "comercio": 51.4,
+      "religiao": 84.5,
+      "moral": 84.8,
+      "tecnologia": 74.9
     }
   },
   {
@@ -7562,6 +7562,40 @@
       "religiao": 63.4,
       "moral": 46.4,
       "tecnologia": 45.2
+    }
+  },
+  {
+    "personalityId": "alex-williams",
+    "vector": {
+      "estrutura": 27.1,
+      "representacao": 84.7,
+      "poder": 25.8,
+      "imigracao": 14.0,
+      "diplomacia": 30.0,
+      "intervencao": 66.0,
+      "economia": 94.1,
+      "controle": 85.3,
+      "comercio": 40.7,
+      "religiao": 84.5,
+      "moral": 70.5,
+      "tecnologia": 79.6
+    }
+  },
+  {
+    "personalityId": "mark-fisher",
+    "vector": {
+      "estrutura": 56.9,
+      "representacao": 91.8,
+      "poder": 19.9,
+      "imigracao": 12.9,
+      "diplomacia": 13.3,
+      "intervencao": 76.8,
+      "economia": 83.4,
+      "controle": 73.4,
+      "comercio": 64.5,
+      "religiao": 82.1,
+      "moral": 84.8,
+      "tecnologia": 42.9
     }
   }
 ]

@@ -2626,5 +2626,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "mark-fisher",
+    "title": {
+      "pt": "Realismo capitalista: É mais fácil imaginar o fim do mundo do que o fim do capitalismo?",
+      "en": "Capitalist Realism: Is There No Alternative?"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "alex-williams",
+    "title": {
+      "pt": "Inventar o Futuro",
+      "en": "Inventing the Future"
+    },
+    "year": 2015,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

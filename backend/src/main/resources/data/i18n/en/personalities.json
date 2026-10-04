@@ -2812,5 +2812,19 @@
     "role": "Philosopher and writer",
     "lifespan": "1959?present",
     "description": "Brazilian philosopher and columnist, Pond? describes himself as a liberal conservative: he supports economic and civil liberties, criticizes moral progressivism and both left- and right-wing populism, and studies religion without adhering to a tradition."
+  },
+  {
+    "id": "mark-fisher",
+    "name": "Mark Fisher",
+    "role": "Cultural theorist and writer",
+    "lifespan": "1968–2017",
+    "description": "British cultural theorist, Fisher developed the concept of capitalist realism to examine the difficulty of imagining alternatives to capitalism. He connected culture, mental health and neoliberalism, and outlined acid communism."
+  },
+  {
+    "id": "alex-williams",
+    "name": "Alex Williams",
+    "role": "Political theorist",
+    "lifespan": "1981–present",
+    "description": "British political theorist, Williams co-wrote the accelerationist manifesto and Inventing the Future with Nick Srnicek. He advocates automation, shorter working hours and a basic income as part of a postcapitalist left strategy."
   }
 ]

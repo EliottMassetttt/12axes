@@ -6216,5 +6216,31 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Luiz_Felipe_Pond%C3%A9.jpg",
     "imageNote": "Luiz Felipe Pondé em 2009; foto de CPFL Cultura, CC BY 2.0, via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "mark-fisher",
+    "name": "Mark Fisher",
+    "role": "Teórico cultural e escritor",
+    "category": "filosofo",
+    "lifespan": "1968–2017",
+    "description": "Teórico cultural britânico, Fisher formulou o conceito de realismo capitalista para analisar a dificuldade de imaginar alternativas ao capitalismo. Relacionou cultura, saúde mental e neoliberalismo e esboçou o comunismo ácido.",
+    "imagePath": "/personalities/portraits/mark-fisher.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Mark_fisher.jpg",
+    "imageNote": "Mark Fisher no MACBA em 2011; foto de MACBA, CC BY-SA 2.0, via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "alex-williams",
+    "name": "Alex Williams",
+    "role": "Teórico político",
+    "category": "teorico",
+    "lifespan": "1981–presente",
+    "description": "Teórico político britânico, Williams coescreveu o manifesto aceleracionista e Inventar o Futuro com Nick Srnicek. Defende automação, redução da jornada e renda básica como parte de uma estratégia de esquerda pós-capitalista.",
+    "imagePath": "/personalities/portraits/alex-williams.jpg",
+    "imageSourceName": "Verso Books",
+    "imageSourceUrl": "https://www.versobooks.com/blogs/authors/williams-alex",
+    "imageNote": "Retrato de Alex Williams na página do autor da Verso Books.",
+    "religions": []
   }
 ]
