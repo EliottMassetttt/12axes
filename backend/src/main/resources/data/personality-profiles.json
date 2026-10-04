@@ -7546,5 +7546,22 @@
       "moral": 7.7,
       "tecnologia": 36.9
     }
+  },
+  {
+    "personalityId": "luiz-felipe-ponde",
+    "vector": {
+      "estrutura": 58.1,
+      "representacao": 90.6,
+      "poder": 35.3,
+      "imigracao": 43.6,
+      "diplomacia": 30.0,
+      "intervencao": 62.5,
+      "economia": 30.6,
+      "controle": 24.7,
+      "comercio": 24.6,
+      "religiao": 63.4,
+      "moral": 46.4,
+      "tecnologia": 45.2
+    }
   }
 ]

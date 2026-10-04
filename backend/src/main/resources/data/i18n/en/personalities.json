@@ -2805,5 +2805,12 @@
     "role": "Emperor of Austria and Holy Roman Emperor",
     "lifespan": "1768–1835",
     "description": "The last Holy Roman Emperor and first Emperor of Austria, Francis I founded the Austrian Empire in 1804. Allied with Metternich, he suppressed liberal movements and supported the post-Napoleonic conservative order."
+  },
+  {
+    "id": "luiz-felipe-ponde",
+    "name": "Luiz Felipe Pondé",
+    "role": "Philosopher and writer",
+    "lifespan": "1959?present",
+    "description": "Brazilian philosopher and columnist, Pond? describes himself as a liberal conservative: he supports economic and civil liberties, criticizes moral progressivism and both left- and right-wing populism, and studies religion without adhering to a tradition."
   }
 ]

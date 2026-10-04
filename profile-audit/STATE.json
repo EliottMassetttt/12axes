@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-04T02:53:22Z",
+  "lastUpdated": "2026-10-04T12:13:03Z",
   "personality": {
-    "totalProfiles": 444,
+    "totalProfiles": 445,
     "pending": [],
     "done": [
       "lenin",
@@ -448,7 +448,8 @@
       "inacio-de-loyola",
       "linus-torvalds",
       "democrito",
-      "francisco-i-da-austria"
+      "francisco-i-da-austria",
+      "luiz-felipe-ponde"
     ]
   },
   "ideology": {

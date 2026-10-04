@@ -6203,5 +6203,18 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "luiz-felipe-ponde",
+    "name": "Luiz Felipe Pondé",
+    "role": "Filósofo e escritor",
+    "category": "filosofo",
+    "lifespan": "1959–presente",
+    "description": "Filósofo e colunista brasileiro, Pondé se define como liberal-conservador: defende liberdades econômicas e civis, critica o progressismo moral e o populismo de esquerda e de direita, e estuda a religião sem aderir a uma tradição.",
+    "imagePath": "/personalities/portraits/luiz-felipe-ponde.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Luiz_Felipe_Pond%C3%A9.jpg",
+    "imageNote": "Luiz Felipe Pondé em 2009; foto de CPFL Cultura, CC BY 2.0, via Wikimedia Commons.",
+    "religions": []
   }
 ]
