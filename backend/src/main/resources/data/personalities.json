@@ -6514,5 +6514,91 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "lorenzo-de-medici",
+    "name": "Lorenzo de’ Medici",
+    "role": "Governante e patrono florentino",
+    "category": "politico",
+    "lifespan": "1449–1492",
+    "description": "Governante de fato de Florença a partir de 1469, Lorenzo equilibrou a diplomacia entre as potências italianas e consolidou a influência dos Médici. Poeta e humanista, reuniu artistas e filósofos em sua corte.",
+    "imagePath": "/personalities/portraits/lorenzo-de-medici.jpg",
+    "imageSourceName": "Wikimedia Commons / Uffizi Gallery",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Lorenzo_de%27_Medici,_the_Magnificent_(1449%E2%80%931492),_by_Giorgio_Vasari_-_Uffizi_Gallery.jpg",
+    "imageNote": "Retrato póstumo de Lorenzo feito por Giorgio Vasari, da coleção dos Uffizi.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "filippo-brunelleschi",
+    "name": "Filippo Brunelleschi",
+    "role": "Arquiteto e engenheiro",
+    "category": "intelectual",
+    "lifespan": "1377–1446",
+    "description": "Arquiteto e engenheiro florentino, Brunelleschi concebeu a cúpula da Catedral de Santa Maria del Fiore e projetos como o Ospedale degli Innocenti. Estudou construções antigas e aplicou princípios matemáticos à arquitetura.",
+    "imagePath": "/personalities/portraits/filippo-brunelleschi.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ritratto_di_Filippo_Brunelleschi.jpg",
+    "imageNote": "Gravura de Filippo Brunelleschi publicada em 1769–1775; retrato póstumo.",
+    "religions": []
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "role": "Artista, engenheiro e inventor",
+    "category": "intelectual",
+    "lifespan": "1452–1519",
+    "description": "Artista e investigador florentino, Leonardo trabalhou para cortes como a dos Sforza em Milão e serviu César Bórgia como engenheiro militar. Seus cadernos registram estudos de anatomia, mecânica, hidráulica e desenho.",
+    "imagePath": "/personalities/portraits/leonardo-da-vinci.jpg",
+    "imageSourceName": "Wikimedia Commons / Biblioteca Reale di Torino",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Leonardo_self.jpg",
+    "imageNote": "Desenho em sanguínea tradicionalmente identificado como autorretrato; essa atribuição é contestada.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "sandro-botticelli",
+    "name": "Sandro Botticelli",
+    "role": "Pintor florentino",
+    "category": "intelectual",
+    "lifespan": "c. 1445–1510",
+    "description": "Pintor florentino associado à corte dos Médici, Botticelli criou obras como O Nascimento de Vênus e A Primavera. Também produziu pinturas religiosas e, no fim da vida, trabalhou em uma época marcada pela pregação de Savonarola.",
+    "imagePath": "/personalities/portraits/sandro-botticelli.jpg",
+    "imageSourceName": "Wikimedia Commons / Uffizi Gallery",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Sandro_Botticelli_self-portrait_ca_1475.jpg",
+    "imageNote": "Autorretrato presumido de Botticelli no detalhe de A Adoração dos Magos, c. 1475.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "michelangelo-buonarroti",
+    "name": "Michelangelo Buonarroti",
+    "role": "Escultor, pintor e arquiteto",
+    "category": "intelectual",
+    "lifespan": "1475–1564",
+    "description": "Escultor, pintor e arquiteto florentino, Michelangelo criou o David, a Pietà e os afrescos da Capela Sistina. Trabalhou para papas e para os Médici, e participou da defesa de Florença durante a república de 1529.",
+    "imagePath": "/personalities/portraits/michelangelo-buonarroti.jpg",
+    "imageSourceName": "Wikimedia Commons / Rijksmuseum",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portret_van_Michel_Angelo_Buonarroti,_RP-T-2017-33.jpg",
+    "imageNote": "Retrato desenhado a partir de um busto de bronze de Daniele da Volterra.",
+    "religions": []
+  },
+  {
+    "id": "rafael-sanzio",
+    "name": "Rafael",
+    "role": "Pintor e arquiteto",
+    "category": "intelectual",
+    "lifespan": "1483–1520",
+    "description": "Pintor e arquiteto de Urbino, Rafael trabalhou em Florença e em Roma para os papas Júlio II e Leão X. Seus afrescos no Vaticano e seus estudos de antiguidades marcaram a arte do Alto Renascimento.",
+    "imagePath": "/personalities/portraits/rafael-sanzio.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Raffaello_Sanzio.jpg",
+    "imageNote": "Autorretrato de Rafael, c. 1504–1506.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

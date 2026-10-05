@@ -2965,5 +2965,47 @@
     "role": "Irish trade union leader, socialist theorist, and republican",
     "lifespan": "1868–1916",
     "description": "A Marxist socialist and trade unionist, Connolly founded the Irish Socialist Republican Party and linked national independence to social transformation. He led during the 1916 Easter Rising and was executed after its defeat."
+  },
+  {
+    "id": "lorenzo-de-medici",
+    "name": "Lorenzo de’ Medici",
+    "role": "Florentine ruler and patron",
+    "lifespan": "1449–1492",
+    "description": "De facto ruler of Florence from 1469, Lorenzo balanced diplomacy among the Italian powers and consolidated Medici influence. A poet and humanist, he gathered artists and philosophers at his court."
+  },
+  {
+    "id": "filippo-brunelleschi",
+    "name": "Filippo Brunelleschi",
+    "role": "Architect and engineer",
+    "lifespan": "1377–1446",
+    "description": "The Florentine architect and engineer designed the dome of Santa Maria del Fiore Cathedral and projects such as the Ospedale degli Innocenti. He studied ancient buildings and applied mathematical principles to architecture."
+  },
+  {
+    "id": "leonardo-da-vinci",
+    "name": "Leonardo da Vinci",
+    "role": "Artist, engineer, and inventor",
+    "lifespan": "1452–1519",
+    "description": "The Florentine artist and investigator worked for courts such as the Sforza in Milan and served Cesare Borgia as a military engineer. His notebooks record studies of anatomy, mechanics, hydraulics, and drawing."
+  },
+  {
+    "id": "sandro-botticelli",
+    "name": "Sandro Botticelli",
+    "role": "Florentine painter",
+    "lifespan": "c. 1445–1510",
+    "description": "Associated with the Medici court in Florence, Botticelli painted works such as The Birth of Venus and Primavera. He also produced religious paintings and worked late in life amid Savonarola’s preaching."
+  },
+  {
+    "id": "michelangelo-buonarroti",
+    "name": "Michelangelo Buonarroti",
+    "role": "Sculptor, painter, and architect",
+    "lifespan": "1475–1564",
+    "description": "The Florentine sculptor, painter, and architect created David, the Pietà, and the Sistine Chapel frescoes. He worked for popes and the Medici and took part in Florence’s defense during the republic of 1529."
+  },
+  {
+    "id": "rafael-sanzio",
+    "name": "Raphael",
+    "role": "Painter and architect",
+    "lifespan": "1483–1520",
+    "description": "The painter and architect from Urbino worked in Florence and Rome for Popes Julius II and Leo X. His Vatican frescoes and studies of antiquity helped shape High Renaissance art."
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-05T19:55:54Z",
+  "lastUpdated": "2026-10-05T23:26:04Z",
   "personality": {
-    "totalProfiles": 467,
+    "totalProfiles": 473,
     "pending": [],
     "done": [
       "lenin",
@@ -471,7 +471,13 @@
       "gustavo-barroso",
       "hugh-macdiarmid",
       "john-maclean",
-      "james-connolly"
+      "james-connolly",
+      "lorenzo-de-medici",
+      "filippo-brunelleschi",
+      "leonardo-da-vinci",
+      "sandro-botticelli",
+      "michelangelo-buonarroti",
+      "rafael-sanzio"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z"
   },

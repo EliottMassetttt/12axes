@@ -7937,5 +7937,107 @@
       "moral": 55.8,
       "tecnologia": 47.5
     }
+  },
+  {
+    "personalityId": "lorenzo-de-medici",
+    "vector": {
+      "estrutura": 39.9,
+      "representacao": 21.0,
+      "poder": 68.6,
+      "imigracao": 50.5,
+      "diplomacia": 45.5,
+      "intervencao": 43.4,
+      "economia": 35.3,
+      "controle": 45.0,
+      "comercio": 47.2,
+      "religiao": 33.0,
+      "moral": 30.1,
+      "tecnologia": 49.9
+    }
+  },
+  {
+    "personalityId": "filippo-brunelleschi",
+    "vector": {
+      "estrutura": 52.1,
+      "representacao": 66.8,
+      "poder": 40.1,
+      "imigracao": 35.0,
+      "diplomacia": 28.8,
+      "intervencao": 69.6,
+      "economia": 44.9,
+      "controle": 42.6,
+      "comercio": 25.8,
+      "religiao": 43.7,
+      "moral": 61.0,
+      "tecnologia": 67.7
+    }
+  },
+  {
+    "personalityId": "leonardo-da-vinci",
+    "vector": {
+      "estrutura": 66.1,
+      "representacao": 31.7,
+      "poder": 57.9,
+      "imigracao": 66.0,
+      "diplomacia": 33.6,
+      "intervencao": 72.0,
+      "economia": 28.2,
+      "controle": 30.7,
+      "comercio": 63.9,
+      "religiao": 25.8,
+      "moral": 28.9,
+      "tecnologia": 71.3
+    }
+  },
+  {
+    "personalityId": "sandro-botticelli",
+    "vector": {
+      "estrutura": 53.0,
+      "representacao": 65.0,
+      "poder": 48.3,
+      "imigracao": 36.2,
+      "diplomacia": 28.8,
+      "intervencao": 55.3,
+      "economia": 49.6,
+      "controle": 49.7,
+      "comercio": 25.8,
+      "religiao": 33.0,
+      "moral": 52.7,
+      "tecnologia": 70.1
+    }
+  },
+  {
+    "personalityId": "michelangelo-buonarroti",
+    "vector": {
+      "estrutura": 65.2,
+      "representacao": 56.1,
+      "poder": 53.2,
+      "imigracao": 46.9,
+      "diplomacia": 46.7,
+      "intervencao": 53.0,
+      "economia": 46.0,
+      "controle": 47.3,
+      "comercio": 52.0,
+      "religiao": 43.7,
+      "moral": 53.9,
+      "tecnologia": 58.2
+    }
+  },
+  {
+    "personalityId": "rafael-sanzio",
+    "vector": {
+      "estrutura": 45.9,
+      "representacao": 56.7,
+      "poder": 51.9,
+      "imigracao": 35.0,
+      "diplomacia": 36.0,
+      "intervencao": 51.8,
+      "economia": 46.5,
+      "controle": 65.0,
+      "comercio": 46.7,
+      "religiao": 25.8,
+      "moral": 30.1,
+      "tecnologia": 59.5
+    }
   }
 ]
