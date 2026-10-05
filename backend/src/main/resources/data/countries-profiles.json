@@ -3466,5 +3466,39 @@
       "moral": 8.9,
       "tecnologia": 40.5
     }
+  },
+  {
+    "countryId": "quebec",
+    "vector": {
+      "estrutura": 77.1,
+      "representacao": 90.6,
+      "poder": 37.7,
+      "imigracao": 55.7,
+      "diplomacia": 16.9,
+      "intervencao": 73.2,
+      "economia": 70.3,
+      "controle": 74.6,
+      "comercio": 53.8,
+      "religiao": 72.6,
+      "moral": 80.0,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "countryId": "pais-basco",
+    "vector": {
+      "estrutura": 84.3,
+      "representacao": 90.6,
+      "poder": 33.0,
+      "imigracao": 29.5,
+      "diplomacia": 11.0,
+      "intervencao": 64.9,
+      "economia": 62.0,
+      "controle": 48.4,
+      "comercio": 49.0,
+      "religiao": 66.7,
+      "moral": 69.3,
+      "tecnologia": 41.7
+    }
   }
 ]

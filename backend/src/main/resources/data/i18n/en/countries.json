@@ -1222,5 +1222,17 @@
     "name": "Austrian Empire (Habsburgs)",
     "category": "Centralized multinational monarchy",
     "description": "Founded by the Habsburgs in 1804, the Austrian Empire was a multinational Central European monarchy until the Compromise of 1867. Under Francis I and Metternich, it combined centralized administration, Catholic primacy, and liberal repression."
+  },
+  {
+    "id": "quebec",
+    "name": "Quebec (Canada)",
+    "category": "French-speaking federal province",
+    "description": "A predominantly French-speaking Canadian province, Quebec protects French as its common official language and exercises extensive powers within the federation. Quebec nationalism and state secularism shape its regional politics."
+  },
+  {
+    "id": "pais-basco",
+    "name": "Basque Country (Spain)",
+    "category": "Foral autonomous community",
+    "description": "An autonomous Spanish community comprising Araba, Bizkaia and Gipuzkoa, with its own parliament, co-official Basque language and distinctive fiscal autonomy. Basque nationalism and historic provincial institutions shape regional politics."
   }
 ]
