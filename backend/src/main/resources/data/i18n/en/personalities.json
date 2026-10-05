@@ -2810,8 +2810,8 @@
     "id": "luiz-felipe-ponde",
     "name": "Luiz Felipe Pondé",
     "role": "Philosopher and writer",
-    "lifespan": "1959?present",
-    "description": "Brazilian philosopher and columnist, Pond? describes himself as a liberal conservative: he supports economic and civil liberties, criticizes moral progressivism and both left- and right-wing populism, and studies religion without adhering to a tradition."
+    "lifespan": "1959–present",
+    "description": "Brazilian philosopher and columnist, Pondé describes himself as a liberal conservative: he supports economic and civil liberties, criticizes moral progressivism and both left- and right-wing populism, and studies religion without adhering to a tradition."
   },
   {
     "id": "mark-fisher",
@@ -2909,8 +2909,8 @@
     "role": "Theorist of Arab nationalism",
     "lifespan": "1910–1989",
     "description": "A Baath cofounder, Aflaq advocated Arab unity, anticolonial socialism and spiritual renewal inspired by Islam. He rejected Marxist materialism and criticized military dictatorship, while associating with the Iraqi Baath."
-  }
-  ,{
+  },
+  {
     "id": "ramiro-ledesma-ramos",
     "name": "Ramiro Ledesma Ramos",
     "role": "Theorist of Spanish national syndicalism",
@@ -2944,5 +2944,26 @@
     "role": "Integralist leader and writer",
     "lifespan": "1888–1959",
     "description": "A Brazilian writer and Integralism leader, Barroso headed the Brazilian Integralist Action militia and promoted authoritarian nationalism and conspiratorial antisemitism, in contrast with Plínio Salgado's more moderate line."
+  },
+  {
+    "id": "hugh-macdiarmid",
+    "name": "Hugh MacDiarmid",
+    "role": "Scottish poet, writer, and political activist",
+    "lifespan": "1892–1978",
+    "description": "A central poet of the Scottish Renaissance and advocate of Scottish independence, MacDiarmid combined cultural nationalism with revolutionary socialism and communist internationalism."
+  },
+  {
+    "id": "john-maclean",
+    "name": "John Maclean",
+    "role": "Scottish teacher, Marxist, and republican",
+    "lifespan": "1879–1923",
+    "description": "A Scottish teacher and revolutionary Marxist, Maclean organized workers and opposed the First World War. He advocated an independent Scottish socialist republic and taught Marxist economics to workers."
+  },
+  {
+    "id": "james-connolly",
+    "name": "James Connolly",
+    "role": "Irish trade union leader, socialist theorist, and republican",
+    "lifespan": "1868–1916",
+    "description": "A Marxist socialist and trade unionist, Connolly founded the Irish Socialist Republican Party and linked national independence to social transformation. He led during the 1916 Easter Rising and was executed after its defeat."
   }
 ]

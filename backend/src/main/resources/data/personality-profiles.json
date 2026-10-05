@@ -7886,5 +7886,56 @@
       "moral": 11.3,
       "tecnologia": 51.0
     }
+  },
+  {
+    "personalityId": "hugh-macdiarmid",
+    "vector": {
+      "estrutura": 72.4,
+      "representacao": 53.7,
+      "poder": 49.6,
+      "imigracao": 34.8,
+      "diplomacia": 50.2,
+      "intervencao": 60.1,
+      "economia": 53.2,
+      "controle": 66.3,
+      "comercio": 45.5,
+      "religiao": 46.4,
+      "moral": 66.5,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "personalityId": "john-maclean",
+    "vector": {
+      "estrutura": 54.5,
+      "representacao": 68.0,
+      "poder": 29.4,
+      "imigracao": 23.6,
+      "diplomacia": 22.4,
+      "intervencao": 75.2,
+      "economia": 96.0,
+      "controle": 93.7,
+      "comercio": 63.3,
+      "religiao": 90.5,
+      "moral": 45.5,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "personalityId": "james-connolly",
+    "vector": {
+      "estrutura": 60.5,
+      "representacao": 92.4,
+      "poder": 23.0,
+      "imigracao": 13.3,
+      "diplomacia": 34.3,
+      "intervencao": 52.6,
+      "economia": 93.7,
+      "controle": 90.1,
+      "comercio": 66.9,
+      "religiao": 36.9,
+      "moral": 55.8,
+      "tecnologia": 47.5
+    }
   }
 ]

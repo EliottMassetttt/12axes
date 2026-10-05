@@ -2534,7 +2534,7 @@
   {
     "personalityId": "sigmund-freud",
     "title": {
-      "pt": "O mal-estar na civiliza??o",
+      "pt": "O mal-estar na civilização",
       "en": "Civilization and Its Discontents"
     },
     "year": 1930,
@@ -2546,7 +2546,7 @@
   {
     "personalityId": "jean-paul-marat",
     "title": {
-      "pt": "As cadeias da escravid?o",
+      "pt": "As cadeias da escravidão",
       "en": "The Chains of Slavery"
     },
     "year": 1774,
@@ -2558,7 +2558,7 @@
   {
     "personalityId": "grigory-zinoviev",
     "title": {
-      "pt": "Leninismo: introdu??o ao estudo do leninismo",
+      "pt": "Leninismo: introdução ao estudo do leninismo",
       "en": "Leninism: Introduction to the Study of Leninism"
     },
     "year": 1925,
@@ -2582,7 +2582,7 @@
   {
     "personalityId": "seneca",
     "title": {
-      "pt": "Sobre a clem?ncia",
+      "pt": "Sobre a clemência",
       "en": "On Clemency"
     },
     "year": 55,
@@ -2770,8 +2770,8 @@
       "pt": "",
       "en": ""
     }
-  }
-  ,{
+  },
+  {
     "personalityId": "ramiro-ledesma-ramos",
     "title": {
       "pt": "Discurso às juventudes da Espanha",
@@ -2802,6 +2802,42 @@
       "en": "Seen from the Right"
     },
     "year": 1977,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "hugh-macdiarmid",
+    "title": {
+      "pt": "A Drunk Man Looks at the Thistle",
+      "en": "A Drunk Man Looks at the Thistle"
+    },
+    "year": 1926,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "john-maclean",
+    "title": {
+      "pt": "The Irish Tragedy: Scotland's Disgrace",
+      "en": "The Irish Tragedy: Scotland's Disgrace"
+    },
+    "year": 1920,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "james-connolly",
+    "title": {
+      "pt": "Labour in Irish History",
+      "en": "Labour in Irish History"
+    },
+    "year": 1910,
     "url": {
       "pt": "",
       "en": ""

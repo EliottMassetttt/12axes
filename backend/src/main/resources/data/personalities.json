@@ -6402,8 +6402,8 @@
     "religions": [
       "islam"
     ]
-  }
-  ,{
+  },
+  {
     "id": "ramiro-ledesma-ramos",
     "name": "Ramiro Ledesma Ramos",
     "role": "Teórico do nacional-sindicalismo espanhol",
@@ -6440,7 +6440,9 @@
     "imageSourceName": "Wikimedia Commons / Simone Olla",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alain_de_Benoist_(3x4_cropped).png",
     "imageNote": "Retrato extraído do documentário Alain de Benoist. Réponses, de Simone Olla (2012), CC BY 3.0.",
-    "religions": ["other"]
+    "religions": [
+      "other"
+    ]
   },
   {
     "id": "leon-degrell",
@@ -6453,7 +6455,9 @@
     "imageSourceName": "Wikimedia Commons / Narodowe Archiwum Cyfrowe",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Degrelle_portrait.jpg",
     "imageNote": "Retrato de Léon Degrelle em uniforme, 1943; Alber, domínio público.",
-    "religions": ["catholic"]
+    "religions": [
+      "catholic"
+    ]
   },
   {
     "id": "gustavo-barroso",
@@ -6466,6 +6470,49 @@
     "imageSourceName": "Wikimedia Commons / revista Anauê",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barroso_com_seu_uniforme_de_secret%C3%A1rio_da_mil%C3%ADcia.jpg",
     "imageNote": "Gustavo Barroso em uniforme integralista, imagem publicada na revista Anauê em 1935; autor desconhecido.",
-    "religions": ["catholic"]
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "hugh-macdiarmid",
+    "name": "Hugh MacDiarmid",
+    "role": "Poeta, escritor e ativista político escocês",
+    "category": "intelectual",
+    "lifespan": "1892–1978",
+    "description": "Poeta central do Renascimento Escocês e defensor da independência da Escócia, MacDiarmid combinou nacionalismo cultural com socialismo revolucionário e internacionalismo comunista.",
+    "imagePath": "/personalities/portraits/hugh-macdiarmid.jpg",
+    "imageSourceName": "Wikimedia Commons / MacRusgail (cópia alternativa via Kiddle)",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Hughmacdiarmid.jpg",
+    "imageNote": "Busto de Hugh MacDiarmid em South Gyle, Edinburgh; imagem de MacRusgail, em domínio público. Arquivo obtido por espelho do Commons.",
+    "religions": []
+  },
+  {
+    "id": "john-maclean",
+    "name": "John Maclean",
+    "role": "Professor, marxista e republicano escocês",
+    "category": "teorico",
+    "lifespan": "1879–1923",
+    "description": "Professor e marxista revolucionário escocês, organizou trabalhadores e se opôs à Primeira Guerra Mundial. Defendeu uma república socialista escocesa independente e ensinou economia marxista a trabalhadores.",
+    "imagePath": "/personalities/portraits/john-maclean.jpg",
+    "imageSourceName": "Wikimedia Commons / Hulton Archive (cópia via Counterfire)",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:John_Maclean_1918.jpg",
+    "imageNote": "John Maclean em 1918, fotografia do Hulton Archive; cópia alternativa obtida via Counterfire.",
+    "religions": []
+  },
+  {
+    "id": "james-connolly",
+    "name": "James Connolly",
+    "role": "Líder sindical, teórico socialista e republicano irlandês",
+    "category": "teorico",
+    "lifespan": "1868–1916",
+    "description": "Socialista marxista e sindicalista, Connolly fundou o Partido Socialista Republicano Irlandês e vinculou independência nacional à transformação social. Foi dirigente do Levante da Páscoa de 1916 e executado após a derrota.",
+    "imagePath": "/personalities/portraits/james-connolly.jpg",
+    "imageSourceName": "Wikimedia Commons / National Museum of Ireland (cópia alternativa via Marxist.com)",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:James_Connolly-1.1.jpg",
+    "imageNote": "Retrato de James Connolly, fotografia anterior a 1916, acervo do National Museum of Ireland e em domínio público; cópia alternativa obtida via Marxist.com.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
