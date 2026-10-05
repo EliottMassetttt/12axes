@@ -702,7 +702,7 @@
   {
     "id": "ecoconservadorismo",
     "name": "Eco-Conservatism",
-    "category": "Right",
+    "category": "Centro",
     "description": "Branch that unites conservatism and environmental protection, defending the preservation of nature as part of the tradition and heritage to be passed on to future generations, with prudence toward change.",
     "phrase": "I want to preserve nature as part of the tradition and heritage passed down to us, with prudence toward change and a mixed, balanced economy."
   },
@@ -856,7 +856,7 @@
   {
     "id": "tecno-fascismo",
     "name": "Techno-Fascism",
-    "category": "Far-Right",
+    "category": "Terceira Posição",
     "description": "Dystopia that combines the totalitarian authoritarianism of fascism with digital surveillance, artificial intelligence, and technological control of the masses, using technique to repress, manipulate, and dominate all of society.",
     "phrase": "I want a totalitarian state that uses digital surveillance and artificial intelligence to repress, manipulate and dominate all of society."
   },
@@ -1143,14 +1143,14 @@
   {
     "id": "autoritarismo-libertario",
     "name": "Libertarian Authoritarianism",
-    "category": "Libertarian",
+    "category": "Direita",
     "description": "A doctrine separating political authority from social control: it favours concentrated, unelected executive power insulated from popular vote, which in exchange guarantees civil liberty, privacy and minimal state interference in private life and morals.",
     "phrase": "I want a strong executive insulated from the popular vote that, in exchange, guarantees civil liberty and does not interfere in private customs."
   },
   {
     "id": "liberalismo-jacobino",
     "name": "Jacobin Liberalism",
-    "category": "Center",
+    "category": "Esquerda",
     "description": "A current that sees the unitary, centralized state as the guarantor of individual liberty: uniform law, secularism and single citizenship dismantle the local, clerical and corporate privileges that would oppress the individual without a strong national power.",
     "phrase": "I want a unitary republic of uniform, secular laws, that dismantles local and clerical privileges in the name of the citizen."
   },
@@ -1192,7 +1192,7 @@
   {
     "id": "liberal-desenvolvimentismo",
     "name": "Liberal Developmentalism",
-    "category": "Center",
+    "category": "Direita",
     "description": "The East Asian Tiger model (Singapore, South Korea, Taiwan, Hong Kong): champions free markets, foreign trade and private enterprise as engines of growth, paired with an active technocratic state that plans infrastructure, education and strategic industrialization, stopping short of closed protectionism or hard authoritarian control.",
     "phrase": "I want free markets and foreign trade as engines of growth, guided by a technocratic state that plans infrastructure and education."
   },
@@ -1367,7 +1367,7 @@
   {
     "id": "bonapartismo",
     "name": "Bonapartism",
-    "category": "Right",
+    "category": "Extrema Direita",
     "description": "Caesarist current that legitimises a charismatic leader by plebiscite above parties, combining personal authority, bureaucratic centralisation, military mobilisation and state-led modernising reforms.",
     "phrase": "I want a nation mobilised by a plebiscitary leader above parties, modernising the state and directing strategic sectors with authority."
   },
@@ -1465,7 +1465,7 @@
   {
     "id": "socialismo-africano",
     "name": "African Socialism",
-    "category": "Radical Left",
+    "category": "Esquerda",
     "description": "Current of Sankara, Samora Machel, Nkrumah and Nyerere joining pan-Africanism, Black consciousness, anticolonial struggle, agrarian collectivization and self-reliance against neocolonialism and racism.",
     "phrase": "I want African peoples and the diaspora united and sovereign, with collective villages, self-reliant production and a revolutionary party against neocolonialism."
   },
@@ -1551,7 +1551,7 @@
   {
     "id": "socialismo-patriotico",
     "name": "Patriotic Socialism",
-    "category": "Radical Left",
+    "category": "Terceira Posição",
     "description": "Current that joins a state-run socialist economy and a strong party with patriotism, the traditional family, religion as national heritage and rejection of cultural progressivism, seeing identity politics as a liberal distraction from class struggle.",
     "phrase": "I want working people's socialism with homeland, family and ancestral faith, planned by the party and free of liberal fads.",
     "countryId": "bielorrussia",
@@ -1597,7 +1597,7 @@
   {
     "id": "pan-islamismo",
     "name": "Pan-Islamism",
-    "category": "Far-Right",
+    "category": "Terceira Posição",
     "description": "Ideology advocating the political unity of Muslims above national borders, around the ummah and the ideal of a caliphate, formulated by Jamal al-Din al-Afghani and adopted by Ottoman sultan Abdul Hamid II against European colonialism.",
     "phrase": "I want the ummah united across borders under a caliphate, with Islamic law everywhere and the Muslim world free of Western domination."
   },

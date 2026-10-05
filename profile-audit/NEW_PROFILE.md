@@ -610,12 +610,16 @@ python profile-audit/compatibility.py <catalog> <id>
 
 Exemplo: `python profile-audit/compatibility.py personality zohran-mamdani`.
 
-O script imprime o top 2 de personalidades, ideologias e países mais compatíveis com o vetor do
-perfil recém-criado (excluindo o próprio perfil da lista, se ele aparecer no catálogo pesquisado).
-Guarde essa saída para usar no resumo do passo 8 — **nunca estime esses matches de cabeça**, o
-cálculo de compatibilidade não é intuitivo (combina similaridade por eixo, direção do vetor,
-magnitude e outliers com pesos diferentes), então só o script dá o resultado real que o app mostra
-ao usuário final.
+O script imprime o top 2 de cada catálogo. Ao calcular compatibilidade para uma ideologia, imprime
+as **3 ideologias mais próximas com suas categorias cadastradas**, além do top 2 de personalidades e
+países. Guarde essa saída para o resumo do passo 8 — **nunca estime esses matches de cabeça**, pois
+o cálculo combina similaridade por eixo, direção, magnitude e outliers com pesos diferentes.
+
+Ao criar ou reauditar uma ideologia, use os três vizinhos e suas categorias como evidência na revisão
+de categoria **depois do merge** do vetor. Registre categoria atual/proposta, compatibilidades exatas,
+argumentos favoráveis e contrários em `profile-audit/category-reviews/<id>.md`, conforme
+[`IDEOLOGY_CATEGORY_REVIEW.md`](IDEOLOGY_CATEGORY_REVIEW.md). Os vizinhos guiam a revisão, mas não
+alteram automaticamente a categoria: se a proposta divergir da atual, peça confirmação explícita.
 
 ## Passo 8 — Apresentar a nova inclusão ao usuário
 
@@ -624,8 +628,8 @@ Feche o processo com um resumo direto ao usuário contendo:
 - Catálogo e `id`/`name` do novo perfil.
 - Resumo de 1-2 frases do vetor resultante (ex.: quais eixos ficaram mais extremos e para qual
   lado, comparando com perfis conhecidos do mesmo catálogo se ajudar a dar contexto).
-- As duas personalidades, duas ideologias e dois países mais compatíveis, com o percentual exato,
-  calculados no passo 7 (nunca estimados).
+- Os matches calculados no passo 7, com percentuais exatos: normalmente dois de cada catálogo; para
+  uma ideologia, dois de personalidade, três ideologias com categorias e dois países (nunca estime).
 - As alternativas escolhidas nas perguntas de arquétipo (bloco `archetype` da saída do passo 5).
 - Confirmação de que os testes relevantes passaram (ou lista exata do que falhou e não pôde ser
   corrigido, se for o caso).

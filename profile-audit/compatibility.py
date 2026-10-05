@@ -7,8 +7,9 @@ Uso:
 Exemplo:
     python profile-audit/compatibility.py personality zohran-mamdani
 
-Imprime o top 5 de personalidades, ideologias e paises mais proximos (exclui o proprio
-perfil da lista, se ele aparecer no catalogo pesquisado).
+Imprime os 2 matches de cada catalogo. Ao auditar um perfil de ideologia, imprime os 3
+vizinhos ideologicos e suas categorias cadastradas para apoiar a revisao de categoria.
+Exclui o proprio perfil da lista quando o catalogo pesquisado e o mesmo.
 """
 import json
 import math
@@ -135,12 +136,22 @@ def main():
 
     vector = vector_for(catalog, pid)
 
+    ideology_meta = {
+        item["id"]: item
+        for item in json.load(open(os.path.join(BASE, "ideologies.json"), encoding="utf-8"))
+    }
+
     for target_catalog, label in [("personality", "PERSONALIDADES"), ("ideology", "IDEOLOGIAS"), ("country", "PAISES")]:
         exclude = pid if target_catalog == catalog else None
-        matches = top_matches(vector, target_catalog, exclude_id=exclude, top_n=2)
-        print(f"=== TOP 2 {label} ===")
+        top_n = 3 if catalog == "ideology" and target_catalog == "ideology" else 2
+        matches = top_matches(vector, target_catalog, exclude_id=exclude, top_n=top_n)
+        print(f"=== TOP {top_n} {label} ===")
         for score, mid, name in matches:
-            print(f"{score}%  {name} ({mid})")
+            if catalog == "ideology" and target_catalog == "ideology":
+                category = ideology_meta.get(mid, {}).get("category", "categoria desconhecida")
+                print(f"{score}%  {name} ({mid}) — {category}")
+            else:
+                print(f"{score}%  {name} ({mid})")
         print()
 
 

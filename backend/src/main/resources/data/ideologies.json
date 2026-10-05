@@ -1269,7 +1269,7 @@
   {
     "id": "ecoconservadorismo",
     "name": "Ecoconservadorismo",
-    "category": "Direita",
+    "category": "Centro",
     "description": "Vertente que une conservadorismo e proteção ambiental, defendendo a preservação da natureza como parte da tradição e do patrimônio a ser transmitido às gerações futuras, com prudência diante de mudanças.",
     "phrase": "Quero preservar a natureza como parte da tradição e do patrimônio herdado, com prudência diante de mudanças e economia mista e equilibrada.",
     "vector": null,
@@ -1556,7 +1556,7 @@
   {
     "id": "tecno-fascismo",
     "name": "Tecno-Fascismo",
-    "category": "Extrema Direita",
+    "category": "Terceira Posição",
     "description": "Distopia que combina o autoritarismo totalitário do fascismo com vigilância digital, inteligência artificial e controle tecnológico das massas, usando a técnica para reprimir, manipular e dominar a sociedade inteira.",
     "phrase": "Quero um Estado totalitário que use vigilância digital e inteligência artificial para reprimir, manipular e dominar toda a sociedade.",
     "vector": null,
@@ -2078,7 +2078,7 @@
   {
     "id": "autoritarismo-libertario",
     "name": "Autoritarismo Libertário",
-    "category": "Libertário",
+    "category": "Direita",
     "description": "Doutrina que separa autoridade política de controle social: defende poder executivo concentrado e não eleito, insulado do voto popular, que em troca garante liberdade civil, privacidade e mínima interferência do Estado nos costumes e na vida privada do indivíduo.",
     "phrase": "Quero um executivo forte e insulado do voto popular que, em troca, garanta liberdade civil e não interfira nos costumes privados.",
     "vector": null,
@@ -2089,7 +2089,7 @@
   {
     "id": "liberalismo-jacobino",
     "name": "Liberalismo Jacobino",
-    "category": "Centro",
+    "category": "Esquerda",
     "description": "Corrente que vê o Estado unitário e centralizado como garantidor da liberdade individual: leis uniformes, laicidade e cidadania única desmontam privilégios locais, clericais e corporativos que oprimiriam o indivíduo na ausência de um poder nacional forte.",
     "phrase": "Quero uma república unitária de leis uniformes e laicas, que desmonte privilégios locais e clericais em nome do cidadão.",
     "vector": null,
@@ -2157,7 +2157,7 @@
   {
     "id": "liberal-desenvolvimentismo",
     "name": "Liberal-Desenvolvimentismo",
-    "category": "Centro",
+    "category": "Direita",
     "description": "Modelo dos Tigres Asiáticos (Singapura, Coreia do Sul, Taiwan, Hong Kong): defende livre mercado, comércio exterior e iniciativa privada como motores do crescimento, combinados a um Estado tecnocrático ativo que planeja infraestrutura, educação e industrialização estratégica, sem chegar ao protecionismo fechado nem ao controle autoritário duro.",
     "phrase": "Quero livre mercado e comércio exterior como motores do crescimento, guiados por um Estado tecnocrata que planeja infraestrutura e educação.",
     "vector": null,
@@ -2466,7 +2466,7 @@
   {
     "id": "bonapartismo",
     "name": "Bonapartismo",
-    "category": "Direita",
+    "category": "Extrema Direita",
     "description": "Corrente cesarista que legitima por plebiscito um líder carismático acima dos partidos, combinando autoridade pessoal, centralização burocrática, mobilização militar e reformas modernizadoras conduzidas de cima para baixo.",
     "phrase": "Quero uma nação mobilizada por um líder plebiscitário acima dos partidos, modernizando o Estado e dirigindo setores estratégicos com autoridade.",
     "countryId": "imperio-napoleonico",
@@ -2652,7 +2652,7 @@
   {
     "id": "socialismo-africano",
     "name": "Socialismo Africano",
-    "category": "Esquerda Radical",
+    "category": "Esquerda",
     "description": "Corrente de Sankara, Samora Machel, Nkrumah e Nyerere que une pan-africanismo, consciência negra, luta anticolonial, coletivização agrária e autossuficiência contra o neocolonialismo e o racismo.",
     "phrase": "Quero os povos africanos e da diáspora unidos e soberanos, com aldeias coletivas, produção própria e um partido revolucionário contra o neocolonialismo.",
     "vector": null,
@@ -2805,7 +2805,7 @@
   {
     "id": "socialismo-patriotico",
     "name": "Socialismo Patriótico",
-    "category": "Esquerda Radical",
+    "category": "Terceira Posição",
     "description": "Corrente que une economia socialista estatizada e partido forte a patriotismo, família tradicional, religião como herança nacional e rejeição do progressismo cultural, vendo a pauta identitária como distração liberal diante da luta de classes.",
     "phrase": "Quero o socialismo do povo trabalhador com pátria, família e fé dos antepassados, planejado pelo partido e livre das modas liberais.",
     "vector": null,
@@ -2880,7 +2880,7 @@
   {
     "id": "pan-islamismo",
     "name": "Pan-Islamismo",
-    "category": "Extrema Direita",
+    "category": "Terceira Posição",
     "description": "Ideologia que defende a unidade política dos muçulmanos acima das fronteiras nacionais, em torno da ummah e do ideal de califado, formulada por Jamal al-Din al-Afghani e adotada pelo sultão otomano Abdul Hamid II contra o colonialismo europeu.",
     "phrase": "Quero a ummah unida acima das fronteiras sob um califado, com a lei islâmica em toda parte e o mundo muçulmano livre do domínio ocidental.",
     "vector": null,
