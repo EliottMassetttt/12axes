@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-04T12:32:30Z",
+  "lastUpdated": "2026-10-05T12:27:00Z",
   "personality": {
-    "totalProfiles": 447,
+    "totalProfiles": 449,
     "pending": [],
     "done": [
       "lenin",
@@ -451,11 +451,13 @@
       "francisco-i-da-austria",
       "luiz-felipe-ponde",
       "alex-williams",
-      "mark-fisher"
+      "mark-fisher",
+      "enrico-berlinguer",
+      "pier-paolo-pasolini"
     ]
   },
   "ideology": {
-    "totalProfiles": 256,
+    "totalProfiles": 257,
     "pending": [
       "quilombismo",
       "democracia-intervencionista",
@@ -714,7 +716,8 @@
       "socialismo-chines",
       "nacionalismo-de-direita",
       "nacionalismo-de-esquerda",
-      "republicanismo-maquiavelico"
+      "republicanismo-maquiavelico",
+      "eurocomunismo"
     ]
   },
   "country": {

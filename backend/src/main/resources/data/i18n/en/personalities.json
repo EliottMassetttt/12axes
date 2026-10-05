@@ -2826,5 +2826,18 @@
     "role": "Political theorist",
     "lifespan": "1981–present",
     "description": "British political theorist, Williams co-wrote the accelerationist manifesto and Inventing the Future with Nick Srnicek. He advocates automation, shorter working hours and a basic income as part of a postcapitalist left strategy."
+  },
+  {
+    "id": "enrico-berlinguer",
+    "name": "Enrico Berlinguer",
+    "role": "Italian communist leader",
+    "description": "As leader of the Italian Communist Party, Berlinguer advocated a democratic, pluralist path to socialism, distanced himself from the Soviet model, and proposed the Historic Compromise with Christian Democrats."
+  },
+  {
+    "id": "pier-paolo-pasolini",
+    "name": "Pier Paolo Pasolini",
+    "role": "Writer and filmmaker",
+    "lifespan": "1922–1975",
+    "description": "Italian Marxist writer and filmmaker, Pasolini defended Friulian cultural autonomy and criticized consumerism and social homogenization. Persecuted for his homosexuality, he also opposed the liberalization of abortion."
   }
 ]

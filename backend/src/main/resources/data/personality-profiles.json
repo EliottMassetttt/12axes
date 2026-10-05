@@ -7597,5 +7597,39 @@
       "moral": 84.8,
       "tecnologia": 42.9
     }
+  },
+  {
+    "personalityId": "enrico-berlinguer",
+    "vector": {
+      "estrutura": 37.9,
+      "representacao": 89.4,
+      "poder": 36.5,
+      "imigracao": 21.2,
+      "diplomacia": 13.3,
+      "intervencao": 73.2,
+      "economia": 93.7,
+      "controle": 85.3,
+      "comercio": 51.4,
+      "religiao": 70.2,
+      "moral": 50.2,
+      "tecnologia": 31.0
+    }
+  },
+  {
+    "personalityId": "pier-paolo-pasolini",
+    "vector": {
+      "estrutura": 62.9,
+      "representacao": 87.0,
+      "poder": 23.4,
+      "imigracao": 15.7,
+      "diplomacia": 13.3,
+      "intervencao": 79.1,
+      "economia": 90.5,
+      "controle": 85.3,
+      "comercio": 40.7,
+      "religiao": 56.0,
+      "moral": 60.6,
+      "tecnologia": 22.9
+    }
   }
 ]

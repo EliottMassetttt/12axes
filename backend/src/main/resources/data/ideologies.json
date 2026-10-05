@@ -3244,5 +3244,16 @@
     "countryId": "florenca-renascentista",
     "personalityId": "maquiavel",
     "religions": []
+  },
+  {
+    "id": "eurocomunismo",
+    "name": "Eurocomunismo",
+    "category": "Esquerda",
+    "description": "Corrente comunista da Europa Ocidental dos anos 1970 que buscou uma via nacional ao socialismo por eleições, pluralismo partidário e liberdades civis, com autonomia frente a Moscou e economia mista sob planejamento democrático.",
+    "phrase": "Quero construir o socialismo pelo voto e pelo pluralismo, com liberdades civis, autonomia nacional e planejamento econômico democrático.",
+    "vector": null,
+    "countryId": "italia",
+    "personalityId": "enrico-berlinguer",
+    "religions": []
   }
 ]

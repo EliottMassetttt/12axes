@@ -6242,5 +6242,31 @@
     "imageSourceUrl": "https://www.versobooks.com/blogs/authors/williams-alex",
     "imageNote": "Retrato de Alex Williams na página do autor da Verso Books.",
     "religions": []
+  },
+  {
+    "id": "enrico-berlinguer",
+    "name": "Enrico Berlinguer",
+    "role": "Líder comunista italiano",
+    "category": "politico",
+    "lifespan": "1922–1984",
+    "description": "Secretário do Partido Comunista Italiano, Berlinguer defendeu uma via democrática e pluralista ao socialismo, afastou-se do modelo soviético e propôs o compromisso histórico com os democrata-cristãos.",
+    "imagePath": "/personalities/portraits/enrico-berlinguer.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Enrico_Berlinguer_in_jacket.jpg",
+    "imageNote": "Retrato de Enrico Berlinguer via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "pier-paolo-pasolini",
+    "name": "Pier Paolo Pasolini",
+    "role": "Escritor e cineasta",
+    "category": "intelectual",
+    "lifespan": "1922–1975",
+    "description": "Escritor e cineasta marxista italiano, Pasolini defendeu a autonomia cultural friulana e criticou o consumismo e a homogeneização social. Perseguido por sua homossexualidade, também rejeitou a liberalização do aborto.",
+    "imagePath": "/personalities/portraits/pier-paolo-pasolini.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pier_Paolo_Pasolini.jpg",
+    "imageNote": "Retrato de Pasolini durante filmagem em Roma; autor desconhecido, domínio público na Itália e nos EUA, via Wikimedia Commons.",
+    "religions": []
   }
 ]

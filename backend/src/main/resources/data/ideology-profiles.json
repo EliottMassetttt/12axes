@@ -4350,5 +4350,22 @@
       "moral": 33.6,
       "tecnologia": 67.9
     }
+  },
+  {
+    "ideologyId": "eurocomunismo",
+    "vector": {
+      "estrutura": 54.5,
+      "representacao": 96.6,
+      "poder": 33.0,
+      "imigracao": 42.6,
+      "diplomacia": 14.5,
+      "intervencao": 72.0,
+      "economia": 82.2,
+      "controle": 78.1,
+      "comercio": 59.8,
+      "religiao": 73.8,
+      "moral": 70.5,
+      "tecnologia": 50.0
+    }
   }
 ]

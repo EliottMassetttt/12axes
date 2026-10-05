@@ -2650,5 +2650,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "enrico-berlinguer",
+    "title": {
+      "pt": "Austerità, occasione per trasformare l'Italia",
+      "en": "Austerità, occasione per trasformare l'Italia"
+    },
+    "year": 1977,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "pier-paolo-pasolini",
+    "title": {
+      "pt": "Escritos Corsários",
+      "en": "Scritti corsari"
+    },
+    "year": 1975,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

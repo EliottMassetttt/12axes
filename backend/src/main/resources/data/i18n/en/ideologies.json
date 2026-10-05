@@ -1796,5 +1796,12 @@
     "category": "Right",
     "description": "A republican current inspired by Machiavelli’s Discourses on Livy. It defends civic liberty through laws, popular participation, and regulated conflict among social groups, allowing exceptional measures to preserve the republic.",
     "phrase": "I want to protect republican liberty through laws and popular participation, restrain elite domination, and preserve collective independence."
+  },
+  {
+    "id": "eurocomunismo",
+    "name": "Eurocommunism",
+    "category": "Left",
+    "description": "A 1970s Western European communist current that sought a national path to socialism through elections, party pluralism and civil liberties, independent of Moscow, with a mixed economy under democratic planning.",
+    "phrase": "I want to build socialism through elections and pluralism, with civil liberties, national autonomy and democratic economic planning."
   }
 ]
