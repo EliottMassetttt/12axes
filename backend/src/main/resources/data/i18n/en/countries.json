@@ -1234,5 +1234,23 @@
     "name": "Basque Country (Spain)",
     "category": "Foral autonomous community",
     "description": "An autonomous Spanish community comprising Araba, Bizkaia and Gipuzkoa, with its own parliament, co-official Basque language and distinctive fiscal autonomy. Basque nationalism and historic provincial institutions shape regional politics."
+  },
+  {
+    "id": "reino-da-irlanda",
+    "name": "Kingdom of Ireland",
+    "category": "Dependent parliamentary monarchy",
+    "description": "Established in 1542, the kingdom was ruled in personal union by the English and later British Crown, with administration in Dublin. The Catholic majority faced penal laws and political exclusion; legislative union with Great Britain ended the kingdom in 1800."
+  },
+  {
+    "id": "rus-de-kiev",
+    "name": "Kievan Rus'",
+    "category": "Decentralized dynastic monarchy",
+    "description": "A dynastic federation of East Slavic principalities, with Kyiv as a political and commercial hub on routes between the Baltic and Constantinople. The court adopted Byzantine Christianity in 988; succession disputes and Mongol invasions dissolved its unity."
+  },
+  {
+    "id": "reino-da-escocia",
+    "name": "Kingdom of Scotland",
+    "category": "Feudal-parliamentary monarchy",
+    "description": "A sovereign kingdom traditionally dated to 843, with its own Crown, Parliament and law until union with England in 1707. The dynastic union of the crowns in 1603 and the Presbyterian Reformation shaped its history."
   }
 ]

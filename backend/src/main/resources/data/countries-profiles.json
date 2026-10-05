@@ -3500,5 +3500,56 @@
       "moral": 69.3,
       "tecnologia": 41.7
     }
+  },
+  {
+    "countryId": "reino-da-irlanda",
+    "vector": {
+      "estrutura": 25.6,
+      "representacao": 26.9,
+      "poder": 76.9,
+      "imigracao": 51.5,
+      "diplomacia": 69.5,
+      "intervencao": 30.5,
+      "economia": 32.8,
+      "controle": 56.4,
+      "comercio": 53.8,
+      "religiao": 11.7,
+      "moral": 14.9,
+      "tecnologia": 57.1
+    }
+  },
+  {
+    "countryId": "rus-de-kiev",
+    "vector": {
+      "estrutura": 63.7,
+      "representacao": 26.9,
+      "poder": 62.6,
+      "imigracao": 46.8,
+      "diplomacia": 76.7,
+      "intervencao": 22.1,
+      "economia": 43.7,
+      "controle": 56.9,
+      "comercio": 40.1,
+      "religiao": 3.3,
+      "moral": 18.4,
+      "tecnologia": 53.6
+    }
+  },
+  {
+    "countryId": "reino-da-escocia",
+    "vector": {
+      "estrutura": 49.4,
+      "representacao": 24.5,
+      "poder": 75.7,
+      "imigracao": 50.3,
+      "diplomacia": 71.9,
+      "intervencao": 25.7,
+      "economia": 37.5,
+      "controle": 58.8,
+      "comercio": 59.8,
+      "religiao": 6.9,
+      "moral": 10.1,
+      "tecnologia": 52.4
+    }
   }
 ]

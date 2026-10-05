@@ -3021,5 +3021,57 @@
     "period": "",
     "vector": null,
     "religions": []
+  },
+  {
+    "id": "reino-da-irlanda",
+    "name": "Reino da Irlanda",
+    "category": "Monarquia parlamentar dependente",
+    "description": "Reino constituído em 1542 e governado em união pessoal pela Coroa inglesa e depois britânica, com administração em Dublin. A maioria católica enfrentou leis penais e exclusão política; a união legislativa com a Grã-Bretanha encerrou o reino em 1800.",
+    "flagPath": "/countries/flags/reino-da-irlanda.png",
+    "historical": true,
+    "period": "1542–1800",
+    "vector": null,
+    "flagKind": "historical-banner",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Royal_Standard_of_Ireland_(1542%E2%80%931801).svg",
+    "flagNote": "Estandarte real com a harpa, usado como referência visual; o reino não teve uma bandeira estatal oficial única.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "rus-de-kiev",
+    "name": "Rus' de Kiev",
+    "category": "Monarquia dinástica descentralizada",
+    "description": "Federação dinástica de principados eslavos orientais, com Kyiv como centro político e comercial das rotas entre o Báltico e Constantinopla. A corte adotou o cristianismo bizantino em 988; disputas sucessórias e invasões mongóis dissolveram sua unidade.",
+    "flagPath": "/countries/flags/rus-de-kiev.png",
+    "historical": true,
+    "period": "c. 880–1240",
+    "vector": null,
+    "flagKind": "historical-symbol",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:VladimirsTrident.svg",
+    "flagNote": "Tridente dinástico de Volodymyr, baseado em moedas e selos dos séculos X–XI; símbolo histórico, não bandeira estatal documentada.",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "reino-da-escocia",
+    "name": "Reino da Esc?cia",
+    "category": "Monarquia feudal-parlamentar",
+    "description": "Reino soberano tradicionalmente datado de 843, com Coroa, Parlamento e direito pr?prios at? a uni?o com a Inglaterra em 1707. A uni?o din?stica das coroas em 1603 e a Reforma presbiteriana marcaram sua trajet?ria.",
+    "flagPath": "/countries/flags/reino-da-escocia.png",
+    "historical": true,
+    "period": "c. 843?1707",
+    "vector": null,
+    "flagKind": "historical-flag",
+    "flagSourceName": "Wikimedia Commons",
+    "flagSourceUrl": "https://commons.wikimedia.org/wiki/File:Flag_of_Scotland_(traditional).svg",
+    "flagNote": "Saltire escoc?s representado na vers?o azul-celeste catalogada para 1542?1707; o s?mbolo escoc?s ? anterior.",
+    "religions": [
+      "catholic",
+      "protestant"
+    ]
   }
 ]
