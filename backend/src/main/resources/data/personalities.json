@@ -6333,5 +6333,139 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gosta_rehn_(cropped).jpg",
     "imageNote": "Retrato de Gösta Rehn em 1955, fotografia de Henried, via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "eduard-limonov",
+    "name": "Eduard Limonov",
+    "role": "Escritor e líder nacional-bolchevique",
+    "category": "intelectual",
+    "lifespan": "1943–2020",
+    "description": "Escritor russo e fundador do Partido Nacional-Bolchevique, Limonov combinou socialismo, expansionismo imperial e rebeldia cultural. Combateu a repressão de Putin, mas apoiou a anexação da Crimeia e forças separatistas no Donbass.",
+    "imagePath": "/personalities/portraits/eduard-limonov.jpg",
+    "imageSourceName": "Wikimedia Commons / Dmitry Rozhkov",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eduard_Limonov_-_2018.jpg",
+    "imageNote": "Retrato de Eduard Limonov em 2018 por Dmitry Rozhkov, CC BY-SA 4.0, via Wikimedia Commons; redimensionado e recomprimido.",
+    "religions": []
+  },
+  {
+    "id": "nicola-bombacci",
+    "name": "Nicola Bombacci",
+    "role": "Político socialista e colaborador do fascismo",
+    "category": "politico",
+    "lifespan": "1879–1945",
+    "description": "Cofundador do Partido Comunista da Itália, aproximou-se depois de Mussolini. Na República Social Italiana, promoveu a socialização das empresas e a participação operária, mantendo sua retórica anticapitalista.",
+    "imagePath": "/personalities/portraits/nicola-bombacci.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Nicola_Bombacci_1917_Rome.jpg",
+    "imageNote": "Retrato de Nicola Bombacci em Roma, novembro de 1917, autor desconhecido; domínio público, via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "corneliu-zelea-codreanu",
+    "name": "Corneliu Zelea Codreanu",
+    "role": "Fundador da Guarda de Ferro",
+    "category": "politico",
+    "lifespan": "1899–1938",
+    "description": "Fundador da Guarda de Ferro romena, Codreanu combinou fascismo, antissemitismo violento e misticismo cristão ortodoxo. Defendeu liderança autoritária, regeneração nacional e organização comunitária de camponeses e trabalhadores.",
+    "imagePath": "/personalities/portraits/corneliu-zelea-codreanu.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Corneliu_Zelea_Codreanu_1925.jpg",
+    "imageNote": "Retrato de Corneliu Zelea Codreanu publicado em 1925, autor desconhecido; domínio público, via Wikimedia Commons.",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "oswald-mosley",
+    "name": "Oswald Mosley",
+    "role": "Político fascista britânico",
+    "category": "politico",
+    "lifespan": "1896–1980",
+    "description": "Fundador da União Britânica de Fascistas, defendeu governo autoritário, corporativismo e protecionismo. Promoveu antissemitismo e, no pós-guerra, nacionalismo pan-europeu e políticas de segregação racial.",
+    "imagePath": "/personalities/portraits/oswald-mosley.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Oswald_Mosley.jpg",
+    "imageNote": "Retrato de Oswald Mosley em 1922, por Bassano Ltd, via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "michel-aflaq",
+    "name": "Michel Aflaq",
+    "role": "Teórico do nacionalismo árabe",
+    "category": "teorico",
+    "lifespan": "1910–1989",
+    "description": "Cofundador do Baath, Aflaq defendeu união árabe, socialismo anticolonial e renovação espiritual inspirada no Islã. Rejeitou o materialismo marxista e criticou a ditadura militar, embora se associasse ao Baath iraquiano.",
+    "imagePath": "/personalities/portraits/michel-aflaq.jpg",
+    "imageSourceName": "Wikimedia Commons / The Online Museum of Syrian History",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Baath_Party_founder_Michel_Aflaq_in_the_late_1930s.jpg",
+    "imageNote": "Retrato de Michel Aflaq nos anos 1930, autor desconhecido, domínio público; via Wikimedia Commons, redimensionado e recomprimido.",
+    "religions": [
+      "islam"
+    ]
+  }
+  ,{
+    "id": "ramiro-ledesma-ramos",
+    "name": "Ramiro Ledesma Ramos",
+    "role": "Teórico do nacional-sindicalismo espanhol",
+    "category": "teorico",
+    "lifespan": "1905–1936",
+    "description": "Filósofo e fundador das JONS, Ledesma formulou o nacional-sindicalismo espanhol, combinando revolução nacional, mobilização operária e Estado autoritário. Anticomunista e antisseparatista, criticou a monarquia e o parlamentarismo.",
+    "imagePath": "/personalities/portraits/ramiro-ledesma-ramos.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Ramiro_Ledesma_(circa_1930).jpg",
+    "imageNote": "Retrato de Ramiro Ledesma, início dos anos 1930; autor desconhecido, domínio público.",
+    "religions": []
+  },
+  {
+    "id": "gabriele-dannunzio",
+    "name": "Gabriele D'Annunzio",
+    "role": "Poeta e dirigente da Regência do Carnaro",
+    "category": "politico",
+    "lifespan": "1863–1938",
+    "description": "Poeta e nacionalista italiano, liderou em 1919 a ocupação de Fiume e governou a Regência do Carnaro. A Carta do Carnaro, elaborada com Alceste De Ambris, combinava corporativismo, direitos sociais e soberania popular.",
+    "imagePath": "/personalities/portraits/gabriele-dannunzio.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gabriele_D%27Annunzio%27s_Portrait.jpg",
+    "imageNote": "Retrato de Gabriele D'Annunzio publicado em The Daughter of Jorio, antes de 1916; domínio público nos EUA.",
+    "religions": []
+  },
+  {
+    "id": "alain-de-benoist",
+    "name": "Alain de Benoist",
+    "role": "Teórico da Nouvelle Droite",
+    "category": "teorico",
+    "lifespan": "1943–",
+    "description": "Intelectual francês e fundador da Nouvelle Droite e do GRECE, defende autonomia cultural e etnopluralismo, opõe-se à imigração de massa e critica o liberalismo, o capitalismo e a homogeneização global. Propõe o paganismo europeu como alternativa cultural ao cristianismo.",
+    "imagePath": "/personalities/portraits/alain-de-benoist.png",
+    "imageSourceName": "Wikimedia Commons / Simone Olla",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alain_de_Benoist_(3x4_cropped).png",
+    "imageNote": "Retrato extraído do documentário Alain de Benoist. Réponses, de Simone Olla (2012), CC BY 3.0.",
+    "religions": ["other"]
+  },
+  {
+    "id": "leon-degrell",
+    "name": "Léon Degrelle",
+    "role": "Líder do movimento rexista belga",
+    "category": "politico",
+    "lifespan": "1906–1994",
+    "description": "Líder do movimento católico Rex na Bélgica, tornou-se colaborador do nazismo durante a ocupação e comandou voluntários valões na Waffen-SS. Após a guerra, viveu exilado na Espanha e permaneceu defensor de Hitler.",
+    "imagePath": "/personalities/portraits/leon-degrell.jpg",
+    "imageSourceName": "Wikimedia Commons / Narodowe Archiwum Cyfrowe",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:L%C3%A9on_Degrelle_portrait.jpg",
+    "imageNote": "Retrato de Léon Degrelle em uniforme, 1943; Alber, domínio público.",
+    "religions": ["catholic"]
+  },
+  {
+    "id": "gustavo-barroso",
+    "name": "Gustavo Barroso",
+    "role": "Dirigente integralista e escritor",
+    "category": "teorico",
+    "lifespan": "1888–1959",
+    "description": "Escritor e dirigente integralista brasileiro, Barroso dirigiu a milícia da Ação Integralista Brasileira e difundiu nacionalismo autoritário e antissemitismo conspiratório, em contraste com a linha mais moderada de Plínio Salgado.",
+    "imagePath": "/personalities/portraits/gustavo-barroso.jpg",
+    "imageSourceName": "Wikimedia Commons / revista Anauê",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Barroso_com_seu_uniforme_de_secret%C3%A1rio_da_mil%C3%ADcia.jpg",
+    "imageNote": "Gustavo Barroso em uniforme integralista, imagem publicada na revista Anauê em 1935; autor desconhecido.",
+    "religions": ["catholic"]
   }
 ]

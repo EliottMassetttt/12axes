@@ -7716,5 +7716,175 @@
       "moral": 38.3,
       "tecnologia": 65.3
     }
+  },
+  {
+    "personalityId": "eduard-limonov",
+    "vector": {
+      "estrutura": 39.0,
+      "representacao": 81.1,
+      "poder": 18.7,
+      "imigracao": 51.9,
+      "diplomacia": 88.6,
+      "intervencao": 10.2,
+      "economia": 96.0,
+      "controle": 91.3,
+      "comercio": 84.8,
+      "religiao": 77.9,
+      "moral": 59.8,
+      "tecnologia": 26.4
+    }
+  },
+  {
+    "personalityId": "nicola-bombacci",
+    "vector": {
+      "estrutura": 24.7,
+      "representacao": 36.4,
+      "poder": 62.4,
+      "imigracao": 51.9,
+      "diplomacia": 52.6,
+      "intervencao": 45.8,
+      "economia": 90.1,
+      "controle": 92.5,
+      "comercio": 64.5,
+      "religiao": 76.5,
+      "moral": 38.1,
+      "tecnologia": 57.0
+    }
+  },
+  {
+    "personalityId": "corneliu-zelea-codreanu",
+    "vector": {
+      "estrutura": 11.6,
+      "representacao": 9.0,
+      "poder": 81.4,
+      "imigracao": 99.1,
+      "diplomacia": 83.8,
+      "intervencao": 21.0,
+      "economia": 47.0,
+      "controle": 67.1,
+      "comercio": 88.3,
+      "religiao": 1.0,
+      "moral": 3.0,
+      "tecnologia": 29.8
+    }
+  },
+  {
+    "personalityId": "oswald-mosley",
+    "vector": {
+      "estrutura": 8.0,
+      "representacao": 16.2,
+      "poder": 77.9,
+      "imigracao": 94.8,
+      "diplomacia": 53.3,
+      "intervencao": 40.7,
+      "economia": 60.2,
+      "controle": 88.5,
+      "comercio": 88.7,
+      "religiao": 56.3,
+      "moral": 19.0,
+      "tecnologia": 77.2
+    }
+  },
+  {
+    "personalityId": "michel-aflaq",
+    "vector": {
+      "estrutura": 37.9,
+      "representacao": 54.9,
+      "poder": 61.5,
+      "imigracao": 61.0,
+      "diplomacia": 57.6,
+      "intervencao": 35.2,
+      "economia": 84.6,
+      "controle": 85.3,
+      "comercio": 77.6,
+      "religiao": 44.0,
+      "moral": 42.7,
+      "tecnologia": 59.4
+    }
+  },
+  {
+    "personalityId": "ramiro-ledesma-ramos",
+    "vector": {
+      "estrutura": 12.8,
+      "representacao": 10.2,
+      "poder": 92.1,
+      "imigracao": 76.9,
+      "diplomacia": 91.0,
+      "intervencao": 11.4,
+      "economia": 85.2,
+      "controle": 90.9,
+      "comercio": 88.7,
+      "religiao": 52.7,
+      "moral": 31.0,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "personalityId": "gabriele-dannunzio",
+    "vector": {
+      "estrutura": 62.9,
+      "representacao": 53.7,
+      "poder": 33.0,
+      "imigracao": 57.9,
+      "diplomacia": 87.4,
+      "intervencao": 13.8,
+      "economia": 71.0,
+      "controle": 71.9,
+      "comercio": 57.8,
+      "religiao": 64.8,
+      "moral": 57.4,
+      "tecnologia": 71.3
+    }
+  },
+  {
+    "personalityId": "alain-de-benoist",
+    "vector": {
+      "estrutura": 85.5,
+      "representacao": 82.3,
+      "poder": 28.2,
+      "imigracao": 60.2,
+      "diplomacia": 39.5,
+      "intervencao": 69.6,
+      "economia": 81.0,
+      "controle": 72.2,
+      "comercio": 81.2,
+      "religiao": 52.7,
+      "moral": 42.9,
+      "tecnologia": 14.5
+    }
+  },
+  {
+    "personalityId": "leon-degrell",
+    "vector": {
+      "estrutura": 22.3,
+      "representacao": 5.5,
+      "poder": 83.8,
+      "imigracao": 88.4,
+      "diplomacia": 95.7,
+      "intervencao": 13.8,
+      "economia": 54.3,
+      "controle": 80.2,
+      "comercio": 81.6,
+      "religiao": 6.9,
+      "moral": 5.3,
+      "tecnologia": 57.0
+    }
+  },
+  {
+    "personalityId": "gustavo-barroso",
+    "vector": {
+      "estrutura": 4.4,
+      "representacao": 24.5,
+      "poder": 87.4,
+      "imigracao": 94.4,
+      "diplomacia": 77.9,
+      "intervencao": 23.3,
+      "economia": 61.4,
+      "controle": 77.8,
+      "comercio": 80.4,
+      "religiao": 37.9,
+      "moral": 11.3,
+      "tecnologia": 51.0
+    }
   }
 ]

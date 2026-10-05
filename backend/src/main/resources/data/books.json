@@ -2734,5 +2734,77 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "eduard-limonov",
+    "title": {
+      "pt": "Лимонов против Путина",
+      "en": "Лимонов против Путина"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "nicola-bombacci",
+    "title": {
+      "pt": "Per la costituzione dei Soviet",
+      "en": "Per la costituzione dei Soviet"
+    },
+    "year": 1920,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "michel-aflaq",
+    "title": {
+      "pt": "Fi Sabil al-Ba'th",
+      "en": "Fi Sabil al-Ba'th"
+    },
+    "year": 1959,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  }
+  ,{
+    "personalityId": "ramiro-ledesma-ramos",
+    "title": {
+      "pt": "Discurso às juventudes da Espanha",
+      "en": "Discourse to the Youth of Spain"
+    },
+    "year": 1935,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gabriele-dannunzio",
+    "title": {
+      "pt": "Carta do Carnaro",
+      "en": "Charter of Carnaro"
+    },
+    "year": 1920,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "alain-de-benoist",
+    "title": {
+      "pt": "Nova Direita, Nova Cultura",
+      "en": "Seen from the Right"
+    },
+    "year": 1977,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

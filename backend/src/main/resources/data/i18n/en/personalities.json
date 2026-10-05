@@ -2874,5 +2874,75 @@
     "role": "Swedish economist",
     "lifespan": "1913–1996",
     "description": "Swedish economist, Rehn co-developed the Rehn–Meidner model, combining full employment, wage solidarity and price stability. He advocated worker retraining, social protection and productive modernization within a mixed economy."
+  },
+  {
+    "id": "eduard-limonov",
+    "name": "Eduard Limonov",
+    "role": "Writer and National Bolshevik leader",
+    "lifespan": "1943–2020",
+    "description": "Russian writer and National Bolshevik Party founder, Limonov combined socialism, imperial expansionism and cultural rebellion. He opposed Putin’s repression but supported Crimea’s annexation and separatist forces in Donbas."
+  },
+  {
+    "id": "nicola-bombacci",
+    "name": "Nicola Bombacci",
+    "role": "Socialist politician and fascist collaborator",
+    "lifespan": "1879–1945",
+    "description": "A cofounder of the Communist Party of Italy, he later moved toward Mussolini. In the Italian Social Republic, he promoted the socialization of enterprises and workers’ participation while retaining his anticapitalist rhetoric."
+  },
+  {
+    "id": "corneliu-zelea-codreanu",
+    "name": "Corneliu Zelea Codreanu",
+    "role": "Founder of the Iron Guard",
+    "lifespan": "1899–1938",
+    "description": "Founder of Romania’s Iron Guard, Codreanu combined fascism, violent antisemitism and Orthodox Christian mysticism. He advocated authoritarian leadership, national regeneration and communal organization of peasants and workers."
+  },
+  {
+    "id": "oswald-mosley",
+    "name": "Oswald Mosley",
+    "role": "British fascist politician",
+    "lifespan": "1896–1980",
+    "description": "Founder of the British Union of Fascists, he advocated authoritarian government, corporatism and protectionism. He promoted antisemitism and, after the war, pan-European nationalism and racial segregation."
+  },
+  {
+    "id": "michel-aflaq",
+    "name": "Michel Aflaq",
+    "role": "Theorist of Arab nationalism",
+    "lifespan": "1910–1989",
+    "description": "A Baath cofounder, Aflaq advocated Arab unity, anticolonial socialism and spiritual renewal inspired by Islam. He rejected Marxist materialism and criticized military dictatorship, while associating with the Iraqi Baath."
+  }
+  ,{
+    "id": "ramiro-ledesma-ramos",
+    "name": "Ramiro Ledesma Ramos",
+    "role": "Theorist of Spanish national syndicalism",
+    "lifespan": "1905–1936",
+    "description": "A philosopher and founder of the JONS, Ledesma formulated Spanish national syndicalism, combining national revolution, worker mobilization and an authoritarian state. He opposed communism and separatism and criticized monarchy and parliamentarism."
+  },
+  {
+    "id": "gabriele-dannunzio",
+    "name": "Gabriele D'Annunzio",
+    "role": "Poet and leader of the Regency of Carnaro",
+    "lifespan": "1863–1938",
+    "description": "An Italian poet and nationalist, he led the 1919 occupation of Fiume and governed the Regency of Carnaro. The Charter of Carnaro, drafted with Alceste De Ambris, combined corporatism, social rights and popular sovereignty."
+  },
+  {
+    "id": "alain-de-benoist",
+    "name": "Alain de Benoist",
+    "role": "Nouvelle Droite theorist",
+    "lifespan": "1943–",
+    "description": "A French intellectual and founder of the Nouvelle Droite and GRECE, he advocates cultural autonomy and ethnopluralism, opposes mass immigration, and criticizes liberalism, capitalism and global homogenization. He proposes European paganism as a cultural alternative to Christianity."
+  },
+  {
+    "id": "leon-degrell",
+    "name": "Léon Degrelle",
+    "role": "Leader of Belgium's Rexist movement",
+    "lifespan": "1906–1994",
+    "description": "Leader of Belgium's Catholic Rexist movement, he became a Nazi collaborator during the occupation and commanded Walloon volunteers in the Waffen-SS. After the war, he lived in exile in Spain and remained an admirer of Hitler."
+  },
+  {
+    "id": "gustavo-barroso",
+    "name": "Gustavo Barroso",
+    "role": "Integralist leader and writer",
+    "lifespan": "1888–1959",
+    "description": "A Brazilian writer and Integralism leader, Barroso headed the Brazilian Integralist Action militia and promoted authoritarian nationalism and conspiratorial antisemitism, in contrast with Plínio Salgado's more moderate line."
   }
 ]
