@@ -7631,5 +7631,90 @@
       "moral": 60.6,
       "tecnologia": 22.9
     }
+  },
+  {
+    "personalityId": "tage-erlander",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 77.5,
+      "poder": 53.2,
+      "imigracao": 42.6,
+      "diplomacia": 45.0,
+      "intervencao": 63.3,
+      "economia": 77.0,
+      "controle": 71.1,
+      "comercio": 29.4,
+      "religiao": 70.2,
+      "moral": 52.6,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "personalityId": "per-albin-hansson",
+    "vector": {
+      "estrutura": 33.1,
+      "representacao": 74.0,
+      "poder": 52.0,
+      "imigracao": 59.0,
+      "diplomacia": 33.1,
+      "intervencao": 64.5,
+      "economia": 66.3,
+      "controle": 75.9,
+      "comercio": 60.3,
+      "religiao": 69.4,
+      "moral": 29.8,
+      "tecnologia": 64.1
+    }
+  },
+  {
+    "personalityId": "kalevi-sorsa",
+    "vector": {
+      "estrutura": 40.2,
+      "representacao": 82.3,
+      "poder": 50.8,
+      "imigracao": 35.5,
+      "diplomacia": 26.4,
+      "intervencao": 69.6,
+      "economia": 75.8,
+      "controle": 68.8,
+      "comercio": 47.2,
+      "religiao": 70.2,
+      "moral": 63.3,
+      "tecnologia": 53.6
+    }
+  },
+  {
+    "personalityId": "gosta-rehn",
+    "vector": {
+      "estrutura": 52.1,
+      "representacao": 76.3,
+      "poder": 35.3,
+      "imigracao": 31.9,
+      "diplomacia": 25.2,
+      "intervencao": 57.7,
+      "economia": 73.4,
+      "controle": 58.0,
+      "comercio": 23.4,
+      "religiao": 71.4,
+      "moral": 64.5,
+      "tecnologia": 66.5
+    }
+  },
+  {
+    "personalityId": "einar-gerhardsen",
+    "vector": {
+      "estrutura": 29.5,
+      "representacao": 74.0,
+      "poder": 60.3,
+      "imigracao": 45.0,
+      "diplomacia": 41.0,
+      "intervencao": 42.4,
+      "economia": 82.2,
+      "controle": 84.1,
+      "comercio": 55.0,
+      "religiao": 70.2,
+      "moral": 38.3,
+      "tecnologia": 65.3
+    }
   }
 ]

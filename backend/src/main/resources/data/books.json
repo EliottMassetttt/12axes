@@ -2674,5 +2674,65 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "per-albin-hansson",
+    "title": {
+      "pt": "Demokrati: tal och uppsatser",
+      "en": "Demokrati: tal och uppsatser"
+    },
+    "year": 1935,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "kalevi-sorsa",
+    "title": {
+      "pt": "Kansanvallan kysymyksiä",
+      "en": "Kansanvallan kysymyksiä"
+    },
+    "year": 1974,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "tage-erlander",
+    "title": {
+      "pt": "Tage Erlander 1940–1949",
+      "en": "Tage Erlander 1940–1949"
+    },
+    "year": 1973,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "einar-gerhardsen",
+    "title": {
+      "pt": "Tillitsmannen",
+      "en": "The Representative: A Handbook for Employee Representatives"
+    },
+    "year": 1931,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "gosta-rehn",
+    "title": {
+      "pt": "Full sysselsättning utan inflation: skrifter i urval",
+      "en": "Full sysselsättning utan inflation: skrifter i urval"
+    },
+    "year": 1988,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

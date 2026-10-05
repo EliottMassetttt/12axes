@@ -2839,5 +2839,40 @@
     "role": "Writer and filmmaker",
     "lifespan": "1922–1975",
     "description": "Italian Marxist writer and filmmaker, Pasolini defended Friulian cultural autonomy and criticized consumerism and social homogenization. Persecuted for his homosexuality, he also opposed the liberalization of abortion."
+  },
+  {
+    "id": "per-albin-hansson",
+    "name": "Per Albin Hansson",
+    "role": "Swedish prime minister",
+    "lifespan": "1885–1946",
+    "description": "Swedish prime minister, Hansson promoted the folkhemmet through parliamentary welfare and employment reforms. He combined a mixed economy, compromise with farmers and employers, and armed neutrality during the Second World War."
+  },
+  {
+    "id": "kalevi-sorsa",
+    "name": "Kalevi Sorsa",
+    "role": "Finnish prime minister",
+    "lifespan": "1930–2004",
+    "description": "Finnish social democratic prime minister, Sorsa expanded public services and social protection, promoted agreements among government, unions and employers, and combined European trade integration with Cold War neutrality."
+  },
+  {
+    "id": "tage-erlander",
+    "name": "Tage Erlander",
+    "role": "Swedish prime minister",
+    "lifespan": "1901–1985",
+    "description": "Swedish prime minister from 1946 to 1969, Erlander expanded public pensions, healthcare and education within a mixed economy. He combined collective bargaining, industrial modernization and international neutrality with strong military defence."
+  },
+  {
+    "id": "einar-gerhardsen",
+    "name": "Einar Gerhardsen",
+    "role": "Norwegian prime minister",
+    "lifespan": "1897–1987",
+    "description": "Norwegian Labour prime minister, Gerhardsen rebuilt the country through economic planning, public services and collective bargaining. He consolidated parliamentary democracy and joined NATO while rejecting nuclear weapons on Norwegian soil."
+  },
+  {
+    "id": "gosta-rehn",
+    "name": "Gösta Rehn",
+    "role": "Swedish economist",
+    "lifespan": "1913–1996",
+    "description": "Swedish economist, Rehn co-developed the Rehn–Meidner model, combining full employment, wage solidarity and price stability. He advocated worker retraining, social protection and productive modernization within a mixed economy."
   }
 ]

@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-05T12:27:00Z",
+  "lastUpdated": "2026-10-05T14:01:31Z",
   "personality": {
-    "totalProfiles": 449,
+    "totalProfiles": 454,
     "pending": [],
     "done": [
       "lenin",
@@ -453,7 +453,12 @@
       "alex-williams",
       "mark-fisher",
       "enrico-berlinguer",
-      "pier-paolo-pasolini"
+      "pier-paolo-pasolini",
+      "tage-erlander",
+      "per-albin-hansson",
+      "kalevi-sorsa",
+      "gosta-rehn",
+      "einar-gerhardsen"
     ]
   },
   "ideology": {

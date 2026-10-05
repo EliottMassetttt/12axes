@@ -6268,5 +6268,70 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Pier_Paolo_Pasolini.jpg",
     "imageNote": "Retrato de Pasolini durante filmagem em Roma; autor desconhecido, domínio público na Itália e nos EUA, via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "per-albin-hansson",
+    "name": "Per Albin Hansson",
+    "role": "Primeiro-ministro sueco",
+    "category": "politico",
+    "lifespan": "1885–1946",
+    "description": "Primeiro-ministro sueco, Hansson promoveu o folkhemmet, ampliando proteção social e emprego por reformas parlamentares. Combinou economia mista, compromisso com agricultores e empresários e neutralidade armada durante a Segunda Guerra.",
+    "imagePath": "/personalities/portraits/per-albin-hansson.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Per_Albin_Hansson,_statsminister,_porträttbild_1935.jpg",
+    "imageNote": "Retrato de Per Albin Hansson em 1935 via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "kalevi-sorsa",
+    "name": "Kalevi Sorsa",
+    "role": "Primeiro-ministro finlandês",
+    "category": "politico",
+    "lifespan": "1930–2004",
+    "description": "Primeiro-ministro social-democrata finlandês, Sorsa ampliou serviços públicos e proteção social, promoveu acordos entre governo, sindicatos e empresas e conciliou integração comercial europeia com neutralidade na Guerra Fria.",
+    "imagePath": "/personalities/portraits/kalevi-sorsa.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Kalevi_Sorsa.jpg",
+    "imageNote": "Retrato de Kalevi Sorsa em 1975 via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "tage-erlander",
+    "name": "Tage Erlander",
+    "role": "Primeiro-ministro sueco",
+    "category": "politico",
+    "lifespan": "1901–1985",
+    "description": "Primeiro-ministro sueco de 1946 a 1969, Erlander ampliou previdência, saúde e educação públicas numa economia mista. Combinou negociação sindical, modernização industrial e neutralidade internacional com defesa militar forte.",
+    "imagePath": "/personalities/portraits/tage-erlander.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Tage_Erlander_1952.jpg",
+    "imageNote": "Retrato de Tage Erlander em 1952, foto Dagens bild, via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "einar-gerhardsen",
+    "name": "Einar Gerhardsen",
+    "role": "Primeiro-ministro norueguês",
+    "category": "politico",
+    "lifespan": "1897–1987",
+    "description": "Primeiro-ministro trabalhista norueguês, Gerhardsen reconstruiu o país com planejamento econômico, serviços públicos e negociação sindical. Consolidou a democracia parlamentar e aderiu à OTAN, rejeitando armas nucleares em solo norueguês.",
+    "imagePath": "/personalities/portraits/einar-gerhardsen.jpg",
+    "imageSourceName": "Wikimedia Commons / Oslo Museum",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Einar_Gerhardsen_1945.jpeg",
+    "imageNote": "Retrato de Einar Gerhardsen em 1945 por Ernest Rude, Oslo Museum; CC BY-SA 4.0, via Wikimedia Commons, recomprimido.",
+    "religions": []
+  },
+  {
+    "id": "gosta-rehn",
+    "name": "Gösta Rehn",
+    "role": "Economista sueco",
+    "category": "economista",
+    "lifespan": "1913–1996",
+    "description": "Economista sueco, Rehn cocriou o modelo Rehn–Meidner, conciliando pleno emprego, salários solidários e estabilidade de preços. Defendeu qualificação profissional, proteção social e modernização produtiva numa economia mista.",
+    "imagePath": "/personalities/portraits/gosta-rehn.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Gosta_rehn_(cropped).jpg",
+    "imageNote": "Retrato de Gösta Rehn em 1955, fotografia de Henried, via Wikimedia Commons.",
+    "religions": []
   }
 ]
