@@ -8192,5 +8192,22 @@
       "moral": 20.2,
       "tecnologia": 74.9
     }
+  },
+  {
+    "personalityId": "rupert-murdoch",
+    "vector": {
+      "estrutura": 61.7,
+      "representacao": 79.9,
+      "poder": 56.8,
+      "imigracao": 43.3,
+      "diplomacia": 68.3,
+      "intervencao": 16.2,
+      "economia": 20.8,
+      "controle": 12.3,
+      "comercio": 12.5,
+      "religiao": 48.4,
+      "moral": 32.5,
+      "tecnologia": 78.4
+    }
   }
 ]

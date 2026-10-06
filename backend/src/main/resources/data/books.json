@@ -2902,5 +2902,17 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "rupert-murdoch",
+    "title": {
+      "pt": "A Golden Age of Freedom",
+      "en": "A Golden Age of Freedom"
+    },
+    "year": 2008,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
