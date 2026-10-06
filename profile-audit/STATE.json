@@ -2,7 +2,7 @@
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
   "lastUpdated": "2026-10-06T23:04:23Z",
   "personality": {
-    "totalProfiles": 480,
+    "totalProfiles": 481,
     "pending": [],
     "done": [
       "lenin",
@@ -484,7 +484,8 @@
       "lukashenko",
       "giovanni-giolitti",
       "aldo-moro",
-      "silvio-berlusconi"
+      "silvio-berlusconi",
+      "juan-bautista-alberdi"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z"
   },

@@ -8158,5 +8158,22 @@
       "moral": 23.0,
       "tecnologia": 66.5
     }
+  },
+  {
+    "personalityId": "juan-bautista-alberdi",
+    "vector": {
+      "estrutura": 39.9,
+      "representacao": 50.7,
+      "poder": 43.6,
+      "imigracao": 24.3,
+      "diplomacia": 12.3,
+      "intervencao": 73.3,
+      "economia": 16.0,
+      "controle": 13.5,
+      "comercio": 11.3,
+      "religiao": 31.8,
+      "moral": 20.6,
+      "tecnologia": 78.4
+    }
   }
 ]
