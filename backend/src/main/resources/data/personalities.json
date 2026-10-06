@@ -6600,5 +6600,106 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "thomas-carlyle",
+    "name": "Thomas Carlyle",
+    "role": "Ensaísta e historiador",
+    "category": "filosofo",
+    "lifespan": "1795–1881",
+    "description": "Ensaísta e historiador escocês, criticou o liberalismo econômico chamando-o de dismal science e formulou a Teoria do Grande Homem, defendendo lideranças heróicas e ordem hierárquica contra o igualitarismo moderno.",
+    "imagePath": "/personalities/portraits/thomas-carlyle.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Thomas_Carlyle_by_John_Everett_Millais.jpg",
+    "imageNote": "Retrato de Thomas Carlyle por John Everett Millais, 1877.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "hans-adam-ii",
+    "name": "Hans-Adam II",
+    "role": "Príncipe de Liechtenstein",
+    "category": "politico",
+    "lifespan": "1945–",
+    "description": "Príncipe soberano de Liechtenstein desde 1989 e autor de O Estado no Terceiro Milênio, defende a autodeterminação local até o nível municipal, monarquia constitucional com veto e livre mercado.",
+    "imagePath": "/personalities/portraits/hans-adam-ii.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:HansAdam-II.jpg",
+    "imageNote": "Príncipe Hans-Adam II no feriado nacional de Liechtenstein, 2023.",
+    "religions": []
+  },
+  {
+    "id": "dom-bertrand",
+    "name": "Dom Bertrand",
+    "role": "Pretendente monárquico",
+    "category": "ativista",
+    "lifespan": "1941–",
+    "description": "Porta-voz do ramo de Vassouras da família imperial brasileira e ativista ligado ao TFP, defende a restauração da monarquia parlamentar católica, a propriedade privada rural e valores tradicionais.",
+    "imagePath": "/personalities/portraits/dom-bertrand.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dom_Bertrand_de_Orleans_e_Bragan%C3%A7a.jpg",
+    "imageNote": "Dom Bertrand de Orléans e Bragança no Encontro Monárquico.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "lukashenko",
+    "name": "Aleksandr Lukashenko",
+    "role": "Presidente da Bielorrússia",
+    "category": "politico",
+    "lifespan": "1954–",
+    "description": "Presidente da Bielorrússia desde 1994, governa sob regime autoritário e personalista, mantendo forte controle estatal sobre a economia, aliança militar com a Rússia e repressão sistemática à oposição.",
+    "imagePath": "/personalities/portraits/lukashenko.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Alexander_Lukashenko_(2024-05-24)_(cropped)_3.jpg",
+    "imageNote": "Aleksandr Lukashenko em visita oficial a Moscou, 2024.",
+    "religions": [
+      "orthodox"
+    ]
+  },
+  {
+    "id": "giovanni-giolitti",
+    "name": "Giovanni Giolitti",
+    "role": "Primeiro-ministro da Itália",
+    "category": "politico",
+    "lifespan": "1842–1928",
+    "description": "Cinco vezes primeiro-ministro da Itália liberal, governou por meio do transformismo pragmático, expandiu o sufrágio universal masculino e promoveu reformas sociais integrando socialistas moderados.",
+    "imagePath": "/personalities/portraits/giolitti.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Giovanni_Giolitti_1905.jpg",
+    "imageNote": "Retrato fotográfico de Giovanni Giolitti, 1905.",
+    "religions": []
+  },
+  {
+    "id": "aldo-moro",
+    "name": "Aldo Moro",
+    "role": "Primeiro-ministro da Itália",
+    "category": "politico",
+    "lifespan": "1916–1978",
+    "description": "Líder da Democracia Cristã e premiê italiano, articulou a abertura à esquerda e o Compromisso Histórico com o Partido Comunista para estabilizar o regime, sendo sequestrado e morto pelas Brigadas Vermelhas.",
+    "imagePath": "/personalities/portraits/aldo-moro.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Aldo_Moro_portrait.jpg",
+    "imageNote": "Retrato oficial de Aldo Moro.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "silvio-berlusconi",
+    "name": "Silvio Berlusconi",
+    "role": "Primeiro-ministro da Itália e empresário",
+    "category": "politico",
+    "lifespan": "1936–2023",
+    "description": "Magnata das comunicações e quatro vezes primeiro-ministro da Itália, fundou o Forza Italia e inaugurou uma era de populismo midiático de centro-direita, combinando liberalismo econômico e conservadorismo.",
+    "imagePath": "/personalities/portraits/silvio-berlusconi.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Silvio_Berlusconi_2019_(headshot).jpg",
+    "imageNote": "Retrato de Silvio Berlusconi no Parlamento Europeu, 2019.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
