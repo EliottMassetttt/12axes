@@ -198,8 +198,6 @@ interface Strings {
   resultsLead: (count: number) => string;
   resultsLeadShared: string;
   resultsSummaryAria: string;
-  metaAnswered: string;
-  metaAxes: string;
   metaTop: string;
   axesSectionEyebrow: string;
   axesSectionTitle: string;
@@ -213,6 +211,33 @@ interface Strings {
   resultsNavAreas: string;
   resultsNavBooks: string;
   resultsNavIdeologies: string;
+  resultsNavCompass: string;
+  compassTitle: string;
+  compassAuthoritarian: string;
+  compassLibertarian: string;
+  compassLeft: string;
+  compassRight: string;
+  compassProgressive: string;
+  compassTraditionalist: string;
+  compassWith: string;
+  compassSocialValues: string;
+  compassSpectrumLabels: Record<'esq-radical' | 'esquerda' | 'centro' | 'direita' | 'ext-direita' | 'terceira' | 'libertario' | 'anarquismo', string>;
+  compassSocialLabels: Record<'veryProgressive' | 'progressive' | 'moderate' | 'traditional' | 'veryTraditional', string>;
+  compassInfo: {
+    aria: string;
+    title: string;
+    intro: string;
+    horizontalTitle: string;
+    horizontal: string;
+    verticalTitle: string;
+    vertical: string;
+    barTitle: string;
+    bar: string;
+    ignoredTitle: string;
+    ignored: string;
+    note: string;
+  };
+  compassAria: (right: number, authoritarian: number, traditional: number) => string;
   countriesSectionTitle: string;
   countryCurrentTab: string;
   countryHistoricalTab: string;
@@ -682,8 +707,6 @@ const pt: Strings = {
   resultsLeadShared:
     'Resultado compartilhado: a posição em cada um dos 12 eixos políticos e as correspondências ideológicas calculadas a partir dele. Faça o teste para descobrir o seu.',
   resultsSummaryAria: 'Resumo da análise',
-  metaAnswered: 'Perguntas respondidas',
-  metaAxes: 'Eixos analisados',
   metaTop: 'Top match',
   axesSectionEyebrow: 'Eixos políticos',
   axesSectionTitle: 'Resultado percentual por eixo',
@@ -697,6 +720,49 @@ const pt: Strings = {
   resultsNavAreas: 'Áreas de atuação',
   resultsNavBooks: 'Para ler',
   resultsNavIdeologies: 'Outras ideologias',
+  resultsNavCompass: 'Bússola política',
+  compassTitle: 'Bússola política',
+  compassAuthoritarian: 'Autoritário',
+  compassLibertarian: 'Libertário',
+  compassLeft: 'Socialismo',
+  compassRight: 'Capitalismo',
+  compassProgressive: 'Progressista',
+  compassTraditionalist: 'Tradicionalista',
+  compassInfo: {
+    aria: 'Como a bússola política é feita',
+    title: 'Como a bússola é feita',
+    intro: 'A bússola traduz os seus 12 eixos em duas dimensões e uma barra, para uma leitura mais visual. É um resumo: não substitui a análise completa dos 12 eixos.',
+    horizontalTitle: 'Socialismo × Capitalismo',
+    horizontal: 'Combina economia (propriedade pública ou privada), controle (planejamento ou livre mercado) e comércio (protecionismo ou livre comércio), que pesam mais, com um peso menor de imigração e moral.',
+    verticalTitle: 'Autoritário × Libertário',
+    vertical: 'Combina poder (ordem e vigilância ou liberdade civil), representação (autocracia ou democracia) e estrutura (centralização ou federalismo).',
+    barTitle: 'Progressista × Tradicionalista',
+    bar: 'Vem apenas do eixo moral.',
+    ignoredTitle: 'O que fica de fora',
+    ignored: 'Diplomacia, intervenção, religião e tecnologia não entram no gráfico nem na barra. Elas continuam contando nas suas correspondências com ideologias, países e personalidades.',
+    note: 'A palavra ao lado do gráfico vem da categoria da sua ideologia mais compatível, e o ponto vem das suas respostas. Por isso os dois nem sempre coincidem: um socialismo de mercado, por exemplo, é classificado como de esquerda, mas pode ficar perto do centro no gráfico.'
+  },
+  compassWith: 'com valores sociais',
+  compassSocialValues: '',
+  compassSpectrumLabels: {
+    'esq-radical': 'Esquerda radical',
+    esquerda: 'Esquerda',
+    centro: 'Centrista',
+    direita: 'Direita',
+    'ext-direita': 'Extrema direita',
+    terceira: 'Terceira posição',
+    libertario: 'Libertário',
+    anarquismo: 'Anarquista'
+  },
+  compassSocialLabels: {
+    veryProgressive: 'Fortemente progressistas',
+    progressive: 'Progressistas',
+    moderate: 'Moderados',
+    traditional: 'Tradicionalistas',
+    veryTraditional: 'Fortemente tradicionalistas'
+  },
+  compassAria: (right, authoritarian, traditional) =>
+    `Sua posição: ${right}% rumo ao capitalismo, ${authoritarian}% rumo ao autoritarismo e ${traditional}% rumo ao tradicionalismo.`,
   countriesSectionTitle: 'Países mais próximos de você',
   countryCurrentTab: 'País atual',
   countryHistoricalTab: 'Experiência histórica',
@@ -1231,8 +1297,6 @@ const en: Strings = {
   resultsLeadShared:
     'Shared result: the position on each of the 12 political axes and the ideological matches calculated from it. Take the test to discover yours.',
   resultsSummaryAria: 'Analysis summary',
-  metaAnswered: 'Questions answered',
-  metaAxes: 'Axes analyzed',
   metaTop: 'Top match',
   axesSectionEyebrow: 'Political axes',
   axesSectionTitle: 'Percentage result per axis',
@@ -1246,6 +1310,49 @@ const en: Strings = {
   resultsNavAreas: 'Fields',
   resultsNavBooks: 'Further reading',
   resultsNavIdeologies: 'Other ideologies',
+  resultsNavCompass: 'Political compass',
+  compassTitle: 'Political compass',
+  compassAuthoritarian: 'Authoritarian',
+  compassLibertarian: 'Libertarian',
+  compassLeft: 'Socialism',
+  compassRight: 'Capitalism',
+  compassProgressive: 'Progressive',
+  compassTraditionalist: 'Traditionalist',
+  compassInfo: {
+    aria: 'How the political compass is made',
+    title: 'How the compass is made',
+    intro: 'The compass translates your 12 axes into two dimensions and a bar, for a more visual reading. It is a summary: it does not replace the full analysis of the 12 axes.',
+    horizontalTitle: 'Socialism × Capitalism',
+    horizontal: 'Combines economy (public or private ownership), control (planning or free market) and trade (protectionism or free trade), which weigh the most, with a smaller weight from immigration and morals.',
+    verticalTitle: 'Authoritarian × Libertarian',
+    vertical: 'Combines power (order and surveillance or civil liberty), representation (autocracy or democracy) and structure (centralization or federalism).',
+    barTitle: 'Progressive × Traditionalist',
+    bar: 'Comes only from the morals axis.',
+    ignoredTitle: 'What is left out',
+    ignored: 'Diplomacy, intervention, religion and technology do not enter the chart or the bar. They still count in your matches with ideologies, countries and figures.',
+    note: 'The word next to the chart comes from the category of your most compatible ideology, and the dot comes from your answers. That is why the two do not always agree: a market-oriented socialism, for example, is classed as left but can land near the center of the chart.'
+  },
+  compassWith: 'with',
+  compassSocialValues: 'social values',
+  compassSpectrumLabels: {
+    'esq-radical': 'Radical left',
+    esquerda: 'Left',
+    centro: 'Centrist',
+    direita: 'Right',
+    'ext-direita': 'Far-right',
+    terceira: 'Third position',
+    libertario: 'Libertarian',
+    anarquismo: 'Anarchist'
+  },
+  compassSocialLabels: {
+    veryProgressive: 'Strongly progressive',
+    progressive: 'Progressive',
+    moderate: 'Moderate',
+    traditional: 'Traditionalist',
+    veryTraditional: 'Strongly traditionalist'
+  },
+  compassAria: (right, authoritarian, traditional) =>
+    `Your position: ${right}% toward capitalism, ${authoritarian}% toward authoritarian and ${traditional}% toward traditionalist.`,
   countriesSectionTitle: 'Countries closest to you',
   countryCurrentTab: 'Present-day',
   countryHistoricalTab: 'Historical',

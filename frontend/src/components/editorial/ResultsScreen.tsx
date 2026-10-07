@@ -11,12 +11,13 @@ import { AreasSection } from '../results/AreasSection';
 import { AxesSection } from '../results/AxesSection';
 import { CompareSection } from '../results/CompareSection';
 import { CountriesSection } from '../results/CountriesSection';
-import { CountUpValue } from '../results/CountUpValue';
 import { IdeologiesSection } from '../results/IdeologiesSection';
 import { PersonalitiesSection } from '../results/PersonalitiesSection';
+import { PoliticalCompassSection } from '../results/PoliticalCompassSection';
 import { PhraseSection } from '../results/PhraseSection';
 import { ResultsNav } from '../results/ResultsNav';
 import { SignatureSection } from '../results/SignatureSection';
+import { computeCompass } from '../../utils/politicalCompass';
 import type { Religion } from '../../utils/religion';
 import { DownloadIcon, Ring, ShareImageIcon } from './primitives';
 
@@ -33,6 +34,7 @@ interface ResultsScreenProps {
 
 export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onShare, religion }: ResultsScreenProps) {
   const top = result.topMatch;
+  const compass = computeCompass(axisResults);
   const [printingPdf, setPrintingPdf] = useState(false);
 
   // O relatório é montado fora da tela; quando imagens e fontes carregam, o diálogo de
@@ -123,6 +125,8 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
 
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 
+          {compass && <PoliticalCompassSection position={compass} category={top.category} moralAxis={axes.find((axis) => axis.id === 'moral')} />}
+
           <div className="e-actions">
             <button className="e-btn e-btn-primary" type="button" onClick={onShare} disabled={isSharing}>
               {isSharing ? t.generatingPng : t.saveOrShare} <ShareImageIcon />
@@ -139,25 +143,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
         </div>
 
         <aside className="e-side" aria-label={t.resultsSummaryAria}>
-          <div className="e-panel e-side-meta">
-            {quiz && (
-              <div>
-                {t.metaAnswered}
-                <b>{quiz.questions.length}</b>
-              </div>
-            )}
-            <div>
-              {t.metaAxes}
-              <b>12</b>
-            </div>
-            <div>
-              {t.metaTop}
-              <b className="e-c">
-                <CountUpValue value={top.compatibility} delayMs={420} />
-              </b>
-            </div>
-          </div>
-          <ResultsNav hasBooks={(result.bookRecommendations?.length ?? 0) > 0} />
+          <ResultsNav hasBooks={(result.bookRecommendations?.length ?? 0) > 0} hasCompass={compass !== null} />
         </aside>
       </div>
       {printingPdf &&
