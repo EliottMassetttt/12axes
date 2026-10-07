@@ -3110,5 +3110,75 @@
     "role": "Media magnate",
     "lifespan": "1931–",
     "description": "Media magnate and founder of News Corp and Fox News, he backed Thatcher and the Iraq invasion. He advocates free markets, global trade and immigration alongside conservative cultural values."
+  },
+  {
+    "id": "gabriel-boric",
+    "name": "Gabriel Boric",
+    "role": "President of Chile",
+    "lifespan": "1986–",
+    "description": "Former student leader and President of Chile since 2022, he embodies the democratic Latin American left: climate focus, expanding welfare rights, strict defense of human rights and criticism of authoritarian regimes."
+  },
+  {
+    "id": "gustavo-petro",
+    "name": "Gustavo Petro",
+    "role": "President of Colombia",
+    "lifespan": "1960–",
+    "description": "Economist and Colombia's first leftist president, elected in 2022. He champions a green transition away from fossil fuels, Total Peace negotiations with insurgencies and redistributive welfare reforms."
+  },
+  {
+    "id": "donald-tusk",
+    "name": "Donald Tusk",
+    "role": "Prime Minister of Poland",
+    "lifespan": "1957–",
+    "description": "Leader of Civic Platform and former European Council President, returning to office in 2023: champion of EU integration, democratic rule of law and robust NATO collective defense against Russian aggression."
+  },
+  {
+    "id": "andrzej-duda",
+    "name": "Andrzej Duda",
+    "role": "President of Poland",
+    "lifespan": "1972–",
+    "description": "President of Poland aligned with Law and Justice (PiS). He champions conservative Catholic family values, military modernization, national sovereignty and staunch alliance with the US and NATO."
+  },
+  {
+    "id": "shigeru-ishiba",
+    "name": "Shigeru Ishiba",
+    "role": "Prime Minister of Japan",
+    "lifespan": "1957–",
+    "description": "Japanese Prime Minister and LDP leader, defense specialist. He advocates for a more self-reliant security posture, an Asian NATO concept, rural revitalization and prudent fiscal policies."
+  },
+  {
+    "id": "cyril-ramaphosa",
+    "name": "Cyril Ramaphosa",
+    "role": "President of South Africa",
+    "lifespan": "1952–",
+    "description": "Former trade union leader, businessman and South African President since 2018 for the ANC. He balances industrial growth, constitutional land reform, pragmatism in foreign trade and multilateral BRICS diplomacy."
+  },
+  {
+    "id": "miguel-diaz-canel",
+    "name": "Miguel Díaz-Canel",
+    "role": "President of Cuba",
+    "lifespan": "1960–",
+    "description": "First Secretary of the Communist Party and President of Cuba, succeeding Raúl Castro in 2018: maintains one-party socialist state planning while allowing measured private micro-enterprise reforms."
+  },
+  {
+    "id": "to-lam",
+    "name": "Tô Lâm",
+    "role": "General Secretary of the Communist Party of Vietnam",
+    "lifespan": "1957–",
+    "description": "General Secretary of Vietnam's Communist Party and former Public Security Minister. He oversees a socialist-oriented market economy, tech modernization, anti-corruption campaigns and balanced non-aligned diplomacy."
+  },
+  {
+    "id": "mohamed-bin-zayed-al-nahyan",
+    "name": "Mohamed bin Zayed Al Nahyan",
+    "role": "President of the United Arab Emirates",
+    "lifespan": "1961–",
+    "description": "Ruler of Abu Dhabi and UAE President since 2022. Architect of the Emirates' economic and military rise, he drove the Abraham Accords with Israel, post-oil technological diversification and controlled modernization."
+  },
+  {
+    "id": "keir-starmer",
+    "name": "Keir Starmer",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1962–",
+    "description": "British Prime Minister and Labour leader who won power in 2024. Former chief prosecutor, he emphasizes fiscal discipline, public clean energy investment, rebuilt public services and pragmatic ties with the EU."
   }
 ]

@@ -6742,5 +6742,147 @@
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Rupert_Murdoch_2011_Shankbone_2.JPG",
     "imageNote": "Foto de David Shankbone, 2011, CC BY 3.0 (https://creativecommons.org/licenses/by/3.0/); redimensionada e comprimida para o catálogo.",
     "religions": []
+  },
+  {
+    "id": "gabriel-boric",
+    "name": "Gabriel Boric",
+    "role": "Presidente do Chile",
+    "category": "politico",
+    "lifespan": "1986–",
+    "description": "Ex-líder estudantil e presidente do Chile desde 2022, representa a nova esquerda latino-americana: foco ecológico, ampliação de direitos sociais, defesa irrestrita dos direitos humanos e críticas a regimes autoritários.",
+    "imagePath": "/personalities/portraits/gabriel-boric.jpg",
+    "imageSourceName": "Wikimedia Commons / Presidencia de Chile",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Gabriel_Boric",
+    "imageNote": "Retrato oficial de Gabriel Boric via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "gustavo-petro",
+    "name": "Gustavo Petro",
+    "role": "Presidente da Colômbia",
+    "category": "politico",
+    "lifespan": "1960–",
+    "description": "Economista e primeiro presidente de esquerda da Colômbia, eleito em 2022. Prioriza a transição ecológica contra os combustíveis fósseis, a política de Paz Total com guerrilhas e reformas distributivas na saúde e previdência.",
+    "imagePath": "/personalities/portraits/gustavo-petro.jpg",
+    "imageSourceName": "Wikimedia Commons / Presidencia de Colombia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Gustavo_Petro",
+    "imageNote": "Retrato oficial de Gustavo Petro via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "donald-tusk",
+    "name": "Donald Tusk",
+    "role": "Primeiro-ministro da Polônia",
+    "category": "politico",
+    "lifespan": "1957–",
+    "description": "Líder da Plataforma Cívica e ex-presidente do Conselho Europeu, voltou ao cargo em 2023: defensor da integração com a União Europeia, do Estado de direito democrático e de aliança militar pró-OTAN de contenção russa.",
+    "imagePath": "/personalities/portraits/donald-tusk.jpg",
+    "imageSourceName": "Wikimedia Commons / KPRM",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Donald_Tusk",
+    "imageNote": "Retrato oficial de Donald Tusk via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "andrzej-duda",
+    "name": "Andrzej Duda",
+    "role": "Presidente da Polônia",
+    "category": "politico",
+    "lifespan": "1972–",
+    "description": "Presidente da Polônia ligado ao partido Lei e Justiça (PiS). Defende valores familiares católicos tradicionais, fortalecimento soberano das Forças Armadas polonesas, aliança firme com os Estados Unidos e a OTAN.",
+    "imagePath": "/personalities/portraits/andrzej-duda.jpg",
+    "imageSourceName": "Wikimedia Commons / Kancelaria Prezydenta RP",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Andrzej_Duda",
+    "imageNote": "Retrato oficial de Andrzej Duda via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "shigeru-ishiba",
+    "name": "Shigeru Ishiba",
+    "role": "Primeiro-ministro do Japão",
+    "category": "politico",
+    "lifespan": "1957–",
+    "description": "Primeiro-ministro japonês e líder do PLD, especialista em defesa. Defende um Japão mais assertivo militarmente, propôs uma OTAN asiática, revitalização das províncias rurais e reformas fiscais e constitucionais moderadas.",
+    "imagePath": "/personalities/portraits/shigeru-ishiba.jpg",
+    "imageSourceName": "Wikimedia Commons / Cabinet Public Affairs Office",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Shigeru_Ishiba",
+    "imageNote": "Retrato oficial de Shigeru Ishiba via Wikimedia Commons.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "cyril-ramaphosa",
+    "name": "Cyril Ramaphosa",
+    "role": "Presidente da África do Sul",
+    "category": "politico",
+    "lifespan": "1952–",
+    "description": "Ex-líder sindical, empresário e presidente da África do Sul pelo CNA desde 2018. Defende desenvolvimento industrial, pragmatismo no comércio exterior, reforma agrária constitucional e diplomacia multilateral nos BRICS.",
+    "imagePath": "/personalities/portraits/cyril-ramaphosa.jpg",
+    "imageSourceName": "Wikimedia Commons / GCIS",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Cyril_Ramaphosa",
+    "imageNote": "Retrato oficial de Cyril Ramaphosa via Wikimedia Commons.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "miguel-diaz-canel",
+    "name": "Miguel Díaz-Canel",
+    "role": "Presidente de Cuba",
+    "category": "politico",
+    "lifespan": "1960–",
+    "description": "Primeiro-secretário do Partido Comunista e presidente de Cuba, sucedeu Raúl Castro em 2018: mantém a continuidade da economia planificada socialista e o partido único, combinando reformas pontuais para pequenas empresas.",
+    "imagePath": "/personalities/portraits/miguel-diaz-canel.jpg",
+    "imageSourceName": "Wikimedia Commons / Presidencia de Cuba",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Miguel_D%C3%ADaz-Canel",
+    "imageNote": "Retrato oficial de Miguel Díaz-Canel via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "to-lam",
+    "name": "Tô Lâm",
+    "role": "Secretário-Geral do Partido Comunista do Vietnã",
+    "category": "politico",
+    "lifespan": "1957–",
+    "description": "Secretário-Geral do Partido Comunista do Vietnã e ex-ministro da Segurança Pública. Conduz a economia de mercado orientada ao socialismo, modernização tecnológica, combate à corrupção e política externa equilibrada.",
+    "imagePath": "/personalities/portraits/to-lam.jpg",
+    "imageSourceName": "Wikimedia Commons / VGP",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/T%C3%B4_L%C3%A2m",
+    "imageNote": "Retrato oficial de Tô Lâm via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "mohamed-bin-zayed-al-nahyan",
+    "name": "Mohamed bin Zayed Al Nahyan",
+    "role": "Presidente dos Emirados Árabes Unidos",
+    "category": "politico",
+    "lifespan": "1961–",
+    "description": "Governante de Abu Dhabi e presidente dos EAU desde 2022. Arquiteto da modernização militar e econômica dos Emirados, promoveu os Acordos de Abraão com Israel, diversificação pós-petróleo e tolerância religiosa sob monarquia.",
+    "imagePath": "/personalities/portraits/mohamed-bin-zayed-al-nahyan.jpg",
+    "imageSourceName": "Wikimedia Commons / Crown Prince Court",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Maom%C3%A9_bin_Zayed_Al_Nahyan",
+    "imageNote": "Retrato oficial de Mohamed bin Zayed via Wikimedia Commons.",
+    "religions": [
+      "islam"
+    ]
+  },
+  {
+    "id": "keir-starmer",
+    "name": "Keir Starmer",
+    "role": "Primeiro-ministro do Reino Unido",
+    "category": "politico",
+    "lifespan": "1962–",
+    "description": "Primeiro-ministro britânico e líder trabalhista que venceu as eleições de 2024. Ex-procurador-geral, defende disciplina fiscal, transição para energia limpa pública, restauração de serviços essenciais e relação estável com a UE.",
+    "imagePath": "/personalities/portraits/keir-starmer.jpg",
+    "imageSourceName": "Wikimedia Commons / 10 Downing Street",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Keir_Starmer",
+    "imageNote": "Retrato oficial de Keir Starmer via Wikimedia Commons.",
+    "religions": []
   }
 ]
