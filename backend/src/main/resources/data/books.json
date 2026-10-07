@@ -2998,5 +2998,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "alvaro-uribe",
+    "title": {
+      "pt": "Não Há Causa Perdida",
+      "en": "No Lost Causes"
+    },
+    "year": 2012,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "shinzo-abe",
+    "title": {
+      "pt": "Rumo a uma Nação Bela",
+      "en": "Toward a Beautiful Country: My Vision for Japan"
+    },
+    "year": 2006,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

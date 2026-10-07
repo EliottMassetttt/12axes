@@ -519,7 +519,9 @@
       "guilherme-freire",
       "nando-moura",
       "raphael-lima",
-      "joao-campos"
+      "joao-campos",
+      "alvaro-uribe",
+      "shinzo-abe"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,
@@ -1007,5 +1009,6 @@
       "rus-de-kiev",
       "reino-da-escocia"
     ]
-  }
+  },
+  "totalProfiles": 773
 }
