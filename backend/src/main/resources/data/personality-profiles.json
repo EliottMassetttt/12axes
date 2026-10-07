@@ -8379,5 +8379,141 @@
       "moral": 74.0,
       "tecnologia": 50.0
     }
+  },
+  {
+    "personalityId": "david-friedman",
+    "vector": {
+      "estrutura": 96.2,
+      "representacao": 88.8,
+      "poder": 15.9,
+      "imigracao": 13.8,
+      "diplomacia": 36.1,
+      "intervencao": 81.7,
+      "economia": 1.8,
+      "controle": 2.8,
+      "comercio": 0.6,
+      "religiao": 87.4,
+      "moral": 47.9,
+      "tecnologia": 92.5
+    }
+  },
+  {
+    "personalityId": "henry-hazlitt",
+    "vector": {
+      "estrutura": 74.4,
+      "representacao": 76.0,
+      "poder": 25.6,
+      "imigracao": 24.5,
+      "diplomacia": 36.1,
+      "intervencao": 76.9,
+      "economia": 1.8,
+      "controle": 1.6,
+      "comercio": 0.6,
+      "religiao": 80.2,
+      "moral": 38.3,
+      "tecnologia": 86.8
+    }
+  },
+  {
+    "personalityId": "david-graeber",
+    "vector": {
+      "estrutura": 93.8,
+      "representacao": 96.0,
+      "poder": 4.0,
+      "imigracao": 1.0,
+      "diplomacia": 1.6,
+      "intervencao": 91.2,
+      "economia": 88.9,
+      "controle": 74.6,
+      "comercio": 88.3,
+      "religiao": 94.0,
+      "moral": 97.9,
+      "tecnologia": 34.5
+    }
+  },
+  {
+    "personalityId": "ricardo-flores-magon",
+    "vector": {
+      "estrutura": 95.0,
+      "representacao": 90.0,
+      "poder": 12.3,
+      "imigracao": 2.1,
+      "diplomacia": 33.7,
+      "intervencao": 74.5,
+      "economia": 83.0,
+      "controle": 71.0,
+      "comercio": 91.9,
+      "religiao": 98.8,
+      "moral": 93.1,
+      "tecnologia": 15.5
+    }
+  },
+  {
+    "personalityId": "gustav-landauer",
+    "vector": {
+      "estrutura": 99.8,
+      "representacao": 93.6,
+      "poder": 1.6,
+      "imigracao": 1.0,
+      "diplomacia": 1.6,
+      "intervencao": 96.0,
+      "economia": 87.7,
+      "controle": 48.4,
+      "comercio": 70.5,
+      "religiao": 58.3,
+      "moral": 76.4,
+      "tecnologia": 6.2
+    }
+  },
+  {
+    "personalityId": "guy-debord",
+    "vector": {
+      "estrutura": 61.7,
+      "representacao": 81.7,
+      "poder": 13.5,
+      "imigracao": 4.5,
+      "diplomacia": 7.5,
+      "intervencao": 90.0,
+      "economia": 96.0,
+      "controle": 87.7,
+      "comercio": 93.1,
+      "religiao": 98.8,
+      "moral": 94.3,
+      "tecnologia": 18.1
+    }
+  },
+  {
+    "personalityId": "alexander-berkman",
+    "vector": {
+      "estrutura": 93.8,
+      "representacao": 88.8,
+      "poder": 12.3,
+      "imigracao": 1.9,
+      "diplomacia": 32.5,
+      "intervencao": 97.1,
+      "economia": 84.1,
+      "controle": 58.0,
+      "comercio": 76.4,
+      "religiao": 98.1,
+      "moral": 77.6,
+      "tecnologia": 65.5
+    }
+  },
+  {
+    "personalityId": "carlos-marighella",
+    "vector": {
+      "estrutura": 26.0,
+      "representacao": 79.3,
+      "poder": 14.7,
+      "imigracao": 9.3,
+      "diplomacia": 73.1,
+      "intervencao": 54.3,
+      "economia": 98.4,
+      "controle": 98.4,
+      "comercio": 96.7,
+      "religiao": 94.0,
+      "moral": 86.0,
+      "tecnologia": 80.8
+    }
   }
 ]

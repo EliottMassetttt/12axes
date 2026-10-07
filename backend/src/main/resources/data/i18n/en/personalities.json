@@ -3180,5 +3180,61 @@
     "role": "Prime Minister of the United Kingdom",
     "lifespan": "1962–",
     "description": "British Prime Minister and Labour leader who won power in 2024. Former chief prosecutor, he emphasizes fiscal discipline, public clean energy investment, rebuilt public services and pragmatic ties with the EU."
+  },
+  {
+    "id": "david-friedman",
+    "name": "David Friedman",
+    "role": "Economist and anarcho-capitalist theorist",
+    "lifespan": "1945–",
+    "description": "Economist and physicist who pioneered consequentialist anarcho-capitalism: argues that law, courts and police can be efficiently provided by competitive free markets without relying on natural rights."
+  },
+  {
+    "id": "henry-hazlitt",
+    "name": "Henry Hazlitt",
+    "role": "Libertarian economist and journalist",
+    "lifespan": "1894–1993",
+    "description": "American economic journalist and philosopher associated with the Austrian School, celebrated for popularizing free-market economics and exposing the unseen costs of government price controls and subsidies."
+  },
+  {
+    "id": "david-graeber",
+    "name": "David Graeber",
+    "role": "Anthropologist and anarchist activist",
+    "lifespan": "1961–2020",
+    "description": "Anthropologist and anarchist activist, leading figure of Occupy Wall Street: explored the moral origins of debt and money, attacked corporate bureaucracy and advocated for direct consensus democracy."
+  },
+  {
+    "id": "ricardo-flores-magon",
+    "name": "Ricardo Flores Magón",
+    "role": "Anarcho-communist revolutionary",
+    "lifespan": "1874–1922",
+    "description": "Mexican journalist and revolutionary who led the magonismo movement and the PLM: fought for the abolition of state power and private property under the slogan Tierra y Libertad against the Díaz dictatorship."
+  },
+  {
+    "id": "gustav-landauer",
+    "name": "Gustav Landauer",
+    "role": "Communitarian anarchist philosopher",
+    "lifespan": "1870–1919",
+    "description": "German anarchist philosopher of the Bavarian Soviet Republic: argued that the state is a social relationship overcome by building voluntary cooperative communities, rejecting orthodox Marxist dogma."
+  },
+  {
+    "id": "guy-debord",
+    "name": "Guy Debord",
+    "role": "Marxist theorist and Situationist",
+    "lifespan": "1931–1994",
+    "description": "French author and filmmaker, founder of the Situationist International: formulated the critique of the society of the spectacle, where authentic human life is replaced by commodified media images."
+  },
+  {
+    "id": "alexander-berkman",
+    "name": "Alexander Berkman",
+    "role": "Anarcho-communist activist and writer",
+    "lifespan": "1870–1936",
+    "description": "Russian-American writer and militant, companion of Emma Goldman: championed direct revolutionary action and stateless libertarian communism while exposing Bolshevik repression during the Russian Revolution."
+  },
+  {
+    "id": "carlos-marighella",
+    "name": "Carlos Marighella",
+    "role": "Guerrilla leader and Marxist theorist",
+    "lifespan": "1911–1969",
+    "description": "Constituent congressman and founder of the National Liberation Action (ALN), he broke with the orthodox PCB to wage urban armed struggle against the Brazilian military dictatorship."
   }
 ]

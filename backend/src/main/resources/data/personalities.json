@@ -6884,5 +6884,111 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Keir_Starmer",
     "imageNote": "Retrato oficial de Keir Starmer via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "david-friedman",
+    "name": "David Friedman",
+    "role": "Economista e teórico anarcocapitalista",
+    "category": "economista",
+    "lifespan": "1945–",
+    "description": "Economista e físico, formulou o anarcocapitalismo consequencialista: defende que a lei, a justiça e a segurança podem ser providas pelo livre mercado por eficiência e incentivos, sem apelar a direitos naturais.",
+    "imagePath": "/personalities/portraits/david-friedman.jpg",
+    "imageSourceName": "Wikimedia Commons / Gage Skidmore",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/David_Friedman",
+    "imageNote": "Foto de David Friedman em 2017 por Gage Skidmore via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "henry-hazlitt",
+    "name": "Henry Hazlitt",
+    "role": "Economista e jornalista libertário",
+    "category": "economista",
+    "lifespan": "1894–1993",
+    "description": "Jornalista econômico e filósofo americano associado à Escola Austríaca, popularizou a crítica ao intervencionismo e ao planejamento estatal, destacando as consequências invisíveis de tarifas e subsídios.",
+    "imagePath": "/personalities/portraits/henry-hazlitt.jpg",
+    "imageSourceName": "Wikimedia Commons / Mises Institute",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Henry_Hazlitt",
+    "imageNote": "Retrato de Henry Hazlitt via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "david-graeber",
+    "name": "David Graeber",
+    "role": "Antropólogo e ativista anarquista",
+    "category": "intelectual",
+    "lifespan": "1961–2020",
+    "description": "Antropólogo e militante anarquista, figura central do Occupy Wall Street: analisou as origens morais da dívida e do dinheiro, criticou a burocracia corporativa e defendeu a democracia direta por consenso.",
+    "imagePath": "/personalities/portraits/david-graeber.jpg",
+    "imageSourceName": "Wikimedia Commons / Nika Dubrovsky",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/David_Graeber",
+    "imageNote": "Retrato de David Graeber via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "ricardo-flores-magon",
+    "name": "Ricardo Flores Magón",
+    "role": "Revolucionário anarcocomunista",
+    "category": "ativista",
+    "lifespan": "1874–1922",
+    "description": "Jornalista e revolucionário mexicano, liderou o magonismo e o Partido Liberal Mexicano: defendeu a abolição da autoridade e da propriedade privada sob o lema Tierra y Libertad contra a ditadura de Porfírio Díaz.",
+    "imagePath": "/personalities/portraits/ricardo-flores-magon.jpg",
+    "imageSourceName": "Wikimedia Commons / Library of Congress",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Ricardo_Flores_Mag%C3%B3n",
+    "imageNote": "Retrato de Ricardo Flores Magón via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "gustav-landauer",
+    "name": "Gustav Landauer",
+    "role": "Filósofo anarquista comunitarista",
+    "category": "filosofo",
+    "lifespan": "1870–1919",
+    "description": "Filósofo e teórico anarquista alemão da República dos Conselhos da Baviera: definiu o Estado como uma relação social que se destrói criando comunidades cooperativas, rejeitando o determinismo marxista.",
+    "imagePath": "/personalities/portraits/gustav-landauer.jpg",
+    "imageSourceName": "Wikimedia Commons / Bundesarchiv",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Gustav_Landauer",
+    "imageNote": "Retrato de Gustav Landauer via Wikimedia Commons.",
+    "religions": [
+      "judaism"
+    ]
+  },
+  {
+    "id": "guy-debord",
+    "name": "Guy Debord",
+    "role": "Teórico marxista e situacionista",
+    "category": "teorico",
+    "lifespan": "1931–1994",
+    "description": "Escritor e cineasta francês, fundador da Internacional Situacionista: formulou a crítica da sociedade do espetáculo, onde a vida autêntica é substituída por imagens de consumo e alienação da mercadoria.",
+    "imagePath": "/personalities/portraits/guy-debord.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Guy_Debord",
+    "imageNote": "Retrato de Guy Debord via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "alexander-berkman",
+    "name": "Alexander Berkman",
+    "role": "Militante e escritor anarcocomunista",
+    "category": "ativista",
+    "lifespan": "1870–1936",
+    "description": "Escritor e ativista russo-americano, companheiro de Emma Goldman: defendeu a ação direta revolucionária e o comunismo libertário sem Estado, denunciando a repressão bolchevique na Revolução Russa.",
+    "imagePath": "/personalities/portraits/alexander-berkman.jpg",
+    "imageSourceName": "Wikimedia Commons / Library of Congress",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Alexander_Berkman",
+    "imageNote": "Retrato de Alexander Berkman via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "carlos-marighella",
+    "name": "Carlos Marighella",
+    "role": "Guerrilheiro e teórico marxista-leninista",
+    "category": "politico",
+    "lifespan": "1911–1969",
+    "description": "Deputado constituinte e líder da Ação Libertadora Nacional (ALN), rompeu com o PCB para iniciar a luta armada urbana contra a ditadura militar, teorizando táticas de guerrilha urbana e revolução socialista.",
+    "imagePath": "/personalities/portraits/carlos-marighella.jpg",
+    "imageSourceName": "Wikimedia Commons / Arquivo Público do Estado do Rio de Janeiro",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_Marighella",
+    "imageNote": "Foto de Carlos Marighella como deputado via Wikimedia Commons.",
+    "religions": []
   }
 ]

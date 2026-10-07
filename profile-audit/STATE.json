@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-06T21:07:58Z",
+  "lastUpdated": "2026-10-06T21:34:07Z",
   "personality": {
-    "totalProfiles": 493,
+    "totalProfiles": 501,
     "pending": [],
     "done": [
       "lenin",
@@ -497,7 +497,15 @@
       "miguel-diaz-canel",
       "to-lam",
       "mohamed-bin-zayed-al-nahyan",
-      "keir-starmer"
+      "keir-starmer",
+      "david-friedman",
+      "henry-hazlitt",
+      "david-graeber",
+      "ricardo-flores-magon",
+      "gustav-landauer",
+      "guy-debord",
+      "alexander-berkman",
+      "carlos-marighella"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z"
   },
