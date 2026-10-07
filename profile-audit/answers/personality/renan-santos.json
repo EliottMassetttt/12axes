@@ -275,7 +275,7 @@
     }
   },
   "tecnologia": {
-    "personaBrief": "Sem dados curados diretos sobre tecnologia ou meio ambiente; como liberal econômico pró-mercado e pragmático (Milei na forma), tende a favorecer inovação, exploração de recursos e soluções tecnológicas em vez de restrições regulatórias ou ambientalismo doutrinário.",
+    "personaBrief": "O programa presidencial de Renan (Livro Amarelo) foca em soberania tecnológica, investimento na corrida de inteligência artificial, exploração de terras raras e transição energética pragmática, tratando a inovação industrial e tecnológica como motor do desenvolvimento nacional.",
     "answers": {
       "tecnologia_01": "C",
       "tecnologia_13": "C",
@@ -298,5 +298,12 @@
       "tecnologia_14": "N",
       "tecnologia_11": "C"
     }
+  },
+  "archetype": {
+    "sociedade": "E",
+    "poder": "C",
+    "economia": "F",
+    "mundo": "B",
+    "tecnologia": "D"
   }
 }
