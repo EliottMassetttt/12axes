@@ -152,29 +152,20 @@ export function PoliticalCompassSection({ position, category, moralAxis }: Polit
       </div>
 
       {isInfoOpen && (
-        <InfoSheet titleId="compass-info-title" onClose={() => setIsInfoOpen(false)}>
+        <InfoSheet titleId="compass-info-title" className="e-compass-sheet" onClose={() => setIsInfoOpen(false)}>
           <p className="e-axis-sheet-label">{t.compassTitle}</p>
           <h3 id="compass-info-title">{t.compassInfo.title}</h3>
-          <p className="e-axis-sheet-text">{t.compassInfo.intro}</p>
           <ul className="e-compass-how">
-            <li>
-              <strong>{t.compassInfo.horizontalTitle}</strong>
-              <span>{t.compassInfo.horizontal}</span>
-            </li>
-            <li>
-              <strong>{t.compassInfo.verticalTitle}</strong>
-              <span>{t.compassInfo.vertical}</span>
-            </li>
-            <li>
-              <strong>{t.compassInfo.barTitle}</strong>
-              <span>{t.compassInfo.bar}</span>
-            </li>
-            <li>
-              <strong>{t.compassInfo.ignoredTitle}</strong>
-              <span>{t.compassInfo.ignored}</span>
-            </li>
+            {[
+              { lead: t.compassInfo.authLead, text: t.compassInfo.authText },
+              { lead: t.compassInfo.econLead, text: t.compassInfo.econText },
+              { lead: t.compassInfo.socialLead, text: t.compassInfo.socialText }
+            ].map((item) => (
+              <li key={item.lead}>
+                <strong>{item.lead}</strong> {item.text}
+              </li>
+            ))}
           </ul>
-          <p className="e-compass-note">{t.compassInfo.note}</p>
         </InfoSheet>
       )}
     </section>

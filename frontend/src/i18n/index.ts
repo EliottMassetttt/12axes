@@ -226,16 +226,12 @@ interface Strings {
   compassInfo: {
     aria: string;
     title: string;
-    intro: string;
-    horizontalTitle: string;
-    horizontal: string;
-    verticalTitle: string;
-    vertical: string;
-    barTitle: string;
-    bar: string;
-    ignoredTitle: string;
-    ignored: string;
-    note: string;
+    authLead: string;
+    authText: string;
+    econLead: string;
+    econText: string;
+    socialLead: string;
+    socialText: string;
   };
   compassAria: (right: number, authoritarian: number, traditional: number) => string;
   countriesSectionTitle: string;
@@ -376,7 +372,7 @@ interface Strings {
 
 const pt: Strings = {
   htmlLang: 'pt-BR',
-  docTitle: '12 Axes — Quiz Político e Teste Ideológico em 12 Eixos',
+  docTitle: '12 Axes — Teste Político Grátis e Quiz de Ideologia em 12 Eixos',
   loadingAnalysis: 'Carregando análise política...',
   loadingQuiz: 'Carregando quiz...',
   loadingResult: 'Carregando resultado...',
@@ -623,6 +619,26 @@ const pt: Strings = {
       question: 'Posso responder pelo celular?',
       answer:
         'Sim. A interface foi pensada para celular e desktop, então você pode fazer o teste político pelo navegador do smartphone.'
+    },
+    {
+      question: 'O que é o 12 Axes?',
+      answer: 'O 12 Axes é um teste político gratuito que mede sua posição em 12 eixos (estrutura do Estado, representação, liberdades, imigração, diplomacia, intervenção, economia, controle econômico, comércio, religião, moral e tecnologia) e mostra sua ideologia política, país e personalidade compatíveis.'
+    },
+    {
+      question: 'O 12 Axes tem bússola política (political compass)?',
+      answer: 'Sim. No fim do resultado há uma bússola política em dois eixos, socialismo × capitalismo e autoritário × libertário, com uma barra progressista × tradicionalista. Ela resume seus 12 eixos de forma visual, mas não substitui a análise completa.'
+    },
+    {
+      question: 'Como descobrir minha ideologia política compatível?',
+      answer: 'Faça o quiz político, com 36, 60 ou 240 perguntas. O resultado mostra as ideologias mais compatíveis com as suas respostas, com a porcentagem de compatibilidade e a posição de cada uma nos 12 eixos.'
+    },
+    {
+      question: 'Posso descobrir qual país ou personalidade combina comigo?',
+      answer: 'Sim. Além da ideologia, o resultado compara seu perfil com países atuais, regimes históricos e personalidades políticas, mostrando os mais compatíveis e os mais distantes de você.'
+    },
+    {
+      question: 'Quantas perguntas tem o quiz de política?',
+      answer: 'Há três versões: a rápida, com 36 perguntas, a completa, com 60, e a extrema, com 240. Todas cobrem os mesmos 12 eixos; quanto mais perguntas, mais preciso tende a ser o resultado.'
     }
   ],
   howEyebrow: 'Como funciona',
@@ -731,16 +747,12 @@ const pt: Strings = {
   compassInfo: {
     aria: 'Como a bússola política é feita',
     title: 'Como a bússola é feita',
-    intro: 'A bússola traduz os seus 12 eixos em duas dimensões e uma barra, para uma leitura mais visual. É um resumo: não substitui a análise completa dos 12 eixos.',
-    horizontalTitle: 'Socialismo × Capitalismo',
-    horizontal: 'Combina economia (propriedade pública ou privada), controle (planejamento ou livre mercado) e comércio (protecionismo ou livre comércio), que pesam mais, com um peso menor de imigração e moral.',
-    verticalTitle: 'Autoritário × Libertário',
-    vertical: 'Combina poder (ordem e vigilância ou liberdade civil), representação (autocracia ou democracia) e estrutura (centralização ou federalismo).',
-    barTitle: 'Progressista × Tradicionalista',
-    bar: 'Vem apenas do eixo moral.',
-    ignoredTitle: 'O que fica de fora',
-    ignored: 'Diplomacia, intervenção, religião e tecnologia não entram no gráfico nem na barra. Elas continuam contando nas suas correspondências com ideologias, países e personalidades.',
-    note: 'A palavra ao lado do gráfico vem da categoria da sua ideologia mais compatível, e o ponto vem das suas respostas. Por isso os dois nem sempre coincidem: um socialismo de mercado, por exemplo, é classificado como de esquerda, mas pode ficar perto do centro no gráfico.'
+    authLead: 'O eixo autoritário × libertário',
+    authText: 'mede o grau de concentração do poder político e de intervenção do Estado sobre a vida dos indivíduos. Considera três dimensões principais: liberdades individuais, representação política e estrutura do Estado.',
+    econLead: 'O eixo socialismo × capitalismo',
+    econText: 'mede como a economia é organizada, variando entre propriedade coletiva e planejamento econômico e propriedade privada e livre mercado, independentemente do grau de intervenção estatal. Considera principalmente economia, controle e comércio, com influência secundária de imigração e moral.',
+    socialLead: 'O eixo social',
+    socialText: 'mede a orientação dos seus valores entre progressismo e tradicionalismo, refletindo sua posição em questões de costumes, cultura e valores sociais.'
   },
   compassWith: 'com valores sociais',
   compassSocialValues: '',
@@ -955,7 +967,7 @@ const pt: Strings = {
 
 const en: Strings = {
   htmlLang: 'en',
-  docTitle: '12 Axes — Political Quiz and Ideology Test across 12 Axes',
+  docTitle: '12 Axes — Free Political Test, Quiz & Compass Across 12 Axes',
   loadingAnalysis: 'Loading political analysis...',
   loadingQuiz: 'Loading quiz...',
   loadingResult: 'Loading results...',
@@ -1213,6 +1225,26 @@ const en: Strings = {
       question: 'Can I take it on my phone?',
       answer:
         'Yes. The interface was designed for mobile and desktop, so you can take the political test in your smartphone browser.'
+    },
+    {
+      question: 'What is 12 Axes?',
+      answer: '12 Axes is a free political test that measures your position across 12 axes (state structure, representation, liberties, immigration, diplomacy, intervention, economy, economic control, trade, religion, morals and technology) and shows your compatible political ideology, country and political figure.'
+    },
+    {
+      question: 'Does 12 Axes have a political compass?',
+      answer: 'Yes. At the end of the result there is a two-axis political compass, socialism × capitalism and authoritarian × libertarian, with a progressive × traditionalist bar. It summarizes your 12 axes visually, but it does not replace the full analysis.'
+    },
+    {
+      question: 'How do I find my compatible political ideology?',
+      answer: 'Take the political quiz, with 36, 60 or 240 questions. The result shows the ideologies most compatible with your answers, with the compatibility percentage and the position of each one across the 12 axes.'
+    },
+    {
+      question: 'Can I find out which country or political figure matches me?',
+      answer: 'Yes. Besides ideology, the result compares your profile with current countries, historical regimes and political figures, showing the most compatible and the furthest from you.'
+    },
+    {
+      question: 'How many questions does the political quiz have?',
+      answer: 'There are three versions: quick, with 36 questions, full, with 60, and extreme, with 240. All cover the same 12 axes; the more questions, the more precise the result tends to be.'
     }
   ],
   howEyebrow: 'How it works',
@@ -1321,16 +1353,12 @@ const en: Strings = {
   compassInfo: {
     aria: 'How the political compass is made',
     title: 'How the compass is made',
-    intro: 'The compass translates your 12 axes into two dimensions and a bar, for a more visual reading. It is a summary: it does not replace the full analysis of the 12 axes.',
-    horizontalTitle: 'Socialism × Capitalism',
-    horizontal: 'Combines economy (public or private ownership), control (planning or free market) and trade (protectionism or free trade), which weigh the most, with a smaller weight from immigration and morals.',
-    verticalTitle: 'Authoritarian × Libertarian',
-    vertical: 'Combines power (order and surveillance or civil liberty), representation (autocracy or democracy) and structure (centralization or federalism).',
-    barTitle: 'Progressive × Traditionalist',
-    bar: 'Comes only from the morals axis.',
-    ignoredTitle: 'What is left out',
-    ignored: 'Diplomacy, intervention, religion and technology do not enter the chart or the bar. They still count in your matches with ideologies, countries and figures.',
-    note: 'The word next to the chart comes from the category of your most compatible ideology, and the dot comes from your answers. That is why the two do not always agree: a market-oriented socialism, for example, is classed as left but can land near the center of the chart.'
+    authLead: 'The authoritarian × libertarian axis',
+    authText: 'measures the degree of concentration of political power and of state intervention in the lives of individuals. It considers three main dimensions: individual liberties, political representation and state structure.',
+    econLead: 'The socialism × capitalism axis',
+    econText: 'measures how the economy is organized, ranging from collective ownership and economic planning to private property and free markets, regardless of the degree of state intervention. It mainly considers economy, control and trade, with secondary influence from immigration and morals.',
+    socialLead: 'The social axis',
+    socialText: 'measures the orientation of your values between progressivism and traditionalism, reflecting your position on customs, culture and social values.'
   },
   compassWith: 'with',
   compassSocialValues: 'social values',

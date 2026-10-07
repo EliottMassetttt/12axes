@@ -79,13 +79,13 @@ const STR = {
     ideologyHeadline: (name) => `${name} — posição política nos 12 eixos`,
     countryHeadline: (name) => `${name} — perfil político nos 12 eixos`,
     ideologiesIndexTitle: (n) => `Ideologias políticas: lista completa com ${n} correntes | 12 Axes`,
-    ideologiesIndexDesc: (n) => `Explore ${n} ideologias políticas — do comunismo ao libertarianismo — com descrição e posição em 12 eixos. Descubra a sua com o quiz político 12 Axes.`,
+    ideologiesIndexDesc: (n) => `Lista completa de ${n} ideologias políticas, do comunismo ao libertarianismo, com posição em 12 eixos. Descubra a sua no teste político 12 Axes, grátis e rápido.`,
     ideologiesIndexHeading: 'Ideologias políticas',
     countriesIndexTitle: (n) => `Perfis políticos de ${n} países e regimes históricos | 12 Axes`,
-    countriesIndexDesc: (n) => `Compare o perfil político de ${n} países e regimes históricos em 12 eixos — democracia, economia, liberdades e mais. Descubra seu país mais compatível.`,
+    countriesIndexDesc: (n) => `Compare o perfil político de ${n} países e regimes históricos em 12 eixos. Descubra qual país é compatível com você no teste político 12 Axes, grátis.`,
     countriesIndexHeading: 'Países e regimes',
     personalitiesIndexTitle: (n) => `${n} personalidades políticas e suas posições | 12 Axes`,
-    personalitiesIndexDesc: (n) => `Veja a posição política de ${n} personalidades históricas e contemporâneas em 12 eixos. Descubra com quem você mais se parece no quiz 12 Axes.`,
+    personalitiesIndexDesc: (n) => `Veja a posição política de ${n} personalidades em 12 eixos. Descubra qual personalidade é compatível com você no teste político 12 Axes, grátis e rápido.`,
     personalitiesIndexHeading: 'Personalidades políticas'
   },
   en: {
@@ -114,13 +114,13 @@ const STR = {
     ideologyHeadline: (name) => `${name} — political position on the 12 axes`,
     countryHeadline: (name) => `${name} — political profile across the 12 axes`,
     ideologiesIndexTitle: (n) => `Political ideologies: full list of ${n} currents | 12 Axes`,
-    ideologiesIndexDesc: (n) => `Explore ${n} political ideologies — from communism to libertarianism — with descriptions and positions on 12 axes. Find yours with the 12 Axes political quiz.`,
+    ideologiesIndexDesc: (n) => `Full list of ${n} political ideologies, from communism to libertarianism, with positions on 12 axes. Find yours with the free, fast 12 Axes political test.`,
     ideologiesIndexHeading: 'Political ideologies',
     countriesIndexTitle: (n) => `Political profiles of ${n} countries and historical regimes | 12 Axes`,
-    countriesIndexDesc: (n) => `Compare the political profile of ${n} countries and historical regimes across 12 axes — democracy, economy, liberties, and more. Find your most compatible country.`,
+    countriesIndexDesc: (n) => `Compare the political profile of ${n} countries and historical regimes across 12 axes. Find which country is compatible with you in the free 12 Axes political test.`,
     countriesIndexHeading: 'Countries and regimes',
     personalitiesIndexTitle: (n) => `${n} political personalities and their positions | 12 Axes`,
-    personalitiesIndexDesc: (n) => `See the political position of ${n} historical and contemporary personalities across 12 axes. Discover who you resemble most with the 12 Axes quiz.`,
+    personalitiesIndexDesc: (n) => `See the political position of ${n} personalities across 12 axes. Find which political figure is compatible with you in the free, fast 12 Axes political test.`,
     personalitiesIndexHeading: 'Political personalities'
   }
 };
@@ -242,14 +242,14 @@ function buildHomeVariants() {
   writeFileSync(join(DIST, 'results.html'), results);
 
   const enSeoBlock = `<!-- Primary SEO -->
-    <title>12 Axes — Political Quiz and Ideology Test across 12 Axes</title>
+    <title>12 Axes — Free Political Test, Quiz & Compass Across 12 Axes</title>
     <meta
       name="description"
-      content="Discover your political position in 5 minutes with 12 Axes. A free political quiz and ideology test that maps your political spectrum — left, right, center — across 12 axes."
+      content="The free, fast and accurate 12 Axes political test. Find your ideology, country and political figure match across 12 axes, with a political compass."
     />
     <meta
       name="keywords"
-      content="political test, ideology test, political spectrum, political position, political ideology, left, right, center, liberalism, conservatism, progressivism, libertarianism, socialism, capitalism, democracy, federalism, immigration, international trade, religion in politics, economic policy, political representation, 12 axes, 12axes, political quiz, elections, monarchy, political compass"
+      content="political test, free political test, political quiz, ideology test, political ideology, find your ideology, find your compatible ideology, find your compatible country, find your compatible political figure, political spectrum, political compass, political coordinates, political compass test, 12 axes, 12 axes political test, 12axes, 12 axes quiz, left, right, center, liberalism, conservatism, progressivism, libertarianism, socialism, capitalism"
     />
     <meta name="author" content="12 Axes" />
     <meta name="application-name" content="12 Axes" />
@@ -267,24 +267,24 @@ function buildHomeVariants() {
     <meta property="og:site_name" content="12 Axes" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:url" content="https://12axes.vercel.app/en" />
-    <meta property="og:title" content="12 Axes — Political Quiz and Ideology Test across 12 Axes" />
+    <meta property="og:title" content="12 Axes — Free Political Test, Quiz & Compass Across 12 Axes" />
     <meta
       property="og:description"
-      content="Discover your political position in 5 minutes. A free political quiz that maps your political spectrum, political ideology, and 12 axes."
+      content="A complete, free political quiz: find your political ideology, compatible country and political figure across 12 axes, with a political compass and full spectrum."
     />
     <meta property="og:image" content="https://12axes.vercel.app/logo.png" />
     <meta property="og:image:width" content="512" />
     <meta property="og:image:height" content="512" />
-    <meta property="og:image:alt" content="12 Axes logo — a 12-axis political quiz" />
+    <meta property="og:image:alt" content="12 Axes logo — a 12-axis political test" />
 
     `;
 
   const enTwitterBlock = `<!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="12 Axes — Political Quiz and Ideology Test across 12 Axes" />
+    <meta name="twitter:title" content="12 Axes — Free Political Test, Quiz & Compass Across 12 Axes" />
     <meta
       name="twitter:description"
-      content="Discover your political position in 5 minutes with a free political quiz in English."
+      content="A free, fast political test: find your ideology, country and political figure match across 12 axes, with a political compass."
     />
     <meta name="twitter:image" content="https://12axes.vercel.app/logo.png" />
 
@@ -294,10 +294,10 @@ function buildHomeVariants() {
     '@context': 'https://schema.org',
     '@type': 'WebApplication',
     name: '12 Axes',
-    alternateName: ['12 Axes Political Quiz', '12 Axes Ideology Test'],
+    alternateName: ['12 Axes Political Quiz', '12 Axes Ideology Test', '12 Axes Political Test', '12 Axes Political Compass', '12 Axes Quiz'],
     url: 'https://12axes.vercel.app/en',
     description:
-      'A political quiz and ideology test that maps your political position across 12 axes and returns your political spectrum, compatible ideologies, closest country, and related personality.',
+      'A free, fast and complete political test and ideology quiz that maps your position across 12 axes and shows your compatible ideology, country and political figure, with a political compass and spectrum.',
     applicationCategory: 'EducationApplication',
     operatingSystem: 'Web',
     inLanguage: 'en',
@@ -305,7 +305,16 @@ function buildHomeVariants() {
     image: 'https://12axes.vercel.app/logo.png',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
     keywords:
-      'political test, ideology test, political spectrum, political position, political ideology, left, right, center, liberalism, conservatism, progressivism, libertarianism, socialism, capitalism, democracy, federalism, immigration, international trade, religion in politics, economic policy, political representation, 12 axes, political quiz, elections, monarchy',
+      'political test, free political test, political quiz, ideology test, political ideology, find your ideology, find your compatible ideology, find your compatible country, find your compatible political figure, political spectrum, political compass, political coordinates, political compass test, 12 axes, 12 axes political test, 12axes, 12 axes quiz, left, right, center, liberalism, conservatism, progressivism, libertarianism, socialism, capitalism',
+    featureList: [
+      'Free political test with 36, 60 or 240 questions',
+      'Result across 12 political axes',
+      'Compatible political ideology',
+      'Compatible country and historical regime',
+      'Compatible political figure',
+      'Political compass with socialism × capitalism and authoritarian × libertarian',
+      'Anonymous, no sign-up'
+    ],
     about: [
       'Political structure',
       'Democratic representation',
@@ -343,7 +352,12 @@ function buildHomeVariants() {
       ['Is the test scientific?', '12 Axes is not a clinically validated scientific instrument. It is an educational political test, inspired by political spectrum models and ideology quizzes, useful for reflection and comparison.'],
       ['Can I share it?', 'Yes. When you finish, you can share your result to discuss political ideology, the political spectrum, left, right, center, and the 12 axes with other people.'],
       ['Does the test collect data?', 'The test is anonymous and requires no sign-up. Answers are used to calculate the result at quiz time, without asking for your name, email, or personal identification.'],
-      ['Can I take it on my phone?', 'Yes. The interface was designed for mobile and desktop, so you can take the political test in your smartphone browser.']
+      ['Can I take it on my phone?', 'Yes. The interface was designed for mobile and desktop, so you can take the political test in your smartphone browser.'],
+      ['What is 12 Axes?', '12 Axes is a free political test that measures your position across 12 axes (state structure, representation, liberties, immigration, diplomacy, intervention, economy, economic control, trade, religion, morals and technology) and shows your compatible political ideology, country and political figure.'],
+      ['Does 12 Axes have a political compass?', 'Yes. At the end of the result there is a two-axis political compass, socialism × capitalism and authoritarian × libertarian, with a progressive × traditionalist bar. It summarizes your 12 axes visually, but it does not replace the full analysis.'],
+      ['How do I find my compatible political ideology?', 'Take the political quiz, with 36, 60 or 240 questions. The result shows the ideologies most compatible with your answers, with the compatibility percentage and the position of each one across the 12 axes.'],
+      ['Can I find out which country or political figure matches me?', 'Yes. Besides ideology, the result compares your profile with current countries, historical regimes and political figures, showing the most compatible and the furthest from you.'],
+      ['How many questions does the political quiz have?', 'There are three versions: quick, with 36 questions, full, with 60, and extreme, with 240. All cover the same 12 axes; the more questions, the more precise the result tends to be.']
     ].map(([question, answer]) => ({
       '@type': 'Question',
       name: question,
@@ -351,13 +365,22 @@ function buildHomeVariants() {
     }))
   };
 
-  const enJsonLdBlocks = [JSON.stringify(enWebApp), JSON.stringify(enFaq)];
+  const enWebSite = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: '12 Axes',
+    alternateName: ['12 Eixos', '12axes', '12 Axes Political Test'],
+    url: 'https://12axes.vercel.app/en',
+    inLanguage: ['en', 'pt-BR']
+  };
+
+  const enJsonLdBlocks = [JSON.stringify(enWebApp), JSON.stringify(enFaq), JSON.stringify(enWebSite)];
 
   let en = index.replace('<html lang="pt-BR">', '<html lang="en">');
   en = replaceBetween(en, '<!-- Primary SEO -->', '<!-- Icons -->', enSeoBlock);
   en = replaceBetween(en, '<!-- Open Graph -->', '<!-- Twitter -->', enOgBlock);
   en = replaceBetween(en, '<!-- Twitter -->', '<style>', enTwitterBlock);
-  // Troca apenas o conteúdo dos dois blocos ld+json (WebApplication e FAQ),
+  // Troca apenas o conteúdo dos três blocos ld+json (WebApplication, FAQ e WebSite),
   // preservando os scripts do app que o Vite injeta no <head>.
   let ldIndex = 0;
   en = en.replace(/<script type="application\/ld\+json">[\s\S]*?<\/script>/g, (block) =>
@@ -366,7 +389,7 @@ function buildHomeVariants() {
       : block
   );
   if (ldIndex !== enJsonLdBlocks.length) {
-    throw new Error(`Esperava 2 blocos ld+json no index.html, encontrei ${ldIndex}`);
+    throw new Error(`Esperava 3 blocos ld+json no index.html, encontrei ${ldIndex}`);
   }
   writeFileSync(join(DIST, 'en.html'), en);
 }
