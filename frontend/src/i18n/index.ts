@@ -311,6 +311,7 @@ interface Strings {
   portraitUnavailableAria: (name: string) => string;
   compatibilityAria: (pct: string) => string;
   matchWord: string;
+  compatibilityLevels: { veryHigh: string; high: string; medium: string; low: string; veryLow: string };
   shareTitle: string;
   shareTopMatch: string;
   shareCountry: string;
@@ -809,6 +810,13 @@ const pt: Strings = {
   portraitUnavailableAria: (name) => `Retrato indisponível de ${name}`,
   compatibilityAria: (pct) => `Compatibilidade: ${pct} por cento`,
   matchWord: 'match',
+  compatibilityLevels: {
+    veryHigh: 'Compatibilidade muito alta',
+    high: 'Compatibilidade alta',
+    medium: 'Compatibilidade média',
+    low: 'Compatibilidade baixa',
+    veryLow: 'Compatibilidade muito baixa'
+  },
   shareTitle: 'Seu perfil ideológico | 12axes.vercel.app',
   shareTopMatch: 'Top match',
   shareCountry: 'País mais compatível',
@@ -1351,6 +1359,13 @@ const en: Strings = {
   portraitUnavailableAria: (name) => `Portrait unavailable for ${name}`,
   compatibilityAria: (pct) => `Compatibility: ${pct} percent`,
   matchWord: 'match',
+  compatibilityLevels: {
+    veryHigh: 'Very high compatibility',
+    high: 'High compatibility',
+    medium: 'Medium compatibility',
+    low: 'Low compatibility',
+    veryLow: 'Very low compatibility'
+  },
   shareTitle: 'My ideological profile | 12axes.vercel.app',
   shareTopMatch: 'Top match',
   shareCountry: 'Most compatible country',

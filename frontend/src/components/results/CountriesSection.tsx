@@ -6,6 +6,7 @@ import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
 import { DimList, FarList, MatchHero, Tabs } from './parts';
+import { SheetMatch } from './SheetMatch';
 
 interface CountriesSectionProps {
   axes: Axis[];
@@ -84,8 +85,7 @@ export function CountriesSection({ current, historical, dimensions, distant, axe
         items={distant.map((match) => ({
           key: match.countryId,
           name: match.name,
-          caption: caption(match),
-          compatibility: match.compatibility
+          caption: caption(match)
         }))}
       />
       {info && <CountryInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
@@ -114,9 +114,7 @@ function CountryInfoSheet({ match, axes, results, onClose }: {
           {match.historical && match.period && <p className="e-axis-sheet-label">{match.period}</p>}
         </div>
       </div>
-      <p className="e-person-sheet-pct">
-        <strong>{Math.round(match.compatibility)}%</strong> {t.matchWord}
-      </p>
+      <SheetMatch compatibility={match.compatibility} />
       <p className="e-axis-sheet-text">{match.description}</p>
       <Closeness
         vector={match.vector}

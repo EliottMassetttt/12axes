@@ -36,7 +36,6 @@ export function IdeologiesSection({ others, distant }: IdeologiesSectionProps) {
         <span className="e-tag" style={{ background: distantColor.bg, color: distantColor.base }}>
           {distant.category}
         </span>
-        <span>{Math.round(distant.compatibility)}%</span>
       </div>
     </section>
   );

@@ -9,6 +9,7 @@ import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/per
 import type { Religion } from '../../utils/religion';
 import { SafeImg } from '../editorial/primitives';
 import { InfoSheet } from './InfoSheet';
+import { SheetMatch } from './SheetMatch';
 
 const MAX_OPTIONS = 8;
 
@@ -235,9 +236,7 @@ function ComparisonSheet({ detail, axes, results, userCategory, onClose }: {
           <p className="e-axis-sheet-label">{item.caption}</p>
         </div>
       </div>
-      <p className="e-person-sheet-pct">
-        <strong>{Math.round(detail.compatibility)}%</strong> {t.matchWord}
-      </p>
+      <SheetMatch compatibility={detail.compatibility} />
       <p className="e-axis-sheet-text">{detail.description}</p>
 
       <div className="e-close e-cmp-close" style={{ '--you': userColor } as CSSProperties}>

@@ -84,7 +84,6 @@ export interface FarItem {
   key: string;
   name: string;
   caption: string;
-  compatibility: number;
 }
 
 export function FarList({ title, items }: { title: string; items: FarItem[] }) {
@@ -101,7 +100,6 @@ export function FarList({ title, items }: { title: string; items: FarItem[] }) {
               <strong>{item.name}</strong>
               {item.caption && <small>{item.caption}</small>}
             </div>
-            <span>{Math.round(item.compatibility)}%</span>
           </li>
         ))}
       </ul>

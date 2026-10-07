@@ -220,7 +220,7 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           </ul>
           <FarList
             title={t.personalitiesDistantTitle}
-            items={result.bottomPersonalityMatches.map((match) => ({ key: match.personalityId, name: match.name, caption: match.role, value: match.compatibility }))}
+            items={result.bottomPersonalityMatches.map((match) => ({ key: match.personalityId, name: match.name, caption: match.role }))}
           />
         </section>
 
@@ -293,7 +293,6 @@ export function PdfReport({ result, axes, axisResults, answeredCount, religion }
           <div className="far-i" style={localCatStyle(result.bottomIdeologyMatch.category) as CSSProperties}>
             <b>{result.bottomIdeologyMatch.name}</b>
             <span className="tag osol-l">{result.bottomIdeologyMatch.category}</span>
-            <span className="fp">{Math.round(result.bottomIdeologyMatch.compatibility)}%</span>
             <p>{result.bottomIdeologyMatch.description}</p>
           </div>
         </section>
@@ -540,7 +539,7 @@ function CountryBlock({ label, match, dimensions, distant }: {
       {distant && distant.length > 0 && (
         <FarList
           title={t.countriesDistantTitle}
-          items={distant.map((item) => ({ key: item.countryId, name: item.name, caption: countryCaption(item), value: item.compatibility }))}
+          items={distant.map((item) => ({ key: item.countryId, name: item.name, caption: countryCaption(item) }))}
         />
       )}
     </>
@@ -549,7 +548,7 @@ function CountryBlock({ label, match, dimensions, distant }: {
 
 function FarList({ title, items }: {
   title: string;
-  items: { key: string; name: string; caption?: string; value: number }[];
+  items: { key: string; name: string; caption?: string }[];
 }) {
   return (
     <>
@@ -561,7 +560,6 @@ function FarList({ title, items }: {
               <b>{item.name}</b>
               {item.caption && <small>{item.caption}</small>}
             </div>
-            <span>{Math.round(item.value)}%</span>
           </li>
         ))}
       </ul>

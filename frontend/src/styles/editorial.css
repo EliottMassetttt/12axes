@@ -401,7 +401,6 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-far-row{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 16px;border-radius:14px;background:var(--neutro)}
 .e-far-row strong{display:block;font-size:14.5px}
 .e-far-row small{font-size:12.5px;color:var(--texto-suave)}
-.e-far-row span{font-family:var(--font-display);font-weight:700;color:var(--texto-suave)}
 /* near grid */
 .e-near-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
 .e-near{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:20px 14px;border:1px solid var(--borda);border-radius:var(--r-md);background:var(--papel)}
@@ -450,7 +449,6 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-distant{display:flex;flex-wrap:wrap;align-items:center;gap:8px 14px;padding:16px 20px;border-radius:14px;background:var(--neutro);max-width:460px}
 /* nome longo ocupa a linha inteira; etiqueta e % descem juntas, com o % à direita */
 .e-distant strong{font-family:var(--font-display);font-size:18px;line-height:1.25;flex:1 1 180px;min-width:0;overflow-wrap:break-word}
-.e-distant>span:last-child{font-family:var(--font-display);font-weight:700;color:var(--texto-suave);margin-left:auto}
 .e-actions{display:flex;justify-content:center;gap:12px;flex-wrap:wrap;margin-top:16px}
 .e-support-panel .e-support-box{grid-template-columns:1fr}
 @media (max-width:1080px){.e-res-grid{grid-template-columns:1fr}.e-side{position:static;order:-1;display:grid;grid-template-columns:1fr 1fr}.e-toc{display:none}.e-side{grid-template-columns:1fr}}
@@ -604,6 +602,9 @@ html{scroll-behavior:smooth;scroll-padding-top:88px}
 .e-person-sheet-head .e-axis-sheet-label{margin:0}
 .e-person-sheet-pct{margin:0 0 10px;font-size:14px;color:var(--texto-suave)}
 .e-person-sheet-pct strong{font-family:var(--font-display);font-size:20px;color:var(--tinta)}
+.e-compat{font-weight:600;color:var(--texto-suave)}
+.e-compat[data-level="veryHigh"],.e-compat[data-level="high"]{color:var(--floresta)}
+.e-compat[data-level="low"],.e-compat[data-level="veryLow"]{color:var(--carmim)}
 .e-person-sheet-head .e-flagimg{flex:none}
 /* aba de personalidade: o que te aproxima */
 .e-close{margin-top:18px;padding-top:16px;border-top:1px solid var(--borda)}

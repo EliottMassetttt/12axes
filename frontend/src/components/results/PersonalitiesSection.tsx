@@ -6,6 +6,7 @@ import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
 import { DimList, FarList, MatchHero } from './parts';
+import { SheetMatch } from './SheetMatch';
 
 interface PersonalitiesSectionProps {
   axes: Axis[];
@@ -60,8 +61,7 @@ export function PersonalitiesSection({ top, dimensions, distant, axes, results }
         items={distant.map((match) => ({
           key: match.personalityId,
           name: match.name,
-          caption: match.role,
-          compatibility: match.compatibility
+          caption: match.role
         }))}
       />
       {info && <PersonalityInfoSheet match={info} axes={axes} results={results} onClose={() => setInfo(null)} />}
@@ -86,9 +86,7 @@ export function PersonalityInfoSheet({ match, axes, results, onClose }: {
           <p className="e-axis-sheet-label">{[match.role, match.lifespan].filter(Boolean).join(' · ')}</p>
         </div>
       </div>
-      <p className="e-person-sheet-pct">
-        <strong>{Math.round(match.compatibility)}%</strong> {t.matchWord}
-      </p>
+      <SheetMatch compatibility={match.compatibility} />
       <p className="e-axis-sheet-text">{match.description}</p>
       <Closeness
         vector={match.vector}
