@@ -3236,5 +3236,101 @@
     "role": "Guerrilla leader and Marxist theorist",
     "lifespan": "1911–1969",
     "description": "Constituent congressman and founder of the National Liberation Action (ALN), he broke with the orthodox PCB to wage urban armed struggle against the Brazilian military dictatorship."
+  },
+  {
+    "id": "josiah-warren",
+    "name": "Josiah Warren",
+    "role": "Inventor, Manufacturer, and Anarchist Philosopher",
+    "category": "empresario",
+    "lifespan": "1798–1874",
+    "description": "Widely regarded as the first American individualist anarchist, he founded the Cincinnati Time Store, pioneering commerce based on labor notes exchanging goods for the cost of production, advocating individual sovereignty and total separation from the State.",
+    "imagePath": "/personalities/portraits/josiah-warren.jpg",
+    "imageSourceName": "Wikimedia Commons / Public Domain",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Josiah_Warren",
+    "imageNote": "Portrait of Josiah Warren via Wikimedia Commons."
+  },
+  {
+    "id": "john-mackey",
+    "name": "John Mackey",
+    "role": "Businessman and Conscious Capitalism Theorist",
+    "category": "empresario",
+    "lifespan": "1953–",
+    "description": "Co-founder and former CEO of Whole Foods Market, he articulated and popularized Conscious Capitalism, arguing that free markets and for-profit businesses best create voluntary value for customers, workers, suppliers, and investors without state coercion.",
+    "imagePath": "/personalities/portraits/john-mackey.jpg",
+    "imageSourceName": "Wikimedia Commons / Gage Skidmore",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/John_Mackey_(businessman)",
+    "imageNote": "Portrait of John Mackey via Wikimedia Commons."
+  },
+  {
+    "id": "alfried-krupp",
+    "name": "Alfried Krupp",
+    "role": "Industrial Magnate and Head of Krupp Group",
+    "category": "empresario",
+    "lifespan": "1907–1967",
+    "description": "German industrialist and head of the Krupp steel and arms dynasty, representing the deep integration of heavy manufacturing with the National Socialist war economy, symbolizing militarized state corporatism.",
+    "imagePath": "/personalities/portraits/alfried-krupp.jpg",
+    "imageSourceName": "Wikimedia Commons / DPLA",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach",
+    "imageNote": "Portrait of Alfried Krupp via Wikimedia Commons."
+  },
+  {
+    "id": "henry-clay-frick",
+    "name": "Henry Clay Frick",
+    "role": "Industrial Magnate and Financier",
+    "category": "empresario",
+    "lifespan": "1849–1919",
+    "description": "American coke and steel magnate and chairman of Carnegie Steel, renowned for uncompromising resistance to organized labor and deploying armed force during the 1892 Homestead Strike, securing unchecked managerial dominance.",
+    "imagePath": "/personalities/portraits/henry-clay-frick.jpg",
+    "imageSourceName": "Wikimedia Commons / Detroit Publishing Co.",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Henry_Clay_Frick",
+    "imageNote": "Portrait of Henry Clay Frick via Wikimedia Commons."
+  },
+  {
+    "id": "andrew-carnegie",
+    "name": "Andrew Carnegie",
+    "role": "Steel Magnate and Philanthropist",
+    "category": "empresario",
+    "lifespan": "1835–1919",
+    "description": "Leader of the massive expansion of the American steel industry and one of the wealthiest individuals in history, he championed relentless competitive capitalism in The Gospel of Wealth alongside the moral obligation to redistribute wealth through public libraries and education.",
+    "imagePath": "/personalities/portraits/andrew-carnegie.jpg",
+    "imageSourceName": "Wikimedia Commons / Theodore Marceau",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Andrew_Carnegie",
+    "imageNote": "Portrait of Andrew Carnegie via Wikimedia Commons."
+  },
+  {
+    "id": "kazuo-inamori",
+    "name": "Kazuo Inamori",
+    "role": "Industrialist, Engineer, and Corporate Philosopher",
+    "category": "empresario",
+    "lifespan": "1932–2022",
+    "description": "Founder of Kyocera and KDDI and turnaround leader of Japan Airlines, who established the Kyocera Philosophy and the Amoeba Management System, aligning corporate performance with ethical social responsibility and Buddhist altruism.",
+    "imagePath": "/personalities/portraits/kazuo-inamori.jpg",
+    "imageSourceName": "Wikimedia Commons / Chemical Heritage Foundation",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Kazuo_Inamori",
+    "imageNote": "Portrait of Kazuo Inamori via Wikimedia Commons."
+  },
+  {
+    "id": "adriano-olivetti",
+    "name": "Adriano Olivetti",
+    "role": "Industrialist, Urban Planner, and Political Theorist",
+    "category": "empresario",
+    "lifespan": "1901–1960",
+    "description": "Italian industrialist leading Olivetti who made his Ivrea factories a global model of industrial humanism, creating the Community Movement to decentralize power into self-governing local communities integrating workers into management, culture, and architecture.",
+    "imagePath": "/personalities/portraits/adriano-olivetti.jpg",
+    "imageSourceName": "Wikimedia Commons / Public Domain",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Adriano_Olivetti",
+    "imageNote": "Portrait of Adriano Olivetti via Wikimedia Commons."
+  },
+  {
+    "id": "robert-owen",
+    "name": "Robert Owen",
+    "role": "Textile Manufacturer and Utopian Socialist Pioneer",
+    "category": "empresario",
+    "lifespan": "1771–1858",
+    "description": "Welsh textile industrialist at New Lanark and founder of New Harmony, who demonstrated that decent working conditions, universal child education, and cooperative labor were fully compatible with industrial output, inspiring the modern cooperative and labor movements.",
+    "imagePath": "/personalities/portraits/robert-owen.jpg",
+    "imageSourceName": "Wikimedia Commons / National Portrait Gallery",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Robert_Owen",
+    "imageNote": "Portrait of Robert Owen via Wikimedia Commons."
   }
 ]

@@ -8515,5 +8515,141 @@
       "moral": 86.0,
       "tecnologia": 80.8
     }
+  },
+  {
+    "personalityId": "josiah-warren",
+    "vector": {
+      "estrutura": 98.6,
+      "representacao": 93.6,
+      "poder": 1.6,
+      "imigracao": 1.9,
+      "diplomacia": 1.6,
+      "intervencao": 98.3,
+      "economia": 48.2,
+      "controle": 13.5,
+      "comercio": 37.5,
+      "religiao": 94.5,
+      "moral": 70.5,
+      "tecnologia": 88.0
+    }
+  },
+  {
+    "personalityId": "john-mackey",
+    "vector": {
+      "estrutura": 80.4,
+      "representacao": 81.9,
+      "poder": 12.5,
+      "imigracao": 13.8,
+      "diplomacia": 20.6,
+      "intervencao": 67.4,
+      "economia": 0.6,
+      "controle": 4.0,
+      "comercio": 0.6,
+      "religiao": 77.9,
+      "moral": 71.7,
+      "tecnologia": 35.7
+    }
+  },
+  {
+    "personalityId": "alfried-krupp",
+    "vector": {
+      "estrutura": 0.9,
+      "representacao": 0.7,
+      "poder": 96.9,
+      "imigracao": 98.3,
+      "diplomacia": 98.1,
+      "intervencao": 6.7,
+      "economia": 19.7,
+      "controle": 71.9,
+      "comercio": 94.3,
+      "religiao": 73.0,
+      "moral": 2.4,
+      "tecnologia": 91.5
+    }
+  },
+  {
+    "personalityId": "henry-clay-frick",
+    "vector": {
+      "estrutura": 62.5,
+      "representacao": 25.7,
+      "poder": 72.1,
+      "imigracao": 71.8,
+      "diplomacia": 81.4,
+      "intervencao": 19.8,
+      "economia": 3.0,
+      "controle": 18.2,
+      "comercio": 79.1,
+      "religiao": 46.2,
+      "moral": 10.1,
+      "tecnologia": 84.4
+    }
+  },
+  {
+    "personalityId": "andrew-carnegie",
+    "vector": {
+      "estrutura": 55.7,
+      "representacao": 90.6,
+      "poder": 49.6,
+      "imigracao": 38.8,
+      "diplomacia": 9.8,
+      "intervencao": 66.0,
+      "economia": 22.0,
+      "controle": 17.0,
+      "comercio": 55.3,
+      "religiao": 85.0,
+      "moral": 33.6,
+      "tecnologia": 90.3
+    }
+  },
+  {
+    "personalityId": "kazuo-inamori",
+    "vector": {
+      "estrutura": 49.8,
+      "representacao": 84.7,
+      "poder": 77.0,
+      "imigracao": 67.1,
+      "diplomacia": 19.3,
+      "intervencao": 60.1,
+      "economia": 36.5,
+      "controle": 28.3,
+      "comercio": 15.1,
+      "religiao": 28.2,
+      "moral": 25.3,
+      "tecnologia": 57.0
+    }
+  },
+  {
+    "personalityId": "adriano-olivetti",
+    "vector": {
+      "estrutura": 92.6,
+      "representacao": 98.3,
+      "poder": 24.2,
+      "imigracao": 8.6,
+      "diplomacia": 5.1,
+      "intervencao": 80.5,
+      "economia": 88.1,
+      "controle": 78.1,
+      "comercio": 57.4,
+      "religiao": 38.1,
+      "moral": 73.7,
+      "tecnologia": 42.9
+    }
+  },
+  {
+    "personalityId": "robert-owen",
+    "vector": {
+      "estrutura": 64.0,
+      "representacao": 81.7,
+      "poder": 26.6,
+      "imigracao": 8.1,
+      "diplomacia": 4.0,
+      "intervencao": 82.9,
+      "economia": 94.1,
+      "controle": 86.5,
+      "comercio": 22.9,
+      "religiao": 97.6,
+      "moral": 77.6,
+      "tecnologia": 70.1
+    }
   }
 ]

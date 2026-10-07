@@ -6990,5 +6990,111 @@
     "imageSourceUrl": "https://pt.wikipedia.org/wiki/Carlos_Marighella",
     "imageNote": "Foto de Carlos Marighella como deputado via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "josiah-warren",
+    "name": "Josiah Warren",
+    "role": "Inventor, Fabricante e Filósofo Anarquista",
+    "category": "empresario",
+    "lifespan": "1798–1874",
+    "description": "Considerado o primeiro anarquista individualista norte-americano, fundou a Cincinnati Time Store, pioneira no comércio baseado em notas de trabalho que trocavam bens pelo custo exato de produção, defendendo a soberania individual e a dissociação total do Estado.",
+    "imagePath": "/personalities/portraits/josiah-warren.jpg",
+    "imageSourceName": "Wikimedia Commons / Domínio Público",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Josiah_Warren",
+    "imageNote": "Retrato de Josiah Warren via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "john-mackey",
+    "name": "John Mackey",
+    "role": "Empresário e Teórico do Capitalismo Consciente",
+    "category": "empresario",
+    "lifespan": "1953–",
+    "description": "Cofundador e ex-CEO da Whole Foods Market, articulou e popularizou a filosofia do Capitalismo Consciente, defendendo que o livre mercado e as empresas com fins lucrativos operam melhor gerando valor voluntário para clientes, empregados, fornecedores e investidores sem coerção estatal.",
+    "imagePath": "/personalities/portraits/john-mackey.jpg",
+    "imageSourceName": "Wikimedia Commons / Gage Skidmore",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/John_Mackey_(businessman)",
+    "imageNote": "Retrato de John Mackey via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "alfried-krupp",
+    "name": "Alfried Krupp",
+    "role": "Magnata Industrial e Líder do Grupo Krupp",
+    "category": "empresario",
+    "lifespan": "1907–1967",
+    "description": "Industrial alemão e líder da dinastia siderúrgica e armamentista Krupp, representou a integração da grande indústria pesada com a mobilização de guerra do Estado nacional-socialista, simbolizando o capitalismo corporativista militar-industrial.",
+    "imagePath": "/personalities/portraits/alfried-krupp.jpg",
+    "imageSourceName": "Wikimedia Commons / DPLA",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Alfried_Krupp_von_Bohlen_und_Halbach",
+    "imageNote": "Retrato de Alfried Krupp via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "henry-clay-frick",
+    "name": "Henry Clay Frick",
+    "role": "Magnata Industrial e Financista",
+    "category": "empresario",
+    "lifespan": "1849–1919",
+    "description": "Magnata do coque e do aço norte-americano, presidente da Carnegie Steel Company, notabilizou-se pela oposição implacável ao sindicalismo organizado e pelo uso de força armada na Greve de Homestead de 1892, consolidando o controle patronal irrestrito sobre a indústria.",
+    "imagePath": "/personalities/portraits/henry-clay-frick.jpg",
+    "imageSourceName": "Wikimedia Commons / Detroit Publishing Co.",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Henry_Clay_Frick",
+    "imageNote": "Retrato de Henry Clay Frick via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "andrew-carnegie",
+    "name": "Andrew Carnegie",
+    "role": "Magnata do Aço e Filantropo",
+    "category": "empresario",
+    "lifespan": "1835–1919",
+    "description": "Líder da expansão da indústria siderúrgica norte-americana e um dos homens mais ricos da história, formulou no ensaio The Gospel of Wealth a defesa da livre concorrência feroz e do acúmulo individual de capital, combinada ao dever moral do empresário de redistribuir sua fortuna em bibliotecas e educação pública.",
+    "imagePath": "/personalities/portraits/andrew-carnegie.jpg",
+    "imageSourceName": "Wikimedia Commons / Theodore Marceau",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Andrew_Carnegie",
+    "imageNote": "Retrato de Andrew Carnegie via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "kazuo-inamori",
+    "name": "Kazuo Inamori",
+    "role": "Industrial, Engenheiro e Filósofo Empresarial",
+    "category": "empresario",
+    "lifespan": "1932–2022",
+    "description": "Fundador da Kyocera e da operadora KDDI e salvador da Japan Airlines, desenvolveu a filosofia Kyocera e o Sistema de Gestão Ameba, combinando alto desempenho corporativo, responsabilidade social e espiritualidade baseada no altruísmo.",
+    "imagePath": "/personalities/portraits/kazuo-inamori.jpg",
+    "imageSourceName": "Wikimedia Commons / Chemical Heritage Foundation",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Kazuo_Inamori",
+    "imageNote": "Retrato de Kazuo Inamori via Wikimedia Commons.",
+    "religions": [
+      "buddhism"
+    ]
+  },
+  {
+    "id": "adriano-olivetti",
+    "name": "Adriano Olivetti",
+    "role": "Industrial, Urbanista e Teórico Político",
+    "category": "empresario",
+    "lifespan": "1901–1960",
+    "description": "Industrial italiano à frente da Olivetti, transformou sua fábrica em Ivrea em modelo mundial de humanismo industrial, fundando o Movimento Comunità para descentralizar o poder em comunidades autônomas integrando trabalhadores na gestão, cultura e arquitetura.",
+    "imagePath": "/personalities/portraits/adriano-olivetti.jpg",
+    "imageSourceName": "Wikimedia Commons / Domínio Público",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Adriano_Olivetti",
+    "imageNote": "Retrato de Adriano Olivetti via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "robert-owen",
+    "name": "Robert Owen",
+    "role": "Industrial Têxtil e Pioneiro do Socialismo Utópico",
+    "category": "empresario",
+    "lifespan": "1771–1858",
+    "description": "Fabricante têxtil galês em New Lanark e fundador da comunidade de New Harmony, foi um dos primeiros a demonstrar que melhores condições de trabalho, educação universal infantil e cooperativismo eram compatíveis com a prosperidade industrial, inspirando o movimento trabalhista britânico.",
+    "imagePath": "/personalities/portraits/robert-owen.jpg",
+    "imageSourceName": "Wikimedia Commons / National Portrait Gallery",
+    "imageSourceUrl": "https://en.wikipedia.org/wiki/Robert_Owen",
+    "imageNote": "Retrato de Robert Owen via Wikimedia Commons.",
+    "religions": []
   }
 ]
