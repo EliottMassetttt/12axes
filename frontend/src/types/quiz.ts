@@ -18,12 +18,21 @@ export interface Axis {
   rightColor: string;
 }
 
+/** Termo do glossário no texto da pergunta: `start`/`end` são índices (UTF-16) em `text`. */
+export interface QuestionTerm {
+  start: number;
+  end: number;
+  term: string;
+  definition: string;
+}
+
 export interface Question {
   id: string;
   axisId: string;
   text: string;
   agreePole: Pole;
   weight: number;
+  terms?: QuestionTerm[];
 }
 
 export interface AnswerOption {

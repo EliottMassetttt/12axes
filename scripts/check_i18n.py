@@ -42,6 +42,32 @@ for locale_dir in sorted((ROOT / "i18n").iterdir()):
                 if not isinstance(overlay[profile_id].get(field), str) or not overlay[profile_id][field].strip():
                     errors.append(f"{locale_dir.name}/{overlay_name}: {profile_id} missing {field}")
 
+# O glossário tem formato próprio: cada idioma traz term, definition e os trechos (match)
+# que acionam o termo; match pode ser vazio quando o idioma não usa o termo.
+glossary = read_items(ROOT / "glossary.json")
+for locale_dir in sorted((ROOT / "i18n").iterdir()):
+    if not locale_dir.is_dir():
+        continue
+    overlay_path = locale_dir / "glossary.json"
+    if not overlay_path.exists():
+        errors.append(f"{locale_dir.name}/glossary: overlay missing")
+        continue
+    overlay = read_items(overlay_path)
+    for term_id in sorted(glossary.keys() - overlay.keys()):
+        errors.append(f"{locale_dir.name}/glossary: missing {term_id}")
+    for term_id in sorted(overlay.keys() - glossary.keys()):
+        errors.append(f"{locale_dir.name}/glossary: unknown {term_id}")
+    for term_id in sorted(glossary.keys() & overlay.keys()):
+        for field in ("term", "definition"):
+            if not isinstance(overlay[term_id].get(field), str) or not overlay[term_id][field].strip():
+                errors.append(f"{locale_dir.name}/glossary: {term_id} missing {field}")
+        match = overlay[term_id].get("match")
+        if not isinstance(match, list) or any(not isinstance(m, str) or not m.strip() for m in match):
+            errors.append(f"{locale_dir.name}/glossary: {term_id} has invalid match")
+for term_id, entry in glossary.items():
+    if not entry.get("match"):
+        errors.append(f"glossary: {term_id} has no match in the source language")
+
 if errors:
     raise SystemExit("\n".join(errors))
 print("All catalog locale overlays cover the current source data.")

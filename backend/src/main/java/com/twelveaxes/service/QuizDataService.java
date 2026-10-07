@@ -9,6 +9,7 @@ import com.twelveaxes.model.AnswerValue;
 import com.twelveaxes.model.Axis;
 import com.twelveaxes.model.Country;
 import com.twelveaxes.model.CountryProfile;
+import com.twelveaxes.model.GlossaryEntry;
 import com.twelveaxes.model.Ideology;
 import com.twelveaxes.model.IdeologyProfile;
 import com.twelveaxes.model.Personality;
@@ -83,7 +84,11 @@ public class QuizDataService {
     @PostConstruct
     void loadData() throws IOException {
         List<Axis> axes = readJson("data/axes.json", new TypeReference<>() {});
-        List<Question> questions = readJson("data/questions-pool.json", new TypeReference<>() {});
+        List<Question> questions = GlossaryResolver.attach(
+                readJson("data/questions-pool.json", new TypeReference<>() {}),
+                readJson("data/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
+                "glossary.json"
+        );
         List<Ideology> ideologies = readJson("data/ideologies.json", new TypeReference<>() {});
         List<Country> countries = readJson("data/countries.json", new TypeReference<>() {});
         List<Personality> personalities = readJson("data/personalities.json", new TypeReference<>() {});
@@ -152,11 +157,17 @@ public class QuizDataService {
             );
         }).toList();
 
-        List<Question> questions = pt.questions().stream().map(question -> {
+        List<Question> translatedQuestions = pt.questions().stream().map(question -> {
             Map<String, String> tr = questionsTr.get(question.id());
             if (tr == null || tr.get("text") == null) return question;
-            return new Question(question.id(), question.axisId(), tr.get("text"), question.agreePole(), question.weight());
+            return question.withText(tr.get("text"));
         }).toList();
+        // Os termos são procurados no texto traduzido; sem overlay EN do glossário, não há tooltip.
+        List<Question> questions = GlossaryResolver.attach(
+                translatedQuestions,
+                readOptionalJson("data/i18n/en/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
+                "i18n/en/glossary.json"
+        );
 
         List<Ideology> ideologies = pt.ideologies().stream().map(ideology -> {
             Map<String, String> tr = ideologiesTr.get(ideology.id());
@@ -477,6 +488,13 @@ public class QuizDataService {
             case EXTREME_VARIANT, "extrema", "240", "240questions" -> EXTREME_VARIANT;
             default -> throw new ResponseStatusException(HttpStatus.BAD_REQUEST, "Versão de quiz inválida");
         };
+    }
+
+    private <T> List<T> readOptionalJson(String path, TypeReference<List<T>> type) throws IOException {
+        if (!new ClassPathResource(path).exists()) {
+            return List.of();
+        }
+        return readJson(path, type);
     }
 
     private <T> T readJson(String path, TypeReference<T> type) throws IOException {

@@ -2,6 +2,7 @@ import { useState, type CSSProperties } from 'react';
 import { t } from '../i18n';
 import type { AnswerOption, AnswerValue, Axis, Question } from '../types/quiz';
 import { PoleIcon } from './AxisIcon';
+import { GlossaryText } from './GlossaryText';
 import { InfoButton, InfoSheet } from './results/InfoSheet';
 
 const answerClassById: Record<AnswerValue, string> = {
@@ -48,7 +49,7 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
         ) : (
           <p className="question-axis">{axisLabel ?? question.axisId.replace('-', ' ')}</p>
         )}
-        <h2 id="question-title">{question.text}</h2>
+        <h2 id="question-title"><GlossaryText text={question.text} terms={question.terms} /></h2>
       </header>
       <div className="answer-grid" role="radiogroup" aria-label={t.answersAria}>
         {options.map((option) => {
