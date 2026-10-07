@@ -7096,5 +7096,48 @@
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Robert_Owen",
     "imageNote": "Retrato de Robert Owen via Wikimedia Commons.",
     "religions": []
+  },
+  {
+    "id": "aldo-rebelo",
+    "name": "Aldo Rebelo",
+    "role": "Político e Escritor",
+    "category": "politico",
+    "lifespan": "1956–presente",
+    "description": "Político e escritor brasileiro, ex-presidente da Câmara e ministro nos governos Lula e Dilma. Destaca-se pela defesa do nacionalismo soberanista, apoio à integração produtiva da Amazônia e ao agronegócio, e forte oposição a ONGs estrangeiras.",
+    "imagePath": "/personalities/portraits/aldo-rebelo.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Aldo_Rebelo",
+    "imageNote": "Retrato oficial de Aldo Rebelo via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "luiz-philippe-de-orleans-e-braganca",
+    "name": "Luiz Philippe de Orleans e Bragança",
+    "role": "Deputado Federal e Cientista Político",
+    "category": "politico",
+    "lifespan": "1969–presente",
+    "description": "Deputado federal, cientista político e ativista monarquista brasileiro descendente da família imperial. Defende reformas liberais na economia, descentralização federativa, desregulamentação estatal e preservação de valores conservadores.",
+    "imagePath": "/personalities/portraits/luiz-philippe-de-orleans-e-braganca.jpg",
+    "imageSourceName": "Wikimedia Commons / Câmara dos Deputados",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Luiz_Philippe_de_Orl%C3%A9ans_e_Bragan%C3%A7a",
+    "imageNote": "Retrato de Luiz Philippe de Orleans e Bragança via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "eduardo-paes",
+    "name": "Eduardo Paes",
+    "role": "Político e Administrador Público",
+    "category": "politico",
+    "lifespan": "1969–presente",
+    "description": "Político brasileiro e prefeito do Rio de Janeiro por múltiplos mandatos. Caracteriza-se pelo pragmatismo eleitoral de centro, gestão fiscal com foco em grandes investimentos de infraestrutura urbana, parcerias público-privadas e articulação institucional ampla.",
+    "imagePath": "/personalities/portraits/eduardo-paes.jpg",
+    "imageSourceName": "Wikimedia Commons / Prefeitura da Cidade do Rio de Janeiro",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Eduardo_Paes",
+    "imageNote": "Retrato de Eduardo Paes via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]

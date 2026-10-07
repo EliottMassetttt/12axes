@@ -8651,5 +8651,56 @@
       "moral": 77.6,
       "tecnologia": 70.1
     }
+  },
+  {
+    "personalityId": "aldo-rebelo",
+    "vector": {
+      "estrutura": 18.8,
+      "representacao": 78.7,
+      "poder": 47.2,
+      "imigracao": 68.2,
+      "diplomacia": 53.3,
+      "intervencao": 55.0,
+      "economia": 61.3,
+      "controle": 62.4,
+      "comercio": 69.3,
+      "religiao": 49.8,
+      "moral": 32.7,
+      "tecnologia": 63.0
+    }
+  },
+  {
+    "personalityId": "luiz-philippe-de-orleans-e-braganca",
+    "vector": {
+      "estrutura": 79.5,
+      "representacao": 87.0,
+      "poder": 31.8,
+      "imigracao": 75.3,
+      "diplomacia": 62.4,
+      "intervencao": 19.8,
+      "economia": 4.1,
+      "controle": 1.6,
+      "comercio": 6.5,
+      "religiao": 10.5,
+      "moral": 8.9,
+      "tecnologia": 68.9
+    }
+  },
+  {
+    "personalityId": "eduardo-paes",
+    "vector": {
+      "estrutura": 62.9,
+      "representacao": 78.7,
+      "poder": 60.3,
+      "imigracao": 26.0,
+      "diplomacia": 30.0,
+      "intervencao": 54.1,
+      "economia": 52.0,
+      "controle": 52.1,
+      "comercio": 38.9,
+      "religiao": 53.6,
+      "moral": 70.5,
+      "tecnologia": 51.2
+    }
   }
 ]

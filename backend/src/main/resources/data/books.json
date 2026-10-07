@@ -2914,5 +2914,29 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "aldo-rebelo",
+    "title": {
+      "pt": "O Quinto Movimento: Propostas para uma Construção Inacabada",
+      "en": "The Fifth Movement: Proposals for an Unfinished Construction"
+    },
+    "year": 2021,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "luiz-philippe-de-orleans-e-braganca",
+    "title": {
+      "pt": "Por que o Brasil é um País Atrasado?",
+      "en": "Why Brazil Is a Backward Country?"
+    },
+    "year": 2017,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

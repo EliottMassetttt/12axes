@@ -3332,5 +3332,41 @@
     "imageSourceName": "Wikimedia Commons / National Portrait Gallery",
     "imageSourceUrl": "https://en.wikipedia.org/wiki/Robert_Owen",
     "imageNote": "Portrait of Robert Owen via Wikimedia Commons."
+  },
+  {
+    "id": "aldo-rebelo",
+    "name": "Aldo Rebelo",
+    "role": "Politician and Writer",
+    "category": "politico",
+    "lifespan": "1956–present",
+    "description": "Brazilian politician and writer who served as president of the Chamber of Deputies and federal minister. Known for nationalist sovereignty, defense of Amazonian development and agribusiness, and staunch opposition to foreign environmental NGOs.",
+    "imagePath": "/personalities/portraits/aldo-rebelo.jpg",
+    "imageSourceName": "Wikimedia Commons / Wikipédia",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Aldo_Rebelo",
+    "imageNote": "Official portrait of Aldo Rebelo via Wikimedia Commons."
+  },
+  {
+    "id": "luiz-philippe-de-orleans-e-braganca",
+    "name": "Luiz Philippe de Orleans e Bragança",
+    "role": "Federal Congressman and Political Scientist",
+    "category": "politico",
+    "lifespan": "1969–present",
+    "description": "Brazilian federal congressman, political scientist, and monarchist activist descending from the imperial family. He advocates free-market economic reforms, federalist decentralization, state deregulation, and conservative institutional principles.",
+    "imagePath": "/personalities/portraits/luiz-philippe-de-orleans-e-braganca.jpg",
+    "imageSourceName": "Wikimedia Commons / Chamber of Deputies",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Luiz_Philippe_de_Orl%C3%A9ans_e_Bragan%C3%A7a",
+    "imageNote": "Portrait of Luiz Philippe de Orleans e Bragança via Wikimedia Commons."
+  },
+  {
+    "id": "eduardo-paes",
+    "name": "Eduardo Paes",
+    "role": "Politician and Public Administrator",
+    "category": "politico",
+    "lifespan": "1969–present",
+    "description": "Brazilian politician and multi-term mayor of Rio de Janeiro. Characterized by pragmatic centrist governance, fiscal administration centered on large-scale urban infrastructure investments, public-private partnerships, and broad institutional coalition-building.",
+    "imagePath": "/personalities/portraits/eduardo-paes.jpg",
+    "imageSourceName": "Wikimedia Commons / City of Rio de Janeiro",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Eduardo_Paes",
+    "imageNote": "Portrait of Eduardo Paes via Wikimedia Commons."
   }
 ]
