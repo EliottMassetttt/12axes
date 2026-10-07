@@ -11893,6 +11893,9 @@
   text-decoration-thickness: 2px;
   text-underline-offset: 5px;
   border-radius: 4px;
+  /* O termo é um span inline e pode quebrar em duas linhas: o realce acompanha cada trecho. */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
 }
 .glossary-term:hover,
 .glossary-term.is-active {

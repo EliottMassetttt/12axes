@@ -38,7 +38,7 @@ export function GlossaryText({ text, terms }: GlossaryTextProps) {
   const tooltipId = useId();
   const [active, setActive] = useState<Active | null>(null);
   const [position, setPosition] = useState<{ top: number; left: number } | null>(null);
-  const buttonRefs = useRef<Array<HTMLButtonElement | null>>([]);
+  const termRefs = useRef<Array<HTMLSpanElement | null>>([]);
   const closeTimer = useRef<number | undefined>(undefined);
 
   const cancelClose = useCallback(() => window.clearTimeout(closeTimer.current), []);
@@ -72,15 +72,25 @@ export function GlossaryText({ text, terms }: GlossaryTextProps) {
   }, [active]);
 
   useLayoutEffect(() => {
-    const button = active ? buttonRefs.current[active.index] : null;
-    const container = button?.offsetParent as HTMLElement | null;
-    if (!button || !container) {
+    const term = active ? termRefs.current[active.index] : null;
+    const container = term?.offsetParent as HTMLElement | null;
+    if (!term || !container) {
       setPosition(null);
       return;
     }
+    // O termo é inline e pode quebrar em várias linhas: o balão ancora na esquerda da primeira
+    // linha e abre abaixo da última.
+    const rects = term.getClientRects();
+    const first = rects[0];
+    const last = rects[rects.length - 1];
+    if (!first || !last) {
+      setPosition(null);
+      return;
+    }
+    const box = container.getBoundingClientRect();
     const tooltipWidth = Math.min(300, container.clientWidth);
-    const left = Math.max(0, Math.min(button.offsetLeft, container.clientWidth - tooltipWidth));
-    setPosition({ top: button.offsetTop + button.offsetHeight + 10, left });
+    const left = Math.max(0, Math.min(first.left - box.left, container.clientWidth - tooltipWidth));
+    setPosition({ top: last.bottom - box.top + 10, left });
   }, [active, text]);
 
   if (items.length === 0) return <>{text}</>;
@@ -91,13 +101,17 @@ export function GlossaryText({ text, terms }: GlossaryTextProps) {
   items.forEach((term, index) => {
     if (term.start > cursor) nodes.push(text.slice(cursor, term.start));
     const isActive = active?.index === index;
+    const toggle = () => setActive((current) => (current?.index === index && current.mode === 'click' ? null : { index, mode: 'click' }));
+    // <span role="button"> e não <button>: o botão é uma caixa inline-block, que admite quebra de
+    // linha logo depois dele e deixava o "." final sozinho na linha. O span quebra como texto.
     nodes.push(
-      <button
+      <span
         key={`${term.start}-${term.end}`}
         ref={(element) => {
-          buttonRefs.current[index] = element;
+          termRefs.current[index] = element;
         }}
-        type="button"
+        role="button"
+        tabIndex={0}
         className={isActive ? 'glossary-term is-active' : 'glossary-term'}
         aria-describedby={isActive ? tooltipId : undefined}
         aria-expanded={isActive}
@@ -111,10 +125,16 @@ export function GlossaryText({ text, terms }: GlossaryTextProps) {
         }}
         onFocus={() => setActive((current) => current ?? { index, mode: 'focus' })}
         onBlur={() => setActive(null)}
-        onClick={() => setActive((current) => (current?.index === index && current.mode === 'click' ? null : { index, mode: 'click' }))}
+        onClick={toggle}
+        onKeyDown={(event) => {
+          if (event.key === 'Enter' || event.key === ' ') {
+            event.preventDefault();
+            toggle();
+          }
+        }}
       >
         {text.slice(term.start, term.end)}
-      </button>
+      </span>
     );
     cursor = term.end;
   });
