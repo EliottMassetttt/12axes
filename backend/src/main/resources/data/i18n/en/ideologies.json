@@ -10,7 +10,7 @@
     "id": "socialismo-stalinista",
     "name": "Stalinist Socialism",
     "category": "Radical Left",
-    "description": "Soviet model consolidated by Stalin, marked by forced industrialization, agrarian collectivization, rigid central planning, a cult of the leader, and mass repression against real or suspected opponents of the regime.",
+    "description": "Soviet model consolidated by Stalin, marked by accelerated industrialization, agricultural collectivization, rigid central planning, personalized leadership and mass political repression.",
     "phrase": "I want a society under a strong leader and a single party, with agrarian collectivization, five-year plans and forced industrialization."
   },
   {
@@ -45,8 +45,8 @@
     "id": "socialismo-juche",
     "name": "Juche Socialism",
     "category": "Radical Left",
-    "description": "North Korean doctrine formulated by Kim Il-sung that combines state socialism, national self-reliance, single-party rule, a cult of the leader, militarization, and rejection of external dependence, subordinating economy and society to the regime's sovereignty.",
-    "phrase": "I want a self-reliant, militarized society, guided by Juche under a single party and a cult of the leader, dependent on no one abroad."
+    "description": "North Korean doctrine formulated by Kim Il-sung that combines state socialism, national self-reliance, single-party rule, supreme leadership, militarization and rejection of external dependence, subordinating economy and society to the sovereignty of the regime.",
+    "phrase": "I want a self-reliant, militarized society, guided by Juche under single-party rule and supreme leadership, with no dependence on the outside."
   },
   {
     "id": "socialismo-pol-potista",
@@ -108,7 +108,7 @@
     "id": "fascismo",
     "name": "Fascism",
     "category": "Third Position",
-    "description": "An ultranationalist doctrine of national rebirth that rejects liberalism and Marxism, exalts the totalitarian state, regenerative violence and the leader cult, and treats the nation as a secular religion, with variants beyond the Italian regime that named it.",
+    "description": "Ultranationalist doctrine of national rebirth that rejects liberalism and Marxism, exalts the totalitarian state and the leadership of a single chief, sees action and violence as a means of regeneration, and treats the nation as a secular religion, with variants beyond the Italian regime that gave it its name.",
     "phrase": "I want a nation exalted under a strong state and a single leader, with militarism, mass mobilization and corporations serving the fatherland."
   },
   {
@@ -136,8 +136,8 @@
     "id": "integralismo-brasileiro",
     "name": "Brazilian Integralism",
     "category": "Third Position",
-    "description": "Authoritarian nationalist movement that emerged in 1930s Brazil, with a Christian and corporatist base, the motto God, Fatherland and Family, mass aesthetics, and frontal opposition to liberalism and communism.",
-    "phrase": "I want a fatherland under God, Fatherland and Family, commanded by an authoritarian chief and uniformed militias against liberals and communists."
+    "description": "Authoritarian nationalist movement that arose in 1930s Brazil, Christian and corporatist, with the motto God, Fatherland and Family, a mass aesthetic and opposition to liberalism and communism.",
+    "phrase": "I want a homeland under God, Fatherland and Family, with a strong state and national leadership, opposed to liberalism and communism."
   },
   {
     "id": "capitalismo-autoritario",
@@ -157,22 +157,22 @@
     "id": "alt-right",
     "name": "Radical Right",
     "category": "Far-Right",
-    "description": "Radical right movement born on the internet, mixing identitarian nationalism, opposition to immigration and multiculturalism, and provocative rhetoric, with positions frequently linked to white supremacy.",
-    "phrase": "I want a homogeneous ethnic nation, closed to immigration and multiculturalism, with white identity defended against commercial globalism."
+    "description": "Radical right movement born on the internet, combining identitarian nationalism, opposition to immigration and multiculturalism, criticism of globalism and provocative rhetoric. Part of its voices defend a nationalism based on race.",
+    "phrase": "I want a nation with its own identity and controlled borders, one that questions multiculturalism and globalism, with freedom to speak without censorship."
   },
   {
     "id": "alt-lite",
     "name": "Alt-Lite",
     "category": "Right",
-    "description": "More moderate branch of the alternative right, nationalist and anti-globalist, which rejects explicit racial supremacism but defends cultural identity, criticism of immigration, and the fight against political correctness.",
-    "phrase": "I want to preserve my people's cultural identity against uncontrolled immigration and political correctness, without resorting to racial supremacism."
+    "description": "Branch of the radical right that is nationalist and anti-globalist, emphasizing cultural identity, criticism of immigration and opposition to political correctness, without adopting race-based positions.",
+    "phrase": "I want to preserve my people's cultural identity, with immigration controls and free speech against political correctness."
   },
   {
     "id": "aceleracionismo-de-direita",
     "name": "Right-Wing Accelerationism",
     "category": "Far-Right",
-    "description": "Current that advocates accelerating the system's contradictions through technology and the collapse of liberal institutions, betting on the rupture of the existing order to forge a new social and political hierarchy.",
-    "phrase": "I want to accelerate the collapse of liberal institutions with technology and stateless markets, so a new hierarchy rises from the ruins."
+    "description": "Current that defends accelerating the system's contradictions through technology and the weakening of liberal institutions, betting on a break with the existing order to give rise to a new hierarchical social and political order.",
+    "phrase": "I want to accelerate, with technology and markets without a state, the overcoming of liberal institutions, so that a new hierarchical order arises."
   },
   {
     "id": "neoconservadorismo",
@@ -220,8 +220,8 @@
     "id": "nacionalismo-etnico",
     "name": "Ethnic Nationalism",
     "category": "Far-Right",
-    "description": "Conception that defines the nation by common origin, language, and ancestry, advocating a state of the dominant ethnicity and the preservation of its identity, with a tendency to exclude minorities and immigrants from the national body.",
-    "phrase": "I want a state of my own ethnicity, united by common blood, language and ancestry, preserving its identity against minorities and immigrants."
+    "description": "Conception that defines the nation by shared origin, language and descent, defending a state for the majority ethnic group and the preservation of its identity, which usually implies membership criteria tied to ancestry.",
+    "phrase": "I want a state of my ethnic group, united by shared language, origin and descent, that preserves my people's identity and continuity."
   },
   {
     "id": "nacionalismo-cultural",
@@ -256,7 +256,7 @@
     "name": "Reactionaryism",
     "category": "Far-Right",
     "description": "Stance that rejects modernity and seeks to restore the pre-revolutionary order, defending monarchy, religion, tradition, and hierarchy against Enlightenment rationalism, liberalism, and democracy.",
-    "phrase": "I want to restore the throne, the altar and the hierarchy of before the revolutions, sweeping away Enlightenment rationalism and liberal democracy."
+    "phrase": "I want to restore the throne, the altar and the hierarchy that preceded the revolutions, as a counterweight to Enlightenment rationalism and liberal democracy."
   },
   {
     "id": "quarta-teoria-politica",
@@ -542,8 +542,8 @@
     "id": "socialismo-cristao",
     "name": "Christian Socialism",
     "category": "Radical Left",
-    "description": "Current of Thomas Müntzer, the peasants of 1525 and guerrilla priests such as Camilo Torres, seeking the Kingdom of God on earth through revolution, with common property and the rule of the poor imposed by force.",
-    "phrase": "I want God's Kingdom on earth through a revolution of the poor, all goods in common and the mighty cast down by the elect."
+    "description": "Current of Thomas Müntzer, the peasants of 1525 and priests such as Camilo Torres, which seeks the Kingdom of God on Earth through revolution, with common property and power in the hands of the poor.",
+    "phrase": "I want the Kingdom of God on Earth through the revolution of the poor, with all goods in common and power in the hands of those who work."
   },
   {
     "id": "trabalhismo-cristao",
@@ -675,8 +675,8 @@
     "id": "libertarianismo-hoppeano",
     "name": "Hoppean Libertarianism",
     "category": "Libertarian",
-    "description": "Current linked to Hans-Hermann Hoppe that unites anarcho-capitalism, absolute private property, and criticism of democracy, defending social orders based on contract, voluntary exclusion, and private authority.",
-    "phrase": "I want an order of absolute private property, governed by contracts and communities that expel those who reject their rules, without egalitarian democracy or a state."
+    "description": "Current tied to Hans-Hermann Hoppe that joins anarcho-capitalism, absolute private property and criticism of democracy, defending social orders based on contract, voluntary association and private authority.",
+    "phrase": "I want an order of absolute private property, governed by contracts and by communities that set their own rules, with no democracy and no state."
   },
   {
     "id": "capitalismo",
@@ -857,8 +857,8 @@
     "id": "tecno-fascismo",
     "name": "Techno-Fascism",
     "category": "Third Position",
-    "description": "Dystopia that combines the totalitarian authoritarianism of fascism with digital surveillance, artificial intelligence, and technological control of the masses, using technique to repress, manipulate, and dominate all of society.",
-    "phrase": "I want a totalitarian state that uses digital surveillance and artificial intelligence to repress, manipulate and dominate all of society."
+    "description": "Current that joins the totalitarian authoritarianism of fascism to digital surveillance, artificial intelligence and technological control of the population, using technique to secure order and national unity.",
+    "phrase": "I want a strong, totalitarian state that uses digital surveillance and artificial intelligence to secure the order and unity of the nation."
   },
   {
     "id": "liberalismo-autoritario",
@@ -878,8 +878,8 @@
     "id": "ecofascismo",
     "name": "Eco-Fascism",
     "category": "Far-Right",
-    "description": "Current that fuses radical ecology, authoritarianism, and organic nationalism, defending population control, coercive environmental preservation, and the subordination of individual freedoms to the survival of the national community.",
-    "phrase": "I want an organic national community that imposes population control and coercive environmental preservation above individual freedoms."
+    "description": "Current that joins radical ecology, authoritarianism and organic nationalism, defending population control, environmental preservation imposed by the state and the subordination of individual liberties to the survival of the national community.",
+    "phrase": "I want an organic national community in harmony with the land, putting environmental preservation and the survival of the people above individual liberties."
   },
   {
     "id": "comunismo-agrario",
@@ -956,7 +956,7 @@
     "name": "Right-Wing Populism",
     "category": "Right",
     "description": "Current that mobilizes the people against political and cultural elites, combining nationalism, immigration restriction, traditional values, public religion, strong security, and anti-establishment economic pragmatism around personalist leaders.",
-    "phrase": "I want a people united against corrupt elites, with closed borders, traditional values and a leader who restores order to the nation."
+    "phrase": "I want a people united against elites distant from them, with controlled borders, traditional values and a leader who restores order."
   },
   {
     "id": "populismo-de-esquerda",
@@ -1032,8 +1032,8 @@
     "id": "imperialismo",
     "name": "Imperialism",
     "category": "Far-Right",
-    "description": "Doctrine that advocates the territorial, military, and economic expansion of a nation over other peoples and territories, subordinating colonies and spheres of influence to the interests of the metropole through force and political domination.",
-    "phrase": "I want a metropole that expands its territory and subjugates colonies by force, subordinating conquered peoples to the dominant nation's interests."
+    "description": "Doctrine that defends the territorial, military and economic expansion of a nation over other peoples and territories, keeping colonies and spheres of influence tied to the interests of the metropole through military and political power.",
+    "phrase": "I want a powerful nation that expands its territory and its influence in the world, backed by strong military and economic capacity."
   },
   {
     "id": "liberalismo-progressista",
@@ -1046,8 +1046,8 @@
     "id": "militarismo",
     "name": "Militarism",
     "category": "Far-Right",
-    "description": "Regime centered on the armed forces as the core of political power, ruled by a military junta or command hierarchy, marked by centralization, discipline, a cult of order, and expansionism, subordinating civilian politics to military command.",
-    "phrase": "I want a military junta commanding the state, discipline and a cult of order in the barracks, subordinating civilian politics to military command."
+    "description": "Regime centered on the armed forces as the core of political power, governing by junta or military hierarchy, with centralization, discipline, a high value on order and expansionism, and civilian politics subordinate to military command.",
+    "phrase": "I want a state commanded by the armed forces, with discipline and order as central values and civilian politics subordinate to military command."
   },
   {
     "id": "federalismo",
@@ -1088,8 +1088,8 @@
     "id": "teocracia-progressista",
     "name": "Progressive Theocracy",
     "category": "Radical Left",
-    "description": "Theocracy led by clerical authority without popular sovereignty, imposing a progressive morality from above as divine commandment: gender equality, sexual liberation, sacred ecology and a break with inherited custom, treated as superstition to be reformed.",
-    "phrase": "I want a clergy that imposes gender equality and sexual liberation from above, as divine commandment, breaking with inherited custom as superstition."
+    "description": "Theocracy led by clerical authority without popular sovereignty, which establishes from above a progressive morality as a divine commandment: gender equality, sexual liberation, sacred ecology and a break with inherited custom, seen as superstition to be reformed.",
+    "phrase": "I want religious leadership that establishes, as a divine commandment, gender equality and sexual liberation, in a break with inherited custom."
   },
   {
     "id": "ateismo-tradicionalista",
@@ -1200,8 +1200,8 @@
     "id": "aristocratismo",
     "name": "Aristocratism",
     "category": "Far-Right",
-    "description": "Doctrine of the rule of the best, entrusting power to a minority qualified by virtue, education or birth, rejecting political equality and majority rule as surrendering the city to incompetence.",
-    "phrase": "I want government entrusted to a minority qualified by virtue and birth, rejecting political equality as surrendering the city to incompetence."
+    "description": "Doctrine of rule by the best, which entrusts power to a minority qualified by virtue, education or birth, rejecting political equality and majority rule, which it sees as a risk to competence.",
+    "phrase": "I want government entrusted to a minority qualified by virtue and birth, with limits on majority power and priority for competence."
   },
   {
     "id": "aristocratismo-nietzschiano",
@@ -1480,8 +1480,8 @@
     "id": "conservadorismo-confederado",
     "name": "Confederate Conservatism",
     "category": "Far-Right",
-    "description": "Ideology of the slaveholding South that sustained the Confederacy, joining states' rights and secession, racial hierarchy and slavery, a patriarchal Christian agrarian society, free trade and militarism.",
-    "phrase": "I want sovereign states free from central power, a Christian patriarchal agrarian society, free trade with the world and racial hierarchy preserved."
+    "description": "Political tradition of the nineteenth-century American South tied to the Confederacy, defending states' rights and secession, an agrarian, patriarchal and Christian society, free trade and a military tradition. Historically, this tradition also defended slavery and racial hierarchy.",
+    "phrase": "I want sovereign states free from central power, an agrarian, Christian and patriarchal society, free trade, and the tradition and honor of the South."
   },
   {
     "id": "socialismo-agrario",
@@ -1515,8 +1515,8 @@
     "id": "neoliberalismo-autoritario",
     "name": "Authoritarian Neoliberalism",
     "category": "Right",
-    "description": "Regime that imposes radical free markets through a military dictatorship, with privatizations, trade opening and Chicago-trained economists, repressing unions, parties and opponents in the name of order and anticommunism.",
-    "phrase": "I want open markets, privatization and fiscal discipline imposed by a strong government that crushes unions and opposition."
+    "description": "Regime that introduces radical free-market policies under a military dictatorship, with privatizations, trade opening and Chicago School economists, restricting unions, parties and opponents in the name of order and anticommunism.",
+    "phrase": "I want open markets, privatizations and fiscal discipline under a strong government, with political order and restrictions on the opposition."
   },
   {
     "id": "catolicismo-universalista",
@@ -1619,14 +1619,14 @@
     "id": "nacionalismo-budista",
     "name": "Buddhist Nationalism",
     "category": "Right",
-    "description": "A current fusing ethnic identity and Theravada Buddhist faith, seeing the nation as guardian of the Dharma threatened by minorities, as in Sinhalese nationalism in Sri Lanka and the Ma Ba Tha and 969 monk movements in Myanmar.",
-    "phrase": "I want a Buddhist nation that protects the Dharma and the majority, with influential monks, strong leaders, and minorities under watch."
+    "description": "Current that joins ethnic identity and Theravada Buddhist faith and sees the nation as guardian of the Dharma, wary of the influence of other communities, as in Sinhalese nationalism in Sri Lanka and monk movements such as Ma Ba Tha and 969 in Myanmar.",
+    "phrase": "I want a nation that protects the Dharma and the Buddhist identity of the majority, with influential monks and firm leadership."
   },
   {
     "id": "sionismo",
     "name": "Zionism",
     "category": "Right",
-    "description": "A Jewish national movement founded by Herzl in 1897 that led to Israel in 1948. It spans labor, revisionist and religious currents and today is expressed in a parliamentary democracy with a strong military, the Law of Return and control of the West Bank.",
+    "description": "Jewish national movement created by Herzl in 1897 that led to the State of Israel in 1948. It spans labor, revisionist and religious currents and today is expressed in a parliamentary democracy with strong military defense and a Law of Return.",
     "phrase": "I want a strong democratic Jewish state in the land of Israel that welcomes every Jew, defends itself with its own arms and preserves Hebrew."
   },
   {
@@ -1745,7 +1745,7 @@
     "id": "iluminismo-sombrio",
     "name": "Dark Enlightenment",
     "category": "Far-Right",
-    "description": "A intellectual current of Nick Land and Curtis Yarvin that attacks democracy, egalitarianism and the academic-media \"Cathedral\", defends autocratic government and exit, and harbors strands of race realism and accelerationism.",
+    "description": "Intellectual current of Nick Land and Curtis Yarvin that criticizes democracy, egalitarianism and the academic-media \"Cathedral\", defends autocratic governments and the right of exit, and includes accelerationist strands. Critics also associate it with so-called race realism.",
     "phrase": "I want to replace democracy and egalitarianism with strong sovereigns, natural hierarchy and free microstates that speed up technology, beyond the Cathedral."
   },
   {
