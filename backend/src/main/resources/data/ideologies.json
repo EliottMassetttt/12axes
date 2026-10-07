@@ -3255,5 +3255,38 @@
     "countryId": "italia",
     "personalityId": "enrico-berlinguer",
     "religions": []
+  },
+  {
+    "id": "internacionalismo",
+    "name": "Internacionalismo",
+    "category": "Esquerda",
+    "description": "Doutrina política que defende a cooperação solidária entre os povos, a superação do nacionalismo e o fortalecimento de instituições globais para a paz e o desenvolvimento comum.",
+    "phrase": "Quero uma ordem global solidária e sem fronteiras fechadas, com cooperação multilateral, paz negociada e direitos humanos universais.",
+    "vector": null,
+    "countryId": "suica",
+    "personalityId": "george-soros",
+    "religions": []
+  },
+  {
+    "id": "socialismo-internacionalista",
+    "name": "Socialismo Internacionalista",
+    "category": "Esquerda Radical",
+    "description": "Vertente do socialismo que prega a união global dos trabalhadores contra o capitalismo, rejeitando o nacionalismo burguês e defendendo a solidariedade internacional proletária.",
+    "phrase": "Quero a união global dos trabalhadores contra o capitalismo, superando as fronteiras nacionais por meio da propriedade coletiva e do planejamento solidário.",
+    "vector": null,
+    "countryId": "uniao-sovietica-urss",
+    "personalityId": "trotsky",
+    "religions": []
+  },
+  {
+    "id": "democracia-internacionalista",
+    "name": "Democracia Internacionalista",
+    "category": "Esquerda",
+    "description": "Doutrina que propõe uma ordem política global democrática e federada, onde cidadãos e nações deliberam conjuntamente por meio de instituições representativas multilaterais e cooperação jurídica.",
+    "phrase": "Quero uma federação mundial democrática, com assembleias representativas multilaterais, soberania popular transnacional e império da lei internacional.",
+    "vector": null,
+    "countryId": "uniao-europeia",
+    "personalityId": "albert-camus",
+    "religions": []
   }
 ]

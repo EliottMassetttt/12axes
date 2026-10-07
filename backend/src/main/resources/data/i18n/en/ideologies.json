@@ -1803,5 +1803,26 @@
     "category": "Left",
     "description": "A 1970s Western European communist current that sought a national path to socialism through elections, party pluralism and civil liberties, independent of Moscow, with a mixed economy under democratic planning.",
     "phrase": "I want to build socialism through elections and pluralism, with civil liberties, national autonomy and democratic economic planning."
+  },
+  {
+    "id": "internacionalismo",
+    "name": "Internationalism",
+    "category": "Left",
+    "description": "Political doctrine advocating solidarity and cooperation among nations, overcoming nationalism, and strengthening global institutions for shared peace and development.",
+    "phrase": "I want an open, solidary global order with multilateral cooperation, negotiated peace, and universal human rights."
+  },
+  {
+    "id": "socialismo-internacionalista",
+    "name": "Internationalist Socialism",
+    "category": "Radical Left",
+    "description": "Branch of socialism advocating the global unity of working people against capitalism, rejecting bourgeois nationalism, and defending international working-class solidarity.",
+    "phrase": "I want the global unity of working people against capitalism, overcoming national borders through collective ownership and cooperative planning."
+  },
+  {
+    "id": "democracia-internacionalista",
+    "name": "Internationalist Democracy",
+    "category": "Left",
+    "description": "Doctrine proposing a democratic and federated global political order where citizens and nations deliberate jointly through multilateral representative institutions and lawful cooperation.",
+    "phrase": "I want a democratic world federation, with multilateral representative assemblies, transnational popular sovereignty, and international rule of law."
   }
 ]

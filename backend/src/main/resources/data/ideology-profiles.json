@@ -4367,5 +4367,56 @@
       "moral": 70.5,
       "tecnologia": 50.0
     }
+  },
+  {
+    "ideologyId": "internacionalismo",
+    "vector": {
+      "estrutura": 67.6,
+      "representacao": 91.8,
+      "poder": 29.4,
+      "imigracao": 3.3,
+      "diplomacia": 8.6,
+      "intervencao": 55.3,
+      "economia": 61.5,
+      "controle": 55.7,
+      "comercio": 21.0,
+      "religiao": 79.8,
+      "moral": 80.0,
+      "tecnologia": 56.0
+    }
+  },
+  {
+    "ideologyId": "socialismo-internacionalista",
+    "vector": {
+      "estrutura": 30.7,
+      "representacao": 62.6,
+      "poder": 54.0,
+      "imigracao": 2.1,
+      "diplomacia": 63.6,
+      "intervencao": 62.6,
+      "economia": 97.2,
+      "controle": 88.9,
+      "comercio": 43.1,
+      "religiao": 97.6,
+      "moral": 88.3,
+      "tecnologia": 71.3
+    }
+  },
+  {
+    "ideologyId": "democracia-internacionalista",
+    "vector": {
+      "estrutura": 74.8,
+      "representacao": 95.4,
+      "poder": 34.1,
+      "imigracao": 4.5,
+      "diplomacia": 8.6,
+      "intervencao": 54.1,
+      "economia": 79.4,
+      "controle": 65.2,
+      "comercio": 17.5,
+      "religiao": 78.6,
+      "moral": 88.3,
+      "tecnologia": 38.1
+    }
   }
 ]
