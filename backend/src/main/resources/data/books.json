@@ -2938,5 +2938,65 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "tucker-carlson",
+    "title": {
+      "pt": "Ship of Fools: How a Selfish Ruling Class Is Bringing America to the Brink of Revolution",
+      "en": "Ship of Fools: How a Selfish Ruling Class Is Bringing America to the Brink of Revolution"
+    },
+    "year": 2018,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ben-shapiro",
+    "title": {
+      "pt": "O Lado Certo da História",
+      "en": "The Right Side of History: How Reason and Moral Purpose Made the West Great"
+    },
+    "year": 2019,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "glenn-greenwald",
+    "title": {
+      "pt": "Sem Lugar para se Esconder",
+      "en": "No Place to Hide: Edward Snowden, the NSA, and the U.S. Surveillance State"
+    },
+    "year": 2014,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "eduardo-moreira",
+    "title": {
+      "pt": "Desigualdade & Caminhos para uma Sociedade Mais Justa",
+      "en": "Inequality & Pathways to a Fairer Society"
+    },
+    "year": 2019,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "jones-manoel",
+    "title": {
+      "pt": "Revolução Africana: Uma Antologia do Pensamento Marxista",
+      "en": "African Revolution: An Anthology of Marxist Thought"
+    },
+    "year": 2019,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]

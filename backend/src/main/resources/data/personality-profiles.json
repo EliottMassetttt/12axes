@@ -8702,5 +8702,192 @@
       "moral": 70.5,
       "tecnologia": 51.2
     }
+  },
+  {
+    "personalityId": "joe-rogan",
+    "vector": {
+      "estrutura": 85.1,
+      "representacao": 96.2,
+      "poder": 6.5,
+      "imigracao": 59.0,
+      "diplomacia": 31.9,
+      "intervencao": 70.5,
+      "economia": 34.1,
+      "controle": 12.8,
+      "comercio": 59.1,
+      "religiao": 81.4,
+      "moral": 55.0,
+      "tecnologia": 53.6
+    }
+  },
+  {
+    "personalityId": "tucker-carlson",
+    "vector": {
+      "estrutura": 86.7,
+      "representacao": 91.8,
+      "poder": 33.0,
+      "imigracao": 98.0,
+      "diplomacia": 45.0,
+      "intervencao": 64.5,
+      "economia": 32.8,
+      "controle": 35.0,
+      "comercio": 94.3,
+      "religiao": 6.9,
+      "moral": 3.0,
+      "tecnologia": 20.5
+    }
+  },
+  {
+    "personalityId": "ben-shapiro",
+    "vector": {
+      "estrutura": 66.4,
+      "representacao": 84.7,
+      "poder": 58.0,
+      "imigracao": 99.1,
+      "diplomacia": 82.6,
+      "intervencao": 1.9,
+      "economia": 4.1,
+      "controle": 2.8,
+      "comercio": 7.7,
+      "religiao": 12.9,
+      "moral": 3.0,
+      "tecnologia": 74.9
+    }
+  },
+  {
+    "personalityId": "hasan-piker",
+    "vector": {
+      "estrutura": 49.8,
+      "representacao": 78.7,
+      "poder": 27.0,
+      "imigracao": 1.0,
+      "diplomacia": 7.5,
+      "intervencao": 80.5,
+      "economia": 99.6,
+      "controle": 98.4,
+      "comercio": 90.7,
+      "religiao": 92.9,
+      "moral": 97.9,
+      "tecnologia": 50.0
+    }
+  },
+  {
+    "personalityId": "glenn-greenwald",
+    "vector": {
+      "estrutura": 81.9,
+      "representacao": 93.0,
+      "poder": 8.0,
+      "imigracao": 6.9,
+      "diplomacia": 4.0,
+      "intervencao": 84.0,
+      "economia": 54.8,
+      "controle": 56.7,
+      "comercio": 78.8,
+      "religiao": 91.7,
+      "moral": 86.0,
+      "tecnologia": 38.1
+    }
+  },
+  {
+    "personalityId": "eduardo-moreira",
+    "vector": {
+      "estrutura": 41.4,
+      "representacao": 91.8,
+      "poder": 41.3,
+      "imigracao": 10.5,
+      "diplomacia": 19.3,
+      "intervencao": 63.7,
+      "economia": 95.3,
+      "controle": 91.2,
+      "comercio": 71.7,
+      "religiao": 70.2,
+      "moral": 84.8,
+      "tecnologia": 27.4
+    }
+  },
+  {
+    "personalityId": "jones-manoel",
+    "vector": {
+      "estrutura": 15.1,
+      "representacao": 66.2,
+      "poder": 35.0,
+      "imigracao": 5.7,
+      "diplomacia": 49.3,
+      "intervencao": 50.7,
+      "economia": 99.6,
+      "controle": 98.4,
+      "comercio": 87.1,
+      "religiao": 92.9,
+      "moral": 91.9,
+      "tecnologia": 47.5
+    }
+  },
+  {
+    "personalityId": "guilherme-freire",
+    "vector": {
+      "estrutura": 72.4,
+      "representacao": 66.8,
+      "poder": 40.1,
+      "imigracao": 83.7,
+      "diplomacia": 59.3,
+      "intervencao": 47.9,
+      "economia": 32.7,
+      "controle": 9.9,
+      "comercio": 45.8,
+      "religiao": 3.3,
+      "moral": 5.3,
+      "tecnologia": 30.0
+    }
+  },
+  {
+    "personalityId": "nando-moura",
+    "vector": {
+      "estrutura": 71.2,
+      "representacao": 89.4,
+      "poder": 52.0,
+      "imigracao": 84.9,
+      "diplomacia": 74.3,
+      "intervencao": 19.8,
+      "economia": 10.1,
+      "controle": 7.5,
+      "comercio": 12.5,
+      "religiao": 8.1,
+      "moral": 4.1,
+      "tecnologia": 47.6
+    }
+  },
+  {
+    "personalityId": "raphael-lima",
+    "vector": {
+      "estrutura": 99.8,
+      "representacao": 91.2,
+      "poder": 2.8,
+      "imigracao": 4.3,
+      "diplomacia": 5.1,
+      "intervencao": 90.0,
+      "economia": 0.6,
+      "controle": 4.0,
+      "comercio": 0.6,
+      "religiao": 70.7,
+      "moral": 58.6,
+      "tecnologia": 94.9
+    }
+  },
+  {
+    "personalityId": "joao-campos",
+    "vector": {
+      "estrutura": 62.9,
+      "representacao": 87.0,
+      "poder": 56.8,
+      "imigracao": 18.8,
+      "diplomacia": 21.7,
+      "intervencao": 57.7,
+      "economia": 71.0,
+      "controle": 68.8,
+      "comercio": 59.1,
+      "religiao": 60.7,
+      "moral": 72.9,
+      "tecnologia": 45.2
+    }
   }
 ]

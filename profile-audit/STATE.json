@@ -1,8 +1,8 @@
 {
   "_comment": "Estado unico da auditoria pergunta-a-pergunta (240 perguntas / 12 eixos). Um objeto por catalogo. Veja README.md para o processo completo.",
-  "lastUpdated": "2026-10-07 09:58:51",
+  "lastUpdated": "2026-10-07 10:52:15",
   "personality": {
-    "totalProfiles": 504,
+    "totalProfiles": 515,
     "pending": [],
     "done": [
       "lenin",
@@ -508,7 +508,18 @@
       "carlos-marighella",
       "aldo-rebelo",
       "luiz-philippe-de-orleans-e-braganca",
-      "eduardo-paes"
+      "eduardo-paes",
+      "joe-rogan",
+      "tucker-carlson",
+      "ben-shapiro",
+      "hasan-piker",
+      "glenn-greenwald",
+      "eduardo-moreira",
+      "jones-manoel",
+      "guilherme-freire",
+      "nando-moura",
+      "raphael-lima",
+      "joao-campos"
     ],
     "lastUpdated": "2026-10-05T19:27:12Z",
     "audited": 509,

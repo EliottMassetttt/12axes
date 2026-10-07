@@ -7139,5 +7139,158 @@
     "religions": [
       "catholic"
     ]
+  },
+  {
+    "id": "joe-rogan",
+    "name": "Joe Rogan",
+    "role": "Podcaster e Comediante",
+    "category": "intelectual",
+    "lifespan": "1967–presente",
+    "description": "Comediante, comentarista e podcaster norte-americano, apresentador do The Joe Rogan Experience. Destaca-se pelo estilo populista e libertário anti-establishment, defesa enfática da liberdade de expressão irrestrita e ceticismo institucional.",
+    "imagePath": "/personalities/portraits/joe-rogan.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Joe_Rogan",
+    "imageNote": "Retrato de Joe Rogan via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "tucker-carlson",
+    "name": "Tucker Carlson",
+    "role": "Comentarista Político e Jornalista",
+    "category": "intelectual",
+    "lifespan": "1969–presente",
+    "description": "Jornalista e comentarista político conservador norte-americano. Destaca-se pelo populismo de direita de viés nacionalista, oposição incisiva à imigração e ao intervencionismo militar externo, e críticas contundentes às elites corporativas e midiáticas.",
+    "imagePath": "/personalities/portraits/tucker-carlson.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Tucker_Carlson",
+    "imageNote": "Retrato de Tucker Carlson via Wikimedia Commons.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "ben-shapiro",
+    "name": "Ben Shapiro",
+    "role": "Comentarista Político e Advogado",
+    "category": "intelectual",
+    "lifespan": "1984–presente",
+    "description": "Comentarista político conservador, advogado e cofundador do The Daily Wire. Notabilizou-se pela defesa intransigente do livre mercado capitalista, tradicionalismo moral e religioso judaico-cristão, sionismo assertivo e combate retórico à esquerda.",
+    "imagePath": "/personalities/portraits/ben-shapiro.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Ben_Shapiro",
+    "imageNote": "Retrato de Ben Shapiro via Wikimedia Commons.",
+    "religions": [
+      "judaism"
+    ]
+  },
+  {
+    "id": "hasan-piker",
+    "name": "Hasan Piker",
+    "role": "Comentarista Político e Streamer",
+    "category": "ativista",
+    "lifespan": "1991–presente",
+    "description": "Comentarista político e streamer norte-americano de origem turca, conhecido como HasanAbi. Destaca-se pela difusão do socialismo democrático, ativismo sindical, crítica radical ao imperialismo e solidariedade internacional à classe trabalhadora.",
+    "imagePath": "/personalities/portraits/hasan-piker.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Hasan_Piker",
+    "imageNote": "Retrato de Hasan Piker via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "glenn-greenwald",
+    "name": "Glenn Greenwald",
+    "role": "Jornalista Investigativo e Escritor",
+    "category": "intelectual",
+    "lifespan": "1967–presente",
+    "description": "Jornalista investigativo e escritor norte-americano radicado no Brasil, cofundador do The Intercept. Destaca-se pela defesa intransigente das liberdades civis, privacidade contra a vigilância estatal em massa e denúncia de abusos de poder político e judiciário.",
+    "imagePath": "/personalities/portraits/glenn-greenwald.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Glenn_Greenwald",
+    "imageNote": "Retrato de Glenn Greenwald via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "eduardo-moreira",
+    "name": "Eduardo Moreira",
+    "role": "Economista, Escritor e Comunicador",
+    "category": "economista",
+    "lifespan": "1976–presente",
+    "description": "Economista, empresário, escritor e comunicador brasileiro, fundador do ICL (Instituto Conhecimento Liberta). Ex-banqueiro, notabilizou-se pela crítica ao rentismo e ao neoliberalismo, defesa de reformas sociais redistributivas e soberania popular.",
+    "imagePath": "/personalities/portraits/eduardo-moreira.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eduardo_Moreira.jpg",
+    "imageNote": "Retrato de Eduardo Moreira via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "jones-manoel",
+    "name": "Jones Manoel",
+    "role": "Historiador e Comunicador Político",
+    "category": "ativista",
+    "lifespan": "1990–presente",
+    "description": "Historiador, comunicador, escritor e influenciador marxista brasileiro. Destaca-se pela divulgação do marxismo-leninismo, resgate da tradição revolucionária anticolonial, crítica ao reformismo liberal e defesa da soberania e do poder popular.",
+    "imagePath": "/personalities/portraits/jones-manoel.jpg",
+    "imageSourceName": "Wikimedia Commons",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Jones_Manoel",
+    "imageNote": "Retrato de Jones Manoel via Wikimedia Commons.",
+    "religions": []
+  },
+  {
+    "id": "guilherme-freire",
+    "name": "Guilherme Freire",
+    "role": "Professor de Filosofia e Educador",
+    "category": "filosofo",
+    "lifespan": "1989–presente",
+    "description": "Professor de filosofia, educador e conferencista brasileiro, criador do projeto Filosofia do Zero. Notabilizou-se pela difusão do tomismo, da tradição clássica aristotélica, das virtudes cristãs e pela crítica cultural ao relativismo moderno.",
+    "imagePath": "/personalities/portraits/guilherme-freire.jpg",
+    "imageSourceName": "Canal Oficial / YouTube",
+    "imageSourceUrl": "https://www.youtube.com/@guilhermefclfreire",
+    "imageNote": "Retrato oficial de Guilherme Freire.",
+    "religions": [
+      "catholic"
+    ]
+  },
+  {
+    "id": "nando-moura",
+    "name": "Nando Moura",
+    "role": "Comentarista Político e Influenciador",
+    "category": "ativista",
+    "lifespan": "1984–presente",
+    "description": "Músico, comentarista político e influenciador digital brasileiro. Destaca-se pelo estilo polemista e inflamado, defesa do conservadorismo moral cristão, combate à corrupção sistêmica e duras críticas tanto à esquerda quanto ao bolsonarismo.",
+    "imagePath": "/personalities/portraits/nando-moura.jpg",
+    "imageSourceName": "Canal Oficial / YouTube",
+    "imageSourceUrl": "https://www.youtube.com/@nandomouraoficial",
+    "imageNote": "Retrato oficial de Nando Moura.",
+    "religions": [
+      "protestant"
+    ]
+  },
+  {
+    "id": "raphael-lima",
+    "name": "Raphaël Lima",
+    "role": "Ativista Político e Comunicador",
+    "category": "ativista",
+    "lifespan": "1989–presente",
+    "description": "Comunicador, empresário e ativista político brasileiro, criador do canal Ideias Radicais. Notabilizou-se pela popularização do anarcocapitalismo e da Escola Austríaca, defesa irrestrita da propriedade privada, desregulamentação e secessão política.",
+    "imagePath": "/personalities/portraits/raphael-lima.jpg",
+    "imageSourceName": "Canal Oficial / YouTube",
+    "imageSourceUrl": "https://www.youtube.com/@ideiasradicais",
+    "imageNote": "Retrato oficial de Raphaël Lima.",
+    "religions": []
+  },
+  {
+    "id": "joao-campos",
+    "name": "João Campos",
+    "role": "Prefeito do Recife e Engenheiro",
+    "category": "politico",
+    "lifespan": "1993–presente",
+    "description": "Engenheiro civil e político brasileiro filiado ao PSB, prefeito do Recife reeleito com votação recorde. Notabilizou-se pela comunicação digital de massa, gestão pública centrada em obras de urbanização, contenção de encostas e expansão de creches.",
+    "imagePath": "/personalities/portraits/joao-campos.jpg",
+    "imageSourceName": "Wikimedia Commons / Ricardo Stuckert",
+    "imageSourceUrl": "https://pt.wikipedia.org/wiki/Jo%C3%A3o_Campos_(pol%C3%ADtico_pernambucano)",
+    "imageNote": "Retrato oficial de João Campos via Wikimedia Commons.",
+    "religions": [
+      "catholic"
+    ]
   }
 ]
