@@ -1,0 +1,1297 @@
+[
+  {
+    "id": "estrutura_01",
+    "agree": "Regional and local governments decide their own affairs without depending on the national government.",
+    "disagree": "The national government keeps decision-making power over local matters."
+  },
+  {
+    "id": "estrutura_02",
+    "agree": "The same laws apply across the whole country, even if a region would prefer another rule.",
+    "disagree": "Each region may have different rules, according to local preference.",
+    "note": "The question measures who decides: the whole country or each region. If you want few laws but the same everywhere, think only about who makes the rules."
+  },
+  {
+    "id": "estrutura_03",
+    "agree": "Local and regional governments make the laws on local matters.",
+    "disagree": "The national government may also make laws on local matters."
+  },
+  {
+    "id": "estrutura_04",
+    "agree": "All schools follow the same national curriculum.",
+    "disagree": "Each region sets the curriculum of its own schools."
+  },
+  {
+    "id": "estrutura_05",
+    "agree": "Each state or province writes its own constitution, without national interference.",
+    "disagree": "The national government sets the limits of the fundamental rules of each state or province."
+  },
+  {
+    "id": "estrutura_06",
+    "agree": "A single national police force operates across the whole country.",
+    "disagree": "Each region keeps its own autonomous police force."
+  },
+  {
+    "id": "estrutura_07",
+    "agree": "Most tax revenue stays in the region or municipality where it was collected.",
+    "disagree": "A large share of tax revenue goes to the central government, which shares it among regions."
+  },
+  {
+    "id": "estrutura_08",
+    "agree": "Public healthcare follows single national rules, coordinated by a central authority.",
+    "disagree": "Regions and municipalities organize public healthcare their own way."
+  },
+  {
+    "id": "estrutura_09",
+    "agree": "A region may leave the country if a local majority votes for it.",
+    "disagree": "No region may leave the country by its own vote alone."
+  },
+  {
+    "id": "estrutura_10",
+    "agree": "Regional taxes follow common national rules.",
+    "disagree": "Each region freely sets its own tax rules."
+  },
+  {
+    "id": "estrutura_11",
+    "agree": "Indigenous and traditional peoples have their own rules within their lands.",
+    "disagree": "Everyone follows the same laws, anywhere in the country.",
+    "note": "The question measures who makes the rules: the territory or the country. It does not measure what you think of these peoples."
+  },
+  {
+    "id": "estrutura_12",
+    "agree": "Labor laws are identical in every region.",
+    "disagree": "Each region may have its own variations in labor law."
+  },
+  {
+    "id": "estrutura_13",
+    "agree": "Municipalities can pass their own laws, even if they differ from national laws.",
+    "disagree": "Municipal laws cannot contradict national laws."
+  },
+  {
+    "id": "estrutura_14",
+    "agree": "When a regional and a national leader disagree, the national leader has the final say.",
+    "disagree": "The national leader does not have the final say over the regional leader."
+  },
+  {
+    "id": "estrutura_15",
+    "agree": "The country is a union of regions with broad political autonomy.",
+    "disagree": "The country is more centralized, and regions have little political autonomy."
+  },
+  {
+    "id": "estrutura_16",
+    "agree": "The national government can annul regional and local laws that harm the national interest.",
+    "disagree": "Regions and municipalities keep their laws, even when the national government disagrees.",
+    "note": "The question is about annulling local laws for the national interest. If you would annul a local law only to protect individual rights, think only about the national-interest criterion."
+  },
+  {
+    "id": "estrutura_17",
+    "agree": "Regions with a strong cultural identity deserve more political autonomy.",
+    "disagree": "All regions have the same degree of autonomy, whatever their culture.",
+    "note": "The question measures whether autonomy should vary from region to region, not the worth of any particular culture."
+  },
+  {
+    "id": "estrutura_18",
+    "agree": "No region may leave the country, even if its local population wants to.",
+    "disagree": "A region may leave the country if its local population supports it."
+  },
+  {
+    "id": "estrutura_19",
+    "agree": "Local governments manage public education.",
+    "disagree": "Public education is managed by the national or regional government, not by local governments."
+  },
+  {
+    "id": "estrutura_20",
+    "agree": "Regional and local leaders carry out what the central government decides on local matters.",
+    "disagree": "Regional and local leaders decide local matters on their own."
+  },
+  {
+    "id": "representacao_01",
+    "agree": "Free elections stay in place even when they elect bad governments.",
+    "disagree": "Free elections can be limited when the result is a bad government."
+  },
+  {
+    "id": "representacao_02",
+    "agree": "In serious crises, a strong leader governs without depending on the legislature.",
+    "disagree": "Even in serious crises, the leader still depends on the legislature."
+  },
+  {
+    "id": "representacao_03",
+    "agree": "The opposition may publicly criticize any government.",
+    "disagree": "Public criticism of the government may be limited."
+  },
+  {
+    "id": "representacao_04",
+    "agree": "A small group of leaders decides, rather than power being divided among institutions.",
+    "disagree": "Power is divided among several institutions that limit one another."
+  },
+  {
+    "id": "representacao_05",
+    "agree": "Independent judges can overturn government decisions.",
+    "disagree": "Government decisions cannot be overturned by courts.",
+    "note": "The question treats independent judges as a check on the government. Those who put majority will above courts and those who trust judges to limit power answer on opposite sides."
+  },
+  {
+    "id": "representacao_06",
+    "agree": "A good leader can stay in office with no term limits.",
+    "disagree": "There is a limit on terms for every leader.",
+    "note": "The question measures term limits, not whether elections exist. If you accept regular elections but back a popular leader for a long time, you may agree."
+  },
+  {
+    "id": "representacao_07",
+    "agree": "Every adult votes in secret, even poorly informed voters.",
+    "disagree": "Voting may be restricted or stop being secret and universal.",
+    "note": "If you refuse to vote on principle, because you do not recognize the state, think only about how decisions should be made if there were a vote."
+  },
+  {
+    "id": "representacao_08",
+    "agree": "An effective leader can stay in power without facing regular elections.",
+    "disagree": "Every leader must face regular elections, however effective."
+  },
+  {
+    "id": "representacao_09",
+    "agree": "The people can overturn laws by referendum, without depending on the legislature.",
+    "disagree": "Laws change only by decision of elected representatives, not by direct popular vote.",
+    "note": "Disagreeing here does not mean opposing public participation, only direct votes on specific laws."
+  },
+  {
+    "id": "representacao_10",
+    "agree": "Leaders are chosen by competence, tradition or succession rather than by popular election.",
+    "disagree": "Leaders are chosen by popular election.",
+    "note": "If you reject any ruler, or want leaders chosen by a party or council, you fit neither side: Neutral is a possible answer."
+  },
+  {
+    "id": "representacao_11",
+    "agree": "Voters can remove a bad politician from office before the end of the term.",
+    "disagree": "The politician serves the full term, even if poorly rated."
+  },
+  {
+    "id": "representacao_12",
+    "agree": "An authoritarian regime would be better than democracy if it sped up development.",
+    "disagree": "Democracy should be kept, even if development is slower.",
+    "note": "If you reject both the authoritarian regime and representative democracy, for example by preferring a society without a state, Neutral may fit."
+  },
+  {
+    "id": "representacao_13",
+    "agree": "Different parties take turns in power, rather than one group governing for decades.",
+    "disagree": "One group may govern for decades, if it is chosen by those who vote."
+  },
+  {
+    "id": "representacao_14",
+    "agree": "Experts selected for their qualifications govern without being elected by the public.",
+    "disagree": "Those who govern must have been elected by the public."
+  },
+  {
+    "id": "representacao_15",
+    "agree": "Those who govern need the consent and approval of the people affected.",
+    "disagree": "Those who govern may decide without depending on the approval of the people affected.",
+    "note": "If you reject any government (as anarchists do), think only about what follows: if someone does decide, is the approval of those affected required?"
+  },
+  {
+    "id": "representacao_16",
+    "agree": "The right to vote is restricted, and not every adult can vote.",
+    "disagree": "Every adult has the right to vote."
+  },
+  {
+    "id": "representacao_17",
+    "agree": "Society is governed by popular assemblies, without political leaders.",
+    "disagree": "Society has political leaders or elected representatives.",
+    "note": "If you prefer minimal or no government, you may agree here, if what counts are decisions taken in assemblies."
+  },
+  {
+    "id": "representacao_18",
+    "agree": "Governing efficiently matters more than guaranteeing space for the opposition.",
+    "disagree": "Guaranteeing space for the opposition matters more than how efficiently the government runs."
+  },
+  {
+    "id": "representacao_19",
+    "agree": "A government elected by a huge majority respects all the rights of the opposition.",
+    "disagree": "A government with a huge majority may limit the rights of the opposition."
+  },
+  {
+    "id": "representacao_20",
+    "agree": "A stable authoritarian regime is better than an unstable democracy.",
+    "disagree": "An unstable democracy is better than a stable authoritarian regime.",
+    "note": "If you reject both the authoritarian regime and representative democracy, for example by preferring a society without a state, Neutral may fit."
+  },
+  {
+    "id": "poder_01",
+    "agree": "The police carry out aggressive operations against crime in areas controlled by criminal groups.",
+    "disagree": "Police action against crime in areas controlled by criminal groups is more restricted or less aggressive."
+  },
+  {
+    "id": "poder_02",
+    "agree": "Adults can use cannabis without committing a crime.",
+    "disagree": "Adult cannabis use remains a crime.",
+    "note": "The question is about being a crime. If you favor decriminalizing but keeping rules, or treating the issue as health, you sit in the middle: Neutral or the closest option."
+  },
+  {
+    "id": "poder_03",
+    "agree": "The state can monitor digital conversations to prevent and combat crime.",
+    "disagree": "The state cannot monitor digital conversations, even to combat crime."
+  },
+  {
+    "id": "poder_04",
+    "agree": "Freedom of speech protects even opinions considered offensive.",
+    "disagree": "Some offensive opinions may be limited or punished."
+  },
+  {
+    "id": "poder_05",
+    "agree": "Facial recognition cameras in the streets are expanded to reduce crime.",
+    "disagree": "Facial recognition cameras in the streets are not expanded, to protect privacy."
+  },
+  {
+    "id": "poder_06",
+    "agree": "Consensual adult activities, such as drug use, gambling and sex work, are not crimes.",
+    "disagree": "Some of these consensual adult activities remain crimes."
+  },
+  {
+    "id": "poder_07",
+    "agree": "The state can dissolve political parties that threaten public order.",
+    "disagree": "The state cannot dissolve parties, even if they threaten public order."
+  },
+  {
+    "id": "poder_08",
+    "agree": "All drugs, including cocaine, are legalized for adults.",
+    "disagree": "At least the heaviest drugs remain banned for adults.",
+    "note": "The question is about being a crime. If you favor decriminalizing but keeping rules, or treating the issue as health, you sit in the middle: Neutral or the closest option."
+  },
+  {
+    "id": "poder_09",
+    "agree": "The law severely restricts civilian access to firearms.",
+    "disagree": "Civilian access to firearms is less restricted.",
+    "note": "The question measures how much the state limits access, not whether guns are good or bad."
+  },
+  {
+    "id": "poder_10",
+    "agree": "Adults can keep firearms at home for personal protection.",
+    "disagree": "Keeping firearms at home is banned or heavily restricted.",
+    "note": "The question measures how much the state limits access, not whether guns are good or bad."
+  },
+  {
+    "id": "poder_11",
+    "agree": "In serious situations, the government can impose a curfew.",
+    "disagree": "The government cannot impose a curfew, even in serious situations."
+  },
+  {
+    "id": "poder_12",
+    "agree": "Voluntary euthanasia is legalized for people suffering from terminal illness.",
+    "disagree": "Euthanasia remains banned, even for people suffering from terminal illness.",
+    "note": "The question measures whether a person may decide about their own life, not the moral value of euthanasia."
+  },
+  {
+    "id": "poder_13",
+    "agree": "Vaccination is mandatory, even against the will of those who refuse.",
+    "disagree": "Vaccination is each person's choice.",
+    "note": "The question measures whether the state may compel, not whether you believe vaccines work."
+  },
+  {
+    "id": "poder_14",
+    "agree": "When guilt is uncertain, the state avoids convicting, even if some guilty people go free.",
+    "disagree": "When guilt is uncertain, the state may convict, to avoid letting guilty people go free."
+  },
+  {
+    "id": "poder_15",
+    "agree": "The death penalty is adopted for crimes such as rape and murder.",
+    "disagree": "The death penalty is not adopted."
+  },
+  {
+    "id": "poder_16",
+    "agree": "Private conduct between consenting adults is not a crime.",
+    "disagree": "Some private conduct between consenting adults remains a crime."
+  },
+  {
+    "id": "poder_17",
+    "agree": "The government can take down accounts that spread false information.",
+    "disagree": "The government cannot take down accounts because of the content they publish.",
+    "note": "The question is about the government taking accounts down. If you accept moderation by private companies but not by the government, you should disagree."
+  },
+  {
+    "id": "poder_18",
+    "agree": "The government cannot track purchases made through digital payment systems.",
+    "disagree": "The government can track purchases made through digital payment systems."
+  },
+  {
+    "id": "poder_19",
+    "agree": "Terrorism suspects can be held without trial until the threat has passed.",
+    "disagree": "Terrorism suspects can only be held after a trial."
+  },
+  {
+    "id": "poder_20",
+    "agree": "No one is forced to unlock their phone for the police.",
+    "disagree": "The police can force someone to unlock their phone."
+  },
+  {
+    "id": "imigracao_01",
+    "agree": "Those who immigrate learn the language and adopt local customs.",
+    "disagree": "Those who immigrate keep their customs and need not adopt local ones.",
+    "note": "The question measures what is expected of people already living in the country, not how many should be allowed in."
+  },
+  {
+    "id": "imigracao_02",
+    "agree": "A multicultural society embraces several languages in everyday life.",
+    "disagree": "A society has one common language that dominates everyday life."
+  },
+  {
+    "id": "imigracao_03",
+    "agree": "Borders are closed to immigration to preserve the country's cultural identity.",
+    "disagree": "Borders stay open to immigration, without aiming to preserve cultural identity.",
+    "note": "If you want to limit immigration for economic or security reasons rather than cultural ones, consider only the cultural argument in this question."
+  },
+  {
+    "id": "imigracao_04",
+    "agree": "The country lets immigrants keep their customs and traditions, even when different.",
+    "disagree": "The country expects immigrants to set aside customs that are very different from local ones.",
+    "note": "The question measures what is expected of people already living in the country, not how many should be allowed in."
+  },
+  {
+    "id": "imigracao_05",
+    "agree": "The country refuses entry to immigrants who reject local customs.",
+    "disagree": "The country accepts immigrants even if they do not adopt local customs."
+  },
+  {
+    "id": "imigracao_06",
+    "agree": "Immigrants do not have to abandon their customs to live well in the country.",
+    "disagree": "To live well in the country, immigrants have to give up part of their customs.",
+    "note": "The question measures what is expected of people already living in the country, not how many should be allowed in."
+  },
+  {
+    "id": "imigracao_07",
+    "agree": "It is better to preserve national traditions than to accommodate foreign customs.",
+    "disagree": "It is better to accommodate foreign customs than to insist on preserving national traditions."
+  },
+  {
+    "id": "imigracao_08",
+    "agree": "The country encourages the coexistence of different languages and cultures.",
+    "disagree": "Encouraging the coexistence of different languages and cultures is not a goal of the country."
+  },
+  {
+    "id": "imigracao_09",
+    "agree": "The country gives preference to immigrants from cultures similar to its own.",
+    "disagree": "The country treats immigrants from any culture equally."
+  },
+  {
+    "id": "imigracao_10",
+    "agree": "Cultures brought by immigrants have a place in the national identity.",
+    "disagree": "The national identity is defined by the culture that already existed in the country."
+  },
+  {
+    "id": "imigracao_11",
+    "agree": "People who immigrate must adapt to local customs.",
+    "disagree": "People who immigrate need not adapt to local customs.",
+    "note": "The question measures what is expected of people already living in the country, not how many should be allowed in."
+  },
+  {
+    "id": "imigracao_12",
+    "agree": "The country continues to welcome immigrants from countries facing severe crises.",
+    "disagree": "The country reduces or stops welcoming such immigrants.",
+    "note": "The question ties welcoming immigrants to coexistence between cultures; it does not measure economic cost or security."
+  },
+  {
+    "id": "imigracao_13",
+    "agree": "Fluency in the main language is a priority in immigration policy.",
+    "disagree": "Fluency in the main language is not a priority in immigration policy."
+  },
+  {
+    "id": "imigracao_14",
+    "agree": "Immigrants are not judged by customs attributed to their country of origin.",
+    "disagree": "It is acceptable to judge immigrants by the customs of their country of origin."
+  },
+  {
+    "id": "imigracao_15",
+    "agree": "Neighborhoods whose immigrant residents remain culturally isolated create problems for the country.",
+    "disagree": "Neighborhoods where immigrants live in their own culture do not create problems for the country."
+  },
+  {
+    "id": "imigracao_16",
+    "agree": "Children of immigrants can also study in their parents' language in bilingual schools.",
+    "disagree": "Children of immigrants study only in the country's predominant language."
+  },
+  {
+    "id": "imigracao_17",
+    "agree": "Immigration is limited to preserve the country's predominant culture.",
+    "disagree": "Immigration is not limited for the purpose of preserving the predominant culture.",
+    "note": "If you want to limit immigration for economic or security reasons rather than cultural ones, consider only the cultural argument in this question."
+  },
+  {
+    "id": "imigracao_18",
+    "agree": "Borders are open to any peaceful person.",
+    "disagree": "The country controls who may enter.",
+    "note": "If you accept immigration but with rules and selection, you are closer to disagreeing."
+  },
+  {
+    "id": "imigracao_19",
+    "agree": "Immigrants who reject local customs lose the right to remain in the country.",
+    "disagree": "Immigrants keep the right to remain, even if they reject local customs."
+  },
+  {
+    "id": "imigracao_20",
+    "agree": "An identity as a citizen of the world matters more than a national identity.",
+    "disagree": "A national identity matters more than an identity as a citizen of the world."
+  },
+  {
+    "id": "diplomacia_01",
+    "agree": "The country maintains strong armed forces to earn respect abroad.",
+    "disagree": "The country does not need strong armed forces to be respected."
+  },
+  {
+    "id": "diplomacia_02",
+    "agree": "Negotiation and diplomacy are exhausted before any military action.",
+    "disagree": "Military action can come before negotiation is exhausted."
+  },
+  {
+    "id": "diplomacia_03",
+    "agree": "The country can strike first against enemies preparing to attack it.",
+    "disagree": "The country uses force only after being attacked."
+  },
+  {
+    "id": "diplomacia_04",
+    "agree": "The country avoids war even when it could bring advantages.",
+    "disagree": "The country accepts war when it brings advantages."
+  },
+  {
+    "id": "diplomacia_05",
+    "agree": "The country prioritizes military spending even when other areas need resources.",
+    "disagree": "Other areas, such as health and education, come before military spending."
+  },
+  {
+    "id": "diplomacia_06",
+    "agree": "The country seeks diplomatic agreements even if it must make concessions to adversaries.",
+    "disagree": "The country does not make concessions to adversaries just to reach an agreement."
+  },
+  {
+    "id": "diplomacia_07",
+    "agree": "The country develops nuclear weapons.",
+    "disagree": "The country does not develop nuclear weapons."
+  },
+  {
+    "id": "diplomacia_08",
+    "agree": "The country reduces its military spending.",
+    "disagree": "The country maintains or increases its military spending."
+  },
+  {
+    "id": "diplomacia_09",
+    "agree": "Military service is compulsory, to prepare the country for war.",
+    "disagree": "Military service is not compulsory."
+  },
+  {
+    "id": "diplomacia_10",
+    "agree": "Disarmament agreements take priority over expanding arsenals.",
+    "disagree": "Expanding arsenals takes priority over disarmament agreements."
+  },
+  {
+    "id": "diplomacia_11",
+    "agree": "The country prioritizes making its own weapons for its defense.",
+    "disagree": "The country can buy weapons from other countries for its defense.",
+    "note": "The question measures the priority given to domestic weapons production. If you prefer buying from whoever sells cheapest, out of free-market belief rather than pacifism, think only about that priority."
+  },
+  {
+    "id": "diplomacia_12",
+    "agree": "No political or ideological cause justifies starting a war.",
+    "disagree": "Some political or ideological causes justify starting a war.",
+    "note": "The question is about starting a war, not about defending against an attack."
+  },
+  {
+    "id": "diplomacia_13",
+    "agree": "The state can conduct espionage against other countries.",
+    "disagree": "The state does not conduct espionage against other countries."
+  },
+  {
+    "id": "diplomacia_14",
+    "agree": "The country supports international war-crimes courts, even when allies are judged.",
+    "disagree": "The country does not support international courts that could judge its allies.",
+    "note": "If you reject international courts to defend national sovereignty, not because you support war, think only about whether to support those courts."
+  },
+  {
+    "id": "diplomacia_15",
+    "agree": "The country develops lethal autonomous weapons.",
+    "disagree": "The country does not develop lethal autonomous weapons."
+  },
+  {
+    "id": "diplomacia_16",
+    "agree": "The country engages in dialogue even with hostile regimes before threatening military action.",
+    "disagree": "The country may threaten hostile regimes without talking to them first."
+  },
+  {
+    "id": "diplomacia_17",
+    "agree": "The country is ready to start a war if that secures its vital interests.",
+    "disagree": "The country does not start wars, not even to secure its vital interests."
+  },
+  {
+    "id": "diplomacia_18",
+    "agree": "The country abolishes its armed forces.",
+    "disagree": "The country keeps its armed forces.",
+    "note": "The question measures whether the country should have armed forces at all, not how it uses them."
+  },
+  {
+    "id": "diplomacia_19",
+    "agree": "The country threatens a devastating military response to deter attacks.",
+    "disagree": "The country does not use the threat of a devastating response to deter attacks."
+  },
+  {
+    "id": "diplomacia_20",
+    "agree": "The United Nations can mediate conflicts before any military action.",
+    "disagree": "The United Nations need not mediate a conflict before military action.",
+    "note": "If you prefer that the country not depend on the United Nations, to defend national sovereignty, think only about whether the UN should mediate conflicts."
+  },
+  {
+    "id": "intervencao_01",
+    "agree": "No country has the right to try to change another country's government.",
+    "disagree": "A country may try to change another country's government in some cases."
+  },
+  {
+    "id": "intervencao_02",
+    "agree": "The country pressures other countries when the national interest is at stake.",
+    "disagree": "The country does not pressure other countries, even when the national interest is at stake.",
+    "note": "The question ties pressuring other countries to the national interest. If you support pressure for humanitarian reasons, think only about the national interest."
+  },
+  {
+    "id": "intervencao_03",
+    "agree": "The country avoids military alliances that could draw it into conflicts abroad.",
+    "disagree": "The country joins military alliances, even if they could draw it into conflicts abroad."
+  },
+  {
+    "id": "intervencao_04",
+    "agree": "Foreign policy prioritizes the country's influence over its neighbors.",
+    "disagree": "Foreign policy does not make influence over neighbors a priority."
+  },
+  {
+    "id": "intervencao_05",
+    "agree": "The country does not send soldiers abroad, not even on peacekeeping missions.",
+    "disagree": "The country may send soldiers abroad, for example on peacekeeping missions.",
+    "note": "The question includes peacekeeping. If you accept only peacekeeping under an international mandate, but no other action abroad, Neutral may fit."
+  },
+  {
+    "id": "intervencao_06",
+    "agree": "The country exerts diplomatic pressure to defend its interests abroad.",
+    "disagree": "The country does not use diplomatic pressure to defend its interests abroad."
+  },
+  {
+    "id": "intervencao_07",
+    "agree": "Even facing a genocide in a neighboring country, the country does not intervene militarily.",
+    "disagree": "Facing a genocide in a neighboring country, the country may intervene militarily.",
+    "note": "The question measures whether the country should use force beyond its borders, not how grave a genocide is."
+  },
+  {
+    "id": "intervencao_08",
+    "agree": "The country imposes sanctions when its interests are threatened.",
+    "disagree": "The country does not impose sanctions, even when its interests are threatened.",
+    "note": "The question ties sanctions to the country's own interests, not to humanitarian reasons."
+  },
+  {
+    "id": "intervencao_09",
+    "agree": "Conflicts between countries are resolved by international organizations, not by great powers.",
+    "disagree": "Great powers may resolve conflicts between countries without going through international organizations.",
+    "note": "The question compares international organizations with great powers. If you reject both and prefer each country to settle things on its own, Neutral may fit."
+  },
+  {
+    "id": "intervencao_10",
+    "agree": "The country exercises political leadership over its region.",
+    "disagree": "The country does not seek political leadership over its region."
+  },
+  {
+    "id": "intervencao_11",
+    "agree": "The country avoids blocs that require automatic alignment with other powers.",
+    "disagree": "The country joins blocs, even if that requires alignment with other powers."
+  },
+  {
+    "id": "intervencao_12",
+    "agree": "The country influences neighboring governments when that increases its security.",
+    "disagree": "The country does not influence neighboring governments, even to increase its security."
+  },
+  {
+    "id": "intervencao_13",
+    "agree": "Each nation solves its own problems without outside interference.",
+    "disagree": "Other countries may step in to help solve a nation's problems."
+  },
+  {
+    "id": "intervencao_14",
+    "agree": "The country is willing to use military force to protect its interests in its region.",
+    "disagree": "The country does not use military force to protect its interests in its region."
+  },
+  {
+    "id": "intervencao_15",
+    "agree": "The country does not impose sanctions on countries whose governments it disapproves of.",
+    "disagree": "The country may impose sanctions on countries whose governments it disapproves of."
+  },
+  {
+    "id": "intervencao_16",
+    "agree": "No international treaty counts for more than the national interest.",
+    "disagree": "An international treaty may count for more than the national interest."
+  },
+  {
+    "id": "intervencao_17",
+    "agree": "The country stays neutral in wars, even under pressure from allies.",
+    "disagree": "The country takes sides in wars when its allies ask."
+  },
+  {
+    "id": "intervencao_18",
+    "agree": "Defending national interests guides the country's actions abroad.",
+    "disagree": "National interests are not what guides the country's actions abroad."
+  },
+  {
+    "id": "intervencao_19",
+    "agree": "The country does not maintain military bases in other countries.",
+    "disagree": "The country may maintain military bases in other countries."
+  },
+  {
+    "id": "intervencao_20",
+    "agree": "The country pressures neighboring governments that threaten its citizens.",
+    "disagree": "The country does not pressure neighboring governments, even if they threaten its citizens."
+  },
+  {
+    "id": "economia_01",
+    "agree": "Economic power concentrated in a few hands is redistributed through a revolution.",
+    "disagree": "Economic power is not redistributed through a revolution.",
+    "note": "The question joins redistribution and revolution. If you want to redistribute by legal means, think only about the redistribution."
+  },
+  {
+    "id": "economia_02",
+    "agree": "Public services are provided by private companies when there is competition.",
+    "disagree": "Public services remain provided by the state, even when there is competition.",
+    "note": "The question compares the state with private companies. If you favor the community or the workers themselves running the service, with neither state nor company, Neutral may fit."
+  },
+  {
+    "id": "economia_03",
+    "agree": "Strategically important companies remain under public control.",
+    "disagree": "Strategically important companies may be privately owned."
+  },
+  {
+    "id": "economia_04",
+    "agree": "Healthcare is provided mainly through private enterprise.",
+    "disagree": "Healthcare is provided mainly through the state.",
+    "note": "The question compares the state with private companies. If you favor the community or the workers themselves running the service, with neither state nor company, Neutral may fit."
+  },
+  {
+    "id": "economia_05",
+    "agree": "Large companies belong to their workers rather than to private owners.",
+    "disagree": "Large companies belong to private owners.",
+    "note": "The owner here is the worker, neither the state nor the entrepreneur. The question treats this as an alternative to traditional private ownership."
+  },
+  {
+    "id": "economia_06",
+    "agree": "Roads and prisons can be run by private companies.",
+    "disagree": "Roads and prisons are run only by the state.",
+    "note": "The question compares the state with private companies. If you favor the community or the workers themselves running the service, with neither state nor company, Neutral may fit."
+  },
+  {
+    "id": "economia_07",
+    "agree": "When the market excludes the poor, the state takes over the service directly.",
+    "disagree": "Even when the market excludes the poor, the service stays with private companies.",
+    "note": "The question compares the state with private companies. If you favor the community or the workers themselves running the service, with neither state nor company, Neutral may fit."
+  },
+  {
+    "id": "economia_08",
+    "agree": "Family inheritance is protected from policies that redistribute wealth.",
+    "disagree": "Inheritance may be subject to policies that redistribute wealth."
+  },
+  {
+    "id": "economia_09",
+    "agree": "Healthcare, education and water do not operate under the logic of profit.",
+    "disagree": "Healthcare, education and water may operate under the logic of profit."
+  },
+  {
+    "id": "economia_10",
+    "agree": "Taxes are voluntary.",
+    "disagree": "Taxes are mandatory."
+  },
+  {
+    "id": "economia_11",
+    "agree": "The state guarantees a minimum income to every citizen in need.",
+    "disagree": "The state does not guarantee a minimum income to those in need.",
+    "note": "Even those who favor a small state may agree, for example as a replacement for other programs. The question measures whether the state guarantees an income."
+  },
+  {
+    "id": "economia_12",
+    "agree": "Lifetime job security for public employees is limited or eliminated.",
+    "disagree": "Lifetime job security for public employees is kept."
+  },
+  {
+    "id": "economia_13",
+    "agree": "The state limits the power of large private companies.",
+    "disagree": "The state does not limit the power of large private companies.",
+    "note": "If you want to limit large companies by removing the privileges the state gives them, rather than by creating rules, think only about whether the state should limit their power."
+  },
+  {
+    "id": "economia_14",
+    "agree": "Cash assistance programs have a maximum duration.",
+    "disagree": "Cash assistance programs have no maximum duration."
+  },
+  {
+    "id": "economia_15",
+    "agree": "Large rural estates are redistributed through land reform.",
+    "disagree": "Large rural estates are not redistributed through land reform."
+  },
+  {
+    "id": "economia_16",
+    "agree": "Workers negotiate wages directly with employers, without unions.",
+    "disagree": "Unions negotiate wages on behalf of workers."
+  },
+  {
+    "id": "economia_17",
+    "agree": "Public banks continue to finance the country's development.",
+    "disagree": "Financing development is left to private banks."
+  },
+  {
+    "id": "economia_18",
+    "agree": "Private property is respected, even when it generates great inequality.",
+    "disagree": "Private property may be limited when it generates great inequality."
+  },
+  {
+    "id": "economia_19",
+    "agree": "State-owned companies stay publicly owned, even if they could be sold at market value.",
+    "disagree": "State-owned companies may be sold at market value."
+  },
+  {
+    "id": "economia_20",
+    "agree": "The management of public services prioritizes private companies.",
+    "disagree": "The management of public services prioritizes the state.",
+    "note": "The question compares the state with private companies. If you favor the community or the workers themselves running the service, with neither state nor company, Neutral may fit."
+  },
+  {
+    "id": "controle_01",
+    "agree": "The government plans strategic sectors such as energy, housing and industry.",
+    "disagree": "The market organizes sectors such as energy, housing and industry, without government planning.",
+    "note": "The question compares government planning with the market. If you reject both, for example by favoring voluntary coordination without a state and without a market, Neutral may fit."
+  },
+  {
+    "id": "controle_02",
+    "agree": "Prices and wages are set by the market without government intervention.",
+    "disagree": "The government may intervene in setting prices and wages.",
+    "note": "The question compares the market with government decision. If you reject both, for example by favoring voluntary coordination without a state and without a market, Neutral may describe you best."
+  },
+  {
+    "id": "controle_03",
+    "agree": "The central bank obeys the elected government.",
+    "disagree": "The central bank acts with total independence from the government.",
+    "note": "The question measures whether the elected government commands the central bank. If you would rather abolish the central bank, think only about who commands it while it exists."
+  },
+  {
+    "id": "controle_04",
+    "agree": "Companies set the terms of employment with minimal government interference.",
+    "disagree": "The government sets rules for employment relations.",
+    "note": "The question compares government planning with the market. If you reject both, for example by favoring voluntary coordination without a state and without a market, Neutral may fit."
+  },
+  {
+    "id": "controle_05",
+    "agree": "The wealthiest people pay more taxes to fund public programs.",
+    "disagree": "The wealthiest people do not pay proportionally more taxes."
+  },
+  {
+    "id": "controle_06",
+    "agree": "Taxes are reduced to encourage economic growth.",
+    "disagree": "Taxes are kept or raised, even if growth is lower."
+  },
+  {
+    "id": "controle_07",
+    "agree": "The state subsidizes strategically important domestic industries.",
+    "disagree": "The state does not subsidize industries, strategic or not."
+  },
+  {
+    "id": "controle_08",
+    "agree": "Preserving jobs takes priority over minimum-wage increases.",
+    "disagree": "Minimum-wage increases take priority over preserving jobs."
+  },
+  {
+    "id": "controle_09",
+    "agree": "In serious crises, the government can freeze rents.",
+    "disagree": "The government does not freeze rents, not even in serious crises."
+  },
+  {
+    "id": "controle_10",
+    "agree": "The government does not freeze prices, even during periods of high inflation.",
+    "disagree": "The government may freeze prices during periods of high inflation."
+  },
+  {
+    "id": "controle_11",
+    "agree": "The government selects and supports leading domestic companies in strategic sectors.",
+    "disagree": "The government does not pick companies to support."
+  },
+  {
+    "id": "controle_12",
+    "agree": "Cryptocurrencies like Bitcoin compete freely with government money.",
+    "disagree": "Government money is the only recognized currency.",
+    "note": "The question measures whether the government should hold a monopoly on money, not whether you think cryptocurrencies have value."
+  },
+  {
+    "id": "controle_13",
+    "agree": "The economy is planned by the state.",
+    "disagree": "The economy runs as a free market.",
+    "note": "The question compares the market with government decision. If you reject both, for example by favoring voluntary coordination without a state and without a market, Neutral may describe you best."
+  },
+  {
+    "id": "controle_14",
+    "agree": "The state avoids creating new regulations on economic activity.",
+    "disagree": "The state may create new regulations on economic activity."
+  },
+  {
+    "id": "controle_15",
+    "agree": "In a recession, the government spends more to stimulate the economy, even if debt rises.",
+    "disagree": "In a recession, the government avoids spending more, to keep debt from rising."
+  },
+  {
+    "id": "controle_16",
+    "agree": "The central bank sets interest rates without needing government approval.",
+    "disagree": "The government takes part in or has the final say on interest rates.",
+    "note": "The question compares two models of central bank: independent or subordinate to the government. If what matters to you is that the government does not decide interest rates, agreeing describes that position better than disagreeing. If you want to abolish the central bank, Neutral may fit."
+  },
+  {
+    "id": "controle_17",
+    "agree": "The government controls the exchange rate to protect the national economy.",
+    "disagree": "The market sets the exchange rate, without government control."
+  },
+  {
+    "id": "controle_18",
+    "agree": "The central bank is abolished, leaving money and interest rates to the market.",
+    "disagree": "The central bank continues to exist.",
+    "note": "Disagreeing here means accepting that a central bank exists. It does not by itself mean wanting the government to control interest rates."
+  },
+  {
+    "id": "controle_19",
+    "agree": "A legal minimum wage is set by law.",
+    "disagree": "Wages are negotiated freely, with no legal minimum."
+  },
+  {
+    "id": "controle_20",
+    "agree": "People can send their money abroad without asking the government for permission.",
+    "disagree": "The government may require permission for money to leave the country."
+  },
+  {
+    "id": "comercio_01",
+    "agree": "Domestic industry is protected with tariffs whenever necessary.",
+    "disagree": "Domestic industry is not protected with tariffs."
+  },
+  {
+    "id": "comercio_02",
+    "agree": "Tariffs are cut to almost zero, even if some domestic industries fail.",
+    "disagree": "Tariffs are kept to prevent domestic industries from failing."
+  },
+  {
+    "id": "comercio_03",
+    "agree": "Imports are limited to protect industrial jobs, even if prices rise.",
+    "disagree": "Imports are not limited, even if some industrial jobs are lost."
+  },
+  {
+    "id": "comercio_04",
+    "agree": "The country pursues free trade agreements with other countries.",
+    "disagree": "The country does not pursue free trade agreements.",
+    "note": "The question measures how open trade between countries is. If you favor international cooperation but oppose the global free market, think only about trade openness."
+  },
+  {
+    "id": "comercio_05",
+    "agree": "The country produces domestically everything it consumes, even paying much more for it.",
+    "disagree": "The country buys abroad what is cheaper than producing at home."
+  },
+  {
+    "id": "comercio_06",
+    "agree": "Foreign products face few economic restrictions when entering the country.",
+    "disagree": "Foreign products face economic restrictions when entering the country."
+  },
+  {
+    "id": "comercio_07",
+    "agree": "The government limits imports that threaten local industry and jobs.",
+    "disagree": "The government does not limit imports, even if they threaten local industry and jobs."
+  },
+  {
+    "id": "comercio_08",
+    "agree": "There is a single global market without economic borders.",
+    "disagree": "Economic borders between countries continue to exist.",
+    "note": "The question measures economic integration between countries, not immigration. The question measures how open trade between countries is. If you favor international cooperation but oppose the global free market, think only about trade openness."
+  },
+  {
+    "id": "comercio_09",
+    "agree": "Foreign companies are banned from buying the country's strategically important companies.",
+    "disagree": "Foreign companies may buy the country's strategically important companies."
+  },
+  {
+    "id": "comercio_10",
+    "agree": "The country deepens trade ties with other countries.",
+    "disagree": "The country does not deepen trade ties with other countries."
+  },
+  {
+    "id": "comercio_11",
+    "agree": "Domestic food production takes priority over cheap imports.",
+    "disagree": "Cheap food imports take priority over domestic production."
+  },
+  {
+    "id": "comercio_12",
+    "agree": "The country makes it easier for foreign investors to invest.",
+    "disagree": "The country does not make it easier for foreign investors to invest.",
+    "note": "The question measures how open trade between countries is. If you favor international cooperation but oppose the global free market, think only about trade openness."
+  },
+  {
+    "id": "comercio_13",
+    "agree": "Purchases by governments and state-owned companies give priority to domestic companies.",
+    "disagree": "Purchases by governments and state-owned companies do not give priority to domestic companies."
+  },
+  {
+    "id": "comercio_14",
+    "agree": "Trade with other countries is expanded, even if it increases economic dependence.",
+    "disagree": "Trade with other countries is not expanded if it increases economic dependence."
+  },
+  {
+    "id": "comercio_15",
+    "agree": "Cheap imported electric cars pay tariffs to protect local factories.",
+    "disagree": "Cheap imported electric cars do not pay extra tariffs.",
+    "note": "The question measures whether tariffs should protect local industry, not what you think of any specific country."
+  },
+  {
+    "id": "comercio_16",
+    "agree": "Import tariffs are reduced, even if that lowers government revenue.",
+    "disagree": "Import tariffs are kept to preserve government revenue."
+  },
+  {
+    "id": "comercio_17",
+    "agree": "Strategic supply chains, such as medicines and chips, are protected from foreign competition.",
+    "disagree": "Strategic supply chains, such as medicines and chips, face foreign competition."
+  },
+  {
+    "id": "comercio_18",
+    "agree": "Multinationals can operate in the country, even if they outcompete local firms.",
+    "disagree": "Multinationals face restrictions to operate in the country, to protect local firms.",
+    "note": "The question measures how open trade between countries is. If you favor international cooperation but oppose the global free market, think only about trade openness."
+  },
+  {
+    "id": "comercio_19",
+    "agree": "Economic sovereignty matters more than low supermarket prices.",
+    "disagree": "Low supermarket prices matter more than economic sovereignty."
+  },
+  {
+    "id": "comercio_20",
+    "agree": "Global economic integration is deepened through more trade.",
+    "disagree": "Global economic integration is not deepened.",
+    "note": "The question measures how open trade between countries is. If you favor international cooperation but oppose the global free market, think only about trade openness."
+  },
+  {
+    "id": "religiao_01",
+    "agree": "Religion is a personal matter and does not influence public policy.",
+    "disagree": "Religion may influence public policy.",
+    "note": "The question measures the role of religion in public policy, not whether you have faith."
+  },
+  {
+    "id": "religiao_02",
+    "agree": "Faith guides my moral and political choices.",
+    "disagree": "Faith does not guide my moral and political choices."
+  },
+  {
+    "id": "religiao_03",
+    "agree": "Laws are neutral and do not follow the values of any religion.",
+    "disagree": "Laws may follow religious values.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_04",
+    "agree": "The country's laws reflect the values of the majority religion.",
+    "disagree": "The country's laws do not reflect the values of the majority religion.",
+    "note": "Even someone without faith may agree, if they see religion as part of the country's tradition and identity."
+  },
+  {
+    "id": "religiao_05",
+    "agree": "Churches and temples pay taxes like any other organization.",
+    "disagree": "Churches and temples get different tax treatment from other organizations.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_06",
+    "agree": "Religious practice is encouraged in community life.",
+    "disagree": "Religious practice is not something to be encouraged in community life.",
+    "note": "Even someone without faith may agree, if they see religion as part of the country's tradition and identity."
+  },
+  {
+    "id": "religiao_07",
+    "agree": "Public buildings, such as schools and courts, do not display religious symbols.",
+    "disagree": "Public buildings may display religious symbols.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_08",
+    "agree": "The state officially adopts a religious identity.",
+    "disagree": "The state does not officially adopt any religious identity.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_09",
+    "agree": "Political decisions are not based on religious beliefs.",
+    "disagree": "Political decisions may be based on religious beliefs.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_10",
+    "agree": "Religious traditions are passed on to future generations.",
+    "disagree": "Religious traditions need not be passed on to future generations.",
+    "note": "Even someone without faith may agree, if they see religion as part of the country's tradition and identity."
+  },
+  {
+    "id": "religiao_11",
+    "agree": "A society without religion is better than a religious one.",
+    "disagree": "A religious society is better than a society without religion.",
+    "note": "The question measures which kind of society you prefer, not your personal belief."
+  },
+  {
+    "id": "religiao_12",
+    "agree": "Society gives more room to religious faith.",
+    "disagree": "Society need not give more room to religious faith.",
+    "note": "Even someone without faith may agree, if they see religion as part of the country's tradition and identity."
+  },
+  {
+    "id": "religiao_13",
+    "agree": "Religious holidays are not national public holidays.",
+    "disagree": "Religious holidays may be national public holidays.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_14",
+    "agree": "Marriage is recognized as a religious institution.",
+    "disagree": "Marriage is not recognized as a religious institution.",
+    "note": "If you want the state out of marriage, leaving it to religions or private contracts, you may agree."
+  },
+  {
+    "id": "religiao_15",
+    "agree": "The word \"God\" does not appear in the constitution.",
+    "disagree": "The word \"God\" may appear in the constitution.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_16",
+    "agree": "I prefer to seek the meaning of my life in religious faith.",
+    "disagree": "I prefer to seek the meaning of my life outside religious faith.",
+    "note": "This is a personal question: it measures how much faith is your source of meaning."
+  },
+  {
+    "id": "religiao_17",
+    "agree": "Religion is not part of young children's education.",
+    "disagree": "Religion may be part of young children's education.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_18",
+    "agree": "When a law conflicts with my religious faith, I follow my faith.",
+    "disagree": "When a law conflicts with my religious faith, I follow the law."
+  },
+  {
+    "id": "religiao_19",
+    "agree": "Public morality is grounded in principles that do not depend on belief in God.",
+    "disagree": "Public morality may be grounded in belief in God.",
+    "note": "The question is about the role of the state, not about your personal faith: a religious person who favors a neutral state may agree."
+  },
+  {
+    "id": "religiao_20",
+    "agree": "The state protects religious faith as part of the national identity.",
+    "disagree": "The state does not protect religious faith as part of the national identity.",
+    "note": "Even someone without faith may agree, if they see religion as part of the country's tradition and identity."
+  },
+  {
+    "id": "moral_01",
+    "agree": "Same-sex couples have the same right to adopt children as other couples.",
+    "disagree": "Same-sex couples do not have the same right to adopt as other couples."
+  },
+  {
+    "id": "moral_02",
+    "agree": "The traditional family serves as a model for society.",
+    "disagree": "The traditional family is not the one model for society."
+  },
+  {
+    "id": "moral_03",
+    "agree": "The gender identity declared by each person is respected.",
+    "disagree": "The declared gender identity is not the only criterion to be respected."
+  },
+  {
+    "id": "moral_04",
+    "agree": "I prefer gradual cultural change to rapid cultural change.",
+    "disagree": "Rapid cultural change is acceptable or desirable.",
+    "note": "The question measures the pace of change, not its direction."
+  },
+  {
+    "id": "moral_05",
+    "agree": "There are race-based quotas in university admissions.",
+    "disagree": "There are no race-based quotas in university admissions.",
+    "note": "The question is about quotas based on race. If you support quotas by income only, think only about the racial criterion."
+  },
+  {
+    "id": "moral_06",
+    "agree": "Marriage is recognized only between a man and a woman.",
+    "disagree": "Marriage is recognized between people of the same sex as well.",
+    "note": "The question is about what the state recognizes. If you want the state to recognize no marriage at all, think only about official recognition."
+  },
+  {
+    "id": "moral_07",
+    "agree": "LGBT couples show affection in public like any other couple.",
+    "disagree": "LGBT couples have less freedom to show affection in public."
+  },
+  {
+    "id": "moral_08",
+    "agree": "I oppose race-based quotas for public-service jobs.",
+    "disagree": "I support race-based quotas for public-service jobs.",
+    "note": "The question is about quotas based on race. If you support quotas by income only, think only about the racial criterion."
+  },
+  {
+    "id": "moral_09",
+    "agree": "Abortion early in pregnancy is morally acceptable.",
+    "disagree": "Abortion early in pregnancy is not morally acceptable.",
+    "note": "The question measures what you consider morally right, not what the law should allow."
+  },
+  {
+    "id": "moral_10",
+    "agree": "Abortion is morally wrong.",
+    "disagree": "Abortion is not morally wrong.",
+    "note": "The question measures what you consider morally right, not what the law should allow."
+  },
+  {
+    "id": "moral_11",
+    "agree": "Teenagers receive education about gender identity.",
+    "disagree": "Teenagers do not receive education about gender identity."
+  },
+  {
+    "id": "moral_12",
+    "agree": "Children's sex education follows the family's values, not the school's.",
+    "disagree": "Children's sex education follows what the school teaches.",
+    "note": "The question measures who has the final word: the family or the school."
+  },
+  {
+    "id": "moral_13",
+    "agree": "Sex work is recognized as legitimate work.",
+    "disagree": "Sex work is not recognized as legitimate work.",
+    "note": "The question measures recognition as work, not moral approval of the activity."
+  },
+  {
+    "id": "moral_14",
+    "agree": "Gender-neutral language is not adopted by society.",
+    "disagree": "Gender-neutral language may be adopted by society.",
+    "note": "The question is about society adopting gender-neutral language, not about the state requiring it. If you think everyone should speak as they wish, Neutral may fit."
+  },
+  {
+    "id": "moral_15",
+    "agree": "We reduce meat consumption out of respect for animals.",
+    "disagree": "We do not reduce meat consumption out of respect for animals.",
+    "note": "The question is about respect for animals as the reason. Health or environmental reasons do not count here."
+  },
+  {
+    "id": "moral_16",
+    "agree": "Using pornography is morally wrong.",
+    "disagree": "Using pornography is not morally wrong.",
+    "note": "The question measures what you consider morally right, not whether it should be banned by law."
+  },
+  {
+    "id": "moral_17",
+    "agree": "Open relationships and polyamory are as respected as marriage.",
+    "disagree": "Open relationships and polyamory are not as respected as marriage."
+  },
+  {
+    "id": "moral_18",
+    "agree": "Caring for the family is the main priority in a woman's life.",
+    "disagree": "Caring for the family is not, by itself, the main priority in a woman's life.",
+    "note": "The question measures whether caring for the family is a woman's priority, not whether family matters."
+  },
+  {
+    "id": "moral_19",
+    "agree": "Nudity in films, art and on beaches is not considered offensive.",
+    "disagree": "Nudity in films, art and on beaches may be considered offensive."
+  },
+  {
+    "id": "moral_20",
+    "agree": "Parents are the final authority in their children's moral education.",
+    "disagree": "Parents are not the only authority in their children's moral education.",
+    "note": "The question measures who has the final word: parents, or also schools and the state."
+  },
+  {
+    "id": "tecnologia_01",
+    "agree": "Society prioritizes technological innovation and industrialization.",
+    "disagree": "Society does not prioritize technological innovation and industrialization."
+  },
+  {
+    "id": "tecnologia_02",
+    "agree": "I prefer a simple, natural way of life to a life full of technology.",
+    "disagree": "I prefer a life full of technology to a simple, natural way of life."
+  },
+  {
+    "id": "tecnologia_03",
+    "agree": "The use of AI and automation is expanded, even if it eliminates many professions.",
+    "disagree": "The use of AI and automation is limited to protect professions."
+  },
+  {
+    "id": "tecnologia_04",
+    "agree": "Technologies that alter the human body, mind or reproduction are restricted.",
+    "disagree": "Technologies that alter the human body, mind or reproduction are not restricted."
+  },
+  {
+    "id": "tecnologia_05",
+    "agree": "Genetically modified crops continue to be developed.",
+    "disagree": "Genetically modified crops do not continue to be developed."
+  },
+  {
+    "id": "tecnologia_06",
+    "agree": "Pesticide use is reduced, even if that lowers agricultural productivity.",
+    "disagree": "Pesticide use is kept to preserve agricultural productivity.",
+    "note": "The question measures whether pesticide use should fall. If you believe the market should decide, with no state rule, Neutral may fit."
+  },
+  {
+    "id": "tecnologia_07",
+    "agree": "Mining is allowed in protected forests, even with some environmental impact.",
+    "disagree": "Mining in protected forests is not allowed because of the environmental impact."
+  },
+  {
+    "id": "tecnologia_08",
+    "agree": "I prefer preserved nature to accelerated industrial growth.",
+    "disagree": "I prefer accelerated industrial growth to preserved nature."
+  },
+  {
+    "id": "tecnologia_09",
+    "agree": "Human gene editing is permitted to prevent disease.",
+    "disagree": "Human gene editing is not permitted, even to prevent disease."
+  },
+  {
+    "id": "tecnologia_10",
+    "agree": "Reducing the use of natural resources takes priority in the fight against global warming.",
+    "disagree": "Reducing the use of natural resources is not the priority in the fight against global warming.",
+    "note": "The question is about how to tackle global warming, not whether it exists. If you reject that premise, Neutral may fit."
+  },
+  {
+    "id": "tecnologia_11",
+    "agree": "Humanity invests in exploring other planets.",
+    "disagree": "Humanity does not invest in exploring other planets."
+  },
+  {
+    "id": "tecnologia_12",
+    "agree": "Mining in protected forests is banned, even with low-impact technology.",
+    "disagree": "Mining in protected forests may be allowed with low-impact technology."
+  },
+  {
+    "id": "tecnologia_13",
+    "agree": "I prefer life in big cities to life in the countryside.",
+    "disagree": "I prefer life in the countryside to life in big cities."
+  },
+  {
+    "id": "tecnologia_14",
+    "agree": "Gene editing of embryos to increase intelligence is prohibited.",
+    "disagree": "Gene editing of embryos to increase intelligence is permitted."
+  },
+  {
+    "id": "tecnologia_15",
+    "agree": "Brain implants to enhance the mental abilities of healthy people are allowed.",
+    "disagree": "Brain implants to enhance the mental abilities of healthy people are not allowed."
+  },
+  {
+    "id": "tecnologia_16",
+    "agree": "Spending on space exploration takes lower priority than environmental protection on Earth.",
+    "disagree": "Spending on space exploration has equal or higher priority than environmental protection."
+  },
+  {
+    "id": "tecnologia_17",
+    "agree": "Lab-grown meat replaces some livestock farming.",
+    "disagree": "Lab-grown meat does not replace livestock farming."
+  },
+  {
+    "id": "tecnologia_18",
+    "agree": "I prefer a simple life in the countryside to life in big cities.",
+    "disagree": "I prefer life in big cities to a simple life in the countryside."
+  },
+  {
+    "id": "tecnologia_19",
+    "agree": "In tackling global warming, I prioritize technological solutions over reducing consumption.",
+    "disagree": "In tackling global warming, I prioritize reducing consumption over technological solutions.",
+    "note": "The question is about how to tackle global warming, not whether it exists. If you reject that premise, Neutral may fit."
+  },
+  {
+    "id": "tecnologia_20",
+    "agree": "I oppose artificial implants to enhance the physical abilities of healthy people.",
+    "disagree": "I support artificial implants to enhance the physical abilities of healthy people."
+  }
+]

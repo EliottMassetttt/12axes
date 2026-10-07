@@ -26,6 +26,13 @@ export interface QuestionTerm {
   definition: string;
 }
 
+/** O que significa concordar e discordar; `note` avisa quem pensa fora do enquadramento da pergunta. */
+export interface QuestionHelp {
+  agree: string;
+  disagree: string;
+  note?: string | null;
+}
+
 export interface Question {
   id: string;
   axisId: string;
@@ -33,6 +40,7 @@ export interface Question {
   agreePole: Pole;
   weight: number;
   terms?: QuestionTerm[];
+  help?: QuestionHelp | null;
 }
 
 export interface AnswerOption {

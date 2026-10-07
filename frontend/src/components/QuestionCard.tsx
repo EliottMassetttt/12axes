@@ -1,6 +1,6 @@
 import { useState, type CSSProperties } from 'react';
 import { t } from '../i18n';
-import type { AnswerOption, AnswerValue, Axis, Question } from '../types/quiz';
+import type { AnswerOption, AnswerValue, Axis, Question, QuestionHelp } from '../types/quiz';
 import { PoleIcon } from './AxisIcon';
 import { GlossaryText } from './GlossaryText';
 import { InfoButton, InfoSheet } from './results/InfoSheet';
@@ -44,7 +44,7 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
               </i>
               <span>{question.agreePole === 'LEFT' ? axis.leftPole : axis.rightPole}</span>
             </p>
-            <InfoButton label={t.axisInfoAria(axis.label)} onClick={() => setIsAxisInfoOpen(true)} />
+            <InfoButton label={question.help ? t.questionHelpAria : t.axisInfoAria(axis.label)} onClick={() => setIsAxisInfoOpen(true)} />
           </div>
         ) : (
           <p className="question-axis">{axisLabel ?? question.axisId.replace('-', ' ')}</p>
@@ -84,21 +84,59 @@ export function QuestionCard({ question, axisLabel, axis, number, options, selec
       {axis && isAxisInfoOpen && (
         <InfoSheet
           titleId="quiz-axis-sheet-title"
+          className={question.help ? 'e-question-sheet' : undefined}
           style={{ '--ac': agreeColor } as CSSProperties}
           onClose={() => setIsAxisInfoOpen(false)}
         >
-          <p className="e-axis-sheet-label">{axis.label}</p>
-          <h3 id="quiz-axis-sheet-title">
-            {question.agreePole === 'LEFT' ? (
-              <><span>{axis.leftPole}</span> × {axis.rightPole}</>
-            ) : (
-              <>{axis.leftPole} × <span>{axis.rightPole}</span></>
-            )}
-          </h3>
-          <p className="e-axis-sheet-text">{t.axisExplanations[axis.id]}</p>
+          {question.help ? (
+            <QuestionHelpContent help={question.help} />
+          ) : (
+            <>
+              <p className="e-axis-sheet-label">{axis.label}</p>
+              <h3 id="quiz-axis-sheet-title">
+                {question.agreePole === 'LEFT' ? (
+                  <><span>{axis.leftPole}</span> × {axis.rightPole}</>
+                ) : (
+                  <>{axis.leftPole} × <span>{axis.rightPole}</span></>
+                )}
+              </h3>
+              <p className="e-axis-sheet-text">{t.axisExplanations[axis.id]}</p>
+            </>
+          )}
         </InfoSheet>
       )}
     </article>
+  );
+}
+
+// O que concordar e discordar significam; a nota avisa quem pensa fora do enquadramento da pergunta.
+function QuestionHelpContent({ help }: { help: QuestionHelp }) {
+  const sides = [
+    { key: 'agree', label: t.questionHelpAgree, text: help.agree },
+    { key: 'disagree', label: t.questionHelpDisagree, text: help.disagree }
+  ];
+  return (
+    <>
+      <h3 id="quiz-axis-sheet-title">{t.questionHelpTitle}</h3>
+      <div className="e-question-sides">
+        {sides.map((side) => (
+          <section key={side.key} className={`e-question-side is-${side.key}`}>
+            <h4>
+              <i aria-hidden="true">
+                <svg viewBox="0 0 24 24">
+                  <path d={side.key === 'agree' ? 'm6 12 4 4 8-8' : 'm7 7 10 10M17 7 7 17'} />
+                </svg>
+              </i>
+              {side.label}
+            </h4>
+            <p>{side.text}</p>
+          </section>
+        ))}
+      </div>
+      {help.note && (
+        <p className="e-question-note"><strong>{t.questionHelpNote}:</strong> {help.note}</p>
+      )}
+    </>
   );
 }
 

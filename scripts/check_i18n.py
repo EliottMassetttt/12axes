@@ -64,6 +64,28 @@ for locale_dir in sorted((ROOT / "i18n").iterdir()):
         match = overlay[term_id].get("match")
         if not isinstance(match, list) or any(not isinstance(m, str) or not m.strip() for m in match):
             errors.append(f"{locale_dir.name}/glossary: {term_id} has invalid match")
+# Explicação de cada pergunta (o que concordar e discordar significam): toda pergunta precisa
+# de entrada na fonte e em cada idioma; note é opcional.
+question_ids = set(read_items(ROOT / "questions-pool.json"))
+help_sources = [("question-help", ROOT / "question-help.json")] + [
+    (f"{d.name}/question-help", d / "question-help.json")
+    for d in sorted((ROOT / "i18n").iterdir()) if d.is_dir()
+]
+for label, path in help_sources:
+    if not path.exists():
+        errors.append(f"{label}: file missing")
+        continue
+    entries = read_items(path)
+    for qid in sorted(question_ids - entries.keys()):
+        errors.append(f"{label}: missing {qid}")
+    for qid in sorted(entries.keys() - question_ids):
+        errors.append(f"{label}: unknown {qid}")
+    for qid, entry in entries.items():
+        for field in ("agree", "disagree"):
+            if not isinstance(entry.get(field), str) or not entry[field].strip():
+                errors.append(f"{label}: {qid} missing {field}")
+        if "note" in entry and (not isinstance(entry["note"], str) or not entry["note"].strip()):
+            errors.append(f"{label}: {qid} has an empty note")
 for term_id, entry in glossary.items():
     if not entry.get("match"):
         errors.append(f"glossary: {term_id} has no match in the source language")

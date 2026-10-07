@@ -15,6 +15,7 @@ import com.twelveaxes.model.IdeologyProfile;
 import com.twelveaxes.model.Personality;
 import com.twelveaxes.model.PersonalityProfile;
 import com.twelveaxes.model.Question;
+import com.twelveaxes.model.QuestionHelpEntry;
 import com.twelveaxes.model.QuizPayload;
 import jakarta.annotation.PostConstruct;
 import java.io.IOException;
@@ -84,10 +85,14 @@ public class QuizDataService {
     @PostConstruct
     void loadData() throws IOException {
         List<Axis> axes = readJson("data/axes.json", new TypeReference<>() {});
-        List<Question> questions = GlossaryResolver.attach(
-                readJson("data/questions-pool.json", new TypeReference<>() {}),
-                readJson("data/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
-                "glossary.json"
+        List<Question> questions = QuestionHelpResolver.attach(
+                GlossaryResolver.attach(
+                        readJson("data/questions-pool.json", new TypeReference<>() {}),
+                        readJson("data/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
+                        "glossary.json"
+                ),
+                readOptionalJson("data/question-help.json", new TypeReference<List<QuestionHelpEntry>>() {}),
+                "question-help.json"
         );
         List<Ideology> ideologies = readJson("data/ideologies.json", new TypeReference<>() {});
         List<Country> countries = readJson("data/countries.json", new TypeReference<>() {});
@@ -163,10 +168,15 @@ public class QuizDataService {
             return question.withText(tr.get("text"));
         }).toList();
         // Os termos são procurados no texto traduzido; sem overlay EN do glossário, não há tooltip.
-        List<Question> questions = GlossaryResolver.attach(
-                translatedQuestions,
-                readOptionalJson("data/i18n/en/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
-                "i18n/en/glossary.json"
+        // Idem para a explicação das perguntas: pergunta sem entrada EN fica sem ela, nunca em PT.
+        List<Question> questions = QuestionHelpResolver.attach(
+                GlossaryResolver.attach(
+                        translatedQuestions,
+                        readOptionalJson("data/i18n/en/glossary.json", new TypeReference<List<GlossaryEntry>>() {}),
+                        "i18n/en/glossary.json"
+                ),
+                readOptionalJson("data/i18n/en/question-help.json", new TypeReference<List<QuestionHelpEntry>>() {}),
+                "i18n/en/question-help.json"
         );
 
         List<Ideology> ideologies = pt.ideologies().stream().map(ideology -> {

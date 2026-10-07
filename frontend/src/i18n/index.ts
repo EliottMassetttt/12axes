@@ -109,6 +109,11 @@ interface Strings {
   formats: { short: QuizFormatStrings; extended: QuizFormatStrings; extreme: QuizFormatStrings };
   axisExplanations: Record<string, string>;
   axisInfoAria: (label: string) => string;
+  questionHelpAria: string;
+  questionHelpTitle: string;
+  questionHelpAgree: string;
+  questionHelpDisagree: string;
+  questionHelpNote: string;
   closeLabel: string;
   personalityInfoAria: (name: string) => string;
   closenessTitle: string;
@@ -415,6 +420,11 @@ const pt: Strings = {
     }
   },
   axisInfoAria: (label) => `O que significa o eixo ${label}?`,
+  questionHelpAria: 'Entender esta pergunta',
+  questionHelpTitle: 'Sobre esta pergunta',
+  questionHelpAgree: 'Se você concorda',
+  questionHelpDisagree: 'Se você discorda',
+  questionHelpNote: 'Vale lembrar',
   closeLabel: 'Fechar',
   personalityInfoAria: (name) => `Ver detalhes de ${name}`,
   closenessTitle: 'O que te aproxima',
@@ -939,6 +949,11 @@ const en: Strings = {
     }
   },
   axisInfoAria: (label) => `What does the ${label} axis mean?`,
+  questionHelpAria: 'Understand this question',
+  questionHelpTitle: 'About this question',
+  questionHelpAgree: 'If you agree',
+  questionHelpDisagree: 'If you disagree',
+  questionHelpNote: 'Worth remembering',
   closeLabel: 'Close',
   personalityInfoAria: (name) => `See details about ${name}`,
   closenessTitle: 'What brings you closer',
