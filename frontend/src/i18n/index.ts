@@ -110,6 +110,8 @@ interface Strings {
   axisExplanations: Record<string, string>;
   axisInfoAria: (label: string) => string;
   questionHelpAria: string;
+  themeToDarkAria: string;
+  themeToLightAria: string;
   questionHelpTitle: string;
   questionHelpAgree: string;
   questionHelpDisagree: string;
@@ -421,6 +423,8 @@ const pt: Strings = {
   },
   axisInfoAria: (label) => `O que significa o eixo ${label}?`,
   questionHelpAria: 'Entender esta pergunta',
+  themeToDarkAria: 'Ativar modo escuro',
+  themeToLightAria: 'Ativar modo claro',
   questionHelpTitle: 'Sobre esta pergunta',
   questionHelpAgree: 'Se você concorda',
   questionHelpDisagree: 'Se você discorda',
@@ -950,6 +954,8 @@ const en: Strings = {
   },
   axisInfoAria: (label) => `What does the ${label} axis mean?`,
   questionHelpAria: 'Understand this question',
+  themeToDarkAria: 'Switch to dark mode',
+  themeToLightAria: 'Switch to light mode',
   questionHelpTitle: 'About this question',
   questionHelpAgree: 'If you agree',
   questionHelpDisagree: 'If you disagree',

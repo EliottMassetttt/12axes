@@ -10,6 +10,8 @@ import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
 import { ArrowIcon, Logo, SiteFooter } from './components/editorial/primitives';
 import { useScrollReveal } from './hooks/useScrollReveal';
+import { useQuizTheme } from './hooks/useQuizTheme';
+import { QuizThemeToggle } from './components/QuizThemeToggle';
 import { CHRISTIAN_DENOMINATIONS, parseReligion, RELIGION_CHOICES, type Religion } from './utils/religion';
 import {
   answeredCount as savedAnsweredCount,
@@ -198,6 +200,7 @@ function MainApp() {
   const [error, setError] = useState<string | null>(null);
   const [archetypeIndex, setArchetypeIndex] = useState(0);
   const [archetypeChoices, setArchetypeChoices] = useState<Record<string, string>>({});
+  const quizTheme = useQuizTheme(screen === 'quiz' || screen === 'archetype');
   const [archetypeDone, setArchetypeDone] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   // Quiz deixado pela metade em outra visita (ou antes de um erro/recarga).
@@ -779,9 +782,17 @@ function MainApp() {
               {t.backToStart}
             </button>
           )}
-          {(screen === 'quiz' || screen === 'archetype' || screen === 'results') && (
+          {(screen === 'quiz' || screen === 'archetype') && (
+            <div className="e-nav-actions">
+              <QuizThemeToggle theme={quizTheme.theme} onToggle={quizTheme.toggle} />
+              <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
+                {t.restartQuiz} <ArrowIcon />
+              </button>
+            </div>
+          )}
+          {screen === 'results' && (
             <button className="e-btn e-btn-primary e-btn-sm" type="button" onClick={() => void startQuiz(selectedVariant)}>
-              {screen === 'results' ? t.redoQuiz : t.restartQuiz} <ArrowIcon />
+              {t.redoQuiz} <ArrowIcon />
             </button>
           )}
         </div>
